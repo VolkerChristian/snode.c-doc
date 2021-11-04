@@ -1,0 +1,48 @@
+var classweb_1_1websocket_1_1_socket_context_upgrade =
+[
+    [ "Request", "classweb_1_1websocket_1_1_socket_context_upgrade.html#aef94c4ffaed7ff27d70084760e22c49f", null ],
+    [ "Response", "classweb_1_1websocket_1_1_socket_context_upgrade.html#acb5865046529dc4bba1aa0054d1e3f4b", null ],
+    [ "SubProtocol", "classweb_1_1websocket_1_1_socket_context_upgrade.html#aa1ec1b45e99e16fc782726b34ae8fbf3", null ],
+    [ "OpCode", "classweb_1_1websocket_1_1_socket_context_upgrade.html#afe7f0b682e699a618736ddc20bb13fc2", [
+      [ "CLOSE", "classweb_1_1websocket_1_1_socket_context_upgrade.html#afe7f0b682e699a618736ddc20bb13fc2ae61c18f8c587f964f5d3bf317bad1148", null ],
+      [ "PING", "classweb_1_1websocket_1_1_socket_context_upgrade.html#afe7f0b682e699a618736ddc20bb13fc2a46231183793793f3ebde75a20606ec5f", null ],
+      [ "PONG", "classweb_1_1websocket_1_1_socket_context_upgrade.html#afe7f0b682e699a618736ddc20bb13fc2ae44f91710e53dd426a64284a0b75eb39", null ]
+    ] ],
+    [ "Role", "classweb_1_1websocket_1_1_socket_context_upgrade.html#aa97f7fa1f915b6090b7c7b3dabf8726b", [
+      [ "SERVER", "classweb_1_1websocket_1_1_socket_context_upgrade.html#aa97f7fa1f915b6090b7c7b3dabf8726ba3d27c95bfdbea691b250894d96852844", null ],
+      [ "CLIENT", "classweb_1_1websocket_1_1_socket_context_upgrade.html#aa97f7fa1f915b6090b7c7b3dabf8726baef10c650df47bffd6399e5e78da2a9b1", null ]
+    ] ],
+    [ "SocketContextUpgrade", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a9c6bcc2be53537dfa4de1eca0598139b", null ],
+    [ "SocketContextUpgrade", "classweb_1_1websocket_1_1_socket_context_upgrade.html#aa630fad44c5a7187a230ef617ec35725", null ],
+    [ "SocketContextUpgrade", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a38dfdce9ae721f940f473b9789b84b66", null ],
+    [ "~SocketContextUpgrade", "classweb_1_1websocket_1_1_socket_context_upgrade.html#abfa155107d7d17d8fe9e893d75d3b89b", null ],
+    [ "onConnected", "classweb_1_1websocket_1_1_socket_context_upgrade.html#aee68fb95bda86aa0f770497e7c640178", null ],
+    [ "onDisconnected", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a013d4dead9b8f188f5c3a641fbc64ba6", null ],
+    [ "onMessageData", "classweb_1_1websocket_1_1_socket_context_upgrade.html#ad0b0a801483bfc911e9be10dd334a7f6", null ],
+    [ "onMessageEnd", "classweb_1_1websocket_1_1_socket_context_upgrade.html#ad9aa3c21889d4b940d112a7f158b52bf", null ],
+    [ "onMessageError", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a38d15859ddd6633f0654500d5850b9ef", null ],
+    [ "onMessageStart", "classweb_1_1websocket_1_1_socket_context_upgrade.html#afe1c8020af90541d6e0d4f1039933c37", null ],
+    [ "onReadError", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a491c6c7bbea079b1c1da6be5ed4292e5", null ],
+    [ "onReceiveFromPeer", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a9da05e08b04d141e579c814b2c048d94", null ],
+    [ "onWriteError", "classweb_1_1websocket_1_1_socket_context_upgrade.html#ada14cd7dbb5cfd11a5e307990362d305", null ],
+    [ "operator=", "classweb_1_1websocket_1_1_socket_context_upgrade.html#acaf13c96daa96f9ecc0a67297fa0a834", null ],
+    [ "readFrameData", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a78e8d78f2538200e7e48c075a9f717c6", null ],
+    [ "sendClose", "classweb_1_1websocket_1_1_socket_context_upgrade.html#ae019e30887ef3efe7d859c86a7c3cecb", null ],
+    [ "sendClose", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a8cae6f4b98389b15181544b9943ecc54", null ],
+    [ "sendFrameData", "classweb_1_1websocket_1_1_socket_context_upgrade.html#ada9b774422802e9e13913689055d329a", null ],
+    [ "sendFrameData", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a3d251f5f500cfa1a14c1db8836751ee1", null ],
+    [ "sendFrameData", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a261252ea39984382488daa7db4e9a442", null ],
+    [ "sendFrameData", "classweb_1_1websocket_1_1_socket_context_upgrade.html#ae60755ef384d230c954a0f6d292d2ae9", null ],
+    [ "sendFrameData", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a87f0bb8ba7b156e75ee44f50b5f52e00", null ],
+    [ "sendMessage", "classweb_1_1websocket_1_1_socket_context_upgrade.html#ae10f1d494fa964dbd81d5b12cdfd5e0b", null ],
+    [ "sendMessageEnd", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a17e6c5462a4f336bc8735bdcb6951b23", null ],
+    [ "sendMessageFrame", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a5ce550d929102f4c1d0472217ef6efe1", null ],
+    [ "sendMessageStart", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a6f2dc809fb5ae111562bf338afcb80f4", null ],
+    [ "sendPing", "classweb_1_1websocket_1_1_socket_context_upgrade.html#ad5c12b8e68c19a8206fbdb64ded3655f", null ],
+    [ "sendPong", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a5ec72302a65fdf9cd234227438d4802d", null ],
+    [ "stop", "classweb_1_1websocket_1_1_socket_context_upgrade.html#adb50aa15ebd0812e25e4da91b51679bc", null ],
+    [ "closeSent", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a5e8b251283136c5d7af25b5f2df7d2d2", null ],
+    [ "opCodeReceived", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a31d9110e2eccc24d45f648b12306732b", null ],
+    [ "pongCloseData", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a50d9eaf2a9f40764933df4a87acb182e", null ],
+    [ "subProtocol", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a79cd867f9becf5b3a1b88f2021b9936a", null ]
+];
