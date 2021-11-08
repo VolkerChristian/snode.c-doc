@@ -15,7 +15,8 @@ var dir_427baa8a9a5be237f298d4545d0d1ce2 =
     ] ],
     [ "DynamicLoader.cpp", "_dynamic_loader_8cpp.html", null ],
     [ "DynamicLoader.h", "_dynamic_loader_8h.html", [
-      [ "DynamicLoader", "classnet_1_1_dynamic_loader.html", "classnet_1_1_dynamic_loader" ]
+      [ "DynamicLoader", "classnet_1_1_dynamic_loader.html", "classnet_1_1_dynamic_loader" ],
+      [ "Library", "structnet_1_1_dynamic_loader_1_1_library.html", "structnet_1_1_dynamic_loader_1_1_library" ]
     ] ],
     [ "EventDispatcher.cpp", "_event_dispatcher_8cpp.html", "_event_dispatcher_8cpp" ],
     [ "EventDispatcher.h", "_event_dispatcher_8h.html", [

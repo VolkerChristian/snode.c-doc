@@ -13,7 +13,7 @@ var classnet_1_1socket_1_1stream_1_1_socket_connection =
     [ "sendToPeer", "classnet_1_1socket_1_1stream_1_1_socket_connection.html#a4b368347b53c2853a0358c98810c15bd", null ],
     [ "sendToPeer", "classnet_1_1socket_1_1stream_1_1_socket_connection.html#a03b8020664749c7dbfc9578363609422", null ],
     [ "setTimeout", "classnet_1_1socket_1_1stream_1_1_socket_connection.html#a349bf62b99e408f09019434e7b8aa3c9", null ],
-    [ "switchSocketContext", "classnet_1_1socket_1_1stream_1_1_socket_connection.html#a49bd0dd83c73791519313b5e6c44a01a", null ],
+    [ "switchSocketContext", "classnet_1_1socket_1_1stream_1_1_socket_connection.html#a8fe770a7291dfdbc7eb41bdfa288a086", null ],
     [ "socketContext", "classnet_1_1socket_1_1stream_1_1_socket_connection.html#a2b5b6a55c560b345bdf9391245f6d7bd", null ],
     [ "SocketContext", "classnet_1_1socket_1_1stream_1_1_socket_connection.html#afe340317b8de90fc2a953bccee2dd217", null ]
 ];

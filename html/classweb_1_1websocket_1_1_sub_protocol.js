@@ -5,8 +5,7 @@ var classweb_1_1websocket_1_1_sub_protocol =
       [ "SERVER", "classweb_1_1websocket_1_1_sub_protocol.html#a4f627851f29882cb69ca97e69a094484a3d27c95bfdbea691b250894d96852844", null ],
       [ "CLIENT", "classweb_1_1websocket_1_1_sub_protocol.html#a4f627851f29882cb69ca97e69a094484aef10c650df47bffd6399e5e78da2a9b1", null ]
     ] ],
-    [ "SubProtocol", "classweb_1_1websocket_1_1_sub_protocol.html#ad1611ad9243c1f30d00c40cd40cf657c", null ],
-    [ "SubProtocol", "classweb_1_1websocket_1_1_sub_protocol.html#a0381918fdb6500a361bdd2da58a692f5", null ],
+    [ "SubProtocol", "classweb_1_1websocket_1_1_sub_protocol.html#a5f4f6350d3db15687c18f1a751ec63a2", null ],
     [ "SubProtocol", "classweb_1_1websocket_1_1_sub_protocol.html#ab58e224579cd3e0562c0cd230fdd0630", null ],
     [ "~SubProtocol", "classweb_1_1websocket_1_1_sub_protocol.html#ac030702c58fe6af46260f91847025609", null ],
     [ "getLocalAddressAsString", "classweb_1_1websocket_1_1_sub_protocol.html#a6d6b33dbdd4c821f6214f70d860c02fa", null ],
@@ -30,7 +29,10 @@ var classweb_1_1websocket_1_1_sub_protocol =
     [ "sendMessageStart", "classweb_1_1websocket_1_1_sub_protocol.html#a06c8957c3a7fb2db207576f8e48593f1", null ],
     [ "sendMessageStart", "classweb_1_1websocket_1_1_sub_protocol.html#a1a893e02ee91d95d093d568fe8b9d33f", null ],
     [ "sendPing", "classweb_1_1websocket_1_1_sub_protocol.html#abd3911de6e37aa4ad047a74bdae5e05d", null ],
+    [ "setName", "classweb_1_1websocket_1_1_sub_protocol.html#a295bf9a3168c24add0e566cec64ed1ce", null ],
     [ "setSocketContextUpgrade", "classweb_1_1websocket_1_1_sub_protocol.html#a137066a9d74df8dc4eccc75af75b38ff", null ],
-    [ "name", "classweb_1_1websocket_1_1_sub_protocol.html#aaeacbe92b928cad57ecd5038a466002d", null ],
-    [ "socketContextUpgrade", "classweb_1_1websocket_1_1_sub_protocol.html#a4863e98870502d1b2706625de93acec1", null ]
+    [ "SubProtocolFactory", "classweb_1_1websocket_1_1_sub_protocol.html#aefee8c0f9120074005917b3d02a4e000", null ],
+    [ "name", "classweb_1_1websocket_1_1_sub_protocol.html#a2932b08860f3c5da378210193f23a229", null ],
+    [ "socketContextUpgrade", "classweb_1_1websocket_1_1_sub_protocol.html#a4863e98870502d1b2706625de93acec1", null ],
+    [ "SocketContextUpgrade", "classweb_1_1websocket_1_1_sub_protocol.html#acb1f93a0f1855aa4fca002d5d39d098e", null ]
 ];

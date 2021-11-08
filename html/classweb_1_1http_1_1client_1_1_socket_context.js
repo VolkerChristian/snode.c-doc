@@ -10,7 +10,6 @@ var classweb_1_1http_1_1client_1_1_socket_context =
     [ "onReceiveFromPeer", "classweb_1_1http_1_1client_1_1_socket_context.html#a387a81ac9ad2bde23b85982a6b4a187f", null ],
     [ "onWriteError", "classweb_1_1http_1_1client_1_1_socket_context.html#a1b16521cd5fd0a5f4d3bf73ce3a5e4f8", null ],
     [ "sendToPeerCompleted", "classweb_1_1http_1_1client_1_1_socket_context.html#ad66284ae319823f21331775bf1057507", null ],
-    [ "stop", "classweb_1_1http_1_1client_1_1_socket_context.html#a37a6d12054e93d0d01428a546c060412", null ],
     [ "terminateConnection", "classweb_1_1http_1_1client_1_1_socket_context.html#aa749403cea6e138f3d403f4489fdb107", null ],
     [ "parser", "classweb_1_1http_1_1client_1_1_socket_context.html#a83a8ba6b41692d7dea065f86ddac26d0", null ],
     [ "request", "classweb_1_1http_1_1client_1_1_socket_context.html#aa82e1f3f3d41b612ed0e897ae0e66e63", null ],

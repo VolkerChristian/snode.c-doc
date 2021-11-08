@@ -26,7 +26,6 @@ var classweb_1_1websocket_1_1_receiver =
     [ "readPayload", "classweb_1_1websocket_1_1_receiver.html#ab89838a527ca1d6cd8fdfb5b76ed7384", null ],
     [ "receive", "classweb_1_1websocket_1_1_receiver.html#aab6e54e7b4fc03ee73a35df50bae0acd", null ],
     [ "reset", "classweb_1_1websocket_1_1_receiver.html#af964a36d8a512b34fd986907d54ae651", null ],
-    [ "stop", "classweb_1_1websocket_1_1_receiver.html#a77c66c4124da4f726edcdecd467d9db4", null ],
     [ "continuation", "classweb_1_1websocket_1_1_receiver.html#a76e36ba3f39b647d9d98097f2b3f7c47", null ],
     [ "elengthJunk", "classweb_1_1websocket_1_1_receiver.html#a35d312c05f4a2c4c5ffd7d0b0087dbf8", null ],
     [ "elengthNumBytes", "classweb_1_1websocket_1_1_receiver.html#a1469f68a8b6661f154c17a3a5e15f157", null ],
@@ -43,6 +42,5 @@ var classweb_1_1websocket_1_1_receiver =
     [ "parserState", "classweb_1_1websocket_1_1_receiver.html#a85339f1c45bc22a3b463ba09d5a8f60f", null ],
     [ "payloadJunk", "classweb_1_1websocket_1_1_receiver.html#a0e3b69bf1dd3978849c8cd660fcda1cc", null ],
     [ "payLoadNumBytes", "classweb_1_1websocket_1_1_receiver.html#af35b01abdb17550cd430cd66745363fe", null ],
-    [ "payLoadNumBytesLeft", "classweb_1_1websocket_1_1_receiver.html#af02eba03070948648f309034371f0f1e", null ],
-    [ "stopped", "classweb_1_1websocket_1_1_receiver.html#a7332b3c77a769fa75f5b1d121d1fd2a5", null ]
+    [ "payLoadNumBytesLeft", "classweb_1_1websocket_1_1_receiver.html#af02eba03070948648f309034371f0f1e", null ]
 ];

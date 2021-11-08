@@ -1,13 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"web_2http_2client_2_response_8cpp_source.html":[10,0,4,0,0,5],
-"web_2http_2client_2_response_8h.html":[10,0,4,0,0,6],
-"web_2http_2client_2_response_8h_source.html":[10,0,4,0,0,6],
-"web_2http_2client_2_socket_context_8h.html":[10,0,4,0,0,9],
-"web_2http_2client_2_socket_context_8h_source.html":[10,0,4,0,0,9],
-"web_2http_2client_2_socket_context_factory_8h.html":[10,0,4,0,0,11],
-"web_2http_2client_2_socket_context_factory_8h_source.html":[10,0,4,0,0,11],
-"web_2http_2server_2_request_8cpp.html":[10,0,4,0,1,2],
 "web_2http_2server_2_request_8cpp_source.html":[10,0,4,0,1,2],
 "web_2http_2server_2_request_8h.html":[10,0,4,0,1,3],
 "web_2http_2server_2_request_8h_source.html":[10,0,4,0,1,3],

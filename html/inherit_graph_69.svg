@@ -16,16 +16,16 @@
 <polygon fill="white" stroke="black" points="0,-0.5 0,-41.5 166,-41.5 166,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::websocket::SubProtocol</text>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">FactorySelector&lt; web::websocket</text>
-<text text-anchor="middle" x="83" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::server::SubProtocolFactory &gt;</text>
+<text text-anchor="middle" x="83" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::client::SubProtocolFactory &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
-<g id="a_node2"><a xlink:href="classweb_1_1websocket_1_1server_1_1_sub_protocol_factory_selector.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classweb_1_1websocket_1_1client_1_1_sub_protocol_factory_selector.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="202,-6 202,-36 347,-36 347,-6 202,-6"/>
-<text text-anchor="start" x="210" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">web::websocket::server</text>
+<text text-anchor="start" x="210" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">web::websocket::client</text>
 <text text-anchor="middle" x="274.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">::SubProtocolFactorySelector</text>
 </a>
 </g>

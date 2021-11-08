@@ -1,9 +1,6 @@
 var classweb_1_1websocket_1_1server_1_1_sub_protocol =
 [
-    [ "SubProtocol", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a09ff711fdd0066999bf8fb2aeb552ff8", null ],
-    [ "SubProtocol", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a84a8a4a6780b2a66e69f7f7dda4b0cff", null ],
-    [ "SubProtocol", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#ad97494c3dea7e3b87fbfb5928187ad0e", null ],
-    [ "~SubProtocol", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#aee801141f906aec646de34c82da8c58c", null ],
+    [ "SubProtocol", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#aa74d50ddb0ec92e767521db6a1ff624e", null ],
     [ "forEachClient", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#ab938b78d34fdb811bd8aa3dc295c003b", null ],
     [ "onConnected", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a572b0b3541a224cf9bf8976c191e1d45", null ],
     [ "onDisconnected", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a6bac3391ba4d39a9e66ab3f20cbd3195", null ],
@@ -12,7 +9,6 @@ var classweb_1_1websocket_1_1server_1_1_sub_protocol =
     [ "onMessageError", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a6f2984f3afe0464ee3e49cb033d7cbe2", null ],
     [ "onMessageStart", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a6bee5a66f5a0ba131d8654424dc24a0a", null ],
     [ "onPongReceived", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#ae55146b4f294f767d9db2b506a95a097", null ],
-    [ "operator=", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#ad969807e3921f269802794cebf88af27", null ],
     [ "sendBroadcast", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a3723194f1979b2550fdc9c6e03f66283", null ],
     [ "sendBroadcast", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#af4c748ceaadda9d02219424057840cc1", null ],
     [ "sendBroadcastEnd", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#abf7dab1e960bfa11a3e08b2105fca7d6", null ],

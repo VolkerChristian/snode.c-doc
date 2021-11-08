@@ -11,11 +11,9 @@ var classnet_1_1socket_1_1stream_1_1_socket_context =
     [ "onReceiveFromPeer", "classnet_1_1socket_1_1stream_1_1_socket_context.html#a97cc211a5f55034470d0bb6f736b43c3", null ],
     [ "onWriteError", "classnet_1_1socket_1_1stream_1_1_socket_context.html#a59b9b813a1589ec933878ad0838a5945", null ],
     [ "readFromPeer", "classnet_1_1socket_1_1stream_1_1_socket_context.html#a8c990de617b7257ad14f693bda1f1ff8", null ],
-    [ "receiveFromPeer", "classnet_1_1socket_1_1stream_1_1_socket_context.html#ac0d497f59257b08802af0685f83b7db0", null ],
     [ "sendToPeer", "classnet_1_1socket_1_1stream_1_1_socket_context.html#aa62f437fffcdea88263e87b6997ff85c", null ],
     [ "sendToPeer", "classnet_1_1socket_1_1stream_1_1_socket_context.html#abc90fa490b5c752df07026e36157bfb7", null ],
     [ "setTimeout", "classnet_1_1socket_1_1stream_1_1_socket_context.html#afca303a1d0f6368e7a4d2f2ddea54939", null ],
-    [ "stop", "classnet_1_1socket_1_1stream_1_1_socket_context.html#a3faab6859b4ec2ee374f47bf7b45956a", null ],
     [ "switchSocketContext", "classnet_1_1socket_1_1stream_1_1_socket_context.html#aee1c0a98c26ab9e3f95e08befdeb74f3", null ],
     [ "SocketConnectionT", "classnet_1_1socket_1_1stream_1_1_socket_context.html#a0aa8bef3fb8d04b78c8bf114c60b2039", null ],
     [ "socketConnection", "classnet_1_1socket_1_1stream_1_1_socket_context.html#a226160f5eff07fba0567b3b12351954a", null ]

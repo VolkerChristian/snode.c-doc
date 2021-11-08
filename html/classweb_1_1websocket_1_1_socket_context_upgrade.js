@@ -40,7 +40,6 @@ var classweb_1_1websocket_1_1_socket_context_upgrade =
     [ "sendMessageStart", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a6f2dc809fb5ae111562bf338afcb80f4", null ],
     [ "sendPing", "classweb_1_1websocket_1_1_socket_context_upgrade.html#ad5c12b8e68c19a8206fbdb64ded3655f", null ],
     [ "sendPong", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a5ec72302a65fdf9cd234227438d4802d", null ],
-    [ "stop", "classweb_1_1websocket_1_1_socket_context_upgrade.html#adb50aa15ebd0812e25e4da91b51679bc", null ],
     [ "closeSent", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a5e8b251283136c5d7af25b5f2df7d2d2", null ],
     [ "opCodeReceived", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a31d9110e2eccc24d45f648b12306732b", null ],
     [ "pongCloseData", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a50d9eaf2a9f40764933df4a87acb182e", null ],
