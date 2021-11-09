@@ -87,7 +87,7 @@ var NAVTREEINDEX =
 "_transmitter_8cpp_source.html",
 "classexpress_1_1middleware_1_1_static_middleware.html#a8d0bb2e3697f72a1937818e7cd3869ea",
 "classnet_1_1pipe_1_1_sink.html#a85abd77879cc73f04952899ec7d1ef8f",
-"classnet_1_1socket_1_1stream_1_1_socket_server.html#a69e6812ccb980233b4ebd0921a499dcc",
+"classnet_1_1socket_1_1stream_1_1_socket_server.html#a2095957994d15c574789184309204774",
 "classweb_1_1http_1_1_socket_context_upgrade_factory.html#a3c9cecd24f5c7e07928e56e4db1ba757",
 "classweb_1_1http_1_1server_1_1_server.html#a32297a5ca3ff8a64dcacd7c6e34938d2",
 "classweb_1_1websocket_1_1client_1_1_sub_protocol.html#ae32177a7cd11882d4ca26b6d1731a0e4",

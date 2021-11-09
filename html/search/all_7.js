@@ -28,7 +28,7 @@ var searchData=
   ['getsockaddr_263',['getSockAddr',['../classnet_1_1socket_1_1_socket_address.html#aba228b0c2404f5104a1a542b6ce3829c',1,'net::socket::SocketAddress']]],
   ['getsockaddrlen_264',['getSockAddrLen',['../classnet_1_1socket_1_1_socket_address.html#add263c25a393dccfd9a275bf54dd5339',1,'net::socket::SocketAddress']]],
   ['getsocketcontext_265',['getSocketContext',['../classnet_1_1socket_1_1stream_1_1_socket_connection.html#a635955ad750044063a648d2ac8c324a5',1,'net::socket::stream::SocketConnection']]],
-  ['getsocketcontextfactory_266',['getSocketContextFactory',['../classnet_1_1socket_1_1stream_1_1_socket_server.html#a4ba228780ae65a7f52f416800d63b25c',1,'net::socket::stream::SocketServer::getSocketContextFactory()'],['../classnet_1_1socket_1_1stream_1_1_socket_client.html#a87cc21d6b8be6f02bd38dc725db6bd16',1,'net::socket::stream::SocketClient::getSocketContextFactory()']]],
+  ['getsocketcontextfactory_266',['getSocketContextFactory',['../classnet_1_1socket_1_1stream_1_1_socket_server.html#a2095957994d15c574789184309204774',1,'net::socket::stream::SocketServer::getSocketContextFactory()'],['../classnet_1_1socket_1_1stream_1_1_socket_client.html#a578fe75dfd5b7aff081235feddaf67a4',1,'net::socket::stream::SocketClient::getSocketContextFactory()']]],
   ['getsockname_267',['getsockname',['../namespacenet_1_1system.html#ade9e44303465e5bffee34de7ed6edef3',1,'net::system']]],
   ['getsockopt_268',['getsockopt',['../namespacenet_1_1system.html#ac0e5395908fbf75be832f6b9c0786849',1,'net::system']]],
   ['getssl_269',['getSSL',['../classnet_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a44c0fad781b21d13c6fec9e5d4b77a54',1,'net::socket::stream::tls::SocketConnection']]],

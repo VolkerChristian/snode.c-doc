@@ -13,88 +13,104 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="0,-49.5 0,-79.5 101,-79.5 101,-49.5 0,-49.5"/>
-<text text-anchor="start" x="8" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::EventReceiver</text>
-<text text-anchor="middle" x="50.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::resume</text>
+<polygon fill="#bfbfbf" stroke="black" points="0,-73.5 0,-103.5 101,-103.5 101,-73.5 0,-73.5"/>
+<text text-anchor="start" x="8" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::EventReceiver</text>
+<text text-anchor="middle" x="50.5" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">::resume</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classnet_1_1_event_dispatcher.html#aaf73ad84d1839e2d02e9a02517cbfcfe" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="137,-49.5 137,-79.5 246,-79.5 246,-49.5 137,-49.5"/>
-<text text-anchor="start" x="145" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::EventDispatcher</text>
-<text text-anchor="middle" x="191.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::resume</text>
+<g id="a_node2"><a xlink:href="classnet_1_1_event_receiver.html#ac4e3a75a2849d0d8b1fc4ba2b754c8e3" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="141,-98.5 141,-128.5 242,-128.5 242,-98.5 141,-98.5"/>
+<text text-anchor="start" x="149" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::EventReceiver</text>
+<text text-anchor="middle" x="191.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::isEnabled</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M101.29,-64.5C109.49,-64.5 118.08,-64.5 126.57,-64.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="126.82,-68 136.82,-64.5 126.82,-61 126.82,-68"/>
+<path fill="none" stroke="midnightblue" d="M101.29,-97.45C110.77,-99.16 120.79,-100.96 130.55,-102.72"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="130.13,-106.2 140.59,-104.52 131.37,-99.31 130.13,-106.2"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classnet_1_1_event_receiver.html#afdfa280e579e56b9acadb54465c65528" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classnet_1_1_event_dispatcher.html#aaf73ad84d1839e2d02e9a02517cbfcfe" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="137,-49.5 137,-79.5 246,-79.5 246,-49.5 137,-49.5"/>
+<text text-anchor="start" x="145" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::EventDispatcher</text>
+<text text-anchor="middle" x="191.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::resume</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node3 -->
+<g id="edge2" class="edge">
+<title>Node1&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M101.29,-79.9C109.58,-78.47 118.27,-76.97 126.84,-75.49"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="127.57,-78.92 136.82,-73.77 126.37,-72.02 127.57,-78.92"/>
+</g>
+<!-- Node4 -->
+<g id="node4" class="node">
+<title>Node4</title>
+<g id="a_node4"><a xlink:href="classnet_1_1_event_receiver.html#afdfa280e579e56b9acadb54465c65528" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="286,-98.5 286,-128.5 387,-128.5 387,-98.5 286,-98.5"/>
 <text text-anchor="start" x="294" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::EventReceiver</text>
 <text text-anchor="middle" x="336.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::isSuspended</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge">
-<title>Node2&#45;&gt;Node3</title>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge3" class="edge">
+<title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M236.57,-79.6C250.84,-84.49 266.83,-89.97 281.73,-95.07"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="280.73,-98.43 291.33,-98.36 283,-91.81 280.73,-98.43"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node">
-<title>Node4</title>
-<g id="a_node4"><a xlink:href="classnet_1_1_event_receiver.html#a04e7ea6469a9ebc02f2065bdd4f41e0c" target="_top" xlink:title=" ">
+<!-- Node5 -->
+<g id="node5" class="node">
+<title>Node5</title>
+<g id="a_node5"><a xlink:href="classnet_1_1_event_receiver.html#a04e7ea6469a9ebc02f2065bdd4f41e0c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="286,-49.5 286,-79.5 387,-79.5 387,-49.5 286,-49.5"/>
 <text text-anchor="start" x="294" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::EventReceiver</text>
 <text text-anchor="middle" x="336.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::resumed</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node4 -->
-<g id="edge3" class="edge">
-<title>Node2&#45;&gt;Node4</title>
+<!-- Node3&#45;&gt;Node5 -->
+<g id="edge4" class="edge">
+<title>Node3&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M246.15,-64.5C255.8,-64.5 265.91,-64.5 275.72,-64.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="275.8,-68 285.8,-64.5 275.8,-61 275.8,-68"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node">
-<title>Node6</title>
-<g id="a_node6"><a xlink:href="classnet_1_1_event_dispatcher_1_1_fd_set.html#a14ec2efcdd604d1f7e9e3835fbf7c81d" target="_top" xlink:title=" ">
+<!-- Node7 -->
+<g id="node7" class="node">
+<title>Node7</title>
+<g id="a_node7"><a xlink:href="classnet_1_1_event_dispatcher_1_1_fd_set.html#a14ec2efcdd604d1f7e9e3835fbf7c81d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="282,-0.5 282,-30.5 391,-30.5 391,-0.5 282,-0.5"/>
 <text text-anchor="start" x="290" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::EventDispatcher</text>
 <text text-anchor="middle" x="336.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::FdSet::set</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node6 -->
-<g id="edge5" class="edge">
-<title>Node2&#45;&gt;Node6</title>
+<!-- Node3&#45;&gt;Node7 -->
+<g id="edge6" class="edge">
+<title>Node3&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M236.57,-49.4C250.84,-44.51 266.83,-39.03 281.73,-33.93"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="283,-37.19 291.33,-30.64 280.73,-30.57 283,-37.19"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node">
-<title>Node5</title>
-<g id="a_node5"><a xlink:href="namespacenet_1_1system.html#a14577a3d4ff982622034e2060c35e19b" target="_top" xlink:title=" ">
+<!-- Node6 -->
+<g id="node6" class="node">
+<title>Node6</title>
+<g id="a_node6"><a xlink:href="namespacenet_1_1system.html#a14577a3d4ff982622034e2060c35e19b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="427,-55 427,-74 520,-74 520,-55 427,-55"/>
 <text text-anchor="middle" x="473.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">net::system::time</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge">
-<title>Node4&#45;&gt;Node5</title>
+<!-- Node5&#45;&gt;Node6 -->
+<g id="edge5" class="edge">
+<title>Node5&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M387,-64.5C396.61,-64.5 406.74,-64.5 416.54,-64.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="416.59,-68 426.59,-64.5 416.59,-61 416.59,-68"/>
 </g>

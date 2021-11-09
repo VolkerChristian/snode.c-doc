@@ -164,74 +164,75 @@ $(document).ready(function(){initNavTree('_dynamic_loader_8cpp_source.html','');
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
-<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="classnet_1_1_dynamic_loader.html#a55e786abec1767c6d7b51a5f476fb6c4">   80</a></span>&#160;    <span class="keywordtype">char</span>* <a class="code" href="classnet_1_1_dynamic_loader.html#a55e786abec1767c6d7b51a5f476fb6c4">DynamicLoader::dlError</a>() {</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespacenet_1_1system.html#a489ac21d3c8a9ebb3afb332c2a976466">net::system::dlerror</a>();</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="classnet_1_1_dynamic_loader.html#a959fdd5a4fae487d1cef5c7141ff81ba">   84</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classnet_1_1_dynamic_loader.html#a959fdd5a4fae487d1cef5c7141ff81ba">DynamicLoader::execDlClose</a>(<span class="keywordtype">void</span>* handle) {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordtype">int</span> ret = -1;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">if</span> (handle != <span class="keyword">nullptr</span>) {</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classnet_1_1_dynamic_loader.html#a3c8157bdffb2dc0508fc9ca24dbb2e1a">dlOpenedLibraries</a>.contains(handle)) {</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                VLOG(0) &lt;&lt; <span class="stringliteral">&quot;execDLClose: &quot;</span> &lt;&lt; <a class="code" href="classnet_1_1_dynamic_loader.html#a3c8157bdffb2dc0508fc9ca24dbb2e1a">dlOpenedLibraries</a>[handle].fileName;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                ret = <a class="code" href="namespacenet_1_1system.html#afe90648ec3d910876576a7ce420635af">net::system::dlclose</a>(handle);</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                <a class="code" href="classnet_1_1_dynamic_loader.html#a3c8157bdffb2dc0508fc9ca24dbb2e1a">dlOpenedLibraries</a>[handle].refCount--;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="classnet_1_1_dynamic_loader.html#a3c8157bdffb2dc0508fc9ca24dbb2e1a">dlOpenedLibraries</a>[handle].refCount == 0) {</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                    <a class="code" href="classnet_1_1_dynamic_loader.html#a3c8157bdffb2dc0508fc9ca24dbb2e1a">dlOpenedLibraries</a>.erase(handle);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                }</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            }</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        }</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
-<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="classnet_1_1_dynamic_loader.html#a66e5eb126f960aab6829addf3401b56e">  103</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classnet_1_1_dynamic_loader.html#a66e5eb126f960aab6829addf3401b56e">DynamicLoader::execDlCloseDeleyed</a>() {</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; [handle, refCount] : <a class="code" href="classnet_1_1_dynamic_loader.html#a5fa72c7225cba1b3b8787ed2a75fe560">registeredForDlClose</a>) {</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            <span class="keywordflow">do</span> {</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                <span class="keywordtype">int</span> ret = <a class="code" href="classnet_1_1_dynamic_loader.html#a959fdd5a4fae487d1cef5c7141ff81ba">execDlClose</a>(handle);</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                <span class="keywordflow">if</span> (ret != 0) {</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                    VLOG(0) &lt;&lt; <span class="stringliteral">&quot;Error execDeleyedDlClose: &quot;</span> &lt;&lt; <a class="code" href="classnet_1_1_dynamic_loader.html#a55e786abec1767c6d7b51a5f476fb6c4">net::DynamicLoader::dlError</a>();</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                }</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            } <span class="keywordflow">while</span> (--refCount &gt; 0);</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        }</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <a class="code" href="classnet_1_1_dynamic_loader.html#a5fa72c7225cba1b3b8787ed2a75fe560">registeredForDlClose</a>.clear();</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    }</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
-<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="classnet_1_1_dynamic_loader.html#a6d7cd8628a517af74ba581ee39268363">  117</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classnet_1_1_dynamic_loader.html#a6d7cd8628a517af74ba581ee39268363">DynamicLoader::execDlCloseAll</a>() {</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <a class="code" href="classnet_1_1_dynamic_loader.html#a66e5eb126f960aab6829addf3401b56e">execDlCloseDeleyed</a>();</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        std::map&lt;void*, Library&gt;::iterator it = <a class="code" href="classnet_1_1_dynamic_loader.html#a3c8157bdffb2dc0508fc9ca24dbb2e1a">dlOpenedLibraries</a>.begin();</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; </div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">while</span> (it != <a class="code" href="classnet_1_1_dynamic_loader.html#a3c8157bdffb2dc0508fc9ca24dbb2e1a">dlOpenedLibraries</a>.end()) {</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            std::map&lt;void*, Library&gt;::iterator tmpIt = it;</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            ++it;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            <span class="keywordflow">do</span> {</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                <span class="keywordtype">int</span> ret = <a class="code" href="classnet_1_1_dynamic_loader.html#a959fdd5a4fae487d1cef5c7141ff81ba">execDlClose</a>(tmpIt-&gt;first);</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                <span class="keywordflow">if</span> (ret != 0) {</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                    VLOG(0) &lt;&lt; <span class="stringliteral">&quot;Error execDlCloseAll: &quot;</span> &lt;&lt; <a class="code" href="classnet_1_1_dynamic_loader.html#a55e786abec1767c6d7b51a5f476fb6c4">net::DynamicLoader::dlError</a>();</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                }</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            } <span class="keywordflow">while</span> (--(it-&gt;second.refCount) &gt; 0);</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        }</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;} <span class="comment">// namespace net</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="classnet_1_1_dynamic_loader.html#a55e786abec1767c6d7b51a5f476fb6c4">   81</a></span>&#160;    <span class="keywordtype">char</span>* <a class="code" href="classnet_1_1_dynamic_loader.html#a55e786abec1767c6d7b51a5f476fb6c4">DynamicLoader::dlError</a>() {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespacenet_1_1system.html#a489ac21d3c8a9ebb3afb332c2a976466">net::system::dlerror</a>();</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="classnet_1_1_dynamic_loader.html#a959fdd5a4fae487d1cef5c7141ff81ba">   85</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classnet_1_1_dynamic_loader.html#a959fdd5a4fae487d1cef5c7141ff81ba">DynamicLoader::execDlClose</a>(<span class="keywordtype">void</span>* handle) {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordtype">int</span> ret = -1;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">if</span> (handle != <span class="keyword">nullptr</span>) {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classnet_1_1_dynamic_loader.html#a3c8157bdffb2dc0508fc9ca24dbb2e1a">dlOpenedLibraries</a>.contains(handle)) {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                VLOG(0) &lt;&lt; <span class="stringliteral">&quot;execDLClose: &quot;</span> &lt;&lt; <a class="code" href="classnet_1_1_dynamic_loader.html#a3c8157bdffb2dc0508fc9ca24dbb2e1a">dlOpenedLibraries</a>[handle].fileName;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                ret = <a class="code" href="namespacenet_1_1system.html#afe90648ec3d910876576a7ce420635af">net::system::dlclose</a>(handle);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                <a class="code" href="classnet_1_1_dynamic_loader.html#a3c8157bdffb2dc0508fc9ca24dbb2e1a">dlOpenedLibraries</a>[handle].refCount--;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="classnet_1_1_dynamic_loader.html#a3c8157bdffb2dc0508fc9ca24dbb2e1a">dlOpenedLibraries</a>[handle].refCount == 0) {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                    <a class="code" href="classnet_1_1_dynamic_loader.html#a3c8157bdffb2dc0508fc9ca24dbb2e1a">dlOpenedLibraries</a>.erase(handle);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                }</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            }</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="classnet_1_1_dynamic_loader.html#a66e5eb126f960aab6829addf3401b56e">  104</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classnet_1_1_dynamic_loader.html#a66e5eb126f960aab6829addf3401b56e">DynamicLoader::execDlCloseDeleyed</a>() {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; [handle, refCount] : <a class="code" href="classnet_1_1_dynamic_loader.html#a5fa72c7225cba1b3b8787ed2a75fe560">registeredForDlClose</a>) {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            <span class="keywordflow">do</span> {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                <span class="keywordtype">int</span> ret = <a class="code" href="classnet_1_1_dynamic_loader.html#a959fdd5a4fae487d1cef5c7141ff81ba">execDlClose</a>(handle);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                <span class="keywordflow">if</span> (ret != 0) {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                    VLOG(0) &lt;&lt; <span class="stringliteral">&quot;Error execDeleyedDlClose: &quot;</span> &lt;&lt; <a class="code" href="classnet_1_1_dynamic_loader.html#a55e786abec1767c6d7b51a5f476fb6c4">net::DynamicLoader::dlError</a>();</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            } <span class="keywordflow">while</span> (--refCount &gt; 0);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        }</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <a class="code" href="classnet_1_1_dynamic_loader.html#a5fa72c7225cba1b3b8787ed2a75fe560">registeredForDlClose</a>.clear();</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    }</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="classnet_1_1_dynamic_loader.html#a6d7cd8628a517af74ba581ee39268363">  118</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classnet_1_1_dynamic_loader.html#a6d7cd8628a517af74ba581ee39268363">DynamicLoader::execDlCloseAll</a>() {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <a class="code" href="classnet_1_1_dynamic_loader.html#a66e5eb126f960aab6829addf3401b56e">execDlCloseDeleyed</a>();</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        std::map&lt;void*, Library&gt;::iterator it = <a class="code" href="classnet_1_1_dynamic_loader.html#a3c8157bdffb2dc0508fc9ca24dbb2e1a">dlOpenedLibraries</a>.begin();</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160; </div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keywordflow">while</span> (it != <a class="code" href="classnet_1_1_dynamic_loader.html#a3c8157bdffb2dc0508fc9ca24dbb2e1a">dlOpenedLibraries</a>.end()) {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            std::map&lt;void*, Library&gt;::iterator tmpIt = it;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            ++it;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            <span class="keywordflow">do</span> {</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                <span class="keywordtype">int</span> ret = <a class="code" href="classnet_1_1_dynamic_loader.html#a959fdd5a4fae487d1cef5c7141ff81ba">execDlClose</a>(tmpIt-&gt;first);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160; </div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                <span class="keywordflow">if</span> (ret != 0) {</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                    VLOG(0) &lt;&lt; <span class="stringliteral">&quot;Error execDlCloseAll: &quot;</span> &lt;&lt; <a class="code" href="classnet_1_1_dynamic_loader.html#a55e786abec1767c6d7b51a5f476fb6c4">net::DynamicLoader::dlError</a>();</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                }</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            } <span class="keywordflow">while</span> (it-&gt;second.refCount &gt; 0);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        }</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    }</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160; </div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;} <span class="comment">// namespace net</span></div>
 <div class="ttc" id="a_dynamic_loader_8h_html"><div class="ttname"><a href="_dynamic_loader_8h.html">DynamicLoader.h</a></div></div>
 <div class="ttc" id="a_logger_8h_html"><div class="ttname"><a href="_logger_8h.html">Logger.h</a></div></div>
 <div class="ttc" id="aclassnet_1_1_dynamic_loader_html_a1aca5c1a857544608e2adf0edc27c82e"><div class="ttname"><a href="classnet_1_1_dynamic_loader.html#a1aca5c1a857544608e2adf0edc27c82e">net::DynamicLoader::dlClose</a></div><div class="ttdeci">static int dlClose(void *handle)</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00063">DynamicLoader.cpp:63</a></div></div>
 <div class="ttc" id="aclassnet_1_1_dynamic_loader_html_a20af867e649200bfaa612a36fbe85230"><div class="ttname"><a href="classnet_1_1_dynamic_loader.html#a20af867e649200bfaa612a36fbe85230">net::DynamicLoader::dlOpen</a></div><div class="ttdeci">static void * dlOpen(const std::string &amp;libFile, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00034">DynamicLoader.cpp:34</a></div></div>
 <div class="ttc" id="aclassnet_1_1_dynamic_loader_html_a3c8157bdffb2dc0508fc9ca24dbb2e1a"><div class="ttname"><a href="classnet_1_1_dynamic_loader.html#a3c8157bdffb2dc0508fc9ca24dbb2e1a">net::DynamicLoader::dlOpenedLibraries</a></div><div class="ttdeci">static std::map&lt; void *, Library &gt; dlOpenedLibraries</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8h_source.html#l00062">DynamicLoader.h:62</a></div></div>
-<div class="ttc" id="aclassnet_1_1_dynamic_loader_html_a55e786abec1767c6d7b51a5f476fb6c4"><div class="ttname"><a href="classnet_1_1_dynamic_loader.html#a55e786abec1767c6d7b51a5f476fb6c4">net::DynamicLoader::dlError</a></div><div class="ttdeci">static char * dlError()</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00080">DynamicLoader.cpp:80</a></div></div>
+<div class="ttc" id="aclassnet_1_1_dynamic_loader_html_a55e786abec1767c6d7b51a5f476fb6c4"><div class="ttname"><a href="classnet_1_1_dynamic_loader.html#a55e786abec1767c6d7b51a5f476fb6c4">net::DynamicLoader::dlError</a></div><div class="ttdeci">static char * dlError()</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00081">DynamicLoader.cpp:81</a></div></div>
 <div class="ttc" id="aclassnet_1_1_dynamic_loader_html_a5a9fa91333f04c4d646275617976f9c7"><div class="ttname"><a href="classnet_1_1_dynamic_loader.html#a5a9fa91333f04c4d646275617976f9c7">net::DynamicLoader::dlCloseDelayed</a></div><div class="ttdeci">static void dlCloseDelayed(void *handle)</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00049">DynamicLoader.cpp:49</a></div></div>
 <div class="ttc" id="aclassnet_1_1_dynamic_loader_html_a5fa72c7225cba1b3b8787ed2a75fe560"><div class="ttname"><a href="classnet_1_1_dynamic_loader.html#a5fa72c7225cba1b3b8787ed2a75fe560">net::DynamicLoader::registeredForDlClose</a></div><div class="ttdeci">static std::map&lt; void *, std::size_t &gt; registeredForDlClose</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8h_source.html#l00063">DynamicLoader.h:63</a></div></div>
-<div class="ttc" id="aclassnet_1_1_dynamic_loader_html_a66e5eb126f960aab6829addf3401b56e"><div class="ttname"><a href="classnet_1_1_dynamic_loader.html#a66e5eb126f960aab6829addf3401b56e">net::DynamicLoader::execDlCloseDeleyed</a></div><div class="ttdeci">static void execDlCloseDeleyed()</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00103">DynamicLoader.cpp:103</a></div></div>
-<div class="ttc" id="aclassnet_1_1_dynamic_loader_html_a6d7cd8628a517af74ba581ee39268363"><div class="ttname"><a href="classnet_1_1_dynamic_loader.html#a6d7cd8628a517af74ba581ee39268363">net::DynamicLoader::execDlCloseAll</a></div><div class="ttdeci">static void execDlCloseAll()</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00117">DynamicLoader.cpp:117</a></div></div>
-<div class="ttc" id="aclassnet_1_1_dynamic_loader_html_a959fdd5a4fae487d1cef5c7141ff81ba"><div class="ttname"><a href="classnet_1_1_dynamic_loader.html#a959fdd5a4fae487d1cef5c7141ff81ba">net::DynamicLoader::execDlClose</a></div><div class="ttdeci">static int execDlClose(void *handle)</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00084">DynamicLoader.cpp:84</a></div></div>
+<div class="ttc" id="aclassnet_1_1_dynamic_loader_html_a66e5eb126f960aab6829addf3401b56e"><div class="ttname"><a href="classnet_1_1_dynamic_loader.html#a66e5eb126f960aab6829addf3401b56e">net::DynamicLoader::execDlCloseDeleyed</a></div><div class="ttdeci">static void execDlCloseDeleyed()</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00104">DynamicLoader.cpp:104</a></div></div>
+<div class="ttc" id="aclassnet_1_1_dynamic_loader_html_a6d7cd8628a517af74ba581ee39268363"><div class="ttname"><a href="classnet_1_1_dynamic_loader.html#a6d7cd8628a517af74ba581ee39268363">net::DynamicLoader::execDlCloseAll</a></div><div class="ttdeci">static void execDlCloseAll()</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00118">DynamicLoader.cpp:118</a></div></div>
+<div class="ttc" id="aclassnet_1_1_dynamic_loader_html_a959fdd5a4fae487d1cef5c7141ff81ba"><div class="ttname"><a href="classnet_1_1_dynamic_loader.html#a959fdd5a4fae487d1cef5c7141ff81ba">net::DynamicLoader::execDlClose</a></div><div class="ttdeci">static int execDlClose(void *handle)</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00085">DynamicLoader.cpp:85</a></div></div>
 <div class="ttc" id="anamespacenet_1_1system_html_a489ac21d3c8a9ebb3afb332c2a976466"><div class="ttname"><a href="namespacenet_1_1system.html#a489ac21d3c8a9ebb3afb332c2a976466">net::system::dlerror</a></div><div class="ttdeci">char * dlerror(void)</div><div class="ttdef"><b>Definition:</b> <a href="dlfcn_8cpp_source.html#l00039">dlfcn.cpp:39</a></div></div>
 <div class="ttc" id="anamespacenet_1_1system_html_a4d5cfea38964447cef82388728584b53"><div class="ttname"><a href="namespacenet_1_1system.html#a4d5cfea38964447cef82388728584b53">net::system::dlopen</a></div><div class="ttdeci">void * dlopen(const char *filename, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="dlfcn_8cpp_source.html#l00027">dlfcn.cpp:27</a></div></div>
 <div class="ttc" id="anamespacenet_1_1system_html_afe90648ec3d910876576a7ce420635af"><div class="ttname"><a href="namespacenet_1_1system.html#afe90648ec3d910876576a7ce420635af">net::system::dlclose</a></div><div class="ttdeci">int dlclose(void *handle)</div><div class="ttdef"><b>Definition:</b> <a href="dlfcn_8cpp_source.html#l00031">dlfcn.cpp:31</a></div></div>
