@@ -2,6 +2,9 @@ var dir_c0c51ca70b1154ee90f078275a100cbc =
 [
     [ "legacy", "dir_9606c6128ce6d1af01ff9046f7f2d4a1.html", "dir_9606c6128ce6d1af01ff9046f7f2d4a1" ],
     [ "tls", "dir_9c52b1733a75854e80628ef7df308675.html", "dir_9c52b1733a75854e80628ef7df308675" ],
+    [ "SocketAcceptor.h", "_socket_acceptor_8h.html", [
+      [ "SocketAcceptor", "classnet_1_1socket_1_1stream_1_1_socket_acceptor.html", "classnet_1_1socket_1_1stream_1_1_socket_acceptor" ]
+    ] ],
     [ "SocketClient.h", "stream_2_socket_client_8h.html", [
       [ "SocketClient", "classnet_1_1socket_1_1stream_1_1_socket_client.html", "classnet_1_1socket_1_1stream_1_1_socket_client" ]
     ] ],
@@ -21,9 +24,6 @@ var dir_c0c51ca70b1154ee90f078275a100cbc =
     ] ],
     [ "SocketContextFactory.h", "net_2socket_2stream_2_socket_context_factory_8h.html", [
       [ "SocketContextFactory", "classnet_1_1socket_1_1stream_1_1_socket_context_factory.html", "classnet_1_1socket_1_1stream_1_1_socket_context_factory" ]
-    ] ],
-    [ "SocketListener.h", "_socket_listener_8h.html", [
-      [ "SocketListener", "classnet_1_1socket_1_1stream_1_1_socket_listener.html", "classnet_1_1socket_1_1stream_1_1_socket_listener" ]
     ] ],
     [ "SocketReader.h", "_socket_reader_8h.html", "_socket_reader_8h" ],
     [ "SocketServer.h", "stream_2_socket_server_8h.html", [

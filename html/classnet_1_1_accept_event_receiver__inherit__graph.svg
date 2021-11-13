@@ -31,10 +31,10 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classnet_1_1socket_1_1stream_1_1_socket_listener.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classnet_1_1socket_1_1stream_1_1_socket_acceptor.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-150.5 0,-405.5 167,-405.5 167,-150.5 0,-150.5"/>
 <text text-anchor="start" x="8" y="-393.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::socket::stream</text>
-<text text-anchor="start" x="8" y="-382.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketListener&lt; net</text>
+<text text-anchor="start" x="8" y="-382.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketAcceptor&lt; net</text>
 <text text-anchor="start" x="8" y="-371.5" font-family="Helvetica,sans-Serif" font-size="10.00">::socket::stream::legacy</text>
 <text text-anchor="middle" x="83.5" y="-360.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketConnection&lt; SocketT &gt; &gt;</text>
 <polyline fill="none" stroke="black" points="0,-353.5 167,-353.5 "/>
@@ -45,12 +45,12 @@
 <text text-anchor="start" x="8" y="-297.5" font-family="Helvetica,sans-Serif" font-size="10.00"># onDisconnect</text>
 <text text-anchor="start" x="8" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; socketContextFactory</text>
 <polyline fill="none" stroke="black" points="0,-279.5 167,-279.5 "/>
-<text text-anchor="start" x="8" y="-267.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SocketListener()</text>
-<text text-anchor="start" x="8" y="-256.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~SocketListener()</text>
+<text text-anchor="start" x="8" y="-267.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SocketAcceptor()</text>
+<text text-anchor="start" x="8" y="-256.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~SocketAcceptor()</text>
 <text text-anchor="start" x="8" y="-245.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ listen()</text>
 <text text-anchor="start" x="8" y="-234.5" font-family="Helvetica,sans-Serif" font-size="10.00"># destruct()</text>
-<text text-anchor="start" x="8" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketListener()</text>
-<text text-anchor="start" x="8" y="-212.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketListener()</text>
+<text text-anchor="start" x="8" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketAcceptor()</text>
+<text text-anchor="start" x="8" y="-212.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketAcceptor()</text>
 <text text-anchor="start" x="8" y="-201.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; operator=()</text>
 <text text-anchor="start" x="8" y="-190.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; reuseAddress()</text>
 <text text-anchor="start" x="8" y="-179.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; acceptEvent()</text>
@@ -62,16 +62,16 @@
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M131.56,-742.18C122.81,-731.99 115.09,-720.86 109.5,-709 64.89,-614.27 61.3,-494.55 67.2,-405.51"/>
-<polygon fill="none" stroke="midnightblue" points="129.13,-744.71 138.43,-749.79 134.32,-740.02 129.13,-744.71"/>
+<path fill="none" stroke="midnightblue" d="M131.34,-744.97C121.45,-734.07 112.68,-722.01 106.5,-709 61.57,-614.47 58.91,-494.73 65.71,-405.63"/>
+<polygon fill="none" stroke="midnightblue" points="128.92,-747.5 138.36,-752.32 133.99,-742.67 128.92,-747.5"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="classnet_1_1socket_1_1stream_1_1_socket_listener.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classnet_1_1socket_1_1stream_1_1_socket_acceptor.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="232,-150.5 232,-405.5 399,-405.5 399,-150.5 232,-150.5"/>
 <text text-anchor="start" x="240" y="-393.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::socket::stream</text>
-<text text-anchor="start" x="240" y="-382.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketListener&lt; net</text>
+<text text-anchor="start" x="240" y="-382.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketAcceptor&lt; net</text>
 <text text-anchor="start" x="240" y="-371.5" font-family="Helvetica,sans-Serif" font-size="10.00">::socket::stream::tls</text>
 <text text-anchor="middle" x="315.5" y="-360.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketConnection&lt; SocketT &gt; &gt;</text>
 <polyline fill="none" stroke="black" points="232,-353.5 399,-353.5 "/>
@@ -82,12 +82,12 @@
 <text text-anchor="start" x="240" y="-297.5" font-family="Helvetica,sans-Serif" font-size="10.00"># onDisconnect</text>
 <text text-anchor="start" x="240" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; socketContextFactory</text>
 <polyline fill="none" stroke="black" points="232,-279.5 399,-279.5 "/>
-<text text-anchor="start" x="240" y="-267.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SocketListener()</text>
-<text text-anchor="start" x="240" y="-256.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~SocketListener()</text>
+<text text-anchor="start" x="240" y="-267.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SocketAcceptor()</text>
+<text text-anchor="start" x="240" y="-256.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~SocketAcceptor()</text>
 <text text-anchor="start" x="240" y="-245.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ listen()</text>
 <text text-anchor="start" x="240" y="-234.5" font-family="Helvetica,sans-Serif" font-size="10.00"># destruct()</text>
-<text text-anchor="start" x="240" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketListener()</text>
-<text text-anchor="start" x="240" y="-212.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketListener()</text>
+<text text-anchor="start" x="240" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketAcceptor()</text>
+<text text-anchor="start" x="240" y="-212.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketAcceptor()</text>
 <text text-anchor="start" x="240" y="-201.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; operator=()</text>
 <text text-anchor="start" x="240" y="-190.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; reuseAddress()</text>
 <text text-anchor="start" x="240" y="-179.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; acceptEvent()</text>
@@ -99,35 +99,35 @@
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M297.44,-741.19C306.04,-731.24 313.73,-720.44 319.5,-709 366.66,-615.52 360.95,-495.4 346.14,-405.9"/>
-<polygon fill="none" stroke="midnightblue" points="294.82,-738.87 290.7,-748.63 300.01,-743.57 294.82,-738.87"/>
+<path fill="none" stroke="midnightblue" d="M297.5,-744.22C307.31,-733.48 316.09,-721.67 322.5,-709 369.77,-615.56 363.15,-495.44 347.49,-405.92"/>
+<polygon fill="none" stroke="midnightblue" points="294.95,-741.83 290.57,-751.47 300.01,-746.66 294.95,-741.83"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="classnet_1_1socket_1_1stream_1_1_socket_listener.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="118.5,-475.5 118.5,-708.5 310.5,-708.5 310.5,-475.5 118.5,-475.5"/>
-<text text-anchor="start" x="126.5" y="-696.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::socket::stream</text>
-<text text-anchor="middle" x="214.5" y="-685.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketListener&lt; SocketConnectionT &gt;</text>
-<polyline fill="none" stroke="black" points="118.5,-678.5 310.5,-678.5 "/>
-<text text-anchor="start" x="126.5" y="-666.5" font-family="Helvetica,sans-Serif" font-size="10.00"># options</text>
-<text text-anchor="start" x="126.5" y="-655.5" font-family="Helvetica,sans-Serif" font-size="10.00"># onConnect</text>
-<text text-anchor="start" x="126.5" y="-644.5" font-family="Helvetica,sans-Serif" font-size="10.00"># onDestruct</text>
-<text text-anchor="start" x="126.5" y="-633.5" font-family="Helvetica,sans-Serif" font-size="10.00"># onConnected</text>
-<text text-anchor="start" x="126.5" y="-622.5" font-family="Helvetica,sans-Serif" font-size="10.00"># onDisconnect</text>
-<text text-anchor="start" x="126.5" y="-611.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; socketContextFactory</text>
-<polyline fill="none" stroke="black" points="118.5,-604.5 310.5,-604.5 "/>
-<text text-anchor="start" x="126.5" y="-592.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SocketListener()</text>
-<text text-anchor="start" x="126.5" y="-581.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~SocketListener()</text>
-<text text-anchor="start" x="126.5" y="-570.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ listen()</text>
-<text text-anchor="start" x="126.5" y="-559.5" font-family="Helvetica,sans-Serif" font-size="10.00"># destruct()</text>
-<text text-anchor="start" x="126.5" y="-548.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketListener()</text>
-<text text-anchor="start" x="126.5" y="-537.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketListener()</text>
-<text text-anchor="start" x="126.5" y="-526.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; operator=()</text>
-<text text-anchor="start" x="126.5" y="-515.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; reuseAddress()</text>
-<text text-anchor="start" x="126.5" y="-504.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; acceptEvent()</text>
-<text text-anchor="start" x="126.5" y="-493.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; end()</text>
-<text text-anchor="start" x="126.5" y="-482.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; unobserved()</text>
+<g id="a_node8"><a xlink:href="classnet_1_1socket_1_1stream_1_1_socket_acceptor.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="116,-475.5 116,-708.5 313,-708.5 313,-475.5 116,-475.5"/>
+<text text-anchor="start" x="124" y="-696.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::socket::stream</text>
+<text text-anchor="middle" x="214.5" y="-685.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketAcceptor&lt; SocketConnectionT &gt;</text>
+<polyline fill="none" stroke="black" points="116,-678.5 313,-678.5 "/>
+<text text-anchor="start" x="124" y="-666.5" font-family="Helvetica,sans-Serif" font-size="10.00"># options</text>
+<text text-anchor="start" x="124" y="-655.5" font-family="Helvetica,sans-Serif" font-size="10.00"># onConnect</text>
+<text text-anchor="start" x="124" y="-644.5" font-family="Helvetica,sans-Serif" font-size="10.00"># onDestruct</text>
+<text text-anchor="start" x="124" y="-633.5" font-family="Helvetica,sans-Serif" font-size="10.00"># onConnected</text>
+<text text-anchor="start" x="124" y="-622.5" font-family="Helvetica,sans-Serif" font-size="10.00"># onDisconnect</text>
+<text text-anchor="start" x="124" y="-611.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; socketContextFactory</text>
+<polyline fill="none" stroke="black" points="116,-604.5 313,-604.5 "/>
+<text text-anchor="start" x="124" y="-592.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SocketAcceptor()</text>
+<text text-anchor="start" x="124" y="-581.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~SocketAcceptor()</text>
+<text text-anchor="start" x="124" y="-570.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ listen()</text>
+<text text-anchor="start" x="124" y="-559.5" font-family="Helvetica,sans-Serif" font-size="10.00"># destruct()</text>
+<text text-anchor="start" x="124" y="-548.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketAcceptor()</text>
+<text text-anchor="start" x="124" y="-537.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketAcceptor()</text>
+<text text-anchor="start" x="124" y="-526.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; operator=()</text>
+<text text-anchor="start" x="124" y="-515.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; reuseAddress()</text>
+<text text-anchor="start" x="124" y="-504.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; acceptEvent()</text>
+<text text-anchor="start" x="124" y="-493.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; end()</text>
+<text text-anchor="start" x="124" y="-482.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; unobserved()</text>
 </a>
 </g>
 </g>
@@ -205,15 +205,15 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classnet_1_1socket_1_1stream_1_1legacy_1_1_socket_listener.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="22.5,-17 22.5,-96 144.5,-96 144.5,-17 22.5,-17"/>
-<text text-anchor="start" x="30.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">net::socket::stream</text>
-<text text-anchor="start" x="30.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">::legacy::SocketListener</text>
+<g id="a_node5"><a xlink:href="classnet_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="20,-17 20,-96 147,-96 147,-17 20,-17"/>
+<text text-anchor="start" x="28" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">net::socket::stream</text>
+<text text-anchor="start" x="28" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">::legacy::SocketAcceptor</text>
 <text text-anchor="middle" x="83.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; SocketT &gt;</text>
-<polyline fill="none" stroke="black" points="22.5,-55 144.5,-55 "/>
+<polyline fill="none" stroke="black" points="20,-55 147,-55 "/>
 <text text-anchor="middle" x="83.5" y="-43" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="22.5,-36 144.5,-36 "/>
-<text text-anchor="start" x="30.5" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">+ SocketListener()</text>
+<polyline fill="none" stroke="black" points="20,-36 147,-36 "/>
+<text text-anchor="start" x="28" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">+ SocketAcceptor()</text>
 </a>
 </g>
 </g>
@@ -226,16 +226,16 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="classnet_1_1socket_1_1stream_1_1tls_1_1_socket_listener.html" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="classnet_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="254.5,-0.5 254.5,-112.5 376.5,-112.5 376.5,-0.5 254.5,-0.5"/>
 <text text-anchor="start" x="262.5" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::socket::stream</text>
-<text text-anchor="start" x="262.5" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketListener</text>
+<text text-anchor="start" x="262.5" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketAcceptor</text>
 <text text-anchor="middle" x="315.5" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; SocketT &gt;</text>
 <polyline fill="none" stroke="black" points="254.5,-71.5 376.5,-71.5 "/>
 <text text-anchor="start" x="262.5" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ctx</text>
 <polyline fill="none" stroke="black" points="254.5,-52.5 376.5,-52.5 "/>
-<text text-anchor="start" x="262.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SocketListener()</text>
-<text text-anchor="start" x="262.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~SocketListener()</text>
+<text text-anchor="start" x="262.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SocketAcceptor()</text>
+<text text-anchor="start" x="262.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~SocketAcceptor()</text>
 <text text-anchor="start" x="262.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ listen()</text>
 <text text-anchor="start" x="262.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00"># serverNameCallback()</text>
 </a>

@@ -4,6 +4,7 @@ var classnet_1_1socket_1_1stream_1_1_socket_writer =
     [ "SocketWriter", "classnet_1_1socket_1_1stream_1_1_socket_writer.html#a7e241f91ccc2e05f921bc52d75df9acb", null ],
     [ "SocketWriter", "classnet_1_1socket_1_1stream_1_1_socket_writer.html#af1d9b18df296828d6b35059939a425a7", null ],
     [ "~SocketWriter", "classnet_1_1socket_1_1stream_1_1_socket_writer.html#a0e353139278c34177799700c3e5c5bf4", null ],
+    [ "doShutdown", "classnet_1_1socket_1_1stream_1_1_socket_writer.html#a0efecb06626787e35024e0eff145cec8", null ],
     [ "doWrite", "classnet_1_1socket_1_1stream_1_1_socket_writer.html#aece5268a0d73555a5d4e2467ed5b8684", null ],
     [ "getError", "classnet_1_1socket_1_1stream_1_1_socket_writer.html#ac3836491ea90f8043d69bbf99a96b8e3", null ],
     [ "sendToPeer", "classnet_1_1socket_1_1stream_1_1_socket_writer.html#a7c57d49ff301e8dd83f6fd9b744fbb86", null ],

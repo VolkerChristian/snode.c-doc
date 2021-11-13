@@ -133,17 +133,17 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classnet_1_1socket_1_1stream_1_1_socket_listener.html#a6c6e16e3207d4cd604005508fde31f25" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="162,-221.5 162,-251.5 279,-251.5 279,-221.5 162,-221.5"/>
-<text text-anchor="start" x="170" y="-239.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::socket::stream</text>
-<text text-anchor="middle" x="220.5" y="-228.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketListener::listen</text>
+<g id="a_node5"><a xlink:href="classnet_1_1socket_1_1stream_1_1_socket_acceptor.html#ae3c2d05bf6497c162626768ff22e8e01" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="159.5,-221.5 159.5,-251.5 281.5,-251.5 281.5,-221.5 159.5,-221.5"/>
+<text text-anchor="start" x="167.5" y="-239.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::socket::stream</text>
+<text text-anchor="middle" x="220.5" y="-228.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketAcceptor::listen</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node2&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M324.27,-252.89C309.56,-250.55 293.86,-248.04 279.27,-245.71"/>
+<path fill="none" stroke="midnightblue" d="M324.3,-252.9C310.36,-250.67 295.53,-248.31 281.6,-246.09"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="323.84,-256.37 334.26,-254.49 324.94,-249.46 323.84,-256.37"/>
 </g>
 <!-- Node4 -->
@@ -166,10 +166,10 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="classnet_1_1socket_1_1stream_1_1tls_1_1_socket_listener.html#acf11b14a380dbd9f1be819cc47479cd7" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="5.5,-211 5.5,-252 109.5,-252 109.5,-211 5.5,-211"/>
-<text text-anchor="start" x="13.5" y="-240" font-family="Helvetica,sans-Serif" font-size="10.00">net::socket::stream</text>
-<text text-anchor="start" x="13.5" y="-229" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketListener</text>
+<g id="a_node6"><a xlink:href="classnet_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#ae460c13105a567cd3da98d4cac431e54" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="3,-211 3,-252 112,-252 112,-211 3,-211"/>
+<text text-anchor="start" x="11" y="-240" font-family="Helvetica,sans-Serif" font-size="10.00">net::socket::stream</text>
+<text text-anchor="start" x="11" y="-229" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketAcceptor</text>
 <text text-anchor="middle" x="57.5" y="-218" font-family="Helvetica,sans-Serif" font-size="10.00">::listen</text>
 </a>
 </g>
@@ -177,8 +177,8 @@
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M151.69,-234.39C137.61,-233.96 122.99,-233.5 109.62,-233.09"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="151.73,-237.9 161.83,-234.71 151.94,-230.9 151.73,-237.9"/>
+<path fill="none" stroke="midnightblue" d="M148.84,-234.31C136.51,-233.92 123.87,-233.53 112.1,-233.16"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="148.99,-237.81 159.09,-234.62 149.2,-230.82 148.99,-237.81"/>
 </g>
 </g>
 </svg>

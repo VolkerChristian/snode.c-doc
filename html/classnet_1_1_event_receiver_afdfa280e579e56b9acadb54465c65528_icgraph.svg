@@ -205,17 +205,17 @@
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="classnet_1_1socket_1_1stream_1_1_socket_listener.html#a1f2d699a1d63343e7f2ef2cdd434da00" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="365.5,-1171 365.5,-1201 475.5,-1201 475.5,-1171 365.5,-1171"/>
-<text text-anchor="start" x="373.5" y="-1189" font-family="Helvetica,sans-Serif" font-size="10.00">net::socket::stream</text>
-<text text-anchor="middle" x="420.5" y="-1178" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketListener::end</text>
+<g id="a_node10"><a xlink:href="classnet_1_1socket_1_1stream_1_1_socket_acceptor.html#a2c94fc987aed70912b1ecc81916b5e0b" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="363.5,-1171 363.5,-1201 477.5,-1201 477.5,-1171 363.5,-1171"/>
+<text text-anchor="start" x="371.5" y="-1189" font-family="Helvetica,sans-Serif" font-size="10.00">net::socket::stream</text>
+<text text-anchor="middle" x="420.5" y="-1178" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketAcceptor::end</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node10 -->
 <g id="edge9" class="edge">
 <title>Node2&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M592.71,-781.17C584.98,-860.71 557.36,-1104.71 505,-1161 497.17,-1169.42 486.63,-1175.04 475.67,-1178.79"/>
+<path fill="none" stroke="midnightblue" d="M592.71,-781.17C584.98,-860.71 557.36,-1104.71 505,-1161 497.68,-1168.87 488,-1174.29 477.83,-1178.03"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="596.21,-781.36 593.67,-771.08 589.24,-780.7 596.21,-781.36"/>
 </g>
 <!-- Node11 -->

@@ -5,6 +5,7 @@ var classnet_1_1socket_1_1stream_1_1_socket_reader =
     [ "SocketReader", "classnet_1_1socket_1_1stream_1_1_socket_reader.html#afb11af35283831bcc44ad36e97478109", null ],
     [ "~SocketReader", "classnet_1_1socket_1_1stream_1_1_socket_reader.html#a9d7242d28757dd994763e2a9052e16aa", null ],
     [ "continueReadImmediately", "classnet_1_1socket_1_1stream_1_1_socket_reader.html#aaf53865e3a54e3f24827c1acaff40fdb", null ],
+    [ "doShutdown", "classnet_1_1socket_1_1stream_1_1_socket_reader.html#a3ecbda9d5a8d32add3841ab2b1abf142", null ],
     [ "getError", "classnet_1_1socket_1_1stream_1_1_socket_reader.html#a0592f7cab272b388303ecdcf0c88c732", null ],
     [ "read", "classnet_1_1socket_1_1stream_1_1_socket_reader.html#a796e5ff1a91d6343f778bf68ab039a7b", null ],
     [ "readFromPeer", "classnet_1_1socket_1_1stream_1_1_socket_reader.html#aca1ec8d986417fe650281fc86641d8a0", null ],

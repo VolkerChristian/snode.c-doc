@@ -104,7 +104,7 @@ Inheritance diagram for web::http::server::Response:</div>
 <div class="dynheader">
 Collaboration diagram for web::http::server::Response:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response__coll__graph.svg" width="506" height="2192"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response__coll__graph.svg" width="506" height="2163"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -409,7 +409,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_a761cba48efb6eed2fa816750670c03db_cgraph.svg" width="1186" height="314"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_a761cba48efb6eed2fa816750670c03db_cgraph.svg" width="1214" height="367"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -471,10 +471,11 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classweb_1_1http_1_1server_1_1_response.html#a27d7c297ceff0e46f6b64d5c6cf6f1d1">contentSent</a> == <a class="code" href="classweb_1_1http_1_1server_1_1_response.html#aa3b44867b06641f5b396b432b5f498eb">contentLength</a>) {</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                <a class="code" href="classweb_1_1http_1_1server_1_1_response.html#a31c1100bbbca1612c0f9f17d4d55d858">socketContext</a>-&gt;<a class="code" href="classweb_1_1http_1_1server_1_1_socket_context.html#af02d72d4d627ffea40a714dec9b128d7">sendToPeerCompleted</a>();</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="classweb_1_1http_1_1server_1_1_response.html#a27d7c297ceff0e46f6b64d5c6cf6f1d1">contentSent</a> &gt; <a class="code" href="classweb_1_1http_1_1server_1_1_response.html#aa3b44867b06641f5b396b432b5f498eb">contentLength</a>) {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                <a class="code" href="classweb_1_1http_1_1server_1_1_response.html#a31c1100bbbca1612c0f9f17d4d55d858">socketContext</a>-&gt;<a class="code" href="classweb_1_1http_1_1server_1_1_socket_context.html#a2ad61a6624a14517bdeae82a3a284d9b">terminateConnection</a>();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                <a class="code" href="classweb_1_1http_1_1server_1_1_response.html#a31c1100bbbca1612c0f9f17d4d55d858">socketContext</a>-&gt;<a class="code" href="classnet_1_1socket_1_1stream_1_1_socket_context.html#a2a7bb4fab1a6291070e7f038057ca319">close</a>();</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            }</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        }</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
+<div class="ttc" id="aclassnet_1_1socket_1_1stream_1_1_socket_context_html_a2a7bb4fab1a6291070e7f038057ca319"><div class="ttname"><a href="classnet_1_1socket_1_1stream_1_1_socket_context.html#a2a7bb4fab1a6291070e7f038057ca319">net::socket::stream::SocketContext::close</a></div><div class="ttdeci">void close()</div><div class="ttdef"><b>Definition:</b> <a href="net_2socket_2stream_2_socket_context_8cpp_source.html#l00058">SocketContext.cpp:58</a></div></div>
 <div class="ttc" id="aclassnet_1_1socket_1_1stream_1_1_socket_context_html_aa62f437fffcdea88263e87b6997ff85c"><div class="ttname"><a href="classnet_1_1socket_1_1stream_1_1_socket_context.html#aa62f437fffcdea88263e87b6997ff85c">net::socket::stream::SocketContext::sendToPeer</a></div><div class="ttdeci">void sendToPeer(const char *junk, std::size_t junkLen)</div><div class="ttdef"><b>Definition:</b> <a href="net_2socket_2stream_2_socket_context_8cpp_source.html#l00034">SocketContext.cpp:34</a></div></div>
 <div class="ttc" id="aclassweb_1_1http_1_1server_1_1_response_html_a27d7c297ceff0e46f6b64d5c6cf6f1d1"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_response.html#a27d7c297ceff0e46f6b64d5c6cf6f1d1">web::http::server::Response::contentSent</a></div><div class="ttdeci">std::size_t contentSent</div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2server_2_response_8h_source.html#l00080">Response.h:80</a></div></div>
 <div class="ttc" id="aclassweb_1_1http_1_1server_1_1_response_html_a31c1100bbbca1612c0f9f17d4d55d858"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_response.html#a31c1100bbbca1612c0f9f17d4d55d858">web::http::server::Response::socketContext</a></div><div class="ttdeci">SocketContext * socketContext</div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2server_2_response_8h_source.html#l00067">Response.h:67</a></div></div>
@@ -482,16 +483,15 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="aclassweb_1_1http_1_1server_1_1_response_html_a4fae387fd1d11b86260f4572bfebfce2"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_response.html#a4fae387fd1d11b86260f4572bfebfce2">web::http::server::Response::sendHeader</a></div><div class="ttdeci">void sendHeader()</div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2server_2_response_8cpp_source.html#l00177">Response.cpp:177</a></div></div>
 <div class="ttc" id="aclassweb_1_1http_1_1server_1_1_response_html_a6910a90430da0172d9c6ce12ea2d85cb"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_response.html#a6910a90430da0172d9c6ce12ea2d85cb">web::http::server::Response::sendHeaderInProgress</a></div><div class="ttdeci">bool sendHeaderInProgress</div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2server_2_response_8h_source.html#l00077">Response.h:77</a></div></div>
 <div class="ttc" id="aclassweb_1_1http_1_1server_1_1_response_html_aa3b44867b06641f5b396b432b5f498eb"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_response.html#aa3b44867b06641f5b396b432b5f498eb">web::http::server::Response::contentLength</a></div><div class="ttdeci">std::size_t contentLength</div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2server_2_response_8h_source.html#l00081">Response.h:81</a></div></div>
-<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_socket_context_html_a2ad61a6624a14517bdeae82a3a284d9b"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_socket_context.html#a2ad61a6624a14517bdeae82a3a284d9b">web::http::server::SocketContext::terminateConnection</a></div><div class="ttdeci">void terminateConnection() override</div><div class="ttdef"><b>Definition:</b> <a href="server_2_socket_context_8hpp_source.html#l00212">SocketContext.hpp:212</a></div></div>
 <div class="ttc" id="aclassweb_1_1http_1_1server_1_1_socket_context_html_af02d72d4d627ffea40a714dec9b128d7"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_socket_context.html#af02d72d4d627ffea40a714dec9b128d7">web::http::server::SocketContext::sendToPeerCompleted</a></div><div class="ttdeci">void sendToPeerCompleted() override</div><div class="ttdef"><b>Definition:</b> <a href="server_2_socket_context_8hpp_source.html#l00166">SocketContext.hpp:166</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="web_2http_2server_2_response_8h_source.html#l00081">contentLength</a>, <a class="el" href="web_2http_2server_2_response_8h_source.html#l00080">contentSent</a>, <a class="el" href="web_2http_2server_2_response_8h_source.html#l00078">headersSent</a>, <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00177">sendHeader()</a>, <a class="el" href="web_2http_2server_2_response_8h_source.html#l00077">sendHeaderInProgress</a>, <a class="el" href="net_2socket_2stream_2_socket_context_8cpp_source.html#l00034">net::socket::stream::SocketContext::sendToPeer()</a>, <a class="el" href="server_2_socket_context_8hpp_source.html#l00166">web::http::server::SocketContext&lt; RequestT, ResponseT &gt;::sendToPeerCompleted()</a>, <a class="el" href="web_2http_2server_2_response_8h_source.html#l00067">socketContext</a>, and <a class="el" href="server_2_socket_context_8hpp_source.html#l00212">web::http::server::SocketContext&lt; RequestT, ResponseT &gt;::terminateConnection()</a>.</p>
+<p class="reference">References <a class="el" href="net_2socket_2stream_2_socket_context_8cpp_source.html#l00058">net::socket::stream::SocketContext::close()</a>, <a class="el" href="web_2http_2server_2_response_8h_source.html#l00081">contentLength</a>, <a class="el" href="web_2http_2server_2_response_8h_source.html#l00080">contentSent</a>, <a class="el" href="web_2http_2server_2_response_8h_source.html#l00078">headersSent</a>, <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00177">sendHeader()</a>, <a class="el" href="web_2http_2server_2_response_8h_source.html#l00077">sendHeaderInProgress</a>, <a class="el" href="net_2socket_2stream_2_socket_context_8cpp_source.html#l00034">net::socket::stream::SocketContext::sendToPeer()</a>, <a class="el" href="server_2_socket_context_8hpp_source.html#l00166">web::http::server::SocketContext&lt; RequestT, ResponseT &gt;::sendToPeerCompleted()</a>, and <a class="el" href="web_2http_2server_2_response_8h_source.html#l00067">socketContext</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00062">enqueue()</a>, <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00207">receive()</a>, <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00066">send()</a>, and <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00177">sendHeader()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_a6bdff1ff4fb13a952df7bfefd0b87667_cgraph.svg" width="834" height="343"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_a6bdff1ff4fb13a952df7bfefd0b87667_cgraph.svg" width="862" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -537,7 +537,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_a9c5834911394dedb7faed2e52ceb7a1d_cgraph.svg" width="1020" height="343"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_a9c5834911394dedb7faed2e52ceb7a1d_cgraph.svg" width="1048" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -604,14 +604,14 @@ Here is the call graph for this function:</div>
 <p class="definition">Definition at line <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00215">215</a> of file <a class="el" href="web_2http_2server_2_response_8cpp_source.html">Response.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                                                    {</div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        PLOG(ERROR) &lt;&lt; <span class="stringliteral">&quot;Stream error: &quot;</span>;</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_response.html#a31c1100bbbca1612c0f9f17d4d55d858">socketContext</a>-&gt;<a class="code" href="classweb_1_1http_1_1server_1_1_socket_context.html#a2ad61a6624a14517bdeae82a3a284d9b">terminateConnection</a>();</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_response.html#a31c1100bbbca1612c0f9f17d4d55d858">socketContext</a>-&gt;<a class="code" href="classnet_1_1socket_1_1stream_1_1_socket_context.html#a2a7bb4fab1a6291070e7f038057ca319">close</a>();</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="web_2http_2server_2_response_8h_source.html#l00067">socketContext</a>, and <a class="el" href="server_2_socket_context_8hpp_source.html#l00212">web::http::server::SocketContext&lt; RequestT, ResponseT &gt;::terminateConnection()</a>.</p>
+<p class="reference">References <a class="el" href="net_2socket_2stream_2_socket_context_8cpp_source.html#l00058">net::socket::stream::SocketContext::close()</a>, and <a class="el" href="web_2http_2server_2_response_8h_source.html#l00067">socketContext</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_a3cafd9aa6d11129548b54007eab49543_cgraph.svg" width="603" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_a3cafd9aa6d11129548b54007eab49543_cgraph.svg" width="567" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -662,7 +662,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_a6693a2431a465a948bca9ba1593a1f20_cgraph.svg" width="1012" height="343"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_a6693a2431a465a948bca9ba1593a1f20_cgraph.svg" width="1040" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -762,7 +762,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_ad13e93ee083ee9e780a4478a86fdefec_cgraph.svg" width="1010" height="314"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_ad13e93ee083ee9e780a4478a86fdefec_cgraph.svg" width="1038" height="367"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -802,7 +802,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_a5128a20b904071c22a077b040c8ff138_cgraph.svg" width="1186" height="335"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_a5128a20b904071c22a077b040c8ff138_cgraph.svg" width="1214" height="367"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -869,7 +869,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_a4fae387fd1d11b86260f4572bfebfce2_cgraph.svg" width="856" height="271"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_a4fae387fd1d11b86260f4572bfebfce2_cgraph.svg" width="887" height="272"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -1114,7 +1114,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_afa792224c8bdb8edcb75514297931ece_cgraph.svg" width="1487" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_response_afa792224c8bdb8edcb75514297931ece_cgraph.svg" width="1515" height="780"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

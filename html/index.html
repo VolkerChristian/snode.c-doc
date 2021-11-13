@@ -219,7 +219,7 @@ Very Simple HTTP/S Web-Server for static HTML-Pages</h2>
 <div class="line">                                 {<span class="stringliteral">&quot;password&quot;</span>, KEYFPASS}});</div>
 <div class="line">    tlsApp.<a class="code" href="classexpress_1_1_router.html#adda0b8e1030d917bacb75b570d2a16a8">use</a>(<a class="code" href="classexpress_1_1middleware_1_1_static_middleware.html">express::middleware::StaticMiddleware</a>(SERVERROOT));</div>
 <div class="line">    </div>
-<div class="line">    legacyApp.<a class="code" href="classexpress_1_1_web_app_t.html#a282a201813c01eefcb85b3a3c5b74b85">listen</a>(8080, [](<span class="keywordtype">int</span> err) -&gt; <span class="keywordtype">void</span> {</div>
+<div class="line">    legacyApp.<a class="code" href="classexpress_1_1legacy_1_1_web_app.html#aae0c908f826a07746a1e409d929c0d60">listen</a>(8080, [](<span class="keywordtype">int</span> err) -&gt; <span class="keywordtype">void</span> {</div>
 <div class="line">        <span class="keywordflow">if</span> (err != 0) {</div>
 <div class="line">            PLOG(FATAL) &lt;&lt; <span class="stringliteral">&quot;listen on port 8080&quot;</span>;</div>
 <div class="line">        } <span class="keywordflow">else</span> {</div>
@@ -241,8 +241,8 @@ Very Simple HTTP/S Web-Server for static HTML-Pages</h2>
 <div class="ttc" id="aclassexpress_1_1_router_html_adda0b8e1030d917bacb75b570d2a16a8"><div class="ttname"><a href="classexpress_1_1_router.html#adda0b8e1030d917bacb75b570d2a16a8">express::Router::use</a></div><div class="ttdeci">Router &amp; use(const std::string &amp;relativeMountPath, const std::function&lt; void(Request &amp;req, Response &amp;res)&gt; &amp;lambda)</div><div class="ttdef"><b>Definition:</b> <a href="_router_8cpp_source.html#l00340">Router.cpp:340</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_web_app_html_a0a01439a0cc8dfc86ed14f1094826b7e"><div class="ttname"><a href="classexpress_1_1_web_app.html#a0a01439a0cc8dfc86ed14f1094826b7e">express::WebApp::init</a></div><div class="ttdeci">static void init(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_8cpp_source.html#l00035">WebApp.cpp:35</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_web_app_html_a85d9fab4fae0881f8484e07c58f3157a"><div class="ttname"><a href="classexpress_1_1_web_app.html#a85d9fab4fae0881f8484e07c58f3157a">express::WebApp::start</a></div><div class="ttdeci">static int start()</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_8cpp_source.html#l00040">WebApp.cpp:40</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_web_app_t_html_a282a201813c01eefcb85b3a3c5b74b85"><div class="ttname"><a href="classexpress_1_1_web_app_t.html#a282a201813c01eefcb85b3a3c5b74b85">express::WebAppT::listen</a></div><div class="ttdeci">void listen(uint16_t port, const std::function&lt; void(int err)&gt; &amp;onError=nullptr) override</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_t_8h_source.html#l00081">WebAppT.h:81</a></div></div>
 <div class="ttc" id="aclassexpress_1_1legacy_1_1_web_app_html"><div class="ttname"><a href="classexpress_1_1legacy_1_1_web_app.html">express::legacy::WebApp</a></div><div class="ttdef"><b>Definition:</b> <a href="legacy_2_web_app_8h_source.html#l00031">WebApp.h:31</a></div></div>
+<div class="ttc" id="aclassexpress_1_1legacy_1_1_web_app_html_aae0c908f826a07746a1e409d929c0d60"><div class="ttname"><a href="classexpress_1_1legacy_1_1_web_app.html#aae0c908f826a07746a1e409d929c0d60">express::legacy::WebApp::listen</a></div><div class="ttdeci">void listen(uint16_t port, const std::function&lt; void(int err)&gt; &amp;onError=nullptr)</div><div class="ttdef"><b>Definition:</b> <a href="legacy_2_web_app_8h_source.html#l00035">WebApp.h:35</a></div></div>
 <div class="ttc" id="aclassexpress_1_1middleware_1_1_static_middleware_html"><div class="ttname"><a href="classexpress_1_1middleware_1_1_static_middleware.html">express::middleware::StaticMiddleware</a></div><div class="ttdef"><b>Definition:</b> <a href="_static_middleware_8h_source.html#l00034">StaticMiddleware.h:34</a></div></div>
 <div class="ttc" id="aclassexpress_1_1tls_1_1_web_app_html"><div class="ttname"><a href="classexpress_1_1tls_1_1_web_app.html">express::tls::WebApp</a></div><div class="ttdef"><b>Definition:</b> <a href="tls_2_web_app_8h_source.html#l00031">WebApp.h:31</a></div></div>
 <div class="ttc" id="alegacy_2_web_app_8h_html"><div class="ttname"><a href="legacy_2_web_app_8h.html">WebApp.h</a></div></div>
@@ -318,7 +318,7 @@ Receive Data by HTTP-Post Request</h2>
 <div class="line">                                    {<span class="stringliteral">&quot;password&quot;</span>, KEYFPASS}});</div>
 <div class="line">    tlsWebApp.<a class="code" href="classexpress_1_1_router.html#adda0b8e1030d917bacb75b570d2a16a8">use</a>(legacyApp);</div>
 <div class="line"> </div>
-<div class="line">    legacyApp.<a class="code" href="classexpress_1_1_web_app_t.html#a282a201813c01eefcb85b3a3c5b74b85">listen</a>(8080, [](<span class="keywordtype">int</span> err) {</div>
+<div class="line">    legacyApp.<a class="code" href="classexpress_1_1legacy_1_1_web_app.html#aae0c908f826a07746a1e409d929c0d60">listen</a>(8080, [](<span class="keywordtype">int</span> err) {</div>
 <div class="line">        <span class="keywordflow">if</span> (err != 0) {</div>
 <div class="line">            PLOG(FATAL) &lt;&lt; <span class="stringliteral">&quot;listen on port 8080&quot;</span>;</div>
 <div class="line">        } <span class="keywordflow">else</span> {</div>
@@ -369,7 +369,7 @@ Extract Server and Client Information (host name, IP, port, SSL/TLS information)
 <div class="line"> </div>
 <div class="line">    legacy::WebApp legacyApp(getRouter());</div>
 <div class="line"> </div>
-<div class="line">    legacyApp.<a class="code" href="classexpress_1_1_web_app_t.html#a282a201813c01eefcb85b3a3c5b74b85">listen</a>(8080, [](<span class="keywordtype">int</span> err) {</div>
+<div class="line">    legacyApp.<a class="code" href="classexpress_1_1legacy_1_1_web_app.html#aae0c908f826a07746a1e409d929c0d60">listen</a>(8080, [](<span class="keywordtype">int</span> err) {</div>
 <div class="line">        <span class="keywordflow">if</span> (err != 0) {</div>
 <div class="line">            PLOG(FATAL) &lt;&lt; <span class="stringliteral">&quot;listen on port 8080&quot;</span>;</div>
 <div class="line">        } <span class="keywordflow">else</span> {</div>

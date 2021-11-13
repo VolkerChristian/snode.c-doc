@@ -2,8 +2,9 @@ var annotated_dup =
 [
     [ "express", "namespaceexpress.html", [
       [ "legacy", "namespaceexpress_1_1legacy.html", [
-        [ "WebApp", "classexpress_1_1legacy_1_1_web_app.html", null ],
-        [ "WebApp6", "classexpress_1_1legacy_1_1_web_app6.html", null ]
+        [ "WebApp", "classexpress_1_1legacy_1_1_web_app.html", "classexpress_1_1legacy_1_1_web_app" ],
+        [ "WebApp6", "classexpress_1_1legacy_1_1_web_app6.html", "classexpress_1_1legacy_1_1_web_app6" ],
+        [ "WebAppRfComm", "classexpress_1_1legacy_1_1_web_app_rf_comm.html", "classexpress_1_1legacy_1_1_web_app_rf_comm" ]
       ] ],
       [ "middleware", "namespaceexpress_1_1middleware.html", [
         [ "JsonMiddleware", "classexpress_1_1middleware_1_1_json_middleware.html", "classexpress_1_1middleware_1_1_json_middleware" ],
@@ -11,8 +12,9 @@ var annotated_dup =
         [ "VHost", "classexpress_1_1middleware_1_1_v_host.html", "classexpress_1_1middleware_1_1_v_host" ]
       ] ],
       [ "tls", "namespaceexpress_1_1tls.html", [
-        [ "WebApp", "classexpress_1_1tls_1_1_web_app.html", null ],
-        [ "WebApp6", "classexpress_1_1tls_1_1_web_app6.html", null ]
+        [ "WebApp", "classexpress_1_1tls_1_1_web_app.html", "classexpress_1_1tls_1_1_web_app" ],
+        [ "WebApp6", "classexpress_1_1tls_1_1_web_app6.html", "classexpress_1_1tls_1_1_web_app6" ],
+        [ "WebAppRfComm", "classexpress_1_1tls_1_1_web_app_rf_comm.html", "classexpress_1_1tls_1_1_web_app_rf_comm" ]
       ] ],
       [ "Request", "classexpress_1_1_request.html", "classexpress_1_1_request" ],
       [ "Response", "classexpress_1_1_response.html", "classexpress_1_1_response" ],
@@ -43,8 +45,8 @@ var annotated_dup =
           ] ],
           [ "l2cap", "namespacenet_1_1socket_1_1bluetooth_1_1l2cap.html", [
             [ "Socket", "classnet_1_1socket_1_1bluetooth_1_1l2cap_1_1_socket.html", "classnet_1_1socket_1_1bluetooth_1_1l2cap_1_1_socket" ],
-            [ "SocketClient", "classnet_1_1socket_1_1bluetooth_1_1l2cap_1_1_socket_client.html", null ],
-            [ "SocketServer", "classnet_1_1socket_1_1bluetooth_1_1l2cap_1_1_socket_server.html", null ]
+            [ "SocketClient", "classnet_1_1socket_1_1bluetooth_1_1l2cap_1_1_socket_client.html", "classnet_1_1socket_1_1bluetooth_1_1l2cap_1_1_socket_client" ],
+            [ "SocketServer", "classnet_1_1socket_1_1bluetooth_1_1l2cap_1_1_socket_server.html", "classnet_1_1socket_1_1bluetooth_1_1l2cap_1_1_socket_server" ]
           ] ],
           [ "rfcomm", "namespacenet_1_1socket_1_1bluetooth_1_1rfcomm.html", [
             [ "legacy", "namespacenet_1_1socket_1_1bluetooth_1_1rfcomm_1_1legacy.html", [
@@ -55,7 +57,9 @@ var annotated_dup =
               [ "SocketClient", "classnet_1_1socket_1_1bluetooth_1_1rfcomm_1_1tls_1_1_socket_client.html", null ],
               [ "SocketServer", "classnet_1_1socket_1_1bluetooth_1_1rfcomm_1_1tls_1_1_socket_server.html", null ]
             ] ],
-            [ "Socket", "classnet_1_1socket_1_1bluetooth_1_1rfcomm_1_1_socket.html", "classnet_1_1socket_1_1bluetooth_1_1rfcomm_1_1_socket" ]
+            [ "Socket", "classnet_1_1socket_1_1bluetooth_1_1rfcomm_1_1_socket.html", "classnet_1_1socket_1_1bluetooth_1_1rfcomm_1_1_socket" ],
+            [ "SocketClient", "classnet_1_1socket_1_1bluetooth_1_1rfcomm_1_1_socket_client.html", "classnet_1_1socket_1_1bluetooth_1_1rfcomm_1_1_socket_client" ],
+            [ "SocketServer", "classnet_1_1socket_1_1bluetooth_1_1rfcomm_1_1_socket_server.html", "classnet_1_1socket_1_1bluetooth_1_1rfcomm_1_1_socket_server" ]
           ] ]
         ] ],
         [ "ip", "namespacenet_1_1socket_1_1ip.html", [
@@ -79,7 +83,9 @@ var annotated_dup =
                 [ "SocketClient", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv4_1_1tls_1_1_socket_client.html", null ],
                 [ "SocketServer", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv4_1_1tls_1_1_socket_server.html", null ]
               ] ],
-              [ "Socket", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv4_1_1_socket.html", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv4_1_1_socket" ]
+              [ "Socket", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv4_1_1_socket.html", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv4_1_1_socket" ],
+              [ "SocketClient", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv4_1_1_socket_client.html", null ],
+              [ "SocketServer", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv4_1_1_socket_server.html", null ]
             ] ],
             [ "ipv6", "namespacenet_1_1socket_1_1ip_1_1tcp_1_1ipv6.html", [
               [ "legacy", "namespacenet_1_1socket_1_1ip_1_1tcp_1_1ipv6_1_1legacy.html", [
@@ -90,37 +96,41 @@ var annotated_dup =
                 [ "SocketClient", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv6_1_1tls_1_1_socket_client.html", null ],
                 [ "SocketServer", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv6_1_1tls_1_1_socket_server.html", null ]
               ] ],
-              [ "Socket", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv6_1_1_socket.html", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv6_1_1_socket" ]
-            ] ]
+              [ "Socket", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv6_1_1_socket.html", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv6_1_1_socket" ],
+              [ "SocketClient", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv6_1_1_socket_client.html", null ],
+              [ "SocketServer", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv6_1_1_socket_server.html", null ]
+            ] ],
+            [ "SocketClient", "classnet_1_1socket_1_1ip_1_1tcp_1_1_socket_client.html", "classnet_1_1socket_1_1ip_1_1tcp_1_1_socket_client" ],
+            [ "SocketServer", "classnet_1_1socket_1_1ip_1_1tcp_1_1_socket_server.html", "classnet_1_1socket_1_1ip_1_1tcp_1_1_socket_server" ]
           ] ]
         ] ],
         [ "stream", "namespacenet_1_1socket_1_1stream.html", [
           [ "legacy", "namespacenet_1_1socket_1_1stream_1_1legacy.html", [
+            [ "SocketAcceptor", "classnet_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html", "classnet_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor" ],
             [ "SocketClient", "classnet_1_1socket_1_1stream_1_1legacy_1_1_socket_client.html", null ],
             [ "SocketConnection", "classnet_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html", "classnet_1_1socket_1_1stream_1_1legacy_1_1_socket_connection" ],
             [ "SocketConnector", "classnet_1_1socket_1_1stream_1_1legacy_1_1_socket_connector.html", "classnet_1_1socket_1_1stream_1_1legacy_1_1_socket_connector" ],
-            [ "SocketListener", "classnet_1_1socket_1_1stream_1_1legacy_1_1_socket_listener.html", "classnet_1_1socket_1_1stream_1_1legacy_1_1_socket_listener" ],
             [ "SocketReader", "classnet_1_1socket_1_1stream_1_1legacy_1_1_socket_reader.html", "classnet_1_1socket_1_1stream_1_1legacy_1_1_socket_reader" ],
             [ "SocketServer", "classnet_1_1socket_1_1stream_1_1legacy_1_1_socket_server.html", null ],
             [ "SocketWriter", "classnet_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html", "classnet_1_1socket_1_1stream_1_1legacy_1_1_socket_writer" ]
           ] ],
           [ "tls", "namespacenet_1_1socket_1_1stream_1_1tls.html", [
+            [ "SocketAcceptor", "classnet_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html", "classnet_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor" ],
             [ "SocketClient", "classnet_1_1socket_1_1stream_1_1tls_1_1_socket_client.html", null ],
             [ "SocketConnection", "classnet_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html", "classnet_1_1socket_1_1stream_1_1tls_1_1_socket_connection" ],
             [ "SocketConnector", "classnet_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html", "classnet_1_1socket_1_1stream_1_1tls_1_1_socket_connector" ],
-            [ "SocketListener", "classnet_1_1socket_1_1stream_1_1tls_1_1_socket_listener.html", "classnet_1_1socket_1_1stream_1_1tls_1_1_socket_listener" ],
             [ "SocketReader", "classnet_1_1socket_1_1stream_1_1tls_1_1_socket_reader.html", "classnet_1_1socket_1_1stream_1_1tls_1_1_socket_reader" ],
             [ "SocketServer", "classnet_1_1socket_1_1stream_1_1tls_1_1_socket_server.html", null ],
             [ "SocketWriter", "classnet_1_1socket_1_1stream_1_1tls_1_1_socket_writer.html", "classnet_1_1socket_1_1stream_1_1tls_1_1_socket_writer" ],
             [ "TLSHandshake", "classnet_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html", "classnet_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake" ]
           ] ],
+          [ "SocketAcceptor", "classnet_1_1socket_1_1stream_1_1_socket_acceptor.html", "classnet_1_1socket_1_1stream_1_1_socket_acceptor" ],
           [ "SocketClient", "classnet_1_1socket_1_1stream_1_1_socket_client.html", "classnet_1_1socket_1_1stream_1_1_socket_client" ],
           [ "SocketConnection", "classnet_1_1socket_1_1stream_1_1_socket_connection.html", "classnet_1_1socket_1_1stream_1_1_socket_connection" ],
           [ "SocketConnectionT", "classnet_1_1socket_1_1stream_1_1_socket_connection_t.html", "classnet_1_1socket_1_1stream_1_1_socket_connection_t" ],
           [ "SocketConnector", "classnet_1_1socket_1_1stream_1_1_socket_connector.html", "classnet_1_1socket_1_1stream_1_1_socket_connector" ],
           [ "SocketContext", "classnet_1_1socket_1_1stream_1_1_socket_context.html", "classnet_1_1socket_1_1stream_1_1_socket_context" ],
           [ "SocketContextFactory", "classnet_1_1socket_1_1stream_1_1_socket_context_factory.html", "classnet_1_1socket_1_1stream_1_1_socket_context_factory" ],
-          [ "SocketListener", "classnet_1_1socket_1_1stream_1_1_socket_listener.html", "classnet_1_1socket_1_1stream_1_1_socket_listener" ],
           [ "SocketReader", "classnet_1_1socket_1_1stream_1_1_socket_reader.html", "classnet_1_1socket_1_1stream_1_1_socket_reader" ],
           [ "SocketServer", "classnet_1_1socket_1_1stream_1_1_socket_server.html", "classnet_1_1socket_1_1stream_1_1_socket_server" ],
           [ "SocketWriter", "classnet_1_1socket_1_1stream_1_1_socket_writer.html", "classnet_1_1socket_1_1stream_1_1_socket_writer" ]
@@ -157,12 +167,14 @@ var annotated_dup =
       [ "http", "namespaceweb_1_1http.html", [
         [ "client", "namespaceweb_1_1http_1_1client.html", [
           [ "legacy", "namespaceweb_1_1http_1_1client_1_1legacy.html", [
-            [ "Client", "classweb_1_1http_1_1client_1_1legacy_1_1_client.html", null ],
-            [ "Client6", "classweb_1_1http_1_1client_1_1legacy_1_1_client6.html", null ]
+            [ "Client", "classweb_1_1http_1_1client_1_1legacy_1_1_client.html", "classweb_1_1http_1_1client_1_1legacy_1_1_client" ],
+            [ "Client6", "classweb_1_1http_1_1client_1_1legacy_1_1_client6.html", "classweb_1_1http_1_1client_1_1legacy_1_1_client6" ],
+            [ "ClientRfComm", "classweb_1_1http_1_1client_1_1legacy_1_1_client_rf_comm.html", "classweb_1_1http_1_1client_1_1legacy_1_1_client_rf_comm" ]
           ] ],
           [ "tls", "namespaceweb_1_1http_1_1client_1_1tls.html", [
-            [ "Client", "classweb_1_1http_1_1client_1_1tls_1_1_client.html", null ],
-            [ "Client6", "classweb_1_1http_1_1client_1_1tls_1_1_client6.html", null ]
+            [ "Client", "classweb_1_1http_1_1client_1_1tls_1_1_client.html", "classweb_1_1http_1_1client_1_1tls_1_1_client" ],
+            [ "Client6", "classweb_1_1http_1_1client_1_1tls_1_1_client6.html", "classweb_1_1http_1_1client_1_1tls_1_1_client6" ],
+            [ "ClientRfComm", "classweb_1_1http_1_1client_1_1tls_1_1_client_rf_comm.html", "classweb_1_1http_1_1client_1_1tls_1_1_client_rf_comm" ]
           ] ],
           [ "Client", "classweb_1_1http_1_1client_1_1_client.html", "classweb_1_1http_1_1client_1_1_client" ],
           [ "Request", "classweb_1_1http_1_1client_1_1_request.html", "classweb_1_1http_1_1client_1_1_request" ],
@@ -176,12 +188,14 @@ var annotated_dup =
         ] ],
         [ "server", "namespaceweb_1_1http_1_1server.html", [
           [ "legacy", "namespaceweb_1_1http_1_1server_1_1legacy.html", [
-            [ "Server", "classweb_1_1http_1_1server_1_1legacy_1_1_server.html", null ],
-            [ "Server6", "classweb_1_1http_1_1server_1_1legacy_1_1_server6.html", null ]
+            [ "Server", "classweb_1_1http_1_1server_1_1legacy_1_1_server.html", "classweb_1_1http_1_1server_1_1legacy_1_1_server" ],
+            [ "Server6", "classweb_1_1http_1_1server_1_1legacy_1_1_server6.html", "classweb_1_1http_1_1server_1_1legacy_1_1_server6" ],
+            [ "ServerRfComm", "classweb_1_1http_1_1server_1_1legacy_1_1_server_rf_comm.html", "classweb_1_1http_1_1server_1_1legacy_1_1_server_rf_comm" ]
           ] ],
           [ "tls", "namespaceweb_1_1http_1_1server_1_1tls.html", [
-            [ "Server", "classweb_1_1http_1_1server_1_1tls_1_1_server.html", null ],
-            [ "Server6", "classweb_1_1http_1_1server_1_1tls_1_1_server6.html", null ]
+            [ "Server", "classweb_1_1http_1_1server_1_1tls_1_1_server.html", "classweb_1_1http_1_1server_1_1tls_1_1_server" ],
+            [ "Server6", "classweb_1_1http_1_1server_1_1tls_1_1_server6.html", "classweb_1_1http_1_1server_1_1tls_1_1_server6" ],
+            [ "ServerRfComm", "classweb_1_1http_1_1server_1_1tls_1_1_server_rf_comm.html", "classweb_1_1http_1_1server_1_1tls_1_1_server_rf_comm" ]
           ] ],
           [ "Request", "classweb_1_1http_1_1server_1_1_request.html", "classweb_1_1http_1_1server_1_1_request" ],
           [ "RequestParser", "classweb_1_1http_1_1server_1_1_request_parser.html", "classweb_1_1http_1_1server_1_1_request_parser" ],

@@ -122,8 +122,8 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 , <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory.html#a541beb533a38e8d88f78b4020f4cd8f6">web::http::SocketContextUpgradeFactory&lt; RequestT, ResponseT &gt;</a>
 </li>
 <li>destruct()
-: <a class="el" href="classnet_1_1socket_1_1stream_1_1_socket_connector.html#a83ac35543468dbfa1501e12ae42492e2">net::socket::stream::SocketConnector&lt; SocketConnectionT &gt;</a>
-, <a class="el" href="classnet_1_1socket_1_1stream_1_1_socket_listener.html#aa49e2120be428c40170df2777137e653">net::socket::stream::SocketListener&lt; SocketConnectionT &gt;</a>
+: <a class="el" href="classnet_1_1socket_1_1stream_1_1_socket_acceptor.html#a3fa0813093c037d0df5dc3d694410376">net::socket::stream::SocketAcceptor&lt; SocketConnectionT &gt;</a>
+, <a class="el" href="classnet_1_1socket_1_1stream_1_1_socket_connector.html#a83ac35543468dbfa1501e12ae42492e2">net::socket::stream::SocketConnector&lt; SocketConnectionT &gt;</a>
 </li>
 <li>digest
 : <a class="el" href="class_s_h_a1.html#a7ec3cf1b2d85df7189ab54c2a620b390">SHA1</a>
@@ -156,7 +156,7 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 , <a class="el" href="classexpress_1_1_dispatcher.html#a2289a1e1f8c519172503e098f1bbfd3e">express::Dispatcher</a>
 , <a class="el" href="classexpress_1_1_middleware_dispatcher.html#a161f72f9562625f573fff81b6000e57d">express::MiddlewareDispatcher</a>
 , <a class="el" href="classexpress_1_1_route.html#aa01d270dd2ccd5b8b62e9ddc973d1b5e">express::Route</a>
-, <a class="el" href="classexpress_1_1_router_dispatcher.html#a22c891e3bad167739520868866fb101d">express::RouterDispatcher</a>
+, <a class="el" href="classexpress_1_1_router_dispatcher.html#a4e950e97d679cdcca4e3cd19e3e7d6be">express::RouterDispatcher</a>
 , <a class="el" href="classnet_1_1timer_1_1_interval_timer.html#a79eedf7f1ad9a85b9148d944a22af916">net::timer::IntervalTimer</a>
 , <a class="el" href="classnet_1_1timer_1_1_singleshot_timer.html#a9677ab72af238560395a4c12ceb700df">net::timer::SingleshotTimer</a>
 , <a class="el" href="classnet_1_1_timer_event_dispatcher.html#aeb3ab46e344b2a94c6348b58c747d9c8">net::TimerEventDispatcher</a>
@@ -212,6 +212,11 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 </li>
 <li>dontClose()
 : <a class="el" href="classnet_1_1_descriptor.html#ad77c10a1cfb87d6d1c98582e525ab440">net::Descriptor</a>
+</li>
+<li>doShutdown()
+: <a class="el" href="classnet_1_1socket_1_1stream_1_1_socket_reader.html#a3ecbda9d5a8d32add3841ab2b1abf142">net::socket::stream::SocketReader&lt; SocketT &gt;</a>
+, <a class="el" href="classnet_1_1socket_1_1stream_1_1_socket_writer.html#a0efecb06626787e35024e0eff145cec8">net::socket::stream::SocketWriter&lt; SocketT &gt;</a>
+, <a class="el" href="classnet_1_1socket_1_1stream_1_1tls_1_1_socket_writer.html#a04a0a4dda5356d0d47b58d7c13fcbfd5">net::socket::stream::tls::SocketWriter&lt; SocketT &gt;</a>
 </li>
 <li>doSSLHandshake()
 : <a class="el" href="classnet_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a77dd7166d035208fb759b69ff14fa918">net::socket::stream::tls::SocketConnection&lt; SocketT &gt;</a>

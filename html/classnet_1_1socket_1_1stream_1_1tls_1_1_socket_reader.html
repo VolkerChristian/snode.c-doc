@@ -95,13 +95,13 @@ $(document).ready(function(){initNavTree('classnet_1_1socket_1_1stream_1_1tls_1_
 <div class="dynheader">
 Inheritance diagram for net::socket::stream::tls::SocketReader&lt; SocketT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1socket_1_1stream_1_1tls_1_1_socket_reader__inherit__graph.svg" width="302" height="2087"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1socket_1_1stream_1_1tls_1_1_socket_reader__inherit__graph.svg" width="302" height="2102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for net::socket::stream::tls::SocketReader&lt; SocketT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1socket_1_1stream_1_1tls_1_1_socket_reader__coll__graph.svg" width="463" height="1960"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1socket_1_1stream_1_1tls_1_1_socket_reader__coll__graph.svg" width="463" height="1975"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -116,6 +116,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:afb11af35283831bcc44ad36e97478109 inherit pro_methods_classnet_1_1socket_1_1stream_1_1_socket_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d7242d28757dd994763e2a9052e16aa inherit pro_methods_classnet_1_1socket_1_1stream_1_1_socket_reader"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1socket_1_1stream_1_1_socket_reader.html#a9d7242d28757dd994763e2a9052e16aa">~SocketReader</a> ()=default</td></tr>
 <tr class="separator:a9d7242d28757dd994763e2a9052e16aa inherit pro_methods_classnet_1_1socket_1_1stream_1_1_socket_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ecbda9d5a8d32add3841ab2b1abf142 inherit pro_methods_classnet_1_1socket_1_1stream_1_1_socket_reader"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1socket_1_1stream_1_1_socket_reader.html#a3ecbda9d5a8d32add3841ab2b1abf142">doShutdown</a> ()</td></tr>
+<tr class="separator:a3ecbda9d5a8d32add3841ab2b1abf142 inherit pro_methods_classnet_1_1socket_1_1stream_1_1_socket_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa1c473218f5caf4affc4060f475f2d9 inherit pro_methods_classnet_1_1socket_1_1stream_1_1_socket_reader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1socket_1_1stream_1_1_socket_reader.html#afa1c473218f5caf4affc4060f475f2d9">shutdown</a> ()</td></tr>
 <tr class="separator:afa1c473218f5caf4affc4060f475f2d9 inherit pro_methods_classnet_1_1socket_1_1stream_1_1_socket_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca1ec8d986417fe650281fc86641d8a0 inherit pro_methods_classnet_1_1socket_1_1stream_1_1_socket_reader"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1socket_1_1stream_1_1_socket_reader.html#aca1ec8d986417fe650281fc86641d8a0">readFromPeer</a> (char *junk, std::size_t junkLen)</td></tr>
@@ -212,10 +214,10 @@ template&lt;typename SocketT &gt; </div>
 <div class="fragment"><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                                                {</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <span class="keywordflow">return</span> SSL_pending(<a class="code" href="classnet_1_1socket_1_1stream_1_1tls_1_1_socket_reader.html#a772a3826a50633705c006e12fe4edf7b">ssl</a>) || <a class="code" href="classnet_1_1socket_1_1stream_1_1_socket_reader.html#aaf53865e3a54e3f24827c1acaff40fdb">net::socket::stream::SocketReader&lt;SocketT&gt;::continueReadImmediately</a>();</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        }</div>
-<div class="ttc" id="aclassnet_1_1socket_1_1stream_1_1_socket_reader_html_aaf53865e3a54e3f24827c1acaff40fdb"><div class="ttname"><a href="classnet_1_1socket_1_1stream_1_1_socket_reader.html#aaf53865e3a54e3f24827c1acaff40fdb">net::socket::stream::SocketReader::continueReadImmediately</a></div><div class="ttdeci">bool continueReadImmediately() override</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00104">SocketReader.h:104</a></div></div>
+<div class="ttc" id="aclassnet_1_1socket_1_1stream_1_1_socket_reader_html_aaf53865e3a54e3f24827c1acaff40fdb"><div class="ttname"><a href="classnet_1_1socket_1_1stream_1_1_socket_reader.html#aaf53865e3a54e3f24827c1acaff40fdb">net::socket::stream::SocketReader::continueReadImmediately</a></div><div class="ttdeci">bool continueReadImmediately() override</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00108">SocketReader.h:108</a></div></div>
 <div class="ttc" id="aclassnet_1_1socket_1_1stream_1_1tls_1_1_socket_reader_html_a772a3826a50633705c006e12fe4edf7b"><div class="ttname"><a href="classnet_1_1socket_1_1stream_1_1tls_1_1_socket_reader.html#a772a3826a50633705c006e12fe4edf7b">net::socket::stream::tls::SocketReader::ssl</a></div><div class="ttdeci">SSL * ssl</div><div class="ttdef"><b>Definition:</b> <a href="tls_2_socket_reader_8h_source.html#l00121">SocketReader.h:121</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_socket_reader_8h_source.html#l00104">net::socket::stream::SocketReader&lt; SocketT &gt;::continueReadImmediately()</a>, and <a class="el" href="tls_2_socket_reader_8h_source.html#l00121">net::socket::stream::tls::SocketReader&lt; SocketT &gt;::ssl</a>.</p>
+<p class="reference">References <a class="el" href="_socket_reader_8h_source.html#l00108">net::socket::stream::SocketReader&lt; SocketT &gt;::continueReadImmediately()</a>, and <a class="el" href="tls_2_socket_reader_8h_source.html#l00121">net::socket::stream::tls::SocketReader&lt; SocketT &gt;::ssl</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

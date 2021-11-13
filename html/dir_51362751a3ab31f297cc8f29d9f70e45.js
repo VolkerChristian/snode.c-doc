@@ -5,5 +5,11 @@ var dir_51362751a3ab31f297cc8f29d9f70e45 =
     [ "Socket.cpp", "socket_2ip_2tcp_2ipv4_2_socket_8cpp.html", null ],
     [ "Socket.h", "socket_2ip_2tcp_2ipv4_2_socket_8h.html", [
       [ "Socket", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv4_1_1_socket.html", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv4_1_1_socket" ]
+    ] ],
+    [ "SocketClient.h", "ip_2tcp_2ipv4_2_socket_client_8h.html", [
+      [ "SocketClient", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv4_1_1_socket_client.html", null ]
+    ] ],
+    [ "SocketServer.h", "ip_2tcp_2ipv4_2_socket_server_8h.html", [
+      [ "SocketServer", "classnet_1_1socket_1_1ip_1_1tcp_1_1ipv4_1_1_socket_server.html", null ]
     ] ]
 ];

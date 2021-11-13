@@ -18,7 +18,7 @@ var dir_427baa8a9a5be237f298d4545d0d1ce2 =
       [ "DynamicLoader", "classnet_1_1_dynamic_loader.html", "classnet_1_1_dynamic_loader" ],
       [ "Library", "structnet_1_1_dynamic_loader_1_1_library.html", "structnet_1_1_dynamic_loader_1_1_library" ]
     ] ],
-    [ "EventDispatcher.cpp", "_event_dispatcher_8cpp.html", "_event_dispatcher_8cpp" ],
+    [ "EventDispatcher.cpp", "_event_dispatcher_8cpp.html", null ],
     [ "EventDispatcher.h", "_event_dispatcher_8h.html", [
       [ "EventDispatcher", "classnet_1_1_event_dispatcher.html", "classnet_1_1_event_dispatcher" ],
       [ "FdSet", "classnet_1_1_event_dispatcher_1_1_fd_set.html", "classnet_1_1_event_dispatcher_1_1_fd_set" ],

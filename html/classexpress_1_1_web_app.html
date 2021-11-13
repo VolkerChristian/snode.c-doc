@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('classexpress_1_1_web_app.html',''); in
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classexpress_1_1_web_app-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">express::WebApp Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">express::WebApp Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -95,13 +95,13 @@ $(document).ready(function(){initNavTree('classexpress_1_1_web_app.html',''); in
 <div class="dynheader">
 Inheritance diagram for express::WebApp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classexpress_1_1_web_app__inherit__graph.svg" width="1084" height="1166"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classexpress_1_1_web_app__inherit__graph.svg" width="1563" height="1136"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for express::WebApp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classexpress_1_1_web_app__coll__graph.svg" width="140" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classexpress_1_1_web_app__coll__graph.svg" width="140" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -118,10 +118,6 @@ Static Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:ab9ca336adfe5dc11fbd121cb9165b472"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app.html#ab9ca336adfe5dc11fbd121cb9165b472">WebApp</a> (const <a class="el" href="classexpress_1_1_router.html">Router</a> &amp;router)</td></tr>
 <tr class="separator:ab9ca336adfe5dc11fbd121cb9165b472"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cf6ee371305d4e9ec1cba051f896f8e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app.html#a4cf6ee371305d4e9ec1cba051f896f8e">listen</a> (uint16_t port, const std::function&lt; void(int)&gt; &amp;onError=nullptr)=0</td></tr>
-<tr class="separator:a4cf6ee371305d4e9ec1cba051f896f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6ef82d2c1cc6c94284334059427e8e7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app.html#ad6ef82d2c1cc6c94284334059427e8e7">listen</a> (const std::string &amp;host, uint16_t port, const std::function&lt; void(int err)&gt; &amp;onError=nullptr)=0</td></tr>
-<tr class="separator:ad6ef82d2c1cc6c94284334059427e8e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -275,7 +271,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_web_app_8h_source.html#l00034">34</a> of file <a class="el" href="_web_app_8h_source.html">WebApp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_web_app_8h_source.html#l00030">30</a> of file <a class="el" href="_web_app_8h_source.html">WebApp.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab9ca336adfe5dc11fbd121cb9165b472"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab9ca336adfe5dc11fbd121cb9165b472">&#9670;&nbsp;</a></span>WebApp()</h2>
@@ -348,96 +344,16 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="classnet_1_1_s_node_c.html#a9a0f98e271ec697af1fb18157f85e001">net::SNodeC::init</a>(argc, argv);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="classexpress_1_1_web_app.html#a7c2ead7be74c0320677873b211851aec">WebApp::initialized</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
-<div class="ttc" id="aclassexpress_1_1_web_app_html_a7c2ead7be74c0320677873b211851aec"><div class="ttname"><a href="classexpress_1_1_web_app.html#a7c2ead7be74c0320677873b211851aec">express::WebApp::initialized</a></div><div class="ttdeci">static bool initialized</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_8h_source.html#l00047">WebApp.h:47</a></div></div>
+<div class="ttc" id="aclassexpress_1_1_web_app_html_a7c2ead7be74c0320677873b211851aec"><div class="ttname"><a href="classexpress_1_1_web_app.html#a7c2ead7be74c0320677873b211851aec">express::WebApp::initialized</a></div><div class="ttdeci">static bool initialized</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_8h_source.html#l00040">WebApp.h:40</a></div></div>
 <div class="ttc" id="aclassnet_1_1_s_node_c_html_a9a0f98e271ec697af1fb18157f85e001"><div class="ttname"><a href="classnet_1_1_s_node_c.html#a9a0f98e271ec697af1fb18157f85e001">net::SNodeC::init</a></div><div class="ttdeci">static void init(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> <a href="_s_node_c_8cpp_source.html#l00030">SNodeC.cpp:30</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_s_node_c_8cpp_source.html#l00030">net::SNodeC::init()</a>, and <a class="el" href="_web_app_8h_source.html#l00047">initialized</a>.</p>
+<p class="reference">References <a class="el" href="_s_node_c_8cpp_source.html#l00030">net::SNodeC::init()</a>, and <a class="el" href="_web_app_8h_source.html#l00040">initialized</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classexpress_1_1_web_app_a0a01439a0cc8dfc86ed14f1094826b7e_cgraph.svg" width="982" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-
-</div>
-</div>
-<a id="ad6ef82d2c1cc6c94284334059427e8e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6ef82d2c1cc6c94284334059427e8e7">&#9670;&nbsp;</a></span>listen() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void express::WebApp::listen </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>host</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>port</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::function&lt; void(int err)&gt; &amp;&#160;</td>
-          <td class="paramname"><em>onError</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classexpress_1_1_web_app_t.html#a45a05cca4dbce113b42a237250d4d70d">express::WebAppT&lt; ServerT &gt;</a>, <a class="el" href="classexpress_1_1_web_app_t.html#a45a05cca4dbce113b42a237250d4d70d">express::WebAppT&lt; web::http::server::tls::Server&lt; express::Request, express::Response &gt; &gt;</a>, <a class="el" href="classexpress_1_1_web_app_t.html#a45a05cca4dbce113b42a237250d4d70d">express::WebAppT&lt; web::http::server::tls::Server6&lt; express::Request, express::Response &gt; &gt;</a>, <a class="el" href="classexpress_1_1_web_app_t.html#a45a05cca4dbce113b42a237250d4d70d">express::WebAppT&lt; web::http::server::legacy::Server6&lt; express::Request, express::Response &gt; &gt;</a>, and <a class="el" href="classexpress_1_1_web_app_t.html#a45a05cca4dbce113b42a237250d4d70d">express::WebAppT&lt; web::http::server::legacy::Server&lt; express::Request, express::Response &gt; &gt;</a>.</p>
-
-</div>
-</div>
-<a id="a4cf6ee371305d4e9ec1cba051f896f8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cf6ee371305d4e9ec1cba051f896f8e">&#9670;&nbsp;</a></span>listen() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void express::WebApp::listen </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>port</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::function&lt; void(int)&gt; &amp;&#160;</td>
-          <td class="paramname"><em>onError</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -540,7 +456,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_web_app_8h_source.html#l00047">47</a> of file <a class="el" href="_web_app_8h_source.html">WebApp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_web_app_8h_source.html#l00040">40</a> of file <a class="el" href="_web_app_8h_source.html">WebApp.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_web_app_8cpp_source.html#l00035">init()</a>.</p>
 

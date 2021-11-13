@@ -13,15 +13,14 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="0,-61 0,-151 131,-151 131,-61 0,-61"/>
-<text text-anchor="middle" x="65.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::SocketContext</text>
-<polyline fill="none" stroke="black" points="0,-132 131,-132 "/>
-<text text-anchor="middle" x="65.5" y="-120" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="0,-113 131,-113 "/>
-<text text-anchor="start" x="8" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">+ sendToPeerCompleted()</text>
-<text text-anchor="start" x="8" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">+ terminateConnection()</text>
-<text text-anchor="start" x="8" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00"># SocketContext()</text>
-<text text-anchor="start" x="8" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00"># operator=()</text>
+<polygon fill="#bfbfbf" stroke="black" points="0,-66.5 0,-145.5 131,-145.5 131,-66.5 0,-66.5"/>
+<text text-anchor="middle" x="65.5" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::SocketContext</text>
+<polyline fill="none" stroke="black" points="0,-126.5 131,-126.5 "/>
+<text text-anchor="middle" x="65.5" y="-114.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="0,-107.5 131,-107.5 "/>
+<text text-anchor="start" x="8" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ sendToPeerCompleted()</text>
+<text text-anchor="start" x="8" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00"># SocketContext()</text>
+<text text-anchor="start" x="8" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00"># operator=()</text>
 </a>
 </g>
 </g>
@@ -56,7 +55,7 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M100.24,-249.47C91.69,-214.42 82.88,-178.3 76.28,-151.2"/>
+<path fill="none" stroke="midnightblue" d="M100.2,-249.33C91.08,-211.92 81.67,-173.3 74.95,-145.75"/>
 <polygon fill="none" stroke="midnightblue" points="96.87,-250.43 102.64,-259.32 103.67,-248.77 96.87,-250.43"/>
 </g>
 <!-- Node3 -->
