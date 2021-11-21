@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['shutdown_2038',['shutdown',['../classnet_1_1socket_1_1_socket.html#a7769480db1cc5cadb0e208577b85ade6',1,'net::socket::Socket']]]
+  ['shutdown_2051',['shutdown',['../classcore_1_1socket_1_1_socket.html#aeedd460403e8cb273d473439355f137e',1,'core::socket::Socket']]]
 ];

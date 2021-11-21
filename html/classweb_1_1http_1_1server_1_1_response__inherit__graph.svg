@@ -78,19 +78,19 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classnet_1_1pipe_1_1_sink.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="21,-562.5 21,-685.5 101,-685.5 101,-562.5 21,-562.5"/>
-<text text-anchor="middle" x="61" y="-673.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::pipe::Sink</text>
-<polyline fill="none" stroke="black" points="21,-666.5 101,-666.5 "/>
-<text text-anchor="start" x="29" y="-654.5" font-family="Helvetica,sans-Serif" font-size="10.00"># source</text>
-<polyline fill="none" stroke="black" points="21,-647.5 101,-647.5 "/>
-<text text-anchor="start" x="29" y="-635.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Sink()</text>
-<text text-anchor="start" x="29" y="-624.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Sink()</text>
-<text text-anchor="start" x="29" y="-613.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ receive()</text>
-<text text-anchor="start" x="29" y="-602.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ eof()</text>
-<text text-anchor="start" x="29" y="-591.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ error()</text>
-<text text-anchor="start" x="29" y="-580.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
-<text text-anchor="start" x="29" y="-569.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ disconnect()</text>
+<g id="a_node2"><a xlink:href="classcore_1_1pipe_1_1_sink.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="18.5,-562.5 18.5,-685.5 103.5,-685.5 103.5,-562.5 18.5,-562.5"/>
+<text text-anchor="middle" x="61" y="-673.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::pipe::Sink</text>
+<polyline fill="none" stroke="black" points="18.5,-666.5 103.5,-666.5 "/>
+<text text-anchor="start" x="26.5" y="-654.5" font-family="Helvetica,sans-Serif" font-size="10.00"># source</text>
+<polyline fill="none" stroke="black" points="18.5,-647.5 103.5,-647.5 "/>
+<text text-anchor="start" x="26.5" y="-635.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Sink()</text>
+<text text-anchor="start" x="26.5" y="-624.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Sink()</text>
+<text text-anchor="start" x="26.5" y="-613.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ receive()</text>
+<text text-anchor="start" x="26.5" y="-602.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ eof()</text>
+<text text-anchor="start" x="26.5" y="-591.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ error()</text>
+<text text-anchor="start" x="26.5" y="-580.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
+<text text-anchor="start" x="26.5" y="-569.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ disconnect()</text>
 </a>
 </g>
 </g>

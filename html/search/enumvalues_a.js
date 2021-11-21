@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['no_5fobserver_2057',['NO_OBSERVER',['../namespacenet.html#a38a09d7fb9c20c2d03ed723da643e85aa925ec21267dbd278be63adfb4a34bf98',1,'net']]],
-  ['none_2058',['none',['../classnet_1_1_descriptor.html#a1ecc493b50b4c5ed5cfa3a8746e51f35a334c4a4c42fdb79d7ebc3e73b517e6f8',1,'net::Descriptor']]]
+  ['no_5fobserver_2070',['NO_OBSERVER',['../namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749a925ec21267dbd278be63adfb4a34bf98',1,'core']]],
+  ['none_2071',['none',['../classcore_1_1_descriptor.html#a0998a6390c1f6ef1324ddfdfe7b2579ba334c4a4c42fdb79d7ebc3e73b517e6f8',1,'core::Descriptor']]]
 ];

@@ -1,6 +1,6 @@
 var netdb_8cpp =
 [
-    [ "freeaddrinfo", "netdb_8cpp.html#a23a7628914457db800a7ac9af54a9a09", null ],
-    [ "getaddrinfo", "netdb_8cpp.html#acfcf4c47faf4c22605d4d22401483e2d", null ],
-    [ "getnameinfo", "netdb_8cpp.html#ad016d75c2fb1d4934774b71d7bbc5469", null ]
+    [ "freeaddrinfo", "netdb_8cpp.html#a6aae4d2a37b9b40e65b3f7e28a21382c", null ],
+    [ "getaddrinfo", "netdb_8cpp.html#a86e636682d33db526f7502ab0e6ff57c", null ],
+    [ "getnameinfo", "netdb_8cpp.html#a2347537ad9f92683e13fc44676f9b9c3", null ]
 ];

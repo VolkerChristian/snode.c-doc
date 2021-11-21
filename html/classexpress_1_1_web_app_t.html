@@ -84,7 +84,6 @@ $(document).ready(function(){initNavTree('classexpress_1_1_web_app_t.html',''); 
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classexpress_1_1_web_app_t-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">express::WebAppT&lt; ServerT &gt; Class Template Reference</div>  </div>
@@ -95,13 +94,13 @@ $(document).ready(function(){initNavTree('classexpress_1_1_web_app_t.html',''); 
 <div class="dynheader">
 Inheritance diagram for express::WebAppT&lt; ServerT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classexpress_1_1_web_app_t__inherit__graph.svg" width="1434" height="1136"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classexpress_1_1_web_app_t__inherit__graph.svg" width="1436" height="916"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for express::WebAppT&lt; ServerT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classexpress_1_1_web_app_t__coll__graph.svg" width="214" height="647"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classexpress_1_1_web_app_t__coll__graph.svg" width="238" height="544"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -124,14 +123,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a19444bd5fc3f320283e3531ab9b15fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bd3ddc2173bbc21e8c15e8ba9a03b0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app_t.html#a8bd3ddc2173bbc21e8c15e8ba9a03b0f">WebAppT</a> (const <a class="el" href="classexpress_1_1_router.html">Router</a> &amp;router, const std::map&lt; std::string, std::any &gt; &amp;<a class="el" href="classexpress_1_1_router.html#a6a02a5c7aa05ff68497edd322a8fd092">options</a>={{}})</td></tr>
 <tr class="separator:a8bd3ddc2173bbc21e8c15e8ba9a03b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aada73c2fe5f019c272ad33ef40642438"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app_t.html#aada73c2fe5f019c272ad33ef40642438">listen</a> (const <a class="el" href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">SocketAddress</a> &amp;socketAddress, const std::function&lt; void(int err)&gt; &amp;onError=nullptr)</td></tr>
-<tr class="separator:aada73c2fe5f019c272ad33ef40642438"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d7d08f703f92a3edd10b60f453062d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app_t.html#a5d7d08f703f92a3edd10b60f453062d5">onConnect</a> (const std::function&lt; void(const <a class="el" href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">SocketAddress</a> &amp;, const <a class="el" href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">SocketAddress</a> &amp;)&gt; &amp;onConnect)</td></tr>
-<tr class="separator:a5d7d08f703f92a3edd10b60f453062d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca29094dd7fd0869f71e3ad5fef0bf61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app_t.html#aca29094dd7fd0869f71e3ad5fef0bf61">onConnected</a> (const std::function&lt; void(<a class="el" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">SocketConnection</a> *)&gt; &amp;onConnected)</td></tr>
-<tr class="separator:aca29094dd7fd0869f71e3ad5fef0bf61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc848f02d1e9d961262676ab0d97f3f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app_t.html#adc848f02d1e9d961262676ab0d97f3f1">onDisconnect</a> (const std::function&lt; void(<a class="el" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">SocketConnection</a> *)&gt; &amp;onDisconnect)</td></tr>
-<tr class="separator:adc848f02d1e9d961262676ab0d97f3f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classexpress_1_1_router"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classexpress_1_1_router')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classexpress_1_1_router.html">express::Router</a></td></tr>
 <tr class="memitem:ae7ad7fb1a5d240f338865485e7b04070 inherit pub_methods_classexpress_1_1_router"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_router.html#ae7ad7fb1a5d240f338865485e7b04070">Router</a> ()</td></tr>
 <tr class="separator:ae7ad7fb1a5d240f338865485e7b04070 inherit pub_methods_classexpress_1_1_router"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -272,20 +263,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac7ab83e8e8c6eb1dd74d23e1a6e8540f inherit pub_methods_classexpress_1_1_router"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classexpress_1_1_router.html">Router</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_router.html#ac7ab83e8e8c6eb1dd74d23e1a6e8540f">head</a> (const std::function&lt; void(<a class="el" href="classexpress_1_1_request.html">Request</a> &amp;req, <a class="el" href="classexpress_1_1_response.html">Response</a> &amp;res, <a class="el" href="classexpress_1_1_state.html">State</a> &amp;state)&gt; &amp;lambda)</td></tr>
 <tr class="separator:ac7ab83e8e8c6eb1dd74d23e1a6e8540f inherit pub_methods_classexpress_1_1_router"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a43f343623b01c698256e2c0eb4e3226f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classexpress_1_1_web_app_t.html#aaee690e0bb45eca830326a5bc6091362">Server</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app_t.html#a43f343623b01c698256e2c0eb4e3226f">server</a></td></tr>
-<tr class="separator:a43f343623b01c698256e2c0eb4e3226f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8f6408fe97c6d3404b0e0b0626f2dae"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(const <a class="el" href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">SocketAddress</a> &amp;, const <a class="el" href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">SocketAddress</a> &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app_t.html#ad8f6408fe97c6d3404b0e0b0626f2dae">_onConnect</a> = nullptr</td></tr>
-<tr class="separator:ad8f6408fe97c6d3404b0e0b0626f2dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7ca4ad5c18602c5dcc30c88758c7601"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">SocketConnection</a> *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app_t.html#af7ca4ad5c18602c5dcc30c88758c7601">_onConnected</a> = nullptr</td></tr>
-<tr class="separator:af7ca4ad5c18602c5dcc30c88758c7601"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfa488815df420e81c3827ac9218463a"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">SocketConnection</a> *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app_t.html#acfa488815df420e81c3827ac9218463a">_onDisconnect</a> = nullptr</td></tr>
-<tr class="separator:acfa488815df420e81c3827ac9218463a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classexpress_1_1_router"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classexpress_1_1_router')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classexpress_1_1_router.html">express::Router</a></td></tr>
-<tr class="memitem:aa3c8a0794fc3e3882654f4a81bed6cb2 inherit pro_attribs_classexpress_1_1_router"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classexpress_1_1_router_dispatcher.html">RouterDispatcher</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_router.html#aa3c8a0794fc3e3882654f4a81bed6cb2">routerDispatcher</a></td></tr>
-<tr class="separator:aa3c8a0794fc3e3882654f4a81bed6cb2 inherit pro_attribs_classexpress_1_1_router"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_methods_classexpress_1_1_web_app"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classexpress_1_1_web_app')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classexpress_1_1_web_app.html">express::WebApp</a></td></tr>
@@ -298,6 +275,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_classexpress_1_1_web_app"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classexpress_1_1_web_app')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classexpress_1_1_web_app.html">express::WebApp</a></td></tr>
 <tr class="memitem:ab9ca336adfe5dc11fbd121cb9165b472 inherit pro_methods_classexpress_1_1_web_app"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app.html#ab9ca336adfe5dc11fbd121cb9165b472">WebApp</a> (const <a class="el" href="classexpress_1_1_router.html">Router</a> &amp;router)</td></tr>
 <tr class="separator:ab9ca336adfe5dc11fbd121cb9165b472 inherit pro_methods_classexpress_1_1_web_app"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classexpress_1_1_router"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classexpress_1_1_router')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classexpress_1_1_router.html">express::Router</a></td></tr>
+<tr class="memitem:aa3c8a0794fc3e3882654f4a81bed6cb2 inherit pro_attribs_classexpress_1_1_router"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classexpress_1_1_router_dispatcher.html">RouterDispatcher</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_router.html#aa3c8a0794fc3e3882654f4a81bed6cb2">routerDispatcher</a></td></tr>
+<tr class="separator:aa3c8a0794fc3e3882654f4a81bed6cb2 inherit pro_attribs_classexpress_1_1_router"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename ServerT&gt;<br />
@@ -320,7 +300,7 @@ template&lt;typename ServerT &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00041">41</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00043">43</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
 
 </div>
 </div>
@@ -338,7 +318,7 @@ template&lt;typename ServerT &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00044">44</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00046">46</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
 
 </div>
 </div>
@@ -356,7 +336,7 @@ template&lt;typename ServerT &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00045">45</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00047">47</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
 
 </div>
 </div>
@@ -374,7 +354,7 @@ template&lt;typename ServerT &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00043">43</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00045">45</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
 
 </div>
 </div>
@@ -392,7 +372,7 @@ template&lt;typename ServerT &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00042">42</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00044">44</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
 
 </div>
 </div>
@@ -423,13 +403,13 @@ template&lt;typename ServerT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00047">47</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                                                           {{}})</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            : <a class="code" href="classexpress_1_1_web_app_t.html#a19444bd5fc3f320283e3531ab9b15fab">WebAppT</a>(<a class="code" href="classexpress_1_1_router.html#ae7ad7fb1a5d240f338865485e7b04070">Router</a>(), <a class="code" href="classexpress_1_1_router.html#a6a02a5c7aa05ff68497edd322a8fd092">options</a>) {</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00049">49</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                                                           {{}})</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            : <a class="code" href="classexpress_1_1_web_app_t.html#a19444bd5fc3f320283e3531ab9b15fab">WebAppT</a>(<a class="code" href="classexpress_1_1_router.html#ae7ad7fb1a5d240f338865485e7b04070">Router</a>(), <a class="code" href="classexpress_1_1_router.html#a6a02a5c7aa05ff68497edd322a8fd092">options</a>) {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        }</div>
 <div class="ttc" id="aclassexpress_1_1_router_html_a6a02a5c7aa05ff68497edd322a8fd092"><div class="ttname"><a href="classexpress_1_1_router.html#a6a02a5c7aa05ff68497edd322a8fd092">express::Router::options</a></div><div class="ttdeci">Router &amp; options(const std::string &amp;relativeMountPath, const std::function&lt; void(Request &amp;req, Response &amp;res)&gt; &amp;lambda)</div><div class="ttdef"><b>Definition:</b> <a href="_router_8cpp_source.html#l00347">Router.cpp:347</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_router_html_ae7ad7fb1a5d240f338865485e7b04070"><div class="ttname"><a href="classexpress_1_1_router.html#ae7ad7fb1a5d240f338865485e7b04070">express::Router::Router</a></div><div class="ttdeci">Router()</div><div class="ttdef"><b>Definition:</b> <a href="_router_8cpp_source.html#l00296">Router.cpp:296</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_web_app_t_html_a19444bd5fc3f320283e3531ab9b15fab"><div class="ttname"><a href="classexpress_1_1_web_app_t.html#a19444bd5fc3f320283e3531ab9b15fab">express::WebAppT::WebAppT</a></div><div class="ttdeci">WebAppT(const std::map&lt; std::string, std::any &gt; &amp;options={{}})</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_t_8h_source.html#l00047">WebAppT.h:47</a></div></div>
+<div class="ttc" id="aclassexpress_1_1_web_app_t_html_a19444bd5fc3f320283e3531ab9b15fab"><div class="ttname"><a href="classexpress_1_1_web_app_t.html#a19444bd5fc3f320283e3531ab9b15fab">express::WebAppT::WebAppT</a></div><div class="ttdeci">WebAppT(const std::map&lt; std::string, std::any &gt; &amp;options={{}})</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_t_8h_source.html#l00049">WebAppT.h:49</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -469,309 +449,48 @@ template&lt;typename ServerT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00051">51</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                                                                 {{}})</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            : <a class="code" href="classexpress_1_1_web_app.html#ab9ca336adfe5dc11fbd121cb9165b472">WebApp</a>(router)</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            , <a class="code" href="classexpress_1_1_web_app_t.html#a43f343623b01c698256e2c0eb4e3226f">server</a>(</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                  [](<span class="keyword">const</span> <a class="code" href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">SocketAddress</a>&amp; localAddress,</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                     <span class="keyword">const</span> <a class="code" href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">SocketAddress</a>&amp; remoteAddress) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onConnect</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnConnect:&quot;</span>;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tServer: (&quot;</span> + localAddress.address() + <span class="stringliteral">&quot;) &quot;</span> + localAddress.toString();</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tClient: (&quot;</span> + remoteAddress.address() + <span class="stringliteral">&quot;) &quot;</span> + remoteAddress.toString();</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                  },</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                  [](<a class="code" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">SocketConnection</a>* socketConnection) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onConnected</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnConnected:&quot;</span>;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tServer: (&quot;</span> + socketConnection-&gt;getLocalAddress().address() + <span class="stringliteral">&quot;) &quot;</span> +</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                                     socketConnection-&gt;getLocalAddress().toString();</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tClient: (&quot;</span> + socketConnection-&gt;getRemoteAddress().address() + <span class="stringliteral">&quot;) &quot;</span> +</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                     socketConnection-&gt;getRemoteAddress().toString();</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                  },</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                  [<a class="code" href="classexpress_1_1_router.html#aa3c8a0794fc3e3882654f4a81bed6cb2">routerDispatcher</a> = this-&gt;<a class="code" href="classexpress_1_1_router.html#aa3c8a0794fc3e3882654f4a81bed6cb2">routerDispatcher</a>](<a class="code" href="classexpress_1_1_request.html">express::Request</a>&amp; req,</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                                                              <a class="code" href="classexpress_1_1_response.html">express::Response</a>&amp; res) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onRequestReady</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                      req.extend();</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                      <a class="code" href="classexpress_1_1_router.html#aa3c8a0794fc3e3882654f4a81bed6cb2">routerDispatcher</a>-&gt;dispatch(req, res);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                  },</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                  [](<a class="code" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">SocketConnection</a>* socketConnection) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onDisconnect</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnDisconnect:&quot;</span>;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tServer: (&quot;</span> + socketConnection-&gt;getLocalAddress().address() + <span class="stringliteral">&quot;) &quot;</span> +</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                                     socketConnection-&gt;getLocalAddress().toString();</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tClient: (&quot;</span> + socketConnection-&gt;getRemoteAddress().address() + <span class="stringliteral">&quot;) &quot;</span> +</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                                     socketConnection-&gt;getRemoteAddress().toString();</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                  },</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                  <a class="code" href="classexpress_1_1_router.html#a6a02a5c7aa05ff68497edd322a8fd092">options</a>) {</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00053">53</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                                                                                 {{}})</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            : <a class="code" href="classexpress_1_1_web_app.html#ab9ca336adfe5dc11fbd121cb9165b472">WebApp</a>(router)</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            , <a class="code" href="classexpress_1_1_web_app_t.html#aaee690e0bb45eca830326a5bc6091362">Server</a>(</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                  [](<span class="keyword">const</span> <a class="code" href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">SocketAddress</a>&amp; localAddress,</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                     <span class="keyword">const</span> <a class="code" href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">SocketAddress</a>&amp; remoteAddress) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onConnect</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnConnect:&quot;</span>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tServer: (&quot;</span> + localAddress.address() + <span class="stringliteral">&quot;) &quot;</span> + localAddress.toString();</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tClient: (&quot;</span> + remoteAddress.address() + <span class="stringliteral">&quot;) &quot;</span> + remoteAddress.toString();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                  },</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                  [](<a class="code" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">SocketConnection</a>* socketConnection) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onConnected</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnConnected:&quot;</span>;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tServer: (&quot;</span> + socketConnection-&gt;getLocalAddress().address() + <span class="stringliteral">&quot;) &quot;</span> +</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                     socketConnection-&gt;getLocalAddress().toString();</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tClient: (&quot;</span> + socketConnection-&gt;getRemoteAddress().address() + <span class="stringliteral">&quot;) &quot;</span> +</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                                     socketConnection-&gt;getRemoteAddress().toString();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                  },</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                  [<a class="code" href="classexpress_1_1_router.html#aa3c8a0794fc3e3882654f4a81bed6cb2">routerDispatcher</a> = this-&gt;<a class="code" href="classexpress_1_1_router.html#aa3c8a0794fc3e3882654f4a81bed6cb2">routerDispatcher</a>](<a class="code" href="classexpress_1_1_request.html">express::Request</a>&amp; req,</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                                              <a class="code" href="classexpress_1_1_response.html">express::Response</a>&amp; res) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onRequestReady</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                      req.extend();</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                      <a class="code" href="classexpress_1_1_router.html#aa3c8a0794fc3e3882654f4a81bed6cb2">routerDispatcher</a>-&gt;dispatch(req, res);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                  },</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                  [](<a class="code" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">SocketConnection</a>* socketConnection) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onDisconnect</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnDisconnect:&quot;</span>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tServer: (&quot;</span> + socketConnection-&gt;getLocalAddress().address() + <span class="stringliteral">&quot;) &quot;</span> +</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                                     socketConnection-&gt;getLocalAddress().toString();</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tClient: (&quot;</span> + socketConnection-&gt;getRemoteAddress().address() + <span class="stringliteral">&quot;) &quot;</span> +</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                                     socketConnection-&gt;getRemoteAddress().toString();</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                  },</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                  <a class="code" href="classexpress_1_1_router.html#a6a02a5c7aa05ff68497edd322a8fd092">options</a>) {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        }</div>
 <div class="ttc" id="aclassexpress_1_1_request_html"><div class="ttname"><a href="classexpress_1_1_request.html">express::Request</a></div><div class="ttdef"><b>Definition:</b> <a href="express_2_request_8h_source.html#l00033">Request.h:33</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_response_html"><div class="ttname"><a href="classexpress_1_1_response.html">express::Response</a></div><div class="ttdef"><b>Definition:</b> <a href="express_2_response_8h_source.html#l00037">Response.h:37</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_router_html_aa3c8a0794fc3e3882654f4a81bed6cb2"><div class="ttname"><a href="classexpress_1_1_router.html#aa3c8a0794fc3e3882654f4a81bed6cb2">express::Router::routerDispatcher</a></div><div class="ttdeci">std::shared_ptr&lt; RouterDispatcher &gt; routerDispatcher</div><div class="ttdef"><b>Definition:</b> <a href="_router_8h_source.html#l00140">Router.h:140</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_web_app_html_ab9ca336adfe5dc11fbd121cb9165b472"><div class="ttname"><a href="classexpress_1_1_web_app.html#ab9ca336adfe5dc11fbd121cb9165b472">express::WebApp::WebApp</a></div><div class="ttdeci">WebApp(const Router &amp;router)</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_8cpp_source.html#l00031">WebApp.cpp:31</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_web_app_t_html_a43f343623b01c698256e2c0eb4e3226f"><div class="ttname"><a href="classexpress_1_1_web_app_t.html#a43f343623b01c698256e2c0eb4e3226f">express::WebAppT::server</a></div><div class="ttdeci">Server server</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_t_8h_source.html#l00102">WebAppT.h:102</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_web_app_t_html_a4cd9d21f6db40a34af80fd2066462504"><div class="ttname"><a href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">express::WebAppT::SocketConnection</a></div><div class="ttdeci">typename SocketServer::SocketConnection SocketConnection</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_t_8h_source.html#l00043">WebAppT.h:43</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_web_app_t_html_ae9ad5ffb7b74403eb360209b226e478f"><div class="ttname"><a href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">express::WebAppT::SocketAddress</a></div><div class="ttdeci">typename Socket::SocketAddress SocketAddress</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_t_8h_source.html#l00045">WebAppT.h:45</a></div></div>
+<div class="ttc" id="aclassexpress_1_1_web_app_t_html_a4cd9d21f6db40a34af80fd2066462504"><div class="ttname"><a href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">express::WebAppT::SocketConnection</a></div><div class="ttdeci">typename SocketServer::SocketConnection SocketConnection</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_t_8h_source.html#l00045">WebAppT.h:45</a></div></div>
+<div class="ttc" id="aclassexpress_1_1_web_app_t_html_aaee690e0bb45eca830326a5bc6091362"><div class="ttname"><a href="classexpress_1_1_web_app_t.html#aaee690e0bb45eca830326a5bc6091362">express::WebAppT::Server</a></div><div class="ttdeci">ServerT Server</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_t_8h_source.html#l00043">WebAppT.h:43</a></div></div>
+<div class="ttc" id="aclassexpress_1_1_web_app_t_html_ae9ad5ffb7b74403eb360209b226e478f"><div class="ttname"><a href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">express::WebAppT::SocketAddress</a></div><div class="ttdeci">typename Socket::SocketAddress SocketAddress</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_t_8h_source.html#l00047">WebAppT.h:47</a></div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="aada73c2fe5f019c272ad33ef40642438"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aada73c2fe5f019c272ad33ef40642438">&#9670;&nbsp;</a></span>listen()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ServerT &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classexpress_1_1_web_app_t.html">express::WebAppT</a>&lt; ServerT &gt;::listen </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">SocketAddress</a> &amp;&#160;</td>
-          <td class="paramname"><em>socketAddress</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::function&lt; void(int err)&gt; &amp;&#160;</td>
-          <td class="paramname"><em>onError</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00085">85</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                                                                                                             {</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <a class="code" href="classexpress_1_1_web_app_t.html#a43f343623b01c698256e2c0eb4e3226f">server</a>.listen(socketAddress, onError);</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="_web_app_t_8h_source.html#l00102">express::WebAppT&lt; ServerT &gt;::server</a>.</p>
-
-</div>
-</div>
-<a id="a5d7d08f703f92a3edd10b60f453062d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d7d08f703f92a3edd10b60f453062d5">&#9670;&nbsp;</a></span>onConnect()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ServerT &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classexpress_1_1_web_app_t.html">express::WebAppT</a>&lt; ServerT &gt;::onConnect </td>
-          <td>(</td>
-          <td class="paramtype">const std::function&lt; void(const <a class="el" href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">SocketAddress</a> &amp;, const <a class="el" href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">SocketAddress</a> &amp;)&gt; &amp;&#160;</td>
-          <td class="paramname"><em>onConnect</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00089">89</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                                                                                                       {</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <a class="code" href="classexpress_1_1_web_app_t.html#a43f343623b01c698256e2c0eb4e3226f">server</a>.onConnect(<a class="code" href="classexpress_1_1_web_app_t.html#a5d7d08f703f92a3edd10b60f453062d5">onConnect</a>);</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        }</div>
-<div class="ttc" id="aclassexpress_1_1_web_app_t_html_a5d7d08f703f92a3edd10b60f453062d5"><div class="ttname"><a href="classexpress_1_1_web_app_t.html#a5d7d08f703f92a3edd10b60f453062d5">express::WebAppT::onConnect</a></div><div class="ttdeci">void onConnect(const std::function&lt; void(const SocketAddress &amp;, const SocketAddress &amp;)&gt; &amp;onConnect)</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_t_8h_source.html#l00089">WebAppT.h:89</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="_web_app_t_8h_source.html#l00102">express::WebAppT&lt; ServerT &gt;::server</a>.</p>
-
-</div>
-</div>
-<a id="aca29094dd7fd0869f71e3ad5fef0bf61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca29094dd7fd0869f71e3ad5fef0bf61">&#9670;&nbsp;</a></span>onConnected()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ServerT &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classexpress_1_1_web_app_t.html">express::WebAppT</a>&lt; ServerT &gt;::onConnected </td>
-          <td>(</td>
-          <td class="paramtype">const std::function&lt; void(<a class="el" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">SocketConnection</a> *)&gt; &amp;&#160;</td>
-          <td class="paramname"><em>onConnected</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00093">93</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                                                                  {</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <a class="code" href="classexpress_1_1_web_app_t.html#a43f343623b01c698256e2c0eb4e3226f">server</a>.onConnected(<a class="code" href="classexpress_1_1_web_app_t.html#aca29094dd7fd0869f71e3ad5fef0bf61">onConnected</a>);</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        }</div>
-<div class="ttc" id="aclassexpress_1_1_web_app_t_html_aca29094dd7fd0869f71e3ad5fef0bf61"><div class="ttname"><a href="classexpress_1_1_web_app_t.html#aca29094dd7fd0869f71e3ad5fef0bf61">express::WebAppT::onConnected</a></div><div class="ttdeci">void onConnected(const std::function&lt; void(SocketConnection *)&gt; &amp;onConnected)</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_t_8h_source.html#l00093">WebAppT.h:93</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="_web_app_t_8h_source.html#l00102">express::WebAppT&lt; ServerT &gt;::server</a>.</p>
-
-</div>
-</div>
-<a id="adc848f02d1e9d961262676ab0d97f3f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc848f02d1e9d961262676ab0d97f3f1">&#9670;&nbsp;</a></span>onDisconnect()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ServerT &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classexpress_1_1_web_app_t.html">express::WebAppT</a>&lt; ServerT &gt;::onDisconnect </td>
-          <td>(</td>
-          <td class="paramtype">const std::function&lt; void(<a class="el" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">SocketConnection</a> *)&gt; &amp;&#160;</td>
-          <td class="paramname"><em>onDisconnect</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00097">97</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                                                                                    {</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <a class="code" href="classexpress_1_1_web_app_t.html#a43f343623b01c698256e2c0eb4e3226f">server</a>.onDisconnect(<a class="code" href="classexpress_1_1_web_app_t.html#adc848f02d1e9d961262676ab0d97f3f1">onDisconnect</a>);</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        }</div>
-<div class="ttc" id="aclassexpress_1_1_web_app_t_html_adc848f02d1e9d961262676ab0d97f3f1"><div class="ttname"><a href="classexpress_1_1_web_app_t.html#adc848f02d1e9d961262676ab0d97f3f1">express::WebAppT::onDisconnect</a></div><div class="ttdeci">void onDisconnect(const std::function&lt; void(SocketConnection *)&gt; &amp;onDisconnect)</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_t_8h_source.html#l00097">WebAppT.h:97</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="_web_app_t_8h_source.html#l00102">express::WebAppT&lt; ServerT &gt;::server</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ad8f6408fe97c6d3404b0e0b0626f2dae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8f6408fe97c6d3404b0e0b0626f2dae">&#9670;&nbsp;</a></span>_onConnect</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ServerT &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::function&lt;void(const <a class="el" href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">SocketAddress</a>&amp;, const <a class="el" href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">SocketAddress</a>&amp;)&gt; <a class="el" href="classexpress_1_1_web_app_t.html">express::WebAppT</a>&lt; ServerT &gt;::_onConnect = nullptr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00104">104</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
-
-</div>
-</div>
-<a id="af7ca4ad5c18602c5dcc30c88758c7601"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7ca4ad5c18602c5dcc30c88758c7601">&#9670;&nbsp;</a></span>_onConnected</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ServerT &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::function&lt;void(<a class="el" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">SocketConnection</a>*)&gt; <a class="el" href="classexpress_1_1_web_app_t.html">express::WebAppT</a>&lt; ServerT &gt;::_onConnected = nullptr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00105">105</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
-
-</div>
-</div>
-<a id="acfa488815df420e81c3827ac9218463a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfa488815df420e81c3827ac9218463a">&#9670;&nbsp;</a></span>_onDisconnect</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ServerT &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::function&lt;void(<a class="el" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">SocketConnection</a>*)&gt; <a class="el" href="classexpress_1_1_web_app_t.html">express::WebAppT</a>&lt; ServerT &gt;::_onDisconnect = nullptr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00106">106</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
-
-</div>
-</div>
-<a id="a43f343623b01c698256e2c0eb4e3226f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43f343623b01c698256e2c0eb4e3226f">&#9670;&nbsp;</a></span>server</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ServerT &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classexpress_1_1_web_app_t.html#aaee690e0bb45eca830326a5bc6091362">Server</a> <a class="el" href="classexpress_1_1_web_app_t.html">express::WebAppT</a>&lt; ServerT &gt;::server</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00102">102</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="_web_app_t_8h_source.html#l00085">express::WebAppT&lt; ServerT &gt;::listen()</a>, <a class="el" href="_web_app_t_8h_source.html#l00089">express::WebAppT&lt; ServerT &gt;::onConnect()</a>, <a class="el" href="_web_app_t_8h_source.html#l00093">express::WebAppT&lt; ServerT &gt;::onConnected()</a>, and <a class="el" href="_web_app_t_8h_source.html#l00097">express::WebAppT&lt; ServerT &gt;::onDisconnect()</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

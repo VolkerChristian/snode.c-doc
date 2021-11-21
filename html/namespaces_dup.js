@@ -6,6 +6,8 @@ var namespaces_dup =
       [ "is_base64", "namespacebase64.html#a58328d4dcbc51d53a60f168c45b59a79", null ],
       [ "serverWebSocketKey", "namespacebase64.html#a43968536c5e19d8c265e17d08fd91c3e", null ]
     ] ],
+    [ "core", "namespacecore.html", "namespacecore" ],
+    [ "core ", "namespacecore_01.html", "namespacecore_01" ],
     [ "express", "namespaceexpress.html", "namespaceexpress" ],
     [ "httputils", "namespacehttputils.html", [
       [ "ci_comp", "namespacehttputils.html#a87e2c03071ddffa8a616ea13d641aafc", null ],
@@ -22,8 +24,8 @@ var namespaces_dup =
       [ "url_decode", "namespacehttputils.html#a818b4991d32a494fb64a2f7cf1b25087", null ],
       [ "url_encode", "namespacehttputils.html#a386473920285bded181a38ffac8fe833", null ]
     ] ],
+    [ "logger", "namespacelogger.html", "namespacelogger" ],
     [ "net", "namespacenet.html", "namespacenet" ],
-    [ "net ", "namespacenet_01.html", "namespacenet_01" ],
     [ "stacktrace", "namespacestacktrace.html", [
       [ "stacktrace", "namespacestacktrace.html#aada91b78c1080169b2e68542d9a0e924", null ],
       [ "stacktrace", "namespacestacktrace.html#af3070b90234b85bcb6e7200288bee440", null ]

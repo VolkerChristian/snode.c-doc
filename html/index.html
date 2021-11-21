@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </li>
 </ul>
 </div>
-<div class="textblock"><p><a class="anchor" id="md_README_dox"></a></p>
+<div class="textblock"><p><a class="anchor" id="md__home_voc_projects_snodec_snode_c_README_dox"></a></p>
 <h1><a class="anchor" id="autotoc_md1"></a>
 What is snode.c</h1>
 <p>snode.c (Simple NODE in C++) is a lean, highly extendable, high-performance layer-based framework for network applications (servers and clients) in the spirit of node.js written entirely in C++. The development of the framework has started during the summer semester 2020 in the context of the course <b>Network and Distributed Systems</b> of the master's program <a href="https://www.fh-ooe.at/en/hagenberg-campus/studiengaenge/master/interactive-media/"><b>Interactive Media</b></a> at the departement <a href="https://www.fh-ooe.at/en/hagenberg-campus/"><b>Informatics, Communications and Media</b></a> at the <a href="https://www.fh-ooe.at/en/"><b>University of Applied Sciences Upper Austria, Campus Hagenberg</b></a> to give students an insight into the fundamental techniques of network- and web-frameworks. Main focus (but not only) of the framework is "Machine to Machine" (M2M) communication and here especially the field of "Internet of Things" (IoT). Keep in mind, that the framework is still in heavy development, APIs can break from commit to commit. But the highest level API (express) is considered stable.</p>
@@ -219,7 +219,7 @@ Very Simple HTTP/S Web-Server for static HTML-Pages</h2>
 <div class="line">                                 {<span class="stringliteral">&quot;password&quot;</span>, KEYFPASS}});</div>
 <div class="line">    tlsApp.<a class="code" href="classexpress_1_1_router.html#adda0b8e1030d917bacb75b570d2a16a8">use</a>(<a class="code" href="classexpress_1_1middleware_1_1_static_middleware.html">express::middleware::StaticMiddleware</a>(SERVERROOT));</div>
 <div class="line">    </div>
-<div class="line">    legacyApp.<a class="code" href="classexpress_1_1legacy_1_1_web_app.html#aae0c908f826a07746a1e409d929c0d60">listen</a>(8080, [](<span class="keywordtype">int</span> err) -&gt; <span class="keywordtype">void</span> {</div>
+<div class="line">    legacyApp.<a class="code" href="classweb_1_1http_1_1server_1_1legacy_1_1_server.html#a47b5422890cb82215b0347218bf774cc">listen</a>(8080, [](<span class="keywordtype">int</span> err) -&gt; <span class="keywordtype">void</span> {</div>
 <div class="line">        <span class="keywordflow">if</span> (err != 0) {</div>
 <div class="line">            PLOG(FATAL) &lt;&lt; <span class="stringliteral">&quot;listen on port 8080&quot;</span>;</div>
 <div class="line">        } <span class="keywordflow">else</span> {</div>
@@ -242,9 +242,9 @@ Very Simple HTTP/S Web-Server for static HTML-Pages</h2>
 <div class="ttc" id="aclassexpress_1_1_web_app_html_a0a01439a0cc8dfc86ed14f1094826b7e"><div class="ttname"><a href="classexpress_1_1_web_app.html#a0a01439a0cc8dfc86ed14f1094826b7e">express::WebApp::init</a></div><div class="ttdeci">static void init(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_8cpp_source.html#l00035">WebApp.cpp:35</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_web_app_html_a85d9fab4fae0881f8484e07c58f3157a"><div class="ttname"><a href="classexpress_1_1_web_app.html#a85d9fab4fae0881f8484e07c58f3157a">express::WebApp::start</a></div><div class="ttdeci">static int start()</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_8cpp_source.html#l00040">WebApp.cpp:40</a></div></div>
 <div class="ttc" id="aclassexpress_1_1legacy_1_1_web_app_html"><div class="ttname"><a href="classexpress_1_1legacy_1_1_web_app.html">express::legacy::WebApp</a></div><div class="ttdef"><b>Definition:</b> <a href="legacy_2_web_app_8h_source.html#l00031">WebApp.h:31</a></div></div>
-<div class="ttc" id="aclassexpress_1_1legacy_1_1_web_app_html_aae0c908f826a07746a1e409d929c0d60"><div class="ttname"><a href="classexpress_1_1legacy_1_1_web_app.html#aae0c908f826a07746a1e409d929c0d60">express::legacy::WebApp::listen</a></div><div class="ttdeci">void listen(uint16_t port, const std::function&lt; void(int err)&gt; &amp;onError=nullptr)</div><div class="ttdef"><b>Definition:</b> <a href="legacy_2_web_app_8h_source.html#l00035">WebApp.h:35</a></div></div>
 <div class="ttc" id="aclassexpress_1_1middleware_1_1_static_middleware_html"><div class="ttname"><a href="classexpress_1_1middleware_1_1_static_middleware.html">express::middleware::StaticMiddleware</a></div><div class="ttdef"><b>Definition:</b> <a href="_static_middleware_8h_source.html#l00034">StaticMiddleware.h:34</a></div></div>
 <div class="ttc" id="aclassexpress_1_1tls_1_1_web_app_html"><div class="ttname"><a href="classexpress_1_1tls_1_1_web_app.html">express::tls::WebApp</a></div><div class="ttdef"><b>Definition:</b> <a href="tls_2_web_app_8h_source.html#l00031">WebApp.h:31</a></div></div>
+<div class="ttc" id="aclassweb_1_1http_1_1server_1_1legacy_1_1_server_html_a47b5422890cb82215b0347218bf774cc"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1legacy_1_1_server.html#a47b5422890cb82215b0347218bf774cc">web::http::server::legacy::Server::listen</a></div><div class="ttdeci">void listen(uint16_t port, const std::function&lt; void(int)&gt; &amp;onError)</div><div class="ttdef"><b>Definition:</b> <a href="legacy_2_server_8h_source.html#l00047">Server.h:47</a></div></div>
 <div class="ttc" id="alegacy_2_web_app_8h_html"><div class="ttname"><a href="legacy_2_web_app_8h.html">WebApp.h</a></div></div>
 <div class="ttc" id="atls_2_web_app_8h_html"><div class="ttname"><a href="tls_2_web_app_8h.html">WebApp.h</a></div></div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md14"></a>
@@ -318,7 +318,7 @@ Receive Data by HTTP-Post Request</h2>
 <div class="line">                                    {<span class="stringliteral">&quot;password&quot;</span>, KEYFPASS}});</div>
 <div class="line">    tlsWebApp.<a class="code" href="classexpress_1_1_router.html#adda0b8e1030d917bacb75b570d2a16a8">use</a>(legacyApp);</div>
 <div class="line"> </div>
-<div class="line">    legacyApp.<a class="code" href="classexpress_1_1legacy_1_1_web_app.html#aae0c908f826a07746a1e409d929c0d60">listen</a>(8080, [](<span class="keywordtype">int</span> err) {</div>
+<div class="line">    legacyApp.<a class="code" href="classweb_1_1http_1_1server_1_1legacy_1_1_server.html#a47b5422890cb82215b0347218bf774cc">listen</a>(8080, [](<span class="keywordtype">int</span> err) {</div>
 <div class="line">        <span class="keywordflow">if</span> (err != 0) {</div>
 <div class="line">            PLOG(FATAL) &lt;&lt; <span class="stringliteral">&quot;listen on port 8080&quot;</span>;</div>
 <div class="line">        } <span class="keywordflow">else</span> {</div>
@@ -369,7 +369,7 @@ Extract Server and Client Information (host name, IP, port, SSL/TLS information)
 <div class="line"> </div>
 <div class="line">    legacy::WebApp legacyApp(getRouter());</div>
 <div class="line"> </div>
-<div class="line">    legacyApp.<a class="code" href="classexpress_1_1legacy_1_1_web_app.html#aae0c908f826a07746a1e409d929c0d60">listen</a>(8080, [](<span class="keywordtype">int</span> err) {</div>
+<div class="line">    legacyApp.<a class="code" href="classweb_1_1http_1_1server_1_1legacy_1_1_server.html#a47b5422890cb82215b0347218bf774cc">listen</a>(8080, [](<span class="keywordtype">int</span> err) {</div>
 <div class="line">        <span class="keywordflow">if</span> (err != 0) {</div>
 <div class="line">            PLOG(FATAL) &lt;&lt; <span class="stringliteral">&quot;listen on port 8080&quot;</span>;</div>
 <div class="line">        } <span class="keywordflow">else</span> {</div>
@@ -377,7 +377,7 @@ Extract Server and Client Information (host name, IP, port, SSL/TLS information)
 <div class="line">        }</div>
 <div class="line">    });</div>
 <div class="line"> </div>
-<div class="line">    legacyApp.<a class="code" href="classexpress_1_1_web_app_t.html#a5d7d08f703f92a3edd10b60f453062d5">onConnect</a>([](net::socket::legacy::SocketConnection* socketConnection) {</div>
+<div class="line">    legacyApp.<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#ae95216aa805b0c9db2fece0f8a813543">onConnect</a>([](core::socket::legacy::SocketConnection* socketConnection) {</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnConnect:&quot;</span>;</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tClient: &quot;</span> + socketConnection-&gt;getRemoteAddress().host()</div>
 <div class="line">                          + <span class="stringliteral">&quot;(&quot;</span> + socketConnection-&gt;getRemoteAddress().ip() + <span class="stringliteral">&quot;):&quot;</span></div>
@@ -387,7 +387,7 @@ Extract Server and Client Information (host name, IP, port, SSL/TLS information)
 <div class="line">                 + std::to_string(socketConnection-&gt;getLocalAddress().port());</div>
 <div class="line">    });</div>
 <div class="line"> </div>
-<div class="line">    legacyApp.<a class="code" href="classexpress_1_1_web_app_t.html#adc848f02d1e9d961262676ab0d97f3f1">onDisconnect</a>([](net::socket::legacy::SocketConnection* socketConnection) {</div>
+<div class="line">    legacyApp.<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a0848bd6c8553ffc083dcd558a5c81a1f">onDisconnect</a>([](core::socket::legacy::SocketConnection* socketConnection) {</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnDisconnect:&quot;</span>;</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tClient: &quot;</span> + socketConnection-&gt;getRemoteAddress().host()</div>
 <div class="line">                          + <span class="stringliteral">&quot;(&quot;</span> + socketConnection-&gt;getRemoteAddress().ip() + <span class="stringliteral">&quot;):&quot;</span></div>
@@ -409,7 +409,7 @@ Extract Server and Client Information (host name, IP, port, SSL/TLS information)
 <div class="line">        }</div>
 <div class="line">    });</div>
 <div class="line"> </div>
-<div class="line">    tlsApp.onConnect([](net::socket::tls::SocketConnection* socketConnection) {</div>
+<div class="line">    tlsApp.onConnect([](core::socket::tls::SocketConnection* socketConnection) {</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnConnect:&quot;</span>;</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tServer: &quot;</span> + socketConnection-&gt;getLocalAddress().host()</div>
 <div class="line">                          + <span class="stringliteral">&quot;(&quot;</span> + socketConnection-&gt;getLocalAddress().ip() + <span class="stringliteral">&quot;):&quot;</span></div>
@@ -459,7 +459,7 @@ Extract Server and Client Information (host name, IP, port, SSL/TLS information)
 <div class="line">        }</div>
 <div class="line">    });</div>
 <div class="line"> </div>
-<div class="line">    tlsApp.onDisconnect([](net::socket::tls::SocketConnection* socketConnection) {</div>
+<div class="line">    tlsApp.onDisconnect([](core::socket::tls::SocketConnection* socketConnection) {</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnDisconnect:&quot;</span>;</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tServer: &quot;</span> + socketConnection-&gt;getLocalAddress().host()</div>
 <div class="line">                          + <span class="stringliteral">&quot;(&quot;</span> + socketConnection-&gt;getLocalAddress().ip() + <span class="stringliteral">&quot;):&quot;</span></div>
@@ -471,8 +471,8 @@ Extract Server and Client Information (host name, IP, port, SSL/TLS information)
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> <a class="code" href="classexpress_1_1_web_app.html#a85d9fab4fae0881f8484e07c58f3157a">WebApp::start</a>();</div>
 <div class="line">}</div>
-<div class="ttc" id="aclassexpress_1_1_web_app_t_html_a5d7d08f703f92a3edd10b60f453062d5"><div class="ttname"><a href="classexpress_1_1_web_app_t.html#a5d7d08f703f92a3edd10b60f453062d5">express::WebAppT::onConnect</a></div><div class="ttdeci">void onConnect(const std::function&lt; void(const SocketAddress &amp;, const SocketAddress &amp;)&gt; &amp;onConnect)</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_t_8h_source.html#l00089">WebAppT.h:89</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_web_app_t_html_adc848f02d1e9d961262676ab0d97f3f1"><div class="ttname"><a href="classexpress_1_1_web_app_t.html#adc848f02d1e9d961262676ab0d97f3f1">express::WebAppT::onDisconnect</a></div><div class="ttdeci">void onDisconnect(const std::function&lt; void(SocketConnection *)&gt; &amp;onDisconnect)</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_t_8h_source.html#l00097">WebAppT.h:97</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a0848bd6c8553ffc083dcd558a5c81a1f"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a0848bd6c8553ffc083dcd558a5c81a1f">core::socket::stream::SocketServer::onDisconnect</a></div><div class="ttdeci">void onDisconnect(const std::function&lt; void(SocketConnection *)&gt; &amp;onDisconnect)</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00077">SocketServer.h:77</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_ae95216aa805b0c9db2fece0f8a813543"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#ae95216aa805b0c9db2fece0f8a813543">core::socket::stream::SocketServer::onConnect</a></div><div class="ttdeci">void onConnect(const std::function&lt; void(const SocketAddress &amp;, const SocketAddress &amp;)&gt; &amp;onConnect)</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00069">SocketServer.h:69</a></div></div>
 <div class="ttc" id="anamespaceexpress_1_1middleware_html_a2fb128871e11fe983884f466d01bee94"><div class="ttname"><a href="namespaceexpress_1_1middleware.html#a2fb128871e11fe983884f466d01bee94">express::middleware::StaticMiddleware</a></div><div class="ttdeci">class StaticMiddleware &amp; StaticMiddleware(const std::string &amp;root)</div><div class="ttdef"><b>Definition:</b> <a href="_static_middleware_8cpp_source.html#l00124">StaticMiddleware.cpp:124</a></div></div>
 <div class="ttc" id="anamespaceexpress_html"><div class="ttname"><a href="namespaceexpress.html">express</a></div><div class="ttdef"><b>Definition:</b> <a href="legacy_2_web_app_8h_source.html#l00029">WebApp.h:29</a></div></div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md16"></a>

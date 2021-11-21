@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>snode.c: net/TimerEventReceiver.h Source File</title>
+<title>snode.c: core/TimerEventReceiver.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -112,35 +112,35 @@ $(document).ready(function(){initNavTree('_timer_event_receiver_8h_source.html',
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacenet.html">net</a> {</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecore.html">core</a> {</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classnet_1_1_timer_event_receiver.html">   30</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classnet_1_1_timer_event_receiver.html">TimerEventReceiver</a> {</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classcore_1_1_timer_event_receiver.html">   30</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classcore_1_1_timer_event_receiver.html">TimerEventReceiver</a> {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classnet_1_1_timer_event_receiver.html#a6e7d4e707bd54ca6f1cdc2d897fc0e5e">   32</a></span>&#160;        <span class="keyword">virtual</span> <span class="keyword">struct </span>timeval&amp; <a class="code" href="classnet_1_1_timer_event_receiver.html#a6e7d4e707bd54ca6f1cdc2d897fc0e5e">timeout</a>() = 0;</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classnet_1_1_timer_event_receiver.html#a79dd60cd2190400725fc32790ce629c8">   33</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classnet_1_1_timer_event_receiver.html#a79dd60cd2190400725fc32790ce629c8">dispatch</a>() = 0;</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classnet_1_1_timer_event_receiver.html#a88250596671b00a3f56d992f55676650">   34</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnet_1_1_timer_event_receiver.html#a88250596671b00a3f56d992f55676650">destroy</a>() = 0;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classcore_1_1_timer_event_receiver.html#a683aa1874c4b645b69e0e14dd7fd9ca8">   32</a></span>&#160;        <span class="keyword">virtual</span> <span class="keyword">struct </span>timeval&amp; <a class="code" href="classcore_1_1_timer_event_receiver.html#a683aa1874c4b645b69e0e14dd7fd9ca8">timeout</a>() = 0;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classcore_1_1_timer_event_receiver.html#a8d2cfab8f3e749aee9deb64dcd93a288">   33</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classcore_1_1_timer_event_receiver.html#a8d2cfab8f3e749aee9deb64dcd93a288">dispatch</a>() = 0;</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classcore_1_1_timer_event_receiver.html#a182127492c0fdafc2f52291d3a27d556">   34</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classcore_1_1_timer_event_receiver.html#a182127492c0fdafc2f52291d3a27d556">destroy</a>() = 0;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classnet_1_1_timer_event_receiver.html#a2e1248823af64f4dbd978b26d6859268">   36</a></span>&#160;        <span class="keyword">virtual</span> <span class="keyword">explicit</span> <span class="keyword">operator</span> <span class="keyword">struct </span>timeval() const = 0;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classcore_1_1_timer_event_receiver.html#acdf8a4cb855142056d0cb133d9fcf4a1">   36</a></span>&#160;        <span class="keyword">virtual</span> <span class="keyword">explicit</span> <span class="keyword">operator</span> <span class="keyword">struct </span>timeval() const = 0;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classnet_1_1_timer_event_receiver.html#a5e7cb29615e5bc917068c11eb454a627">   38</a></span>&#160;        <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classnet_1_1_timer_event_dispatcher.html">TimerEventDispatcher</a>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classcore_1_1_timer_event_receiver.html#a5e7cb29615e5bc917068c11eb454a627">   38</a></span>&#160;        <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classcore_1_1_timer_event_dispatcher.html">TimerEventDispatcher</a>;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    };</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;} <span class="comment">// namespace net</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;} <span class="comment">// namespace core</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// NET_TIMEREVENTRECEIVER_H</span></div>
 <div class="ttc" id="a_timeval_8h_html"><div class="ttname"><a href="_timeval_8h.html">Timeval.h</a></div></div>
-<div class="ttc" id="aclassnet_1_1_timer_event_dispatcher_html"><div class="ttname"><a href="classnet_1_1_timer_event_dispatcher.html">net::TimerEventDispatcher</a></div><div class="ttdef"><b>Definition:</b> <a href="_timer_event_dispatcher_8h_source.html#l00032">TimerEventDispatcher.h:32</a></div></div>
-<div class="ttc" id="aclassnet_1_1_timer_event_receiver_html"><div class="ttname"><a href="classnet_1_1_timer_event_receiver.html">net::TimerEventReceiver</a></div><div class="ttdef"><b>Definition:</b> <a href="_timer_event_receiver_8h_source.html#l00030">TimerEventReceiver.h:30</a></div></div>
-<div class="ttc" id="aclassnet_1_1_timer_event_receiver_html_a6e7d4e707bd54ca6f1cdc2d897fc0e5e"><div class="ttname"><a href="classnet_1_1_timer_event_receiver.html#a6e7d4e707bd54ca6f1cdc2d897fc0e5e">net::TimerEventReceiver::timeout</a></div><div class="ttdeci">virtual struct timeval &amp; timeout()=0</div></div>
-<div class="ttc" id="aclassnet_1_1_timer_event_receiver_html_a79dd60cd2190400725fc32790ce629c8"><div class="ttname"><a href="classnet_1_1_timer_event_receiver.html#a79dd60cd2190400725fc32790ce629c8">net::TimerEventReceiver::dispatch</a></div><div class="ttdeci">virtual bool dispatch()=0</div></div>
-<div class="ttc" id="aclassnet_1_1_timer_event_receiver_html_a88250596671b00a3f56d992f55676650"><div class="ttname"><a href="classnet_1_1_timer_event_receiver.html#a88250596671b00a3f56d992f55676650">net::TimerEventReceiver::destroy</a></div><div class="ttdeci">virtual void destroy()=0</div></div>
-<div class="ttc" id="anamespacenet_html"><div class="ttname"><a href="namespacenet.html">net</a></div><div class="ttdef"><b>Definition:</b> <a href="_accept_event_receiver_8cpp_source.html#l00029">AcceptEventReceiver.cpp:29</a></div></div>
+<div class="ttc" id="aclasscore_1_1_timer_event_dispatcher_html"><div class="ttname"><a href="classcore_1_1_timer_event_dispatcher.html">core::TimerEventDispatcher</a></div><div class="ttdef"><b>Definition:</b> <a href="_timer_event_dispatcher_8h_source.html#l00032">TimerEventDispatcher.h:32</a></div></div>
+<div class="ttc" id="aclasscore_1_1_timer_event_receiver_html"><div class="ttname"><a href="classcore_1_1_timer_event_receiver.html">core::TimerEventReceiver</a></div><div class="ttdef"><b>Definition:</b> <a href="_timer_event_receiver_8h_source.html#l00030">TimerEventReceiver.h:30</a></div></div>
+<div class="ttc" id="aclasscore_1_1_timer_event_receiver_html_a182127492c0fdafc2f52291d3a27d556"><div class="ttname"><a href="classcore_1_1_timer_event_receiver.html#a182127492c0fdafc2f52291d3a27d556">core::TimerEventReceiver::destroy</a></div><div class="ttdeci">virtual void destroy()=0</div></div>
+<div class="ttc" id="aclasscore_1_1_timer_event_receiver_html_a683aa1874c4b645b69e0e14dd7fd9ca8"><div class="ttname"><a href="classcore_1_1_timer_event_receiver.html#a683aa1874c4b645b69e0e14dd7fd9ca8">core::TimerEventReceiver::timeout</a></div><div class="ttdeci">virtual struct timeval &amp; timeout()=0</div></div>
+<div class="ttc" id="aclasscore_1_1_timer_event_receiver_html_a8d2cfab8f3e749aee9deb64dcd93a288"><div class="ttname"><a href="classcore_1_1_timer_event_receiver.html#a8d2cfab8f3e749aee9deb64dcd93a288">core::TimerEventReceiver::dispatch</a></div><div class="ttdeci">virtual bool dispatch()=0</div></div>
+<div class="ttc" id="anamespacecore_html"><div class="ttname"><a href="namespacecore.html">core</a></div><div class="ttdef"><b>Definition:</b> <a href="_accept_event_receiver_8cpp_source.html#l00029">AcceptEventReceiver.cpp:29</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_427baa8a9a5be237f298d4545d0d1ce2.html">net</a></li><li class="navelem"><a class="el" href="_timer_event_receiver_8h.html">TimerEventReceiver.h</a></li>
+    <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="_timer_event_receiver_8h.html">TimerEventReceiver.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

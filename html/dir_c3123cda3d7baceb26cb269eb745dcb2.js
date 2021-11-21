@@ -14,9 +14,7 @@ var dir_c3123cda3d7baceb26cb269eb745dcb2 =
     [ "Response.h", "web_2http_2server_2_response_8h.html", [
       [ "Response", "classweb_1_1http_1_1server_1_1_response.html", "classweb_1_1http_1_1server_1_1_response" ]
     ] ],
-    [ "Server.h", "_server_8h.html", [
-      [ "Server", "classweb_1_1http_1_1server_1_1_server.html", "classweb_1_1http_1_1server_1_1_server" ]
-    ] ],
+    [ "Server.h", "_server_8h.html", "_server_8h" ],
     [ "SocketContext.h", "web_2http_2server_2_socket_context_8h.html", [
       [ "SocketContext", "classweb_1_1http_1_1server_1_1_socket_context.html", "classweb_1_1http_1_1server_1_1_socket_context" ],
       [ "RequestContext", "structweb_1_1http_1_1server_1_1_socket_context_1_1_request_context.html", "structweb_1_1http_1_1server_1_1_socket_context_1_1_request_context" ]

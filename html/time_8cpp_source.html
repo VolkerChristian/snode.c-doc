@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>snode.c: net/system/time.cpp Source File</title>
+<title>snode.c: core/system/time.cpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('time_8cpp_source.html',''); initResiza
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * along with this program. If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="time_8h.html">net/system/time.h</a>&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="time_8h.html">core/system/time.h</a>&quot;</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
@@ -111,41 +111,41 @@ $(document).ready(function(){initNavTree('time_8cpp_source.html',''); initResiza
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacenet_1_1system.html">net::system</a> {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecore_1_1system.html">core::system</a> {</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="namespacenet_1_1system.html#a14577a3d4ff982622034e2060c35e19b">   29</a></span>&#160;    time_t <a class="code" href="namespacenet_1_1system.html#a14577a3d4ff982622034e2060c35e19b">time</a>(time_t* tloc) {</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="namespacecore_1_1system.html#a04721c28c02cc5c20d4dda8e7c2d991c">   29</a></span>&#160;    time_t <a class="code" href="namespacecore_1_1system.html#a04721c28c02cc5c20d4dda8e7c2d991c">time</a>(time_t* tloc) {</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        errno = 0;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="namespacenet_1_1system.html#a14577a3d4ff982622034e2060c35e19b">return ::time</a>(tloc);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a04721c28c02cc5c20d4dda8e7c2d991c">return ::time</a>(tloc);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="namespacenet_1_1system.html#aa6f351129e5d8c8522b104b4c6d9d62e">   34</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="namespacenet_1_1system.html#aa6f351129e5d8c8522b104b4c6d9d62e">gettimeofday</a>(<span class="keyword">struct</span> timeval* tv, <span class="keyword">struct</span> timezone* tz) {</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="namespacecore_1_1system.html#acf9e7364dbf51f07083e05caa50d3b66">   34</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="namespacecore_1_1system.html#acf9e7364dbf51f07083e05caa50d3b66">gettimeofday</a>(<span class="keyword">struct</span> timeval* tv, <span class="keyword">struct</span> timezone* tz) {</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        errno = 0;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="namespacenet_1_1system.html#aa6f351129e5d8c8522b104b4c6d9d62e">return ::gettimeofday</a>(tv, tz);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="namespacecore_1_1system.html#acf9e7364dbf51f07083e05caa50d3b66">return ::gettimeofday</a>(tv, tz);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="namespacenet_1_1system.html#a4c3fad621656ff9b26b177278b3db55c">   39</a></span>&#160;    <span class="keyword">struct </span>tm* <a class="code" href="namespacenet_1_1system.html#a4c3fad621656ff9b26b177278b3db55c">gmtime</a>(<span class="keyword">const</span> time_t* timep) {</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="namespacecore_1_1system.html#a503de099f7b94fe72d55f990a19ceeac">   39</a></span>&#160;    <span class="keyword">struct </span>tm* <a class="code" href="namespacecore_1_1system.html#a503de099f7b94fe72d55f990a19ceeac">gmtime</a>(<span class="keyword">const</span> time_t* timep) {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        errno = 0;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="namespacenet_1_1system.html#a4c3fad621656ff9b26b177278b3db55c">return ::gmtime</a>(timep);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a503de099f7b94fe72d55f990a19ceeac">return ::gmtime</a>(timep);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="namespacenet_1_1system.html#a3a1f87c6f6ae3ae6bc85556c055d2ef3">   44</a></span>&#160;    time_t <a class="code" href="namespacenet_1_1system.html#a3a1f87c6f6ae3ae6bc85556c055d2ef3">mktime</a>(<span class="keyword">struct</span> tm* tm) {</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="namespacecore_1_1system.html#abee02a380a0d0d794777708f5f8970f9">   44</a></span>&#160;    time_t <a class="code" href="namespacecore_1_1system.html#abee02a380a0d0d794777708f5f8970f9">mktime</a>(<span class="keyword">struct</span> tm* tm) {</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        errno = 0;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="namespacenet_1_1system.html#a3a1f87c6f6ae3ae6bc85556c055d2ef3">return ::mktime</a>(tm);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="namespacecore_1_1system.html#abee02a380a0d0d794777708f5f8970f9">return ::mktime</a>(tm);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;} <span class="comment">// namespace net::system</span></div>
-<div class="ttc" id="anamespacenet_1_1system_html"><div class="ttname"><a href="namespacenet_1_1system.html">net::system</a></div><div class="ttdef"><b>Definition:</b> <a href="dlfcn_8cpp_source.html#l00025">dlfcn.cpp:25</a></div></div>
-<div class="ttc" id="anamespacenet_1_1system_html_a14577a3d4ff982622034e2060c35e19b"><div class="ttname"><a href="namespacenet_1_1system.html#a14577a3d4ff982622034e2060c35e19b">net::system::time</a></div><div class="ttdeci">time_t time(time_t *tloc)</div><div class="ttdef"><b>Definition:</b> <a href="time_8cpp_source.html#l00029">time.cpp:29</a></div></div>
-<div class="ttc" id="anamespacenet_1_1system_html_a3a1f87c6f6ae3ae6bc85556c055d2ef3"><div class="ttname"><a href="namespacenet_1_1system.html#a3a1f87c6f6ae3ae6bc85556c055d2ef3">net::system::mktime</a></div><div class="ttdeci">time_t mktime(struct tm *tm)</div><div class="ttdef"><b>Definition:</b> <a href="time_8cpp_source.html#l00044">time.cpp:44</a></div></div>
-<div class="ttc" id="anamespacenet_1_1system_html_a4c3fad621656ff9b26b177278b3db55c"><div class="ttname"><a href="namespacenet_1_1system.html#a4c3fad621656ff9b26b177278b3db55c">net::system::gmtime</a></div><div class="ttdeci">struct tm * gmtime(const time_t *timep)</div><div class="ttdef"><b>Definition:</b> <a href="time_8cpp_source.html#l00039">time.cpp:39</a></div></div>
-<div class="ttc" id="anamespacenet_1_1system_html_aa6f351129e5d8c8522b104b4c6d9d62e"><div class="ttname"><a href="namespacenet_1_1system.html#aa6f351129e5d8c8522b104b4c6d9d62e">net::system::gettimeofday</a></div><div class="ttdeci">int gettimeofday(struct timeval *tv, struct timezone *tz)</div><div class="ttdef"><b>Definition:</b> <a href="time_8cpp_source.html#l00034">time.cpp:34</a></div></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;} <span class="comment">// namespace core::system</span></div>
+<div class="ttc" id="anamespacecore_1_1system_html"><div class="ttname"><a href="namespacecore_1_1system.html">core::system</a></div><div class="ttdef"><b>Definition:</b> <a href="dlfcn_8cpp_source.html#l00025">dlfcn.cpp:25</a></div></div>
+<div class="ttc" id="anamespacecore_1_1system_html_a04721c28c02cc5c20d4dda8e7c2d991c"><div class="ttname"><a href="namespacecore_1_1system.html#a04721c28c02cc5c20d4dda8e7c2d991c">core::system::time</a></div><div class="ttdeci">time_t time(time_t *tloc)</div><div class="ttdef"><b>Definition:</b> <a href="time_8cpp_source.html#l00029">time.cpp:29</a></div></div>
+<div class="ttc" id="anamespacecore_1_1system_html_a503de099f7b94fe72d55f990a19ceeac"><div class="ttname"><a href="namespacecore_1_1system.html#a503de099f7b94fe72d55f990a19ceeac">core::system::gmtime</a></div><div class="ttdeci">struct tm * gmtime(const time_t *timep)</div><div class="ttdef"><b>Definition:</b> <a href="time_8cpp_source.html#l00039">time.cpp:39</a></div></div>
+<div class="ttc" id="anamespacecore_1_1system_html_abee02a380a0d0d794777708f5f8970f9"><div class="ttname"><a href="namespacecore_1_1system.html#abee02a380a0d0d794777708f5f8970f9">core::system::mktime</a></div><div class="ttdeci">time_t mktime(struct tm *tm)</div><div class="ttdef"><b>Definition:</b> <a href="time_8cpp_source.html#l00044">time.cpp:44</a></div></div>
+<div class="ttc" id="anamespacecore_1_1system_html_acf9e7364dbf51f07083e05caa50d3b66"><div class="ttname"><a href="namespacecore_1_1system.html#acf9e7364dbf51f07083e05caa50d3b66">core::system::gettimeofday</a></div><div class="ttdeci">int gettimeofday(struct timeval *tv, struct timezone *tz)</div><div class="ttdef"><b>Definition:</b> <a href="time_8cpp_source.html#l00034">time.cpp:34</a></div></div>
 <div class="ttc" id="atime_8h_html"><div class="ttname"><a href="time_8h.html">time.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_427baa8a9a5be237f298d4545d0d1ce2.html">net</a></li><li class="navelem"><a class="el" href="dir_8e2c385fba2509044c8bef06f6278b9b.html">system</a></li><li class="navelem"><a class="el" href="time_8cpp.html">time.cpp</a></li>
+    <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_ddeab0661943ca2a344224c1b2445b85.html">system</a></li><li class="navelem"><a class="el" href="time_8cpp.html">time.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

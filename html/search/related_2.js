@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['eventdispatcher_2082',['EventDispatcher',['../classnet_1_1_event_receiver.html#aad5f38ccd490ea17008460423f52325a',1,'net::EventReceiver']]],
-  ['eventloop_2083',['EventLoop',['../classnet_1_1_dynamic_loader.html#aca25e36665670fcb6909dd8ab04b1d05',1,'net::DynamicLoader::EventLoop()'],['../classnet_1_1_event_dispatcher.html#aca25e36665670fcb6909dd8ab04b1d05',1,'net::EventDispatcher::EventLoop()']]]
+  ['eventdispatcher_2095',['EventDispatcher',['../classcore_1_1_event_receiver.html#aad5f38ccd490ea17008460423f52325a',1,'core::EventReceiver']]],
+  ['eventloop_2096',['EventLoop',['../classcore_1_1_dynamic_loader.html#aca25e36665670fcb6909dd8ab04b1d05',1,'core::DynamicLoader::EventLoop()'],['../classcore_1_1_event_dispatcher.html#aca25e36665670fcb6909dd8ab04b1d05',1,'core::EventDispatcher::EventLoop()']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>snode.c: net/socket/stream/SocketConnection.cpp Source File</title>
+<title>snode.c: core/socket/stream/SocketConnection.cpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -103,38 +103,38 @@ $(document).ready(function(){initNavTree('_socket_connection_8cpp_source.html','
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * along with this program. If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_socket_connection_8h.html">net/socket/stream/SocketConnection.h</a>&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_socket_connection_8h.html">core/socket/stream/SocketConnection.h</a>&quot;</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="net_2socket_2stream_2_socket_context_factory_8h.html">net/socket/stream/SocketContextFactory.h</a>&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="core_2socket_2stream_2_socket_context_factory_8h.html">core/socket/stream/SocketContextFactory.h</a>&quot;</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacenet_1_1socket_1_1stream.html">net::socket::stream</a> {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecore_1_1socket_1_1stream.html">core::socket::stream</a> {</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classnet_1_1socket_1_1stream_1_1_socket_connection.html#aabce6c1ee90fcdc20360839018bfcf1e">   29</a></span>&#160;    <a class="code" href="classnet_1_1socket_1_1stream_1_1_socket_connection.html#aafe65cf253e12ab92b093b4e7d778415">SocketConnection::SocketConnection</a>(<span class="keyword">const</span> std::shared_ptr&lt;SocketContextFactory&gt;&amp; socketContextFactory)</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#af90007eb0fa24608f841ab3498acebc8">   29</a></span>&#160;    <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ab7a02ea2fc906d58b8e200bc6de56650">SocketConnection::SocketConnection</a>(<span class="keyword">const</span> std::shared_ptr&lt;SocketContextFactory&gt;&amp; socketContextFactory)</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        : socketContext(socketContextFactory-&gt;create(this)) {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classnet_1_1socket_1_1stream_1_1_socket_connection.html#a635955ad750044063a648d2ac8c324a5">   33</a></span>&#160;    <a class="code" href="classnet_1_1socket_1_1stream_1_1_socket_context.html">SocketContext</a>* <a class="code" href="classnet_1_1socket_1_1stream_1_1_socket_connection.html#a635955ad750044063a648d2ac8c324a5">SocketConnection::getSocketContext</a>() {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classnet_1_1socket_1_1stream_1_1_socket_connection.html#a2b5b6a55c560b345bdf9391245f6d7bd">socketContext</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a95a2b10608b9dc1305ef1ec67cb70f12">   33</a></span>&#160;    <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_context.html">SocketContext</a>* <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a95a2b10608b9dc1305ef1ec67cb70f12">SocketConnection::getSocketContext</a>() {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a8c107507513398f7b81b3256e943e45b">socketContext</a>;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;} <span class="comment">// namespace net::socket::stream</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;} <span class="comment">// namespace core::socket::stream</span></div>
 <div class="ttc" id="a_socket_connection_8h_html"><div class="ttname"><a href="_socket_connection_8h.html">SocketConnection.h</a></div></div>
-<div class="ttc" id="aclassnet_1_1socket_1_1stream_1_1_socket_connection_html_a2b5b6a55c560b345bdf9391245f6d7bd"><div class="ttname"><a href="classnet_1_1socket_1_1stream_1_1_socket_connection.html#a2b5b6a55c560b345bdf9391245f6d7bd">net::socket::stream::SocketConnection::socketContext</a></div><div class="ttdeci">SocketContext * socketContext</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connection_8h_source.html#l00066">SocketConnection.h:66</a></div></div>
-<div class="ttc" id="aclassnet_1_1socket_1_1stream_1_1_socket_connection_html_a635955ad750044063a648d2ac8c324a5"><div class="ttname"><a href="classnet_1_1socket_1_1stream_1_1_socket_connection.html#a635955ad750044063a648d2ac8c324a5">net::socket::stream::SocketConnection::getSocketContext</a></div><div class="ttdeci">SocketContext * getSocketContext()</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connection_8cpp_source.html#l00033">SocketConnection.cpp:33</a></div></div>
-<div class="ttc" id="aclassnet_1_1socket_1_1stream_1_1_socket_connection_html_aafe65cf253e12ab92b093b4e7d778415"><div class="ttname"><a href="classnet_1_1socket_1_1stream_1_1_socket_connection.html#aafe65cf253e12ab92b093b4e7d778415">net::socket::stream::SocketConnection::SocketConnection</a></div><div class="ttdeci">SocketConnection()=delete</div></div>
-<div class="ttc" id="aclassnet_1_1socket_1_1stream_1_1_socket_context_html"><div class="ttname"><a href="classnet_1_1socket_1_1stream_1_1_socket_context.html">net::socket::stream::SocketContext</a></div><div class="ttdef"><b>Definition:</b> <a href="net_2socket_2stream_2_socket_context_8h_source.html#l00037">SocketContext.h:37</a></div></div>
-<div class="ttc" id="anamespacenet_1_1socket_1_1stream_html"><div class="ttname"><a href="namespacenet_1_1socket_1_1stream.html">net::socket::stream</a></div><div class="ttdef"><b>Definition:</b> <a href="legacy_2_socket_acceptor_8h_source.html#l00029">SocketAcceptor.h:29</a></div></div>
-<div class="ttc" id="anet_2socket_2stream_2_socket_context_factory_8h_html"><div class="ttname"><a href="net_2socket_2stream_2_socket_context_factory_8h.html">SocketContextFactory.h</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connection_html_a8c107507513398f7b81b3256e943e45b"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a8c107507513398f7b81b3256e943e45b">core::socket::stream::SocketConnection::socketContext</a></div><div class="ttdeci">SocketContext * socketContext</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connection_8h_source.html#l00066">SocketConnection.h:66</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connection_html_a95a2b10608b9dc1305ef1ec67cb70f12"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a95a2b10608b9dc1305ef1ec67cb70f12">core::socket::stream::SocketConnection::getSocketContext</a></div><div class="ttdeci">SocketContext * getSocketContext()</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connection_8cpp_source.html#l00033">SocketConnection.cpp:33</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connection_html_ab7a02ea2fc906d58b8e200bc6de56650"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ab7a02ea2fc906d58b8e200bc6de56650">core::socket::stream::SocketConnection::SocketConnection</a></div><div class="ttdeci">SocketConnection()=delete</div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_context_html"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_context.html">core::socket::stream::SocketContext</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_context_8h_source.html#l00037">SocketContext.h:37</a></div></div>
+<div class="ttc" id="acore_2socket_2stream_2_socket_context_factory_8h_html"><div class="ttname"><a href="core_2socket_2stream_2_socket_context_factory_8h.html">SocketContextFactory.h</a></div></div>
+<div class="ttc" id="anamespacecore_1_1socket_1_1stream_html"><div class="ttname"><a href="namespacecore_1_1socket_1_1stream.html">core::socket::stream</a></div><div class="ttdef"><b>Definition:</b> <a href="legacy_2_socket_acceptor_8h_source.html#l00029">SocketAcceptor.h:29</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_427baa8a9a5be237f298d4545d0d1ce2.html">net</a></li><li class="navelem"><a class="el" href="dir_382ef741074736e441d51c2128e55f50.html">socket</a></li><li class="navelem"><a class="el" href="dir_c0c51ca70b1154ee90f078275a100cbc.html">stream</a></li><li class="navelem"><a class="el" href="_socket_connection_8cpp.html">SocketConnection.cpp</a></li>
+    <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_55e2b5896cfedaa9128ab09eb6ffed25.html">socket</a></li><li class="navelem"><a class="el" href="dir_fda6a541e73aa8ed23b6fa172f5dc60d.html">stream</a></li><li class="navelem"><a class="el" href="_socket_connection_8cpp.html">SocketConnection.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

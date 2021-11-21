@@ -44,13 +44,13 @@ var NAVTREE =
       [ "Extract Server and Client Information (host name, IP, port, SSL/TLS information)", "index.html#autotoc_md15", null ],
       [ "Using Regular Expressions in Routes", "index.html#autotoc_md16", null ]
     ] ],
-    [ "GitHub", "^https://github.com/VolkerChristian/snode.c", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
         [ "Variables", "namespacemembers_vars.html", null ],
+        [ "Typedefs", "namespacemembers_type.html", null ],
         [ "Enumerations", "namespacemembers_enum.html", null ],
         [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
@@ -84,16 +84,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_accept_event_receiver_8cpp.html",
-"_transmitter_8h.html",
-"classexpress_1_1middleware_1_1_static_middleware.html",
-"classnet_1_1pipe_1_1_pipe_source.html#a498603e47dcbea6a278ddf71c1286ff3",
-"classnet_1_1socket_1_1stream_1_1_socket_connector.html#acb928c04763dadc6adcb9c7d711d0348",
-"classweb_1_1http_1_1_parser.html#a94ab44c0d65451be6ba3e6e389a8b7d5a75c6b2428da2036422b35ca9b1f1f8c4",
-"classweb_1_1http_1_1server_1_1_request.html#a9830d0fa4e479713dbdb438aeed897db",
-"classweb_1_1websocket_1_1_sub_protocol.html#abd3911de6e37aa4ad047a74bdae5e05d",
-"functions_a.html",
-"namespacenet.html#a38a09d7fb9c20c2d03ed723da643e85aa7560ded3a6c00d4c13387067d99c6fb0",
-"structweb_1_1http_1_1server_1_1_socket_context_1_1_request_context.html#ae767ab27928bd2a19e9d8780909d35ec"
+"_web_app_8cpp.html",
+"classcore_1_1pipe_1_1_pipe.html#ad01a1b3259efcbf9880df3c7d8aa3408",
+"classcore_1_1socket_1_1stream_1_1_socket_writer.html#ae24e4d5d1c36be8d3e57d7828110c8de",
+"classexpress_1_1_router_dispatcher.html#ad15fd47743900787fae26d37db51019d",
+"classweb_1_1http_1_1_socket_context.html#aa2664754fb1f908e1ac15d4aca563447",
+"classweb_1_1http_1_1server_1_1_response.html#a6693a2431a465a948bca9ba1593a1f20",
+"classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#aa96ae6cce3d101e853ad7ba1437e2f60",
+"dlfcn_8cpp.html",
+"namespacecore_1_1system.html#a19ceab092964086376447fb7ddbdb2d2",
+"rf_2stream_2_server_socket_8cpp_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

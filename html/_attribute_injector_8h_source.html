@@ -122,7 +122,7 @@ $(document).ready(function(){initNavTree('_attribute_injector_8h_source.html',''
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                buf[i] = s[i];</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        constexpr <span class="keyword">operator</span> <span class="keywordtype">char</span> <span class="keyword">const</span> *() <span class="keyword">const</span> {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        constexpr <span class="keyword">operator</span> <span class="keywordtype">char</span> <span class="keyword">const</span>*() <span class="keyword">const</span> {</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">return</span> buf;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        }</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
@@ -138,7 +138,7 @@ $(document).ready(function(){initNavTree('_attribute_injector_8h_source.html',''
 <div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="namespaceutils.html">   51</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceutils.html">utils</a> {</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Attribute&gt;</div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="namespaceutils.html#a1aa98fb56232df448d1c6fbc664f7a40">   54</a></span>&#160;    concept <a class="code" href="namespaceutils.html#a1aa98fb56232df448d1c6fbc664f7a40">InjectableAttribute</a> = std::copy_constructible&lt;Attribute&gt;and std::default_initializable&lt;Attribute&gt;and std::copyable&lt;Attribute&gt;;</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="namespaceutils.html#a1aa98fb56232df448d1c6fbc664f7a40">   54</a></span>&#160;    concept <a class="code" href="namespaceutils.html#a1aa98fb56232df448d1c6fbc664f7a40">InjectableAttribute</a> = std::copy_constructible&lt;Attribute&gt; and std::default_initializable&lt;Attribute&gt; and std::copyable&lt;Attribute&gt;;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keyword">template</span> &lt;InjectableAttribute Attribute&gt;</div>
 <div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="classutils_1_1_attribute_proxy.html">   57</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classutils_1_1_attribute_proxy.html">AttributeProxy</a> {</div>

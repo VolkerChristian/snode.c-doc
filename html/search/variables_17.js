@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['writebuffer_2008',['writeBuffer',['../classnet_1_1pipe_1_1_pipe_source.html#a97e60d7dc50b400375203f57f2a1d347',1,'net::pipe::PipeSource::writeBuffer()'],['../classnet_1_1socket_1_1stream_1_1_socket_writer.html#a33c28980a21e4e1289611714634ab3d8',1,'net::socket::stream::SocketWriter::writeBuffer()']]],
-  ['writeeventdispatcher_2009',['writeEventDispatcher',['../classnet_1_1_event_loop.html#abfe5262292abf6cfc05fd0ec7d4e8263',1,'net::EventLoop']]]
+  ['writebuffer_2017',['writeBuffer',['../classcore_1_1pipe_1_1_pipe_source.html#a43492505e91c1e2886552595985d38f2',1,'core::pipe::PipeSource::writeBuffer()'],['../classcore_1_1socket_1_1stream_1_1_socket_writer.html#a640b6d15769aeb00fe839410326858b1',1,'core::socket::stream::SocketWriter::writeBuffer()']]],
+  ['writeeventdispatcher_2018',['writeEventDispatcher',['../classcore_1_1_event_loop.html#a50fc5fac9728ae85ab437e9da2dcf507',1,'core::EventLoop']]]
 ];

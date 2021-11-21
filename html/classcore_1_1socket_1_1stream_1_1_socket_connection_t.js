@@ -1,0 +1,26 @@
+var classcore_1_1socket_1_1stream_1_1_socket_connection_t =
+[
+    [ "SocketAddress", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ac5efd74aed4f2914ddf1c74dc2af593b", null ],
+    [ "SocketReader", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a9c1c03ed08bbc0e63a91ecfdc08965ea", null ],
+    [ "SocketWriter", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#aa68f79a83bfea9870afdd90e28b70e44", null ],
+    [ "SocketConnectionT", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#adfd4e98c267719a89452c9b2f37fdc57", null ],
+    [ "SocketConnectionT", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a94d7f88972be8cbb6437b3116b4ddbe4", null ],
+    [ "~SocketConnectionT", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#aa76d27f8386a64e4a09949fd8050c246", null ],
+    [ "close", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ae09d47a903785ebd581677a122088886", null ],
+    [ "getLocalAddress", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a453d5b2511758d23f0c85abc761e6c98", null ],
+    [ "getLocalAddressAsString", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a8b2279f36acb28082b0c13f17d868f47", null ],
+    [ "getRemoteAddress", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a4d174ee50abc713a41417fd71b1e1e93", null ],
+    [ "getRemoteAddressAsString", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ad9329fe839046c75bb6a173e72359382", null ],
+    [ "readEvent", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a23f675244a52b8bd487b4022b7615637", null ],
+    [ "readFromPeer", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ad8f6106747babf5c98532a324c361245", null ],
+    [ "sendToPeer", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ad77f979204bac42bc2db7cd6fc718257", null ],
+    [ "sendToPeer", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a8845faaf2206ac7414d105881d147ebf", null ],
+    [ "setTimeout", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ae49a66612ed9531ecd2359c8be0add12", null ],
+    [ "switchSocketContext", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a13f5f137fe54c698fa54f6bbedd165a9", null ],
+    [ "unobservedEvent", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a2eb7f42da808d50859f4b62b6232bcd0", null ],
+    [ "writeEvent", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a50c1f4e46c06f7bd65d782c8d2cedc94", null ],
+    [ "localAddress", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a539c228609378f22c82b663bfe6cecdc", null ],
+    [ "newSocketContext", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a7bdaabdb91615219807486739f74b95e", null ],
+    [ "onDisconnect", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a235aeae52b87e8f247fe7796f1f4103a", null ],
+    [ "remoteAddress", "classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#abb0ee99f20818e923ce504bd6a4741d8", null ]
+];

@@ -19,7 +19,7 @@ var classweb_1_1http_1_1_parser =
       [ "BODY", "classweb_1_1http_1_1_parser.html#a94ab44c0d65451be6ba3e6e389a8b7d5a786329b34bbe53ab40a54a19cd597f2d", null ],
       [ "ERROR", "classweb_1_1http_1_1_parser.html#a94ab44c0d65451be6ba3e6e389a8b7d5abb1ca97ec761fc37101737ba0aa2e7c5", null ]
     ] ],
-    [ "Parser", "classweb_1_1http_1_1_parser.html#ab70e5a649587fe5293542af0d922229d", null ],
+    [ "Parser", "classweb_1_1http_1_1_parser.html#a3dc56190c19a9bed38b3934c289f19e8", null ],
     [ "~Parser", "classweb_1_1http_1_1_parser.html#a0b4f727f6db7040f21dac366a10f9424", null ],
     [ "begin", "classweb_1_1http_1_1_parser.html#ab270fbb3109ec119665d0aafadcd2d8d", null ],
     [ "parse", "classweb_1_1http_1_1_parser.html#ac355ac1ce5844ed0d6626df639dfa985", null ],
@@ -44,5 +44,5 @@ var classweb_1_1http_1_1_parser =
     [ "httpVersionRegex", "classweb_1_1http_1_1_parser.html#a55b72f49cd7bc28f418a7737bfda63d6", null ],
     [ "line", "classweb_1_1http_1_1_parser.html#af961ee96cda4105c5422fe4cbfa38b0d", null ],
     [ "parserState", "classweb_1_1http_1_1_parser.html#a0e858c3c2fa4c9416538d738444c2db3", null ],
-    [ "socketContext", "classweb_1_1http_1_1_parser.html#ad23d9efc338ac58ed9231879c94c7c0b", null ]
+    [ "socketContext", "classweb_1_1http_1_1_parser.html#a887a9c8ada29f7aab21ec4f84c3a89be", null ]
 ];

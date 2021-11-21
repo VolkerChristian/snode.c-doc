@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['stacktrace_1194',['stacktrace',['../namespacestacktrace.html',1,'']]]
+  ['logger_1195',['logger',['../namespacelogger.html',1,'']]]
 ];

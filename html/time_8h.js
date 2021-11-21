@@ -1,7 +1,7 @@
 var time_8h =
 [
-    [ "gettimeofday", "time_8h.html#aa6f351129e5d8c8522b104b4c6d9d62e", null ],
-    [ "gmtime", "time_8h.html#a4c3fad621656ff9b26b177278b3db55c", null ],
-    [ "mktime", "time_8h.html#a3a1f87c6f6ae3ae6bc85556c055d2ef3", null ],
-    [ "time", "time_8h.html#a14577a3d4ff982622034e2060c35e19b", null ]
+    [ "gettimeofday", "time_8h.html#acf9e7364dbf51f07083e05caa50d3b66", null ],
+    [ "gmtime", "time_8h.html#a503de099f7b94fe72d55f990a19ceeac", null ],
+    [ "mktime", "time_8h.html#abee02a380a0d0d794777708f5f8970f9", null ],
+    [ "time", "time_8h.html#a04721c28c02cc5c20d4dda8e7c2d991c", null ]
 ];

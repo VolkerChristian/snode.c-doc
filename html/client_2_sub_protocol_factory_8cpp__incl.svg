@@ -13,9 +13,9 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="257,-391.5 257,-421.5 380,-421.5 380,-391.5 257,-391.5"/>
-<text text-anchor="start" x="265" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">web/websocket/client</text>
-<text text-anchor="middle" x="318.5" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SubProtocolFactory.cpp</text>
+<polygon fill="#bfbfbf" stroke="black" points="263,-391.5 263,-421.5 386,-421.5 386,-391.5 263,-391.5"/>
+<text text-anchor="start" x="271" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">web/websocket/client</text>
+<text text-anchor="middle" x="324.5" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SubProtocolFactory.cpp</text>
 </a>
 </g>
 </g>
@@ -23,65 +23,65 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="client_2_sub_protocol_factory_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="188,-324.5 188,-354.5 301,-354.5 301,-324.5 188,-324.5"/>
-<text text-anchor="start" x="196" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">web/websocket/client</text>
-<text text-anchor="middle" x="244.5" y="-331.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SubProtocolFactory.h</text>
+<polygon fill="white" stroke="black" points="194,-324.5 194,-354.5 307,-354.5 307,-324.5 194,-324.5"/>
+<text text-anchor="start" x="202" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">web/websocket/client</text>
+<text text-anchor="middle" x="250.5" y="-331.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SubProtocolFactory.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M302.44,-391.4C292.46,-382.62 279.43,-371.18 268.26,-361.37"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="270.35,-358.55 260.53,-354.58 265.73,-363.81 270.35,-358.55"/>
+<path fill="none" stroke="midnightblue" d="M308.44,-391.4C298.46,-382.62 285.43,-371.18 274.26,-361.37"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="276.35,-358.55 266.53,-354.58 271.73,-363.81 276.35,-358.55"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
 <g id="a_node12"><a xlink:href="client_2_sub_protocol_factory_selector_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="319,-324.5 319,-354.5 468,-354.5 468,-324.5 319,-324.5"/>
-<text text-anchor="start" x="327" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">web/websocket/client</text>
-<text text-anchor="middle" x="393.5" y="-331.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SubProtocolFactorySelector.h</text>
+<polygon fill="white" stroke="black" points="325,-324.5 325,-354.5 474,-354.5 474,-324.5 325,-324.5"/>
+<text text-anchor="start" x="333" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">web/websocket/client</text>
+<text text-anchor="middle" x="399.5" y="-331.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SubProtocolFactorySelector.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node12 -->
 <g id="edge11" class="edge">
 <title>Node1&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M334.77,-391.4C344.9,-382.62 358.1,-371.18 369.42,-361.37"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="371.99,-363.77 377.26,-354.58 367.41,-358.48 371.99,-363.77"/>
+<path fill="none" stroke="midnightblue" d="M340.77,-391.4C350.9,-382.62 364.1,-371.18 375.42,-361.37"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="377.99,-363.77 383.26,-354.58 373.41,-358.48 377.99,-363.77"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="_sub_protocol_factory_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="33,-257.5 33,-287.5 174,-287.5 174,-257.5 33,-257.5"/>
-<text text-anchor="start" x="41" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">web/websocket/SubProtocol</text>
-<text text-anchor="middle" x="103.5" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">Factory.h</text>
+<polygon fill="white" stroke="black" points="37,-257.5 37,-287.5 178,-287.5 178,-257.5 37,-257.5"/>
+<text text-anchor="start" x="45" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">web/websocket/SubProtocol</text>
+<text text-anchor="middle" x="107.5" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">Factory.h</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M213.91,-324.4C193.21,-314.86 165.68,-302.16 143.28,-291.84"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="144.58,-288.58 134.04,-287.58 141.65,-294.94 144.58,-288.58"/>
+<path fill="none" stroke="midnightblue" d="M219.47,-324.4C198.48,-314.86 170.56,-302.16 147.85,-291.84"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="149.02,-288.53 138.47,-287.58 146.12,-294.9 149.02,-288.53"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="client_2_sub_protocol_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="192,-257.5 192,-287.5 303,-287.5 303,-257.5 192,-257.5"/>
-<text text-anchor="start" x="200" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">web/websocket/client</text>
-<text text-anchor="middle" x="247.5" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SubProtocol.h</text>
+<polygon fill="white" stroke="black" points="196,-257.5 196,-287.5 307,-287.5 307,-257.5 196,-257.5"/>
+<text text-anchor="start" x="204" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">web/websocket/client</text>
+<text text-anchor="middle" x="251.5" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SubProtocol.h</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node2&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M245.15,-324.4C245.51,-316.64 245.96,-306.81 246.38,-297.86"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="249.89,-297.73 246.85,-287.58 242.89,-297.4 249.89,-297.73"/>
+<path fill="none" stroke="midnightblue" d="M250.72,-324.4C250.84,-316.64 250.99,-306.81 251.13,-297.86"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="254.63,-297.63 251.28,-287.58 247.63,-297.52 254.63,-297.63"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -95,8 +95,8 @@
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M214.3,-257.4C187.34,-245.94 149.67,-229.94 123.81,-218.95"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="125.1,-215.7 114.52,-215.01 122.36,-222.14 125.1,-215.7"/>
+<path fill="none" stroke="midnightblue" d="M217.43,-257.4C189.76,-245.94 151.11,-229.94 124.58,-218.95"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="125.63,-215.6 115.05,-215.01 122.95,-222.07 125.63,-215.6"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -111,8 +111,8 @@
 <!-- Node4&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node4&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M248.58,-257.4C249.19,-249.56 249.95,-239.6 250.65,-230.57"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="254.14,-230.82 251.42,-220.58 247.16,-230.28 254.14,-230.82"/>
+<path fill="none" stroke="midnightblue" d="M251.72,-257.4C251.84,-249.64 251.99,-239.81 252.13,-230.86"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="255.63,-230.63 252.28,-220.58 248.63,-230.52 255.63,-230.63"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
@@ -178,10 +178,10 @@
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="net_2socket_2stream_2_socket_context_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="19,-0.5 19,-30.5 148,-30.5 148,-0.5 19,-0.5"/>
-<text text-anchor="start" x="27" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">net/socket/stream/Socket</text>
-<text text-anchor="middle" x="83.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Context.h</text>
+<g id="a_node9"><a xlink:href="core_2socket_2stream_2_socket_context_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="33,-0.5 33,-30.5 134,-30.5 134,-0.5 33,-0.5"/>
+<text text-anchor="start" x="41" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">core/socket/stream</text>
+<text text-anchor="middle" x="83.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SocketContext.h</text>
 </a>
 </g>
 </g>
@@ -195,32 +195,47 @@
 <g id="node13" class="node">
 <title>Node13</title>
 <g id="a_node13"><a xlink:href="_sub_protocol_factory_selector_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="323,-257.5 323,-287.5 464,-287.5 464,-257.5 323,-257.5"/>
-<text text-anchor="start" x="331" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">web/websocket/SubProtocol</text>
-<text text-anchor="middle" x="393.5" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">FactorySelector.h</text>
+<polygon fill="white" stroke="black" points="329,-257.5 329,-287.5 470,-287.5 470,-257.5 329,-257.5"/>
+<text text-anchor="start" x="337" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">web/websocket/SubProtocol</text>
+<text text-anchor="middle" x="399.5" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">FactorySelector.h</text>
 </a>
 </g>
 </g>
 <!-- Node12&#45;&gt;Node13 -->
 <g id="edge12" class="edge">
 <title>Node12&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M393.5,-324.4C393.5,-316.64 393.5,-306.81 393.5,-297.86"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="397,-297.58 393.5,-287.58 390,-297.58 397,-297.58"/>
+<path fill="none" stroke="midnightblue" d="M399.5,-324.4C399.5,-316.64 399.5,-306.81 399.5,-297.86"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="403,-297.58 399.5,-287.58 396,-297.58 403,-297.58"/>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
 <g id="a_node14"><a xlink:href="_dynamic_loader_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="339,-196 339,-215 448,-215 448,-196 339,-196"/>
-<text text-anchor="middle" x="393.5" y="-203" font-family="Helvetica,sans-Serif" font-size="10.00">net/DynamicLoader.h</text>
+<polygon fill="white" stroke="black" points="342.5,-196 342.5,-215 456.5,-215 456.5,-196 342.5,-196"/>
+<text text-anchor="middle" x="399.5" y="-203" font-family="Helvetica,sans-Serif" font-size="10.00">core/DynamicLoader.h</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node14 -->
 <g id="edge13" class="edge">
 <title>Node13&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M393.5,-257.4C393.5,-248.06 393.5,-235.71 393.5,-225.52"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="397,-225.19 393.5,-215.19 390,-225.19 397,-225.19"/>
+<path fill="none" stroke="midnightblue" d="M399.5,-257.4C399.5,-248.06 399.5,-235.71 399.5,-225.52"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="403,-225.19 399.5,-215.19 396,-225.19 403,-225.19"/>
+</g>
+<!-- Node15 -->
+<g id="node15" class="node">
+<title>Node15</title>
+<g id="a_node15"><a xlink:href="dlfcn_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="348,-129 348,-148 451,-148 451,-129 348,-129"/>
+<text text-anchor="middle" x="399.5" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">core/system/dlfcn.h</text>
+</a>
+</g>
+</g>
+<!-- Node14&#45;&gt;Node15 -->
+<g id="edge14" class="edge">
+<title>Node14&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M399.5,-195.73C399.5,-186.18 399.5,-170.62 399.5,-158.28"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="403,-158.13 399.5,-148.13 396,-158.13 403,-158.13"/>
 </g>
 </g>
 </svg>
