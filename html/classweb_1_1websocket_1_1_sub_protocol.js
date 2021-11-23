@@ -1,10 +1,6 @@
 var classweb_1_1websocket_1_1_sub_protocol =
 [
     [ "SocketContextUpgrade", "classweb_1_1websocket_1_1_sub_protocol.html#adc5e24ed30935e0c45fa6dc55d7ad01c", null ],
-    [ "Role", "classweb_1_1websocket_1_1_sub_protocol.html#a4f627851f29882cb69ca97e69a094484", [
-      [ "SERVER", "classweb_1_1websocket_1_1_sub_protocol.html#a4f627851f29882cb69ca97e69a094484a3d27c95bfdbea691b250894d96852844", null ],
-      [ "CLIENT", "classweb_1_1websocket_1_1_sub_protocol.html#a4f627851f29882cb69ca97e69a094484aef10c650df47bffd6399e5e78da2a9b1", null ]
-    ] ],
     [ "SubProtocol", "classweb_1_1websocket_1_1_sub_protocol.html#a5f4f6350d3db15687c18f1a751ec63a2", null ],
     [ "SubProtocol", "classweb_1_1websocket_1_1_sub_protocol.html#ab58e224579cd3e0562c0cd230fdd0630", null ],
     [ "~SubProtocol", "classweb_1_1websocket_1_1_sub_protocol.html#ac030702c58fe6af46260f91847025609", null ],

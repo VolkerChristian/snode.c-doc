@@ -110,31 +110,29 @@ $(document).ready(function(){initNavTree('net_2un_2_socket_address_8h_source.htm
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;cstdint&gt;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;exception&gt;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &lt;sys/un.h&gt;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;sys/un.h&gt;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacenet_1_1un.html">net::un</a> {</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacenet_1_1un.html">net::un</a> {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classnet_1_1un_1_1_socket_address.html">   35</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classnet_1_1un_1_1_socket_address.html">SocketAddress</a> : <span class="keyword">public</span> <a class="code" href="classcore_1_1socket_1_1_socket_address.html">core::socket::SocketAddress</a>&lt;struct sockaddr_un&gt; {</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keyword">using</span> <a class="code" href="classcore_1_1socket_1_1_socket_address.html">core::socket::SocketAddress&lt;struct sockaddr_un&gt;::SocketAddress</a>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="classnet_1_1un_1_1_socket_address.html#af20aa53a2d0f4d9684b9a27d33176568">SocketAddress</a>();</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keyword">explicit</span> <a class="code" href="classnet_1_1un_1_1_socket_address.html#af20aa53a2d0f4d9684b9a27d33176568">SocketAddress</a>(<span class="keyword">const</span> std::string&amp; sunPath);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        std::string <a class="code" href="classnet_1_1un_1_1_socket_address.html#ac670b2f6989641a126dc9c763b885587">address</a>() <span class="keyword">const override</span>;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        std::string <a class="code" href="classnet_1_1un_1_1_socket_address.html#a3d3cc03a420d66466e6ad80ee2219cf7">toString</a>() <span class="keyword">const override</span>;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    };</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classnet_1_1un_1_1_socket_address.html">   33</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classnet_1_1un_1_1_socket_address.html">SocketAddress</a> : <span class="keyword">public</span> <a class="code" href="classcore_1_1socket_1_1_socket_address.html">core::socket::SocketAddress</a>&lt;struct sockaddr_un&gt; {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keyword">using</span> <a class="code" href="classcore_1_1socket_1_1_socket_address.html">core::socket::SocketAddress&lt;struct sockaddr_un&gt;::SocketAddress</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="classnet_1_1un_1_1_socket_address.html#af20aa53a2d0f4d9684b9a27d33176568">SocketAddress</a>();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keyword">explicit</span> <a class="code" href="classnet_1_1un_1_1_socket_address.html#af20aa53a2d0f4d9684b9a27d33176568">SocketAddress</a>(<span class="keyword">const</span> std::string&amp; sunPath);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        std::string <a class="code" href="classnet_1_1un_1_1_socket_address.html#ac670b2f6989641a126dc9c763b885587">address</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        std::string <a class="code" href="classnet_1_1un_1_1_socket_address.html#a3d3cc03a420d66466e6ad80ee2219cf7">toString</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    };</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;} <span class="comment">// namespace net::un</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;} <span class="comment">// namespace net::un</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// NET_UN_SOCKETADDRESS_H</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// NET_UN_SOCKETADDRESS_H</span></div>
 <div class="ttc" id="aclasscore_1_1socket_1_1_socket_address_html"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_address.html">core::socket::SocketAddress</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2_socket_address_8h_source.html#l00034">SocketAddress.h:34</a></div></div>
-<div class="ttc" id="aclassnet_1_1un_1_1_socket_address_html"><div class="ttname"><a href="classnet_1_1un_1_1_socket_address.html">net::un::SocketAddress</a></div><div class="ttdef"><b>Definition:</b> <a href="net_2un_2_socket_address_8h_source.html#l00035">SocketAddress.h:35</a></div></div>
+<div class="ttc" id="aclassnet_1_1un_1_1_socket_address_html"><div class="ttname"><a href="classnet_1_1un_1_1_socket_address.html">net::un::SocketAddress</a></div><div class="ttdef"><b>Definition:</b> <a href="net_2un_2_socket_address_8h_source.html#l00033">SocketAddress.h:33</a></div></div>
 <div class="ttc" id="aclassnet_1_1un_1_1_socket_address_html_a3d3cc03a420d66466e6ad80ee2219cf7"><div class="ttname"><a href="classnet_1_1un_1_1_socket_address.html#a3d3cc03a420d66466e6ad80ee2219cf7">net::un::SocketAddress::toString</a></div><div class="ttdeci">std::string toString() const override</div><div class="ttdef"><b>Definition:</b> <a href="un_2_socket_address_8cpp_source.html#l00044">SocketAddress.cpp:44</a></div></div>
 <div class="ttc" id="aclassnet_1_1un_1_1_socket_address_html_ac670b2f6989641a126dc9c763b885587"><div class="ttname"><a href="classnet_1_1un_1_1_socket_address.html#ac670b2f6989641a126dc9c763b885587">net::un::SocketAddress::address</a></div><div class="ttdeci">std::string address() const override</div><div class="ttdef"><b>Definition:</b> <a href="un_2_socket_address_8cpp_source.html#l00040">SocketAddress.cpp:40</a></div></div>
 <div class="ttc" id="aclassnet_1_1un_1_1_socket_address_html_af20aa53a2d0f4d9684b9a27d33176568"><div class="ttname"><a href="classnet_1_1un_1_1_socket_address.html#af20aa53a2d0f4d9684b9a27d33176568">net::un::SocketAddress::SocketAddress</a></div><div class="ttdeci">SocketAddress()</div><div class="ttdef"><b>Definition:</b> <a href="un_2_socket_address_8cpp_source.html#l00031">SocketAddress.cpp:31</a></div></div>

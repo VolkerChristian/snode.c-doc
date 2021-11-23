@@ -1,10 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"dlfcn_8cpp.html":[9,0,0,3,0],
-"dlfcn_8cpp.html#a0778aa080f796964218bcd02804a2b17":[9,0,0,3,0,1],
-"dlfcn_8cpp.html#a4317d54914cd18248143183ea71252d3":[9,0,0,3,0,0],
-"dlfcn_8cpp.html#a83d3862b9812ad39b93753bbea40238b":[9,0,0,3,0,3],
-"dlfcn_8cpp.html#a87ab6f4aac806776e472cc3abeb61447":[9,0,0,3,0,2],
 "dlfcn_8cpp_source.html":[9,0,0,3,0],
 "dlfcn_8h.html":[9,0,0,3,1],
 "dlfcn_8h.html#a0778aa080f796964218bcd02804a2b17":[9,0,0,3,1,1],
@@ -190,10 +185,10 @@ var NAVTREEINDEX8 =
 "instrumentation_8cpp_source.html":[9,0,4,3],
 "l2_2_socket_address_8cpp.html":[9,0,3,2,1],
 "l2_2_socket_address_8cpp_source.html":[9,0,3,2,1],
-"l2_2stream_2_client_socket_8cpp.html":[9,0,3,2,0,1],
-"l2_2stream_2_client_socket_8cpp_source.html":[9,0,3,2,0,1],
-"l2_2stream_2_server_socket_8cpp.html":[9,0,3,2,0,3],
-"l2_2stream_2_server_socket_8cpp_source.html":[9,0,3,2,0,3],
+"l2_2stream_2_client_socket_8cpp.html":[9,0,3,2,0,2],
+"l2_2stream_2_client_socket_8cpp_source.html":[9,0,3,2,0,2],
+"l2_2stream_2_server_socket_8cpp.html":[9,0,3,2,0,4],
+"l2_2stream_2_server_socket_8cpp_source.html":[9,0,3,2,0,4],
 "legacy_2_client_8h.html":[9,0,5,0,0,0,0],
 "legacy_2_client_8h_source.html":[9,0,5,0,0,0,0],
 "legacy_2_server_8h.html":[9,0,5,0,1,0,0],
@@ -249,5 +244,10 @@ var NAVTREEINDEX8 =
 "namespacecore_1_1system.html#a04721c28c02cc5c20d4dda8e7c2d991c":[7,0,1,4,28],
 "namespacecore_1_1system.html#a0778aa080f796964218bcd02804a2b17":[7,0,1,4,5],
 "namespacecore_1_1system.html#a09a73e9e38f3f98d7ca380cd663facef":[7,0,1,4,25],
-"namespacecore_1_1system.html#a0e5e3b39e66ee4db8b9bb6065e693d0a":[7,0,1,4,26]
+"namespacecore_1_1system.html#a0e5e3b39e66ee4db8b9bb6065e693d0a":[7,0,1,4,26],
+"namespacecore_1_1system.html#a19ceab092964086376447fb7ddbdb2d2":[7,0,1,4,1],
+"namespacecore_1_1system.html#a2347537ad9f92683e13fc44676f9b9c3":[7,0,1,4,10],
+"namespacecore_1_1system.html#a252068ee271f0319fdfac711649f852f":[7,0,1,4,12],
+"namespacecore_1_1system.html#a2aa41abc7d6ba9da2e5035b74608919a":[7,0,1,4,2],
+"namespacecore_1_1system.html#a2c1b676faa6cb9d0b9e7b42b91b374ab":[7,0,1,4,0]
 };

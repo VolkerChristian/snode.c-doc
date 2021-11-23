@@ -4,6 +4,8 @@ var classweb_1_1http_1_1server_1_1_socket_context =
     [ "Request", "classweb_1_1http_1_1server_1_1_socket_context.html#a787c558f98fa17a28d66b9cf9bb4303a", null ],
     [ "Response", "classweb_1_1http_1_1server_1_1_socket_context.html#ab4852f820cbed90195cf5476cfeb9cd5", null ],
     [ "SocketContext", "classweb_1_1http_1_1server_1_1_socket_context.html#a07166663bce260fd02f9db45399d31af", null ],
+    [ "onConnected", "classweb_1_1http_1_1server_1_1_socket_context.html#adc42d86d382dd2b0f012f3d9fa0c2af0", null ],
+    [ "onDisconnected", "classweb_1_1http_1_1server_1_1_socket_context.html#a0aa077c4729e844ac80765c99a09cc37", null ],
     [ "onReadError", "classweb_1_1http_1_1server_1_1_socket_context.html#a7c9039c1c0f727e7c4cd5a1c5d8074da", null ],
     [ "onReceiveFromPeer", "classweb_1_1http_1_1server_1_1_socket_context.html#aa2478019ab1e7fa54fb195e5dc0ed6a5", null ],
     [ "onWriteError", "classweb_1_1http_1_1server_1_1_socket_context.html#a859ead776d95f0ca737239315288699e", null ],

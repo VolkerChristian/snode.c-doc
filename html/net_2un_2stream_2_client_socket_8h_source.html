@@ -112,23 +112,24 @@ $(document).ready(function(){initNavTree('net_2un_2stream_2_client_socket_8h_sou
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;functional&gt;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacenet_1_1un_1_1stream.html">net::un::stream</a> {</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classnet_1_1un_1_1stream_1_1_client_socket.html">   33</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classnet_1_1un_1_1stream_1_1_client_socket.html">ClientSocket</a> : <span class="keyword">public</span> <a class="code" href="classcore_1_1socket_1_1_client_socket.html">core::socket::ClientSocket</a>&lt;net::un::stream::Socket&gt; {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keyword">using</span> <a class="code" href="classcore_1_1socket_1_1_client_socket.html">core::socket::ClientSocket&lt;net::un::stream::Socket&gt;::connect</a>;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classnet_1_1un_1_1stream_1_1_client_socket.html#ad87c701e561cd597e3182a7141d141d7">connect</a>(<span class="keyword">const</span> std::string&amp; sunPath, <span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(<span class="keywordtype">int</span>)&gt;&amp; onError);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    };</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;} <span class="comment">// namespace net::un::stream</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// NET_UN_STREAM_STREAM_CLIENTSOCKET_H</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span> <span class="comment">// IWYU pragma: export</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacenet_1_1un_1_1stream.html">net::un::stream</a> {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classnet_1_1un_1_1stream_1_1_client_socket.html">   34</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classnet_1_1un_1_1stream_1_1_client_socket.html">ClientSocket</a> : <span class="keyword">public</span> <a class="code" href="classcore_1_1socket_1_1_client_socket.html">core::socket::ClientSocket</a>&lt;net::un::stream::Socket&gt; {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keyword">using</span> <a class="code" href="classcore_1_1socket_1_1_client_socket.html">core::socket::ClientSocket&lt;net::un::stream::Socket&gt;::connect</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classnet_1_1un_1_1stream_1_1_client_socket.html#ad87c701e561cd597e3182a7141d141d7">connect</a>(<span class="keyword">const</span> std::string&amp; sunPath, <span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(<span class="keywordtype">int</span>)&gt;&amp; onError);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    };</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;} <span class="comment">// namespace net::un::stream</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// NET_UN_STREAM_STREAM_CLIENTSOCKET_H</span></div>
 <div class="ttc" id="aclasscore_1_1socket_1_1_client_socket_html"><div class="ttname"><a href="classcore_1_1socket_1_1_client_socket.html">core::socket::ClientSocket</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2_client_socket_8h_source.html#l00031">ClientSocket.h:31</a></div></div>
-<div class="ttc" id="aclassnet_1_1un_1_1stream_1_1_client_socket_html"><div class="ttname"><a href="classnet_1_1un_1_1stream_1_1_client_socket.html">net::un::stream::ClientSocket</a></div><div class="ttdef"><b>Definition:</b> <a href="net_2un_2stream_2_client_socket_8h_source.html#l00033">ClientSocket.h:33</a></div></div>
+<div class="ttc" id="aclassnet_1_1un_1_1stream_1_1_client_socket_html"><div class="ttname"><a href="classnet_1_1un_1_1stream_1_1_client_socket.html">net::un::stream::ClientSocket</a></div><div class="ttdef"><b>Definition:</b> <a href="net_2un_2stream_2_client_socket_8h_source.html#l00034">ClientSocket.h:34</a></div></div>
 <div class="ttc" id="aclassnet_1_1un_1_1stream_1_1_client_socket_html_ad87c701e561cd597e3182a7141d141d7"><div class="ttname"><a href="classnet_1_1un_1_1stream_1_1_client_socket.html#ad87c701e561cd597e3182a7141d141d7">net::un::stream::ClientSocket::connect</a></div><div class="ttdeci">void connect(const std::string &amp;sunPath, const std::function&lt; void(int)&gt; &amp;onError)</div><div class="ttdef"><b>Definition:</b> <a href="un_2stream_2_client_socket_8cpp_source.html#l00027">ClientSocket.cpp:27</a></div></div>
 <div class="ttc" id="acore_2socket_2_client_socket_8h_html"><div class="ttname"><a href="core_2socket_2_client_socket_8h.html">ClientSocket.h</a></div></div>
 <div class="ttc" id="anamespacenet_1_1un_1_1stream_html"><div class="ttname"><a href="namespacenet_1_1un_1_1stream.html">net::un::stream</a></div><div class="ttdef"><b>Definition:</b> <a href="un_2stream_2_client_socket_8cpp_source.html#l00025">ClientSocket.cpp:25</a></div></div>

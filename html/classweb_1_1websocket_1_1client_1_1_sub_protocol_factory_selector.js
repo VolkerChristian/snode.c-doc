@@ -6,6 +6,5 @@ var classweb_1_1websocket_1_1client_1_1_sub_protocol_factory_selector =
     [ "allowDlOpen", "classweb_1_1websocket_1_1client_1_1_sub_protocol_factory_selector.html#a0baf227d0ac59a934e06c01f2c3a3be4", null ],
     [ "instance", "classweb_1_1websocket_1_1client_1_1_sub_protocol_factory_selector.html#ad8fb3cbccd230e0c0110b4465000aaa1", null ],
     [ "link", "classweb_1_1websocket_1_1client_1_1_sub_protocol_factory_selector.html#ad5e665e5a700ebd63cc9b68668e8fa2f", null ],
-    [ "load", "classweb_1_1websocket_1_1client_1_1_sub_protocol_factory_selector.html#a6416200ea0713f8af5996d60dac48825", null ],
     [ "operator=", "classweb_1_1websocket_1_1client_1_1_sub_protocol_factory_selector.html#aac11d2c66e801cb19fe56fc1faa81e93", null ]
 ];
