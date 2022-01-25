@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tickstatus_2045',['TickStatus',['../namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749',1,'core']]]
+  ['shutdown_2173',['shutdown',['../classcore_1_1socket_1_1_socket.html#aeedd460403e8cb273d473439355f137e',1,'core::socket::Socket']]]
 ];

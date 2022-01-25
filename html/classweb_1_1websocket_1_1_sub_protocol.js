@@ -1,7 +1,8 @@
 var classweb_1_1websocket_1_1_sub_protocol =
 [
     [ "SocketContextUpgrade", "classweb_1_1websocket_1_1_sub_protocol.html#adc5e24ed30935e0c45fa6dc55d7ad01c", null ],
-    [ "SubProtocol", "classweb_1_1websocket_1_1_sub_protocol.html#a5f4f6350d3db15687c18f1a751ec63a2", null ],
+    [ "SubProtocol", "classweb_1_1websocket_1_1_sub_protocol.html#a0381918fdb6500a361bdd2da58a692f5", null ],
+    [ "SubProtocol", "classweb_1_1websocket_1_1_sub_protocol.html#ad1611ad9243c1f30d00c40cd40cf657c", null ],
     [ "SubProtocol", "classweb_1_1websocket_1_1_sub_protocol.html#ab58e224579cd3e0562c0cd230fdd0630", null ],
     [ "~SubProtocol", "classweb_1_1websocket_1_1_sub_protocol.html#ac030702c58fe6af46260f91847025609", null ],
     [ "getLocalAddressAsString", "classweb_1_1websocket_1_1_sub_protocol.html#a6d6b33dbdd4c821f6214f70d860c02fa", null ],

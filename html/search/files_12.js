@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['webapp_2ecpp_1352',['WebApp.cpp',['../_web_app_8cpp.html',1,'']]],
-  ['webapp_2eh_1353',['WebApp.h',['../legacy_2_web_app_8h.html',1,'(Global Namespace)'],['../tls_2_web_app_8h.html',1,'(Global Namespace)'],['../_web_app_8h.html',1,'(Global Namespace)']]],
-  ['webappt_2eh_1354',['WebAppT.h',['../_web_app_t_8h.html',1,'']]],
-  ['writeeventreceiver_2ecpp_1355',['WriteEventReceiver.cpp',['../_write_event_receiver_8cpp.html',1,'']]],
-  ['writeeventreceiver_2eh_1356',['WriteEventReceiver.h',['../_write_event_receiver_8h.html',1,'']]]
+  ['vhost_2ecpp_1431',['VHost.cpp',['../_v_host_8cpp.html',1,'']]],
+  ['vhost_2eh_1432',['VHost.h',['../_v_host_8h.html',1,'']]]
 ];

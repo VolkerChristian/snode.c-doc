@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['intervaltimer_1055',['IntervalTimer',['../classcore_1_1timer_1_1_interval_timer.html',1,'core::timer']]]
+  ['groupsmanager_1123',['GroupsManager',['../classweb_1_1websocket_1_1server_1_1_groups_manager.html',1,'web::websocket::server']]]
 ];

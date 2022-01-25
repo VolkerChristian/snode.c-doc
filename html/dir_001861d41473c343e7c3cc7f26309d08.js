@@ -12,7 +12,6 @@ var dir_001861d41473c343e7c3cc7f26309d08 =
       [ "SubProtocolFactory", "classweb_1_1websocket_1_1_sub_protocol_factory.html", "classweb_1_1websocket_1_1_sub_protocol_factory" ]
     ] ],
     [ "SubProtocolFactorySelector.h", "_sub_protocol_factory_selector_8h.html", [
-      [ "SubProtocolPlugin", "structweb_1_1websocket_1_1_sub_protocol_plugin.html", "structweb_1_1websocket_1_1_sub_protocol_plugin" ],
       [ "SubProtocolFactorySelector", "classweb_1_1websocket_1_1_sub_protocol_factory_selector.html", "classweb_1_1websocket_1_1_sub_protocol_factory_selector" ]
     ] ],
     [ "Transmitter.cpp", "_transmitter_8cpp.html", "_transmitter_8cpp" ],

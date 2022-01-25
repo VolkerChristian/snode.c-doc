@@ -198,8 +198,8 @@ Example Applications</h1>
 Very Simple HTTP/S Web-Server for static HTML-Pages</h2>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;easylogging++.h&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="preprocessor">#include &quot;<a class="code" href="legacy_2_web_app_8h.html">legacy/WebApp.h</a>&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;<a class="code" href="tls_2_web_app_8h.html">tls/WebApp.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;legacy/WebApp.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;tls/WebApp.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;<a class="code" href="_static_middleware_8h.html">middleware/StaticMiddleware.h</a>&quot;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#define CERTF &lt;PATH_TO_SERVER_CERTIFICATE_CHAIN_FILE&gt;</span></div>
@@ -211,15 +211,15 @@ Very Simple HTTP/S Web-Server for static HTML-Pages</h2>
 <div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[]) {</div>
 <div class="line">    <a class="code" href="classexpress_1_1_web_app.html#a0a01439a0cc8dfc86ed14f1094826b7e">express::WebApp::init</a>(argc, argv);</div>
 <div class="line">    </div>
-<div class="line">    <a class="code" href="classexpress_1_1legacy_1_1_web_app.html">express::legacy::WebApp</a> legacyApp;</div>
-<div class="line">    legacyApp.<a class="code" href="classexpress_1_1_router.html#adda0b8e1030d917bacb75b570d2a16a8">use</a>(<a class="code" href="classexpress_1_1middleware_1_1_static_middleware.html">express::middleware::StaticMiddleware</a>(SERVERROOT));</div>
+<div class="line">    <a class="code" href="namespaceexpress_1_1legacy_1_1in.html#a100edb4786f87c3e88f0518b4feb59e7">express::legacy::WebApp</a> legacyApp;</div>
+<div class="line">    legacyApp.use(<a class="code" href="classexpress_1_1middleware_1_1_static_middleware.html">express::middleware::StaticMiddleware</a>(SERVERROOT));</div>
 <div class="line">    </div>
-<div class="line">    <a class="code" href="classexpress_1_1tls_1_1_web_app.html">express::tls::WebApp</a> tlsApp({{<span class="stringliteral">&quot;certChain&quot;</span>, CERTF}, </div>
+<div class="line">    <a class="code" href="namespaceexpress_1_1legacy_1_1in.html#a100edb4786f87c3e88f0518b4feb59e7">express::tls::WebApp</a> tlsApp({{<span class="stringliteral">&quot;certChain&quot;</span>, CERTF}, </div>
 <div class="line">                                 {<span class="stringliteral">&quot;keyPEM&quot;</span>, KEYF}, </div>
 <div class="line">                                 {<span class="stringliteral">&quot;password&quot;</span>, KEYFPASS}});</div>
-<div class="line">    tlsApp.<a class="code" href="classexpress_1_1_router.html#adda0b8e1030d917bacb75b570d2a16a8">use</a>(<a class="code" href="classexpress_1_1middleware_1_1_static_middleware.html">express::middleware::StaticMiddleware</a>(SERVERROOT));</div>
+<div class="line">    tlsApp.use(<a class="code" href="classexpress_1_1middleware_1_1_static_middleware.html">express::middleware::StaticMiddleware</a>(SERVERROOT));</div>
 <div class="line">    </div>
-<div class="line">    legacyApp.<a class="code" href="classweb_1_1http_1_1server_1_1legacy_1_1_server.html#a47b5422890cb82215b0347218bf774cc">listen</a>(8080, [](<span class="keywordtype">int</span> err) -&gt; <span class="keywordtype">void</span> {</div>
+<div class="line">    legacyApp.listen(8080, [](<span class="keywordtype">int</span> err) -&gt; <span class="keywordtype">void</span> {</div>
 <div class="line">        <span class="keywordflow">if</span> (err != 0) {</div>
 <div class="line">            PLOG(FATAL) &lt;&lt; <span class="stringliteral">&quot;listen on port 8080&quot;</span>;</div>
 <div class="line">        } <span class="keywordflow">else</span> {</div>
@@ -235,24 +235,19 @@ Very Simple HTTP/S Web-Server for static HTML-Pages</h2>
 <div class="line">        }</div>
 <div class="line">    });</div>
 <div class="line">    </div>
-<div class="line">    <span class="keywordflow">return</span> <a class="code" href="classexpress_1_1_web_app.html#a85d9fab4fae0881f8484e07c58f3157a">express::WebApp::start</a>();</div>
+<div class="line">    <span class="keywordflow">return</span> <a class="code" href="classexpress_1_1_web_app.html#a54e6910c9466c61d0b217490b7d9bb5a">express::WebApp::start</a>();</div>
 <div class="line">}</div>
 <div class="ttc" id="a_static_middleware_8h_html"><div class="ttname"><a href="_static_middleware_8h.html">StaticMiddleware.h</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_router_html_adda0b8e1030d917bacb75b570d2a16a8"><div class="ttname"><a href="classexpress_1_1_router.html#adda0b8e1030d917bacb75b570d2a16a8">express::Router::use</a></div><div class="ttdeci">Router &amp; use(const std::string &amp;relativeMountPath, const std::function&lt; void(Request &amp;req, Response &amp;res)&gt; &amp;lambda)</div><div class="ttdef"><b>Definition:</b> <a href="_router_8cpp_source.html#l00340">Router.cpp:340</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_web_app_html_a0a01439a0cc8dfc86ed14f1094826b7e"><div class="ttname"><a href="classexpress_1_1_web_app.html#a0a01439a0cc8dfc86ed14f1094826b7e">express::WebApp::init</a></div><div class="ttdeci">static void init(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_8cpp_source.html#l00035">WebApp.cpp:35</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_web_app_html_a85d9fab4fae0881f8484e07c58f3157a"><div class="ttname"><a href="classexpress_1_1_web_app.html#a85d9fab4fae0881f8484e07c58f3157a">express::WebApp::start</a></div><div class="ttdeci">static int start()</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_8cpp_source.html#l00040">WebApp.cpp:40</a></div></div>
-<div class="ttc" id="aclassexpress_1_1legacy_1_1_web_app_html"><div class="ttname"><a href="classexpress_1_1legacy_1_1_web_app.html">express::legacy::WebApp</a></div><div class="ttdef"><b>Definition:</b> <a href="legacy_2_web_app_8h_source.html#l00031">WebApp.h:31</a></div></div>
+<div class="ttc" id="aclassexpress_1_1_web_app_html_a54e6910c9466c61d0b217490b7d9bb5a"><div class="ttname"><a href="classexpress_1_1_web_app.html#a54e6910c9466c61d0b217490b7d9bb5a">express::WebApp::start</a></div><div class="ttdeci">static int start(const utils::Timeval &amp;timeOut={LONG_MAX, 0})</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_8cpp_source.html#l00040">WebApp.cpp:40</a></div></div>
 <div class="ttc" id="aclassexpress_1_1middleware_1_1_static_middleware_html"><div class="ttname"><a href="classexpress_1_1middleware_1_1_static_middleware.html">express::middleware::StaticMiddleware</a></div><div class="ttdef"><b>Definition:</b> <a href="_static_middleware_8h_source.html#l00034">StaticMiddleware.h:34</a></div></div>
-<div class="ttc" id="aclassexpress_1_1tls_1_1_web_app_html"><div class="ttname"><a href="classexpress_1_1tls_1_1_web_app.html">express::tls::WebApp</a></div><div class="ttdef"><b>Definition:</b> <a href="tls_2_web_app_8h_source.html#l00031">WebApp.h:31</a></div></div>
-<div class="ttc" id="aclassweb_1_1http_1_1server_1_1legacy_1_1_server_html_a47b5422890cb82215b0347218bf774cc"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1legacy_1_1_server.html#a47b5422890cb82215b0347218bf774cc">web::http::server::legacy::Server::listen</a></div><div class="ttdeci">void listen(uint16_t port, const std::function&lt; void(int)&gt; &amp;onError)</div><div class="ttdef"><b>Definition:</b> <a href="legacy_2_server_8h_source.html#l00047">Server.h:47</a></div></div>
-<div class="ttc" id="alegacy_2_web_app_8h_html"><div class="ttname"><a href="legacy_2_web_app_8h.html">WebApp.h</a></div></div>
-<div class="ttc" id="atls_2_web_app_8h_html"><div class="ttname"><a href="tls_2_web_app_8h.html">WebApp.h</a></div></div>
+<div class="ttc" id="anamespaceexpress_1_1legacy_1_1in_html_a100edb4786f87c3e88f0518b4feb59e7"><div class="ttname"><a href="namespaceexpress_1_1legacy_1_1in.html#a100edb4786f87c3e88f0518b4feb59e7">express::legacy::in::WebApp</a></div><div class="ttdeci">WebAppT&lt; web::http::legacy::in::Server&lt; express::Request, express::Response &gt; &gt; WebApp</div><div class="ttdef"><b>Definition:</b> <a href="legacy_2in_2_web_app_8h_source.html#l00031">WebApp.h:31</a></div></div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md14"></a>
 Receive Data by HTTP-Post Request</h2>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;easylogging++.h&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="preprocessor">#include &quot;<a class="code" href="legacy_2_web_app_8h.html">legacy/WebApp.h</a>&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;<a class="code" href="tls_2_web_app_8h.html">tls/WebApp.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;legacy/WebApp.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;tls/WebApp.h&quot;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#define CERTF &lt;PATH_TO_SERVER_CERTIFICATE_CHAIN_FILE&gt;</span></div>
 <div class="line"><span class="preprocessor">#define KEYF &lt;PATH_TO_SERVER_CERTIFICATE_KEY_FILE&gt;</span></div>
@@ -261,8 +256,8 @@ Receive Data by HTTP-Post Request</h2>
 <div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[]) {</div>
 <div class="line">    <a class="code" href="classexpress_1_1_web_app.html#a0a01439a0cc8dfc86ed14f1094826b7e">express::WebApp::init</a>(argc, argv);</div>
 <div class="line"> </div>
-<div class="line">    <a class="code" href="classexpress_1_1legacy_1_1_web_app.html">express::legacy::WebApp</a> legacyApp;</div>
-<div class="line">    legacyApp.<a class="code" href="classexpress_1_1_router.html#a24c8585efc32c7f8468187a29f5d07c9">get</a>(<span class="stringliteral">&quot;/&quot;</span>, [] <a class="code" href="_router_8h.html#a8b7131df91fe7a961e2cdadcedb55232">APPLICATION</a>(req, res) {</div>
+<div class="line">    <a class="code" href="namespaceexpress_1_1legacy_1_1in.html#a100edb4786f87c3e88f0518b4feb59e7">express::legacy::WebApp</a> legacyApp;</div>
+<div class="line">    legacyApp.get(<span class="stringliteral">&quot;/&quot;</span>, [] <a class="code" href="_router_8h.html#a8b7131df91fe7a961e2cdadcedb55232">APPLICATION</a>(req, res) {</div>
 <div class="line">        res.send(<span class="stringliteral">&quot;&lt;html&gt;&quot;</span></div>
 <div class="line">                 <span class="stringliteral">&quot;  &lt;head&gt;&quot;</span></div>
 <div class="line">                 <span class="stringliteral">&quot;    &lt;style&gt;&quot;</span></div>
@@ -294,7 +289,7 @@ Receive Data by HTTP-Post Request</h2>
 <div class="line">                 <span class="stringliteral">&quot;&lt;/html&gt;&quot;</span>);</div>
 <div class="line">    });</div>
 <div class="line"> </div>
-<div class="line">    legacyApp.<a class="code" href="classexpress_1_1_router.html#a26692866d4b0a240bf4c3fef688452d0">post</a>(<span class="stringliteral">&quot;/&quot;</span>, [] <a class="code" href="_router_8h.html#a8b7131df91fe7a961e2cdadcedb55232">APPLICATION</a>(req, res) {</div>
+<div class="line">    legacyApp.post(<span class="stringliteral">&quot;/&quot;</span>, [] <a class="code" href="_router_8h.html#a8b7131df91fe7a961e2cdadcedb55232">APPLICATION</a>(req, res) {</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;Content-Type: &quot;</span> &lt;&lt; req.header(<span class="stringliteral">&quot;Content-Type&quot;</span>);</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;Content-Length: &quot;</span> &lt;&lt; req.header(<span class="stringliteral">&quot;Content-Length&quot;</span>);</div>
 <div class="line">        <span class="keywordtype">char</span>* body = <span class="keyword">new</span> <span class="keywordtype">char</span>[std::stoul(req.header(<span class="stringliteral">&quot;Content-Length&quot;</span>)) + 1];</div>
@@ -313,12 +308,12 @@ Receive Data by HTTP-Post Request</h2>
 <div class="line">                 <span class="stringliteral">&quot;&lt;/html&gt;&quot;</span>);</div>
 <div class="line">    });</div>
 <div class="line"> </div>
-<div class="line">    <a class="code" href="classexpress_1_1tls_1_1_web_app.html">express::tls::WebApp</a> tlsWebApp({{<span class="stringliteral">&quot;certChain&quot;</span>, CERTF},</div>
+<div class="line">    <a class="code" href="namespaceexpress_1_1legacy_1_1in.html#a100edb4786f87c3e88f0518b4feb59e7">express::tls::WebApp</a> tlsWebApp({{<span class="stringliteral">&quot;certChain&quot;</span>, CERTF},</div>
 <div class="line">                                    {<span class="stringliteral">&quot;keyPEM&quot;</span>, KEYF},</div>
 <div class="line">                                    {<span class="stringliteral">&quot;password&quot;</span>, KEYFPASS}});</div>
-<div class="line">    tlsWebApp.<a class="code" href="classexpress_1_1_router.html#adda0b8e1030d917bacb75b570d2a16a8">use</a>(legacyApp);</div>
+<div class="line">    tlsWebApp.use(legacyApp);</div>
 <div class="line"> </div>
-<div class="line">    legacyApp.<a class="code" href="classweb_1_1http_1_1server_1_1legacy_1_1_server.html#a47b5422890cb82215b0347218bf774cc">listen</a>(8080, [](<span class="keywordtype">int</span> err) {</div>
+<div class="line">    legacyApp.listen(8080, [](<span class="keywordtype">int</span> err) {</div>
 <div class="line">        <span class="keywordflow">if</span> (err != 0) {</div>
 <div class="line">            PLOG(FATAL) &lt;&lt; <span class="stringliteral">&quot;listen on port 8080&quot;</span>;</div>
 <div class="line">        } <span class="keywordflow">else</span> {</div>
@@ -334,18 +329,16 @@ Receive Data by HTTP-Post Request</h2>
 <div class="line">        }</div>
 <div class="line">    });</div>
 <div class="line"> </div>
-<div class="line">    <span class="keywordflow">return</span> <a class="code" href="classexpress_1_1_web_app.html#a85d9fab4fae0881f8484e07c58f3157a">express::WebApp::start</a>();</div>
+<div class="line">    <span class="keywordflow">return</span> <a class="code" href="classexpress_1_1_web_app.html#a54e6910c9466c61d0b217490b7d9bb5a">express::WebApp::start</a>();</div>
 <div class="line">}</div>
 <div class="ttc" id="a_router_8h_html_a8b7131df91fe7a961e2cdadcedb55232"><div class="ttname"><a href="_router_8h.html#a8b7131df91fe7a961e2cdadcedb55232">APPLICATION</a></div><div class="ttdeci">#define APPLICATION(req, res)</div><div class="ttdef"><b>Definition:</b> <a href="_router_8h_source.html#l00034">Router.h:34</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_router_html_a24c8585efc32c7f8468187a29f5d07c9"><div class="ttname"><a href="classexpress_1_1_router.html#a24c8585efc32c7f8468187a29f5d07c9">express::Router::get</a></div><div class="ttdeci">Router &amp; get(const std::string &amp;relativeMountPath, const std::function&lt; void(Request &amp;req, Response &amp;res)&gt; &amp;lambda)</div><div class="ttdef"><b>Definition:</b> <a href="_router_8cpp_source.html#l00342">Router.cpp:342</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_router_html_a26692866d4b0a240bf4c3fef688452d0"><div class="ttname"><a href="classexpress_1_1_router.html#a26692866d4b0a240bf4c3fef688452d0">express::Router::post</a></div><div class="ttdeci">Router &amp; post(const std::string &amp;relativeMountPath, const std::function&lt; void(Request &amp;req, Response &amp;res)&gt; &amp;lambda)</div><div class="ttdef"><b>Definition:</b> <a href="_router_8cpp_source.html#l00344">Router.cpp:344</a></div></div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md15"></a>
 Extract Server and Client Information (host name, IP, port, SSL/TLS information)</h2>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;easylogging++.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;openssl/x509v3.h&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="preprocessor">#include &quot;<a class="code" href="legacy_2_web_app_8h.html">legacy/WebApp.h</a>&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;<a class="code" href="tls_2_web_app_8h.html">tls/WebApp.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;legacy/WebApp.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;tls/WebApp.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;<a class="code" href="_static_middleware_8h.html">middleware/StaticMiddleware.h</a>&quot;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#define CERTF &lt;PATH_TO_SERVER_CERTIFICATE_CHAIN_FILE&gt;</span></div>
@@ -367,9 +360,9 @@ Extract Server and Client Information (host name, IP, port, SSL/TLS information)
 <div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>** argv) {</div>
 <div class="line">    <a class="code" href="classexpress_1_1_web_app.html#a0a01439a0cc8dfc86ed14f1094826b7e">WebApp::init</a>(argc, argv);</div>
 <div class="line"> </div>
-<div class="line">    legacy::WebApp legacyApp(getRouter());</div>
+<div class="line">    <a class="code" href="namespaceexpress_1_1legacy_1_1in.html#a100edb4786f87c3e88f0518b4feb59e7">legacy::WebApp</a> legacyApp(getRouter());</div>
 <div class="line"> </div>
-<div class="line">    legacyApp.<a class="code" href="classweb_1_1http_1_1server_1_1legacy_1_1_server.html#a47b5422890cb82215b0347218bf774cc">listen</a>(8080, [](<span class="keywordtype">int</span> err) {</div>
+<div class="line">    legacyApp.listen(8080, [](<span class="keywordtype">int</span> err) {</div>
 <div class="line">        <span class="keywordflow">if</span> (err != 0) {</div>
 <div class="line">            PLOG(FATAL) &lt;&lt; <span class="stringliteral">&quot;listen on port 8080&quot;</span>;</div>
 <div class="line">        } <span class="keywordflow">else</span> {</div>
@@ -377,7 +370,7 @@ Extract Server and Client Information (host name, IP, port, SSL/TLS information)
 <div class="line">        }</div>
 <div class="line">    });</div>
 <div class="line"> </div>
-<div class="line">    legacyApp.<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#ae95216aa805b0c9db2fece0f8a813543">onConnect</a>([](core::socket::legacy::SocketConnection* socketConnection) {</div>
+<div class="line">    legacyApp.onConnect([](core::socket::legacy::SocketConnection* socketConnection) {</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnConnect:&quot;</span>;</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tClient: &quot;</span> + socketConnection-&gt;getRemoteAddress().host()</div>
 <div class="line">                          + <span class="stringliteral">&quot;(&quot;</span> + socketConnection-&gt;getRemoteAddress().ip() + <span class="stringliteral">&quot;):&quot;</span></div>
@@ -387,7 +380,7 @@ Extract Server and Client Information (host name, IP, port, SSL/TLS information)
 <div class="line">                 + std::to_string(socketConnection-&gt;getLocalAddress().port());</div>
 <div class="line">    });</div>
 <div class="line"> </div>
-<div class="line">    legacyApp.<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a0848bd6c8553ffc083dcd558a5c81a1f">onDisconnect</a>([](core::socket::legacy::SocketConnection* socketConnection) {</div>
+<div class="line">    legacyApp.onDisconnect([](core::socket::legacy::SocketConnection* socketConnection) {</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnDisconnect:&quot;</span>;</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tClient: &quot;</span> + socketConnection-&gt;getRemoteAddress().host()</div>
 <div class="line">                          + <span class="stringliteral">&quot;(&quot;</span> + socketConnection-&gt;getRemoteAddress().ip() + <span class="stringliteral">&quot;):&quot;</span></div>
@@ -397,7 +390,7 @@ Extract Server and Client Information (host name, IP, port, SSL/TLS information)
 <div class="line">                 + std::to_string(socketConnection-&gt;getLocalAddress().port());</div>
 <div class="line">    });</div>
 <div class="line"> </div>
-<div class="line">    tls::WebApp tlsApp(getRouter(), {{<span class="stringliteral">&quot;certChain&quot;</span>, CERTF}, </div>
+<div class="line">    <a class="code" href="namespaceexpress_1_1legacy_1_1in.html#a100edb4786f87c3e88f0518b4feb59e7">tls::WebApp</a> tlsApp(getRouter(), {{<span class="stringliteral">&quot;certChain&quot;</span>, CERTF}, </div>
 <div class="line">                                     {<span class="stringliteral">&quot;keyPEM&quot;</span>, KEYF}, </div>
 <div class="line">                                     {<span class="stringliteral">&quot;password&quot;</span>, KEYFPASS}});</div>
 <div class="line"> </div>
@@ -469,16 +462,14 @@ Extract Server and Client Information (host name, IP, port, SSL/TLS information)
 <div class="line">                 + std::to_string(socketConnection-&gt;getRemoteAddress().port());</div>
 <div class="line">    });</div>
 <div class="line"> </div>
-<div class="line">    <span class="keywordflow">return</span> <a class="code" href="classexpress_1_1_web_app.html#a85d9fab4fae0881f8484e07c58f3157a">WebApp::start</a>();</div>
+<div class="line">    <span class="keywordflow">return</span> <a class="code" href="classexpress_1_1_web_app.html#a54e6910c9466c61d0b217490b7d9bb5a">WebApp::start</a>();</div>
 <div class="line">}</div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a0848bd6c8553ffc083dcd558a5c81a1f"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a0848bd6c8553ffc083dcd558a5c81a1f">core::socket::stream::SocketServer::onDisconnect</a></div><div class="ttdeci">void onDisconnect(const std::function&lt; void(SocketConnection *)&gt; &amp;onDisconnect)</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00077">SocketServer.h:77</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_ae95216aa805b0c9db2fece0f8a813543"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#ae95216aa805b0c9db2fece0f8a813543">core::socket::stream::SocketServer::onConnect</a></div><div class="ttdeci">void onConnect(const std::function&lt; void(const SocketAddress &amp;, const SocketAddress &amp;)&gt; &amp;onConnect)</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00069">SocketServer.h:69</a></div></div>
-<div class="ttc" id="anamespaceexpress_1_1middleware_html_a2fb128871e11fe983884f466d01bee94"><div class="ttname"><a href="namespaceexpress_1_1middleware.html#a2fb128871e11fe983884f466d01bee94">express::middleware::StaticMiddleware</a></div><div class="ttdeci">class StaticMiddleware &amp; StaticMiddleware(const std::string &amp;root)</div><div class="ttdef"><b>Definition:</b> <a href="_static_middleware_8cpp_source.html#l00124">StaticMiddleware.cpp:124</a></div></div>
-<div class="ttc" id="anamespaceexpress_html"><div class="ttname"><a href="namespaceexpress.html">express</a></div><div class="ttdef"><b>Definition:</b> <a href="legacy_2_web_app_8h_source.html#l00029">WebApp.h:29</a></div></div>
+<div class="ttc" id="anamespaceexpress_1_1middleware_html_a2fb128871e11fe983884f466d01bee94"><div class="ttname"><a href="namespaceexpress_1_1middleware.html#a2fb128871e11fe983884f466d01bee94">express::middleware::StaticMiddleware</a></div><div class="ttdeci">class StaticMiddleware &amp; StaticMiddleware(const std::string &amp;root)</div><div class="ttdef"><b>Definition:</b> <a href="_static_middleware_8cpp_source.html#l00125">StaticMiddleware.cpp:125</a></div></div>
+<div class="ttc" id="anamespaceexpress_html"><div class="ttname"><a href="namespaceexpress.html">express</a></div><div class="ttdef"><b>Definition:</b> <a href="legacy_2in_2_web_app_8h_source.html#l00029">WebApp.h:29</a></div></div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md16"></a>
 Using Regular Expressions in Routes</h2>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="legacy_2_web_app_8h.html">legacy/WebApp.h</a>&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;<a class="code" href="tls_2_web_app_8h.html">tls/WebApp.h</a>&quot;</span></div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &quot;legacy/WebApp.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;tls/WebApp.h&quot;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;easylogging++.h&gt;</span></div>
 <div class="line"> </div>

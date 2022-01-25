@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['library_1057',['Library',['../structcore_1_1_dynamic_loader_1_1_library.html',1,'core::DynamicLoader']]],
-  ['logger_1058',['Logger',['../classlogger_1_1_logger.html',1,'logger']]]
+  ['jsonmiddleware_1125',['JsonMiddleware',['../classexpress_1_1middleware_1_1_json_middleware.html',1,'express::middleware']]]
 ];

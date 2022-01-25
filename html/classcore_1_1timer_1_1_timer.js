@@ -1,18 +1,12 @@
 var classcore_1_1timer_1_1_timer =
 [
-    [ "absoluteTimeout", "structcore_1_1timer_1_1_timer_1_1absolute_timeout.html", null ],
-    [ "Timer", "classcore_1_1timer_1_1_timer.html#a2182f68a2fd008281ed26d062d9f7087", null ],
-    [ "Timer", "classcore_1_1timer_1_1_timer.html#a507dcb9733d84e29aa0986447cf681b5", null ],
     [ "~Timer", "classcore_1_1timer_1_1_timer.html#a85a5a52ec3d9eb28cba62a38af54baaf", null ],
     [ "cancel", "classcore_1_1timer_1_1_timer.html#a799ffcc07d85afe22c30af1270ce72b6", null ],
-    [ "destroy", "classcore_1_1timer_1_1_timer.html#ac2b14f7485e440f4df1d1b7187ef6c82", null ],
-    [ "intervalTimer", "classcore_1_1timer_1_1_timer.html#a600546f32ab4177dbac6be2be0d1cc48", null ],
-    [ "intervalTimer", "classcore_1_1timer_1_1_timer.html#a958ce30fb34911a6e2c49bdac6edfad3", null ],
-    [ "operator struct timeval", "classcore_1_1timer_1_1_timer.html#a31cacad3b2d3e672f170b1d2f4a0b6c5", null ],
-    [ "operator=", "classcore_1_1timer_1_1_timer.html#a9d7a5c44f33b438bf9a1b5caf17d573d", null ],
-    [ "singleshotTimer", "classcore_1_1timer_1_1_timer.html#a72361eda755db2c5a1a11f246f2ced2e", null ],
-    [ "timeout", "classcore_1_1timer_1_1_timer.html#a90fbaffa4321e3a3918a4c789ad09f4a", null ],
-    [ "update", "classcore_1_1timer_1_1_timer.html#a95c3bed83a2f7d29ead2a05c789c2f37", null ],
-    [ "arg", "classcore_1_1timer_1_1_timer.html#a30bbbfec20d539e3bb100f38997636da", null ],
-    [ "delay", "classcore_1_1timer_1_1_timer.html#a338cda585e36d8bf60396cd96a6f64e1", null ]
+    [ "getTimeout", "classcore_1_1timer_1_1_timer.html#ae47fddd23b4481369ce2ab720ffaa921", null ],
+    [ "intervalTimer", "classcore_1_1timer_1_1_timer.html#a078bb2338f62a0e665a92fa8bce3daf7", null ],
+    [ "intervalTimer", "classcore_1_1timer_1_1_timer.html#a62b944bbad2f4f711879acab5f780b0c", null ],
+    [ "singleshotTimer", "classcore_1_1timer_1_1_timer.html#aab3d6c158408a29f43505c782bf1c75c", null ],
+    [ "TimerEventReceiver", "classcore_1_1timer_1_1_timer.html#a31044eb7aa2338951eb3e7bae1933b38", null ],
+    [ "TimerEventReceiver", "classcore_1_1timer_1_1_timer.html#ae7d50dc63afe5f6d524589149d70e54b", null ],
+    [ "unobservedEvent", "classcore_1_1timer_1_1_timer.html#a4d4f144a4d5ed6f8907add18dc69e269", null ]
 ];

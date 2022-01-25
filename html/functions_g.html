@@ -88,7 +88,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classweb_1_1websocket_1_1_transmitter.html#ad31bd1aaaebda7952cb6d412864d8592">web::websocket::Transmitter</a>
 </li>
 <li>get()
-: <a class="el" href="classcore_1_1_event_dispatcher_1_1_fd_set.html#ad2d9ea03fb113235787cc9913bafa404">core::EventDispatcher::FdSet</a>
+: <a class="el" href="classcore_1_1select_1_1_fd_set.html#a34c89108ea1cafe40924ff29f7c28d7c">core::select::FdSet</a>
 , <a class="el" href="classexpress_1_1_router.html#a25925d9ecefed705984c4eb7a381f9fe">express::Router</a>
 </li>
 <li>getAttribute()
@@ -98,62 +98,74 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getBindAddress()
 : <a class="el" href="classcore_1_1socket_1_1_socket.html#a9961beb85596559acb72cc487d188780">core::socket::Socket&lt; SocketAddressT &gt;</a>
 </li>
-<li>getError()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader.html#a8739d1846d53c7f00d0f042b03e1df73">core::socket::stream::legacy::SocketReader&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html#a94eed76727d76ff47508c00d425ce19e">core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a62568d4b376aec2faee860450d508f0b">core::socket::stream::SocketReader&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html#a1087115b15b12814c6668c62c0868b5d">core::socket::stream::SocketWriter&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_reader.html#a569d9db9d5c6bb094c71a0e51a52900d">core::socket::stream::tls::SocketReader&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_writer.html#a299851d85e7b094b90c21a969ae8107b">core::socket::stream::tls::SocketWriter&lt; SocketT &gt;</a>
+<li>getDescriptorEventDispatcher()
+: <a class="el" href="classcore_1_1_event_dispatcher.html#ab66f88205f662bc29adce3aa4542711f">core::EventDispatcher</a>
 </li>
-<li>getEventCounter()
-: <a class="el" href="classcore_1_1_event_dispatcher.html#a809074a4b879754c7227318a9c444130">core::EventDispatcher</a>
-, <a class="el" href="classcore_1_1_event_loop.html#aa3ef98b9c0ee769faa0f2793918f962f">core::EventLoop</a>
+<li>getEPFd()
+: <a class="el" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#ac5004cb8977cf8c3f8cd811f2fedff9a">core::epoll::DescriptorEventDispatcher::EPollEvents</a>
 </li>
-<li>getExceptionalConditionEventDispatcher()
-: <a class="el" href="classcore_1_1_event_loop.html#ace11c2eef15a71e5823af6bd45905f09">core::EventLoop</a>
+<li>getEventDispatcher()
+: <a class="el" href="classcore_1_1_event_loop.html#a90fd241e5df4d2227f1d5d2a00dcca01">core::EventLoop</a>
+</li>
+<li>getEvents()
+: <a class="el" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#aa7157762755a3706e733b69d824c7e4e">core::epoll::DescriptorEventDispatcher::EPollEvents</a>
+, <a class="el" href="classcore_1_1poll_1_1_poll_fds.html#a283f55c8514d3191220db2c2b678736c">core::poll::PollFds</a>
 </li>
 <li>getFd()
 : <a class="el" href="classcore_1_1_descriptor.html#af1ac9826d5c5f44bb357c845932ea5e4">core::Descriptor</a>
 </li>
-<li>getFdSet()
-: <a class="el" href="classcore_1_1_event_dispatcher.html#aa2b24a4d669a63c63a4ef15479716a1b">core::EventDispatcher</a>
+<li>getHandle()
+: <a class="el" href="classweb_1_1websocket_1_1_sub_protocol_factory.html#a63864b3514ed9714f48bb08e5a8dd99a">web::websocket::SubProtocolFactory&lt; SubProtocolT &gt;</a>
 </li>
-<li>getLastTriggered()
-: <a class="el" href="classcore_1_1_event_receiver.html#a1b6804c81628ee1ec0681d262bc373c7">core::EventReceiver</a>
+<li>getInterestCount()
+: <a class="el" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a241cab9da4061476aace500ff3de7aec">core::epoll::DescriptorEventDispatcher::EPollEvents</a>
+, <a class="el" href="classcore_1_1poll_1_1_poll_fds.html#ae31c4f97e18535372e9e20fada34e62b">core::poll::PollFds</a>
 </li>
 <li>getLocalAddress()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a453d5b2511758d23f0c85abc761e6c98">core::socket::stream::SocketConnectionT&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a826895e6a4fc470d60c71eb3dced1af0">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>
 </li>
 <li>getLocalAddressAsString()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a0c57d09bbc4d4be3614c508646010678">core::socket::stream::SocketConnection</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a8b2279f36acb28082b0c13f17d868f47">core::socket::stream::SocketConnectionT&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#a53872d80c1a553cd40060ee8239c7904">core::socket::stream::SocketContext</a>
+: <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a9e9e574c80c8633f510f3a7ea2d202df">core::socket::SocketConnection</a>
+, <a class="el" href="classcore_1_1socket_1_1_socket_context.html#adc4143de68d6e1480d838c71b7f3ea91">core::socket::SocketContext</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ad4744902c54c4c6d6885740ee4baa595">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>
 , <a class="el" href="classweb_1_1websocket_1_1_sub_protocol.html#a6d6b33dbdd4c821f6214f70d860c02fa">web::websocket::SubProtocol&lt; SocketContextUpgradeT &gt;</a>
 </li>
 <li>getMaxFd()
-: <a class="el" href="classcore_1_1_event_dispatcher.html#acb486926e5093e4292728eb50ded970e">core::EventDispatcher</a>
+: <a class="el" href="classcore_1_1_descriptor_event_dispatcher.html#a15e5a1d985df8f7887e0f9e923c582f0">core::DescriptorEventDispatcher</a>
+, <a class="el" href="classcore_1_1_event_dispatcher.html#a4721671f97d21597bc8ccf794a57c595">core::EventDispatcher</a>
 </li>
 <li>getName()
 : <a class="el" href="classweb_1_1websocket_1_1_sub_protocol.html#a45c211f8274411852a092f8b85dde6a4">web::websocket::SubProtocol&lt; SocketContextUpgradeT &gt;</a>
 , <a class="el" href="classweb_1_1websocket_1_1_sub_protocol_factory.html#a94aa47c5dc645136f2ac7d9a4fff4940">web::websocket::SubProtocolFactory&lt; SubProtocolT &gt;</a>
 </li>
 <li>getNextTimeout()
-: <a class="el" href="classcore_1_1_timer_event_dispatcher.html#a7f96545aa8de0d4393e5dd0f82892c59">core::TimerEventDispatcher</a>
+: <a class="el" href="classcore_1_1_descriptor_event_dispatcher.html#a861fd9b7037183378a574760f3894fb8">core::DescriptorEventDispatcher</a>
+, <a class="el" href="classcore_1_1_event_dispatcher.html#a8668613420b1b5d7df85ba012638c827">core::EventDispatcher</a>
+, <a class="el" href="classcore_1_1_timer_event_dispatcher.html#a1a0a3e8a85f873c37bb0f38dd49b4cda">core::TimerEventDispatcher</a>
+</li>
+<li>getObservationCounter()
+: <a class="el" href="classcore_1_1_observer.html#a942a6bb4857e6ec986d0a366b2aaea26">core::Observer</a>
+</li>
+<li>getObservedEventReceiverCount()
+: <a class="el" href="classcore_1_1_descriptor_event_dispatcher.html#abaa92f9e0e4dc51031ae7a5c221e96fe">core::DescriptorEventDispatcher</a>
+, <a class="el" href="classcore_1_1_event_dispatcher.html#af0ab163c3c810c0a7a345c644e8dceab">core::EventDispatcher</a>
 </li>
 <li>getOptions()
 : <a class="el" href="classweb_1_1http_1_1_cookie_options.html#ae49871347c50d4974cc82790ff07d810">web::http::CookieOptions</a>
 </li>
-<li>getReadEventDispatcher()
-: <a class="el" href="classcore_1_1_event_loop.html#a2f94230ff76ec533d3a9962f55c17a98">core::EventLoop</a>
+<li>getPollFdIndices()
+: <a class="el" href="classcore_1_1poll_1_1_poll_fds.html#a853e9402fa70679ec3c303f71ea89ffe">core::poll::PollFds</a>
+</li>
+<li>getRegisteredFd()
+: <a class="el" href="classcore_1_1_event_receiver.html#a945c04c8e000b708049e9422960e9739">core::EventReceiver</a>
 </li>
 <li>getRemoteAddress()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a4d174ee50abc713a41417fd71b1e1e93">core::socket::stream::SocketConnectionT&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a3fe932dffe9466f6cb97c5e523204fc5">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>
 </li>
 <li>getRemoteAddressAsString()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a4cc6c862855a32b7c784caad014ee1a9">core::socket::stream::SocketConnection</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ad9329fe839046c75bb6a173e72359382">core::socket::stream::SocketConnectionT&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#ae2e9d3380dcfe050117df4a582d793d5">core::socket::stream::SocketContext</a>
+: <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a3e628fbd6f5f56592469a80006311c5c">core::socket::SocketConnection</a>
+, <a class="el" href="classcore_1_1socket_1_1_socket_context.html#af38dfea245f9767c9af48aee5425ca69">core::socket::SocketContext</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a435e743469c22ff0dbcd38952d673bdf">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>
 , <a class="el" href="classweb_1_1websocket_1_1_sub_protocol.html#a874b9a31ea9c9d57c6343a907d252691">web::websocket::SubProtocol&lt; SocketContextUpgradeT &gt;</a>
 </li>
 <li>getRequest()
@@ -163,7 +175,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context.html#ae89f36447d9bf6a15c21e893ce915ac9">web::http::client::SocketContext&lt; RequestT, ResponseT &gt;</a>
 </li>
 <li>getRole()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#ae3257ee5ad1f18b050f2857faf29577e">core::socket::stream::SocketContext</a>
+: <a class="el" href="classcore_1_1socket_1_1_socket_context.html#a321277d819c69f544f69d78d8ab310ea">core::socket::SocketContext</a>
 </li>
 <li>getSockAddr()
 : <a class="el" href="classcore_1_1socket_1_1_socket_address.html#a9f3d7f3dbc8731e819ca97e2e4dbf1cd">core::socket::SocketAddress&lt; SockAddrT &gt;</a>
@@ -172,7 +184,8 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classcore_1_1socket_1_1_socket_address.html#acdab40ecd30225dec0596a4eacf07c57">core::socket::SocketAddress&lt; SockAddrT &gt;</a>
 </li>
 <li>getSocketContext()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a95a2b10608b9dc1305ef1ec67cb70f12">core::socket::stream::SocketConnection</a>
+: <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#af536759142bd03b3d71fb5c0a0e27bc8">core::socket::SocketConnection</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#af536759142bd03b3d71fb5c0a0e27bc8">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>
 </li>
 <li>getSocketContextFactory()
 : <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#aefcf39d01132d045df803b91b48c122b">core::socket::stream::SocketClient&lt; ClientSocketT, SocketConnectorT, SocketContextFactoryT &gt;</a>
@@ -188,16 +201,31 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classcore_1_1_event_loop.html#aef20810c9fcf4c7b33a5b6dbab1973b9">core::EventLoop</a>
 </li>
 <li>getTimeout()
-: <a class="el" href="classcore_1_1_event_receiver.html#af4ab73736b55f87950b3ef8e4fc80386">core::EventReceiver</a>
+: <a class="el" href="classcore_1_1_event_receiver.html#a942ac03fef5e9b54e270a17cbb240d2c">core::EventReceiver</a>
+, <a class="el" href="classcore_1_1timer_1_1_timer.html#ae47fddd23b4481369ce2ab720ffaa921">core::timer::Timer</a>
+, <a class="el" href="classcore_1_1_timer_event_receiver.html#aae5786d71c793e3bc82a5124026d30d6">core::TimerEventReceiver</a>
 </li>
 <li>getTimerEventDispatcher()
-: <a class="el" href="classcore_1_1_event_loop.html#a4c08902d162f1a1f6a4c2765f2d7e2b3">core::EventLoop</a>
+: <a class="el" href="classcore_1_1_event_dispatcher.html#a0b06ddc10b95166fed700f63c16c1232">core::EventDispatcher</a>
 </li>
 <li>getValue()
 : <a class="el" href="classweb_1_1http_1_1_cookie_options.html#add01e6b823d2eea8da212049f3d6c6e2">web::http::CookieOptions</a>
 </li>
-<li>getWriteEventDispatcher()
-: <a class="el" href="classcore_1_1_event_loop.html#ac21b6569bcf0615f45ab951954642fa8">core::EventLoop</a>
+<li>group
+: <a class="el" href="classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a52da19fc0906f6d3dbbd29701cb87332">web::websocket::server::SubProtocol</a>
+</li>
+<li>groups
+: <a class="el" href="classweb_1_1websocket_1_1server_1_1_groups_manager.html#a1a896c9e24495ba6073c7bb4ad5abc9e">web::websocket::server::GroupsManager</a>
+</li>
+<li>GroupsManager
+: <a class="el" href="classweb_1_1websocket_1_1client_1_1_sub_protocol.html#aadbab78432918f4d37d02641ae71cc9e">web::websocket::client::SubProtocol</a>
+, <a class="el" href="classweb_1_1websocket_1_1server_1_1_groups_manager.html#a73759ac5c8a8dbf9f6012b421f9437eb">web::websocket::server::GroupsManager</a>
+</li>
+<li>groupsManager
+: <a class="el" href="classweb_1_1websocket_1_1server_1_1_groups_manager.html#a1c491dedea18e6816d0d168821f59b29">web::websocket::server::GroupsManager</a>
+</li>
+<li>GroupsManager
+: <a class="el" href="classweb_1_1websocket_1_1server_1_1_sub_protocol.html#aadbab78432918f4d37d02641ae71cc9e">web::websocket::server::SubProtocol</a>
 </li>
 </ul>
 </div><!-- contents -->

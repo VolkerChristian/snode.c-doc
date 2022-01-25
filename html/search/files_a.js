@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['mimetypes_2ecpp_1248',['MimeTypes.cpp',['../_mime_types_8cpp.html',1,'']]],
-  ['mimetypes_2eh_1249',['MimeTypes.h',['../_mime_types_8h.html',1,'']]]
+  ['logger_2ecpp_1324',['Logger.cpp',['../_logger_8cpp.html',1,'']]],
+  ['logger_2eh_1325',['Logger.h',['../_logger_8h.html',1,'']]]
 ];

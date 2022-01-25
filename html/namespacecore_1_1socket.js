@@ -4,5 +4,8 @@ var namespacecore_1_1socket =
     [ "ClientSocket", "classcore_1_1socket_1_1_client_socket.html", "classcore_1_1socket_1_1_client_socket" ],
     [ "ServerSocket", "classcore_1_1socket_1_1_server_socket.html", "classcore_1_1socket_1_1_server_socket" ],
     [ "Socket", "classcore_1_1socket_1_1_socket.html", "classcore_1_1socket_1_1_socket" ],
-    [ "SocketAddress", "classcore_1_1socket_1_1_socket_address.html", "classcore_1_1socket_1_1_socket_address" ]
+    [ "SocketAddress", "classcore_1_1socket_1_1_socket_address.html", "classcore_1_1socket_1_1_socket_address" ],
+    [ "SocketConnection", "classcore_1_1socket_1_1_socket_connection.html", "classcore_1_1socket_1_1_socket_connection" ],
+    [ "SocketContext", "classcore_1_1socket_1_1_socket_context.html", "classcore_1_1socket_1_1_socket_context" ],
+    [ "SocketContextFactory", "classcore_1_1socket_1_1_socket_context_factory.html", "classcore_1_1socket_1_1_socket_context_factory" ]
 ];

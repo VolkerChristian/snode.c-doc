@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['parserstate_2042',['ParserState',['../classweb_1_1http_1_1_parser.html#a94ab44c0d65451be6ba3e6e389a8b7d5',1,'web::http::Parser::ParserState()'],['../classweb_1_1websocket_1_1_receiver.html#a3cf4e2588c5333541e445cd7aef1eb9b',1,'web::websocket::Receiver::ParserState()']]]
+  ['opcode_2170',['OpCode',['../classweb_1_1websocket_1_1_socket_context_upgrade.html#afe7f0b682e699a618736ddc20bb13fc2',1,'web::websocket::SocketContextUpgrade']]]
 ];

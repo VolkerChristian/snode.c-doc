@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('_transmitter_8cpp_source.html',''); in
 <div class="contents">
 <a href="_transmitter_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * snode.c - a slim toolkit for network communication</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * Copyright (C) 2020, 2021 Volker Christian &lt;me@vchrist.at&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * Copyright (C) 2020, 2021, 2022 Volker Christian &lt;me@vchrist.at&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * This program is free software: you can redistribute it and/or modify</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * it under the terms of the GNU Lesser General Public License as published</span></div>
@@ -105,9 +105,9 @@ $(document).ready(function(){initNavTree('_transmitter_8cpp_source.html',''); in
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_transmitter_8h.html">web/websocket/Transmitter.h</a>&quot;</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_logger_8h.html">log/Logger.h</a>&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_logger_8h.html">log/Logger.h</a>&quot;</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;endian.h&gt;</span> <span class="comment">// for be16toh, be32toh, be64toh, htobe32</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;iomanip&gt;</span>  <span class="comment">// for operator&lt;&lt;, setfill, setw</span></div>
@@ -300,7 +300,7 @@ $(document).ready(function(){initNavTree('_transmitter_8cpp_source.html',''); in
 <div class="ttc" id="aclassweb_1_1websocket_1_1_transmitter_html_ae08b91785b802614a19757280daa02a8"><div class="ttname"><a href="classweb_1_1websocket_1_1_transmitter.html#ae08b91785b802614a19757280daa02a8">web::websocket::Transmitter::sendMessageFrame</a></div><div class="ttdeci">void sendMessageFrame(const char *message, std::size_t messageLength)</div><div class="ttdef"><b>Definition:</b> <a href="_transmitter_8cpp_source.html#l00048">Transmitter.cpp:48</a></div></div>
 <div class="ttc" id="aclassweb_1_1websocket_1_1_transmitter_html_af9c93a3596f8875ee4e5230dd00b0141"><div class="ttname"><a href="classweb_1_1websocket_1_1_transmitter.html#af9c93a3596f8875ee4e5230dd00b0141">web::websocket::Transmitter::dumpFrame</a></div><div class="ttdeci">void dumpFrame(char *frame, uint64_t frameLength)</div><div class="ttdef"><b>Definition:</b> <a href="_transmitter_8cpp_source.html#l00185">Transmitter.cpp:185</a></div></div>
 <div class="ttc" id="aclassweb_1_1websocket_1_1_transmitter_html_afdb3f4f58ab8165ad60ddd567543902a"><div class="ttname"><a href="classweb_1_1websocket_1_1_transmitter.html#afdb3f4f58ab8165ad60ddd567543902a">web::websocket::Transmitter::Transmitter</a></div><div class="ttdeci">Transmitter()=default</div></div>
-<div class="ttc" id="anamespaceweb_1_1websocket_html"><div class="ttname"><a href="namespaceweb_1_1websocket.html">web::websocket</a></div><div class="ttdef"><b>Definition:</b> <a href="client_2_socket_context_upgrade_8cpp_source.html#l00032">SocketContextUpgrade.cpp:32</a></div></div>
+<div class="ttc" id="anamespaceweb_1_1websocket_html"><div class="ttname"><a href="namespaceweb_1_1websocket.html">web::websocket</a></div><div class="ttdef"><b>Definition:</b> <a href="client_2_socket_context_upgrade_8cpp_source.html#l00029">SocketContextUpgrade.cpp:29</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

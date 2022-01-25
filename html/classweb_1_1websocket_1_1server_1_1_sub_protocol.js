@@ -1,6 +1,8 @@
 var classweb_1_1websocket_1_1server_1_1_sub_protocol =
 [
-    [ "SubProtocol", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#aa74d50ddb0ec92e767521db6a1ff624e", null ],
+    [ "Super", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a1ae152bbbe518143a580d4ac38f3ba00", null ],
+    [ "SubProtocol", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a09ff711fdd0066999bf8fb2aeb552ff8", null ],
+    [ "~SubProtocol", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a2410b54d5707a714bc45730349a9d55d", null ],
     [ "forEachClient", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#ab938b78d34fdb811bd8aa3dc295c003b", null ],
     [ "onConnected", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a572b0b3541a224cf9bf8976c191e1d45", null ],
     [ "onDisconnected", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a6bac3391ba4d39a9e66ab3f20cbd3195", null ],
@@ -18,7 +20,7 @@ var classweb_1_1websocket_1_1server_1_1_sub_protocol =
     [ "sendBroadcastStart", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a3e0be36d9c670056b564973e1ca143d7", null ],
     [ "sendBroadcastStart", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a7b0be6ba63142d90a30a6418b4662721", null ],
     [ "subscribe", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a1eef345693371a2774b740716201d27a", null ],
-    [ "ChannelManager", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a6bc48c7100b040dcb878721c94bccb9b", null ],
+    [ "GroupsManager", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#aadbab78432918f4d37d02641ae71cc9e", null ],
     [ "web::websocket::SocketContextUpgrade", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a1d575c1146ab69eba0ab27c1acd913a3", null ],
-    [ "channel", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a812b031a430eb55f29bd39f727394beb", null ]
+    [ "group", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a52da19fc0906f6d3dbbd29701cb87332", null ]
 ];

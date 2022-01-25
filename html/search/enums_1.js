@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['flags_2038',['FLAGS',['../classcore_1_1_descriptor.html#a0998a6390c1f6ef1324ddfdfe7b2579b',1,'core::Descriptor']]]
+  ['disp_5ftype_2166',['DISP_TYPE',['../classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8b',1,'core::EventDispatcher']]]
 ];

@@ -92,6 +92,12 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 : <a class="el" href="classweb_1_1http_1_1client_1_1_request.html#a2da45af4b50ce8e5cecba1d892110324">web::http::client::Request</a>
 , <a class="el" href="classweb_1_1http_1_1server_1_1_response.html#a6910a90430da0172d9c6ce12ea2d85cb">web::http::server::Response</a>
 </li>
+<li>shutdownInProgress
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html#a8340b8587f3d02196c4c439d40485f69">core::socket::stream::SocketWriter&lt; SocketT &gt;</a>
+</li>
+<li>shutdownTriggered
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#ad247eb2f0bc6f58ed7265c7203230f18">core::socket::stream::SocketReader&lt; SocketT &gt;</a>
+</li>
 <li>sink
 : <a class="el" href="classcore_1_1pipe_1_1_source.html#a4d25af23c75f9ad83fc75f46be1c27cc">core::pipe::Source</a>
 </li>
@@ -106,22 +112,19 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 : <a class="el" href="classcore_1_1socket_1_1_socket_address.html#a67301420098bc9c2dbb9d9de95f05a51">core::socket::SocketAddress&lt; SockAddrT &gt;</a>
 </li>
 <li>socketConnection
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#adaa857737d526cd9f7af5b9765c3726c">core::socket::stream::SocketContext</a>
-</li>
-<li>SocketContext
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a4e69372a0e2ffa9172f8f5f5d3aee411">core::socket::stream::SocketConnection</a>
+: <a class="el" href="classcore_1_1socket_1_1_socket_context.html#a3555c0def7a19e1a0877de7fe5140351">core::socket::SocketContext</a>
 </li>
 <li>socketContext
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a8c107507513398f7b81b3256e943e45b">core::socket::stream::SocketConnection</a>
-, <a class="el" href="classweb_1_1http_1_1client_1_1_request.html#a36e6cd60491ac7303f8097e773dbbeac">web::http::client::Request</a>
-, <a class="el" href="classweb_1_1http_1_1client_1_1_response.html#a25964030844142e3a0f6a340b3678076">web::http::client::Response</a>
-, <a class="el" href="classweb_1_1http_1_1_parser.html#a887a9c8ada29f7aab21ec4f84c3a89be">web::http::Parser</a>
-, <a class="el" href="classweb_1_1http_1_1server_1_1_response.html#a31c1100bbbca1612c0f9f17d4d55d858">web::http::server::Response</a>
+: <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#af307fcbdffd8a43642fa80443dd2c72e">core::socket::SocketConnection</a>
+, <a class="el" href="classweb_1_1http_1_1client_1_1_request.html#aff0ea76b7052e9a949ed5f02bc8eab99">web::http::client::Request</a>
+, <a class="el" href="classweb_1_1http_1_1client_1_1_response.html#ae267daaac7554bc5fe5a456854711d41">web::http::client::Response</a>
+, <a class="el" href="classweb_1_1http_1_1_parser.html#a390738501b773c9ba1b039b499ca1f35">web::http::Parser</a>
+, <a class="el" href="classweb_1_1http_1_1server_1_1_response.html#a592f16ff49bfffe8aa8c7f3e1b014284">web::http::server::Response</a>
 </li>
 <li>socketContextFactory
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#a858dbfe169bee51a24d9b0fedad1f4e7">core::socket::stream::SocketAcceptor&lt; SocketConnectionT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#af66bfeb215c1bc03274975ee1155303a">core::socket::stream::SocketAcceptor&lt; SocketConnectionT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#a17e04a425dda9f73699e0d278cccf626">core::socket::stream::SocketClient&lt; ClientSocketT, SocketConnectorT, SocketContextFactoryT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#aa5bd902123e1677d857a336d7e0af3af">core::socket::stream::SocketConnector&lt; SocketConnectionT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a71b9c6d5a0f0cb6cf5102c5202bc2e43">core::socket::stream::SocketConnector&lt; SocketConnectionT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a3fb07c9da5c25faadad0bd14f0691415">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
 </li>
 <li>SocketContextUpgrade
@@ -131,10 +134,9 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 : <a class="el" href="classweb_1_1websocket_1_1_sub_protocol.html#a4863e98870502d1b2706625de93acec1">web::websocket::SubProtocol&lt; SocketContextUpgradeT &gt;</a>
 </li>
 <li>socketContextUpgradeFactory
-: <a class="el" href="structweb_1_1http_1_1client_1_1_socket_context_plugin.html#ae7cc2d8dcdf2093a177edfb006b92c12">web::http::client::SocketContextPlugin</a>
-, <a class="el" href="structweb_1_1http_1_1server_1_1_socket_context_plugin.html#a52720e7d769a2667f41eedc63241d459">web::http::server::SocketContextPlugin</a>
+: <a class="el" href="structweb_1_1http_1_1server_1_1_socket_context_plugin.html#a52720e7d769a2667f41eedc63241d459">web::http::server::SocketContextPlugin</a>
 , <a class="el" href="structweb_1_1http_1_1_socket_context_plugin.html#a5e6e79a583060f81d4a0ebc6217a47b6">web::http::SocketContextPlugin&lt; SocketContextUpgradeFactory &gt;</a>
-, <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade.html#ae6e55e23830f520a9d8f5d3c651cde03">web::http::SocketContextUpgrade&lt; RequestT, ResponseT &gt;</a>
+, <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade.html#aa199a60563ff55495a3d4f0addcf31b1">web::http::SocketContextUpgrade&lt; RequestT, ResponseT &gt;</a>
 </li>
 <li>socketContextUpgradePlugins
 : <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#af828a33e2fbbb5642c2e8a28d6f4d5ab">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactoryT &gt;</a>
@@ -147,6 +149,7 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_reader.html#acdf6a05c05b728787d19ca33995b7c32">core::socket::stream::tls::SocketReader&lt; SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_writer.html#a753744194efbb09a45b50d250470a679">core::socket::stream::tls::SocketWriter&lt; SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html#a67c63bf4f3234197ab8537dfebf0d25a">core::socket::stream::tls::TLSHandshake</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html#ac4b8ae83ef04c302e4d06d327adbdaac">core::socket::stream::tls::TLSShutdown</a>
 </li>
 <li>sslErr
 : <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#afb1ea4cb572f25ab95cb6aa6c9716a5f">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;</a>
@@ -179,14 +182,17 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 <li>subProtocol
 : <a class="el" href="classweb_1_1websocket_1_1_socket_context_upgrade.html#a79cd867f9becf5b3a1b88f2021b9936a">web::websocket::SocketContextUpgrade&lt; SubProtocolT, RequestT, ResponseT &gt;</a>
 </li>
-<li>subProtocolFactory
-: <a class="el" href="structweb_1_1websocket_1_1_sub_protocol_plugin.html#a5ff682f1b85b8d7ede56ded8b4f7651c">web::websocket::SubProtocolPlugin&lt; SubProtocolFactory &gt;</a>
+<li>subProtocolFactories
+: <a class="el" href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#a4a2032db8796706f293a0feed5d433bf">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;</a>
 </li>
-<li>subProtocolPlugins
-: <a class="el" href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#a2d6ae6da72a50ffb7944cfc91c230719">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;</a>
+<li>subProtocolName
+: <a class="el" href="classweb_1_1websocket_1_1_sub_protocol_factory.html#aae80c24c702fdd747a054a5411f86b76">web::websocket::SubProtocolFactory&lt; SubProtocolT &gt;</a>
 </li>
 <li>supportedMethods
 : <a class="el" href="classweb_1_1http_1_1server_1_1_request_parser.html#aa832ea93246b42a2de1aa37bc010aa28">web::http::server::RequestParser</a>
+</li>
+<li>suspended
+: <a class="el" href="classcore_1_1_event_receiver.html#ac61cfa128d4cb5c67d25b111cf80bb94">core::EventReceiver</a>
 </li>
 </ul>
 </div><!-- contents -->

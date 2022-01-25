@@ -82,9 +82,9 @@ $(document).ready(function(){initNavTree('classweb_1_1http_1_1_socket_context.ht
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
 <a href="classweb_1_1http_1_1_socket_context-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">web::http::SocketContext Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -95,59 +95,45 @@ $(document).ready(function(){initNavTree('classweb_1_1http_1_1_socket_context.ht
 <div class="dynheader">
 Inheritance diagram for web::http::SocketContext:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1_socket_context__inherit__graph.svg" width="395" height="823"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1_socket_context__inherit__graph.svg" width="427" height="852"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for web::http::SocketContext:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1_socket_context__coll__graph.svg" width="414" height="668"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1_socket_context__coll__graph.svg" width="454" height="800"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:ae8bf86428f41991de5905f1953fa7354"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1_socket_context.html#ae8bf86428f41991de5905f1953fa7354">SocketConnection</a> = <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html">core::socket::stream::SocketConnection</a></td></tr>
-<tr class="separator:ae8bf86428f41991de5905f1953fa7354"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_types_classcore_1_1socket_1_1stream_1_1_socket_context"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classcore_1_1socket_1_1stream_1_1_socket_context')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html">core::socket::stream::SocketContext</a></td></tr>
-<tr class="memitem:aa467275e7d59fbd3ee7d2a60f487ad51 inherit pub_types_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#aa467275e7d59fbd3ee7d2a60f487ad51">Role</a> { <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#aa467275e7d59fbd3ee7d2a60f487ad51a3d27c95bfdbea691b250894d96852844">SERVER</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#aa467275e7d59fbd3ee7d2a60f487ad51aef10c650df47bffd6399e5e78da2a9b1">CLIENT</a>
- }</td></tr>
-<tr class="separator:aa467275e7d59fbd3ee7d2a60f487ad51 inherit pub_types_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3d37b0a17a47ce6c9ebf96900bfe2a74"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1_socket_context.html#a3d37b0a17a47ce6c9ebf96900bfe2a74">sendToPeerCompleted</a> ()=0</td></tr>
 <tr class="separator:a3d37b0a17a47ce6c9ebf96900bfe2a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html">core::socket::stream::SocketContext</a></td></tr>
-<tr class="memitem:acd5cf02200e159d19be67e92957a6739 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#acd5cf02200e159d19be67e92957a6739">sendToPeer</a> (const char *junk, std::size_t junkLen)</td></tr>
-<tr class="separator:acd5cf02200e159d19be67e92957a6739 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5373aa9a16927d5f94841e22147cfb35 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#a5373aa9a16927d5f94841e22147cfb35">sendToPeer</a> (const std::string &amp;data)</td></tr>
-<tr class="separator:a5373aa9a16927d5f94841e22147cfb35 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d3db5191092e370fbd9c25eb55f788a inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#a5d3db5191092e370fbd9c25eb55f788a">readFromPeer</a> (char *junk, std::size_t junklen)</td></tr>
-<tr class="separator:a5d3db5191092e370fbd9c25eb55f788a inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6fbe09aa7875fc664fcc18b09b4c63c inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#af6fbe09aa7875fc664fcc18b09b4c63c">close</a> ()</td></tr>
-<tr class="separator:af6fbe09aa7875fc664fcc18b09b4c63c inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53872d80c1a553cd40060ee8239c7904 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#a53872d80c1a553cd40060ee8239c7904">getLocalAddressAsString</a> () const</td></tr>
-<tr class="separator:a53872d80c1a553cd40060ee8239c7904 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2e9d3380dcfe050117df4a582d793d5 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#ae2e9d3380dcfe050117df4a582d793d5">getRemoteAddressAsString</a> () const</td></tr>
-<tr class="separator:ae2e9d3380dcfe050117df4a582d793d5 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8ef8afac2d684be6eb16c98f40e9a9c inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html">SocketContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#ab8ef8afac2d684be6eb16c98f40e9a9c">switchSocketContext</a> (<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context_factory.html">SocketContextFactory</a> *socketContextFactory)</td></tr>
-<tr class="separator:ab8ef8afac2d684be6eb16c98f40e9a9c inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a876a7d2630629eb6a2c91c73c9af3886 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#a876a7d2630629eb6a2c91c73c9af3886">setTimeout</a> (int timeout)</td></tr>
-<tr class="separator:a876a7d2630629eb6a2c91c73c9af3886 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5be44680cfaefea2edbb295e44fa4a8c inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#a5be44680cfaefea2edbb295e44fa4a8c">onReceiveFromPeer</a> ()=0</td></tr>
-<tr class="separator:a5be44680cfaefea2edbb295e44fa4a8c inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fdcb77c81bdd9239a9659adbd4ae356 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#a9fdcb77c81bdd9239a9659adbd4ae356">onWriteError</a> (int errnum)=0</td></tr>
-<tr class="separator:a9fdcb77c81bdd9239a9659adbd4ae356 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab56ba6b8741388fbd197c036579d9803 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#ab56ba6b8741388fbd197c036579d9803">onReadError</a> (int errnum)=0</td></tr>
-<tr class="separator:ab56ba6b8741388fbd197c036579d9803 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad89173df130030c54a3233943fed49b inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#aad89173df130030c54a3233943fed49b">onConnected</a> ()</td></tr>
-<tr class="separator:aad89173df130030c54a3233943fed49b inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a151f322e1891bae4f25340f42a0cc18d inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#a151f322e1891bae4f25340f42a0cc18d">onDisconnected</a> ()</td></tr>
-<tr class="separator:a151f322e1891bae4f25340f42a0cc18d inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3257ee5ad1f18b050f2857faf29577e inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#aa467275e7d59fbd3ee7d2a60f487ad51">Role</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#ae3257ee5ad1f18b050f2857faf29577e">getRole</a> () const</td></tr>
-<tr class="separator:ae3257ee5ad1f18b050f2857faf29577e inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classcore_1_1socket_1_1_socket_context"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcore_1_1socket_1_1_socket_context')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1_socket_context.html">core::socket::SocketContext</a></td></tr>
+<tr class="memitem:a321277d819c69f544f69d78d8ab310ea inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#a8dfa05374cbe796e6b62911adcba7971">Role</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#a321277d819c69f544f69d78d8ab310ea">getRole</a> () const</td></tr>
+<tr class="separator:a321277d819c69f544f69d78d8ab310ea inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0bcd1966fe6ed4a1971fa4acc11a895 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#ad0bcd1966fe6ed4a1971fa4acc11a895">setTimeout</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;timeout)</td></tr>
+<tr class="separator:ad0bcd1966fe6ed4a1971fa4acc11a895 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc4143de68d6e1480d838c71b7f3ea91 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#adc4143de68d6e1480d838c71b7f3ea91">getLocalAddressAsString</a> () const</td></tr>
+<tr class="separator:adc4143de68d6e1480d838c71b7f3ea91 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af38dfea245f9767c9af48aee5425ca69 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#af38dfea245f9767c9af48aee5425ca69">getRemoteAddressAsString</a> () const</td></tr>
+<tr class="separator:af38dfea245f9767c9af48aee5425ca69 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf71eb98dd1dbbf97af68326bdaac8ff inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#acf71eb98dd1dbbf97af68326bdaac8ff">sendToPeer</a> (const char *junk, std::size_t junkLen)</td></tr>
+<tr class="separator:acf71eb98dd1dbbf97af68326bdaac8ff inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7d5cdb2bbb84c449157be22ca0401d4 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#ab7d5cdb2bbb84c449157be22ca0401d4">sendToPeer</a> (const std::string &amp;data)</td></tr>
+<tr class="separator:ab7d5cdb2bbb84c449157be22ca0401d4 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10a73ab3264dc536464f7a530fda8fa7 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#a10a73ab3264dc536464f7a530fda8fa7">readFromPeer</a> (char *junk, std::size_t junklen)</td></tr>
+<tr class="separator:a10a73ab3264dc536464f7a530fda8fa7 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac62c1fa45cee58c5ac10b00eb0853639 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#ac62c1fa45cee58c5ac10b00eb0853639">shutdownRead</a> ()</td></tr>
+<tr class="separator:ac62c1fa45cee58c5ac10b00eb0853639 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e872afff9b592389b7555fab5a3d5a5 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#a3e872afff9b592389b7555fab5a3d5a5">shutdownWrite</a> ()</td></tr>
+<tr class="separator:a3e872afff9b592389b7555fab5a3d5a5 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a270a18f3261a7dc3162c9446067b38fa inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#a270a18f3261a7dc3162c9446067b38fa">shutdown</a> ()</td></tr>
+<tr class="separator:a270a18f3261a7dc3162c9446067b38fa inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7daa40724b091ab2970e60cd5c46148a inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#a7daa40724b091ab2970e60cd5c46148a">close</a> ()</td></tr>
+<tr class="separator:a7daa40724b091ab2970e60cd5c46148a inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea4040a01068a4b14956dd2475b7327d inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1socket_1_1_socket_context.html">SocketContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#aea4040a01068a4b14956dd2475b7327d">switchSocketContext</a> (<a class="el" href="classcore_1_1socket_1_1_socket_context_factory.html">core::socket::SocketContextFactory</a> *socketContextFactory)</td></tr>
+<tr class="separator:aea4040a01068a4b14956dd2475b7327d inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -155,32 +141,49 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:aa2664754fb1f908e1ac15d4aca563447"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b1f2acc04a0004b18bc1f5674bc9929"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classweb_1_1http_1_1_socket_context.html">SocketContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1_socket_context.html#a2b1f2acc04a0004b18bc1f5674bc9929">operator=</a> (const <a class="el" href="classweb_1_1http_1_1_socket_context.html">SocketContext</a> &amp;)=delete</td></tr>
 <tr class="separator:a2b1f2acc04a0004b18bc1f5674bc9929"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1socket_1_1stream_1_1_socket_context')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html">core::socket::stream::SocketContext</a></td></tr>
-<tr class="memitem:ad56872563ff390c8620612c113adba80 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#ad56872563ff390c8620612c113adba80">SocketContext</a> (<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html">SocketConnection</a> *<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#adaa857737d526cd9f7af5b9765c3726c">socketConnection</a>, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#aa467275e7d59fbd3ee7d2a60f487ad51">Role</a> <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#ac709bc1c089ff13bc57aa666636363fa">role</a>)</td></tr>
-<tr class="separator:ad56872563ff390c8620612c113adba80 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f1c0122d522512b771542838cac0e57 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#a4f1c0122d522512b771542838cac0e57">~SocketContext</a> ()=default</td></tr>
-<tr class="separator:a4f1c0122d522512b771542838cac0e57 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abef4465ac97c1368df030847e22b1101"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1_socket_context.html#abef4465ac97c1368df030847e22b1101">onReceiveFromPeer</a> () override=0</td></tr>
+<tr class="separator:abef4465ac97c1368df030847e22b1101"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classcore_1_1socket_1_1_socket_context"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1socket_1_1_socket_context')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1_socket_context.html">core::socket::SocketContext</a></td></tr>
+<tr class="memitem:a3243ee668ab43ab2fbbb59260ff08cd5 inherit pro_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#a3243ee668ab43ab2fbbb59260ff08cd5">SocketContext</a> (<a class="el" href="classcore_1_1socket_1_1_socket_connection.html">core::socket::SocketConnection</a> *<a class="el" href="classcore_1_1socket_1_1_socket_context.html#a3555c0def7a19e1a0877de7fe5140351">socketConnection</a>, <a class="el" href="classcore_1_1socket_1_1_socket_context.html#a8dfa05374cbe796e6b62911adcba7971">Role</a> <a class="el" href="classcore_1_1socket_1_1_socket_context.html#a82a3294838f74e436cd773174474ae9b">role</a>)</td></tr>
+<tr class="separator:a3243ee668ab43ab2fbbb59260ff08cd5 inherit pro_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf1db0d7cb196bb5252aa41496047ee7 inherit pro_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#adf1db0d7cb196bb5252aa41496047ee7">~SocketContext</a> ()=default</td></tr>
+<tr class="separator:adf1db0d7cb196bb5252aa41496047ee7 inherit pro_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a6ac6336df1492bc9d88258d30e6e61e7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1_socket_context.html#a6ac6336df1492bc9d88258d30e6e61e7">Super</a> = <a class="el" href="classcore_1_1socket_1_1_socket_context.html">core::socket::SocketContext</a></td></tr>
+<tr class="separator:a6ac6336df1492bc9d88258d30e6e61e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classcore_1_1socket_1_1stream_1_1_socket_context"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classcore_1_1socket_1_1stream_1_1_socket_context')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html">core::socket::stream::SocketContext</a></td></tr>
-<tr class="memitem:ac709bc1c089ff13bc57aa666636363fa inherit pro_attribs_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#aa467275e7d59fbd3ee7d2a60f487ad51">Role</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#ac709bc1c089ff13bc57aa666636363fa">role</a></td></tr>
-<tr class="separator:ac709bc1c089ff13bc57aa666636363fa inherit pro_attribs_classcore_1_1socket_1_1stream_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classcore_1_1socket_1_1_socket_context"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classcore_1_1socket_1_1_socket_context')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classcore_1_1socket_1_1_socket_context.html">core::socket::SocketContext</a></td></tr>
+<tr class="memitem:a8dfa05374cbe796e6b62911adcba7971 inherit pub_types_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#a8dfa05374cbe796e6b62911adcba7971">Role</a> { <a class="el" href="classcore_1_1socket_1_1_socket_context.html#a8dfa05374cbe796e6b62911adcba7971a3d27c95bfdbea691b250894d96852844">SERVER</a>
+, <a class="el" href="classcore_1_1socket_1_1_socket_context.html#a8dfa05374cbe796e6b62911adcba7971aef10c650df47bffd6399e5e78da2a9b1">CLIENT</a>
+ }</td></tr>
+<tr class="separator:a8dfa05374cbe796e6b62911adcba7971 inherit pub_types_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="web_2http_2_socket_context_8h_source.html#l00030">30</a> of file <a class="el" href="web_2http_2_socket_context_8h_source.html">SocketContext.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="ae8bf86428f41991de5905f1953fa7354"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8bf86428f41991de5905f1953fa7354">&#9670;&nbsp;</a></span>SocketConnection</h2>
+<a id="a6ac6336df1492bc9d88258d30e6e61e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ac6336df1492bc9d88258d30e6e61e7">&#9670;&nbsp;</a></span>Super</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classweb_1_1http_1_1_socket_context.html#ae8bf86428f41991de5905f1953fa7354">web::http::SocketContext::SocketConnection</a> =  <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html">core::socket::stream::SocketConnection</a></td>
+          <td class="memname">using <a class="el" href="classweb_1_1http_1_1_socket_context.html#a6ac6336df1492bc9d88258d30e6e61e7">web::http::SocketContext::Super</a> =  <a class="el" href="classcore_1_1socket_1_1_socket_context.html">core::socket::SocketContext</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="web_2http_2_socket_context_8h_source.html#l00032">32</a> of file <a class="el" href="web_2http_2_socket_context_8h_source.html">SocketContext.h</a>.</p>
@@ -215,6 +218,35 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="abef4465ac97c1368df030847e22b1101"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abef4465ac97c1368df030847e22b1101">&#9670;&nbsp;</a></span>onReceiveFromPeer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void web::http::SocketContext::onReceiveFromPeer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classcore_1_1socket_1_1_socket_context.html#ae4fc1cc6605369ed793147b853cd708a">core::socket::SocketContext</a>.</p>
+
+<p>Implemented in <a class="el" href="classweb_1_1http_1_1server_1_1_socket_context.html#aa2478019ab1e7fa54fb195e5dc0ed6a5">web::http::server::SocketContext&lt; RequestT, ResponseT &gt;</a>, and <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context.html#a387a81ac9ad2bde23b85982a6b4a187f">web::http::client::SocketContext&lt; RequestT, ResponseT &gt;</a>.</p>
+
+</div>
+</div>
 <a id="a2b1f2acc04a0004b18bc1f5674bc9929"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b1f2acc04a0004b18bc1f5674bc9929">&#9670;&nbsp;</a></span>operator=()</h2>
 
@@ -265,6 +297,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implemented in <a class="el" href="classweb_1_1http_1_1server_1_1_socket_context.html#af02d72d4d627ffea40a714dec9b128d7">web::http::server::SocketContext&lt; RequestT, ResponseT &gt;</a>, and <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context.html#ad66284ae319823f21331775bf1057507">web::http::client::SocketContext&lt; RequestT, ResponseT &gt;</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="web_2http_2client_2_request_8cpp_source.html#l00119">web::http::client::Request::enqueue()</a>, and <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00043">web::http::server::Response::enqueue()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1_socket_context_a3d37b0a17a47ce6c9ebf96900bfe2a74_icgraph.svg" width="1287" height="510"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>

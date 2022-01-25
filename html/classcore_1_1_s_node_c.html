@@ -94,7 +94,7 @@ $(document).ready(function(){initNavTree('classcore_1_1_s_node_c.html',''); init
 <div class="dynheader">
 Collaboration diagram for core::SNodeC:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c__coll__graph.svg" width="124" height="191"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c__coll__graph.svg" width="138" height="176"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -102,12 +102,10 @@ Collaboration diagram for core::SNodeC:</div>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2c8b01c5fc6ecc3036cb48a76f76f3b5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_s_node_c.html#a2c8b01c5fc6ecc3036cb48a76f76f3b5">init</a> (int argc, char *argv[])</td></tr>
 <tr class="separator:a2c8b01c5fc6ecc3036cb48a76f76f3b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa3c6594a9e80cf74477bc6088037deb"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_s_node_c.html#afa3c6594a9e80cf74477bc6088037deb">start</a> (struct timeval timeOut={LONG_MAX, 0})</td></tr>
-<tr class="separator:afa3c6594a9e80cf74477bc6088037deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a789e86c8b1c218ff24163fbeee798672"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_s_node_c.html#a789e86c8b1c218ff24163fbeee798672">stop</a> ()</td></tr>
-<tr class="separator:a789e86c8b1c218ff24163fbeee798672"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6075f07ee1b7fe6205b5b2cb79a1b713"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749">TickStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_s_node_c.html#a6075f07ee1b7fe6205b5b2cb79a1b713">tick</a> (struct timeval timeOut={0, 0})</td></tr>
-<tr class="separator:a6075f07ee1b7fe6205b5b2cb79a1b713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3d0dcb6c216ae72d9bbb77fe080e461"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_s_node_c.html#ac3d0dcb6c216ae72d9bbb77fe080e461">start</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;timeOut={LONG_MAX, 0})</td></tr>
+<tr class="separator:ac3d0dcb6c216ae72d9bbb77fe080e461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57b40bb139f23e6a9fc2704d2415e636"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749">TickStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_s_node_c.html#a57b40bb139f23e6a9fc2704d2415e636">tick</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;timeOut=0)</td></tr>
+<tr class="separator:a57b40bb139f23e6a9fc2704d2415e636"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a723f1f8e484db32164adeca1fbf98e28"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_s_node_c.html#a723f1f8e484db32164adeca1fbf98e28">free</a> ()</td></tr>
 <tr class="separator:a723f1f8e484db32164adeca1fbf98e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -198,17 +196,25 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_s_node_c_8cpp_source.html#l00045">45</a> of file <a class="el" href="_s_node_c_8cpp_source.html">SNodeC.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                      {</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="classcore_1_1_event_loop.html#a3125b6361565df4753affc73eb83984a">EventLoop::free</a>();</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1_event_loop_html_a3125b6361565df4753affc73eb83984a"><div class="ttname"><a href="classcore_1_1_event_loop.html#a3125b6361565df4753affc73eb83984a">core::EventLoop::free</a></div><div class="ttdeci">static void free()</div><div class="ttdef"><b>Definition:</b> <a href="_event_loop_8cpp_source.html#l00239">EventLoop.cpp:239</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_s_node_c_8cpp_source.html#l00041">41</a> of file <a class="el" href="_s_node_c_8cpp_source.html">SNodeC.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                      {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="classcore_1_1_event_loop.html#a3125b6361565df4753affc73eb83984a">EventLoop::free</a>();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1_event_loop_html_a3125b6361565df4753affc73eb83984a"><div class="ttname"><a href="classcore_1_1_event_loop.html#a3125b6361565df4753affc73eb83984a">core::EventLoop::free</a></div><div class="ttdeci">static void free()</div><div class="ttdef"><b>Definition:</b> <a href="_event_loop_8cpp_source.html#l00157">EventLoop.cpp:157</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_loop_8cpp_source.html#l00239">core::EventLoop::free()</a>.</p>
+<p class="reference">References <a class="el" href="_event_loop_8cpp_source.html#l00157">core::EventLoop::free()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_web_app_8cpp_source.html#l00048">express::WebApp::free()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c_a723f1f8e484db32164adeca1fbf98e28_cgraph.svg" width="1434" height="466"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c_a723f1f8e484db32164adeca1fbf98e28_cgraph.svg" width="1374" height="830"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c_a723f1f8e484db32164adeca1fbf98e28_icgraph.svg" width="371" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -248,25 +254,25 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_s_node_c_8cpp_source.html#l00030">30</a> of file <a class="el" href="_s_node_c_8cpp_source.html">SNodeC.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                            {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="classcore_1_1_event_loop.html#a646626e7bf61e04877f71473b49e90ca">EventLoop::init</a>(argc, argv);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1_event_loop_html_a646626e7bf61e04877f71473b49e90ca"><div class="ttname"><a href="classcore_1_1_event_loop.html#a646626e7bf61e04877f71473b49e90ca">core::EventLoop::init</a></div><div class="ttdeci">static void init(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> <a href="_event_loop_8cpp_source.html#l00167">EventLoop.cpp:167</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_s_node_c_8cpp_source.html#l00029">29</a> of file <a class="el" href="_s_node_c_8cpp_source.html">SNodeC.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                            {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="classcore_1_1_event_loop.html#a646626e7bf61e04877f71473b49e90ca">EventLoop::init</a>(argc, argv);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1_event_loop_html_a646626e7bf61e04877f71473b49e90ca"><div class="ttname"><a href="classcore_1_1_event_loop.html#a646626e7bf61e04877f71473b49e90ca">core::EventLoop::init</a></div><div class="ttdeci">static void init(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> <a href="_event_loop_8cpp_source.html#l00069">EventLoop.cpp:69</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_loop_8cpp_source.html#l00167">core::EventLoop::init()</a>.</p>
+<p class="reference">References <a class="el" href="_event_loop_8cpp_source.html#l00069">core::EventLoop::init()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_web_app_8cpp_source.html#l00035">express::WebApp::init()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c_a2c8b01c5fc6ecc3036cb48a76f76f3b5_cgraph.svg" width="806" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c_a2c8b01c5fc6ecc3036cb48a76f76f3b5_cgraph.svg" width="860" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c_a2c8b01c5fc6ecc3036cb48a76f76f3b5_icgraph.svg" width="340" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c_a2c8b01c5fc6ecc3036cb48a76f76f3b5_icgraph.svg" width="362" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -298,8 +304,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="afa3c6594a9e80cf74477bc6088037deb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa3c6594a9e80cf74477bc6088037deb">&#9670;&nbsp;</a></span>start()</h2>
+<a id="ac3d0dcb6c216ae72d9bbb77fe080e461"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3d0dcb6c216ae72d9bbb77fe080e461">&#9670;&nbsp;</a></span>start()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -310,7 +316,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">int core::SNodeC::start </td>
           <td>(</td>
-          <td class="paramtype">struct timeval&#160;</td>
+          <td class="paramtype">const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;&#160;</td>
           <td class="paramname"><em>timeOut</em> = <code>{LONG_MAX,&#160;0}</code></td><td>)</td>
           <td></td>
         </tr>
@@ -322,32 +328,32 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_s_node_c_8cpp_source.html#l00034">34</a> of file <a class="el" href="_s_node_c_8cpp_source.html">SNodeC.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                                            {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1_event_loop.html#afeabca46d8a559af8b6ad5ca392026c1">EventLoop::start</a>(timeOut);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1_event_loop_html_afeabca46d8a559af8b6ad5ca392026c1"><div class="ttname"><a href="classcore_1_1_event_loop.html#afeabca46d8a559af8b6ad5ca392026c1">core::EventLoop::start</a></div><div class="ttdeci">static int start(struct timeval timeOut)</div><div class="ttdef"><b>Definition:</b> <a href="_event_loop_8cpp_source.html#l00175">EventLoop.cpp:175</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_s_node_c_8cpp_source.html#l00033">33</a> of file <a class="el" href="_s_node_c_8cpp_source.html">SNodeC.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                                 {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1_event_loop.html#aaa2c3856fed808d00542d573c2b3a737">EventLoop::start</a>(timeOut);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1_event_loop_html_aaa2c3856fed808d00542d573c2b3a737"><div class="ttname"><a href="classcore_1_1_event_loop.html#aaa2c3856fed808d00542d573c2b3a737">core::EventLoop::start</a></div><div class="ttdeci">static int start(const utils::Timeval &amp;timeOut)</div><div class="ttdef"><b>Definition:</b> <a href="_event_loop_8cpp_source.html#l00102">EventLoop.cpp:102</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_loop_8cpp_source.html#l00175">core::EventLoop::start()</a>.</p>
+<p class="reference">References <a class="el" href="_event_loop_8cpp_source.html#l00102">core::EventLoop::start()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_web_app_8cpp_source.html#l00040">express::WebApp::start()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c_afa3c6594a9e80cf74477bc6088037deb_cgraph.svg" width="1468" height="983"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c_ac3d0dcb6c216ae72d9bbb77fe080e461_cgraph.svg" width="1627" height="827"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c_afa3c6594a9e80cf74477bc6088037deb_icgraph.svg" width="356" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c_ac3d0dcb6c216ae72d9bbb77fe080e461_icgraph.svg" width="379" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a789e86c8b1c218ff24163fbeee798672"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a789e86c8b1c218ff24163fbeee798672">&#9670;&nbsp;</a></span>stop()</h2>
+<a id="a57b40bb139f23e6a9fc2704d2415e636"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57b40bb139f23e6a9fc2704d2415e636">&#9670;&nbsp;</a></span>tick()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -356,9 +362,10 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void core::SNodeC::stop </td>
+          <td class="memname"><a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749">TickStatus</a> core::SNodeC::tick </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;&#160;</td>
+          <td class="paramname"><em>timeOut</em> = <code>0</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -370,64 +377,24 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_s_node_c_8cpp_source.html#l00037">37</a> of file <a class="el" href="_s_node_c_8cpp_source.html">SNodeC.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                      {</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="classcore_1_1_event_loop.html#aaa96da1dffd0e1800ba0c134ad07f97e">EventLoop::stop</a>();</div>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                                                       {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1_event_loop.html#a811fbdf8265440db286c44f08c644235">EventLoop::tick</a>(timeOut);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1_event_loop_html_aaa96da1dffd0e1800ba0c134ad07f97e"><div class="ttname"><a href="classcore_1_1_event_loop.html#aaa96da1dffd0e1800ba0c134ad07f97e">core::EventLoop::stop</a></div><div class="ttdeci">static void stop()</div><div class="ttdef"><b>Definition:</b> <a href="_event_loop_8cpp_source.html#l00235">EventLoop.cpp:235</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_loop_html_a811fbdf8265440db286c44f08c644235"><div class="ttname"><a href="classcore_1_1_event_loop.html#a811fbdf8265440db286c44f08c644235">core::EventLoop::tick</a></div><div class="ttdeci">static TickStatus tick(const utils::Timeval &amp;timeOut=0)</div><div class="ttdef"><b>Definition:</b> <a href="_event_loop_8cpp_source.html#l00087">EventLoop.cpp:87</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_loop_8cpp_source.html#l00235">core::EventLoop::stop()</a>.</p>
+<p class="reference">References <a class="el" href="_event_loop_8cpp_source.html#l00087">core::EventLoop::tick()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_web_app_8cpp_source.html#l00044">express::WebApp::stop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_web_app_8cpp_source.html#l00044">express::WebApp::tick()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c_a789e86c8b1c218ff24163fbeee798672_cgraph.svg" width="348" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c_a57b40bb139f23e6a9fc2704d2415e636_cgraph.svg" width="1330" height="758"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c_a789e86c8b1c218ff24163fbeee798672_icgraph.svg" width="356" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a6075f07ee1b7fe6205b5b2cb79a1b713"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6075f07ee1b7fe6205b5b2cb79a1b713">&#9670;&nbsp;</a></span>tick()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749">TickStatus</a> core::SNodeC::tick </td>
-          <td>(</td>
-          <td class="paramtype">struct timeval&#160;</td>
-          <td class="paramname"><em>timeOut</em> = <code>{0,&#160;0}</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_s_node_c_8cpp_source.html#l00041">41</a> of file <a class="el" href="_s_node_c_8cpp_source.html">SNodeC.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                                                  {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1_event_loop.html#a31a70aac53c3c92f6e2cf395df195ecc">EventLoop::tick</a>(timeOut);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1_event_loop_html_a31a70aac53c3c92f6e2cf395df195ecc"><div class="ttname"><a href="classcore_1_1_event_loop.html#a31a70aac53c3c92f6e2cf395df195ecc">core::EventLoop::tick</a></div><div class="ttdeci">static TickStatus tick(struct timeval timeOut)</div><div class="ttdef"><b>Definition:</b> <a href="_event_loop_8cpp_source.html#l00220">EventLoop.cpp:220</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_loop_8cpp_source.html#l00220">core::EventLoop::tick()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c_a6075f07ee1b7fe6205b5b2cb79a1b713_cgraph.svg" width="1199" height="775"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_s_node_c_a57b40bb139f23e6a9fc2704d2415e636_icgraph.svg" width="367" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

@@ -9,6 +9,5 @@ var ssl__utils_8cpp =
     [ "ssl_log_info", "ssl__utils_8cpp.html#a6f3a1ef614b0412d91d64f823826f189", null ],
     [ "ssl_log_warning", "ssl__utils_8cpp.html#a3a133b1b35c394931d65dfe02977c810", null ],
     [ "ssl_set_sni", "ssl__utils_8cpp.html#af894bb198c05e357e5722a9ceb42f7fc", null ],
-    [ "verify_callback", "ssl__utils_8cpp.html#a3c8c4d534c8d5478b278d19cd218e6a9", null ],
-    [ "sslSessionCtxId", "ssl__utils_8cpp.html#a7f37b01aa1d8b19fbe00c129515b3815", null ]
+    [ "verify_callback", "ssl__utils_8cpp.html#af5192f3c2626b934b3406a58d92582c6", null ]
 ];

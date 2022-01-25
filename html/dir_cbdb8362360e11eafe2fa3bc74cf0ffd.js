@@ -9,5 +9,7 @@ var dir_cbdb8362360e11eafe2fa3bc74cf0ffd =
     [ "stacktrace.cpp", "stacktrace_8cpp.html", "stacktrace_8cpp" ],
     [ "stacktrace.h", "stacktrace_8h.html", "stacktrace_8h" ],
     [ "Timeval.cpp", "_timeval_8cpp.html", "_timeval_8cpp" ],
-    [ "Timeval.h", "_timeval_8h.html", "_timeval_8h" ]
+    [ "Timeval.h", "_timeval_8h.html", [
+      [ "Timeval", "classutils_1_1_timeval.html", "classutils_1_1_timeval" ]
+    ] ]
 ];

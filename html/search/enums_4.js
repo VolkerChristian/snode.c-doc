@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['opcode_2041',['OpCode',['../classweb_1_1websocket_1_1_socket_context_upgrade.html#afe7f0b682e699a618736ddc20bb13fc2',1,'web::websocket::SocketContextUpgrade']]]
+  ['level_2169',['Level',['../classlogger_1_1_logger.html#a1265fa2e5e66c466ebdde22414fc87c8',1,'logger::Logger']]]
 ];

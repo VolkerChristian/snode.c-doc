@@ -1,4 +1,25 @@
 var searchData=
 [
-  ['queries_1947',['queries',['../classweb_1_1http_1_1client_1_1_request.html#a0a8b211ec6467d100fdbf4bf24287a9c',1,'web::http::client::Request::queries()'],['../classweb_1_1http_1_1server_1_1_request.html#a893d2475f4116b85d0d4a2b9bd0b7b04',1,'web::http::server::Request::queries()'],['../classweb_1_1http_1_1server_1_1_request_parser.html#a5aaee5501d9172435be82c226b96ad90',1,'web::http::server::RequestParser::queries()']]]
+  ['rc_2074',['rc',['../instrumentation_8cpp.html#a30467b1dec89ba4714905eed4c11b38a',1,'instrumentation.cpp']]],
+  ['ready_2075',['ready',['../structweb_1_1http_1_1server_1_1_socket_context_1_1_request_context.html#ae767ab27928bd2a19e9d8780909d35ec',1,'web::http::server::SocketContext::RequestContext']]],
+  ['reason_2076',['reason',['../classweb_1_1http_1_1client_1_1_response.html#a49da40bc82e2f577f7876f89b6d0ffed',1,'web::http::client::Response::reason()'],['../structweb_1_1http_1_1server_1_1_socket_context_1_1_request_context.html#a09dff0994b4bb610053aea2f71278dcd',1,'web::http::server::SocketContext::RequestContext::reason()'],['../classweb_1_1http_1_1client_1_1_response_parser.html#ab231d61e1f3eac11c39611ebe5c05ca9',1,'web::http::client::ResponseParser::reason()']]],
+  ['refcount_2077',['refCount',['../structcore_1_1_dynamic_loader_1_1_library.html#ab1d1df0c89aa0a1c44fb987e3d290f33',1,'core::DynamicLoader::Library::refCount()'],['../classweb_1_1websocket_1_1_sub_protocol_factory.html#aaed4b8ca0e0755f973109cfd86e8c815',1,'web::websocket::SubProtocolFactory::refCount()'],['../classweb_1_1http_1_1_socket_context_upgrade_factory.html#a5ec0d8e1bd68308db21a518ac1ce283f',1,'web::http::SocketContextUpgradeFactory::refCount()']]],
+  ['registered_2078',['registered',['../classcore_1_1select_1_1_fd_set.html#aef113b2edbb1acaed35e0cb8a0afb7a6',1,'core::select::FdSet']]],
+  ['registeredfd_2079',['registeredFd',['../classcore_1_1_event_receiver.html#a1ce41ac13f1fd772ad05d1cedcc7bb1b',1,'core::EventReceiver']]],
+  ['registeredfordlclose_2080',['registeredForDlClose',['../classcore_1_1_dynamic_loader.html#a90cba68c54ff0c6029b3b263d6c43aa9',1,'core::DynamicLoader']]],
+  ['relativemountpath_2081',['relativeMountPath',['../structexpress_1_1_mount_point.html#aed029c8a9eaefcf7878ce5c9d882dd1a',1,'express::MountPoint']]],
+  ['remoteaddress_2082',['remoteAddress',['../classcore_1_1socket_1_1stream_1_1_socket_connection.html#af1038ff389aaae6fbf864449598d57bc',1,'core::socket::stream::SocketConnection']]],
+  ['removedlist_2083',['removedList',['../classcore_1_1_timer_event_dispatcher.html#a4f0e028fcdc4ba9bee78d410e904cce1',1,'core::TimerEventDispatcher']]],
+  ['request_2084',['request',['../classweb_1_1http_1_1client_1_1_socket_context.html#aa82e1f3f3d41b612ed0e897ae0e66e63',1,'web::http::client::SocketContext::request()'],['../classweb_1_1http_1_1_socket_context_upgrade_factory.html#a49afbcd1387bc71ce80b052882472a71',1,'web::http::SocketContextUpgradeFactory::request()'],['../structweb_1_1http_1_1server_1_1_socket_context_1_1_request_context.html#a9b5f861507024d8f4015b55d1ee7cb4a',1,'web::http::server::SocketContext::RequestContext::request()']]],
+  ['requestcontexts_2085',['requestContexts',['../classweb_1_1http_1_1server_1_1_socket_context.html#a113ee9b961448f9f0ceb617eacc7688e',1,'web::http::server::SocketContext']]],
+  ['requestinprogress_2086',['requestInProgress',['../classweb_1_1http_1_1server_1_1_socket_context.html#a6836c4f8628dad7a07fcb3ebc880bfa8',1,'web::http::server::SocketContext']]],
+  ['response_2087',['response',['../classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b',1,'web::http::client::SocketContext::response()'],['../structweb_1_1http_1_1server_1_1_socket_context_1_1_request_context.html#a69b9138624510f3dccfbe4c26d002cca',1,'web::http::server::SocketContext::RequestContext::response()'],['../classweb_1_1http_1_1_socket_context_upgrade_factory.html#a47a5b6d2ccfad6bcc6882108ddee6b57',1,'web::http::SocketContextUpgradeFactory::response()']]],
+  ['responsestatus_2088',['responseStatus',['../classweb_1_1http_1_1server_1_1_response.html#adff0a4f1e7e67fa647d7e726e74f0966',1,'web::http::server::Response']]],
+  ['revents_2089',['revents',['../classcore_1_1poll_1_1_descriptor_event_dispatcher.html#a54b7b82eb73cdfbda6e2622e6a275d4b',1,'core::poll::DescriptorEventDispatcher']]],
+  ['role_2090',['role',['../classcore_1_1socket_1_1_socket_context.html#a82a3294838f74e436cd773174474ae9b',1,'core::socket::SocketContext']]],
+  ['root_2091',['root',['../classexpress_1_1middleware_1_1_static_middleware.html#a4c1b12467fbff98a6aeecb56774a779e',1,'express::middleware::StaticMiddleware']]],
+  ['routerdispatcher_2092',['RouterDispatcher',['../classexpress_1_1_route.html#ae1e66c70443957e1a6f317ff5a9c4574',1,'express::Route']]],
+  ['routerdispatcher_2093',['routerDispatcher',['../classexpress_1_1_router.html#aa3c8a0794fc3e3882654f4a81bed6cb2',1,'express::Router']]],
+  ['routes_2094',['routes',['../classexpress_1_1_router_dispatcher.html#ab877547440f2a2d7953f8cae552a4fc1',1,'express::RouterDispatcher']]],
+  ['running_2095',['running',['../classcore_1_1_event_loop.html#a498110719e957d07c399a2da2ad6d451',1,'core::EventLoop']]]
 ];

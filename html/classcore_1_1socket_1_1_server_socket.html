@@ -94,13 +94,13 @@ $(document).ready(function(){initNavTree('classcore_1_1socket_1_1_server_socket.
 <div class="dynheader">
 Inheritance diagram for core::socket::ServerSocket&lt; SocketT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_server_socket__inherit__graph.svg" width="1055" height="443"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_server_socket__inherit__graph.svg" width="1142" height="443"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for core::socket::ServerSocket&lt; SocketT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_server_socket__coll__graph.svg" width="192" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_server_socket__coll__graph.svg" width="204" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -111,8 +111,8 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8cfe70c9abfb235fd1f5476cb1a2286c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_server_socket.html#a8cfe70c9abfb235fd1f5476cb1a2286c">listen</a> (const typename <a class="el" href="classcore_1_1socket_1_1_socket.html#a6f3a39a7f462eae53a4d5202840889ce">Socket::SocketAddress</a> &amp;bindAddress, int backlog, const std::function&lt; void(int)&gt; &amp;onError) const =0</td></tr>
-<tr class="separator:a8cfe70c9abfb235fd1f5476cb1a2286c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae915b41b291a5d7a07b09870cbea3552"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_server_socket.html#ae915b41b291a5d7a07b09870cbea3552">listen</a> (const typename <a class="el" href="classcore_1_1socket_1_1_socket.html#a6f3a39a7f462eae53a4d5202840889ce">Socket::SocketAddress</a> &amp;bindAddress, int backlog, const std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1_server_socket.html#a382131672815f6d15f61ffb9ff5611f1">Socket</a> &amp;socket, int)&gt; &amp;onError) const =0</td></tr>
+<tr class="separator:ae915b41b291a5d7a07b09870cbea3552"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename SocketT&gt;<br />
@@ -140,8 +140,8 @@ template&lt;typename SocketT &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8cfe70c9abfb235fd1f5476cb1a2286c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cfe70c9abfb235fd1f5476cb1a2286c">&#9670;&nbsp;</a></span>listen()</h2>
+<a id="ae915b41b291a5d7a07b09870cbea3552"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae915b41b291a5d7a07b09870cbea3552">&#9670;&nbsp;</a></span>listen()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166,7 +166,7 @@ template&lt;typename SocketT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::function&lt; void(int)&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1_server_socket.html#a382131672815f6d15f61ffb9ff5611f1">Socket</a> &amp;socket, int)&gt; &amp;&#160;</td>
           <td class="paramname"><em>onError</em>&#160;</td>
         </tr>
         <tr>

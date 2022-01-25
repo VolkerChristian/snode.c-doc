@@ -7,7 +7,7 @@ var dir_b54354194172df550fb2bdb507d33122 =
     [ "SocketClient.h", "core_2socket_2stream_2tls_2_socket_client_8h.html", [
       [ "SocketClient", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_client.html", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_client" ]
     ] ],
-    [ "SocketConnection.h", "tls_2_socket_connection_8h.html", [
+    [ "SocketConnection.h", "stream_2tls_2_socket_connection_8h.html", [
       [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection" ]
     ] ],
     [ "SocketConnector.h", "tls_2_socket_connector_8h.html", [
@@ -27,5 +27,9 @@ var dir_b54354194172df550fb2bdb507d33122 =
     [ "TLSHandshake.cpp", "_t_l_s_handshake_8cpp.html", "_t_l_s_handshake_8cpp" ],
     [ "TLSHandshake.h", "_t_l_s_handshake_8h.html", [
       [ "TLSHandshake", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake" ]
+    ] ],
+    [ "TLSShutdown.cpp", "_t_l_s_shutdown_8cpp.html", "_t_l_s_shutdown_8cpp" ],
+    [ "TLSShutdown.h", "_t_l_s_shutdown_8h.html", [
+      [ "TLSShutdown", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown" ]
     ] ]
 ];

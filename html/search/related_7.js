@@ -1,10 +1,6 @@
 var searchData=
 [
-  ['snodec_2097',['SNodeC',['../classcore_1_1_event_loop.html#ab84101a4341e7fdedf48702c35067cd4',1,'core::EventLoop']]],
-  ['socketacceptor_2098',['SocketAcceptor',['../classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#ac3cadcb90bede3b8b4ff8e8d2b53ec29',1,'core::socket::stream::legacy::SocketConnection::SocketAcceptor()'],['../classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#ac3cadcb90bede3b8b4ff8e8d2b53ec29',1,'core::socket::stream::tls::SocketConnection::SocketAcceptor()']]],
-  ['socketconnectiont_2099',['SocketConnectionT',['../classcore_1_1socket_1_1stream_1_1_socket_context.html#a0aa8bef3fb8d04b78c8bf114c60b2039',1,'core::socket::stream::SocketContext']]],
-  ['socketconnector_2100',['SocketConnector',['../classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a93358fd8285cbad5c49755553f9c5c49',1,'core::socket::stream::legacy::SocketConnection::SocketConnector()'],['../classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a93358fd8285cbad5c49755553f9c5c49',1,'core::socket::stream::tls::SocketConnection::SocketConnector()']]],
-  ['socketcontext_2101',['SocketContext',['../classweb_1_1http_1_1client_1_1_request.html#aa3d4727b864f12bef775c2184047d68a',1,'web::http::client::Request::SocketContext()'],['../classweb_1_1http_1_1client_1_1_response.html#aa3d4727b864f12bef775c2184047d68a',1,'web::http::client::Response::SocketContext()'],['../classweb_1_1http_1_1server_1_1_request.html#aa3d4727b864f12bef775c2184047d68a',1,'web::http::server::Request::SocketContext()'],['../classweb_1_1http_1_1server_1_1_response.html#aa3d4727b864f12bef775c2184047d68a',1,'web::http::server::Response::SocketContext()']]],
-  ['staticmiddleware_2102',['StaticMiddleware',['../classexpress_1_1middleware_1_1_static_middleware.html#a920364dc3456ca37fc1c6c5d458323ed',1,'express::middleware::StaticMiddleware']]],
-  ['subprotocolfactory_2103',['SubProtocolFactory',['../classweb_1_1websocket_1_1_sub_protocol.html#aefee8c0f9120074005917b3d02a4e000',1,'web::websocket::SubProtocol']]]
+  ['route_2224',['Route',['../classexpress_1_1_dispatcher.html#a82eb8d8152124f42f8bad8770270f4fc',1,'express::Dispatcher']]],
+  ['router_2225',['Router',['../classexpress_1_1_router_dispatcher.html#ad1fd3424328f664cd049fe429e0e3dc6',1,'express::RouterDispatcher']]],
+  ['routerdispatcher_2226',['RouterDispatcher',['../classexpress_1_1_state.html#a116f7a327ec0ec41f95f26ae6b391bbf',1,'express::State']]]
 ];

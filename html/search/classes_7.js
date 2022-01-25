@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jsonmiddleware_1056',['JsonMiddleware',['../classexpress_1_1middleware_1_1_json_middleware.html',1,'express::middleware']]]
+  ['intervaltimer_1124',['IntervalTimer',['../classcore_1_1timer_1_1_interval_timer.html',1,'core::timer']]]
 ];

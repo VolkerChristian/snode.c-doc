@@ -1,7 +1,10 @@
 var namespacecore =
 [
+    [ "epoll", "namespacecore_1_1epoll.html", "namespacecore_1_1epoll" ],
     [ "file", "namespacecore_1_1file.html", "namespacecore_1_1file" ],
     [ "pipe", "namespacecore_1_1pipe.html", "namespacecore_1_1pipe" ],
+    [ "poll", "namespacecore_1_1poll.html", "namespacecore_1_1poll" ],
+    [ "select", "namespacecore_1_1select.html", "namespacecore_1_1select" ],
     [ "socket", "namespacecore_1_1socket.html", "namespacecore_1_1socket" ],
     [ "ssl", "namespacecore_1_1ssl.html", [
       [ "SSL_read", "namespacecore_1_1ssl.html#a7a7db589912354e9adb47a18b8c5433f", null ],
@@ -16,6 +19,9 @@ var namespacecore =
       [ "dlerror", "namespacecore_1_1system.html#a0778aa080f796964218bcd02804a2b17", null ],
       [ "dlopen", "namespacecore_1_1system.html#a87ab6f4aac806776e472cc3abeb61447", null ],
       [ "dlsym", "namespacecore_1_1system.html#a83d3862b9812ad39b93753bbea40238b", null ],
+      [ "epoll_create1", "namespacecore_1_1system.html#a09b439f42917e350a4c7124993e05723", null ],
+      [ "epoll_ctl", "namespacecore_1_1system.html#a6452ec3ca95af0cb07911423312187a9", null ],
+      [ "epoll_wait", "namespacecore_1_1system.html#aca4c1cc239b442807ff249c33aa23388", null ],
       [ "freeaddrinfo", "namespacecore_1_1system.html#a6aae4d2a37b9b40e65b3f7e28a21382c", null ],
       [ "getaddrinfo", "namespacecore_1_1system.html#a86e636682d33db526f7502ab0e6ff57c", null ],
       [ "getnameinfo", "namespacecore_1_1system.html#a2347537ad9f92683e13fc44676f9b9c3", null ],
@@ -28,6 +34,7 @@ var namespacecore =
       [ "mktime", "namespacecore_1_1system.html#abee02a380a0d0d794777708f5f8970f9", null ],
       [ "open", "namespacecore_1_1system.html#af932d59deb1d46aca925c487cebf0ab5", null ],
       [ "pipe2", "namespacecore_1_1system.html#aed100e752a00ffbde81be386936053ca", null ],
+      [ "poll", "namespacecore_1_1system.html#ab33bc3708f662ee03fc101d59ebbea94", null ],
       [ "read", "namespacecore_1_1system.html#a38a2ef544196b684eb5850c42e8ee770", null ],
       [ "recv", "namespacecore_1_1system.html#a37ca251adecc564c59a9420200b20a9f", null ],
       [ "select", "namespacecore_1_1system.html#aeab6bc4edb67dd3ee9c589269dd2bf0b", null ],
@@ -43,10 +50,11 @@ var namespacecore =
     [ "AcceptEventReceiver", "classcore_1_1_accept_event_receiver.html", "classcore_1_1_accept_event_receiver" ],
     [ "ConnectEventReceiver", "classcore_1_1_connect_event_receiver.html", "classcore_1_1_connect_event_receiver" ],
     [ "Descriptor", "classcore_1_1_descriptor.html", "classcore_1_1_descriptor" ],
+    [ "DescriptorEventDispatcher", "classcore_1_1_descriptor_event_dispatcher.html", "classcore_1_1_descriptor_event_dispatcher" ],
     [ "DynamicLoader", "classcore_1_1_dynamic_loader.html", "classcore_1_1_dynamic_loader" ],
     [ "EventDispatcher", "classcore_1_1_event_dispatcher.html", "classcore_1_1_event_dispatcher" ],
     [ "EventLoop", "classcore_1_1_event_loop.html", "classcore_1_1_event_loop" ],
-    [ "ObservationCounter", "classcore_1_1_observation_counter.html", "classcore_1_1_observation_counter" ],
+    [ "Observer", "classcore_1_1_observer.html", "classcore_1_1_observer" ],
     [ "EventReceiver", "classcore_1_1_event_receiver.html", "classcore_1_1_event_receiver" ],
     [ "ExceptionalConditionEventReceiver", "classcore_1_1_exceptional_condition_event_receiver.html", "classcore_1_1_exceptional_condition_event_receiver" ],
     [ "ReadEventReceiver", "classcore_1_1_read_event_receiver.html", "classcore_1_1_read_event_receiver" ],
@@ -57,7 +65,7 @@ var namespacecore =
     [ "TickStatus", "namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749", [
       [ "SUCCESS", "namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c", null ],
       [ "NO_OBSERVER", "namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749a925ec21267dbd278be63adfb4a34bf98", null ],
-      [ "SELECT_ERROR", "namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749a7560ded3a6c00d4c13387067d99c6fb0", null ]
+      [ "ERROR", "namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749abb1ca97ec761fc37101737ba0aa2e7c5", null ]
     ] ],
     [ "getTickCounterAsString", "namespacecore.html#ac82d0e7a5fcc66169eb61cb7dd27b814", null ],
     [ "operator&", "namespacecore.html#ac0cf9a3274cc3cfb03f02dd7d039e26a", null ],

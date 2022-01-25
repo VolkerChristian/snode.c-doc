@@ -6,7 +6,7 @@ var dir_490bc242d87f3ecd276dcf8d39b4fe54 =
     [ "SocketClient.h", "core_2socket_2stream_2legacy_2_socket_client_8h.html", [
       [ "SocketClient", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_client.html", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_client" ]
     ] ],
-    [ "SocketConnection.h", "legacy_2_socket_connection_8h.html", [
+    [ "SocketConnection.h", "stream_2legacy_2_socket_connection_8h.html", [
       [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection" ]
     ] ],
     [ "SocketConnector.h", "legacy_2_socket_connector_8h.html", [

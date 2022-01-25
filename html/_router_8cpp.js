@@ -13,6 +13,6 @@ var _router_8cpp =
     [ "matchResult", "_router_8cpp.html#aa2975f01c114a7a5f352e66c90b17966", null ],
     [ "path_concat", "_router_8cpp.html#aa4ccc7c8a315c18d4ef767bf43640264", null ],
     [ "path_concat", "_router_8cpp.html#a8939ba82ab85b3acc2b653682ae5d386", null ],
-    [ "setParams", "_router_8cpp.html#a42db573d15d12fb0f7caf164fbaac1b9", null ],
-    [ "pathregex", "_router_8cpp.html#a46fd94f67e7eb9bbf3cdfdd3b263d940", null ]
+    [ "pathRegex", "_router_8cpp.html#a2af3b4451707194c8a3904b8878aa918", null ],
+    [ "setParams", "_router_8cpp.html#a42db573d15d12fb0f7caf164fbaac1b9", null ]
 ];

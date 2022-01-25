@@ -84,9 +84,6 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 &#160;
 
 <h3><a id="index_r"></a>- r -</h3><ul>
-<li>readEventDispatcher
-: <a class="el" href="classcore_1_1_event_loop.html#abb755a76f2e3de38e77620df376caddc">core::EventLoop</a>
-</li>
 <li>ready
 : <a class="el" href="structweb_1_1http_1_1server_1_1_socket_context_1_1_request_context.html#ae767ab27928bd2a19e9d8780909d35ec">web::http::server::SocketContext&lt; RequestT, ResponseT &gt;::RequestContext</a>
 </li>
@@ -101,7 +98,10 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 , <a class="el" href="classweb_1_1websocket_1_1_sub_protocol_factory.html#aaed4b8ca0e0755f973109cfd86e8c815">web::websocket::SubProtocolFactory&lt; SubProtocolT &gt;</a>
 </li>
 <li>registered
-: <a class="el" href="classcore_1_1_event_dispatcher_1_1_fd_set.html#ac8d6800ea973894d77b308411a63b197">core::EventDispatcher::FdSet</a>
+: <a class="el" href="classcore_1_1select_1_1_fd_set.html#aef113b2edbb1acaed35e0cb8a0afb7a6">core::select::FdSet</a>
+</li>
+<li>registeredFd
+: <a class="el" href="classcore_1_1_event_receiver.html#a1ce41ac13f1fd772ad05d1cedcc7bb1b">core::EventReceiver</a>
 </li>
 <li>registeredForDlClose
 : <a class="el" href="classcore_1_1_dynamic_loader.html#a90cba68c54ff0c6029b3b263d6c43aa9">core::DynamicLoader</a>
@@ -110,10 +110,10 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 : <a class="el" href="structexpress_1_1_mount_point.html#aed029c8a9eaefcf7878ce5c9d882dd1a">express::MountPoint</a>
 </li>
 <li>remoteAddress
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#abb0ee99f20818e923ce504bd6a4741d8">core::socket::stream::SocketConnectionT&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#af1038ff389aaae6fbf864449598d57bc">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>
 </li>
 <li>removedList
-: <a class="el" href="classcore_1_1_timer_event_dispatcher.html#a2111fd3d7095dd3a403a6bea774d0486">core::TimerEventDispatcher</a>
+: <a class="el" href="classcore_1_1_timer_event_dispatcher.html#a4f0e028fcdc4ba9bee78d410e904cce1">core::TimerEventDispatcher</a>
 </li>
 <li>request
 : <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context.html#aa82e1f3f3d41b612ed0e897ae0e66e63">web::http::client::SocketContext&lt; RequestT, ResponseT &gt;</a>
@@ -134,8 +134,11 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 <li>responseStatus
 : <a class="el" href="classweb_1_1http_1_1server_1_1_response.html#adff0a4f1e7e67fa647d7e726e74f0966">web::http::server::Response</a>
 </li>
+<li>revents
+: <a class="el" href="classcore_1_1poll_1_1_descriptor_event_dispatcher.html#a54b7b82eb73cdfbda6e2622e6a275d4b">core::poll::DescriptorEventDispatcher</a>
+</li>
 <li>role
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#ac709bc1c089ff13bc57aa666636363fa">core::socket::stream::SocketContext</a>
+: <a class="el" href="classcore_1_1socket_1_1_socket_context.html#a82a3294838f74e436cd773174474ae9b">core::socket::SocketContext</a>
 </li>
 <li>root
 : <a class="el" href="classexpress_1_1middleware_1_1_static_middleware.html#a4c1b12467fbff98a6aeecb56774a779e">express::middleware::StaticMiddleware</a>

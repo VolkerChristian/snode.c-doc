@@ -1,7 +1,9 @@
 var namespaceweb_1_1http =
 [
     [ "client", "namespaceweb_1_1http_1_1client.html", "namespaceweb_1_1http_1_1client" ],
+    [ "legacy", "namespaceweb_1_1http_1_1legacy.html", "namespaceweb_1_1http_1_1legacy" ],
     [ "server", "namespaceweb_1_1http_1_1server.html", "namespaceweb_1_1http_1_1server" ],
+    [ "tls", "namespaceweb_1_1http_1_1tls.html", "namespaceweb_1_1http_1_1tls" ],
     [ "CookieOptions", "classweb_1_1http_1_1_cookie_options.html", "classweb_1_1http_1_1_cookie_options" ],
     [ "MimeTypes", "classweb_1_1http_1_1_mime_types.html", "classweb_1_1http_1_1_mime_types" ],
     [ "Parser", "classweb_1_1http_1_1_parser.html", "classweb_1_1http_1_1_parser" ],

@@ -84,16 +84,21 @@ $(document).ready(function(){initNavTree('functions_func_o.html',''); initResiza
 &#160;
 
 <h3><a id="index_o"></a>- o -</h3><ul>
+<li>observed()
+: <a class="el" href="classcore_1_1_observer.html#aeff595f74f25efea85406cf700e13550">core::Observer</a>
+</li>
 <li>observeEnabledEvents()
-: <a class="el" href="classcore_1_1_event_dispatcher.html#a13439e4914513771e7573f05a41d2702">core::EventDispatcher</a>
+: <a class="el" href="classcore_1_1_descriptor_event_dispatcher.html#a9b47a9ac59dc1a7ceeb1ed1164406826">core::DescriptorEventDispatcher</a>
+, <a class="el" href="classcore_1_1_event_dispatcher.html#a72c47a2528ac429eaf731bafb10035e6">core::EventDispatcher</a>
 </li>
 <li>onConnect()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#a40215ae603ad85862d117677d1a01565">core::socket::stream::SocketClient&lt; ClientSocketT, SocketConnectorT, SocketContextFactoryT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#ae95216aa805b0c9db2fece0f8a813543">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#a3fe0583738f7dd6fe0e1695c4f2d7b2b">core::socket::stream::SocketClient&lt; ClientSocketT, SocketConnectorT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a170050f20d519f360c88d85531330823">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
 </li>
 <li>onConnected()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#aca84102a82ef2d9ddebbe95735c19034">core::socket::stream::SocketClient&lt; ClientSocketT, SocketConnectorT, SocketContextFactoryT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#aad89173df130030c54a3233943fed49b">core::socket::stream::SocketContext</a>
+: <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a403ae6aa6530edad0c270fab846fd887">core::socket::SocketConnection</a>
+, <a class="el" href="classcore_1_1socket_1_1_socket_context.html#aef2e5a39254978011838469eda21deb1">core::socket::SocketContext</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#aca84102a82ef2d9ddebbe95735c19034">core::socket::stream::SocketClient&lt; ClientSocketT, SocketConnectorT, SocketContextFactoryT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#acb47bcf315734f20f8829151a69d185e">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context.html#a2d2767b83a2f70bdf255dcbd25370e4f">web::http::client::SocketContext&lt; RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1server_1_1_socket_context.html#adc42d86d382dd2b0f012f3d9fa0c2af0">web::http::server::SocketContext&lt; RequestT, ResponseT &gt;</a>
@@ -107,7 +112,8 @@ $(document).ready(function(){initNavTree('functions_func_o.html',''); initResiza
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a0848bd6c8553ffc083dcd558a5c81a1f">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
 </li>
 <li>onDisconnected()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#a151f322e1891bae4f25340f42a0cc18d">core::socket::stream::SocketContext</a>
+: <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#ae97de1bf267dd824d37005f6dbe251cc">core::socket::SocketConnection</a>
+, <a class="el" href="classcore_1_1socket_1_1_socket_context.html#a0ba2685c1e091d7bda717f8ff7cf622e">core::socket::SocketContext</a>
 , <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context.html#a037c7b111be8ba3955c051092fbe7fec">web::http::client::SocketContext&lt; RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1server_1_1_socket_context.html#a0aa077c4729e844ac80765c99a09cc37">web::http::server::SocketContext&lt; RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1websocket_1_1client_1_1_sub_protocol.html#a0a53dd4b0d06070eb8f36739df050747">web::websocket::client::SubProtocol</a>
@@ -149,22 +155,20 @@ $(document).ready(function(){initNavTree('functions_func_o.html',''); initResiza
 , <a class="el" href="classweb_1_1websocket_1_1_sub_protocol.html#a7f43665ffc9d3843769c04fbb12ed805">web::websocket::SubProtocol&lt; SocketContextUpgradeT &gt;</a>
 </li>
 <li>onReadError()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#ab56ba6b8741388fbd197c036579d9803">core::socket::stream::SocketContext</a>
-, <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context.html#adf2fc5251cb36c3470f695e1f369dd68">web::http::client::SocketContext&lt; RequestT, ResponseT &gt;</a>
-, <a class="el" href="classweb_1_1http_1_1server_1_1_socket_context.html#a7c9039c1c0f727e7c4cd5a1c5d8074da">web::http::server::SocketContext&lt; RequestT, ResponseT &gt;</a>
-, <a class="el" href="classweb_1_1websocket_1_1_socket_context_upgrade.html#a491c6c7bbea079b1c1da6be5ed4292e5">web::websocket::SocketContextUpgrade&lt; SubProtocolT, RequestT, ResponseT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a8f2493a8555efd53e04abb68190fd59c">core::socket::SocketConnection</a>
+, <a class="el" href="classcore_1_1socket_1_1_socket_context.html#a0aaa6a1f014819bf83b3cdecf2c8462b">core::socket::SocketContext</a>
 </li>
 <li>onReceiveFromPeer()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#a5be44680cfaefea2edbb295e44fa4a8c">core::socket::stream::SocketContext</a>
+: <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#ab2bc0a1e7f08d2569b2c31a3b0e9cef7">core::socket::SocketConnection</a>
+, <a class="el" href="classcore_1_1socket_1_1_socket_context.html#ae4fc1cc6605369ed793147b853cd708a">core::socket::SocketContext</a>
 , <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context.html#a387a81ac9ad2bde23b85982a6b4a187f">web::http::client::SocketContext&lt; RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1server_1_1_socket_context.html#aa2478019ab1e7fa54fb195e5dc0ed6a5">web::http::server::SocketContext&lt; RequestT, ResponseT &gt;</a>
+, <a class="el" href="classweb_1_1http_1_1_socket_context.html#abef4465ac97c1368df030847e22b1101">web::http::SocketContext</a>
 , <a class="el" href="classweb_1_1websocket_1_1_socket_context_upgrade.html#a9da05e08b04d141e579c814b2c048d94">web::websocket::SocketContextUpgrade&lt; SubProtocolT, RequestT, ResponseT &gt;</a>
 </li>
 <li>onWriteError()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html#a9fdcb77c81bdd9239a9659adbd4ae356">core::socket::stream::SocketContext</a>
-, <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context.html#a1b16521cd5fd0a5f4d3bf73ce3a5e4f8">web::http::client::SocketContext&lt; RequestT, ResponseT &gt;</a>
-, <a class="el" href="classweb_1_1http_1_1server_1_1_socket_context.html#a859ead776d95f0ca737239315288699e">web::http::server::SocketContext&lt; RequestT, ResponseT &gt;</a>
-, <a class="el" href="classweb_1_1websocket_1_1_socket_context_upgrade.html#ada14cd7dbb5cfd11a5e307990362d305">web::websocket::SocketContextUpgrade&lt; SubProtocolT, RequestT, ResponseT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#adb86c58115ad8c2c1283f6b0b44899bd">core::socket::SocketConnection</a>
+, <a class="el" href="classcore_1_1socket_1_1_socket_context.html#af4c23c0cae547056b9c37a87f9a47f3b">core::socket::SocketContext</a>
 </li>
 <li>open()
 : <a class="el" href="classcore_1_1socket_1_1_socket.html#a3a3224933a53212310bb8a39bc9628d7">core::socket::Socket&lt; SocketAddressT &gt;</a>
@@ -172,9 +176,11 @@ $(document).ready(function(){initNavTree('functions_func_o.html',''); initResiza
 <li>operator new()
 : <a class="el" href="classcore_1_1_s_node_c.html#a58d5942276e694a0a30039998fa1dcc4">core::SNodeC</a>
 </li>
-<li>operator struct timeval()
-: <a class="el" href="classcore_1_1timer_1_1_timer.html#a31cacad3b2d3e672f170b1d2f4a0b6c5">core::timer::Timer</a>
-, <a class="el" href="classcore_1_1_timer_event_receiver.html#acdf8a4cb855142056d0cb133d9fcf4a1">core::TimerEventReceiver</a>
+<li>operator!=()
+: <a class="el" href="classutils_1_1_timeval.html#a72795dc49a378b6e82a392562272eee3">utils::Timeval</a>
+</li>
+<li>operator&amp;()
+: <a class="el" href="classutils_1_1_timeval.html#a4a554848a362fa40feef1c3f93c0c2e5">utils::Timeval</a>
 </li>
 <li>operator()()
 : <a class="el" href="classcore_1_1_timer_event_dispatcher_1_1timernode__lt.html#a90ec8d7d76eb7c6025902debf256ecaa">core::TimerEventDispatcher::timernode_lt</a>
@@ -183,26 +189,52 @@ $(document).ready(function(){initNavTree('functions_func_o.html',''); initResiza
 <li>operator*()
 : <a class="el" href="classutils_1_1_attribute_proxy.html#ac110f2a9647094870e6a916154c2a02d">utils::AttributeProxy&lt; Attribute &gt;</a>
 </li>
+<li>operator+()
+: <a class="el" href="classutils_1_1_timeval.html#ab2603e981dfbf12b15cbcfe4be2780a2">utils::Timeval</a>
+</li>
+<li>operator+=()
+: <a class="el" href="classutils_1_1_timeval.html#a9a7d30a6e6c5f2ef0e01808daabb4764">utils::Timeval</a>
+</li>
+<li>operator-()
+: <a class="el" href="classutils_1_1_timeval.html#a4f981cd57890638a323ca4de800b7f35">utils::Timeval</a>
+</li>
+<li>operator-=()
+: <a class="el" href="classutils_1_1_timeval.html#aa2576ab14928d6f71ab1e064c1f95848">utils::Timeval</a>
+</li>
+<li>operator&lt;()
+: <a class="el" href="classutils_1_1_timeval.html#a11e78b5aeeb6526856905939d9642815">utils::Timeval</a>
+</li>
+<li>operator&lt;=()
+: <a class="el" href="classutils_1_1_timeval.html#a5c6ca8cc12ddd867f878aa88a97be72b">utils::Timeval</a>
+</li>
 <li>operator=()
 : <a class="el" href="classcore_1_1_descriptor.html#a1cd77955a89febc35fd36a9ef66bb92c">core::Descriptor</a>
+, <a class="el" href="classcore_1_1_descriptor_event_dispatcher.html#a94640dc3a474105014b02c69b10577f1">core::DescriptorEventDispatcher</a>
+, <a class="el" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher.html#aebf7f39ca0b6f1af62c577924e858d53">core::epoll::DescriptorEventDispatcher</a>
+, <a class="el" href="classcore_1_1epoll_1_1_event_dispatcher.html#a7a5180228f7c281eba3f2982740286ac">core::epoll::EventDispatcher</a>
 , <a class="el" href="classcore_1_1_event_dispatcher.html#aec3bf96a7dcb8be5546d226e891bb90f">core::EventDispatcher</a>
 , <a class="el" href="classcore_1_1_event_loop.html#ac14614733829a570977f4943ccca0e45">core::EventLoop</a>
 , <a class="el" href="classcore_1_1_event_receiver.html#a4d2a25e7ac9be876a7a8b8da1dc67fed">core::EventReceiver</a>
 , <a class="el" href="classcore_1_1pipe_1_1_pipe.html#ad01a1b3259efcbf9880df3c7d8aa3408">core::pipe::Pipe</a>
 , <a class="el" href="classcore_1_1pipe_1_1_pipe_sink.html#a3919e3c65c72ba43d21ac37adb3f786c">core::pipe::PipeSink</a>
 , <a class="el" href="classcore_1_1pipe_1_1_pipe_source.html#a8db4ee493a6caf349dcb84b6fd72793f">core::pipe::PipeSource</a>
+, <a class="el" href="classcore_1_1poll_1_1_descriptor_event_dispatcher.html#a4495fd81a2751922354b4b6776c7a971">core::poll::DescriptorEventDispatcher</a>
+, <a class="el" href="classcore_1_1poll_1_1_event_dispatcher.html#a538334f3ae8a0afcf1322aad4b6f9ebe">core::poll::EventDispatcher</a>
+, <a class="el" href="classcore_1_1select_1_1_descriptor_event_dispatcher.html#a9cb2b3a7f7592e32c59193e005aa5aac">core::select::DescriptorEventDispatcher</a>
+, <a class="el" href="classcore_1_1select_1_1_event_dispatcher.html#a12fb2e6364c4c775c2c93a898ccb416b">core::select::EventDispatcher</a>
 , <a class="el" href="classcore_1_1socket_1_1_socket.html#a7d106d5c96749efbfef8f478a1e2d706">core::socket::Socket&lt; SocketAddressT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1_socket_address.html#a2880ae2a7ae63580ee815057be7aa76c">core::socket::SocketAddress&lt; SockAddrT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a01164b1b5ace34eb7d57737ac07237dd">core::socket::SocketConnection</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#a368c56d3618190862217bdda13c562ed">core::socket::stream::SocketAcceptor&lt; SocketConnectionT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a12504e978e3305a15a17ce1d1a6a0b4a">core::socket::stream::SocketConnection</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a13c9ef45cea7f1e5eeeae4b5407374e0">core::socket::stream::SocketConnector&lt; SocketConnectionT &gt;</a>
 , <a class="el" href="classcore_1_1timer_1_1_interval_timer.html#a6e23bcb916f2131cbf28de4364285864">core::timer::IntervalTimer</a>
 , <a class="el" href="classcore_1_1timer_1_1_singleshot_timer.html#ac044e0e488432cde4f6311c580adf11e">core::timer::SingleshotTimer</a>
-, <a class="el" href="classcore_1_1timer_1_1_timer.html#a9d7a5c44f33b438bf9a1b5caf17d573d">core::timer::Timer</a>
+, <a class="el" href="classcore_1_1_timer_event_receiver.html#a5705832c6e83afdabb18b5f5e40a1b2c">core::TimerEventReceiver</a>
 , <a class="el" href="classexpress_1_1_dispatcher.html#ad8a0ae846e70c483c3041af51d12467e">express::Dispatcher</a>
 , <a class="el" href="classexpress_1_1middleware_1_1_json_middleware.html#a083d7f6cdd0597c809bff362e2a35023">express::middleware::JsonMiddleware</a>
 , <a class="el" href="classexpress_1_1middleware_1_1_static_middleware.html#affa81877ef800c2c23ce51dc8f5a854b">express::middleware::StaticMiddleware</a>
 , <a class="el" href="classexpress_1_1_router.html#a044d5ca46a162498b2ec93aab0ffd6d4">express::Router</a>
+, <a class="el" href="classutils_1_1_timeval.html#ac5696b678505b8fb9ee27540ab1802ca">utils::Timeval</a>
 , <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context_factory.html#a2557bc72d5693a0590c6e6e32b4e4863">web::http::client::SocketContextFactory&lt; RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1_mime_types.html#a300659ad74ceffe1f21b888b036c7aa9">web::http::MimeTypes</a>
 , <a class="el" href="classweb_1_1http_1_1server_1_1_request_parser.html#ab6d58ddc6653381f45096c474b1ddb03">web::http::server::RequestParser</a>
@@ -210,16 +242,24 @@ $(document).ready(function(){initNavTree('functions_func_o.html',''); initResiza
 , <a class="el" href="classweb_1_1http_1_1_socket_context.html#a2b1f2acc04a0004b18bc1f5674bc9929">web::http::SocketContext</a>
 , <a class="el" href="classweb_1_1http_1_1_socket_context_factory.html#a5db835e624fefa9dcfa016867795a417">web::http::SocketContextFactory&lt; SocketContextT, RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1websocket_1_1client_1_1_socket_context_upgrade_factory.html#a1281cb4e20de8a34f3cc8ce0decdf064">web::websocket::client::SocketContextUpgradeFactory</a>
-, <a class="el" href="classweb_1_1websocket_1_1client_1_1_sub_protocol.html#a47be60b205d8c3f2c60a83426cbfbdbe">web::websocket::client::SubProtocol</a>
 , <a class="el" href="classweb_1_1websocket_1_1client_1_1_sub_protocol_factory_selector.html#aac11d2c66e801cb19fe56fc1faa81e93">web::websocket::client::SubProtocolFactorySelector</a>
 , <a class="el" href="classweb_1_1websocket_1_1_receiver.html#a054170bebaf0ce29ade358a2fddbd09a">web::websocket::Receiver</a>
-, <a class="el" href="classweb_1_1websocket_1_1server_1_1_channel_manager.html#ae5fb7fbbc040b2d9ccb4bf4b7be5e638">web::websocket::server::ChannelManager</a>
+, <a class="el" href="classweb_1_1websocket_1_1server_1_1_groups_manager.html#a5db7f860afce4fc93ffc2d37bb07c5d7">web::websocket::server::GroupsManager</a>
 , <a class="el" href="classweb_1_1websocket_1_1server_1_1_socket_context_upgrade_factory.html#afe0b8cd49d9e649c8c056faab5d7ac6a">web::websocket::server::SocketContextUpgradeFactory</a>
 , <a class="el" href="classweb_1_1websocket_1_1server_1_1_sub_protocol_factory_selector.html#a935c1d73ec63fa9b37f1d89c5f069129">web::websocket::server::SubProtocolFactorySelector</a>
 , <a class="el" href="classweb_1_1websocket_1_1_socket_context_upgrade.html#acaf13c96daa96f9ecc0a67297fa0a834">web::websocket::SocketContextUpgrade&lt; SubProtocolT, RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1websocket_1_1_sub_protocol.html#ad1e0df447fbf068fbd3023fca9a3586e">web::websocket::SubProtocol&lt; SocketContextUpgradeT &gt;</a>
 , <a class="el" href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#a9814020819e199a8f009d4f68f8b7ff3">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;</a>
 , <a class="el" href="classweb_1_1websocket_1_1_transmitter.html#ab7d02db81643f44bb67c9b2c4dc0d92a">web::websocket::Transmitter</a>
+</li>
+<li>operator==()
+: <a class="el" href="classutils_1_1_timeval.html#a9c49ffd69cd0e5ea799fecafa2af798d">utils::Timeval</a>
+</li>
+<li>operator&gt;()
+: <a class="el" href="classutils_1_1_timeval.html#a0a9d21f05cc48b208a95d269305fb7ec">utils::Timeval</a>
+</li>
+<li>operator&gt;=()
+: <a class="el" href="classutils_1_1_timeval.html#ad2c64952dc08b9e5be444b0ba8779146">utils::Timeval</a>
 </li>
 <li>options()
 : <a class="el" href="classexpress_1_1_router.html#a6a02a5c7aa05ff68497edd322a8fd092">express::Router</a>

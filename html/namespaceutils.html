@@ -83,6 +83,7 @@ $(document).ready(function(){initNavTree('namespaceutils.html',''); initResizabl
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">utils Namespace Reference</div>  </div>
@@ -97,6 +98,13 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutils_1_1_multible_attribute_injector.html">MultibleAttributeInjector</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutils_1_1_timeval.html">Timeval</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a0679f0fd4ed380b4fa655db8bffc372f"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceutils.html#a0679f0fd4ed380b4fa655db8bffc372f">operator&lt;&lt;</a> (std::ostream &amp;ostream, const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;timeVal)</td></tr>
+<tr class="separator:a0679f0fd4ed380b4fa655db8bffc372f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -104,6 +112,41 @@ Variables</h2></td></tr>
 <tr class="memitem:a1aa98fb56232df448d1c6fbc664f7a40"><td class="memTemplItemLeft" align="right" valign="top">concept&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceutils.html#a1aa98fb56232df448d1c6fbc664f7a40">InjectableAttribute</a> = std::copy_constructible&lt;Attribute&gt; and std::default_initializable&lt;Attribute&gt; and std::copyable&lt;Attribute&gt;</td></tr>
 <tr class="separator:a1aa98fb56232df448d1c6fbc664f7a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a0679f0fd4ed380b4fa655db8bffc372f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0679f0fd4ed380b4fa655db8bffc372f">&#9670;&nbsp;</a></span>operator&lt;&lt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; utils::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>ostream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;&#160;</td>
+          <td class="paramname"><em>timeVal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_timeval_8cpp_source.html#l00189">189</a> of file <a class="el" href="_timeval_8cpp_source.html">Timeval.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                                                                             {</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">return</span> ostream &lt;&lt; <span class="stringliteral">&quot;{&quot;</span> + std::to_string(timeVal.<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec) + <span class="stringliteral">&quot;:&quot;</span> + std::to_string(timeVal.<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec) + <span class="stringliteral">&quot;}&quot;</span>;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
+<div class="ttc" id="aclassutils_1_1_timeval_html_a553ae25c0399d9e68393779f41de83d2"><div class="ttname"><a href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">utils::Timeval::timeVal</a></div><div class="ttdeci">timeval timeVal</div><div class="ttdef"><b>Definition:</b> <a href="_timeval_8h_source.html#l00071">Timeval.h:71</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="a1aa98fb56232df448d1c6fbc664f7a40"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1aa98fb56232df448d1c6fbc664f7a40">&#9670;&nbsp;</a></span>InjectableAttribute</h2>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jsonmiddleware_2090',['JsonMiddleware',['../classexpress_1_1middleware_1_1_json_middleware.html#aa21e61839acf47a03ac9aec271a7d5cb',1,'express::middleware::JsonMiddleware']]]
+  ['groupsmanager_2218',['GroupsManager',['../classweb_1_1websocket_1_1client_1_1_sub_protocol.html#aadbab78432918f4d37d02641ae71cc9e',1,'web::websocket::client::SubProtocol::GroupsManager()'],['../classweb_1_1websocket_1_1server_1_1_sub_protocol.html#aadbab78432918f4d37d02641ae71cc9e',1,'web::websocket::server::SubProtocol::GroupsManager()']]]
 ];

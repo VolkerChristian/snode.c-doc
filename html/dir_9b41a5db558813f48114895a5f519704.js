@@ -8,7 +8,6 @@ var dir_9b41a5db558813f48114895a5f519704 =
     ] ],
     [ "Timer.cpp", "_timer_8cpp.html", null ],
     [ "Timer.h", "_timer_8h.html", [
-      [ "Timer", "classcore_1_1timer_1_1_timer.html", "classcore_1_1timer_1_1_timer" ],
-      [ "absoluteTimeout", "structcore_1_1timer_1_1_timer_1_1absolute_timeout.html", null ]
+      [ "Timer", "classcore_1_1timer_1_1_timer.html", "classcore_1_1timer_1_1_timer" ]
     ] ]
 ];

@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('_receiver_8cpp_source.html',''); initR
 <div class="contents">
 <a href="_receiver_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * snode.c - a slim toolkit for network communication</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * Copyright (C) 2020, 2021 Volker Christian &lt;me@vchrist.at&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * Copyright (C) 2020, 2021, 2022 Volker Christian &lt;me@vchrist.at&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * This program is free software: you can redistribute it and/or modify</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * it under the terms of the GNU Lesser General Public License as published</span></div>
@@ -105,9 +105,9 @@ $(document).ready(function(){initNavTree('_receiver_8cpp_source.html',''); initR
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_receiver_8h.html">web/websocket/Receiver.h</a>&quot;</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_logger_8h.html">log/Logger.h</a>&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_logger_8h.html">log/Logger.h</a>&quot;</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;endian.h&gt;</span> <span class="comment">// for be16toh, be32toh, be64toh, htobe32</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;iomanip&gt;</span>  <span class="comment">// for operator&lt;&lt;, setfill, setw</span></div>
@@ -384,7 +384,7 @@ $(document).ready(function(){initNavTree('_receiver_8cpp_source.html',''); initR
 <div class="ttc" id="aclassweb_1_1websocket_1_1_receiver_html_af02eba03070948648f309034371f0f1e"><div class="ttname"><a href="classweb_1_1websocket_1_1_receiver.html#af02eba03070948648f309034371f0f1e">web::websocket::Receiver::payLoadNumBytesLeft</a></div><div class="ttdeci">uint64_t payLoadNumBytesLeft</div><div class="ttdef"><b>Definition:</b> <a href="_receiver_8h_source.html#l00081">Receiver.h:81</a></div></div>
 <div class="ttc" id="aclassweb_1_1websocket_1_1_receiver_html_af35b01abdb17550cd430cd66745363fe"><div class="ttname"><a href="classweb_1_1websocket_1_1_receiver.html#af35b01abdb17550cd430cd66745363fe">web::websocket::Receiver::payLoadNumBytes</a></div><div class="ttdeci">uint64_t payLoadNumBytes</div><div class="ttdef"><b>Definition:</b> <a href="_receiver_8h_source.html#l00080">Receiver.h:80</a></div></div>
 <div class="ttc" id="aclassweb_1_1websocket_1_1_receiver_html_af964a36d8a512b34fd986907d54ae651"><div class="ttname"><a href="classweb_1_1websocket_1_1_receiver.html#af964a36d8a512b34fd986907d54ae651">web::websocket::Receiver::reset</a></div><div class="ttdeci">void reset()</div><div class="ttdef"><b>Definition:</b> <a href="_receiver_8cpp_source.html#l00236">Receiver.cpp:236</a></div></div>
-<div class="ttc" id="anamespaceweb_1_1websocket_html"><div class="ttname"><a href="namespaceweb_1_1websocket.html">web::websocket</a></div><div class="ttdef"><b>Definition:</b> <a href="client_2_socket_context_upgrade_8cpp_source.html#l00032">SocketContextUpgrade.cpp:32</a></div></div>
+<div class="ttc" id="anamespaceweb_1_1websocket_html"><div class="ttname"><a href="namespaceweb_1_1websocket.html">web::websocket</a></div><div class="ttdef"><b>Definition:</b> <a href="client_2_socket_context_upgrade_8cpp_source.html#l00029">SocketContextUpgrade.cpp:29</a></div></div>
 <div class="ttc" id="aunionweb_1_1websocket_1_1_receiver_1_1_masking_key_html_a593c45413c67d95013bd7aa14231b795"><div class="ttname"><a href="unionweb_1_1websocket_1_1_receiver_1_1_masking_key.html#a593c45413c67d95013bd7aa14231b795">web::websocket::Receiver::MaskingKey::keyAsArray</a></div><div class="ttdeci">char keyAsArray[4]</div><div class="ttdef"><b>Definition:</b> <a href="_receiver_8h_source.html#l00048">Receiver.h:48</a></div></div>
 <div class="ttc" id="aunionweb_1_1websocket_1_1_receiver_1_1_masking_key_html_aa543130c25e2d8f11573e33be7cdf7e7"><div class="ttname"><a href="unionweb_1_1websocket_1_1_receiver_1_1_masking_key.html#aa543130c25e2d8f11573e33be7cdf7e7">web::websocket::Receiver::MaskingKey::key</a></div><div class="ttdeci">uint32_t key</div><div class="ttdef"><b>Definition:</b> <a href="_receiver_8h_source.html#l00047">Receiver.h:47</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

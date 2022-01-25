@@ -7,6 +7,7 @@ var classcore_1_1pipe_1_1_pipe_source =
     [ "send", "classcore_1_1pipe_1_1_pipe_source.html#afc3c43fb43ed99f9ca7d68e9fba9dc1b", null ],
     [ "send", "classcore_1_1pipe_1_1_pipe_source.html#a402476cf32128425a28224c8e91a4978", null ],
     [ "setOnError", "classcore_1_1pipe_1_1_pipe_source.html#ab33fd206f4f5ae55ff8626a16b28b9ea", null ],
+    [ "terminate", "classcore_1_1pipe_1_1_pipe_source.html#a09899dea9502ed69438d9fc298677c6a", null ],
     [ "unobservedEvent", "classcore_1_1pipe_1_1_pipe_source.html#ac18ce9342b3c7a828994155cb14ca15c", null ],
     [ "writeEvent", "classcore_1_1pipe_1_1_pipe_source.html#a7021ffb2c18daac613670c870fc43124", null ],
     [ "onError", "classcore_1_1pipe_1_1_pipe_source.html#a0340bdd362eb05edc36f610ec94bd738", null ],

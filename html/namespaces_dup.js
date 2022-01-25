@@ -7,7 +7,6 @@ var namespaces_dup =
       [ "serverWebSocketKey", "namespacebase64.html#a43968536c5e19d8c265e17d08fd91c3e", null ]
     ] ],
     [ "core", "namespacecore.html", "namespacecore" ],
-    [ "core ", "namespacecore_01.html", "namespacecore_01" ],
     [ "express", "namespaceexpress.html", "namespaceexpress" ],
     [ "httputils", "namespacehttputils.html", [
       [ "ci_comp", "namespacehttputils.html#a87e2c03071ddffa8a616ea13d641aafc", null ],

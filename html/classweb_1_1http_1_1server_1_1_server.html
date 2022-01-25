@@ -84,23 +84,24 @@ $(document).ready(function(){initNavTree('classweb_1_1http_1_1server_1_1_server.
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
 <a href="classweb_1_1http_1_1server_1_1_server-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">web::http::server::Server&lt; SocketServerT, RequestT, ResponseT &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_server_8h_source.html">Server.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="server_2_server_8h_source.html">Server.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for web::http::server::Server&lt; SocketServerT, RequestT, ResponseT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_server__inherit__graph.svg" width="1356" height="1058"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_server__inherit__graph.svg" width="1896" height="731"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for web::http::server::Server&lt; SocketServerT, RequestT, ResponseT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_server__coll__graph.svg" width="243" height="287"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_server__coll__graph.svg" width="266" height="287"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -110,26 +111,29 @@ Public Types</h2></td></tr>
 <tr class="separator:ab589e910e2b80eb0ee206789150f79a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb39ce4d6586c3ba85a3b3f691f7b028"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1server_1_1_server.html#aeb39ce4d6586c3ba85a3b3f691f7b028">Response</a> = ResponseT</td></tr>
 <tr class="separator:aeb39ce4d6586c3ba85a3b3f691f7b028"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae531a071b9ea6a0dfd5d613f99aa6ac8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1server_1_1_server.html#ae531a071b9ea6a0dfd5d613f99aa6ac8">SocketServer</a> = SocketServerT&lt; <a class="el" href="classweb_1_1http_1_1server_1_1_socket_context_factory.html">web::http::server::SocketContextFactory</a>&lt; <a class="el" href="classweb_1_1http_1_1server_1_1_server.html#ab589e910e2b80eb0ee206789150f79a7">Request</a>, <a class="el" href="classweb_1_1http_1_1server_1_1_server.html#aeb39ce4d6586c3ba85a3b3f691f7b028">Response</a> &gt; &gt;</td></tr>
-<tr class="separator:ae531a071b9ea6a0dfd5d613f99aa6ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9bcbc4777ab48bebb7ab4c83e61e457"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1server_1_1_server.html#af9bcbc4777ab48bebb7ab4c83e61e457">SocketConnection</a> = typename SocketServer::SocketConnection</td></tr>
-<tr class="separator:af9bcbc4777ab48bebb7ab4c83e61e457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51c5075da998eb8d42b1137111cddab2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a51c5075da998eb8d42b1137111cddab2">SocketConnection</a> = typename Super::SocketConnection</td></tr>
+<tr class="separator:a51c5075da998eb8d42b1137111cddab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07504eb1aea31fed264786c1b93afbcc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a07504eb1aea31fed264786c1b93afbcc">SocketAddress</a> = typename SocketConnection::SocketAddress</td></tr>
 <tr class="separator:a07504eb1aea31fed264786c1b93afbcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a32297a5ca3ff8a64dcacd7c6e34938d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a32297a5ca3ff8a64dcacd7c6e34938d2">Server</a> (const std::function&lt; void(const <a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a07504eb1aea31fed264786c1b93afbcc">SocketAddress</a> &amp;, const <a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a07504eb1aea31fed264786c1b93afbcc">SocketAddress</a> &amp;)&gt; &amp;onConnect, const std::function&lt; void(<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#af9bcbc4777ab48bebb7ab4c83e61e457">SocketConnection</a> *)&gt; &amp;onConnected, const std::function&lt; void(<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#ab589e910e2b80eb0ee206789150f79a7">Request</a> &amp;, <a class="el" href="classweb_1_1http_1_1server_1_1_server.html#aeb39ce4d6586c3ba85a3b3f691f7b028">Response</a> &amp;)&gt; &amp;onRequestReady, const std::function&lt; void(<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#af9bcbc4777ab48bebb7ab4c83e61e457">SocketConnection</a> *)&gt; &amp;onDisconnect, const std::map&lt; std::string, std::any &gt; &amp;options={{}})</td></tr>
-<tr class="separator:a32297a5ca3ff8a64dcacd7c6e34938d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97424acd674a9243117dba0152ea36da"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a97424acd674a9243117dba0152ea36da">Server</a> (const std::function&lt; void(<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a51c5075da998eb8d42b1137111cddab2">SocketConnection</a> *)&gt; &amp;onConnect, const std::function&lt; void(<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a51c5075da998eb8d42b1137111cddab2">SocketConnection</a> *)&gt; &amp;onConnected, const std::function&lt; void(<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#ab589e910e2b80eb0ee206789150f79a7">Request</a> &amp;, <a class="el" href="classweb_1_1http_1_1server_1_1_server.html#aeb39ce4d6586c3ba85a3b3f691f7b028">Response</a> &amp;)&gt; &amp;onRequestReady, const std::function&lt; void(<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a51c5075da998eb8d42b1137111cddab2">SocketConnection</a> *)&gt; &amp;onDisconnect, const std::map&lt; std::string, std::any &gt; &amp;options={{}})</td></tr>
+<tr class="separator:a97424acd674a9243117dba0152ea36da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6001a441205fd1747d9faf22f5df2bfa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a6001a441205fd1747d9faf22f5df2bfa">listen</a> (const <a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a07504eb1aea31fed264786c1b93afbcc">SocketAddress</a> &amp;socketAddress, const std::function&lt; void(int)&gt; &amp;onError)</td></tr>
 <tr class="separator:a6001a441205fd1747d9faf22f5df2bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a3b538b5ccd96d6d2acb7e2ee8394dfc3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a3b538b5ccd96d6d2acb7e2ee8394dfc3">Super</a> = SocketServerT&lt; <a class="el" href="classweb_1_1http_1_1server_1_1_socket_context_factory.html">web::http::server::SocketContextFactory</a>&lt; <a class="el" href="classweb_1_1http_1_1server_1_1_server.html#ab589e910e2b80eb0ee206789150f79a7">Request</a>, <a class="el" href="classweb_1_1http_1_1server_1_1_server.html#aeb39ce4d6586c3ba85a3b3f691f7b028">Response</a> &gt; &gt;</td></tr>
+<tr class="separator:a3b538b5ccd96d6d2acb7e2ee8394dfc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;template&lt; typename SocketContextFactoryT &gt; typename SocketServerT, typename RequestT, typename ResponseT&gt;<br />
 class web::http::server::Server&lt; SocketServerT, RequestT, ResponseT &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="_server_8h_source.html#l00038">38</a> of file <a class="el" href="_server_8h_source.html">Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="server_2_server_8h_source.html#l00038">38</a> of file <a class="el" href="server_2_server_8h_source.html">Server.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ab589e910e2b80eb0ee206789150f79a7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab589e910e2b80eb0ee206789150f79a7">&#9670;&nbsp;</a></span>Request</h2>
@@ -145,7 +149,7 @@ template&lt;template&lt; typename SocketContextFactoryT &gt; typename SocketServ
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_server_8h_source.html#l00040">40</a> of file <a class="el" href="_server_8h_source.html">Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="server_2_server_8h_source.html#l00040">40</a> of file <a class="el" href="server_2_server_8h_source.html">Server.h</a>.</p>
 
 </div>
 </div>
@@ -163,7 +167,7 @@ template&lt;template&lt; typename SocketContextFactoryT &gt; typename SocketServ
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_server_8h_source.html#l00041">41</a> of file <a class="el" href="_server_8h_source.html">Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="server_2_server_8h_source.html#l00041">41</a> of file <a class="el" href="server_2_server_8h_source.html">Server.h</a>.</p>
 
 </div>
 </div>
@@ -181,12 +185,12 @@ template&lt;template&lt; typename SocketContextFactoryT &gt; typename SocketServ
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_server_8h_source.html#l00044">44</a> of file <a class="el" href="_server_8h_source.html">Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="server_2_server_8h_source.html#l00048">48</a> of file <a class="el" href="server_2_server_8h_source.html">Server.h</a>.</p>
 
 </div>
 </div>
-<a id="af9bcbc4777ab48bebb7ab4c83e61e457"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9bcbc4777ab48bebb7ab4c83e61e457">&#9670;&nbsp;</a></span>SocketConnection</h2>
+<a id="a51c5075da998eb8d42b1137111cddab2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51c5075da998eb8d42b1137111cddab2">&#9670;&nbsp;</a></span>SocketConnection</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -194,36 +198,44 @@ template&lt;template&lt; typename SocketContextFactoryT &gt; typename SocketServ
 template&lt;template&lt; typename SocketContextFactoryT &gt; typename SocketServerT, typename RequestT , typename ResponseT &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classweb_1_1http_1_1server_1_1_server.html">web::http::server::Server</a>&lt; SocketServerT, RequestT, ResponseT &gt;::<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#af9bcbc4777ab48bebb7ab4c83e61e457">SocketConnection</a> =  typename SocketServer::SocketConnection</td>
+          <td class="memname">using <a class="el" href="classweb_1_1http_1_1server_1_1_server.html">web::http::server::Server</a>&lt; SocketServerT, RequestT, ResponseT &gt;::<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a51c5075da998eb8d42b1137111cddab2">SocketConnection</a> =  typename Super::SocketConnection</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_server_8h_source.html#l00043">43</a> of file <a class="el" href="_server_8h_source.html">Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="server_2_server_8h_source.html#l00047">47</a> of file <a class="el" href="server_2_server_8h_source.html">Server.h</a>.</p>
 
 </div>
 </div>
-<a id="ae531a071b9ea6a0dfd5d613f99aa6ac8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae531a071b9ea6a0dfd5d613f99aa6ac8">&#9670;&nbsp;</a></span>SocketServer</h2>
+<a id="a3b538b5ccd96d6d2acb7e2ee8394dfc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b538b5ccd96d6d2acb7e2ee8394dfc3">&#9670;&nbsp;</a></span>Super</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;template&lt; typename SocketContextFactoryT &gt; typename SocketServerT, typename RequestT , typename ResponseT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classweb_1_1http_1_1server_1_1_server.html">web::http::server::Server</a>&lt; SocketServerT, RequestT, ResponseT &gt;::<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#ae531a071b9ea6a0dfd5d613f99aa6ac8">SocketServer</a> =  SocketServerT&lt;<a class="el" href="classweb_1_1http_1_1server_1_1_socket_context_factory.html">web::http::server::SocketContextFactory</a>&lt;<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#ab589e910e2b80eb0ee206789150f79a7">Request</a>, <a class="el" href="classweb_1_1http_1_1server_1_1_server.html#aeb39ce4d6586c3ba85a3b3f691f7b028">Response</a>&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="classweb_1_1http_1_1server_1_1_server.html">web::http::server::Server</a>&lt; SocketServerT, RequestT, ResponseT &gt;::<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a3b538b5ccd96d6d2acb7e2ee8394dfc3">Super</a> =  SocketServerT&lt;<a class="el" href="classweb_1_1http_1_1server_1_1_socket_context_factory.html">web::http::server::SocketContextFactory</a>&lt;<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#ab589e910e2b80eb0ee206789150f79a7">Request</a>, <a class="el" href="classweb_1_1http_1_1server_1_1_server.html#aeb39ce4d6586c3ba85a3b3f691f7b028">Response</a>&gt; &gt;</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_server_8h_source.html#l00042">42</a> of file <a class="el" href="_server_8h_source.html">Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="server_2_server_8h_source.html#l00044">44</a> of file <a class="el" href="server_2_server_8h_source.html">Server.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a32297a5ca3ff8a64dcacd7c6e34938d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32297a5ca3ff8a64dcacd7c6e34938d2">&#9670;&nbsp;</a></span>Server()</h2>
+<a id="a97424acd674a9243117dba0152ea36da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97424acd674a9243117dba0152ea36da">&#9670;&nbsp;</a></span>Server()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236,13 +248,13 @@ template&lt;template&lt; typename SocketContextFactoryT &gt; typename SocketServ
         <tr>
           <td class="memname"><a class="el" href="classweb_1_1http_1_1server_1_1_server.html">web::http::server::Server</a>&lt; SocketServerT, RequestT, ResponseT &gt;::<a class="el" href="classweb_1_1http_1_1server_1_1_server.html">Server</a> </td>
           <td>(</td>
-          <td class="paramtype">const std::function&lt; void(const <a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a07504eb1aea31fed264786c1b93afbcc">SocketAddress</a> &amp;, const <a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a07504eb1aea31fed264786c1b93afbcc">SocketAddress</a> &amp;)&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::function&lt; void(<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a51c5075da998eb8d42b1137111cddab2">SocketConnection</a> *)&gt; &amp;&#160;</td>
           <td class="paramname"><em>onConnect</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::function&lt; void(<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#af9bcbc4777ab48bebb7ab4c83e61e457">SocketConnection</a> *)&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::function&lt; void(<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a51c5075da998eb8d42b1137111cddab2">SocketConnection</a> *)&gt; &amp;&#160;</td>
           <td class="paramname"><em>onConnected</em>, </td>
         </tr>
         <tr>
@@ -254,7 +266,7 @@ template&lt;template&lt; typename SocketContextFactoryT &gt; typename SocketServ
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::function&lt; void(<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#af9bcbc4777ab48bebb7ab4c83e61e457">SocketConnection</a> *)&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::function&lt; void(<a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a51c5075da998eb8d42b1137111cddab2">SocketConnection</a> *)&gt; &amp;&#160;</td>
           <td class="paramname"><em>onDisconnect</em>, </td>
         </tr>
         <tr>
@@ -276,25 +288,23 @@ template&lt;template&lt; typename SocketContextFactoryT &gt; typename SocketServ
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_server_8h_source.html#l00046">46</a> of file <a class="el" href="_server_8h_source.html">Server.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                                                          {{}})</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            : <a class="code" href="classweb_1_1http_1_1server_1_1_server.html#ae531a071b9ea6a0dfd5d613f99aa6ac8">SocketServer</a>(</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                  [onConnect](<span class="keyword">const</span> <a class="code" href="classweb_1_1http_1_1server_1_1_server.html#a07504eb1aea31fed264786c1b93afbcc">SocketAddress</a>&amp; localAddress,</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                              <span class="keyword">const</span> <a class="code" href="classweb_1_1http_1_1server_1_1_server.html#a07504eb1aea31fed264786c1b93afbcc">SocketAddress</a>&amp; remoteAddress) -&gt; <span class="keywordtype">void</span> { <span class="comment">// OnConnect</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                      onConnect(localAddress, remoteAddress);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                  },</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                  [onConnected](<a class="code" href="classweb_1_1http_1_1server_1_1_server.html#af9bcbc4777ab48bebb7ab4c83e61e457">SocketConnection</a>* socketConnection) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onConnected.</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                      onConnected(socketConnection);</div>
+<p class="definition">Definition at line <a class="el" href="server_2_server_8h_source.html#l00050">50</a> of file <a class="el" href="server_2_server_8h_source.html">Server.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                                          {{}})</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            : <a class="code" href="classweb_1_1http_1_1server_1_1_server.html#a3b538b5ccd96d6d2acb7e2ee8394dfc3">Super</a>(</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                  [onConnect](<a class="code" href="classweb_1_1http_1_1server_1_1_server.html#a51c5075da998eb8d42b1137111cddab2">SocketConnection</a>* socketConnection) -&gt; <span class="keywordtype">void</span> { <span class="comment">// OnConnect</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                      onConnect(socketConnection);</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                  },</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                  [onDisconnect](<a class="code" href="classweb_1_1http_1_1server_1_1_server.html#af9bcbc4777ab48bebb7ab4c83e61e457">SocketConnection</a>* socketConnection) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onDisconnect</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                      onDisconnect(socketConnection);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                  [onConnected](<a class="code" href="classweb_1_1http_1_1server_1_1_server.html#a51c5075da998eb8d42b1137111cddab2">SocketConnection</a>* socketConnection) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onConnected.</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                      onConnected(socketConnection);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                  },</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                  options) {</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            SocketServer::getSocketContextFactory()-&gt;setOnRequestReady(onRequestReady);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        }</div>
-<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_server_html_a07504eb1aea31fed264786c1b93afbcc"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_server.html#a07504eb1aea31fed264786c1b93afbcc">web::http::server::Server::SocketAddress</a></div><div class="ttdeci">typename SocketConnection::SocketAddress SocketAddress</div><div class="ttdef"><b>Definition:</b> <a href="_server_8h_source.html#l00044">Server.h:44</a></div></div>
-<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_server_html_ae531a071b9ea6a0dfd5d613f99aa6ac8"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_server.html#ae531a071b9ea6a0dfd5d613f99aa6ac8">web::http::server::Server::SocketServer</a></div><div class="ttdeci">SocketServerT&lt; web::http::server::SocketContextFactory&lt; Request, Response &gt; &gt; SocketServer</div><div class="ttdef"><b>Definition:</b> <a href="_server_8h_source.html#l00042">Server.h:42</a></div></div>
-<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_server_html_af9bcbc4777ab48bebb7ab4c83e61e457"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_server.html#af9bcbc4777ab48bebb7ab4c83e61e457">web::http::server::Server::SocketConnection</a></div><div class="ttdeci">typename SocketServer::SocketConnection SocketConnection</div><div class="ttdef"><b>Definition:</b> <a href="_server_8h_source.html#l00043">Server.h:43</a></div></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                  [onDisconnect](<a class="code" href="classweb_1_1http_1_1server_1_1_server.html#a51c5075da998eb8d42b1137111cddab2">SocketConnection</a>* socketConnection) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onDisconnect</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                      onDisconnect(socketConnection);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                  },</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                  options) {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            Super::getSocketContextFactory()-&gt;setOnRequestReady(onRequestReady);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        }</div>
+<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_server_html_a3b538b5ccd96d6d2acb7e2ee8394dfc3"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_server.html#a3b538b5ccd96d6d2acb7e2ee8394dfc3">web::http::server::Server::Super</a></div><div class="ttdeci">SocketServerT&lt; web::http::server::SocketContextFactory&lt; Request, Response &gt; &gt; Super</div><div class="ttdef"><b>Definition:</b> <a href="server_2_server_8h_source.html#l00044">Server.h:44</a></div></div>
+<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_server_html_a51c5075da998eb8d42b1137111cddab2"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_server.html#a51c5075da998eb8d42b1137111cddab2">web::http::server::Server::SocketConnection</a></div><div class="ttdeci">typename Super::SocketConnection SocketConnection</div><div class="ttdef"><b>Definition:</b> <a href="server_2_server_8h_source.html#l00047">Server.h:47</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -335,25 +345,25 @@ template&lt;template&lt; typename SocketContextFactoryT &gt; typename SocketServ
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_server_8h_source.html#l00068">68</a> of file <a class="el" href="_server_8h_source.html">Server.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                                                                               {</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <a class="code" href="namespacecore_1_1system.html#a8d02857d418a45aa380ebafec930b18f">SocketServer::listen</a>(socketAddress, <a class="code" href="_server_8h.html#a848750161824c5aa011ed0442ec0863c">LISTEN_BACKLOG</a>, onError);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        }</div>
-<div class="ttc" id="a_server_8h_html_a848750161824c5aa011ed0442ec0863c"><div class="ttname"><a href="_server_8h.html#a848750161824c5aa011ed0442ec0863c">LISTEN_BACKLOG</a></div><div class="ttdeci">#define LISTEN_BACKLOG</div><div class="ttdef"><b>Definition:</b> <a href="_server_8h_source.html#l00033">Server.h:33</a></div></div>
+<p class="definition">Definition at line <a class="el" href="server_2_server_8h_source.html#l00071">71</a> of file <a class="el" href="server_2_server_8h_source.html">Server.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                                                                                               {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <a class="code" href="namespacecore_1_1system.html#a8d02857d418a45aa380ebafec930b18f">Super::listen</a>(socketAddress, <a class="code" href="server_2_server_8h.html#a848750161824c5aa011ed0442ec0863c">LISTEN_BACKLOG</a>, onError);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        }</div>
 <div class="ttc" id="anamespacecore_1_1system_html_a8d02857d418a45aa380ebafec930b18f"><div class="ttname"><a href="namespacecore_1_1system.html#a8d02857d418a45aa380ebafec930b18f">core::system::listen</a></div><div class="ttdeci">int listen(int sockfd, int backlog)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00039">socket.cpp:39</a></div></div>
+<div class="ttc" id="aserver_2_server_8h_html_a848750161824c5aa011ed0442ec0863c"><div class="ttname"><a href="server_2_server_8h.html#a848750161824c5aa011ed0442ec0863c">LISTEN_BACKLOG</a></div><div class="ttdeci">#define LISTEN_BACKLOG</div><div class="ttdef"><b>Definition:</b> <a href="server_2_server_8h_source.html#l00033">Server.h:33</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="core_2system_2socket_8cpp_source.html#l00039">core::system::listen()</a>, and <a class="el" href="_server_8h_source.html#l00033">LISTEN_BACKLOG</a>.</p>
+<p class="reference">References <a class="el" href="core_2system_2socket_8cpp_source.html#l00039">core::system::listen()</a>, and <a class="el" href="server_2_server_8h_source.html#l00033">LISTEN_BACKLOG</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_server_a6001a441205fd1747d9faf22f5df2bfa_cgraph.svg" width="324" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_server_a6001a441205fd1747d9faf22f5df2bfa_cgraph.svg" width="350" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>web/http/server/<a class="el" href="_server_8h_source.html">Server.h</a></li>
+<li>web/http/server/<a class="el" href="server_2_server_8h_source.html">Server.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

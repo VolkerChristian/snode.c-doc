@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['level_2040',['Level',['../classlogger_1_1_logger.html#a1265fa2e5e66c466ebdde22414fc87c8',1,'logger::Logger']]]
+  ['httpcompliance_2168',['HTTPCompliance',['../classweb_1_1http_1_1_parser.html#afaf85771e39341e129795529ef8c4f8f',1,'web::http::Parser']]]
 ];

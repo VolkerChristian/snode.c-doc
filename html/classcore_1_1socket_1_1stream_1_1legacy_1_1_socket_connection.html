@@ -84,24 +84,25 @@ $(document).ready(function(){initNavTree('classcore_1_1socket_1_1stream_1_1legac
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#friends">Friends</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">core::socket::stream::legacy::SocketConnection&lt; SocketT &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="legacy_2_socket_connection_8h_source.html">SocketConnection.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="stream_2legacy_2_socket_connection_8h_source.html">SocketConnection.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for core::socket::stream::legacy::SocketConnection&lt; SocketT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection__inherit__graph.svg" width="1008" height="2040"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection__inherit__graph.svg" width="1032" height="2504"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for core::socket::stream::legacy::SocketConnection&lt; SocketT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection__coll__graph.svg" width="1235" height="2670"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection__coll__graph.svg" width="1128" height="2984"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -109,53 +110,49 @@ Collaboration diagram for core::socket::stream::legacy::SocketConnection&lt; Soc
 Public Types</h2></td></tr>
 <tr class="memitem:aa1355a10a90f87903335fc8f8f80256a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#aa1355a10a90f87903335fc8f8f80256a">Socket</a> = SocketT</td></tr>
 <tr class="separator:aa1355a10a90f87903335fc8f8f80256a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae38bcb9077536e881914c33611f52ac8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#ae38bcb9077536e881914c33611f52ac8">SocketAddress</a> = typename <a class="el" href="classcore_1_1socket_1_1_socket.html#a6f3a39a7f462eae53a4d5202840889ce">Socket::SocketAddress</a></td></tr>
-<tr class="separator:ae38bcb9077536e881914c33611f52ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_types_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classcore_1_1socket_1_1stream_1_1_socket_connection_t')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html">core::socket::stream::SocketConnectionT&lt; SocketReader&lt; SocketT &gt;, SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a></td></tr>
-<tr class="memitem:a9c1c03ed08bbc0e63a91ecfdc08965ea inherit pub_types_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a9c1c03ed08bbc0e63a91ecfdc08965ea">SocketReader</a> = <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a9c1c03ed08bbc0e63a91ecfdc08965ea">SocketReader</a>&lt; SocketT &gt;</td></tr>
-<tr class="separator:a9c1c03ed08bbc0e63a91ecfdc08965ea inherit pub_types_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa68f79a83bfea9870afdd90e28b70e44 inherit pub_types_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#aa68f79a83bfea9870afdd90e28b70e44">SocketWriter</a> = <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#aa68f79a83bfea9870afdd90e28b70e44">SocketWriter</a>&lt; SocketT &gt;</td></tr>
-<tr class="separator:aa68f79a83bfea9870afdd90e28b70e44 inherit pub_types_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5efd74aed4f2914ddf1c74dc2af593b inherit pub_types_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ac5efd74aed4f2914ddf1c74dc2af593b">SocketAddress</a> = SocketT::SocketAddress</td></tr>
-<tr class="separator:ac5efd74aed4f2914ddf1c74dc2af593b inherit pub_types_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c680eba5cd363ebfe0680c93ce2d90d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a7c680eba5cd363ebfe0680c93ce2d90d">SocketAddress</a> = typename <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae58e99daf1d2a35b93d037fc99a67b6a">Super::SocketAddress</a></td></tr>
+<tr class="separator:a7c680eba5cd363ebfe0680c93ce2d90d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classcore_1_1socket_1_1stream_1_1_socket_connection"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classcore_1_1socket_1_1stream_1_1_socket_connection')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html">core::socket::stream::SocketConnection&lt; core::socket::stream::legacy::SocketReader&lt; SocketT &gt;, core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a></td></tr>
+<tr class="memitem:a439716f49a508e63e7549644bd3405e4 inherit pub_types_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a439716f49a508e63e7549644bd3405e4">SocketReader</a> = <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader.html">core::socket::stream::legacy::SocketReader</a>&lt; SocketT &gt;</td></tr>
+<tr class="separator:a439716f49a508e63e7549644bd3405e4 inherit pub_types_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac093e0586098f06700ebbb1845627b61 inherit pub_types_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ac093e0586098f06700ebbb1845627b61">SocketWriter</a> = <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html">core::socket::stream::legacy::SocketWriter</a>&lt; SocketT &gt;</td></tr>
+<tr class="separator:ac093e0586098f06700ebbb1845627b61 inherit pub_types_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae58e99daf1d2a35b93d037fc99a67b6a inherit pub_types_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae58e99daf1d2a35b93d037fc99a67b6a">SocketAddress</a> = SocketT::SocketAddress</td></tr>
+<tr class="separator:ae58e99daf1d2a35b93d037fc99a67b6a inherit pub_types_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad5340d5f1605600b9690570e9459b439"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#ad5340d5f1605600b9690570e9459b439">SocketConnection</a> (int <a class="el" href="classcore_1_1_event_receiver.html#a1ccc0c2ef03dca3502bf5ec058a12d50">fd</a>, const std::shared_ptr&lt; <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context_factory.html">SocketContextFactory</a> &gt; &amp;socketProtocolFactory, const <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#ae38bcb9077536e881914c33611f52ac8">SocketAddress</a> &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a539c228609378f22c82b663bfe6cecdc">localAddress</a>, const <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#ae38bcb9077536e881914c33611f52ac8">SocketAddress</a> &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#abb0ee99f20818e923ce504bd6a4741d8">remoteAddress</a>, const std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#ae38bcb9077536e881914c33611f52ac8">SocketAddress</a> &amp;, const <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#ae38bcb9077536e881914c33611f52ac8">SocketAddress</a> &amp;)&gt; &amp;onConnect, const std::function&lt; void(<a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html">SocketConnection</a> *)&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a235aeae52b87e8f247fe7796f1f4103a">onDisconnect</a>)</td></tr>
-<tr class="separator:ad5340d5f1605600b9690570e9459b439"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html">core::socket::stream::SocketConnectionT&lt; SocketReader&lt; SocketT &gt;, SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a></td></tr>
-<tr class="memitem:a4d174ee50abc713a41417fd71b1e1e93 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ac5efd74aed4f2914ddf1c74dc2af593b">SocketAddress</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a4d174ee50abc713a41417fd71b1e1e93">getRemoteAddress</a> () const</td></tr>
-<tr class="separator:a4d174ee50abc713a41417fd71b1e1e93 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a453d5b2511758d23f0c85abc761e6c98 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ac5efd74aed4f2914ddf1c74dc2af593b">SocketAddress</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a453d5b2511758d23f0c85abc761e6c98">getLocalAddress</a> () const</td></tr>
-<tr class="separator:a453d5b2511758d23f0c85abc761e6c98 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b2279f36acb28082b0c13f17d868f47 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a8b2279f36acb28082b0c13f17d868f47">getLocalAddressAsString</a> () const override</td></tr>
-<tr class="separator:a8b2279f36acb28082b0c13f17d868f47 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9329fe839046c75bb6a173e72359382 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ad9329fe839046c75bb6a173e72359382">getRemoteAddressAsString</a> () const override</td></tr>
-<tr class="separator:ad9329fe839046c75bb6a173e72359382 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8f6106747babf5c98532a324c361245 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ad8f6106747babf5c98532a324c361245">readFromPeer</a> (char *junk, std::size_t junkLen) override</td></tr>
-<tr class="separator:ad8f6106747babf5c98532a324c361245 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad77f979204bac42bc2db7cd6fc718257 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ad77f979204bac42bc2db7cd6fc718257">sendToPeer</a> (const char *junk, std::size_t junkLen) override</td></tr>
-<tr class="separator:ad77f979204bac42bc2db7cd6fc718257 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8845faaf2206ac7414d105881d147ebf inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a8845faaf2206ac7414d105881d147ebf">sendToPeer</a> (const std::string &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a17648f2e4c21e2746f97b76e8247fe9e">data</a>) override</td></tr>
-<tr class="separator:a8845faaf2206ac7414d105881d147ebf inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae09d47a903785ebd581677a122088886 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ae09d47a903785ebd581677a122088886">close</a> () final</td></tr>
-<tr class="separator:ae09d47a903785ebd581677a122088886 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae49a66612ed9531ecd2359c8be0add12 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ae49a66612ed9531ecd2359c8be0add12">setTimeout</a> (int timeout) override</td></tr>
-<tr class="separator:ae49a66612ed9531ecd2359c8be0add12 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13f5f137fe54c698fa54f6bbedd165a9 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html">SocketContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a13f5f137fe54c698fa54f6bbedd165a9">switchSocketContext</a> (<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context_factory.html">SocketContextFactory</a> *socketContextFactory) override</td></tr>
-<tr class="separator:a13f5f137fe54c698fa54f6bbedd165a9 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html">core::socket::stream::SocketConnection</a></td></tr>
-<tr class="memitem:a95a2b10608b9dc1305ef1ec67cb70f12 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html">SocketContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a95a2b10608b9dc1305ef1ec67cb70f12">getSocketContext</a> ()</td></tr>
-<tr class="separator:a95a2b10608b9dc1305ef1ec67cb70f12 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eebcb0c0b81e8317d3785c46820115c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a1eebcb0c0b81e8317d3785c46820115c">SocketConnection</a> (int fd, const std::shared_ptr&lt; <a class="el" href="classcore_1_1socket_1_1_socket_context_factory.html">core::socket::SocketContextFactory</a> &gt; &amp;socketProtocolFactory, const <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a7c680eba5cd363ebfe0680c93ce2d90d">SocketAddress</a> &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a1b47db3d4ee9341f7969d44afe41c1f7">localAddress</a>, const <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a7c680eba5cd363ebfe0680c93ce2d90d">SocketAddress</a> &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#af1038ff389aaae6fbf864449598d57bc">remoteAddress</a>, const std::function&lt; void(<a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html">SocketConnection</a> *)&gt; &amp;onConnect, const std::function&lt; void(<a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html">SocketConnection</a> *)&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a96aafe2667a533bfee5ed0faa329c057">onDisconnect</a>)</td></tr>
+<tr class="separator:a1eebcb0c0b81e8317d3785c46820115c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html">core::socket::stream::SocketConnection&lt; core::socket::stream::legacy::SocketReader&lt; SocketT &gt;, core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a></td></tr>
+<tr class="memitem:ae696d9f63ddd56c11b5342a32f55421c inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae696d9f63ddd56c11b5342a32f55421c">close</a> () final</td></tr>
+<tr class="separator:ae696d9f63ddd56c11b5342a32f55421c inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94406e4c448e22b6d245bb4c12fc40c6 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a94406e4c448e22b6d245bb4c12fc40c6">shutdownRead</a> () final</td></tr>
+<tr class="separator:a94406e4c448e22b6d245bb4c12fc40c6 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb6056c9af1dcbe6eb39de33c3853adc inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#adb6056c9af1dcbe6eb39de33c3853adc">shutdownWrite</a> () final</td></tr>
+<tr class="separator:adb6056c9af1dcbe6eb39de33c3853adc inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbfaeb8f4cb397378bc666e4b13be45d inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#acbfaeb8f4cb397378bc666e4b13be45d">setTimeout</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;timeout) final</td></tr>
+<tr class="separator:acbfaeb8f4cb397378bc666e4b13be45d inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fe932dffe9466f6cb97c5e523204fc5 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae58e99daf1d2a35b93d037fc99a67b6a">SocketAddress</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a3fe932dffe9466f6cb97c5e523204fc5">getRemoteAddress</a> () const</td></tr>
+<tr class="separator:a3fe932dffe9466f6cb97c5e523204fc5 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a826895e6a4fc470d60c71eb3dced1af0 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae58e99daf1d2a35b93d037fc99a67b6a">SocketAddress</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a826895e6a4fc470d60c71eb3dced1af0">getLocalAddress</a> () const</td></tr>
+<tr class="separator:a826895e6a4fc470d60c71eb3dced1af0 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af536759142bd03b3d71fb5c0a0e27bc8 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1socket_1_1_socket_context.html">core::socket::SocketContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#af536759142bd03b3d71fb5c0a0e27bc8">getSocketContext</a> ()</td></tr>
+<tr class="separator:af536759142bd03b3d71fb5c0a0e27bc8 inherit pub_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:ac3cadcb90bede3b8b4ff8e8d2b53ec29"><td class="memTemplParams" colspan="2">template&lt;typename Socket &gt; </td></tr>
-<tr class="memitem:ac3cadcb90bede3b8b4ff8e8d2b53ec29"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#ac3cadcb90bede3b8b4ff8e8d2b53ec29">SocketAcceptor</a></td></tr>
-<tr class="separator:ac3cadcb90bede3b8b4ff8e8d2b53ec29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93358fd8285cbad5c49755553f9c5c49"><td class="memTemplParams" colspan="2">template&lt;typename Socket &gt; </td></tr>
-<tr class="memitem:a93358fd8285cbad5c49755553f9c5c49"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a93358fd8285cbad5c49755553f9c5c49">SocketConnector</a></td></tr>
-<tr class="separator:a93358fd8285cbad5c49755553f9c5c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a5d8648f44fcc647975144be5f364f713"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a5d8648f44fcc647975144be5f364f713">Super</a> = <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html">core::socket::stream::SocketConnection</a>&lt; <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader.html">core::socket::stream::legacy::SocketReader</a>&lt; SocketT &gt;, <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html">core::socket::stream::legacy::SocketWriter</a>&lt; SocketT &gt;, typename SocketT::SocketAddress &gt;</td></tr>
+<tr class="separator:a5d8648f44fcc647975144be5f364f713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32db4caef85421f8d7bb4bfcb4f5999a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a32db4caef85421f8d7bb4bfcb4f5999a">SocketReader</a> = <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader.html">core::socket::stream::legacy::SocketReader</a>&lt; SocketT &gt;</td></tr>
+<tr class="separator:a32db4caef85421f8d7bb4bfcb4f5999a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70358ed7b0519a5da4aa3ba3714b5823"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a70358ed7b0519a5da4aa3ba3714b5823">SocketWriter</a> = <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html">core::socket::stream::legacy::SocketWriter</a>&lt; SocketT &gt;</td></tr>
+<tr class="separator:a70358ed7b0519a5da4aa3ba3714b5823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a3e77d759ca5b1b4740578a102bbad0d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a3e77d759ca5b1b4740578a102bbad0d3">~SocketConnection</a> () override=default</td></tr>
+<tr class="separator:a3e77d759ca5b1b4740578a102bbad0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -165,89 +162,119 @@ Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_types_classcore_1_1socket_1_1stream_1_1_socket_writer"><td colspan="2" onclick="javascript:toggleInherit('pro_types_classcore_1_1socket_1_1stream_1_1_socket_writer')"><img src="closed.png" alt="-"/>&#160;Protected Types inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html">core::socket::stream::SocketWriter&lt; SocketT &gt;</a></td></tr>
 <tr class="memitem:afcda52ba1bebc197ba59f092d54039b6 inherit pro_types_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html#afcda52ba1bebc197ba59f092d54039b6">Socket</a> = SocketT</td></tr>
 <tr class="separator:afcda52ba1bebc197ba59f092d54039b6 inherit pro_types_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html">core::socket::stream::SocketConnectionT&lt; SocketReader&lt; SocketT &gt;, SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a></td></tr>
-<tr class="memitem:a94d7f88972be8cbb6437b3116b4ddbe4 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a94d7f88972be8cbb6437b3116b4ddbe4">SocketConnectionT</a> (const std::shared_ptr&lt; <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context_factory.html">SocketContextFactory</a> &gt; &amp;socketContextFactory, const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ac5efd74aed4f2914ddf1c74dc2af593b">SocketAddress</a> &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a539c228609378f22c82b663bfe6cecdc">localAddress</a>, const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ac5efd74aed4f2914ddf1c74dc2af593b">SocketAddress</a> &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#abb0ee99f20818e923ce504bd6a4741d8">remoteAddress</a>, const std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ac5efd74aed4f2914ddf1c74dc2af593b">SocketAddress</a> &amp;, const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#ac5efd74aed4f2914ddf1c74dc2af593b">SocketAddress</a> &amp;)&gt; &amp;onConnect, const std::function&lt; void()&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a235aeae52b87e8f247fe7796f1f4103a">onDisconnect</a>)</td></tr>
-<tr class="separator:a94d7f88972be8cbb6437b3116b4ddbe4 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa76d27f8386a64e4a09949fd8050c246 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#aa76d27f8386a64e4a09949fd8050c246">~SocketConnectionT</a> ()</td></tr>
-<tr class="separator:aa76d27f8386a64e4a09949fd8050c246 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection_t"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html">core::socket::stream::SocketConnection</a></td></tr>
-<tr class="memitem:af90007eb0fa24608f841ab3498acebc8 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#af90007eb0fa24608f841ab3498acebc8">SocketConnection</a> (const std::shared_ptr&lt; <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context_factory.html">SocketContextFactory</a> &gt; &amp;socketContextFactory)</td></tr>
-<tr class="separator:af90007eb0fa24608f841ab3498acebc8 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5935582f9b0905351d8ab5c5756aefc inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#af5935582f9b0905351d8ab5c5756aefc">~SocketConnection</a> ()=default</td></tr>
-<tr class="separator:af5935582f9b0905351d8ab5c5756aefc inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html">core::socket::stream::SocketConnection&lt; core::socket::stream::legacy::SocketReader&lt; SocketT &gt;, core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a></td></tr>
+<tr class="memitem:a4f4d817ded6dd96cf5f7460f0295c348 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a4f4d817ded6dd96cf5f7460f0295c348">SocketConnection</a> (const std::shared_ptr&lt; <a class="el" href="classcore_1_1socket_1_1_socket_context_factory.html">core::socket::SocketContextFactory</a> &gt; &amp;socketContextFactory, const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae58e99daf1d2a35b93d037fc99a67b6a">SocketAddress</a> &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a1b47db3d4ee9341f7969d44afe41c1f7">localAddress</a>, const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae58e99daf1d2a35b93d037fc99a67b6a">SocketAddress</a> &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#af1038ff389aaae6fbf864449598d57bc">remoteAddress</a>, const std::function&lt; void()&gt; &amp;onConnect, const std::function&lt; void()&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a96aafe2667a533bfee5ed0faa329c057">onDisconnect</a>)</td></tr>
+<tr class="separator:a4f4d817ded6dd96cf5f7460f0295c348 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e7e536914305deefc1a776d2b9e9a86 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a2e7e536914305deefc1a776d2b9e9a86">~SocketConnection</a> () override</td></tr>
+<tr class="separator:a2e7e536914305deefc1a776d2b9e9a86 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classcore_1_1socket_1_1_socket_connection"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1socket_1_1_socket_connection')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1_socket_connection.html">core::socket::SocketConnection</a></td></tr>
+<tr class="memitem:a5ba18c609dd982f32c5cc8309cf29d62 inherit pro_methods_classcore_1_1socket_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a5ba18c609dd982f32c5cc8309cf29d62">SocketConnection</a> (const std::shared_ptr&lt; <a class="el" href="classcore_1_1socket_1_1_socket_context_factory.html">core::socket::SocketContextFactory</a> &gt; &amp;socketContextFactory)</td></tr>
+<tr class="separator:a5ba18c609dd982f32c5cc8309cf29d62 inherit pro_methods_classcore_1_1socket_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a403ae6aa6530edad0c270fab846fd887 inherit pro_methods_classcore_1_1socket_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a403ae6aa6530edad0c270fab846fd887">onConnected</a> ()</td></tr>
+<tr class="separator:a403ae6aa6530edad0c270fab846fd887 inherit pro_methods_classcore_1_1socket_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae97de1bf267dd824d37005f6dbe251cc inherit pro_methods_classcore_1_1socket_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#ae97de1bf267dd824d37005f6dbe251cc">onDisconnected</a> ()</td></tr>
+<tr class="separator:ae97de1bf267dd824d37005f6dbe251cc inherit pro_methods_classcore_1_1socket_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2bc0a1e7f08d2569b2c31a3b0e9cef7 inherit pro_methods_classcore_1_1socket_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#ab2bc0a1e7f08d2569b2c31a3b0e9cef7">onReceiveFromPeer</a> ()</td></tr>
+<tr class="separator:ab2bc0a1e7f08d2569b2c31a3b0e9cef7 inherit pro_methods_classcore_1_1socket_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb86c58115ad8c2c1283f6b0b44899bd inherit pro_methods_classcore_1_1socket_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#adb86c58115ad8c2c1283f6b0b44899bd">onWriteError</a> (int errnum)</td></tr>
+<tr class="separator:adb86c58115ad8c2c1283f6b0b44899bd inherit pro_methods_classcore_1_1socket_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f2493a8555efd53e04abb68190fd59c inherit pro_methods_classcore_1_1socket_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a8f2493a8555efd53e04abb68190fd59c">onReadError</a> (int errnum)</td></tr>
+<tr class="separator:a8f2493a8555efd53e04abb68190fd59c inherit pro_methods_classcore_1_1socket_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af536759142bd03b3d71fb5c0a0e27bc8 inherit pro_methods_classcore_1_1socket_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1socket_1_1_socket_context.html">core::socket::SocketContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#af536759142bd03b3d71fb5c0a0e27bc8">getSocketContext</a> ()</td></tr>
+<tr class="separator:af536759142bd03b3d71fb5c0a0e27bc8 inherit pro_methods_classcore_1_1socket_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87beaa9f0aadc53ba4842f27cb9cdb64 inherit pro_methods_classcore_1_1socket_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1socket_1_1_socket_context.html">core::socket::SocketContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a87beaa9f0aadc53ba4842f27cb9cdb64">switchSocketContext</a> (<a class="el" href="classcore_1_1socket_1_1_socket_context_factory.html">core::socket::SocketContextFactory</a> *socketContextFactory)</td></tr>
+<tr class="separator:a87beaa9f0aadc53ba4842f27cb9cdb64 inherit pro_methods_classcore_1_1socket_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader.html">core::socket::stream::legacy::SocketReader&lt; SocketT &gt;</a></td></tr>
+<tr class="memitem:a9f92f97df23e621382b47d8a4e048001 inherit pro_methods_classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader.html#a9f92f97df23e621382b47d8a4e048001">terminate</a> () override</td></tr>
+<tr class="separator:a9f92f97df23e621382b47d8a4e048001 inherit pro_methods_classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html">core::socket::stream::SocketReader&lt; SocketT &gt;</a></td></tr>
 <tr class="memitem:af908d88cf860a6b576d04df073898e6c inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af908d88cf860a6b576d04df073898e6c">SocketReader</a> (const std::function&lt; void(int)&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a360aed60f2c5256bde176b7209cd6181">onError</a>)</td></tr>
 <tr class="separator:af908d88cf860a6b576d04df073898e6c inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa78e051ec70a24a668bb3c6c35586eb3 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aa78e051ec70a24a668bb3c6c35586eb3">~SocketReader</a> ()=default</td></tr>
 <tr class="separator:aa78e051ec70a24a668bb3c6c35586eb3 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc115f9c2136245539882be0e17f2b02 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#abc115f9c2136245539882be0e17f2b02">doShutdown</a> ()</td></tr>
-<tr class="separator:abc115f9c2136245539882be0e17f2b02 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac38f48735d352595c3356ec856820db3 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#ac38f48735d352595c3356ec856820db3">shutdown</a> ()</td></tr>
-<tr class="separator:ac38f48735d352595c3356ec856820db3 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa410f5c1e8664301d05af8e8910423ad inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aa410f5c1e8664301d05af8e8910423ad">doReadShutdown</a> ()</td></tr>
+<tr class="separator:aa410f5c1e8664301d05af8e8910423ad inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ea9c6a33e5e8b0c3fa9b766608e744a inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a7ea9c6a33e5e8b0c3fa9b766608e744a">readFromPeer</a> (char *junk, std::size_t junkLen)</td></tr>
 <tr class="separator:a7ea9c6a33e5e8b0c3fa9b766608e744a inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef523ae0ed40add80e4b1fb2bd42dad8 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aef523ae0ed40add80e4b1fb2bd42dad8">continueReadImmediately</a> () override</td></tr>
-<tr class="separator:aef523ae0ed40add80e4b1fb2bd42dad8 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaad14a17650d9421cb50667e8c74ecd6 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aaad14a17650d9421cb50667e8c74ecd6">doRead</a> ()</td></tr>
+<tr class="separator:aaad14a17650d9421cb50667e8c74ecd6 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a186b3c15dbcf938dbddba1885222ab88 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a186b3c15dbcf938dbddba1885222ab88">continueReadImmediately</a> () const override</td></tr>
+<tr class="separator:a186b3c15dbcf938dbddba1885222ab88 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac38f48735d352595c3356ec856820db3 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#ac38f48735d352595c3356ec856820db3">shutdown</a> ()</td></tr>
+<tr class="separator:ac38f48735d352595c3356ec856820db3 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae02113de143ed92a6f9b8e657dcfc0cb inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#ae02113de143ed92a6f9b8e657dcfc0cb">terminate</a> () override</td></tr>
+<tr class="separator:ae02113de143ed92a6f9b8e657dcfc0cb inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classcore_1_1_read_event_receiver"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1_read_event_receiver')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1_read_event_receiver.html">core::ReadEventReceiver</a></td></tr>
-<tr class="memitem:aa22db3280f2940947f4e50cf25f58052 inherit pro_methods_classcore_1_1_read_event_receiver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_read_event_receiver.html#aa22db3280f2940947f4e50cf25f58052">ReadEventReceiver</a> (long timeout=60)</td></tr>
-<tr class="separator:aa22db3280f2940947f4e50cf25f58052 inherit pro_methods_classcore_1_1_read_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae05088bb3f59c15f50509a6da8db2ad inherit pro_methods_classcore_1_1_read_event_receiver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_read_event_receiver.html#aae05088bb3f59c15f50509a6da8db2ad">ReadEventReceiver</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;timeout=60)</td></tr>
+<tr class="separator:aae05088bb3f59c15f50509a6da8db2ad inherit pro_methods_classcore_1_1_read_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classcore_1_1_event_receiver"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1_event_receiver')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1_event_receiver.html">core::EventReceiver</a></td></tr>
-<tr class="memitem:a4c230e9b0b9eabf4fc3fe80877016eee inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a4c230e9b0b9eabf4fc3fe80877016eee">EventReceiver</a> (<a class="el" href="classcore_1_1_event_dispatcher.html">EventDispatcher</a> &amp;<a class="el" href="classcore_1_1_event_receiver.html#a52212929a3635b1540892f451a104ef4">descriptorEventDispatcher</a>, long timeout=<a class="el" href="classcore_1_1_event_receiver_1_1_t_i_m_e_o_u_t.html#a005f4db73483968cbfae770a301285a9">TIMEOUT::DISABLE</a>)</td></tr>
-<tr class="separator:a4c230e9b0b9eabf4fc3fe80877016eee inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1edeebbf6a7a34c15c16b07fb5c5b550 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a1edeebbf6a7a34c15c16b07fb5c5b550">EventReceiver</a> (<a class="el" href="classcore_1_1_descriptor_event_dispatcher.html">DescriptorEventDispatcher</a> &amp;<a class="el" href="classcore_1_1_event_receiver.html#a2b485286544ae47554dcaaa8eea41f09">descriptorEventDispatcher</a>, const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;timeout=<a class="el" href="classcore_1_1_event_receiver_1_1_t_i_m_e_o_u_t.html#a6f8671a8544b6b96d6acc02adb66cb48">TIMEOUT::DISABLE</a>)</td></tr>
+<tr class="separator:a1edeebbf6a7a34c15c16b07fb5c5b550 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a992cbab6f773fbbb24d89d34ca938d98 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a992cbab6f773fbbb24d89d34ca938d98">~EventReceiver</a> ()=default</td></tr>
 <tr class="separator:a992cbab6f773fbbb24d89d34ca938d98 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7caba7988235edf0f5a19c6e5cc4ee3c inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a7caba7988235edf0f5a19c6e5cc4ee3c">setTimeout</a> (long timeout)</td></tr>
-<tr class="separator:a7caba7988235edf0f5a19c6e5cc4ee3c inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a677995a821e9226e5dcbf92182884477 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a677995a821e9226e5dcbf92182884477">isEnabled</a> () const</td></tr>
-<tr class="separator:a677995a821e9226e5dcbf92182884477 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c6fec4001aa28b328c23573c70ad159 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a3c6fec4001aa28b328c23573c70ad159">isSuspended</a> () const</td></tr>
-<tr class="separator:a3c6fec4001aa28b328c23573c70ad159 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae56563ec614ab06a115413240e6095f inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#aae56563ec614ab06a115413240e6095f">enable</a> (int <a class="el" href="classcore_1_1_event_receiver.html#a1ccc0c2ef03dca3502bf5ec058a12d50">fd</a>)</td></tr>
+<tr class="memitem:a945c04c8e000b708049e9422960e9739 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a945c04c8e000b708049e9422960e9739">getRegisteredFd</a> ()</td></tr>
+<tr class="separator:a945c04c8e000b708049e9422960e9739 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae56563ec614ab06a115413240e6095f inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#aae56563ec614ab06a115413240e6095f">enable</a> (int fd)</td></tr>
 <tr class="separator:aae56563ec614ab06a115413240e6095f inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b54c1084463cb39c57d99ae533b218e inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a8b54c1084463cb39c57d99ae533b218e">disable</a> ()</td></tr>
 <tr class="separator:a8b54c1084463cb39c57d99ae533b218e inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a677995a821e9226e5dcbf92182884477 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a677995a821e9226e5dcbf92182884477">isEnabled</a> () const</td></tr>
+<tr class="separator:a677995a821e9226e5dcbf92182884477 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae460e190a6588ac04bcfc6b0d0777376 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#ae460e190a6588ac04bcfc6b0d0777376">suspend</a> ()</td></tr>
 <tr class="separator:ae460e190a6588ac04bcfc6b0d0777376 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f7505e88a5c4275601cc558459df9d5 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a0f7505e88a5c4275601cc558459df9d5">resume</a> ()</td></tr>
 <tr class="separator:a0f7505e88a5c4275601cc558459df9d5 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classcore_1_1_observation_counter"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1_observation_counter')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1_observation_counter.html">core::ObservationCounter</a></td></tr>
-<tr class="memitem:a48558b6dc7a7347ff0fa5ca57ea31634 inherit pro_methods_classcore_1_1_observation_counter"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_observation_counter.html#a48558b6dc7a7347ff0fa5ca57ea31634">isObserved</a> ()</td></tr>
-<tr class="separator:a48558b6dc7a7347ff0fa5ca57ea31634 inherit pro_methods_classcore_1_1_observation_counter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c6fec4001aa28b328c23573c70ad159 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a3c6fec4001aa28b328c23573c70ad159">isSuspended</a> () const</td></tr>
+<tr class="separator:a3c6fec4001aa28b328c23573c70ad159 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e481c44b2aefcfcfc4a91b760824786 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a4e481c44b2aefcfcfc4a91b760824786">dispatch</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime)</td></tr>
+<tr class="separator:a4e481c44b2aefcfcfc4a91b760824786 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1de6e48903e37b25873e8eebdd91af86 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a1de6e48903e37b25873e8eebdd91af86">triggered</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime)</td></tr>
+<tr class="separator:a1de6e48903e37b25873e8eebdd91af86 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eb8167b9b7598025fbe793edc09886a inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a0eb8167b9b7598025fbe793edc09886a">disabled</a> ()</td></tr>
+<tr class="separator:a0eb8167b9b7598025fbe793edc09886a inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f57fdd943ac70918678c0a9671fc6c1 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a2f57fdd943ac70918678c0a9671fc6c1">setTimeout</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;timeout)</td></tr>
+<tr class="separator:a2f57fdd943ac70918678c0a9671fc6c1 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a942ac03fef5e9b54e270a17cbb240d2c inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a942ac03fef5e9b54e270a17cbb240d2c">getTimeout</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime) const</td></tr>
+<tr class="separator:a942ac03fef5e9b54e270a17cbb240d2c inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28c410d42667ddb3224f494fd2e2edd0 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a28c410d42667ddb3224f494fd2e2edd0">checkTimeout</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime)</td></tr>
+<tr class="separator:a28c410d42667ddb3224f494fd2e2edd0 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classcore_1_1_observer"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1_observer')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1_observer.html">core::Observer</a></td></tr>
+<tr class="memitem:a12bf1ddfdb90f05f28d16c09ce0658f8 inherit pro_methods_classcore_1_1_observer"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_observer.html#a12bf1ddfdb90f05f28d16c09ce0658f8">isObserved</a> ()</td></tr>
+<tr class="separator:a12bf1ddfdb90f05f28d16c09ce0658f8 inherit pro_methods_classcore_1_1_observer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeff595f74f25efea85406cf700e13550 inherit pro_methods_classcore_1_1_observer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_observer.html#aeff595f74f25efea85406cf700e13550">observed</a> ()</td></tr>
+<tr class="separator:aeff595f74f25efea85406cf700e13550 inherit pro_methods_classcore_1_1_observer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00846551b99f8dbde144dd8b7a0a2aef inherit pro_methods_classcore_1_1_observer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_observer.html#a00846551b99f8dbde144dd8b7a0a2aef">unObserved</a> ()</td></tr>
+<tr class="separator:a00846551b99f8dbde144dd8b7a0a2aef inherit pro_methods_classcore_1_1_observer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a942a6bb4857e6ec986d0a366b2aaea26 inherit pro_methods_classcore_1_1_observer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_observer.html#a942a6bb4857e6ec986d0a366b2aaea26">getObservationCounter</a> ()</td></tr>
+<tr class="separator:a942a6bb4857e6ec986d0a366b2aaea26 inherit pro_methods_classcore_1_1_observer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html">core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;</a></td></tr>
+<tr class="memitem:a235ba35ef8f9732ce9d2d69f13db469c inherit pro_methods_classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html#a235ba35ef8f9732ce9d2d69f13db469c">terminate</a> () override</td></tr>
+<tr class="separator:a235ba35ef8f9732ce9d2d69f13db469c inherit pro_methods_classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html">core::socket::stream::SocketWriter&lt; SocketT &gt;</a></td></tr>
 <tr class="memitem:a9e988ea59b36a2c879934e232d589eb4 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html#a9e988ea59b36a2c879934e232d589eb4">SocketWriter</a> (const std::function&lt; void(int)&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html#ae8b9b9e1eb2dd92c63640e1c1c9ba57b">onError</a>)</td></tr>
 <tr class="separator:a9e988ea59b36a2c879934e232d589eb4 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06f401900ca0cc9b56f2462e8815ca41 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html#a06f401900ca0cc9b56f2462e8815ca41">~SocketWriter</a> ()=default</td></tr>
 <tr class="separator:a06f401900ca0cc9b56f2462e8815ca41 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4050048ee5097b7008678846e5fc8e7a inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html#a4050048ee5097b7008678846e5fc8e7a">doWriteShutdown</a> ()</td></tr>
+<tr class="separator:a4050048ee5097b7008678846e5fc8e7a inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab37b0d0dff3ab0f18964cb36396f04b3 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html#ab37b0d0dff3ab0f18964cb36396f04b3">sendToPeer</a> (const char *junk, std::size_t junkLen)</td></tr>
 <tr class="separator:ab37b0d0dff3ab0f18964cb36396f04b3 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3658f396361915a2dba22016c5a4d6c6 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html#a3658f396361915a2dba22016c5a4d6c6">doShutdown</a> ()</td></tr>
-<tr class="separator:a3658f396361915a2dba22016c5a4d6c6 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6540708f6529757ecf947f37c1eac32 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html#ad6540708f6529757ecf947f37c1eac32">shutdown</a> ()</td></tr>
-<tr class="separator:ad6540708f6529757ecf947f37c1eac32 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cf7e0d247704957a3d606c9c5143e29 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html#a7cf7e0d247704957a3d606c9c5143e29">doWrite</a> ()</td></tr>
 <tr class="separator:a7cf7e0d247704957a3d606c9c5143e29 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6540708f6529757ecf947f37c1eac32 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html#ad6540708f6529757ecf947f37c1eac32">shutdown</a> ()</td></tr>
+<tr class="separator:ad6540708f6529757ecf947f37c1eac32 inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ad452718fe51eb997addacda7eb03fb inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html#a3ad452718fe51eb997addacda7eb03fb">terminate</a> () override</td></tr>
+<tr class="separator:a3ad452718fe51eb997addacda7eb03fb inherit pro_methods_classcore_1_1socket_1_1stream_1_1_socket_writer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classcore_1_1_write_event_receiver"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1_write_event_receiver')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1_write_event_receiver.html">core::WriteEventReceiver</a></td></tr>
-<tr class="memitem:aa38ad548477c31d7694f02b476ebef20 inherit pro_methods_classcore_1_1_write_event_receiver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_write_event_receiver.html#aa38ad548477c31d7694f02b476ebef20">WriteEventReceiver</a> (long timeout=60)</td></tr>
-<tr class="separator:aa38ad548477c31d7694f02b476ebef20 inherit pro_methods_classcore_1_1_write_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa55d2140505ca93c685ea73fb7ae8fb0 inherit pro_methods_classcore_1_1_write_event_receiver"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_write_event_receiver.html#aa55d2140505ca93c685ea73fb7ae8fb0">continueWriteImmediately</a> ()</td></tr>
-<tr class="separator:aa55d2140505ca93c685ea73fb7ae8fb0 inherit pro_methods_classcore_1_1_write_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classcore_1_1socket_1_1stream_1_1_socket_connection"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classcore_1_1socket_1_1stream_1_1_socket_connection')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html">core::socket::stream::SocketConnection</a></td></tr>
-<tr class="memitem:a8c107507513398f7b81b3256e943e45b inherit pro_attribs_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context.html">SocketContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a8c107507513398f7b81b3256e943e45b">socketContext</a> = nullptr</td></tr>
-<tr class="separator:a8c107507513398f7b81b3256e943e45b inherit pro_attribs_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e69372a0e2ffa9172f8f5f5d3aee411 inherit pro_attribs_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memItemLeft" align="right" valign="top">friend&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a4e69372a0e2ffa9172f8f5f5d3aee411">SocketContext</a></td></tr>
-<tr class="separator:a4e69372a0e2ffa9172f8f5f5d3aee411 inherit pro_attribs_classcore_1_1socket_1_1stream_1_1_socket_connection"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classcore_1_1_observation_counter"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classcore_1_1_observation_counter')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classcore_1_1_observation_counter.html">core::ObservationCounter</a></td></tr>
-<tr class="memitem:aa9140f67a1f3c6d62ad1f44a400af696 inherit pro_attribs_classcore_1_1_observation_counter"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_observation_counter.html#aa9140f67a1f3c6d62ad1f44a400af696">observationCounter</a> = 0</td></tr>
-<tr class="separator:aa9140f67a1f3c6d62ad1f44a400af696 inherit pro_attribs_classcore_1_1_observation_counter"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad36ed80729a71eaef44da84d8a25365b inherit pro_attribs_classcore_1_1_observation_counter"><td class="memItemLeft" align="right" valign="top">struct timeval&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_observation_counter.html#ad36ed80729a71eaef44da84d8a25365b">lastTriggered</a> = {0, 0}</td></tr>
-<tr class="separator:ad36ed80729a71eaef44da84d8a25365b inherit pro_attribs_classcore_1_1_observation_counter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae707d806d580756639f0a319913f1674 inherit pro_methods_classcore_1_1_write_event_receiver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_write_event_receiver.html#ae707d806d580756639f0a319913f1674">WriteEventReceiver</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;timeout=60)</td></tr>
+<tr class="separator:ae707d806d580756639f0a319913f1674 inherit pro_methods_classcore_1_1_write_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename SocketT&gt;<br />
 class core::socket::stream::legacy::SocketConnection&lt; SocketT &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="legacy_2_socket_connection_8h_source.html#l00035">35</a> of file <a class="el" href="legacy_2_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stream_2legacy_2_socket_connection_8h_source.html#l00035">35</a> of file <a class="el" href="stream_2legacy_2_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="aa1355a10a90f87903335fc8f8f80256a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa1355a10a90f87903335fc8f8f80256a">&#9670;&nbsp;</a></span>Socket</h2>
@@ -263,12 +290,12 @@ template&lt;typename SocketT &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="legacy_2_socket_connection_8h_source.html#l00038">38</a> of file <a class="el" href="legacy_2_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stream_2legacy_2_socket_connection_8h_source.html#l00048">48</a> of file <a class="el" href="stream_2legacy_2_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
 
 </div>
 </div>
-<a id="ae38bcb9077536e881914c33611f52ac8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae38bcb9077536e881914c33611f52ac8">&#9670;&nbsp;</a></span>SocketAddress</h2>
+<a id="a7c680eba5cd363ebfe0680c93ce2d90d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c680eba5cd363ebfe0680c93ce2d90d">&#9670;&nbsp;</a></span>SocketAddress</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -276,18 +303,96 @@ template&lt;typename SocketT &gt; </div>
 template&lt;typename SocketT &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html">core::socket::stream::legacy::SocketConnection</a>&lt; SocketT &gt;::<a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#ae38bcb9077536e881914c33611f52ac8">SocketAddress</a> =  typename <a class="el" href="classcore_1_1socket_1_1_socket.html#a6f3a39a7f462eae53a4d5202840889ce">Socket::SocketAddress</a></td>
+          <td class="memname">using <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html">core::socket::stream::legacy::SocketConnection</a>&lt; SocketT &gt;::<a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a7c680eba5cd363ebfe0680c93ce2d90d">SocketAddress</a> =  typename <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae58e99daf1d2a35b93d037fc99a67b6a">Super::SocketAddress</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="legacy_2_socket_connection_8h_source.html#l00039">39</a> of file <a class="el" href="legacy_2_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stream_2legacy_2_socket_connection_8h_source.html#l00049">49</a> of file <a class="el" href="stream_2legacy_2_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
+
+</div>
+</div>
+<a id="a32db4caef85421f8d7bb4bfcb4f5999a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32db4caef85421f8d7bb4bfcb4f5999a">&#9670;&nbsp;</a></span>SocketReader</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SocketT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html">core::socket::stream::legacy::SocketConnection</a>&lt; SocketT &gt;::<a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a32db4caef85421f8d7bb4bfcb4f5999a">SocketReader</a> =  <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader.html">core::socket::stream::legacy::SocketReader</a>&lt;SocketT&gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="stream_2legacy_2_socket_connection_8h_source.html#l00044">44</a> of file <a class="el" href="stream_2legacy_2_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
+
+</div>
+</div>
+<a id="a70358ed7b0519a5da4aa3ba3714b5823"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70358ed7b0519a5da4aa3ba3714b5823">&#9670;&nbsp;</a></span>SocketWriter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SocketT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html">core::socket::stream::legacy::SocketConnection</a>&lt; SocketT &gt;::<a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a70358ed7b0519a5da4aa3ba3714b5823">SocketWriter</a> =  <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html">core::socket::stream::legacy::SocketWriter</a>&lt;SocketT&gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="stream_2legacy_2_socket_connection_8h_source.html#l00045">45</a> of file <a class="el" href="stream_2legacy_2_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
+
+</div>
+</div>
+<a id="a5d8648f44fcc647975144be5f364f713"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d8648f44fcc647975144be5f364f713">&#9670;&nbsp;</a></span>Super</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SocketT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html">core::socket::stream::legacy::SocketConnection</a>&lt; SocketT &gt;::<a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a5d8648f44fcc647975144be5f364f713">Super</a> =  <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html">core::socket::stream::SocketConnection</a>&lt;<a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader.html">core::socket::stream::legacy::SocketReader</a>&lt;SocketT&gt;, <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html">core::socket::stream::legacy::SocketWriter</a>&lt;SocketT&gt;, typename SocketT::SocketAddress&gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="stream_2legacy_2_socket_connection_8h_source.html#l00040">40</a> of file <a class="el" href="stream_2legacy_2_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad5340d5f1605600b9690570e9459b439"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5340d5f1605600b9690570e9459b439">&#9670;&nbsp;</a></span>SocketConnection()</h2>
+<a id="a1eebcb0c0b81e8317d3785c46820115c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eebcb0c0b81e8317d3785c46820115c">&#9670;&nbsp;</a></span>SocketConnection()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -306,25 +411,25 @@ template&lt;typename SocketT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_context_factory.html">SocketContextFactory</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classcore_1_1socket_1_1_socket_context_factory.html">core::socket::SocketContextFactory</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>socketProtocolFactory</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#ae38bcb9077536e881914c33611f52ac8">SocketAddress</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a7c680eba5cd363ebfe0680c93ce2d90d">SocketAddress</a> &amp;&#160;</td>
           <td class="paramname"><em>localAddress</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#ae38bcb9077536e881914c33611f52ac8">SocketAddress</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a7c680eba5cd363ebfe0680c93ce2d90d">SocketAddress</a> &amp;&#160;</td>
           <td class="paramname"><em>remoteAddress</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#ae38bcb9077536e881914c33611f52ac8">SocketAddress</a> &amp;, const <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#ae38bcb9077536e881914c33611f52ac8">SocketAddress</a> &amp;)&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::function&lt; void(<a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html">SocketConnection</a>&lt; SocketT &gt; *)&gt; &amp;&#160;</td>
           <td class="paramname"><em>onConnect</em>, </td>
         </tr>
         <tr>
@@ -346,82 +451,57 @@ template&lt;typename SocketT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="legacy_2_socket_connection_8h_source.html#l00041">41</a> of file <a class="el" href="legacy_2_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            : SocketConnection::Descriptor(<a class="code" href="classcore_1_1_event_receiver.html#a1ccc0c2ef03dca3502bf5ec058a12d50">fd</a>)</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            , <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html">core::socket::stream::SocketConnectionT&lt;SocketReader&lt;Socket&gt;</a>, SocketWriter&lt;Socket&gt;, <span class="keyword">typename</span> <a class="code" href="classcore_1_1socket_1_1_socket.html#a6f3a39a7f462eae53a4d5202840889ce">Socket::SocketAddress</a>&gt;<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#adfd4e98c267719a89452c9b2f37fdc57">::</a></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#adfd4e98c267719a89452c9b2f37fdc57">                  SocketConnectionT</a>(socketProtocolFactory, <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a539c228609378f22c82b663bfe6cecdc">localAddress</a>, <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#abb0ee99f20818e923ce504bd6a4741d8">remoteAddress</a>, onConnect, [<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a235aeae52b87e8f247fe7796f1f4103a">onDisconnect</a>, <span class="keyword">this</span>]() -&gt; <span class="keywordtype">void</span> {</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a235aeae52b87e8f247fe7796f1f4103a">onDisconnect</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                  }) {</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        }</div>
-<div class="ttc" id="aclasscore_1_1_event_receiver_html_a1ccc0c2ef03dca3502bf5ec058a12d50"><div class="ttname"><a href="classcore_1_1_event_receiver.html#a1ccc0c2ef03dca3502bf5ec058a12d50">core::EventReceiver::fd</a></div><div class="ttdeci">int fd</div><div class="ttdef"><b>Definition:</b> <a href="_event_receiver_8h_source.html#l00093">EventReceiver.h:93</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1_socket_html_a6f3a39a7f462eae53a4d5202840889ce"><div class="ttname"><a href="classcore_1_1socket_1_1_socket.html#a6f3a39a7f462eae53a4d5202840889ce">core::socket::Socket::SocketAddress</a></div><div class="ttdeci">SocketAddressT SocketAddress</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2_socket_8h_source.html#l00037">Socket.h:37</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connection_t_html"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html">core::socket::stream::SocketConnectionT</a></div><div class="ttdef"><b>Definition:</b> <a href="_socket_connection_t_8h_source.html#l00038">SocketConnectionT.h:41</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connection_t_html_a235aeae52b87e8f247fe7796f1f4103a"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a235aeae52b87e8f247fe7796f1f4103a">core::socket::stream::SocketConnectionT&lt; SocketReader&lt; SocketT &gt;, SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;::onDisconnect</a></div><div class="ttdeci">std::function&lt; void()&gt; onDisconnect</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connection_t_8h_source.html#l00171">SocketConnectionT.h:171</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connection_t_html_a539c228609378f22c82b663bfe6cecdc"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#a539c228609378f22c82b663bfe6cecdc">core::socket::stream::SocketConnectionT&lt; SocketReader&lt; SocketT &gt;, SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;::localAddress</a></div><div class="ttdeci">SocketAddress localAddress</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connection_t_8h_source.html#l00166">SocketConnectionT.h:166</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connection_t_html_abb0ee99f20818e923ce504bd6a4741d8"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#abb0ee99f20818e923ce504bd6a4741d8">core::socket::stream::SocketConnectionT&lt; SocketReader&lt; SocketT &gt;, SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;::remoteAddress</a></div><div class="ttdeci">SocketAddress remoteAddress</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connection_t_8h_source.html#l00167">SocketConnectionT.h:167</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connection_t_html_adfd4e98c267719a89452c9b2f37fdc57"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connection_t.html#adfd4e98c267719a89452c9b2f37fdc57">core::socket::stream::SocketConnectionT&lt; SocketReader&lt; SocketT &gt;, SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;::SocketConnectionT</a></div><div class="ttdeci">SocketConnectionT()=delete</div></div>
+<p class="definition">Definition at line <a class="el" href="stream_2legacy_2_socket_connection_8h_source.html#l00051">51</a> of file <a class="el" href="stream_2legacy_2_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            : Super::Descriptor(fd)</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            , <a class="code" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a5d8648f44fcc647975144be5f364f713">Super</a>(</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                  socketProtocolFactory,</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                  <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a1b47db3d4ee9341f7969d44afe41c1f7">localAddress</a>,</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                  <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#af1038ff389aaae6fbf864449598d57bc">remoteAddress</a>,</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                  [onConnect, <span class="keyword">this</span>]() -&gt; <span class="keywordtype">void</span> {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                      onConnect(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                  },</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                  [<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a96aafe2667a533bfee5ed0faa329c057">onDisconnect</a>, <span class="keyword">this</span>]() -&gt; <span class="keywordtype">void</span> {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a96aafe2667a533bfee5ed0faa329c057">onDisconnect</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                  }) {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        }</div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connection_html_a1b47db3d4ee9341f7969d44afe41c1f7"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a1b47db3d4ee9341f7969d44afe41c1f7">core::socket::stream::SocketConnection&lt; core::socket::stream::legacy::SocketReader&lt; SocketT &gt;, core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;::localAddress</a></div><div class="ttdeci">SocketAddress localAddress</div><div class="ttdef"><b>Definition:</b> <a href="stream_2_socket_connection_8h_source.html#l00154">SocketConnection.h:154</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connection_html_a96aafe2667a533bfee5ed0faa329c057"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a96aafe2667a533bfee5ed0faa329c057">core::socket::stream::SocketConnection&lt; core::socket::stream::legacy::SocketReader&lt; SocketT &gt;, core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;::onDisconnect</a></div><div class="ttdeci">std::function&lt; void()&gt; onDisconnect</div><div class="ttdef"><b>Definition:</b> <a href="stream_2_socket_connection_8h_source.html#l00159">SocketConnection.h:159</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connection_html_af1038ff389aaae6fbf864449598d57bc"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#af1038ff389aaae6fbf864449598d57bc">core::socket::stream::SocketConnection&lt; core::socket::stream::legacy::SocketReader&lt; SocketT &gt;, core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;::remoteAddress</a></div><div class="ttdeci">SocketAddress remoteAddress</div><div class="ttdef"><b>Definition:</b> <a href="stream_2_socket_connection_8h_source.html#l00155">SocketConnection.h:155</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection_html_a5d8648f44fcc647975144be5f364f713"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a5d8648f44fcc647975144be5f364f713">core::socket::stream::legacy::SocketConnection::Super</a></div><div class="ttdeci">core::socket::stream::SocketConnection&lt; core::socket::stream::legacy::SocketReader&lt; SocketT &gt;, core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;, typename SocketT::SocketAddress &gt; Super</div><div class="ttdef"><b>Definition:</b> <a href="stream_2legacy_2_socket_connection_8h_source.html#l00040">SocketConnection.h:42</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="ac3cadcb90bede3b8b4ff8e8d2b53ec29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3cadcb90bede3b8b4ff8e8d2b53ec29">&#9670;&nbsp;</a></span>SocketAcceptor</h2>
+<a id="a3e77d759ca5b1b4740578a102bbad0d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e77d759ca5b1b4740578a102bbad0d3">&#9670;&nbsp;</a></span>~SocketConnection()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename SocketT &gt; </div>
-<div class="memtemplate">
-template&lt;typename Socket &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">friend class <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html">SocketAcceptor</a></td>
+          <td class="memname"><a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html">core::socket::stream::legacy::SocketConnection</a>&lt; SocketT &gt;::~<a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html">SocketConnection</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="legacy_2_socket_connection_8h_source.html#l00055">55</a> of file <a class="el" href="legacy_2_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
-
-</div>
-</div>
-<a id="a93358fd8285cbad5c49755553f9c5c49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93358fd8285cbad5c49755553f9c5c49">&#9670;&nbsp;</a></span>SocketConnector</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename SocketT &gt; </div>
-<div class="memtemplate">
-template&lt;typename Socket &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connector.html">SocketConnector</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="legacy_2_socket_connection_8h_source.html#l00058">58</a> of file <a class="el" href="legacy_2_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
+<p>Reimplemented from <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a23e47efb139e240006debe30d8d8b53d">core::socket::SocketConnection</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>core/socket/stream/legacy/<a class="el" href="legacy_2_socket_connection_8h_source.html">SocketConnection.h</a></li>
+<li>core/socket/stream/legacy/<a class="el" href="stream_2legacy_2_socket_connection_8h_source.html">SocketConnection.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
