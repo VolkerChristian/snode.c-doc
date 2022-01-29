@@ -24,6 +24,7 @@ var classcore_1_1_event_receiver =
     [ "triggered", "classcore_1_1_event_receiver.html#a1de6e48903e37b25873e8eebdd91af86", null ],
     [ "descriptorEventDispatcher", "classcore_1_1_event_receiver.html#a2b485286544ae47554dcaaa8eea41f09", null ],
     [ "enabled", "classcore_1_1_event_receiver.html#a2a042876438b1b73bbc749b896390435", null ],
+    [ "eventCounter", "classcore_1_1_event_receiver.html#a8e182e02b44f386f2ead0be701d13125", null ],
     [ "initialTimeout", "classcore_1_1_event_receiver.html#afab3c9d182ba46914dda14a1bd1d5cc5", null ],
     [ "lastTriggered", "classcore_1_1_event_receiver.html#af64249853f320cd93eae418cda971d33", null ],
     [ "maxInactivity", "classcore_1_1_event_receiver.html#a423cb43819d108774b1497d7b54ec93c", null ],

@@ -254,13 +254,14 @@ Static Private Attributes</h2></td></tr>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        }</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="preprocessor">#ifdef HAS_LIBMAGIC</span></div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (magic != <span class="keyword">nullptr</span>) {</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;            type = magic_file(MimeTypes::magic, file.c_str());</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;            type = magic_file(MimeTypes::magic, <a class="code" href="namespace_c_l_i_1_1detail.html#a20a9a67e5f06ba0dc3f2ded2fed16f55a8c7dd922ad47494fc02c388e12c00eac">file</a>.c_str());</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        }</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160; </div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        <span class="keywordflow">return</span> type;</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    }</div>
 <div class="ttc" id="aclassweb_1_1http_1_1_mime_types_html_a8b63cc1eaa5b7bd338d8354a336609d0"><div class="ttname"><a href="classweb_1_1http_1_1_mime_types.html#a8b63cc1eaa5b7bd338d8354a336609d0">web::http::MimeTypes::mimeType</a></div><div class="ttdeci">static std::map&lt; std::string, std::string &gt; mimeType</div><div class="ttdef"><b>Definition:</b> <a href="_mime_types_8h_source.html#l00053">MimeTypes.h:53</a></div></div>
+<div class="ttc" id="anamespace_c_l_i_1_1detail_html_a20a9a67e5f06ba0dc3f2ded2fed16f55a8c7dd922ad47494fc02c388e12c00eac"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a20a9a67e5f06ba0dc3f2ded2fed16f55a8c7dd922ad47494fc02c388e12c00eac">CLI::detail::path_type::file</a></div><div class="ttdeci">@ file</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_mime_types_8h_source.html#l00053">mimeType</a>.</p>
 

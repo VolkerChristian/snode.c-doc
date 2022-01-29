@@ -181,14 +181,23 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="http__utils_8cpp_source.html#l00178">178</a> of file <a class="el" href="http__utils_8cpp_source.html">http_utils.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                                                                   {</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keyword">auto</span> it = std::search(str1.begin(), str1.end(), str2.begin(), str2.end(), [](<span class="keywordtype">char</span> ch1, <span class="keywordtype">char</span> ch2) {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keyword">auto</span> it = <a class="code" href="namespace_c_l_i_1_1detail.html#aa4b4a0a97c9b07110595765887647385">std::search</a>(str1.begin(), str1.end(), str2.begin(), str2.end(), [](<span class="keywordtype">char</span> ch1, <span class="keywordtype">char</span> ch2) {</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;            return std::toupper(ch1) == std::toupper(ch2);</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        });</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160; </div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <span class="keywordflow">return</span> (it != str1.end());</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    }</div>
+<div class="ttc" id="anamespace_c_l_i_1_1detail_html_aa4b4a0a97c9b07110595765887647385"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#aa4b4a0a97c9b07110595765887647385">CLI::detail::search</a></div><div class="ttdeci">auto search(const T &amp;set, const V &amp;val) -&gt; std::pair&lt; bool, decltype(std::begin(detail::smart_deref(set)))&gt;</div><div class="ttdoc">A search function.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l03324">CLI11.hpp:3324</a></div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l03324">CLI::detail::search()</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="web_2http_2client_2_request_8cpp_source.html#l00065">web::http::client::Request::set()</a>, <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00113">web::http::server::Response::set()</a>, <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00157">web::http::server::Response::upgrade()</a>, and <a class="el" href="web_2http_2client_2_response_8cpp_source.html#l00073">web::http::client::Response::upgrade()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacehttputils_af566d4f31d97a3a84b373a94e6cf9594_cgraph.svg" width="536" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -348,20 +357,29 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="http__utils_8cpp_source.html#l00091">91</a> of file <a class="el" href="http__utils_8cpp_source.html">http_utils.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                                                                                  {</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        std::pair&lt;std::string, std::string&gt; split;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        std::pair&lt;std::string, std::string&gt; <a class="code" href="namespace_c_l_i_1_1detail.html#a9e78d046d8a9c2d6f246bd1e36e57ec6">split</a>;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> middle = base.find_first_of(c_middle);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        split.first = base.substr(0, middle);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <a class="code" href="namespace_c_l_i_1_1detail.html#a9e78d046d8a9c2d6f246bd1e36e57ec6">split</a>.first = base.substr(0, middle);</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">if</span> (middle != std::string::npos) {</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            split.second = base.substr(middle + 1);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            <a class="code" href="namespace_c_l_i_1_1detail.html#a9e78d046d8a9c2d6f246bd1e36e57ec6">split</a>.second = base.substr(middle + 1);</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        }</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">return</span> split;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespace_c_l_i_1_1detail.html#a9e78d046d8a9c2d6f246bd1e36e57ec6">split</a>;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    }</div>
+<div class="ttc" id="anamespace_c_l_i_1_1detail_html_a9e78d046d8a9c2d6f246bd1e36e57ec6"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a9e78d046d8a9c2d6f246bd1e36e57ec6">CLI::detail::split</a></div><div class="ttdeci">std::vector&lt; std::string &gt; split(const std::string &amp;s, char delim)</div><div class="ttdoc">Split a string by a delim.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l00154">CLI11.hpp:154</a></div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l00154">CLI::detail::split()</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="websocket_2server_2_socket_context_upgrade_factory_8cpp_source.html#l00039">web::websocket::server::SocketContextUpgradeFactory::create()</a>, <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00056">web::http::server::SocketContextUpgradeFactorySelector::select()</a>, and <a class="el" href="_parser_8cpp_source.html#l00156">web::http::Parser::splitHeaderLine()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacehttputils_a9e46abe5c20380871f3884c9176a424d_cgraph.svg" width="318" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -399,20 +417,28 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="http__utils_8cpp_source.html#l00105">105</a> of file <a class="el" href="http__utils_8cpp_source.html">http_utils.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                                                                                       {</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        std::pair&lt;std::string, std::string&gt; split;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        std::pair&lt;std::string, std::string&gt; <a class="code" href="namespace_c_l_i_1_1detail.html#a9e78d046d8a9c2d6f246bd1e36e57ec6">split</a>;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> middle = base.find_last_of(c_middle);</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        split.first = base.substr(0, middle);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <a class="code" href="namespace_c_l_i_1_1detail.html#a9e78d046d8a9c2d6f246bd1e36e57ec6">split</a>.first = base.substr(0, middle);</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">if</span> (middle != std::string::npos) {</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            split.second = base.substr(middle + 1);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <a class="code" href="namespace_c_l_i_1_1detail.html#a9e78d046d8a9c2d6f246bd1e36e57ec6">split</a>.second = base.substr(middle + 1);</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        }</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">return</span> split;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespace_c_l_i_1_1detail.html#a9e78d046d8a9c2d6f246bd1e36e57ec6">split</a>;</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l00154">CLI::detail::split()</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="express_2_request_8cpp_source.html#l00035">express::Request::extend()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacehttputils_a80eaf509829378ed76d2dad7fd41bef0_cgraph.svg" width="348" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

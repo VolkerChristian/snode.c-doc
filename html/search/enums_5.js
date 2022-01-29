@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['opcode_2170',['OpCode',['../classweb_1_1websocket_1_1_socket_context_upgrade.html#afe7f0b682e699a618736ddc20bb13fc2',1,'web::websocket::SocketContextUpgrade']]]
+  ['httpcompliance_3534',['HTTPCompliance',['../classweb_1_1http_1_1_parser.html#afaf85771e39341e129795529ef8c4f8f',1,'web::http::Parser']]]
 ];

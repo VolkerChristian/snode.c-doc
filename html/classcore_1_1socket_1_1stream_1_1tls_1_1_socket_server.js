@@ -4,7 +4,7 @@ var classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server =
     [ "SocketAddress", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a4d65f0791ba60106521172b6a1edc13c", null ],
     [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a46b7a5d8fe971c9bf20df450866d521b", null ],
     [ "Super", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a767b4011b96a6c30c5fbd8bc7a3d0334", null ],
-    [ "SocketServer", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#af706a390d0e38a4dd9b40b88c9b91020", null ],
+    [ "SocketServer", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#afb0cd9febca2e5f3988408d95a97763b", null ],
     [ "addSniCert", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#acb5abcf03ec1f95f4b91a611a7477908", null ],
     [ "addSniCerts", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a80ce55886674a357bf977e6100924e7b", null ],
     [ "addSniCtx", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a3462da086fd0d55756a828a6ca947976", null ],

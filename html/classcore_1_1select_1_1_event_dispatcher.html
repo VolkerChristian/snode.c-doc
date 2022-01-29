@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('classcore_1_1select_1_1_event_dispatch
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="select_2_event_dispatcher_8h_source.html">EventDispatcher.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="mux_2select_2_event_dispatcher_8h_source.html">EventDispatcher.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for core::select::EventDispatcher:</div>
 <div class="dyncontent">
@@ -164,7 +164,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="select_2_event_dispatcher_8h_source.html#l00035">35</a> of file <a class="el" href="select_2_event_dispatcher_8h_source.html">EventDispatcher.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2select_2_event_dispatcher_8h_source.html#l00035">35</a> of file <a class="el" href="mux_2select_2_event_dispatcher_8h_source.html">EventDispatcher.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8222b3e1ddf738328275a4d291b07af7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8222b3e1ddf738328275a4d291b07af7">&#9670;&nbsp;</a></span>EventDispatcher() <span class="overload">[1/2]</span></h2>
@@ -207,17 +207,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="select_2_event_dispatcher_8cpp_source.html#l00036">36</a> of file <a class="el" href="select_2_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        : <a class="code" href="epoll_2_event_dispatcher_8cpp.html#a257f1eb92ef78e314f50d5277967807b">core::EventDispatcher</a>(<span class="keyword">new</span> <a class="code" href="classcore_1_1select_1_1_descriptor_event_dispatcher.html">core::select::DescriptorEventDispatcher</a>(<a class="code" href="classcore_1_1select_1_1_event_dispatcher.html#abacff0848fc870b9a4ba2b975f820b74">fdSets</a>[<a class="code" href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8ba26bffd1e5037589f9b903a6266a14b09">RD</a>]),</div>
+<p class="definition">Definition at line <a class="el" href="mux_2select_2_event_dispatcher_8cpp_source.html#l00036">36</a> of file <a class="el" href="mux_2select_2_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        : <a class="code" href="mux_2epoll_2_event_dispatcher_8cpp.html#a257f1eb92ef78e314f50d5277967807b">core::EventDispatcher</a>(<span class="keyword">new</span> <a class="code" href="classcore_1_1select_1_1_descriptor_event_dispatcher.html">core::select::DescriptorEventDispatcher</a>(<a class="code" href="classcore_1_1select_1_1_event_dispatcher.html#abacff0848fc870b9a4ba2b975f820b74">fdSets</a>[<a class="code" href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8ba26bffd1e5037589f9b903a6266a14b09">RD</a>]),</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                <span class="keyword">new</span> <a class="code" href="classcore_1_1select_1_1_descriptor_event_dispatcher.html">core::select::DescriptorEventDispatcher</a>(<a class="code" href="classcore_1_1select_1_1_event_dispatcher.html#abacff0848fc870b9a4ba2b975f820b74">fdSets</a>[<a class="code" href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8baa59136c213f8053cb7a68638887eb2f2">WR</a>]),</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                                <span class="keyword">new</span> <a class="code" href="classcore_1_1select_1_1_descriptor_event_dispatcher.html">core::select::DescriptorEventDispatcher</a>(<a class="code" href="classcore_1_1select_1_1_event_dispatcher.html#abacff0848fc870b9a4ba2b975f820b74">fdSets</a>[<a class="code" href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8ba5fecb37e76c991d620f1919813292f97">EX</a>])) {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a979ee87db10fb248bee2443b82424d8ba26bffd1e5037589f9b903a6266a14b09"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8ba26bffd1e5037589f9b903a6266a14b09">core::EventDispatcher::RD</a></div><div class="ttdeci">@ RD</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8h_source.html#l00054">EventDispatcher.h:54</a></div></div>
 <div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a979ee87db10fb248bee2443b82424d8ba5fecb37e76c991d620f1919813292f97"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8ba5fecb37e76c991d620f1919813292f97">core::EventDispatcher::EX</a></div><div class="ttdeci">@ EX</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8h_source.html#l00054">EventDispatcher.h:54</a></div></div>
 <div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a979ee87db10fb248bee2443b82424d8baa59136c213f8053cb7a68638887eb2f2"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8baa59136c213f8053cb7a68638887eb2f2">core::EventDispatcher::WR</a></div><div class="ttdeci">@ WR</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8h_source.html#l00054">EventDispatcher.h:54</a></div></div>
-<div class="ttc" id="aclasscore_1_1select_1_1_descriptor_event_dispatcher_html"><div class="ttname"><a href="classcore_1_1select_1_1_descriptor_event_dispatcher.html">core::select::DescriptorEventDispatcher</a></div><div class="ttdef"><b>Definition:</b> <a href="select_2_descriptor_event_dispatcher_8h_source.html#l00055">DescriptorEventDispatcher.h:55</a></div></div>
-<div class="ttc" id="aclasscore_1_1select_1_1_event_dispatcher_html_abacff0848fc870b9a4ba2b975f820b74"><div class="ttname"><a href="classcore_1_1select_1_1_event_dispatcher.html#abacff0848fc870b9a4ba2b975f820b74">core::select::EventDispatcher::fdSets</a></div><div class="ttdeci">FdSet fdSets[3]</div><div class="ttdef"><b>Definition:</b> <a href="select_2_event_dispatcher_8h_source.html#l00047">EventDispatcher.h:47</a></div></div>
-<div class="ttc" id="aepoll_2_event_dispatcher_8cpp_html_a257f1eb92ef78e314f50d5277967807b"><div class="ttname"><a href="epoll_2_event_dispatcher_8cpp.html#a257f1eb92ef78e314f50d5277967807b">EventDispatcher</a></div><div class="ttdeci">core::EventDispatcher &amp; EventDispatcher()</div><div class="ttdef"><b>Definition:</b> <a href="epoll_2_event_dispatcher_8cpp_source.html#l00029">EventDispatcher.cpp:29</a></div></div>
+<div class="ttc" id="aclasscore_1_1select_1_1_descriptor_event_dispatcher_html"><div class="ttname"><a href="classcore_1_1select_1_1_descriptor_event_dispatcher.html">core::select::DescriptorEventDispatcher</a></div><div class="ttdef"><b>Definition:</b> <a href="mux_2select_2_descriptor_event_dispatcher_8h_source.html#l00055">DescriptorEventDispatcher.h:55</a></div></div>
+<div class="ttc" id="aclasscore_1_1select_1_1_event_dispatcher_html_abacff0848fc870b9a4ba2b975f820b74"><div class="ttname"><a href="classcore_1_1select_1_1_event_dispatcher.html#abacff0848fc870b9a4ba2b975f820b74">core::select::EventDispatcher::fdSets</a></div><div class="ttdeci">FdSet fdSets[3]</div><div class="ttdef"><b>Definition:</b> <a href="mux_2select_2_event_dispatcher_8h_source.html#l00047">EventDispatcher.h:47</a></div></div>
+<div class="ttc" id="amux_2epoll_2_event_dispatcher_8cpp_html_a257f1eb92ef78e314f50d5277967807b"><div class="ttname"><a href="mux_2epoll_2_event_dispatcher_8cpp.html#a257f1eb92ef78e314f50d5277967807b">EventDispatcher</a></div><div class="ttdeci">core::EventDispatcher &amp; EventDispatcher()</div><div class="ttdef"><b>Definition:</b> <a href="mux_2epoll_2_event_dispatcher_8cpp_source.html#l00029">EventDispatcher.cpp:29</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -283,7 +283,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classcore_1_1_event_dispatcher.html#a871c108fbe3474eda25a7a8308fff058">core::EventDispatcher</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="select_2_event_dispatcher_8cpp_source.html#l00046">46</a> of file <a class="el" href="select_2_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2select_2_event_dispatcher_8cpp_source.html#l00046">46</a> of file <a class="el" href="mux_2select_2_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                                                                                         {</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">if</span> (count &gt; 0) {</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <span class="keyword">const</span> eventDispatcher : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) {</div>
@@ -328,14 +328,14 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classcore_1_1_event_dispatcher.html#a0ecbf87eb5bb10f93779e61e7a59d5d5">core::EventDispatcher</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="select_2_event_dispatcher_8cpp_source.html#l00042">42</a> of file <a class="el" href="select_2_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2select_2_event_dispatcher_8cpp_source.html#l00042">42</a> of file <a class="el" href="mux_2select_2_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                                                            {</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespacecore_1_1system.html#aeab6bc4edb67dd3ee9c589269dd2bf0b">core::system::select</a>(<a class="code" href="classcore_1_1_event_dispatcher.html#a4721671f97d21597bc8ccf794a57c595">getMaxFd</a>() + 1, &amp;<a class="code" href="classcore_1_1select_1_1_event_dispatcher.html#abacff0848fc870b9a4ba2b975f820b74">fdSets</a>[<a class="code" href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8ba26bffd1e5037589f9b903a6266a14b09">RD</a>].get(), &amp;<a class="code" href="classcore_1_1select_1_1_event_dispatcher.html#abacff0848fc870b9a4ba2b975f820b74">fdSets</a>[<a class="code" href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8baa59136c213f8053cb7a68638887eb2f2">WR</a>].get(), &amp;<a class="code" href="classcore_1_1select_1_1_event_dispatcher.html#abacff0848fc870b9a4ba2b975f820b74">fdSets</a>[<a class="code" href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8ba5fecb37e76c991d620f1919813292f97">EX</a>].get(), &amp;tickTimeOut);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a4721671f97d21597bc8ccf794a57c595"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a4721671f97d21597bc8ccf794a57c595">core::EventDispatcher::getMaxFd</a></div><div class="ttdeci">int getMaxFd()</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8cpp_source.html#l00067">EventDispatcher.cpp:67</a></div></div>
 <div class="ttc" id="anamespacecore_1_1system_html_aeab6bc4edb67dd3ee9c589269dd2bf0b"><div class="ttname"><a href="namespacecore_1_1system.html#aeab6bc4edb67dd3ee9c589269dd2bf0b">core::system::select</a></div><div class="ttdeci">int select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struct timeval *timeout)</div><div class="ttdef"><b>Definition:</b> <a href="select_8cpp_source.html#l00029">select.cpp:29</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00054">core::EventDispatcher::EX</a>, <a class="el" href="select_2_event_dispatcher_8h_source.html#l00047">fdSets</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00067">core::EventDispatcher::getMaxFd()</a>, <a class="el" href="_event_dispatcher_8h_source.html#l00054">core::EventDispatcher::RD</a>, <a class="el" href="select_8cpp_source.html#l00029">core::system::select()</a>, and <a class="el" href="_event_dispatcher_8h_source.html#l00054">core::EventDispatcher::WR</a>.</p>
+<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00054">core::EventDispatcher::EX</a>, <a class="el" href="mux_2select_2_event_dispatcher_8h_source.html#l00047">fdSets</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00067">core::EventDispatcher::getMaxFd()</a>, <a class="el" href="_event_dispatcher_8h_source.html#l00054">core::EventDispatcher::RD</a>, <a class="el" href="select_8cpp_source.html#l00029">core::system::select()</a>, and <a class="el" href="_event_dispatcher_8h_source.html#l00054">core::EventDispatcher::WR</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -392,15 +392,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="select_2_event_dispatcher_8h_source.html#l00047">47</a> of file <a class="el" href="select_2_event_dispatcher_8h_source.html">EventDispatcher.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2select_2_event_dispatcher_8h_source.html#l00047">47</a> of file <a class="el" href="mux_2select_2_event_dispatcher_8h_source.html">EventDispatcher.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="select_2_event_dispatcher_8cpp_source.html#l00042">multiplex()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mux_2select_2_event_dispatcher_8cpp_source.html#l00042">multiplex()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>core/select/<a class="el" href="select_2_event_dispatcher_8h_source.html">EventDispatcher.h</a></li>
-<li>core/select/<a class="el" href="select_2_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a></li>
+<li>core/mux/select/<a class="el" href="mux_2select_2_event_dispatcher_8h_source.html">EventDispatcher.h</a></li>
+<li>core/mux/select/<a class="el" href="mux_2select_2_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

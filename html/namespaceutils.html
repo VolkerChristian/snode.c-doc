@@ -98,6 +98,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutils_1_1_multible_attribute_injector.html">MultibleAttributeInjector</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutils_1_1_config.html">Config</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutils_1_1_timeval.html">Timeval</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -141,9 +143,10 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_timeval_8cpp_source.html#l00189">189</a> of file <a class="el" href="_timeval_8cpp_source.html">Timeval.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                                                                             {</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">return</span> ostream &lt;&lt; <span class="stringliteral">&quot;{&quot;</span> + std::to_string(timeVal.<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec) + <span class="stringliteral">&quot;:&quot;</span> + std::to_string(timeVal.<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec) + <span class="stringliteral">&quot;}&quot;</span>;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">return</span> ostream &lt;&lt; <span class="stringliteral">&quot;{&quot;</span> + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(timeVal.<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec) + <span class="stringliteral">&quot;:&quot;</span> + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(timeVal.<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec) + <span class="stringliteral">&quot;}&quot;</span>;</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
 <div class="ttc" id="aclassutils_1_1_timeval_html_a553ae25c0399d9e68393779f41de83d2"><div class="ttname"><a href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">utils::Timeval::timeVal</a></div><div class="ttdeci">timeval timeVal</div><div class="ttdef"><b>Definition:</b> <a href="_timeval_8h_source.html#l00071">Timeval.h:71</a></div></div>
+<div class="ttc" id="anamespace_c_l_i_1_1detail_html_a0e94052d485636fc9f18c21009026577"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">CLI::detail::to_string</a></div><div class="ttdeci">auto to_string(T &amp;&amp;value) -&gt; decltype(std::forward&lt; T &gt;(value))</div><div class="ttdoc">Convert an object to a string (directly forward if this can become a string)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l01203">CLI11.hpp:1203</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>

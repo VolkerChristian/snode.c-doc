@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('classcore_1_1poll_1_1_event_dispatcher
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="poll_2_event_dispatcher_8h_source.html">EventDispatcher.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="mux_2poll_2_event_dispatcher_8h_source.html">EventDispatcher.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for core::poll::EventDispatcher:</div>
 <div class="dyncontent">
@@ -164,7 +164,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="poll_2_event_dispatcher_8h_source.html#l00077">77</a> of file <a class="el" href="poll_2_event_dispatcher_8h_source.html">EventDispatcher.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2poll_2_event_dispatcher_8h_source.html#l00077">77</a> of file <a class="el" href="mux_2poll_2_event_dispatcher_8h_source.html">EventDispatcher.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a60e6b27b4cf1c8f5041264910c98c7a6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a60e6b27b4cf1c8f5041264910c98c7a6">&#9670;&nbsp;</a></span>EventDispatcher() <span class="overload">[1/2]</span></h2>
@@ -207,14 +207,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="poll_2_event_dispatcher_8cpp_source.html#l00160">160</a> of file <a class="el" href="poll_2_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        : <a class="code" href="epoll_2_event_dispatcher_8cpp.html#a257f1eb92ef78e314f50d5277967807b">core::EventDispatcher</a>(<span class="keyword">new</span> <a class="code" href="classcore_1_1poll_1_1_descriptor_event_dispatcher.html">core::poll::DescriptorEventDispatcher</a>(<a class="code" href="classcore_1_1poll_1_1_event_dispatcher.html#addfba1fc54646ca851fa5c8b3429d67b">pollFds</a>, POLLIN, POLLIN | POLLHUP | POLLRDHUP | POLLERR),</div>
+<p class="definition">Definition at line <a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html#l00160">160</a> of file <a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        : <a class="code" href="mux_2epoll_2_event_dispatcher_8cpp.html#a257f1eb92ef78e314f50d5277967807b">core::EventDispatcher</a>(<span class="keyword">new</span> <a class="code" href="classcore_1_1poll_1_1_descriptor_event_dispatcher.html">core::poll::DescriptorEventDispatcher</a>(<a class="code" href="classcore_1_1poll_1_1_event_dispatcher.html#addfba1fc54646ca851fa5c8b3429d67b">pollFds</a>, POLLIN, POLLIN | POLLHUP | POLLRDHUP | POLLERR),</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                                <span class="keyword">new</span> <a class="code" href="classcore_1_1poll_1_1_descriptor_event_dispatcher.html">core::poll::DescriptorEventDispatcher</a>(<a class="code" href="classcore_1_1poll_1_1_event_dispatcher.html#addfba1fc54646ca851fa5c8b3429d67b">pollFds</a>, POLLOUT, POLLOUT),</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                                <span class="keyword">new</span> <a class="code" href="classcore_1_1poll_1_1_descriptor_event_dispatcher.html">core::poll::DescriptorEventDispatcher</a>(<a class="code" href="classcore_1_1poll_1_1_event_dispatcher.html#addfba1fc54646ca851fa5c8b3429d67b">pollFds</a>, POLLPRI, POLLPRI)) {</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1poll_1_1_descriptor_event_dispatcher_html"><div class="ttname"><a href="classcore_1_1poll_1_1_descriptor_event_dispatcher.html">core::poll::DescriptorEventDispatcher</a></div><div class="ttdef"><b>Definition:</b> <a href="poll_2_descriptor_event_dispatcher_8h_source.html#l00041">DescriptorEventDispatcher.h:41</a></div></div>
-<div class="ttc" id="aclasscore_1_1poll_1_1_event_dispatcher_html_addfba1fc54646ca851fa5c8b3429d67b"><div class="ttname"><a href="classcore_1_1poll_1_1_event_dispatcher.html#addfba1fc54646ca851fa5c8b3429d67b">core::poll::EventDispatcher::pollFds</a></div><div class="ttdeci">PollFds pollFds</div><div class="ttdef"><b>Definition:</b> <a href="poll_2_event_dispatcher_8h_source.html#l00090">EventDispatcher.h:90</a></div></div>
-<div class="ttc" id="aepoll_2_event_dispatcher_8cpp_html_a257f1eb92ef78e314f50d5277967807b"><div class="ttname"><a href="epoll_2_event_dispatcher_8cpp.html#a257f1eb92ef78e314f50d5277967807b">EventDispatcher</a></div><div class="ttdeci">core::EventDispatcher &amp; EventDispatcher()</div><div class="ttdef"><b>Definition:</b> <a href="epoll_2_event_dispatcher_8cpp_source.html#l00029">EventDispatcher.cpp:29</a></div></div>
+<div class="ttc" id="aclasscore_1_1poll_1_1_descriptor_event_dispatcher_html"><div class="ttname"><a href="classcore_1_1poll_1_1_descriptor_event_dispatcher.html">core::poll::DescriptorEventDispatcher</a></div><div class="ttdef"><b>Definition:</b> <a href="mux_2poll_2_descriptor_event_dispatcher_8h_source.html#l00041">DescriptorEventDispatcher.h:41</a></div></div>
+<div class="ttc" id="aclasscore_1_1poll_1_1_event_dispatcher_html_addfba1fc54646ca851fa5c8b3429d67b"><div class="ttname"><a href="classcore_1_1poll_1_1_event_dispatcher.html#addfba1fc54646ca851fa5c8b3429d67b">core::poll::EventDispatcher::pollFds</a></div><div class="ttdeci">PollFds pollFds</div><div class="ttdef"><b>Definition:</b> <a href="mux_2poll_2_event_dispatcher_8h_source.html#l00090">EventDispatcher.h:90</a></div></div>
+<div class="ttc" id="amux_2epoll_2_event_dispatcher_8cpp_html_a257f1eb92ef78e314f50d5277967807b"><div class="ttname"><a href="mux_2epoll_2_event_dispatcher_8cpp.html#a257f1eb92ef78e314f50d5277967807b">EventDispatcher</a></div><div class="ttdeci">core::EventDispatcher &amp; EventDispatcher()</div><div class="ttdef"><b>Definition:</b> <a href="mux_2epoll_2_event_dispatcher_8cpp_source.html#l00029">EventDispatcher.cpp:29</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -280,7 +280,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classcore_1_1_event_dispatcher.html#a871c108fbe3474eda25a7a8308fff058">core::EventDispatcher</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="poll_2_event_dispatcher_8cpp_source.html#l00170">170</a> of file <a class="el" href="poll_2_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html#l00170">170</a> of file <a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                                                                                         {</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="keywordflow">if</span> (count &gt; 0) {</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <span class="keyword">const</span> eventDispatcher : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) {</div>
@@ -325,16 +325,16 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classcore_1_1_event_dispatcher.html#a0ecbf87eb5bb10f93779e61e7a59d5d5">core::EventDispatcher</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="poll_2_event_dispatcher_8cpp_source.html#l00166">166</a> of file <a class="el" href="poll_2_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html#l00166">166</a> of file <a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                                                            {</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespacecore_1_1system.html#ab33bc3708f662ee03fc101d59ebbea94">core::system::poll</a>(<a class="code" href="classcore_1_1poll_1_1_event_dispatcher.html#addfba1fc54646ca851fa5c8b3429d67b">pollFds</a>.<a class="code" href="classcore_1_1poll_1_1_poll_fds.html#a283f55c8514d3191220db2c2b678736c">getEvents</a>(), <a class="code" href="classcore_1_1poll_1_1_event_dispatcher.html#addfba1fc54646ca851fa5c8b3429d67b">pollFds</a>.<a class="code" href="classcore_1_1poll_1_1_poll_fds.html#ae31c4f97e18535372e9e20fada34e62b">getInterestCount</a>(), tickTimeOut.<a class="code" href="classutils_1_1_timeval.html#a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b">ms</a>());</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1poll_1_1_poll_fds_html_a283f55c8514d3191220db2c2b678736c"><div class="ttname"><a href="classcore_1_1poll_1_1_poll_fds.html#a283f55c8514d3191220db2c2b678736c">core::poll::PollFds::getEvents</a></div><div class="ttdeci">pollfd * getEvents()</div><div class="ttdef"><b>Definition:</b> <a href="poll_2_event_dispatcher_8cpp_source.html#l00148">EventDispatcher.cpp:148</a></div></div>
-<div class="ttc" id="aclasscore_1_1poll_1_1_poll_fds_html_ae31c4f97e18535372e9e20fada34e62b"><div class="ttname"><a href="classcore_1_1poll_1_1_poll_fds.html#ae31c4f97e18535372e9e20fada34e62b">core::poll::PollFds::getInterestCount</a></div><div class="ttdeci">nfds_t getInterestCount() const</div><div class="ttdef"><b>Definition:</b> <a href="poll_2_event_dispatcher_8cpp_source.html#l00156">EventDispatcher.cpp:156</a></div></div>
+<div class="ttc" id="aclasscore_1_1poll_1_1_poll_fds_html_a283f55c8514d3191220db2c2b678736c"><div class="ttname"><a href="classcore_1_1poll_1_1_poll_fds.html#a283f55c8514d3191220db2c2b678736c">core::poll::PollFds::getEvents</a></div><div class="ttdeci">pollfd * getEvents()</div><div class="ttdef"><b>Definition:</b> <a href="mux_2poll_2_event_dispatcher_8cpp_source.html#l00148">EventDispatcher.cpp:148</a></div></div>
+<div class="ttc" id="aclasscore_1_1poll_1_1_poll_fds_html_ae31c4f97e18535372e9e20fada34e62b"><div class="ttname"><a href="classcore_1_1poll_1_1_poll_fds.html#ae31c4f97e18535372e9e20fada34e62b">core::poll::PollFds::getInterestCount</a></div><div class="ttdeci">nfds_t getInterestCount() const</div><div class="ttdef"><b>Definition:</b> <a href="mux_2poll_2_event_dispatcher_8cpp_source.html#l00156">EventDispatcher.cpp:156</a></div></div>
 <div class="ttc" id="aclassutils_1_1_timeval_html_a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b"><div class="ttname"><a href="classutils_1_1_timeval.html#a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b">utils::Timeval::ms</a></div><div class="ttdeci">int ms() const</div><div class="ttdef"><b>Definition:</b> <a href="_timeval_8cpp_source.html#l00161">Timeval.cpp:161</a></div></div>
 <div class="ttc" id="anamespacecore_1_1system_html_ab33bc3708f662ee03fc101d59ebbea94"><div class="ttname"><a href="namespacecore_1_1system.html#ab33bc3708f662ee03fc101d59ebbea94">core::system::poll</a></div><div class="ttdeci">int poll(pollfd *fds, nfds_t nfds, int timeout)</div><div class="ttdef"><b>Definition:</b> <a href="poll_8cpp_source.html#l00029">poll.cpp:29</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="poll_2_event_dispatcher_8cpp_source.html#l00148">core::poll::PollFds::getEvents()</a>, <a class="el" href="poll_2_event_dispatcher_8cpp_source.html#l00156">core::poll::PollFds::getInterestCount()</a>, <a class="el" href="_timeval_8cpp_source.html#l00161">utils::Timeval::ms()</a>, <a class="el" href="poll_8cpp_source.html#l00029">core::system::poll()</a>, and <a class="el" href="poll_2_event_dispatcher_8h_source.html#l00090">pollFds</a>.</p>
+<p class="reference">References <a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html#l00148">core::poll::PollFds::getEvents()</a>, <a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html#l00156">core::poll::PollFds::getInterestCount()</a>, <a class="el" href="_timeval_8cpp_source.html#l00161">utils::Timeval::ms()</a>, <a class="el" href="poll_8cpp_source.html#l00029">core::system::poll()</a>, and <a class="el" href="mux_2poll_2_event_dispatcher_8h_source.html#l00090">pollFds</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -391,15 +391,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="poll_2_event_dispatcher_8h_source.html#l00090">90</a> of file <a class="el" href="poll_2_event_dispatcher_8h_source.html">EventDispatcher.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2poll_2_event_dispatcher_8h_source.html#l00090">90</a> of file <a class="el" href="mux_2poll_2_event_dispatcher_8h_source.html">EventDispatcher.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="poll_2_event_dispatcher_8cpp_source.html#l00166">multiplex()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html#l00166">multiplex()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>core/poll/<a class="el" href="poll_2_event_dispatcher_8h_source.html">EventDispatcher.h</a></li>
-<li>core/poll/<a class="el" href="poll_2_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a></li>
+<li>core/mux/poll/<a class="el" href="mux_2poll_2_event_dispatcher_8h_source.html">EventDispatcher.h</a></li>
+<li>core/mux/poll/<a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -374,20 +374,20 @@ Extract Server and Client Information (host name, IP, port, SSL/TLS information)
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnConnect:&quot;</span>;</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tClient: &quot;</span> + socketConnection-&gt;getRemoteAddress().host()</div>
 <div class="line">                          + <span class="stringliteral">&quot;(&quot;</span> + socketConnection-&gt;getRemoteAddress().ip() + <span class="stringliteral">&quot;):&quot;</span></div>
-<div class="line">                 + std::to_string(socketConnection-&gt;getRemoteAddress().port());</div>
+<div class="line">                 + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(socketConnection-&gt;getRemoteAddress().port());</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tServer: &quot;</span> + socketConnection-&gt;getLocalAddress().host()</div>
 <div class="line">                          + <span class="stringliteral">&quot;(&quot;</span> + socketConnection-&gt;getLocalAddress().ip() + <span class="stringliteral">&quot;):&quot;</span></div>
-<div class="line">                 + std::to_string(socketConnection-&gt;getLocalAddress().port());</div>
+<div class="line">                 + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(socketConnection-&gt;getLocalAddress().port());</div>
 <div class="line">    });</div>
 <div class="line"> </div>
 <div class="line">    legacyApp.onDisconnect([](core::socket::legacy::SocketConnection* socketConnection) {</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnDisconnect:&quot;</span>;</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tClient: &quot;</span> + socketConnection-&gt;getRemoteAddress().host()</div>
 <div class="line">                          + <span class="stringliteral">&quot;(&quot;</span> + socketConnection-&gt;getRemoteAddress().ip() + <span class="stringliteral">&quot;):&quot;</span></div>
-<div class="line">                 + std::to_string(socketConnection-&gt;getRemoteAddress().port());</div>
+<div class="line">                 + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(socketConnection-&gt;getRemoteAddress().port());</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tServer: &quot;</span> + socketConnection-&gt;getLocalAddress().host() </div>
 <div class="line">                          + <span class="stringliteral">&quot;(&quot;</span> + socketConnection-&gt;getLocalAddress().ip() + <span class="stringliteral">&quot;):&quot;</span></div>
-<div class="line">                 + std::to_string(socketConnection-&gt;getLocalAddress().port());</div>
+<div class="line">                 + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(socketConnection-&gt;getLocalAddress().port());</div>
 <div class="line">    });</div>
 <div class="line"> </div>
 <div class="line">    <a class="code" href="namespaceexpress_1_1legacy_1_1in.html#a100edb4786f87c3e88f0518b4feb59e7">tls::WebApp</a> tlsApp(getRouter(), {{<span class="stringliteral">&quot;certChain&quot;</span>, CERTF}, </div>
@@ -406,10 +406,10 @@ Extract Server and Client Information (host name, IP, port, SSL/TLS information)
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnConnect:&quot;</span>;</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tServer: &quot;</span> + socketConnection-&gt;getLocalAddress().host()</div>
 <div class="line">                          + <span class="stringliteral">&quot;(&quot;</span> + socketConnection-&gt;getLocalAddress().ip() + <span class="stringliteral">&quot;):&quot;</span></div>
-<div class="line">                 + std::to_string(socketConnection-&gt;getLocalAddress().port());</div>
+<div class="line">                 + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(socketConnection-&gt;getLocalAddress().port());</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tClient: &quot;</span> + socketConnection-&gt;getRemoteAddress().host()</div>
 <div class="line">                          + <span class="stringliteral">&quot;(&quot;</span> + socketConnection-&gt;getRemoteAddress().ip() + <span class="stringliteral">&quot;):&quot;</span></div>
-<div class="line">                 + std::to_string(socketConnection-&gt;getRemoteAddress().port());</div>
+<div class="line">                 + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(socketConnection-&gt;getRemoteAddress().port());</div>
 <div class="line"> </div>
 <div class="line">        X509* client_cert = SSL_get_peer_certificate(socketConnection-&gt;getSSL());</div>
 <div class="line"> </div>
@@ -441,7 +441,7 @@ Extract Server and Client Information (host name, IP, port, SSL/TLS information)
 <div class="line">                    std::string subjectAltName = std::string(<span class="keyword">reinterpret_cast&lt;</span><span class="keyword">const </span><span class="keywordtype">char</span>*<span class="keyword">&gt;</span>(ASN1_STRING_get0_data(generalName-&gt;d.dNSName)), ASN1_STRING_length(generalName-&gt;d.dNSName));</div>
 <div class="line">                    VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\t      SAN (DNS): &#39;&quot;</span> + subjectAltName;</div>
 <div class="line">                } <span class="keywordflow">else</span> {</div>
-<div class="line">                    VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\t      SAN (Type): &#39;&quot;</span> + std::to_string(generalName-&gt;type);</div>
+<div class="line">                    VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\t      SAN (Type): &#39;&quot;</span> + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(generalName-&gt;type);</div>
 <div class="line">                }</div>
 <div class="line">            }</div>
 <div class="line">            sk_GENERAL_NAME_pop_free(subjectAltNames, GENERAL_NAME_free);</div>
@@ -456,14 +456,15 @@ Extract Server and Client Information (host name, IP, port, SSL/TLS information)
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnDisconnect:&quot;</span>;</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tServer: &quot;</span> + socketConnection-&gt;getLocalAddress().host()</div>
 <div class="line">                          + <span class="stringliteral">&quot;(&quot;</span> + socketConnection-&gt;getLocalAddress().ip() + <span class="stringliteral">&quot;):&quot;</span></div>
-<div class="line">                 + std::to_string(socketConnection-&gt;getLocalAddress().port());</div>
+<div class="line">                 + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(socketConnection-&gt;getLocalAddress().port());</div>
 <div class="line">        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tClient: &quot;</span> + socketConnection-&gt;getRemoteAddress().host()</div>
 <div class="line">                          + <span class="stringliteral">&quot;(&quot;</span> + socketConnection-&gt;getRemoteAddress().ip() + <span class="stringliteral">&quot;):&quot;</span></div>
-<div class="line">                 + std::to_string(socketConnection-&gt;getRemoteAddress().port());</div>
+<div class="line">                 + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(socketConnection-&gt;getRemoteAddress().port());</div>
 <div class="line">    });</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> <a class="code" href="classexpress_1_1_web_app.html#a54e6910c9466c61d0b217490b7d9bb5a">WebApp::start</a>();</div>
 <div class="line">}</div>
+<div class="ttc" id="anamespace_c_l_i_1_1detail_html_a0e94052d485636fc9f18c21009026577"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">CLI::detail::to_string</a></div><div class="ttdeci">auto to_string(T &amp;&amp;value) -&gt; decltype(std::forward&lt; T &gt;(value))</div><div class="ttdoc">Convert an object to a string (directly forward if this can become a string)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l01203">CLI11.hpp:1203</a></div></div>
 <div class="ttc" id="anamespaceexpress_1_1middleware_html_a2fb128871e11fe983884f466d01bee94"><div class="ttname"><a href="namespaceexpress_1_1middleware.html#a2fb128871e11fe983884f466d01bee94">express::middleware::StaticMiddleware</a></div><div class="ttdeci">class StaticMiddleware &amp; StaticMiddleware(const std::string &amp;root)</div><div class="ttdef"><b>Definition:</b> <a href="_static_middleware_8cpp_source.html#l00125">StaticMiddleware.cpp:125</a></div></div>
 <div class="ttc" id="anamespaceexpress_html"><div class="ttname"><a href="namespaceexpress.html">express</a></div><div class="ttdef"><b>Definition:</b> <a href="legacy_2in_2_web_app_8h_source.html#l00029">WebApp.h:29</a></div></div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md16"></a>

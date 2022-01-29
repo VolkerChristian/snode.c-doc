@@ -9,6 +9,7 @@ var namespacenet_1_1un_1_1stream =
       [ "SocketServer", "namespacenet_1_1un_1_1stream_1_1tls.html#a0328c768ab42b8a365491f6256bd26e5", null ]
     ] ],
     [ "ClientSocket", "classnet_1_1un_1_1stream_1_1_client_socket.html", "classnet_1_1un_1_1stream_1_1_client_socket" ],
+    [ "ServerConfig", "classnet_1_1un_1_1stream_1_1_server_config.html", "classnet_1_1un_1_1stream_1_1_server_config" ],
     [ "ServerSocket", "classnet_1_1un_1_1stream_1_1_server_socket.html", "classnet_1_1un_1_1stream_1_1_server_socket" ],
     [ "Socket", "classnet_1_1un_1_1stream_1_1_socket.html", "classnet_1_1un_1_1stream_1_1_socket" ]
 ];

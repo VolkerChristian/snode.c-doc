@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['elength_2183',['ELENGTH',['../classweb_1_1websocket_1_1_receiver.html#a3cf4e2588c5333541e445cd7aef1eb9ba796198e25f697722dc3cfcc2de6119ad',1,'web::websocket::Receiver']]],
-  ['error_2184',['ERROR',['../classlogger_1_1_logger.html#a1265fa2e5e66c466ebdde22414fc87c8ac7629274b50ccccb2b191520c474533d',1,'logger::Logger::ERROR()'],['../classweb_1_1http_1_1_parser.html#a94ab44c0d65451be6ba3e6e389a8b7d5abb1ca97ec761fc37101737ba0aa2e7c5',1,'web::http::Parser::ERROR()'],['../classweb_1_1websocket_1_1_receiver.html#a3cf4e2588c5333541e445cd7aef1eb9babb1ca97ec761fc37101737ba0aa2e7c5',1,'web::websocket::Receiver::ERROR()'],['../namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749abb1ca97ec761fc37101737ba0aa2e7c5',1,'core::ERROR()']]],
-  ['ex_2185',['EX',['../classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8ba5fecb37e76c991d620f1919813292f97',1,'core::EventDispatcher']]]
+  ['debug_3561',['DEBUG',['../classlogger_1_1_logger.html#a1265fa2e5e66c466ebdde22414fc87c8a12099ab432a2fc2cbf5205ab4d0278ce',1,'logger::Logger']]],
+  ['default_3562',['DEFAULT',['../class_c_l_i_1_1_as_number_with_unit.html#a4f1b96d1a43a6acb3f85b68dd6f5a321a870d760dcdc3ddfe3dea704c3985eb89',1,'CLI::AsNumberWithUnit']]],
+  ['default_3563',['Default',['../namespaceweb_1_1http.html#ac27fdcf348c7472940ecd0e34342dca1a2e49d6b06cbe1718b81c65c7eee76807',1,'web::http']]],
+  ['directory_3564',['directory',['../namespace_c_l_i_1_1detail.html#a20a9a67e5f06ba0dc3f2ded2fed16f55a5f8f22b8cdbaeee8cf857673a9b6ba20',1,'CLI::detail']]],
+  ['disabled_3565',['disabled',['../class_c_l_i_1_1_app.html#a44223dc510ba0f7b680990476828e2e8a075ae3d2fc31640504f814f60e5ef713',1,'CLI::App']]],
+  ['dontclose_3566',['dontClose',['../classcore_1_1_descriptor.html#a0998a6390c1f6ef1324ddfdfe7b2579ba64633a68dbee6089ac954c31fdcfcf6c',1,'core::Descriptor']]]
 ];

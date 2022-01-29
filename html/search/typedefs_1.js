@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['pollfds_5fsize_5ftype_2139',['pollfds_size_type',['../structcore_1_1poll_1_1_poll_fds_1_1_poll_fd_index.html#a6aab2b274ba24251912431f4d951d9ee',1,'core::poll::PollFds::PollFdIndex::pollfds_size_type()'],['../classcore_1_1poll_1_1_poll_fds.html#a709c5ee77a79e4766dccc6ef1ee5d007',1,'core::poll::PollFds::pollfds_size_type()']]]
+  ['callback_5ft_3482',['callback_t',['../namespace_c_l_i.html#ac96c2c7b1ff506c743fe332687d916d5',1,'CLI']]],
+  ['clientsocket_3483',['ClientSocket',['../classcore_1_1socket_1_1stream_1_1_socket_client.html#a60fd3b9e51012c4a2756898a1df22bd4',1,'core::socket::stream::SocketClient']]],
+  ['conditional_5ft_3484',['conditional_t',['../namespace_c_l_i.html#a61fcdcefcfde73ff50ae59869f047080',1,'CLI']]],
+  ['configtoml_3485',['ConfigTOML',['../namespace_c_l_i.html#a352933bfbcba692b1e860cfe0b580319',1,'CLI']]]
 ];

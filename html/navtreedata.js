@@ -44,10 +44,11 @@ var NAVTREE =
       [ "Extract Server and Client Information (host name, IP, port, SSL/TLS information)", "index.html#autotoc_md15", null ],
       [ "Using Regular Expressions in Routes", "index.html#autotoc_md16", null ]
     ] ],
+    [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
+        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions", "namespacemembers_func.html", null ],
         [ "Variables", "namespacemembers_vars.html", null ],
         [ "Typedefs", "namespacemembers_type.html", null ],
@@ -84,18 +85,23 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_accept_event_receiver_8cpp.html",
-"_write_event_receiver_8h.html",
-"classcore_1_1epoll_1_1_descriptor_event_dispatcher.html#aa09126a7012f6d47770f621d96cb19c8",
-"classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#a44346b4cf47cfd42f842e80cfd8e8153",
-"classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html#a88dc943f4211ebe4c4062bc293a4a8a3",
-"classnet_1_1in6_1_1stream_1_1_server_socket.html",
-"classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a99ae9cd5be8fd4f20b80dea3df702a73",
-"classweb_1_1http_1_1server_1_1_socket_context.html#ad0b44fa12f96c2aa354438dd6465a42e",
-"classweb_1_1websocket_1_1client_1_1_sub_protocol_factory_selector.html#ab445ca382d9822234a7e8c1534d07ab3",
-"functions_f.html",
-"namespacecore_1_1system.html#a5658d0ea06a95cb8f07412b13f393ecb",
-"net_2un_2stream_2socket_8cpp.html",
-"web_2http_2server_2_request_8h_source.html"
+"_parser_8cpp.html#aaaea7be99953ca24762cd078c5fddb67",
+"class_c_l_i_1_1_app.html#a4ff932cdfe4237c0f63a00216d0d86b9",
+"class_c_l_i_1_1_config_base.html#a4b908ce1b5dd91afe112b299d023151a",
+"class_c_l_i_1_1_option.html#acc7769c9cd48d7c7302dd51aa8fd3bd2",
+"classcore_1_1_descriptor_event_dispatcher.html#a1f4f559f01dd2d4fd96796c26cba0b4e",
+"classcore_1_1pipe_1_1_pipe_source.html#a39b9fdbb94241dfd6865129d6f7eef8b",
+"classcore_1_1socket_1_1stream_1_1_socket_connection.html#af292fd5a8bb2a3d1162deed72057809b",
+"classexpress_1_1_middleware_dispatcher.html",
+"classnet_1_1in_1_1stream_1_1_server_config.html#a7cd1d506a80b8a6a555964268349b9eb",
+"classweb_1_1http_1_1_socket_context_factory.html#a34da4dc0a662bd18d2938ea2f480939b",
+"classweb_1_1http_1_1server_1_1_response.html#a6bdff1ff4fb13a952df7bfefd0b87667",
+"classweb_1_1websocket_1_1_transmitter.html#aa0ad62fafe92341f07af95c88a18c3c0",
+"dlfcn_8cpp.html#a87ab6f4aac806776e472cc3abeb61447",
+"legacy_2un_2_web_app_8h_source.html",
+"namespacecore_1_1system.html#aeab6bc4edb67dd3ee9c589269dd2bf0b",
+"net_2un_2stream_2_client_socket_8h_source.html",
+"tls_2_socket_writer_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

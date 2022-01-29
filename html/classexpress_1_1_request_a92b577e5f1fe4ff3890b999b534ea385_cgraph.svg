@@ -33,33 +33,48 @@
 <path fill="none" stroke="midnightblue" d="M140.16,-36.89C148.71,-37.87 157.45,-38.87 166.02,-39.84"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="165.66,-43.32 175.99,-40.98 166.45,-36.37 165.66,-43.32"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node">
-<title>Node3</title>
-<g id="a_node3"><a xlink:href="namespacehttputils.html#a818b4991d32a494fb64a2f7cf1b25087" target="_top" xlink:title=" ">
+<!-- Node4 -->
+<g id="node4" class="node">
+<title>Node4</title>
+<g id="a_node4"><a xlink:href="namespacehttputils.html#a818b4991d32a494fb64a2f7cf1b25087" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="180.5,-0.5 180.5,-19.5 296.5,-19.5 296.5,-0.5 180.5,-0.5"/>
 <text text-anchor="middle" x="238.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">httputils::url_decode</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge">
-<title>Node1&#45;&gt;Node3</title>
+<!-- Node1&#45;&gt;Node4 -->
+<g id="edge3" class="edge">
+<title>Node1&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M140.16,-21.11C150.11,-19.97 160.33,-18.81 170.24,-17.67"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="170.89,-21.12 180.43,-16.51 170.1,-14.17 170.89,-21.12"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node">
-<title>Node4</title>
-<g id="a_node4"><a xlink:href="namespacehttputils.html#a2162ee901d7b1ac5f0fdb0dcbbd2d350" target="_top" xlink:title=" ">
+<!-- Node3 -->
+<g id="node3" class="node">
+<title>Node3</title>
+<g id="a_node3"><a xlink:href="namespace_c_l_i_1_1detail.html#a9e78d046d8a9c2d6f246bd1e36e57ec6" target="_top" xlink:title="Split a string by a delim.">
+<polygon fill="white" stroke="black" points="346,-38.5 346,-57.5 438,-57.5 438,-38.5 346,-38.5"/>
+<text text-anchor="middle" x="392" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">CLI::detail::split</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node3 -->
+<g id="edge2" class="edge">
+<title>Node2&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M301.12,-48C312.54,-48 324.4,-48 335.61,-48"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="335.7,-51.5 345.7,-48 335.7,-44.5 335.7,-51.5"/>
+</g>
+<!-- Node5 -->
+<g id="node5" class="node">
+<title>Node5</title>
+<g id="a_node5"><a xlink:href="namespacehttputils.html#a2162ee901d7b1ac5f0fdb0dcbbd2d350" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="337,-0.5 337,-19.5 447,-19.5 447,-0.5 337,-0.5"/>
 <text text-anchor="middle" x="392" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">httputils::from_hex</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node4 -->
-<g id="edge3" class="edge">
-<title>Node3&#45;&gt;Node4</title>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge4" class="edge">
+<title>Node4&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M296.78,-10C306.48,-10 316.61,-10 326.48,-10"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="326.65,-13.5 336.65,-10 326.65,-6.5 326.65,-13.5"/>
 </g>

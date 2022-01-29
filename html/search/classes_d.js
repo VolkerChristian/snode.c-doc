@@ -1,13 +1,12 @@
 var searchData=
 [
-  ['readeventreceiver_1140',['ReadEventReceiver',['../classcore_1_1_read_event_receiver.html',1,'core']]],
-  ['receiver_1141',['Receiver',['../classweb_1_1websocket_1_1_receiver.html',1,'web::websocket']]],
-  ['request_1142',['Request',['../classexpress_1_1_request.html',1,'express::Request'],['../classweb_1_1http_1_1client_1_1_request.html',1,'web::http::client::Request'],['../classweb_1_1http_1_1server_1_1_request.html',1,'web::http::server::Request']]],
-  ['requestcontext_1143',['RequestContext',['../structweb_1_1http_1_1server_1_1_socket_context_1_1_request_context.html',1,'web::http::server::SocketContext']]],
-  ['requestparser_1144',['RequestParser',['../classweb_1_1http_1_1server_1_1_request_parser.html',1,'web::http::server']]],
-  ['response_1145',['Response',['../classexpress_1_1_response.html',1,'express::Response'],['../classweb_1_1http_1_1client_1_1_response.html',1,'web::http::client::Response'],['../classweb_1_1http_1_1server_1_1_response.html',1,'web::http::server::Response']]],
-  ['responseparser_1146',['ResponseParser',['../classweb_1_1http_1_1client_1_1_response_parser.html',1,'web::http::client']]],
-  ['route_1147',['Route',['../classexpress_1_1_route.html',1,'express']]],
-  ['router_1148',['Router',['../classexpress_1_1_router.html',1,'express']]],
-  ['routerdispatcher_1149',['RouterDispatcher',['../classexpress_1_1_router_dispatcher.html',1,'express']]]
+  ['observer_1870',['Observer',['../classcore_1_1_observer.html',1,'core']]],
+  ['option_1871',['Option',['../class_c_l_i_1_1_option.html',1,'CLI']]],
+  ['option_5fgroup_1872',['Option_group',['../class_c_l_i_1_1_option__group.html',1,'CLI']]],
+  ['optionalreadyadded_1873',['OptionAlreadyAdded',['../class_c_l_i_1_1_option_already_added.html',1,'CLI']]],
+  ['optionbase_1874',['OptionBase',['../class_c_l_i_1_1_option_base.html',1,'CLI']]],
+  ['optionbase_3c_20option_20_3e_1875',['OptionBase&lt; Option &gt;',['../class_c_l_i_1_1_option_base.html',1,'CLI']]],
+  ['optionbase_3c_20optiondefaults_20_3e_1876',['OptionBase&lt; OptionDefaults &gt;',['../class_c_l_i_1_1_option_base.html',1,'CLI']]],
+  ['optiondefaults_1877',['OptionDefaults',['../class_c_l_i_1_1_option_defaults.html',1,'CLI']]],
+  ['optionnotfound_1878',['OptionNotFound',['../class_c_l_i_1_1_option_not_found.html',1,'CLI']]]
 ];

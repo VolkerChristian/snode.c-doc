@@ -1,15 +1,6 @@
 var searchData=
 [
-  ['rd_2199',['RD',['../classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8ba26bffd1e5037589f9b903a6266a14b09',1,'core::EventDispatcher::RD()'],['../classcore_1_1socket_1_1_socket.html#aeedd460403e8cb273d473439355f137eac3cf4da2f59550cfe91478874f8fbe28',1,'core::socket::Socket::RD()']]],
-  ['rdwr_2200',['RDWR',['../classcore_1_1socket_1_1_socket.html#aeedd460403e8cb273d473439355f137ea21aa4b3fd6159acd7dd85ad32ce51f0d',1,'core::socket::Socket']]],
-  ['rfc1945_2201',['RFC1945',['../classweb_1_1http_1_1_parser.html#afaf85771e39341e129795529ef8c4f8fa3825685c74d694534ba8beedcda60ece',1,'web::http::Parser']]],
-  ['rfc2616_2202',['RFC2616',['../classweb_1_1http_1_1_parser.html#afaf85771e39341e129795529ef8c4f8fa8d79c77541316cc76c791596f52ba87c',1,'web::http::Parser']]],
-  ['rfc7230_2203',['RFC7230',['../classweb_1_1http_1_1_parser.html#afaf85771e39341e129795529ef8c4f8fa9faec2eb39f01265737eee2a7d50118f',1,'web::http::Parser']]],
-  ['rfc7231_2204',['RFC7231',['../classweb_1_1http_1_1_parser.html#afaf85771e39341e129795529ef8c4f8fa94dde02cb7191ab6debcd04fac3f10a2',1,'web::http::Parser']]],
-  ['rfc7232_2205',['RFC7232',['../classweb_1_1http_1_1_parser.html#afaf85771e39341e129795529ef8c4f8fae5d6787cf3cb785028409989b1d6a8d5',1,'web::http::Parser']]],
-  ['rfc7233_2206',['RFC7233',['../classweb_1_1http_1_1_parser.html#afaf85771e39341e129795529ef8c4f8fa8e01bb2f4a051b9bb03faf3f6e2000e0',1,'web::http::Parser']]],
-  ['rfc7234_2207',['RFC7234',['../classweb_1_1http_1_1_parser.html#afaf85771e39341e129795529ef8c4f8faceac378fb6024757513159a0110ac5f1',1,'web::http::Parser']]],
-  ['rfc7235_2208',['RFC7235',['../classweb_1_1http_1_1_parser.html#afaf85771e39341e129795529ef8c4f8fa487e4ce237a818f9418dfaa9cf27eee2',1,'web::http::Parser']]],
-  ['rfc7540_2209',['RFC7540',['../classweb_1_1http_1_1_parser.html#afaf85771e39341e129795529ef8c4f8fad2d416a3b37c44b31c3d4b27ba5446a2',1,'web::http::Parser']]],
-  ['rfc7541_2210',['RFC7541',['../classweb_1_1http_1_1_parser.html#afaf85771e39341e129795529ef8c4f8fa8cd2e975a5e7b4ee1c69a705c68907da',1,'web::http::Parser']]]
+  ['opcode_3596',['OPCODE',['../classweb_1_1websocket_1_1_receiver.html#a3cf4e2588c5333541e445cd7aef1eb9ba11bdee9fdefbd8d33a25257557bddbef',1,'web::websocket::Receiver']]],
+  ['optionalreadyadded_3597',['OptionAlreadyAdded',['../namespace_c_l_i.html#a1d8108a219533f0b0361640a017f037eade33f5f54db87abfb2926228f0867038',1,'CLI']]],
+  ['optionnotfound_3598',['OptionNotFound',['../namespace_c_l_i.html#a1d8108a219533f0b0361640a017f037eaa40b471f8a3c0ca91e719ea8101aa46d',1,'CLI']]]
 ];

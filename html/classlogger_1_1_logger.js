@@ -10,7 +10,7 @@ var classlogger_1_1_logger =
     [ "Logger", "classlogger_1_1_logger.html#ad5affb2d6011eb2cd807c43516fd0f56", null ],
     [ "~Logger", "classlogger_1_1_logger.html#a57a827fb683fb9b34ed46a23cf263057", null ],
     [ "init", "classlogger_1_1_logger.html#ae9110417eeb7d90905d72e0ff6fd9212", null ],
-    [ "logToFile", "classlogger_1_1_logger.html#a7d361acecdda7abac14e56cb00a169e2", null ],
+    [ "logToFile", "classlogger_1_1_logger.html#a2fe71814296a418393065c3c7299ff41", null ],
     [ "quiet", "classlogger_1_1_logger.html#a9eece213fbcc8ebf67fd69fc73a0dd4b", null ],
     [ "setCustomFormatSpec", "classlogger_1_1_logger.html#a545211a93eadc019ebe4301426594a69", null ],
     [ "setLogLevel", "classlogger_1_1_logger.html#a7d70e6711ec68f00c5c68946fd030ff9", null ],

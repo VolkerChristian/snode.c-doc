@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['clientsocket_2138',['ClientSocket',['../classcore_1_1socket_1_1stream_1_1_socket_client.html#a60fd3b9e51012c4a2756898a1df22bd4',1,'core::socket::stream::SocketClient']]]
+  ['app_5fp_3481',['App_p',['../namespace_c_l_i.html#ad6d256a0cca01f58faf90f0b4595aca4',1,'CLI']]]
 ];

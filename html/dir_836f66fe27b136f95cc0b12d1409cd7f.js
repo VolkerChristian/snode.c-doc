@@ -6,6 +6,10 @@ var dir_836f66fe27b136f95cc0b12d1409cd7f =
     [ "ClientSocket.h", "net_2l2_2stream_2_client_socket_8h.html", [
       [ "ClientSocket", "classnet_1_1l2_1_1stream_1_1_client_socket.html", "classnet_1_1l2_1_1stream_1_1_client_socket" ]
     ] ],
+    [ "ServerConfig.cpp", "l2_2stream_2_server_config_8cpp.html", null ],
+    [ "ServerConfig.h", "l2_2stream_2_server_config_8h.html", [
+      [ "ServerConfig", "classnet_1_1l2_1_1stream_1_1_server_config.html", "classnet_1_1l2_1_1stream_1_1_server_config" ]
+    ] ],
     [ "ServerSocket.cpp", "l2_2stream_2_server_socket_8cpp.html", null ],
     [ "ServerSocket.h", "net_2l2_2stream_2_server_socket_8h.html", [
       [ "ServerSocket", "classnet_1_1l2_1_1stream_1_1_server_socket.html", "classnet_1_1l2_1_1stream_1_1_server_socket" ]

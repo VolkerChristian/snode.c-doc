@@ -1,5 +1,9 @@
 var hierarchy =
 [
+    [ "CLI::App", "class_c_l_i_1_1_app.html", [
+      [ "CLI::Option_group", "class_c_l_i_1_1_option__group.html", null ]
+    ] ],
+    [ "CLI::detail::AppFriend", "struct_c_l_i_1_1detail_1_1_app_friend.html", null ],
     [ "utils::AttributeProxy< Attribute >", "classutils_1_1_attribute_proxy.html", null ],
     [ "core::socket::ClientSocket< SocketT >", "classcore_1_1socket_1_1_client_socket.html", null ],
     [ "core::socket::ClientSocket< net::in6::stream::Socket >", "classcore_1_1socket_1_1_client_socket.html", [
@@ -52,6 +56,25 @@ var hierarchy =
       ] ],
       [ "core::socket::stream::SocketClient< ClientSocketT, SocketConnectorT, SocketContextFactoryT >", "classcore_1_1socket_1_1stream_1_1_socket_client.html", null ]
     ] ],
+    [ "conditional_t", null, [
+      [ "CLI::detail::is_mutable_container< T, conditional_t< false, void_t< typename T::value_type, decltype(std::declval< T >().end()), decltype(std::declval< T >().clear()), decltype(std::declval< T >().insert(std::declval< decltype(std::declval< T >().end())>(), std::declval< const typename T::value_type & >()))>, void > >", "struct_c_l_i_1_1detail_1_1is__mutable__container_3_01_t_00_01conditional__t_3_01false_00_01void_9711c92f16061f5742bb50eefb1b0c0c.html", null ]
+    ] ],
+    [ "CLI::Config", "class_c_l_i_1_1_config.html", [
+      [ "CLI::ConfigBase", "class_c_l_i_1_1_config_base.html", [
+        [ "CLI::ConfigINI", "class_c_l_i_1_1_config_i_n_i.html", null ]
+      ] ]
+    ] ],
+    [ "net::Config", "classnet_1_1_config.html", [
+      [ "net::ServerConfig", "classnet_1_1_server_config.html", [
+        [ "net::in6::stream::ServerConfig", "classnet_1_1in6_1_1stream_1_1_server_config.html", null ],
+        [ "net::in::stream::ServerConfig", "classnet_1_1in_1_1stream_1_1_server_config.html", null ],
+        [ "net::l2::stream::ServerConfig", "classnet_1_1l2_1_1stream_1_1_server_config.html", null ],
+        [ "net::rf::stream::ServerConfig", "classnet_1_1rf_1_1stream_1_1_server_config.html", null ],
+        [ "net::un::stream::ServerConfig", "classnet_1_1un_1_1stream_1_1_server_config.html", null ]
+      ] ]
+    ] ],
+    [ "utils::Config", "classutils_1_1_config.html", null ],
+    [ "CLI::ConfigItem", "struct_c_l_i_1_1_config_item.html", null ],
     [ "web::http::CookieOptions", "classweb_1_1http_1_1_cookie_options.html", null ],
     [ "core::Descriptor", "classcore_1_1_descriptor.html", [
       [ "core::socket::Socket< net::in6::SocketAddress >", "classcore_1_1socket_1_1_socket.html", [
@@ -87,6 +110,9 @@ var hierarchy =
       [ "express::RouterDispatcher", "classexpress_1_1_router_dispatcher.html", null ]
     ] ],
     [ "core::DynamicLoader", "classcore_1_1_dynamic_loader.html", null ],
+    [ "CLI::detail::element_type< T, Enable >", "struct_c_l_i_1_1detail_1_1element__type.html", null ],
+    [ "CLI::detail::element_type< T, typename std::enable_if< is_copyable_ptr< T >::value >::type >", "struct_c_l_i_1_1detail_1_1element__type_3_01_t_00_01typename_01std_1_1enable__if_3_01is__copyablcf4068753293666f52fa2143458d7e20.html", null ],
+    [ "CLI::detail::element_value_type< T >", "struct_c_l_i_1_1detail_1_1element__value__type.html", null ],
     [ "core::epoll::DescriptorEventDispatcher::EPollEvents", "classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html", null ],
     [ "core::EventDispatcher", "classcore_1_1_event_dispatcher.html", [
       [ "core::epoll::EventDispatcher", "classcore_1_1epoll_1_1_event_dispatcher.html", null ],
@@ -101,13 +127,35 @@ var hierarchy =
       [ "net::rf::bad_bdaddress", "classnet_1_1rf_1_1bad__bdaddress.html", null ],
       [ "net::un::bad_sunpath", "classnet_1_1un_1_1bad__sunpath.html", null ]
     ] ],
+    [ "std::false_type", null, [
+      [ "CLI::detail::is_mutable_container< T, _ >", "struct_c_l_i_1_1detail_1_1is__mutable__container.html", null ],
+      [ "CLI::detail::is_readable_container< T, _ >", "struct_c_l_i_1_1detail_1_1is__readable__container.html", null ],
+      [ "CLI::detail::is_wrapper< T, _ >", "struct_c_l_i_1_1detail_1_1is__wrapper.html", null ],
+      [ "CLI::detail::pair_adaptor< T, _ >", "struct_c_l_i_1_1detail_1_1pair__adaptor.html", null ],
+      [ "CLI::is_bool< T >", "struct_c_l_i_1_1is__bool.html", null ],
+      [ "CLI::is_shared_ptr< T >", "struct_c_l_i_1_1is__shared__ptr.html", null ]
+    ] ],
     [ "core::select::FdSet", "classcore_1_1select_1_1_fd_set.html", null ],
+    [ "CLI::FormatterBase", "class_c_l_i_1_1_formatter_base.html", [
+      [ "CLI::Formatter", "class_c_l_i_1_1_formatter.html", null ],
+      [ "CLI::FormatterLambda", "class_c_l_i_1_1_formatter_lambda.html", null ]
+    ] ],
     [ "web::websocket::server::GroupsManager", "classweb_1_1websocket_1_1server_1_1_groups_manager.html", null ],
+    [ "CLI::detail::has_find< C, V >", "struct_c_l_i_1_1detail_1_1has__find.html", null ],
+    [ "CLI::detail::is_complex< T >", "class_c_l_i_1_1detail_1_1is__complex.html", null ],
+    [ "CLI::is_copyable_ptr< T >", "struct_c_l_i_1_1is__copyable__ptr.html", null ],
+    [ "CLI::detail::is_direct_constructible< T, C >", "class_c_l_i_1_1detail_1_1is__direct__constructible.html", null ],
+    [ "CLI::detail::is_istreamable< T, S >", "class_c_l_i_1_1detail_1_1is__istreamable.html", null ],
+    [ "CLI::detail::is_ostreamable< T, S >", "class_c_l_i_1_1detail_1_1is__ostreamable.html", null ],
+    [ "CLI::detail::is_tuple_like< S >", "class_c_l_i_1_1detail_1_1is__tuple__like.html", null ],
+    [ "CLI::IsMemberType< T >", "struct_c_l_i_1_1_is_member_type.html", null ],
+    [ "CLI::IsMemberType< const char * >", "struct_c_l_i_1_1_is_member_type_3_01const_01char_01_5_01_4.html", null ],
     [ "core::DynamicLoader::Library", "structcore_1_1_dynamic_loader_1_1_library.html", null ],
     [ "std::list", null, [
       [ "core::DescriptorEventDispatcher::EventReceiverList", "classcore_1_1_descriptor_event_dispatcher_1_1_event_receiver_list.html", null ]
     ] ],
     [ "logger::Logger", "classlogger_1_1_logger.html", null ],
+    [ "CLI::make_void< Ts >", "struct_c_l_i_1_1make__void.html", null ],
     [ "web::websocket::Receiver::MaskingKey", "unionweb_1_1websocket_1_1_receiver_1_1_masking_key.html", null ],
     [ "web::http::MimeTypes", "classweb_1_1http_1_1_mime_types.html", null ],
     [ "express::MountPoint", "structexpress_1_1_mount_point.html", null ],
@@ -170,6 +218,13 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "CLI::OptionBase< CRTP >", "class_c_l_i_1_1_option_base.html", null ],
+    [ "CLI::OptionBase< Option >", "class_c_l_i_1_1_option_base.html", [
+      [ "CLI::Option", "class_c_l_i_1_1_option.html", null ]
+    ] ],
+    [ "CLI::OptionBase< OptionDefaults >", "class_c_l_i_1_1_option_base.html", [
+      [ "CLI::OptionDefaults", "class_c_l_i_1_1_option_defaults.html", null ]
+    ] ],
     [ "web::http::Parser", "classweb_1_1http_1_1_parser.html", [
       [ "web::http::client::ResponseParser", "classweb_1_1http_1_1client_1_1_response_parser.html", null ],
       [ "web::http::server::RequestParser", "classweb_1_1http_1_1server_1_1_request_parser.html", null ]
@@ -197,20 +252,49 @@ var hierarchy =
       [ "express::middleware::StaticMiddleware", "classexpress_1_1middleware_1_1_static_middleware.html", null ],
       [ "express::middleware::VHost", "classexpress_1_1middleware_1_1_v_host.html", null ]
     ] ],
-    [ "core::socket::ServerSocket< SocketT >", "classcore_1_1socket_1_1_server_socket.html", null ],
-    [ "core::socket::ServerSocket< net::in6::stream::Socket >", "classcore_1_1socket_1_1_server_socket.html", [
+    [ "std::runtime_error", null, [
+      [ "CLI::Error", "class_c_l_i_1_1_error.html", [
+        [ "CLI::ConstructionError", "class_c_l_i_1_1_construction_error.html", [
+          [ "CLI::BadNameString", "class_c_l_i_1_1_bad_name_string.html", null ],
+          [ "CLI::IncorrectConstruction", "class_c_l_i_1_1_incorrect_construction.html", null ],
+          [ "CLI::OptionAlreadyAdded", "class_c_l_i_1_1_option_already_added.html", null ]
+        ] ],
+        [ "CLI::OptionNotFound", "class_c_l_i_1_1_option_not_found.html", null ],
+        [ "CLI::ParseError", "class_c_l_i_1_1_parse_error.html", [
+          [ "CLI::ArgumentMismatch", "class_c_l_i_1_1_argument_mismatch.html", null ],
+          [ "CLI::ConfigError", "class_c_l_i_1_1_config_error.html", null ],
+          [ "CLI::ConversionError", "class_c_l_i_1_1_conversion_error.html", null ],
+          [ "CLI::ExcludesError", "class_c_l_i_1_1_excludes_error.html", null ],
+          [ "CLI::ExtrasError", "class_c_l_i_1_1_extras_error.html", null ],
+          [ "CLI::FileError", "class_c_l_i_1_1_file_error.html", null ],
+          [ "CLI::HorribleError", "class_c_l_i_1_1_horrible_error.html", null ],
+          [ "CLI::InvalidError", "class_c_l_i_1_1_invalid_error.html", null ],
+          [ "CLI::RequiredError", "class_c_l_i_1_1_required_error.html", null ],
+          [ "CLI::RequiresError", "class_c_l_i_1_1_requires_error.html", null ],
+          [ "CLI::RuntimeError", "class_c_l_i_1_1_runtime_error.html", null ],
+          [ "CLI::Success", "class_c_l_i_1_1_success.html", [
+            [ "CLI::CallForAllHelp", "class_c_l_i_1_1_call_for_all_help.html", null ],
+            [ "CLI::CallForHelp", "class_c_l_i_1_1_call_for_help.html", null ],
+            [ "CLI::CallForVersion", "class_c_l_i_1_1_call_for_version.html", null ]
+          ] ],
+          [ "CLI::ValidationError", "class_c_l_i_1_1_validation_error.html", null ]
+        ] ]
+      ] ]
+    ] ],
+    [ "core::socket::ServerSocket< SocketT, ServerConfigT >", "classcore_1_1socket_1_1_server_socket.html", null ],
+    [ "core::socket::ServerSocket< net::in6::stream::Socket, net::in6::stream::ServerConfig >", "classcore_1_1socket_1_1_server_socket.html", [
       [ "net::in6::stream::ServerSocket", "classnet_1_1in6_1_1stream_1_1_server_socket.html", null ]
     ] ],
-    [ "core::socket::ServerSocket< net::in::stream::Socket >", "classcore_1_1socket_1_1_server_socket.html", [
+    [ "core::socket::ServerSocket< net::in::stream::Socket, net::in::stream::ServerConfig >", "classcore_1_1socket_1_1_server_socket.html", [
       [ "net::in::stream::ServerSocket", "classnet_1_1in_1_1stream_1_1_server_socket.html", null ]
     ] ],
-    [ "core::socket::ServerSocket< net::l2::stream::Socket >", "classcore_1_1socket_1_1_server_socket.html", [
+    [ "core::socket::ServerSocket< net::l2::stream::Socket, net::l2::stream::ServerConfig >", "classcore_1_1socket_1_1_server_socket.html", [
       [ "net::l2::stream::ServerSocket", "classnet_1_1l2_1_1stream_1_1_server_socket.html", null ]
     ] ],
-    [ "core::socket::ServerSocket< net::rf::stream::Socket >", "classcore_1_1socket_1_1_server_socket.html", [
+    [ "core::socket::ServerSocket< net::rf::stream::Socket, net::rf::stream::ServerConfig >", "classcore_1_1socket_1_1_server_socket.html", [
       [ "net::rf::stream::ServerSocket", "classnet_1_1rf_1_1stream_1_1_server_socket.html", null ]
     ] ],
-    [ "core::socket::ServerSocket< net::un::stream::Socket >", "classcore_1_1socket_1_1_server_socket.html", [
+    [ "core::socket::ServerSocket< net::un::stream::Socket, net::un::stream::ServerConfig >", "classcore_1_1socket_1_1_server_socket.html", [
       [ "net::un::stream::ServerSocket", "classnet_1_1un_1_1stream_1_1_server_socket.html", null ]
     ] ],
     [ "ServerSocketT", null, [
@@ -363,6 +447,8 @@ var hierarchy =
     [ "web::websocket::SubProtocolFactorySelector< web::websocket::SubProtocolFactory< web::websocket::server::SubProtocol > >", "classweb_1_1websocket_1_1_sub_protocol_factory_selector.html", [
       [ "web::websocket::server::SubProtocolFactorySelector", "classweb_1_1websocket_1_1server_1_1_sub_protocol_factory_selector.html", null ]
     ] ],
+    [ "CLI::detail::subtype_count< T >", "struct_c_l_i_1_1detail_1_1subtype__count.html", null ],
+    [ "CLI::detail::subtype_count_min< T >", "struct_c_l_i_1_1detail_1_1subtype__count__min.html", null ],
     [ "core::EventReceiver::TIMEOUT", "classcore_1_1_event_receiver_1_1_t_i_m_e_o_u_t.html", null ],
     [ "core::TimerEventDispatcher", "classcore_1_1_timer_event_dispatcher.html", null ],
     [ "core::TimerEventReceiver", "classcore_1_1_timer_event_receiver.html", [
@@ -377,5 +463,41 @@ var hierarchy =
       [ "web::websocket::SocketContextUpgrade< SubProtocol, web::http::client::Request, web::http::client::Response >", "classweb_1_1websocket_1_1_socket_context_upgrade.html", null ],
       [ "web::websocket::SocketContextUpgrade< SubProtocol, web::http::server::Request, web::http::server::Response >", "classweb_1_1websocket_1_1_socket_context_upgrade.html", null ],
       [ "web::websocket::SocketContextUpgrade< SubProtocolT, RequestT, ResponseT >", "classweb_1_1websocket_1_1_socket_context_upgrade.html", null ]
-    ] ]
+    ] ],
+    [ "std::true_type", null, [
+      [ "CLI::detail::is_readable_container< T, conditional_t< false, void_t< decltype(std::declval< T >().end()), decltype(std::declval< T >().begin())>, void > >", "struct_c_l_i_1_1detail_1_1is__readable__container_3_01_t_00_01conditional__t_3_01false_00_01void1b163ef1438ddc3089d5e11b3b2b1293.html", null ],
+      [ "CLI::detail::is_wrapper< T, conditional_t< false, void_t< typename T::value_type >, void > >", "struct_c_l_i_1_1detail_1_1is__wrapper_3_01_t_00_01conditional__t_3_01false_00_01void__t_3_01type256f69b9a9ada1608beb2e1e7b0f6f4c.html", null ],
+      [ "CLI::detail::pair_adaptor< T, conditional_t< false, void_t< typename T::value_type::first_type, typename T::value_type::second_type >, void > >", "struct_c_l_i_1_1detail_1_1pair__adaptor_3_01_t_00_01conditional__t_3_01false_00_01void__t_3_01ty57376c4a6f008b828f6707df132586d8.html", null ],
+      [ "CLI::is_bool< bool >", "struct_c_l_i_1_1is__bool_3_01bool_01_4.html", null ],
+      [ "CLI::is_shared_ptr< const std::shared_ptr< T > >", "struct_c_l_i_1_1is__shared__ptr_3_01const_01std_1_1shared__ptr_3_01_t_01_4_01_4.html", null ],
+      [ "CLI::is_shared_ptr< std::shared_ptr< T > >", "struct_c_l_i_1_1is__shared__ptr_3_01std_1_1shared__ptr_3_01_t_01_4_01_4.html", null ]
+    ] ],
+    [ "CLI::detail::type_count< T, Enable >", "struct_c_l_i_1_1detail_1_1type__count.html", null ],
+    [ "CLI::detail::type_count< T, typename std::enable_if< is_complex< T >::value >::type >", "struct_c_l_i_1_1detail_1_1type__count_3_01_t_00_01typename_01std_1_1enable__if_3_01is__complex_31fac009dcf70627e04f80462c5d88ca8.html", null ],
+    [ "CLI::detail::type_count< T, typename std::enable_if< is_mutable_container< T >::value >::type >", "struct_c_l_i_1_1detail_1_1type__count_3_01_t_00_01typename_01std_1_1enable__if_3_01is__mutable__cb200eb27fab347649b083951e77032e.html", null ],
+    [ "CLI::detail::type_count< T, typename std::enable_if< is_wrapper< T >::value &&!is_complex< T >::value &&!is_tuple_like< T >::value &&!is_mutable_container< T >::value >::type >", "struct_c_l_i_1_1detail_1_1type__count_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapper_39a4e337a2aa393bb8556b7ab15846b8b.html", null ],
+    [ "CLI::detail::type_count< T, typename std::enable_if<!is_wrapper< T >::value &&!is_tuple_like< T >::value &&!is_complex< T >::value &&!std::is_void< T >::value >::type >", "struct_c_l_i_1_1detail_1_1type__count_3_01_t_00_01typename_01std_1_1enable__if_3_9is__wrapper_3_b01f5ffbc1be4715e41384ef05a4c2a6.html", null ],
+    [ "CLI::detail::type_count_base< T, Enable >", "struct_c_l_i_1_1detail_1_1type__count__base.html", null ],
+    [ "CLI::detail::type_count_base< T, typename std::enable_if< is_mutable_container< T >::value >::type >", "struct_c_l_i_1_1detail_1_1type__count__base_3_01_t_00_01typename_01std_1_1enable__if_3_01is__mut25537d1dbe2209c0fb1d9a95e46a36a7.html", null ],
+    [ "CLI::detail::type_count_base< T, typename std::enable_if< is_tuple_like< T >::value &&!is_mutable_container< T >::value >::type >", "struct_c_l_i_1_1detail_1_1type__count__base_3_01_t_00_01typename_01std_1_1enable__if_3_01is__tup573c8f6a452dc2b871d7cd3189dda714.html", null ],
+    [ "CLI::detail::type_count_base< T, typename std::enable_if<!is_tuple_like< T >::value &&!is_mutable_container< T >::value &&!std::is_void< T >::value >::type >", "struct_c_l_i_1_1detail_1_1type__count__base_3_01_t_00_01typename_01std_1_1enable__if_3_9is__tupl1d95856913595d9d18df1e9b7db10a2c.html", null ],
+    [ "CLI::Validator", "class_c_l_i_1_1_validator.html", [
+      [ "CLI::AsNumberWithUnit", "class_c_l_i_1_1_as_number_with_unit.html", [
+        [ "CLI::AsSizeValue", "class_c_l_i_1_1_as_size_value.html", null ]
+      ] ],
+      [ "CLI::Bound", "class_c_l_i_1_1_bound.html", null ],
+      [ "CLI::CheckedTransformer", "class_c_l_i_1_1_checked_transformer.html", null ],
+      [ "CLI::CustomValidator", "class_c_l_i_1_1_custom_validator.html", null ],
+      [ "CLI::IsMember", "class_c_l_i_1_1_is_member.html", null ],
+      [ "CLI::Range", "class_c_l_i_1_1_range.html", null ],
+      [ "CLI::Transformer", "class_c_l_i_1_1_transformer.html", null ],
+      [ "CLI::TypeValidator< DesiredType >", "class_c_l_i_1_1_type_validator.html", null ],
+      [ "CLI::detail::ExistingDirectoryValidator", "class_c_l_i_1_1detail_1_1_existing_directory_validator.html", null ],
+      [ "CLI::detail::ExistingFileValidator", "class_c_l_i_1_1detail_1_1_existing_file_validator.html", null ],
+      [ "CLI::detail::ExistingPathValidator", "class_c_l_i_1_1detail_1_1_existing_path_validator.html", null ],
+      [ "CLI::detail::IPV4Validator", "class_c_l_i_1_1detail_1_1_i_p_v4_validator.html", null ],
+      [ "CLI::detail::NonexistentPathValidator", "class_c_l_i_1_1detail_1_1_nonexistent_path_validator.html", null ]
+    ] ],
+    [ "CLI::detail::wrapped_type< T, def, Enable >", "struct_c_l_i_1_1detail_1_1wrapped__type.html", null ],
+    [ "CLI::detail::wrapped_type< T, def, typename std::enable_if< is_wrapper< T >::value >::type >", "struct_c_l_i_1_1detail_1_1wrapped__type_3_01_t_00_01def_00_01typename_01std_1_1enable__if_3_01isa724b5b3d1f263241cafc27a49bae246.html", null ]
 ];

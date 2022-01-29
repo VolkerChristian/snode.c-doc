@@ -136,7 +136,7 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="epoll_2_descriptor_event_dispatcher_8h_source.html#l00048">48</a> of file <a class="el" href="epoll_2_descriptor_event_dispatcher_8h_source.html">DescriptorEventDispatcher.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html#l00048">48</a> of file <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html">DescriptorEventDispatcher.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5c764470de7ce20d2be7230a72dca2ef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5c764470de7ce20d2be7230a72dca2ef">&#9670;&nbsp;</a></span>EPollEvents()</h2>
@@ -172,20 +172,20 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00031">31</a> of file <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00031">31</a> of file <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        : <a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#ab06551b0ec1f3d93d061061c0fd00c1c">epfd</a>(<a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#ab06551b0ec1f3d93d061061c0fd00c1c">epfd</a>)</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        , <a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a2d08e7b226604d048bc5e838c62d182f">events</a>(<a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a2d08e7b226604d048bc5e838c62d182f">events</a>) {</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#ab06551b0ec1f3d93d061061c0fd00c1c">epfd</a> = <a class="code" href="namespacecore_1_1system.html#a09b439f42917e350a4c7124993e05723">core::system::epoll_create1</a>(EPOLL_CLOEXEC);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a2d2e08a1bffe12ad67663cbad5eff11a">interestCount</a> = 0;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a960921e3fa40f8932c49977f22d5ec86">ePollEvents</a>.resize(1);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events_html_a2d08e7b226604d048bc5e838c62d182f"><div class="ttname"><a href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a2d08e7b226604d048bc5e838c62d182f">core::epoll::DescriptorEventDispatcher::EPollEvents::events</a></div><div class="ttdeci">uint32_t events</div><div class="ttdef"><b>Definition:</b> <a href="epoll_2_descriptor_event_dispatcher_8h_source.html#l00070">DescriptorEventDispatcher.h:70</a></div></div>
-<div class="ttc" id="aclasscore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events_html_a2d2e08a1bffe12ad67663cbad5eff11a"><div class="ttname"><a href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a2d2e08a1bffe12ad67663cbad5eff11a">core::epoll::DescriptorEventDispatcher::EPollEvents::interestCount</a></div><div class="ttdeci">uint32_t interestCount</div><div class="ttdef"><b>Definition:</b> <a href="epoll_2_descriptor_event_dispatcher_8h_source.html#l00073">DescriptorEventDispatcher.h:73</a></div></div>
-<div class="ttc" id="aclasscore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events_html_a960921e3fa40f8932c49977f22d5ec86"><div class="ttname"><a href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a960921e3fa40f8932c49977f22d5ec86">core::epoll::DescriptorEventDispatcher::EPollEvents::ePollEvents</a></div><div class="ttdeci">std::vector&lt; epoll_event &gt; ePollEvents</div><div class="ttdef"><b>Definition:</b> <a href="epoll_2_descriptor_event_dispatcher_8h_source.html#l00072">DescriptorEventDispatcher.h:72</a></div></div>
-<div class="ttc" id="aclasscore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events_html_ab06551b0ec1f3d93d061061c0fd00c1c"><div class="ttname"><a href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#ab06551b0ec1f3d93d061061c0fd00c1c">core::epoll::DescriptorEventDispatcher::EPollEvents::epfd</a></div><div class="ttdeci">int &amp; epfd</div><div class="ttdef"><b>Definition:</b> <a href="epoll_2_descriptor_event_dispatcher_8h_source.html#l00069">DescriptorEventDispatcher.h:69</a></div></div>
+<div class="ttc" id="aclasscore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events_html_a2d08e7b226604d048bc5e838c62d182f"><div class="ttname"><a href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a2d08e7b226604d048bc5e838c62d182f">core::epoll::DescriptorEventDispatcher::EPollEvents::events</a></div><div class="ttdeci">uint32_t events</div><div class="ttdef"><b>Definition:</b> <a href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html#l00070">DescriptorEventDispatcher.h:70</a></div></div>
+<div class="ttc" id="aclasscore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events_html_a2d2e08a1bffe12ad67663cbad5eff11a"><div class="ttname"><a href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a2d2e08a1bffe12ad67663cbad5eff11a">core::epoll::DescriptorEventDispatcher::EPollEvents::interestCount</a></div><div class="ttdeci">uint32_t interestCount</div><div class="ttdef"><b>Definition:</b> <a href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html#l00073">DescriptorEventDispatcher.h:73</a></div></div>
+<div class="ttc" id="aclasscore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events_html_a960921e3fa40f8932c49977f22d5ec86"><div class="ttname"><a href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a960921e3fa40f8932c49977f22d5ec86">core::epoll::DescriptorEventDispatcher::EPollEvents::ePollEvents</a></div><div class="ttdeci">std::vector&lt; epoll_event &gt; ePollEvents</div><div class="ttdef"><b>Definition:</b> <a href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html#l00072">DescriptorEventDispatcher.h:72</a></div></div>
+<div class="ttc" id="aclasscore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events_html_ab06551b0ec1f3d93d061061c0fd00c1c"><div class="ttname"><a href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#ab06551b0ec1f3d93d061061c0fd00c1c">core::epoll::DescriptorEventDispatcher::EPollEvents::epfd</a></div><div class="ttdeci">int &amp; epfd</div><div class="ttdef"><b>Definition:</b> <a href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html#l00069">DescriptorEventDispatcher.h:69</a></div></div>
 <div class="ttc" id="anamespacecore_1_1system_html_a09b439f42917e350a4c7124993e05723"><div class="ttname"><a href="namespacecore_1_1system.html#a09b439f42917e350a4c7124993e05723">core::system::epoll_create1</a></div><div class="ttdeci">int epoll_create1(int flags)</div><div class="ttdef"><b>Definition:</b> <a href="epoll_8cpp_source.html#l00029">epoll.cpp:29</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="epoll_2_descriptor_event_dispatcher_8h_source.html#l00069">epfd</a>, <a class="el" href="epoll_8cpp_source.html#l00029">core::system::epoll_create1()</a>, <a class="el" href="epoll_2_descriptor_event_dispatcher_8h_source.html#l00072">ePollEvents</a>, and <a class="el" href="epoll_2_descriptor_event_dispatcher_8h_source.html#l00073">interestCount</a>.</p>
+<p class="reference">References <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html#l00069">epfd</a>, <a class="el" href="epoll_8cpp_source.html#l00029">core::system::epoll_create1()</a>, <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html#l00072">ePollEvents</a>, and <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html#l00073">interestCount</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -211,14 +211,14 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00079">79</a> of file <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00079">79</a> of file <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                                                        {</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">while</span> (<a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a960921e3fa40f8932c49977f22d5ec86">ePollEvents</a>.size() &gt; (<a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a2d2e08a1bffe12ad67663cbad5eff11a">interestCount</a> * 2) + 1) {</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a960921e3fa40f8932c49977f22d5ec86">ePollEvents</a>.resize(<a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a960921e3fa40f8932c49977f22d5ec86">ePollEvents</a>.size() / 2);</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        }</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="epoll_2_descriptor_event_dispatcher_8h_source.html#l00089">core::epoll::DescriptorEventDispatcher::ePollEvents</a>.</p>
+<p class="reference">References <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html#l00089">core::epoll::DescriptorEventDispatcher::ePollEvents</a>.</p>
 
 </div>
 </div>
@@ -237,12 +237,12 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00085">85</a> of file <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00085">85</a> of file <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                                                            {</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#ab06551b0ec1f3d93d061061c0fd00c1c">epfd</a>;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00117">core::epoll::DescriptorEventDispatcher::dispatchActiveEvents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00117">core::epoll::DescriptorEventDispatcher::dispatchActiveEvents()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -267,14 +267,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00089">89</a> of file <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00089">89</a> of file <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                                                                 {</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a960921e3fa40f8932c49977f22d5ec86">ePollEvents</a>.data();</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="epoll_2_descriptor_event_dispatcher_8h_source.html#l00089">core::epoll::DescriptorEventDispatcher::ePollEvents</a>.</p>
+<p class="reference">References <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html#l00089">core::epoll::DescriptorEventDispatcher::ePollEvents</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00117">core::epoll::DescriptorEventDispatcher::dispatchActiveEvents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00117">core::epoll::DescriptorEventDispatcher::dispatchActiveEvents()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -299,12 +299,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00093">93</a> of file <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00093">93</a> of file <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                                                     {</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a2d2e08a1bffe12ad67663cbad5eff11a">interestCount</a>);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00117">core::epoll::DescriptorEventDispatcher::dispatchActiveEvents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00117">core::epoll::DescriptorEventDispatcher::dispatchActiveEvents()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -348,8 +348,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00062">62</a> of file <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                                                                                                {</div>
+<p class="definition">Definition at line <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00062">62</a> of file <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                                                                                                    {</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        epoll_event ePollEvent;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        ePollEvent.data.ptr = eventReceiver;</div>
@@ -386,8 +386,8 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00039">39</a> of file <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                                                                                  {</div>
+<p class="definition">Definition at line <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00039">39</a> of file <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                                                                                      {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        epoll_event ePollEvent;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        ePollEvent.data.ptr = eventReceiver;</div>
@@ -403,11 +403,11 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a64613244931584c8705c100c655a9ad0">mod</a>(eventReceiver, <a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a2d08e7b226604d048bc5e838c62d182f">events</a>);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events_html_a64613244931584c8705c100c655a9ad0"><div class="ttname"><a href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a64613244931584c8705c100c655a9ad0">core::epoll::DescriptorEventDispatcher::EPollEvents::mod</a></div><div class="ttdeci">void mod(core::EventReceiver *eventReceiver, uint32_t events)</div><div class="ttdef"><b>Definition:</b> <a href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00062">DescriptorEventDispatcher.cpp:62</a></div></div>
+<div class="ttc" id="aclasscore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events_html_a64613244931584c8705c100c655a9ad0"><div class="ttname"><a href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a64613244931584c8705c100c655a9ad0">core::epoll::DescriptorEventDispatcher::EPollEvents::mod</a></div><div class="ttdeci">void mod(core::EventReceiver *eventReceiver, uint32_t events)</div><div class="ttdef"><b>Definition:</b> <a href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00062">DescriptorEventDispatcher.cpp:62</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="epoll_8cpp_source.html#l00041">core::system::epoll_ctl()</a>, <a class="el" href="epoll_2_descriptor_event_dispatcher_8h_source.html#l00089">core::epoll::DescriptorEventDispatcher::ePollEvents</a>, and <a class="el" href="_event_receiver_8cpp_source.html#l00041">core::EventReceiver::getRegisteredFd()</a>.</p>
+<p class="reference">References <a class="el" href="epoll_8cpp_source.html#l00041">core::system::epoll_ctl()</a>, <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html#l00089">core::epoll::DescriptorEventDispatcher::ePollEvents</a>, and <a class="el" href="_event_receiver_8cpp_source.html#l00041">core::EventReceiver::getRegisteredFd()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00101">core::epoll::DescriptorEventDispatcher::modAdd()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00101">core::epoll::DescriptorEventDispatcher::modAdd()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -439,8 +439,8 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00056">56</a> of file <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                                                                                  {</div>
+<p class="definition">Definition at line <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00056">56</a> of file <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                                                                                      {</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="namespacecore_1_1system.html#a6452ec3ca95af0cb07911423312187a9">core::system::epoll_ctl</a>(<a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#ab06551b0ec1f3d93d061061c0fd00c1c">epfd</a>, EPOLL_CTL_DEL, eventReceiver-&gt;<a class="code" href="classcore_1_1_event_receiver.html#a945c04c8e000b708049e9422960e9739">getRegisteredFd</a>(), <span class="keyword">nullptr</span>) == 0) {</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a2d2e08a1bffe12ad67663cbad5eff11a">interestCount</a>--;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        }</div>
@@ -448,7 +448,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="epoll_8cpp_source.html#l00041">core::system::epoll_ctl()</a>, and <a class="el" href="_event_receiver_8cpp_source.html#l00041">core::EventReceiver::getRegisteredFd()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00105">core::epoll::DescriptorEventDispatcher::modDel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00105">core::epoll::DescriptorEventDispatcher::modDel()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -480,12 +480,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00075">75</a> of file <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                                                                                  {</div>
+<p class="definition">Definition at line <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00075">75</a> of file <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                                                                                      {</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a64613244931584c8705c100c655a9ad0">mod</a>(eventReceiver, 0);</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00113">core::epoll::DescriptorEventDispatcher::modOff()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00113">core::epoll::DescriptorEventDispatcher::modOff()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -511,12 +511,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00071">71</a> of file <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                                                                                 {</div>
+<p class="definition">Definition at line <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00071">71</a> of file <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                                                                                     {</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a64613244931584c8705c100c655a9ad0">mod</a>(eventReceiver, <a class="code" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a2d08e7b226604d048bc5e838c62d182f">events</a>);</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00109">core::epoll::DescriptorEventDispatcher::modOn()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00109">core::epoll::DescriptorEventDispatcher::modOn()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -547,9 +547,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="epoll_2_descriptor_event_dispatcher_8h_source.html#l00069">69</a> of file <a class="el" href="epoll_2_descriptor_event_dispatcher_8h_source.html">DescriptorEventDispatcher.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html#l00069">69</a> of file <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html">DescriptorEventDispatcher.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00031">EPollEvents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00031">EPollEvents()</a>.</p>
 
 </div>
 </div>
@@ -573,9 +573,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="epoll_2_descriptor_event_dispatcher_8h_source.html#l00072">72</a> of file <a class="el" href="epoll_2_descriptor_event_dispatcher_8h_source.html">DescriptorEventDispatcher.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html#l00072">72</a> of file <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html">DescriptorEventDispatcher.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00031">EPollEvents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00031">EPollEvents()</a>.</p>
 
 </div>
 </div>
@@ -599,7 +599,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="epoll_2_descriptor_event_dispatcher_8h_source.html#l00070">70</a> of file <a class="el" href="epoll_2_descriptor_event_dispatcher_8h_source.html">DescriptorEventDispatcher.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html#l00070">70</a> of file <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html">DescriptorEventDispatcher.h</a>.</p>
 
 </div>
 </div>
@@ -623,15 +623,15 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="epoll_2_descriptor_event_dispatcher_8h_source.html#l00073">73</a> of file <a class="el" href="epoll_2_descriptor_event_dispatcher_8h_source.html">DescriptorEventDispatcher.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html#l00073">73</a> of file <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html">DescriptorEventDispatcher.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00031">EPollEvents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00031">EPollEvents()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>core/epoll/<a class="el" href="epoll_2_descriptor_event_dispatcher_8h_source.html">DescriptorEventDispatcher.h</a></li>
-<li>core/epoll/<a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a></li>
+<li>core/mux/epoll/<a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8h_source.html">DescriptorEventDispatcher.h</a></li>
+<li>core/mux/epoll/<a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html">DescriptorEventDispatcher.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

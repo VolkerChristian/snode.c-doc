@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['maskingkey_1128',['MaskingKey',['../unionweb_1_1websocket_1_1_receiver_1_1_masking_key.html',1,'web::websocket::Receiver']]],
-  ['middlewaredispatcher_1129',['MiddlewareDispatcher',['../classexpress_1_1_middleware_dispatcher.html',1,'express']]],
-  ['mimetypes_1130',['MimeTypes',['../classweb_1_1http_1_1_mime_types.html',1,'web::http']]],
-  ['mountpoint_1131',['MountPoint',['../structexpress_1_1_mount_point.html',1,'express']]],
-  ['multibleattributeinjector_1132',['MultibleAttributeInjector',['../classutils_1_1_multible_attribute_injector.html',1,'utils']]]
+  ['library_1861',['Library',['../structcore_1_1_dynamic_loader_1_1_library.html',1,'core::DynamicLoader']]],
+  ['logger_1862',['Logger',['../classlogger_1_1_logger.html',1,'logger']]]
 ];

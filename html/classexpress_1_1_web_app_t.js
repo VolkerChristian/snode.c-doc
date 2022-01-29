@@ -5,6 +5,6 @@ var classexpress_1_1_web_app_t =
     [ "SocketAddress", "classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f", null ],
     [ "SocketConnection", "classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504", null ],
     [ "SocketServer", "classexpress_1_1_web_app_t.html#af6d27cea97ba0493c2f66cb99404a5a4", null ],
-    [ "WebAppT", "classexpress_1_1_web_app_t.html#a19444bd5fc3f320283e3531ab9b15fab", null ],
-    [ "WebAppT", "classexpress_1_1_web_app_t.html#a8bd3ddc2173bbc21e8c15e8ba9a03b0f", null ]
+    [ "WebAppT", "classexpress_1_1_web_app_t.html#a54ca6510b28c6d9f3ad6a6fa7bea6498", null ],
+    [ "WebAppT", "classexpress_1_1_web_app_t.html#a2fa8d7f14ddc75fd8793ed3980a36922", null ]
 ];

@@ -67,6 +67,7 @@ var namespacecore =
       [ "NO_OBSERVER", "namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749a925ec21267dbd278be63adfb4a34bf98", null ],
       [ "ERROR", "namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749abb1ca97ec761fc37101737ba0aa2e7c5", null ]
     ] ],
+    [ "daemonize", "namespacecore.html#a03cf89793e75ef6946726172453454d0", null ],
     [ "getTickCounterAsString", "namespacecore.html#ac82d0e7a5fcc66169eb61cb7dd27b814", null ],
     [ "operator&", "namespacecore.html#ac0cf9a3274cc3cfb03f02dd7d039e26a", null ],
     [ "operator|", "namespacecore.html#a78555dccbc98a3059a6f7785d54b0efa", null ]

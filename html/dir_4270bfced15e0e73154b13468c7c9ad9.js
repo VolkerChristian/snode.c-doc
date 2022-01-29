@@ -1,10 +1,8 @@
 var dir_4270bfced15e0e73154b13468c7c9ad9 =
 [
-    [ "epoll", "dir_9b9322934ea8e70d20c11e7df9fc45af.html", "dir_9b9322934ea8e70d20c11e7df9fc45af" ],
     [ "file", "dir_3cf79a01c77d233dd5dadaf9c60ce692.html", "dir_3cf79a01c77d233dd5dadaf9c60ce692" ],
+    [ "mux", "dir_d916bd12c1135167c9a5dc5f0d088e36.html", "dir_d916bd12c1135167c9a5dc5f0d088e36" ],
     [ "pipe", "dir_cf8ea94354c522c63d0b1962aa12ff4c.html", "dir_cf8ea94354c522c63d0b1962aa12ff4c" ],
-    [ "poll", "dir_40a2828746a8ed2ab40c87f92b7d2f2f.html", "dir_40a2828746a8ed2ab40c87f92b7d2f2f" ],
-    [ "select", "dir_64dc69a0ef0f5f096808e4f6a030c9c1.html", "dir_64dc69a0ef0f5f096808e4f6a030c9c1" ],
     [ "socket", "dir_55e2b5896cfedaa9128ab09eb6ffed25.html", "dir_55e2b5896cfedaa9128ab09eb6ffed25" ],
     [ "system", "dir_ddeab0661943ca2a344224c1b2445b85.html", "dir_ddeab0661943ca2a344224c1b2445b85" ],
     [ "timer", "dir_9b41a5db558813f48114895a5f519704.html", "dir_9b41a5db558813f48114895a5f519704" ],

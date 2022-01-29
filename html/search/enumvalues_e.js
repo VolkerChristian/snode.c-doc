@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['server_2211',['SERVER',['../classcore_1_1socket_1_1_socket_context.html#a8dfa05374cbe796e6b62911adcba7971a3d27c95bfdbea691b250894d96852844',1,'core::socket::SocketContext::SERVER()'],['../classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#aaa9000a982c5189a90dc1f14074a90bfa3d27c95bfdbea691b250894d96852844',1,'web::websocket::SubProtocolFactorySelector::SERVER()']]],
-  ['success_2212',['SUCCESS',['../namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c',1,'core']]]
+  ['parsing_3599',['parsing',['../class_c_l_i_1_1_option.html#a21df1631a6f5ddb495b9ce9c940669b9adbc77665f51d780a776978e34f065af5',1,'CLI::Option']]],
+  ['payload_3600',['PAYLOAD',['../classweb_1_1websocket_1_1_receiver.html#a3cf4e2588c5333541e445cd7aef1eb9baca8fef80e43c8db749b7c9406d535b1a',1,'web::websocket::Receiver']]],
+  ['ping_3601',['PING',['../classweb_1_1websocket_1_1_socket_context_upgrade.html#afe7f0b682e699a618736ddc20bb13fc2a46231183793793f3ebde75a20606ec5f',1,'web::websocket::SocketContextUpgrade']]],
+  ['pong_3602',['PONG',['../classweb_1_1websocket_1_1_socket_context_upgrade.html#afe7f0b682e699a618736ddc20bb13fc2ae44f91710e53dd426a64284a0b75eb39',1,'web::websocket::SocketContextUpgrade']]],
+  ['positional_5fmark_3603',['POSITIONAL_MARK',['../namespace_c_l_i_1_1detail.html#aba10771e3ff645fe1305be4cae517573a2b1681c49e27b242d19b93c5c3620cb6',1,'CLI::detail']]]
 ];

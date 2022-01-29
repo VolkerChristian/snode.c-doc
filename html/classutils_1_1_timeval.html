@@ -389,7 +389,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="epoll_2_event_dispatcher_8cpp_source.html#l00056">core::epoll::EventDispatcher::multiplex()</a>, and <a class="el" href="poll_2_event_dispatcher_8cpp_source.html#l00166">core::poll::EventDispatcher::multiplex()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mux_2epoll_2_event_dispatcher_8cpp_source.html#l00056">core::epoll::EventDispatcher::multiplex()</a>, and <a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html#l00166">core::poll::EventDispatcher::multiplex()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -437,11 +437,11 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_timeval_8cpp_source.html#l00095">operator+()</a>, <a class="el" href="_timeval_8cpp_source.html#l00113">operator+=()</a>, <a class="el" href="_timeval_8cpp_source.html#l00104">operator-()</a>, <a class="el" href="_timeval_8cpp_source.html#l00118">operator-=()</a>, and <a class="el" href="_timeval_8cpp_source.html#l00051">Timeval()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_timeval_8cpp_source.html#l00113">operator+=()</a>, <a class="el" href="_timeval_8cpp_source.html#l00118">operator-=()</a>, and <a class="el" href="_timeval_8cpp_source.html#l00051">Timeval()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutils_1_1_timeval_af8b19ac507d5120c815d07da9f5146b1_icgraph.svg" width="436" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutils_1_1_timeval_af8b19ac507d5120c815d07da9f5146b1_icgraph.svg" width="436" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -538,19 +538,20 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_timeval_8cpp_source.html#l00095">95</a> of file <a class="el" href="_timeval_8cpp_source.html">Timeval.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                                                           {</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> help;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> <a class="code" href="namespace_c_l_i_1_1_failure_message.html#aa7e418b32b7d6f28aee8c4e5ad0bbc95">help</a>;</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        help.<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec = this-&gt;<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec + <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.timeVal.tv_sec;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <a class="code" href="namespace_c_l_i_1_1_failure_message.html#aa7e418b32b7d6f28aee8c4e5ad0bbc95">help</a>.timeVal.tv_sec = this-&gt;<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec + <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.timeVal.tv_sec;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        help.<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec = this-&gt;<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec + <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.timeVal.tv_usec;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">return</span> help.<a class="code" href="classutils_1_1_timeval.html#af8b19ac507d5120c815d07da9f5146b1">normalize</a>();</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
+<div class="ttc" id="anamespace_c_l_i_1_1_failure_message_html_aa7e418b32b7d6f28aee8c4e5ad0bbc95"><div class="ttname"><a href="namespace_c_l_i_1_1_failure_message.html#aa7e418b32b7d6f28aee8c4e5ad0bbc95">CLI::FailureMessage::help</a></div><div class="ttdeci">std::string help(const App *app, const Error &amp;e)</div><div class="ttdoc">Printout the full help string on error (if this fn is set, the old default for CLI11)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l08719">CLI11.hpp:8719</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8cpp_source.html#l00177">normalize()</a>, and <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l08719">CLI::FailureMessage::help()</a>, and <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutils_1_1_timeval_ab2603e981dfbf12b15cbcfe4be2780a2_cgraph.svg" width="426" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutils_1_1_timeval_ab2603e981dfbf12b15cbcfe4be2780a2_cgraph.svg" width="756" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -636,19 +637,19 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_timeval_8cpp_source.html#l00104">104</a> of file <a class="el" href="_timeval_8cpp_source.html">Timeval.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                                                           {</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> help;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> <a class="code" href="namespace_c_l_i_1_1_failure_message.html#aa7e418b32b7d6f28aee8c4e5ad0bbc95">help</a>;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        help.<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec = this-&gt;<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec - <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.timeVal.tv_sec;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <a class="code" href="namespace_c_l_i_1_1_failure_message.html#aa7e418b32b7d6f28aee8c4e5ad0bbc95">help</a>.timeVal.tv_sec = this-&gt;<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec - <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.timeVal.tv_sec;</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        help.<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec = this-&gt;<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec - <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.timeVal.tv_usec;</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordflow">return</span> help.<a class="code" href="classutils_1_1_timeval.html#af8b19ac507d5120c815d07da9f5146b1">normalize</a>();</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8cpp_source.html#l00177">normalize()</a>, and <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l08719">CLI::FailureMessage::help()</a>, and <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutils_1_1_timeval_a9483cc441555547f4978f410c4d3c33a_cgraph.svg" width="419" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutils_1_1_timeval_a9483cc441555547f4978f410c4d3c33a_cgraph.svg" width="750" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -938,8 +939,9 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_timeval_8cpp_source.html#l00189">189</a> of file <a class="el" href="_timeval_8cpp_source.html">Timeval.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                                                                             {</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">return</span> ostream &lt;&lt; <span class="stringliteral">&quot;{&quot;</span> + std::to_string(<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.timeVal.tv_sec) + <span class="stringliteral">&quot;:&quot;</span> + std::to_string(<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.timeVal.tv_usec) + <span class="stringliteral">&quot;}&quot;</span>;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">return</span> ostream &lt;&lt; <span class="stringliteral">&quot;{&quot;</span> + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.timeVal.tv_sec) + <span class="stringliteral">&quot;:&quot;</span> + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.timeVal.tv_usec) + <span class="stringliteral">&quot;}&quot;</span>;</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
+<div class="ttc" id="anamespace_c_l_i_1_1detail_html_a0e94052d485636fc9f18c21009026577"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">CLI::detail::to_string</a></div><div class="ttdeci">auto to_string(T &amp;&amp;value) -&gt; decltype(std::forward&lt; T &gt;(value))</div><div class="ttdoc">Convert an object to a string (directly forward if this can become a string)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l01203">CLI11.hpp:1203</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>

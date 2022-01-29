@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['connectionstate_2165',['ConnectionState',['../namespaceweb_1_1http.html#ac27fdcf348c7472940ecd0e34342dca1',1,'web::http']]]
+  ['appformatmode_3526',['AppFormatMode',['../namespace_c_l_i.html#a97e7d97131e3889f32b721570eca119c',1,'CLI']]]
 ];

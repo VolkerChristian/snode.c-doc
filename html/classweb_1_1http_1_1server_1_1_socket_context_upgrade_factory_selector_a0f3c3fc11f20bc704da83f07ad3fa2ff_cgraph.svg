@@ -46,7 +46,7 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
-<g id="edge4" class="edge">
+<g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M164.32,-53.78C216.38,-57.48 282.87,-62.21 330.63,-65.6"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="330.6,-69.11 340.83,-66.33 331.1,-62.13 330.6,-69.11"/>
@@ -71,6 +71,21 @@
 <title>Node2&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M305.26,-83.81C313.58,-82.49 322.27,-81.12 330.79,-79.77"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="331.37,-83.22 340.7,-78.2 330.27,-76.31 331.37,-83.22"/>
+</g>
+<!-- Node5 -->
+<g id="node5" class="node">
+<title>Node5</title>
+<g id="a_node5"><a xlink:href="namespace_c_l_i_1_1detail.html#a9e78d046d8a9c2d6f246bd1e36e57ec6" target="_top" xlink:title="Split a string by a delim.">
+<polygon fill="white" stroke="black" points="347.5,-0.5 347.5,-19.5 439.5,-19.5 439.5,-0.5 347.5,-0.5"/>
+<text text-anchor="middle" x="393.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">CLI::detail::split</text>
+</a>
+</g>
+</g>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge4" class="edge">
+<title>Node4&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M303.68,-10C314.64,-10 326.29,-10 337.42,-10"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="337.47,-13.5 347.47,-10 337.47,-6.5 337.47,-13.5"/>
 </g>
 </g>
 </svg>

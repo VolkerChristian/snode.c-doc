@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['client_2177',['CLIENT',['../classcore_1_1socket_1_1_socket_context.html#a8dfa05374cbe796e6b62911adcba7971aef10c650df47bffd6399e5e78da2a9b1',1,'core::socket::SocketContext::CLIENT()'],['../classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#aaa9000a982c5189a90dc1f14074a90bfaef10c650df47bffd6399e5e78da2a9b1',1,'web::websocket::SubProtocolFactorySelector::CLIENT()']]],
-  ['close_2178',['CLOSE',['../classweb_1_1websocket_1_1_socket_context_upgrade.html#afe7f0b682e699a618736ddc20bb13fc2ae61c18f8c587f964f5d3bf317bad1148',1,'web::websocket::SocketContextUpgrade']]],
-  ['close_2179',['Close',['../namespaceweb_1_1http.html#ac27fdcf348c7472940ecd0e34342dca1a31333582a62633255ac3791bd7f5af0b',1,'web::http']]]
+  ['badnamestring_3548',['BadNameString',['../namespace_c_l_i.html#a1d8108a219533f0b0361640a017f037eab319e260db27232cb74e2a23124b7a2c',1,'CLI']]],
+  ['baseclass_3549',['BaseClass',['../namespace_c_l_i.html#a1d8108a219533f0b0361640a017f037ea45b3e4c35409fb597ea598dc4b984b8c',1,'CLI']]],
+  ['begin_3550',['BEGIN',['../classweb_1_1http_1_1_parser.html#a94ab44c0d65451be6ba3e6e389a8b7d5a19aad9f2fe3ce0023298ab83f7e75775',1,'web::http::Parser::BEGIN()'],['../classweb_1_1websocket_1_1_receiver.html#a3cf4e2588c5333541e445cd7aef1eb9ba19aad9f2fe3ce0023298ab83f7e75775',1,'web::websocket::Receiver::BEGIN()']]],
+  ['body_3551',['BODY',['../classweb_1_1http_1_1_parser.html#a94ab44c0d65451be6ba3e6e389a8b7d5a786329b34bbe53ab40a54a19cd597f2d',1,'web::http::Parser']]]
 ];

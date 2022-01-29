@@ -97,13 +97,13 @@ $(document).ready(function(){initNavTree('classcore_1_1_event_receiver.html','')
 <div class="dynheader">
 Inheritance diagram for core::EventReceiver:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver__inherit__graph.svg" width="2480" height="2475"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver__inherit__graph.svg" width="2480" height="2490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for core::EventReceiver:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver__coll__graph.svg" width="646" height="947"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver__coll__graph.svg" width="646" height="962"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -190,6 +190,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a423cb43819d108774b1497d7b54ec93c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afab3c9d182ba46914dda14a1bd1d5cc5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#afab3c9d182ba46914dda14a1bd1d5cc5">initialTimeout</a></td></tr>
 <tr class="separator:afab3c9d182ba46914dda14a1bd1d5cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e182e02b44f386f2ead0be701d13125"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a8e182e02b44f386f2ead0be701d13125">eventCounter</a> = 0</td></tr>
+<tr class="separator:a8e182e02b44f386f2ead0be701d13125"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -308,12 +310,12 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_receiver_8cpp_source.html#l00122">122</a> of file <a class="el" href="_event_receiver_8cpp_source.html">EventReceiver.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                                                                    {</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classcore_1_1_event_receiver.html#a423cb43819d108774b1497d7b54ec93c">maxInactivity</a> &gt;= 0 &amp;&amp; currentTime - <a class="code" href="classcore_1_1_event_receiver.html#af64249853f320cd93eae418cda971d33">lastTriggered</a> &gt;= <a class="code" href="classcore_1_1_event_receiver.html#a423cb43819d108774b1497d7b54ec93c">maxInactivity</a>) {</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            <a class="code" href="classcore_1_1_event_receiver.html#a854cc0f9f55f0f48335d959b23ee47b5">timeoutEvent</a>();</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        }</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_event_receiver_8cpp_source.html#l00123">123</a> of file <a class="el" href="_event_receiver_8cpp_source.html">EventReceiver.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classcore_1_1_event_receiver.html#a423cb43819d108774b1497d7b54ec93c">maxInactivity</a> &gt;= 0 &amp;&amp; currentTime - <a class="code" href="classcore_1_1_event_receiver.html#af64249853f320cd93eae418cda971d33">lastTriggered</a> &gt;= <a class="code" href="classcore_1_1_event_receiver.html#a423cb43819d108774b1497d7b54ec93c">maxInactivity</a>) {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <a class="code" href="classcore_1_1_event_receiver.html#a854cc0f9f55f0f48335d959b23ee47b5">timeoutEvent</a>();</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        }</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1_event_receiver_html_a854cc0f9f55f0f48335d959b23ee47b5"><div class="ttname"><a href="classcore_1_1_event_receiver.html#a854cc0f9f55f0f48335d959b23ee47b5">core::EventReceiver::timeoutEvent</a></div><div class="ttdeci">virtual void timeoutEvent()=0</div></div>
 <div class="ttc" id="aclasscore_1_1_event_receiver_html_af64249853f320cd93eae418cda971d33"><div class="ttname"><a href="classcore_1_1_event_receiver.html#af64249853f320cd93eae418cda971d33">core::EventReceiver::lastTriggered</a></div><div class="ttdeci">utils::Timeval lastTriggered</div><div class="ttdef"><b>Definition:</b> <a href="_event_receiver_8h_source.html#l00109">EventReceiver.h:109</a></div></div>
 </div><!-- fragment -->
@@ -360,7 +362,7 @@ Here is the caller graph for this function:</div>
 
 <p>Implemented in <a class="el" href="classcore_1_1_write_event_receiver.html#a7cbfd5841275ec1320978b1408e3f436">core::WriteEventReceiver</a>, <a class="el" href="classcore_1_1_read_event_receiver.html#a207a8f720b27a81df9c80ff79b8d4709">core::ReadEventReceiver</a>, <a class="el" href="classcore_1_1_exceptional_condition_event_receiver.html#af10d29843680835f0592370f9ab06bd0">core::ExceptionalConditionEventReceiver</a>, <a class="el" href="classcore_1_1_connect_event_receiver.html#aca0ca327f4367853bc08492baf21483d">core::ConnectEventReceiver</a>, and <a class="el" href="classcore_1_1_accept_event_receiver.html#a62a9c132304d79ae76e1925c9cb34db9">core::AcceptEventReceiver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00117">core::epoll::DescriptorEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="poll_2_descriptor_event_dispatcher_8cpp_source.html#l00055">core::poll::DescriptorEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="select_2_descriptor_event_dispatcher_8cpp_source.html#l00079">core::select::DescriptorEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00114">core::DescriptorEventDispatcher::dispatchImmediateEvents()</a>, and <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00177">core::DescriptorEventDispatcher::getNextTimeout()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00117">core::epoll::DescriptorEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="mux_2poll_2_descriptor_event_dispatcher_8cpp_source.html#l00055">core::poll::DescriptorEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="mux_2select_2_descriptor_event_dispatcher_8cpp_source.html#l00079">core::select::DescriptorEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00114">core::DescriptorEventDispatcher::dispatchImmediateEvents()</a>, and <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00177">core::DescriptorEventDispatcher::getNextTimeout()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -401,7 +403,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_event_receiver_8h_source.html#l00102">descriptorEventDispatcher</a>, <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00055">core::DescriptorEventDispatcher::disable()</a>, <a class="el" href="_event_receiver_8h_source.html#l00106">enabled</a>, <a class="el" href="_event_receiver_8cpp_source.html#l00088">isSuspended()</a>, and <a class="el" href="_event_receiver_8cpp_source.html#l00073">suspend()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_accept_event_receiver_8cpp_source.html#l00034">core::AcceptEventReceiver::acceptTimeout()</a>, <a class="el" href="stream_2_socket_connection_8h_source.html#l00081">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;::close()</a>, <a class="el" href="_socket_connector_8h_source.html#l00099">core::socket::stream::SocketConnector&lt; SocketConnectionT &gt;::connectEvent()</a>, <a class="el" href="_connect_event_receiver_8cpp_source.html#l00034">core::ConnectEventReceiver::connectTimeout()</a>, <a class="el" href="_socket_reader_8h_source.html#l00083">core::socket::stream::SocketReader&lt; SocketT &gt;::doRead()</a>, <a class="el" href="stream_2tls_2_socket_connection_8h_source.html#l00109">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;::doSSLHandshake()</a>, <a class="el" href="_socket_writer_8h_source.html#l00084">core::socket::stream::SocketWriter&lt; SocketT &gt;::doWrite()</a>, <a class="el" href="_socket_writer_8h_source.html#l00068">core::socket::stream::SocketWriter&lt; SocketT &gt;::doWriteShutdown()</a>, <a class="el" href="stream_2tls_2_socket_connection_8h_source.html#l00214">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;::doWriteShutdown()</a>, <a class="el" href="_pipe_source_8cpp_source.html#l00058">core::pipe::PipeSource::eof()</a>, <a class="el" href="_exceptional_condition_event_receiver_8cpp_source.html#l00034">core::ExceptionalConditionEventReceiver::outOfBandTimeout()</a>, <a class="el" href="_file_reader_8cpp_source.html#l00053">core::file::FileReader::readEvent()</a>, <a class="el" href="_pipe_sink_8cpp_source.html#l00040">core::pipe::PipeSink::readEvent()</a>, <a class="el" href="_t_l_s_handshake_8cpp_source.html#l00085">core::socket::stream::tls::TLSHandshake::readEvent()</a>, <a class="el" href="_t_l_s_shutdown_8cpp_source.html#l00085">core::socket::stream::tls::TLSShutdown::readEvent()</a>, <a class="el" href="_read_event_receiver_8cpp_source.html#l00034">core::ReadEventReceiver::readTimeout()</a>, <a class="el" href="_t_l_s_handshake_8cpp_source.html#l00141">core::socket::stream::tls::TLSHandshake::readTimeout()</a>, <a class="el" href="_t_l_s_shutdown_8cpp_source.html#l00141">core::socket::stream::tls::TLSShutdown::readTimeout()</a>, <a class="el" href="_file_reader_8cpp_source.html#l00075">core::file::FileReader::sinkDisconnected()</a>, <a class="el" href="_event_receiver_8cpp_source.html#l00092">terminate()</a>, <a class="el" href="_t_l_s_handshake_8cpp_source.html#l00040">core::socket::stream::tls::TLSHandshake::TLSHandshake()</a>, <a class="el" href="_t_l_s_shutdown_8cpp_source.html#l00040">core::socket::stream::tls::TLSShutdown::TLSShutdown()</a>, <a class="el" href="_pipe_source_8cpp_source.html#l00062">core::pipe::PipeSource::writeEvent()</a>, <a class="el" href="_t_l_s_handshake_8cpp_source.html#l00113">core::socket::stream::tls::TLSHandshake::writeEvent()</a>, <a class="el" href="_t_l_s_shutdown_8cpp_source.html#l00113">core::socket::stream::tls::TLSShutdown::writeEvent()</a>, <a class="el" href="_write_event_receiver_8cpp_source.html#l00034">core::WriteEventReceiver::writeTimeout()</a>, <a class="el" href="_t_l_s_handshake_8cpp_source.html#l00150">core::socket::stream::tls::TLSHandshake::writeTimeout()</a>, and <a class="el" href="_t_l_s_shutdown_8cpp_source.html#l00150">core::socket::stream::tls::TLSShutdown::writeTimeout()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_accept_event_receiver_8cpp_source.html#l00035">core::AcceptEventReceiver::acceptTimeout()</a>, <a class="el" href="stream_2_socket_connection_8h_source.html#l00081">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;::close()</a>, <a class="el" href="_socket_connector_8h_source.html#l00099">core::socket::stream::SocketConnector&lt; SocketConnectionT &gt;::connectEvent()</a>, <a class="el" href="_connect_event_receiver_8cpp_source.html#l00035">core::ConnectEventReceiver::connectTimeout()</a>, <a class="el" href="_socket_reader_8h_source.html#l00083">core::socket::stream::SocketReader&lt; SocketT &gt;::doRead()</a>, <a class="el" href="stream_2tls_2_socket_connection_8h_source.html#l00109">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;::doSSLHandshake()</a>, <a class="el" href="_socket_writer_8h_source.html#l00084">core::socket::stream::SocketWriter&lt; SocketT &gt;::doWrite()</a>, <a class="el" href="_socket_writer_8h_source.html#l00068">core::socket::stream::SocketWriter&lt; SocketT &gt;::doWriteShutdown()</a>, <a class="el" href="stream_2tls_2_socket_connection_8h_source.html#l00214">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;::doWriteShutdown()</a>, <a class="el" href="_pipe_source_8cpp_source.html#l00058">core::pipe::PipeSource::eof()</a>, <a class="el" href="_exceptional_condition_event_receiver_8cpp_source.html#l00035">core::ExceptionalConditionEventReceiver::outOfBandTimeout()</a>, <a class="el" href="_file_reader_8cpp_source.html#l00053">core::file::FileReader::readEvent()</a>, <a class="el" href="_pipe_sink_8cpp_source.html#l00040">core::pipe::PipeSink::readEvent()</a>, <a class="el" href="_t_l_s_handshake_8cpp_source.html#l00085">core::socket::stream::tls::TLSHandshake::readEvent()</a>, <a class="el" href="_t_l_s_shutdown_8cpp_source.html#l00085">core::socket::stream::tls::TLSShutdown::readEvent()</a>, <a class="el" href="_read_event_receiver_8cpp_source.html#l00035">core::ReadEventReceiver::readTimeout()</a>, <a class="el" href="_t_l_s_handshake_8cpp_source.html#l00141">core::socket::stream::tls::TLSHandshake::readTimeout()</a>, <a class="el" href="_t_l_s_shutdown_8cpp_source.html#l00141">core::socket::stream::tls::TLSShutdown::readTimeout()</a>, <a class="el" href="_file_reader_8cpp_source.html#l00075">core::file::FileReader::sinkDisconnected()</a>, <a class="el" href="_event_receiver_8cpp_source.html#l00092">terminate()</a>, <a class="el" href="_t_l_s_handshake_8cpp_source.html#l00040">core::socket::stream::tls::TLSHandshake::TLSHandshake()</a>, <a class="el" href="_t_l_s_shutdown_8cpp_source.html#l00040">core::socket::stream::tls::TLSShutdown::TLSShutdown()</a>, <a class="el" href="_pipe_source_8cpp_source.html#l00062">core::pipe::PipeSource::writeEvent()</a>, <a class="el" href="_t_l_s_handshake_8cpp_source.html#l00113">core::socket::stream::tls::TLSHandshake::writeEvent()</a>, <a class="el" href="_t_l_s_shutdown_8cpp_source.html#l00113">core::socket::stream::tls::TLSShutdown::writeEvent()</a>, <a class="el" href="_write_event_receiver_8cpp_source.html#l00035">core::WriteEventReceiver::writeTimeout()</a>, <a class="el" href="_t_l_s_handshake_8cpp_source.html#l00150">core::socket::stream::tls::TLSHandshake::writeTimeout()</a>, and <a class="el" href="_t_l_s_shutdown_8cpp_source.html#l00150">core::socket::stream::tls::TLSShutdown::writeTimeout()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -474,16 +476,18 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_event_receiver_8cpp_source.html#l00112">112</a> of file <a class="el" href="_event_receiver_8cpp_source.html">EventReceiver.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                                                                {</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <a class="code" href="classcore_1_1_event_receiver.html#a1de6e48903e37b25873e8eebdd91af86">triggered</a>(currentTime);</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <a class="code" href="classcore_1_1_event_receiver.html#a9472344a6dd9eb471d9c3b51deffd0ed">dispatchEvent</a>();</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1_event_receiver_html_a1de6e48903e37b25873e8eebdd91af86"><div class="ttname"><a href="classcore_1_1_event_receiver.html#a1de6e48903e37b25873e8eebdd91af86">core::EventReceiver::triggered</a></div><div class="ttdeci">void triggered(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_event_receiver_8cpp_source.html#l00118">EventReceiver.cpp:118</a></div></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <a class="code" href="classcore_1_1_event_receiver.html#a8e182e02b44f386f2ead0be701d13125">eventCounter</a>++;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <a class="code" href="classcore_1_1_event_receiver.html#a1de6e48903e37b25873e8eebdd91af86">triggered</a>(currentTime);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <a class="code" href="classcore_1_1_event_receiver.html#a9472344a6dd9eb471d9c3b51deffd0ed">dispatchEvent</a>();</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1_event_receiver_html_a1de6e48903e37b25873e8eebdd91af86"><div class="ttname"><a href="classcore_1_1_event_receiver.html#a1de6e48903e37b25873e8eebdd91af86">core::EventReceiver::triggered</a></div><div class="ttdeci">void triggered(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_event_receiver_8cpp_source.html#l00119">EventReceiver.cpp:119</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_receiver_html_a8e182e02b44f386f2ead0be701d13125"><div class="ttname"><a href="classcore_1_1_event_receiver.html#a8e182e02b44f386f2ead0be701d13125">core::EventReceiver::eventCounter</a></div><div class="ttdeci">int eventCounter</div><div class="ttdef"><b>Definition:</b> <a href="_event_receiver_8h_source.html#l00113">EventReceiver.h:113</a></div></div>
 <div class="ttc" id="aclasscore_1_1_event_receiver_html_a9472344a6dd9eb471d9c3b51deffd0ed"><div class="ttname"><a href="classcore_1_1_event_receiver.html#a9472344a6dd9eb471d9c3b51deffd0ed">core::EventReceiver::dispatchEvent</a></div><div class="ttdeci">virtual void dispatchEvent()=0</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="classcore_1_1_event_receiver.html#a9472344a6dd9eb471d9c3b51deffd0ed">dispatchEvent()</a>, and <a class="el" href="_event_receiver_8cpp_source.html#l00118">triggered()</a>.</p>
+<p class="reference">References <a class="el" href="classcore_1_1_event_receiver.html#a9472344a6dd9eb471d9c3b51deffd0ed">dispatchEvent()</a>, <a class="el" href="_event_receiver_8h_source.html#l00113">eventCounter</a>, and <a class="el" href="_event_receiver_8cpp_source.html#l00119">triggered()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00117">core::epoll::DescriptorEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="poll_2_descriptor_event_dispatcher_8cpp_source.html#l00055">core::poll::DescriptorEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="select_2_descriptor_event_dispatcher_8cpp_source.html#l00079">core::select::DescriptorEventDispatcher::dispatchActiveEvents()</a>, and <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00114">core::DescriptorEventDispatcher::dispatchImmediateEvents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00117">core::epoll::DescriptorEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="mux_2poll_2_descriptor_event_dispatcher_8cpp_source.html#l00055">core::poll::DescriptorEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="mux_2select_2_descriptor_event_dispatcher_8cpp_source.html#l00079">core::select::DescriptorEventDispatcher::dispatchActiveEvents()</a>, and <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00114">core::DescriptorEventDispatcher::dispatchImmediateEvents()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -606,7 +610,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_event_receiver_8h_source.html#l00104">registeredFd</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00055">core::DescriptorEventDispatcher::disable()</a>, <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00040">core::DescriptorEventDispatcher::enable()</a>, <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00062">core::epoll::DescriptorEventDispatcher::EPollEvents::mod()</a>, <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00039">core::epoll::DescriptorEventDispatcher::EPollEvents::modAdd()</a>, <a class="el" href="poll_2_event_dispatcher_8cpp_source.html#l00053">core::poll::PollFds::modAdd()</a>, <a class="el" href="select_2_descriptor_event_dispatcher_8cpp_source.html#l00063">core::select::DescriptorEventDispatcher::modAdd()</a>, <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00056">core::epoll::DescriptorEventDispatcher::EPollEvents::modDel()</a>, <a class="el" href="poll_2_event_dispatcher_8cpp_source.html#l00084">core::poll::PollFds::modDel()</a>, <a class="el" href="select_2_descriptor_event_dispatcher_8cpp_source.html#l00067">core::select::DescriptorEventDispatcher::modDel()</a>, <a class="el" href="poll_2_event_dispatcher_8cpp_source.html#l00109">core::poll::PollFds::modOff()</a>, <a class="el" href="select_2_descriptor_event_dispatcher_8cpp_source.html#l00075">core::select::DescriptorEventDispatcher::modOff()</a>, <a class="el" href="poll_2_event_dispatcher_8cpp_source.html#l00103">core::poll::PollFds::modOn()</a>, <a class="el" href="select_2_descriptor_event_dispatcher_8cpp_source.html#l00071">core::select::DescriptorEventDispatcher::modOn()</a>, <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00085">core::DescriptorEventDispatcher::resume()</a>, and <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00073">core::DescriptorEventDispatcher::suspend()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00055">core::DescriptorEventDispatcher::disable()</a>, <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00040">core::DescriptorEventDispatcher::enable()</a>, <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00062">core::epoll::DescriptorEventDispatcher::EPollEvents::mod()</a>, <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00039">core::epoll::DescriptorEventDispatcher::EPollEvents::modAdd()</a>, <a class="el" href="mux_2select_2_descriptor_event_dispatcher_8cpp_source.html#l00063">core::select::DescriptorEventDispatcher::modAdd()</a>, <a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html#l00053">core::poll::PollFds::modAdd()</a>, <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00056">core::epoll::DescriptorEventDispatcher::EPollEvents::modDel()</a>, <a class="el" href="mux_2select_2_descriptor_event_dispatcher_8cpp_source.html#l00067">core::select::DescriptorEventDispatcher::modDel()</a>, <a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html#l00084">core::poll::PollFds::modDel()</a>, <a class="el" href="mux_2select_2_descriptor_event_dispatcher_8cpp_source.html#l00075">core::select::DescriptorEventDispatcher::modOff()</a>, <a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html#l00109">core::poll::PollFds::modOff()</a>, <a class="el" href="mux_2select_2_descriptor_event_dispatcher_8cpp_source.html#l00071">core::select::DescriptorEventDispatcher::modOn()</a>, <a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html#l00103">core::poll::PollFds::modOn()</a>, <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00085">core::DescriptorEventDispatcher::resume()</a>, and <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00073">core::DescriptorEventDispatcher::suspend()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -705,7 +709,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_event_receiver_8h_source.html#l00107">suspended</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_receiver_8cpp_source.html#l00056">disable()</a>, <a class="el" href="epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00117">core::epoll::DescriptorEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="poll_2_descriptor_event_dispatcher_8cpp_source.html#l00055">core::poll::DescriptorEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="select_2_descriptor_event_dispatcher_8cpp_source.html#l00079">core::select::DescriptorEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00114">core::DescriptorEventDispatcher::dispatchImmediateEvents()</a>, <a class="el" href="stream_2tls_2_socket_connection_8h_source.html#l00109">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;::doSSLHandshake()</a>, <a class="el" href="stream_2tls_2_socket_connection_8h_source.html#l00157">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;::doSSLShutdown()</a>, <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00177">core::DescriptorEventDispatcher::getNextTimeout()</a>, <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00085">core::DescriptorEventDispatcher::resume()</a>, <a class="el" href="_pipe_source_8cpp_source.html#l00046">core::pipe::PipeSource::send()</a>, <a class="el" href="_socket_writer_8h_source.html#l00074">core::socket::stream::SocketWriter&lt; SocketT &gt;::sendToPeer()</a>, <a class="el" href="_socket_writer_8h_source.html#l00107">core::socket::stream::SocketWriter&lt; SocketT &gt;::shutdown()</a>, and <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00073">core::DescriptorEventDispatcher::suspend()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_receiver_8cpp_source.html#l00056">disable()</a>, <a class="el" href="mux_2epoll_2_descriptor_event_dispatcher_8cpp_source.html#l00117">core::epoll::DescriptorEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="mux_2poll_2_descriptor_event_dispatcher_8cpp_source.html#l00055">core::poll::DescriptorEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="mux_2select_2_descriptor_event_dispatcher_8cpp_source.html#l00079">core::select::DescriptorEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00114">core::DescriptorEventDispatcher::dispatchImmediateEvents()</a>, <a class="el" href="stream_2tls_2_socket_connection_8h_source.html#l00109">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;::doSSLHandshake()</a>, <a class="el" href="stream_2tls_2_socket_connection_8h_source.html#l00157">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;::doSSLShutdown()</a>, <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00177">core::DescriptorEventDispatcher::getNextTimeout()</a>, <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00085">core::DescriptorEventDispatcher::resume()</a>, <a class="el" href="_pipe_source_8cpp_source.html#l00046">core::pipe::PipeSource::send()</a>, <a class="el" href="_socket_writer_8h_source.html#l00074">core::socket::stream::SocketWriter&lt; SocketT &gt;::sendToPeer()</a>, <a class="el" href="_socket_writer_8h_source.html#l00107">core::socket::stream::SocketWriter&lt; SocketT &gt;::shutdown()</a>, and <a class="el" href="_descriptor_event_dispatcher_8cpp_source.html#l00073">core::DescriptorEventDispatcher::suspend()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -813,7 +817,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1_event_receiver_1_1_t_i_m_e_o_u_t_html_acb1934f4f5cb8aedbdf4c138a101832d"><div class="ttname"><a href="classcore_1_1_event_receiver_1_1_t_i_m_e_o_u_t.html#acb1934f4f5cb8aedbdf4c138a101832d">core::EventReceiver::TIMEOUT::DEFAULT</a></div><div class="ttdeci">static const utils::Timeval DEFAULT</div><div class="ttdef"><b>Definition:</b> <a href="_event_receiver_8h_source.html#l00065">EventReceiver.h:65</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8cpp_source.html#l00062">utils::Timeval::currentTime()</a>, <a class="el" href="_event_receiver_8h_source.html#l00065">core::EventReceiver::TIMEOUT::DEFAULT</a>, <a class="el" href="_event_receiver_8h_source.html#l00111">initialTimeout</a>, <a class="el" href="_event_receiver_8h_source.html#l00110">maxInactivity</a>, and <a class="el" href="_event_receiver_8cpp_source.html#l00118">triggered()</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8cpp_source.html#l00062">utils::Timeval::currentTime()</a>, <a class="el" href="_event_receiver_8h_source.html#l00065">core::EventReceiver::TIMEOUT::DEFAULT</a>, <a class="el" href="_event_receiver_8h_source.html#l00111">initialTimeout</a>, <a class="el" href="_event_receiver_8h_source.html#l00110">maxInactivity</a>, and <a class="el" href="_event_receiver_8cpp_source.html#l00119">triggered()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="stream_2_socket_connection_8h_source.html#l00094">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;::setTimeout()</a>, <a class="el" href="_socket_reader_8h_source.html#l00114">core::socket::stream::SocketReader&lt; SocketT &gt;::terminate()</a>, and <a class="el" href="_socket_writer_8h_source.html#l00118">core::socket::stream::SocketWriter&lt; SocketT &gt;::terminate()</a>.</p>
 <div class="dynheader">
@@ -949,7 +953,7 @@ Here is the caller graph for this function:</div>
 
 <p>Implemented in <a class="el" href="classcore_1_1_write_event_receiver.html#a18da0211c1e2b4c6d2949cdea36e2ef1">core::WriteEventReceiver</a>, <a class="el" href="classcore_1_1_read_event_receiver.html#a579dbdce1940f240063fbd827457c46d">core::ReadEventReceiver</a>, <a class="el" href="classcore_1_1_exceptional_condition_event_receiver.html#a7cc0460d3673292a3bb436bf4958f46d">core::ExceptionalConditionEventReceiver</a>, <a class="el" href="classcore_1_1_connect_event_receiver.html#a17a349c35b3e64062cdf3e5b62fc6c3c">core::ConnectEventReceiver</a>, and <a class="el" href="classcore_1_1_accept_event_receiver.html#a23dd9e4d19152a72a9a674e8d30a385b">core::AcceptEventReceiver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_receiver_8cpp_source.html#l00122">checkTimeout()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_receiver_8cpp_source.html#l00123">checkTimeout()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -975,10 +979,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_receiver_8cpp_source.html#l00118">118</a> of file <a class="el" href="_event_receiver_8cpp_source.html">EventReceiver.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                                                                 {</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <a class="code" href="classcore_1_1_event_receiver.html#af64249853f320cd93eae418cda971d33">lastTriggered</a> = currentTime;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_event_receiver_8cpp_source.html#l00119">119</a> of file <a class="el" href="_event_receiver_8cpp_source.html">EventReceiver.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <a class="code" href="classcore_1_1_event_receiver.html#af64249853f320cd93eae418cda971d33">lastTriggered</a> = currentTime;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_event_receiver_8h_source.html#l00109">lastTriggered</a>.</p>
 
@@ -1045,6 +1049,32 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a8e182e02b44f386f2ead0be701d13125"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e182e02b44f386f2ead0be701d13125">&#9670;&nbsp;</a></span>eventCounter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int core::EventReceiver::eventCounter = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_event_receiver_8h_source.html#l00113">113</a> of file <a class="el" href="_event_receiver_8h_source.html">EventReceiver.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_event_receiver_8cpp_source.html#l00112">dispatch()</a>.</p>
+
+</div>
+</div>
 <a id="afab3c9d182ba46914dda14a1bd1d5cc5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afab3c9d182ba46914dda14a1bd1d5cc5">&#9670;&nbsp;</a></span>initialTimeout</h2>
 
@@ -1093,7 +1123,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_event_receiver_8h_source.html#l00109">109</a> of file <a class="el" href="_event_receiver_8h_source.html">EventReceiver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_receiver_8cpp_source.html#l00122">checkTimeout()</a>, <a class="el" href="_event_receiver_8cpp_source.html#l00045">enable()</a>, <a class="el" href="_event_receiver_8cpp_source.html#l00108">getTimeout()</a>, <a class="el" href="_event_receiver_8cpp_source.html#l00080">resume()</a>, and <a class="el" href="_event_receiver_8cpp_source.html#l00118">triggered()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_receiver_8cpp_source.html#l00123">checkTimeout()</a>, <a class="el" href="_event_receiver_8cpp_source.html#l00045">enable()</a>, <a class="el" href="_event_receiver_8cpp_source.html#l00108">getTimeout()</a>, <a class="el" href="_event_receiver_8cpp_source.html#l00080">resume()</a>, and <a class="el" href="_event_receiver_8cpp_source.html#l00119">triggered()</a>.</p>
 
 </div>
 </div>
@@ -1119,7 +1149,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_event_receiver_8h_source.html#l00110">110</a> of file <a class="el" href="_event_receiver_8h_source.html">EventReceiver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_receiver_8cpp_source.html#l00122">checkTimeout()</a>, <a class="el" href="_event_receiver_8cpp_source.html#l00108">getTimeout()</a>, and <a class="el" href="_event_receiver_8cpp_source.html#l00098">setTimeout()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_receiver_8cpp_source.html#l00123">checkTimeout()</a>, <a class="el" href="_event_receiver_8cpp_source.html#l00108">getTimeout()</a>, and <a class="el" href="_event_receiver_8cpp_source.html#l00098">setTimeout()</a>.</p>
 
 </div>
 </div>

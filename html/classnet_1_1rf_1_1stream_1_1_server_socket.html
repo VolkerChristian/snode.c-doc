@@ -83,6 +83,7 @@ $(document).ready(function(){initNavTree('classnet_1_1rf_1_1stream_1_1_server_so
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
 <a href="classnet_1_1rf_1_1stream_1_1_server_socket-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">net::rf::stream::ServerSocket Class Reference</div>  </div>
@@ -93,40 +94,142 @@ $(document).ready(function(){initNavTree('classnet_1_1rf_1_1stream_1_1_server_so
 <div class="dynheader">
 Inheritance diagram for net::rf::stream::ServerSocket:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1rf_1_1stream_1_1_server_socket__inherit__graph.svg" width="235" height="428"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1rf_1_1stream_1_1_server_socket__inherit__graph.svg" width="268" height="546"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for net::rf::stream::ServerSocket:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1rf_1_1stream_1_1_server_socket__coll__graph.svg" width="235" height="428"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1rf_1_1stream_1_1_server_socket__coll__graph.svg" width="268" height="546"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a950bb3c259b2b618015e06ea0498714f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#a950bb3c259b2b618015e06ea0498714f">ServerSocket</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:a950bb3c259b2b618015e06ea0498714f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a952dcd1f99cf1d476a775d118236e682"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#a952dcd1f99cf1d476a775d118236e682">listen</a> (const std::function&lt; void(const <a class="el" href="classnet_1_1rf_1_1stream_1_1_socket.html">Socket</a> &amp;socket, int)&gt; &amp;onError)</td></tr>
+<tr class="separator:a952dcd1f99cf1d476a775d118236e682"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad85e52371a0178868efa79120dd30e2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#ad85e52371a0178868efa79120dd30e2f">listen</a> (uint8_t channel, int backlog, const std::function&lt; void(const <a class="el" href="classnet_1_1rf_1_1stream_1_1_socket.html">Socket</a> &amp;socket, int)&gt; &amp;onError)</td></tr>
 <tr class="separator:ad85e52371a0178868efa79120dd30e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54c10edeef931d9bbd5b9d792c73fd9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#a54c10edeef931d9bbd5b9d792c73fd9a">listen</a> (const std::string &amp;address, int backlog, const std::function&lt; void(const <a class="el" href="classnet_1_1rf_1_1stream_1_1_socket.html">Socket</a> &amp;socket, int)&gt; &amp;onError)</td></tr>
 <tr class="separator:a54c10edeef931d9bbd5b9d792c73fd9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedb69f18e8567f9e22d67dda6753fb3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#aedb69f18e8567f9e22d67dda6753fb3d">listen</a> (const std::string &amp;address, uint8_t channel, int backlog, const std::function&lt; void(const <a class="el" href="classnet_1_1rf_1_1stream_1_1_socket.html">Socket</a> &amp;socket, int)&gt; &amp;onError)</td></tr>
 <tr class="separator:aedb69f18e8567f9e22d67dda6753fb3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classcore_1_1socket_1_1_server_socket"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcore_1_1socket_1_1_server_socket')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1_server_socket.html">core::socket::ServerSocket&lt; net::rf::stream::Socket &gt;</a></td></tr>
-<tr class="memitem:ae915b41b291a5d7a07b09870cbea3552 inherit pub_methods_classcore_1_1socket_1_1_server_socket"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_server_socket.html#ae915b41b291a5d7a07b09870cbea3552">listen</a> (const typename <a class="el" href="classcore_1_1socket_1_1_socket.html#a6f3a39a7f462eae53a4d5202840889ce">Socket::SocketAddress</a> &amp;bindAddress, int backlog, const std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1_server_socket.html#a382131672815f6d15f61ffb9ff5611f1">Socket</a> &amp;socket, int)&gt; &amp;onError) const=0</td></tr>
-<tr class="separator:ae915b41b291a5d7a07b09870cbea3552 inherit pub_methods_classcore_1_1socket_1_1_server_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classcore_1_1socket_1_1_server_socket"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcore_1_1socket_1_1_server_socket')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1_server_socket.html">core::socket::ServerSocket&lt; net::rf::stream::Socket, net::rf::stream::ServerConfig &gt;</a></td></tr>
+<tr class="memitem:a39111b237e7a1f3d94cc537f7e2b9467 inherit pub_methods_classcore_1_1socket_1_1_server_socket"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_server_socket.html#a39111b237e7a1f3d94cc537f7e2b9467">listen</a> (const typename <a class="el" href="classcore_1_1socket_1_1_socket.html#a6f3a39a7f462eae53a4d5202840889ce">Socket::SocketAddress</a> &amp;bindAddress, int backlog, const std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1_server_socket.html#aa4c60c969fd644cedeccdb410c3663b4">Socket</a> &amp;socket, int)&gt; &amp;onError) const=0</td></tr>
+<tr class="separator:a39111b237e7a1f3d94cc537f7e2b9467 inherit pub_methods_classcore_1_1socket_1_1_server_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a759ce0257f541b2de007058dde9b16ef inherit pub_methods_classcore_1_1socket_1_1_server_socket"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1socket_1_1_server_socket.html#ad4ed90041c5114e8dd21a5f345f151de">ServerConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_server_socket.html#a759ce0257f541b2de007058dde9b16ef">getServerConfig</a> ()</td></tr>
+<tr class="separator:a759ce0257f541b2de007058dde9b16ef inherit pub_methods_classcore_1_1socket_1_1_server_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:ad44a88b8e872b835c718e0e7d34076cb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#ad44a88b8e872b835c718e0e7d34076cb">Super</a> = <a class="el" href="classcore_1_1socket_1_1_server_socket.html">core::socket::ServerSocket</a>&lt; <a class="el" href="classnet_1_1rf_1_1stream_1_1_socket.html">net::rf::stream::Socket</a>, <a class="el" href="classnet_1_1rf_1_1stream_1_1_server_config.html">net::rf::stream::ServerConfig</a> &gt;</td></tr>
+<tr class="separator:ad44a88b8e872b835c718e0e7d34076cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_classcore_1_1socket_1_1_server_socket"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classcore_1_1socket_1_1_server_socket')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classcore_1_1socket_1_1_server_socket.html">core::socket::ServerSocket&lt; net::rf::stream::Socket &gt;</a></td></tr>
-<tr class="memitem:a382131672815f6d15f61ffb9ff5611f1 inherit pub_types_classcore_1_1socket_1_1_server_socket"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_server_socket.html#a382131672815f6d15f61ffb9ff5611f1">Socket</a> = <a class="el" href="classnet_1_1rf_1_1stream_1_1_socket.html">net::rf::stream::Socket</a></td></tr>
-<tr class="separator:a382131672815f6d15f61ffb9ff5611f1 inherit pub_types_classcore_1_1socket_1_1_server_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classcore_1_1socket_1_1_server_socket"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classcore_1_1socket_1_1_server_socket')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classcore_1_1socket_1_1_server_socket.html">core::socket::ServerSocket&lt; net::rf::stream::Socket, net::rf::stream::ServerConfig &gt;</a></td></tr>
+<tr class="memitem:aa4c60c969fd644cedeccdb410c3663b4 inherit pub_types_classcore_1_1socket_1_1_server_socket"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_server_socket.html#aa4c60c969fd644cedeccdb410c3663b4">Socket</a> = <a class="el" href="classnet_1_1rf_1_1stream_1_1_socket.html">net::rf::stream::Socket</a></td></tr>
+<tr class="separator:aa4c60c969fd644cedeccdb410c3663b4 inherit pub_types_classcore_1_1socket_1_1_server_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4ed90041c5114e8dd21a5f345f151de inherit pub_types_classcore_1_1socket_1_1_server_socket"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_server_socket.html#ad4ed90041c5114e8dd21a5f345f151de">ServerConfig</a> = <a class="el" href="classnet_1_1rf_1_1stream_1_1_server_config.html">net::rf::stream::ServerConfig</a></td></tr>
+<tr class="separator:ad4ed90041c5114e8dd21a5f345f151de inherit pub_types_classcore_1_1socket_1_1_server_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classcore_1_1socket_1_1_server_socket"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1socket_1_1_server_socket')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1socket_1_1_server_socket.html">core::socket::ServerSocket&lt; net::rf::stream::Socket, net::rf::stream::ServerConfig &gt;</a></td></tr>
+<tr class="memitem:a4a4e8e13c033a44e2395f79dbf0048c4 inherit pro_methods_classcore_1_1socket_1_1_server_socket"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_server_socket.html#a4a4e8e13c033a44e2395f79dbf0048c4">ServerSocket</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:a4a4e8e13c033a44e2395f79dbf0048c4 inherit pro_methods_classcore_1_1socket_1_1_server_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classcore_1_1socket_1_1_server_socket"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classcore_1_1socket_1_1_server_socket')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classcore_1_1socket_1_1_server_socket.html">core::socket::ServerSocket&lt; net::rf::stream::Socket, net::rf::stream::ServerConfig &gt;</a></td></tr>
+<tr class="memitem:ac3b9932b92dedb9b00945ec49c2d0295 inherit pro_attribs_classcore_1_1socket_1_1_server_socket"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1socket_1_1_server_socket.html#ad4ed90041c5114e8dd21a5f345f151de">ServerConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_server_socket.html#ac3b9932b92dedb9b00945ec49c2d0295">serverConfig</a></td></tr>
+<tr class="separator:ac3b9932b92dedb9b00945ec49c2d0295 inherit pro_attribs_classcore_1_1socket_1_1_server_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="net_2rf_2stream_2_server_socket_8h_source.html#l00035">35</a> of file <a class="el" href="net_2rf_2stream_2_server_socket_8h_source.html">ServerSocket.h</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="net_2rf_2stream_2_server_socket_8h_source.html#l00036">36</a> of file <a class="el" href="net_2rf_2stream_2_server_socket_8h_source.html">ServerSocket.h</a>.</p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="ad44a88b8e872b835c718e0e7d34076cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad44a88b8e872b835c718e0e7d34076cb">&#9670;&nbsp;</a></span>Super</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#ad44a88b8e872b835c718e0e7d34076cb">net::rf::stream::ServerSocket::Super</a> =  <a class="el" href="classcore_1_1socket_1_1_server_socket.html">core::socket::ServerSocket</a>&lt;<a class="el" href="classnet_1_1rf_1_1stream_1_1_socket.html">net::rf::stream::Socket</a>, <a class="el" href="classnet_1_1rf_1_1stream_1_1_server_config.html">net::rf::stream::ServerConfig</a>&gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="net_2rf_2stream_2_server_socket_8h_source.html#l00037">37</a> of file <a class="el" href="net_2rf_2stream_2_server_socket_8h_source.html">ServerSocket.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a950bb3c259b2b618015e06ea0498714f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a950bb3c259b2b618015e06ea0498714f">&#9670;&nbsp;</a></span>ServerSocket()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">net::rf::stream::ServerSocket::ServerSocket </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html#l00027">27</a> of file <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html">ServerSocket.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        : <a class="code" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#ad44a88b8e872b835c718e0e7d34076cb">Super</a>(name) {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
+<div class="ttc" id="aclassnet_1_1rf_1_1stream_1_1_server_socket_html_ad44a88b8e872b835c718e0e7d34076cb"><div class="ttname"><a href="classnet_1_1rf_1_1stream_1_1_server_socket.html#ad44a88b8e872b835c718e0e7d34076cb">net::rf::stream::ServerSocket::Super</a></div><div class="ttdeci">core::socket::ServerSocket&lt; net::rf::stream::Socket, net::rf::stream::ServerConfig &gt; Super</div><div class="ttdef"><b>Definition:</b> <a href="net_2rf_2stream_2_server_socket_8h_source.html#l00037">ServerSocket.h:37</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a952dcd1f99cf1d476a775d118236e682"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a952dcd1f99cf1d476a775d118236e682">&#9670;&nbsp;</a></span>listen() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void net::rf::stream::ServerSocket::listen </td>
+          <td>(</td>
+          <td class="paramtype">const std::function&lt; void(const <a class="el" href="classnet_1_1rf_1_1stream_1_1_socket.html">Socket</a> &amp;socket, int)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>onError</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html#l00037">listen()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1rf_1_1stream_1_1_server_socket_a952dcd1f99cf1d476a775d118236e682_icgraph.svg" width="472" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a54c10edeef931d9bbd5b9d792c73fd9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54c10edeef931d9bbd5b9d792c73fd9a">&#9670;&nbsp;</a></span>listen() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a54c10edeef931d9bbd5b9d792c73fd9a">&#9670;&nbsp;</a></span>listen() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,13 +260,13 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html#l00031">31</a> of file <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html">ServerSocket.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                                                                                                                                {</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#ad85e52371a0178868efa79120dd30e2f">listen</a>(SocketAddress(address), backlog, onError);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
-<div class="ttc" id="aclassnet_1_1rf_1_1stream_1_1_server_socket_html_ad85e52371a0178868efa79120dd30e2f"><div class="ttname"><a href="classnet_1_1rf_1_1stream_1_1_server_socket.html#ad85e52371a0178868efa79120dd30e2f">net::rf::stream::ServerSocket::listen</a></div><div class="ttdeci">void listen(uint8_t channel, int backlog, const std::function&lt; void(const Socket &amp;socket, int)&gt; &amp;onError)</div><div class="ttdef"><b>Definition:</b> <a href="rf_2stream_2_server_socket_8cpp_source.html#l00027">ServerSocket.cpp:27</a></div></div>
+<p class="definition">Definition at line <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html#l00041">41</a> of file <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html">ServerSocket.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                                                                                                                                {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#a952dcd1f99cf1d476a775d118236e682">listen</a>(SocketAddress(address), backlog, onError);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
+<div class="ttc" id="aclassnet_1_1rf_1_1stream_1_1_server_socket_html_a952dcd1f99cf1d476a775d118236e682"><div class="ttname"><a href="classnet_1_1rf_1_1stream_1_1_server_socket.html#a952dcd1f99cf1d476a775d118236e682">net::rf::stream::ServerSocket::listen</a></div><div class="ttdeci">void listen(const std::function&lt; void(const Socket &amp;socket, int)&gt; &amp;onError)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html#l00027">listen()</a>.</p>
+<p class="reference">References <a class="el" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#a952dcd1f99cf1d476a775d118236e682">listen()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -174,7 +277,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="aedb69f18e8567f9e22d67dda6753fb3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aedb69f18e8567f9e22d67dda6753fb3d">&#9670;&nbsp;</a></span>listen() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aedb69f18e8567f9e22d67dda6753fb3d">&#9670;&nbsp;</a></span>listen() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -211,12 +314,12 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html#l00035">35</a> of file <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html">ServerSocket.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                                                                           {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#ad85e52371a0178868efa79120dd30e2f">listen</a>(SocketAddress(address, channel), backlog, onError);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html#l00045">45</a> of file <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html">ServerSocket.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                                                                                           {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#a952dcd1f99cf1d476a775d118236e682">listen</a>(SocketAddress(address, channel), backlog, onError);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html#l00027">listen()</a>.</p>
+<p class="reference">References <a class="el" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#a952dcd1f99cf1d476a775d118236e682">listen()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -227,7 +330,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ad85e52371a0178868efa79120dd30e2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad85e52371a0178868efa79120dd30e2f">&#9670;&nbsp;</a></span>listen() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad85e52371a0178868efa79120dd30e2f">&#9670;&nbsp;</a></span>listen() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -258,16 +361,16 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html#l00027">27</a> of file <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html">ServerSocket.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                                                                                                                       {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#ad85e52371a0178868efa79120dd30e2f">listen</a>(SocketAddress(channel), backlog, onError);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html#l00037">37</a> of file <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html">ServerSocket.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                                                                                                                       {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#a952dcd1f99cf1d476a775d118236e682">listen</a>(SocketAddress(channel), backlog, onError);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="rf_2stream_2_server_socket_8cpp_source.html#l00031">listen()</a>.</p>
+<p class="reference">References <a class="el" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#a952dcd1f99cf1d476a775d118236e682">listen()</a>.</p>
 <div class="dynheader">
-Here is the caller graph for this function:</div>
+Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1rf_1_1stream_1_1_server_socket_ad85e52371a0178868efa79120dd30e2f_icgraph.svg" width="472" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1rf_1_1stream_1_1_server_socket_ad85e52371a0178868efa79120dd30e2f_cgraph.svg" width="472" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
