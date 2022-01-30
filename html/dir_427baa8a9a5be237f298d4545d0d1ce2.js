@@ -5,12 +5,24 @@ var dir_427baa8a9a5be237f298d4545d0d1ce2 =
     [ "l2", "dir_b74f15a83bd019cc6a19e6a7838eaa94.html", "dir_b74f15a83bd019cc6a19e6a7838eaa94" ],
     [ "rf", "dir_83388b7dfcdc21d67cf227c51dbdf929.html", "dir_83388b7dfcdc21d67cf227c51dbdf929" ],
     [ "un", "dir_1c2f98b08b44216ac8991236d4d70eb9.html", "dir_1c2f98b08b44216ac8991236d4d70eb9" ],
-    [ "Config.cpp", "net_2_config_8cpp.html", null ],
-    [ "Config.h", "net_2_config_8h.html", [
-      [ "Config", "classnet_1_1_config.html", "classnet_1_1_config" ]
+    [ "ConfigBacklog.cpp", "_config_backlog_8cpp.html", null ],
+    [ "ConfigBacklog.h", "_config_backlog_8h.html", [
+      [ "ConfigBacklog", "classnet_1_1_config_backlog.html", "classnet_1_1_config_backlog" ]
     ] ],
-    [ "ServerConfig.cpp", "_server_config_8cpp.html", null ],
-    [ "ServerConfig.h", "_server_config_8h.html", [
-      [ "ServerConfig", "classnet_1_1_server_config.html", "classnet_1_1_server_config" ]
+    [ "ConfigBase.cpp", "_config_base_8cpp.html", null ],
+    [ "ConfigBase.h", "_config_base_8h.html", [
+      [ "ConfigBase", "classnet_1_1_config_base.html", "classnet_1_1_config_base" ]
+    ] ],
+    [ "ConfigConn.cpp", "_config_conn_8cpp.html", null ],
+    [ "ConfigConn.h", "_config_conn_8h.html", [
+      [ "ConfigConn", "classnet_1_1_config_conn.html", "classnet_1_1_config_conn" ]
+    ] ],
+    [ "ConfigLegacy.cpp", "_config_legacy_8cpp.html", null ],
+    [ "ConfigLegacy.h", "_config_legacy_8h.html", [
+      [ "ConfigLegacy", "classnet_1_1_config_legacy.html", "classnet_1_1_config_legacy" ]
+    ] ],
+    [ "ConfigTls.cpp", "_config_tls_8cpp.html", null ],
+    [ "ConfigTls.h", "_config_tls_8h.html", [
+      [ "ConfigTls", "classnet_1_1_config_tls.html", "classnet_1_1_config_tls" ]
     ] ]
 ];

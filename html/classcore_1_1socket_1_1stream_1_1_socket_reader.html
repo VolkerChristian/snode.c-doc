@@ -96,13 +96,13 @@ $(document).ready(function(){initNavTree('classcore_1_1socket_1_1stream_1_1_sock
 <div class="dynheader">
 Inheritance diagram for core::socket::stream::SocketReader&lt; SocketT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_reader__inherit__graph.svg" width="566" height="2248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_reader__inherit__graph.svg" width="566" height="2322"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for core::socket::stream::SocketReader&lt; SocketT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_reader__coll__graph.svg" width="646" height="1523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_reader__coll__graph.svg" width="807" height="1566"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -113,10 +113,12 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:af908d88cf860a6b576d04df073898e6c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af908d88cf860a6b576d04df073898e6c">SocketReader</a> (const std::function&lt; void(int)&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a360aed60f2c5256bde176b7209cd6181">onError</a>)</td></tr>
-<tr class="separator:af908d88cf860a6b576d04df073898e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08ed40da6a9eab2338abe7caf813815c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a08ed40da6a9eab2338abe7caf813815c">SocketReader</a> (const std::function&lt; void(int)&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a360aed60f2c5256bde176b7209cd6181">onError</a>, const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;timeout, std::size_t <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aab70f273af103d055d8e879610bb0298">blockSize</a>, const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a954762ab102b608d6e0f04f66e81872e">terminateTimeout</a>)</td></tr>
+<tr class="separator:a08ed40da6a9eab2338abe7caf813815c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa78e051ec70a24a668bb3c6c35586eb3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aa78e051ec70a24a668bb3c6c35586eb3">~SocketReader</a> ()=default</td></tr>
 <tr class="separator:aa78e051ec70a24a668bb3c6c35586eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebdfdfc32ffcf77707037cd5f58ae59d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aebdfdfc32ffcf77707037cd5f58ae59d">setBlockSize</a> (std::size_t readBlockSize)</td></tr>
+<tr class="separator:aebdfdfc32ffcf77707037cd5f58ae59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa410f5c1e8664301d05af8e8910423ad"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aa410f5c1e8664301d05af8e8910423ad">doReadShutdown</a> ()</td></tr>
 <tr class="separator:aa410f5c1e8664301d05af8e8910423ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ea9c6a33e5e8b0c3fa9b766608e744a"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a7ea9c6a33e5e8b0c3fa9b766608e744a">readFromPeer</a> (char *junk, std::size_t junkLen)</td></tr>
@@ -151,14 +153,18 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a360aed60f2c5256bde176b7209cd6181"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(int)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a360aed60f2c5256bde176b7209cd6181">onError</a></td></tr>
 <tr class="separator:a360aed60f2c5256bde176b7209cd6181"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17648f2e4c21e2746f97b76e8247fe9e"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a17648f2e4c21e2746f97b76e8247fe9e">data</a> [16384] = {}</td></tr>
-<tr class="separator:a17648f2e4c21e2746f97b76e8247fe9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab92c913c462bdae234438033daa77a38"><td class="memItemLeft" align="right" valign="top">std::vector&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#ab92c913c462bdae234438033daa77a38">readBuffer</a></td></tr>
+<tr class="separator:ab92c913c462bdae234438033daa77a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab70f273af103d055d8e879610bb0298"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aab70f273af103d055d8e879610bb0298">blockSize</a></td></tr>
+<tr class="separator:aab70f273af103d055d8e879610bb0298"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af006733b64eb78536af7dc25b22795cb"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb">size</a> = 0</td></tr>
 <tr class="separator:af006733b64eb78536af7dc25b22795cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4acb6278f841ab48967b3ff96102d429"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a4acb6278f841ab48967b3ff96102d429">cursor</a> = 0</td></tr>
 <tr class="separator:a4acb6278f841ab48967b3ff96102d429"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad247eb2f0bc6f58ed7265c7203230f18"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#ad247eb2f0bc6f58ed7265c7203230f18">shutdownTriggered</a> = false</td></tr>
 <tr class="separator:ad247eb2f0bc6f58ed7265c7203230f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a954762ab102b608d6e0f04f66e81872e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a954762ab102b608d6e0f04f66e81872e">terminateTimeout</a></td></tr>
+<tr class="separator:a954762ab102b608d6e0f04f66e81872e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -206,7 +212,7 @@ Additional Inherited Members</h2></td></tr>
 class core::socket::stream::SocketReader&lt; SocketT &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00045">45</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00043">43</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a40b90a1b82f6534e89bc5e01bab3c675"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a40b90a1b82f6534e89bc5e01bab3c675">&#9670;&nbsp;</a></span>Socket</h2>
@@ -222,7 +228,7 @@ template&lt;typename SocketT &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00051">51</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00049">49</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
 
 </div>
 </div>
@@ -254,8 +260,8 @@ template&lt;typename SocketT &gt; </div>
 
 </div>
 </div>
-<a id="af908d88cf860a6b576d04df073898e6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af908d88cf860a6b576d04df073898e6c">&#9670;&nbsp;</a></span>SocketReader() <span class="overload">[2/2]</span></h2>
+<a id="a08ed40da6a9eab2338abe7caf813815c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08ed40da6a9eab2338abe7caf813815c">&#9670;&nbsp;</a></span>SocketReader() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -269,8 +275,30 @@ template&lt;typename SocketT &gt; </div>
           <td class="memname"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html">core::socket::stream::SocketReader</a>&lt; SocketT &gt;::<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html">SocketReader</a> </td>
           <td>(</td>
           <td class="paramtype">const std::function&lt; void(int)&gt; &amp;&#160;</td>
-          <td class="paramname"><em>onError</em></td><td>)</td>
+          <td class="paramname"><em>onError</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;&#160;</td>
+          <td class="paramname"><em>timeout</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>blockSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;&#160;</td>
+          <td class="paramname"><em>terminateTimeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -280,19 +308,28 @@ template&lt;typename SocketT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00054">54</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            : <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a360aed60f2c5256bde176b7209cd6181">onError</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a360aed60f2c5256bde176b7209cd6181">onError</a>) {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <a class="code" href="classcore_1_1_event_receiver.html#aae56563ec614ab06a115413240e6095f">enable</a>(<a class="code" href="classcore_1_1_descriptor.html#a359e01790fa87afb5e1b75df7904bc2d">Socket::fd</a>);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00052">52</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            : <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a360aed60f2c5256bde176b7209cd6181">onError</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a360aed60f2c5256bde176b7209cd6181">onError</a>)</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            , <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a954762ab102b608d6e0f04f66e81872e">terminateTimeout</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a954762ab102b608d6e0f04f66e81872e">terminateTimeout</a>) {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aebdfdfc32ffcf77707037cd5f58ae59d">setBlockSize</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aab70f273af103d055d8e879610bb0298">blockSize</a>);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <a class="code" href="classcore_1_1_event_receiver.html#a2f57fdd943ac70918678c0a9671fc6c1">setTimeout</a>(timeout);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <a class="code" href="classcore_1_1_event_receiver.html#aae56563ec614ab06a115413240e6095f">enable</a>(<a class="code" href="classcore_1_1_descriptor.html#a359e01790fa87afb5e1b75df7904bc2d">Socket::fd</a>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            VLOG(0) &lt;&lt; <span class="stringliteral">&quot;BlockSize = &quot;</span> &lt;&lt; <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aab70f273af103d055d8e879610bb0298">blockSize</a> &lt;&lt; <span class="stringliteral">&quot;, timeout = &quot;</span> &lt;&lt; timeout;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div>
 <div class="ttc" id="aclasscore_1_1_descriptor_html_a359e01790fa87afb5e1b75df7904bc2d"><div class="ttname"><a href="classcore_1_1_descriptor.html#a359e01790fa87afb5e1b75df7904bc2d">core::Descriptor::fd</a></div><div class="ttdeci">int fd</div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_8h_source.html#l00050">Descriptor.h:50</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_receiver_html_a2f57fdd943ac70918678c0a9671fc6c1"><div class="ttname"><a href="classcore_1_1_event_receiver.html#a2f57fdd943ac70918678c0a9671fc6c1">core::EventReceiver::setTimeout</a></div><div class="ttdeci">void setTimeout(const utils::Timeval &amp;timeout)</div><div class="ttdef"><b>Definition:</b> <a href="_event_receiver_8cpp_source.html#l00098">EventReceiver.cpp:98</a></div></div>
 <div class="ttc" id="aclasscore_1_1_event_receiver_html_aae56563ec614ab06a115413240e6095f"><div class="ttname"><a href="classcore_1_1_event_receiver.html#aae56563ec614ab06a115413240e6095f">core::EventReceiver::enable</a></div><div class="ttdeci">void enable(int fd)</div><div class="ttdef"><b>Definition:</b> <a href="_event_receiver_8cpp_source.html#l00045">EventReceiver.cpp:45</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_reader_html_a360aed60f2c5256bde176b7209cd6181"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a360aed60f2c5256bde176b7209cd6181">core::socket::stream::SocketReader::onError</a></div><div class="ttdeci">std::function&lt; void(int)&gt; onError</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00120">SocketReader.h:120</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_reader_html_a360aed60f2c5256bde176b7209cd6181"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a360aed60f2c5256bde176b7209cd6181">core::socket::stream::SocketReader::onError</a></div><div class="ttdeci">std::function&lt; void(int)&gt; onError</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00131">SocketReader.h:131</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_reader_html_a954762ab102b608d6e0f04f66e81872e"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a954762ab102b608d6e0f04f66e81872e">core::socket::stream::SocketReader::terminateTimeout</a></div><div class="ttdeci">utils::Timeval terminateTimeout</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00141">SocketReader.h:141</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_reader_html_aab70f273af103d055d8e879610bb0298"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aab70f273af103d055d8e879610bb0298">core::socket::stream::SocketReader::blockSize</a></div><div class="ttdeci">std::size_t blockSize</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00134">SocketReader.h:134</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_reader_html_aebdfdfc32ffcf77707037cd5f58ae59d"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aebdfdfc32ffcf77707037cd5f58ae59d">core::socket::stream::SocketReader::setBlockSize</a></div><div class="ttdeci">void setBlockSize(std::size_t readBlockSize)</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00073">SocketReader.h:73</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_receiver_8cpp_source.html#l00045">core::EventReceiver::enable()</a>, and <a class="el" href="_descriptor_8h_source.html#l00050">core::Descriptor::fd</a>.</p>
+<p class="reference">References <a class="el" href="_socket_reader_8h_source.html#l00134">core::socket::stream::SocketReader&lt; SocketT &gt;::blockSize</a>, <a class="el" href="_event_receiver_8cpp_source.html#l00045">core::EventReceiver::enable()</a>, <a class="el" href="_descriptor_8h_source.html#l00050">core::Descriptor::fd</a>, <a class="el" href="_socket_reader_8h_source.html#l00073">core::socket::stream::SocketReader&lt; SocketT &gt;::setBlockSize()</a>, and <a class="el" href="_event_receiver_8cpp_source.html#l00098">core::EventReceiver::setTimeout()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_reader_af908d88cf860a6b576d04df073898e6c_cgraph.svg" width="958" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_reader_a08ed40da6a9eab2338abe7caf813815c_cgraph.svg" width="1016" height="239"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -355,13 +392,13 @@ template&lt;typename SocketT &gt; </div>
 
 <p>Reimplemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_reader.html#ab39380ba2cd58b41a8bf89a11509b43e">core::socket::stream::tls::SocketReader&lt; SocketT &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00103">103</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                                                      {</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb">size</a> &gt; 0;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        }</div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_reader_html_af006733b64eb78536af7dc25b22795cb"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb">core::socket::stream::SocketReader::size</a></div><div class="ttdeci">std::size_t size</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00123">SocketReader.h:123</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00114">114</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                                                      {</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb">size</a> &gt; 0;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        }</div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_reader_html_af006733b64eb78536af7dc25b22795cb"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb">core::socket::stream::SocketReader::size</a></div><div class="ttdeci">std::size_t size</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00136">SocketReader.h:136</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_socket_reader_8h_source.html#l00123">core::socket::stream::SocketReader&lt; SocketT &gt;::size</a>.</p>
+<p class="reference">References <a class="el" href="_socket_reader_8h_source.html#l00136">core::socket::stream::SocketReader&lt; SocketT &gt;::size</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="legacy_2_socket_reader_8h_source.html#l00042">core::socket::stream::legacy::SocketReader&lt; SocketT &gt;::continueReadImmediately()</a>, and <a class="el" href="tls_2_socket_reader_8h_source.html#l00090">core::socket::stream::tls::SocketReader&lt; SocketT &gt;::continueReadImmediately()</a>.</p>
 <div class="dynheader">
@@ -398,35 +435,34 @@ template&lt;typename SocketT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00083">83</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                      {</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            errno = 0;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb">size</a> == 0) {</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a4acb6278f841ab48967b3ff96102d429">cursor</a> = 0;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                ssize_t retRead = 0;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                std::size_t readLen = <a class="code" href="_socket_reader_8h.html#ad64da5cbb2a93af7c8ac5419d7d0c5cd">MAX_READ_JUNKSIZE</a> - <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb">size</a>;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                retRead = <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a2f6182adeb9508a2cb295cd6fc1692ee">read</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a17648f2e4c21e2746f97b76e8247fe9e">data</a> + <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb">size</a>, readLen);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                <span class="keywordflow">if</span> (retRead &gt; 0) {</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                    <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb">size</a> += <span class="keyword">static_cast&lt;</span>std::size_t<span class="keyword">&gt;</span>(retRead);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (errno != EINTR &amp;&amp; errno != EAGAIN &amp;&amp; errno != EWOULDBLOCK) {</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                    <a class="code" href="classcore_1_1_event_receiver.html#a8b54c1084463cb39c57d99ae533b218e">disable</a>();</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                    <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a360aed60f2c5256bde176b7209cd6181">onError</a>(errno);</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                }</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            }</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        }</div>
-<div class="ttc" id="a_socket_reader_8h_html_ad64da5cbb2a93af7c8ac5419d7d0c5cd"><div class="ttname"><a href="_socket_reader_8h.html#ad64da5cbb2a93af7c8ac5419d7d0c5cd">MAX_READ_JUNKSIZE</a></div><div class="ttdeci">#define MAX_READ_JUNKSIZE</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00035">SocketReader.h:35</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00094">94</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                      {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            errno = 0;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb">size</a> == 0) {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a4acb6278f841ab48967b3ff96102d429">cursor</a> = 0;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                ssize_t retRead = 0;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                std::size_t readLen = <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aab70f273af103d055d8e879610bb0298">blockSize</a> - <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb">size</a>;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                retRead = <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a2f6182adeb9508a2cb295cd6fc1692ee">read</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#ab92c913c462bdae234438033daa77a38">readBuffer</a>.data() + <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb">size</a>, readLen);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                <span class="keywordflow">if</span> (retRead &gt; 0) {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                    <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb">size</a> += <span class="keyword">static_cast&lt;</span>std::size_t<span class="keyword">&gt;</span>(retRead);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (errno != EINTR &amp;&amp; errno != EAGAIN &amp;&amp; errno != EWOULDBLOCK) {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                    <a class="code" href="classcore_1_1_event_receiver.html#a8b54c1084463cb39c57d99ae533b218e">disable</a>();</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                    <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a360aed60f2c5256bde176b7209cd6181">onError</a>(errno);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                }</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        }</div>
 <div class="ttc" id="aclasscore_1_1_event_receiver_html_a8b54c1084463cb39c57d99ae533b218e"><div class="ttname"><a href="classcore_1_1_event_receiver.html#a8b54c1084463cb39c57d99ae533b218e">core::EventReceiver::disable</a></div><div class="ttdeci">void disable()</div><div class="ttdef"><b>Definition:</b> <a href="_event_receiver_8cpp_source.html#l00056">EventReceiver.cpp:56</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_reader_html_a17648f2e4c21e2746f97b76e8247fe9e"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a17648f2e4c21e2746f97b76e8247fe9e">core::socket::stream::SocketReader::data</a></div><div class="ttdeci">char data[16384]</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00122">SocketReader.h:122</a></div></div>
 <div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_reader_html_a2f6182adeb9508a2cb295cd6fc1692ee"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a2f6182adeb9508a2cb295cd6fc1692ee">core::socket::stream::SocketReader::read</a></div><div class="ttdeci">virtual ssize_t read(char *junk, std::size_t junkLen)=0</div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_reader_html_a4acb6278f841ab48967b3ff96102d429"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a4acb6278f841ab48967b3ff96102d429">core::socket::stream::SocketReader::cursor</a></div><div class="ttdeci">std::size_t cursor</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00124">SocketReader.h:124</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_reader_html_a4acb6278f841ab48967b3ff96102d429"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a4acb6278f841ab48967b3ff96102d429">core::socket::stream::SocketReader::cursor</a></div><div class="ttdeci">std::size_t cursor</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00137">SocketReader.h:137</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_reader_html_ab92c913c462bdae234438033daa77a38"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#ab92c913c462bdae234438033daa77a38">core::socket::stream::SocketReader::readBuffer</a></div><div class="ttdeci">std::vector&lt; char &gt; readBuffer</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00133">SocketReader.h:133</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_socket_reader_8h_source.html#l00124">core::socket::stream::SocketReader&lt; SocketT &gt;::cursor</a>, <a class="el" href="_socket_reader_8h_source.html#l00122">core::socket::stream::SocketReader&lt; SocketT &gt;::data</a>, <a class="el" href="_event_receiver_8cpp_source.html#l00056">core::EventReceiver::disable()</a>, <a class="el" href="_socket_reader_8h_source.html#l00035">MAX_READ_JUNKSIZE</a>, <a class="el" href="_socket_reader_8h_source.html#l00120">core::socket::stream::SocketReader&lt; SocketT &gt;::onError</a>, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a2f6182adeb9508a2cb295cd6fc1692ee">core::socket::stream::SocketReader&lt; SocketT &gt;::read()</a>, and <a class="el" href="_socket_reader_8h_source.html#l00123">core::socket::stream::SocketReader&lt; SocketT &gt;::size</a>.</p>
+<p class="reference">References <a class="el" href="_socket_reader_8h_source.html#l00134">core::socket::stream::SocketReader&lt; SocketT &gt;::blockSize</a>, <a class="el" href="_socket_reader_8h_source.html#l00137">core::socket::stream::SocketReader&lt; SocketT &gt;::cursor</a>, <a class="el" href="_event_receiver_8cpp_source.html#l00056">core::EventReceiver::disable()</a>, <a class="el" href="_socket_reader_8h_source.html#l00131">core::socket::stream::SocketReader&lt; SocketT &gt;::onError</a>, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a2f6182adeb9508a2cb295cd6fc1692ee">core::socket::stream::SocketReader&lt; SocketT &gt;::read()</a>, <a class="el" href="_socket_reader_8h_source.html#l00133">core::socket::stream::SocketReader&lt; SocketT &gt;::readBuffer</a>, and <a class="el" href="_socket_reader_8h_source.html#l00136">core::socket::stream::SocketReader&lt; SocketT &gt;::size</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="stream_2_socket_connection_8h_source.html#l00140">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;::readEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="stream_2_socket_connection_8h_source.html#l00150">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;::readEvent()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -469,13 +505,13 @@ template&lt;typename SocketT &gt; </div>
 
 <p>Reimplemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a9357593ff9cc620f8d212d1ff92e942e">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00067">67</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                      {</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <a class="code" href="classcore_1_1socket_1_1_socket.html#aeedd460403e8cb273d473439355f137e">Socket::shutdown</a>(Socket::shutdown::RD);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00078">78</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                                      {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <a class="code" href="classcore_1_1socket_1_1_socket.html#aeedd460403e8cb273d473439355f137e">Socket::shutdown</a>(Socket::shutdown::RD);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        }</div>
 <div class="ttc" id="aclasscore_1_1socket_1_1_socket_html_aeedd460403e8cb273d473439355f137e"><div class="ttname"><a href="classcore_1_1socket_1_1_socket.html#aeedd460403e8cb273d473439355f137e">core::socket::Socket::shutdown</a></div><div class="ttdeci">shutdown</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2_socket_8h_source.html#l00072">Socket.h:72</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="tls_2_socket_reader_8h_source.html#l00043">core::socket::stream::tls::SocketReader&lt; SocketT &gt;::read()</a>, and <a class="el" href="_socket_reader_8h_source.html#l00107">core::socket::stream::SocketReader&lt; SocketT &gt;::shutdown()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tls_2_socket_reader_8h_source.html#l00043">core::socket::stream::tls::SocketReader&lt; SocketT &gt;::read()</a>, and <a class="el" href="_socket_reader_8h_source.html#l00118">core::socket::stream::SocketReader&lt; SocketT &gt;::shutdown()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -523,7 +559,7 @@ template&lt;typename SocketT &gt; </div>
 
 <p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_reader.html#a7e8eb9a3f718abebb04b8ffa2fba6a0c">core::socket::stream::tls::SocketReader&lt; SocketT &gt;</a>, and <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader.html#a42ec199361ca8ce6c2b7c3ed18108847">core::socket::stream::legacy::SocketReader&lt; SocketT &gt;</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_reader_8h_source.html#l00083">core::socket::stream::SocketReader&lt; SocketT &gt;::doRead()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_reader_8h_source.html#l00094">core::socket::stream::SocketReader&lt; SocketT &gt;::doRead()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -600,26 +636,70 @@ template&lt;typename SocketT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00071">71</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                                                            {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            std::size_t maxReturn = std::min(junkLen, <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb">size</a>);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            std::copy(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a17648f2e4c21e2746f97b76e8247fe9e">data</a> + <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a4acb6278f841ab48967b3ff96102d429">cursor</a>, <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a17648f2e4c21e2746f97b76e8247fe9e">data</a> + <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a4acb6278f841ab48967b3ff96102d429">cursor</a> + maxReturn, junk);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a4acb6278f841ab48967b3ff96102d429">cursor</a> += maxReturn;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb">size</a> -= maxReturn;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            ssize_t ret = <span class="keyword">static_cast&lt;</span>ssize_t<span class="keyword">&gt;</span>(maxReturn);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00082">82</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                                                            {</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            std::size_t maxReturn = std::min(junkLen, <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb">size</a>);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            std::copy(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#ab92c913c462bdae234438033daa77a38">readBuffer</a>.data() + <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a4acb6278f841ab48967b3ff96102d429">cursor</a>, <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#ab92c913c462bdae234438033daa77a38">readBuffer</a>.data() + <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a4acb6278f841ab48967b3ff96102d429">cursor</a> + maxReturn, junk);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a4acb6278f841ab48967b3ff96102d429">cursor</a> += maxReturn;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb">size</a> -= maxReturn;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            ssize_t ret = <span class="keyword">static_cast&lt;</span>ssize_t<span class="keyword">&gt;</span>(maxReturn);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_socket_reader_8h_source.html#l00124">core::socket::stream::SocketReader&lt; SocketT &gt;::cursor</a>, <a class="el" href="_socket_reader_8h_source.html#l00122">core::socket::stream::SocketReader&lt; SocketT &gt;::data</a>, and <a class="el" href="_socket_reader_8h_source.html#l00123">core::socket::stream::SocketReader&lt; SocketT &gt;::size</a>.</p>
+<p class="reference">References <a class="el" href="_socket_reader_8h_source.html#l00137">core::socket::stream::SocketReader&lt; SocketT &gt;::cursor</a>, <a class="el" href="_socket_reader_8h_source.html#l00133">core::socket::stream::SocketReader&lt; SocketT &gt;::readBuffer</a>, and <a class="el" href="_socket_reader_8h_source.html#l00136">core::socket::stream::SocketReader&lt; SocketT &gt;::size</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="stream_2_socket_connection_8h_source.html#l00116">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;::readFromPeer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="stream_2_socket_connection_8h_source.html#l00126">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;::readFromPeer()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_reader_a7ea9c6a33e5e8b0c3fa9b766608e744a_icgraph.svg" width="523" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aebdfdfc32ffcf77707037cd5f58ae59d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebdfdfc32ffcf77707037cd5f58ae59d">&#9670;&nbsp;</a></span>setBlockSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SocketT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html">core::socket::stream::SocketReader</a>&lt; SocketT &gt;::setBlockSize </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>readBlockSize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00073">73</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                                                   {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#ab92c913c462bdae234438033daa77a38">readBuffer</a>.resize(readBlockSize);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            this-&gt;<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aab70f273af103d055d8e879610bb0298">blockSize</a> = readBlockSize;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="_socket_reader_8h_source.html#l00134">core::socket::stream::SocketReader&lt; SocketT &gt;::blockSize</a>, and <a class="el" href="_socket_reader_8h_source.html#l00133">core::socket::stream::SocketReader&lt; SocketT &gt;::readBuffer</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_socket_reader_8h_source.html#l00052">core::socket::stream::SocketReader&lt; SocketT &gt;::SocketReader()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_reader_aebdfdfc32ffcf77707037cd5f58ae59d_icgraph.svg" width="486" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -650,19 +730,19 @@ template&lt;typename SocketT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00107">107</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                        {</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <span class="keywordflow">if</span> (!<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#ad247eb2f0bc6f58ed7265c7203230f18">shutdownTriggered</a>) {</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aa410f5c1e8664301d05af8e8910423ad">doReadShutdown</a>();</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#ad247eb2f0bc6f58ed7265c7203230f18">shutdownTriggered</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            }</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        }</div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_reader_html_aa410f5c1e8664301d05af8e8910423ad"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aa410f5c1e8664301d05af8e8910423ad">core::socket::stream::SocketReader::doReadShutdown</a></div><div class="ttdeci">virtual void doReadShutdown()</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00067">SocketReader.h:67</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_reader_html_ad247eb2f0bc6f58ed7265c7203230f18"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#ad247eb2f0bc6f58ed7265c7203230f18">core::socket::stream::SocketReader::shutdownTriggered</a></div><div class="ttdeci">bool shutdownTriggered</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00126">SocketReader.h:126</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00118">118</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                        {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            <span class="keywordflow">if</span> (!<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#ad247eb2f0bc6f58ed7265c7203230f18">shutdownTriggered</a>) {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aa410f5c1e8664301d05af8e8910423ad">doReadShutdown</a>();</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#ad247eb2f0bc6f58ed7265c7203230f18">shutdownTriggered</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            }</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        }</div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_reader_html_aa410f5c1e8664301d05af8e8910423ad"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aa410f5c1e8664301d05af8e8910423ad">core::socket::stream::SocketReader::doReadShutdown</a></div><div class="ttdeci">virtual void doReadShutdown()</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00078">SocketReader.h:78</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_reader_html_ad247eb2f0bc6f58ed7265c7203230f18"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#ad247eb2f0bc6f58ed7265c7203230f18">core::socket::stream::SocketReader::shutdownTriggered</a></div><div class="ttdeci">bool shutdownTriggered</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00139">SocketReader.h:139</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_socket_reader_8h_source.html#l00067">core::socket::stream::SocketReader&lt; SocketT &gt;::doReadShutdown()</a>, and <a class="el" href="_socket_reader_8h_source.html#l00126">core::socket::stream::SocketReader&lt; SocketT &gt;::shutdownTriggered</a>.</p>
+<p class="reference">References <a class="el" href="_socket_reader_8h_source.html#l00078">core::socket::stream::SocketReader&lt; SocketT &gt;::doReadShutdown()</a>, and <a class="el" href="_socket_reader_8h_source.html#l00139">core::socket::stream::SocketReader&lt; SocketT &gt;::shutdownTriggered</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="stream_2_socket_connection_8h_source.html#l00086">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;::shutdownRead()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="stream_2_socket_connection_8h_source.html#l00096">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;::shutdownRead()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -707,15 +787,13 @@ template&lt;typename SocketT &gt; </div>
 
 <p>Reimplemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_reader.html#a1da5324c7c28bb2c42302115eec21e51">core::socket::stream::tls::SocketReader&lt; SocketT &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00114">114</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                                  {</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <a class="code" href="classcore_1_1_event_receiver.html#a2f57fdd943ac70918678c0a9671fc6c1">setTimeout</a>(<a class="code" href="_socket_reader_8h.html#a9807c5a0510929ebf0d06a994e7812d0">MAX_SHUTDOWN_TIMEOUT</a>);</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            <span class="comment">// shutdown(); // do not shutdown our read side because we try to do a full tcp shutdown sequence.</span></div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        }</div>
-<div class="ttc" id="a_socket_reader_8h_html_a9807c5a0510929ebf0d06a994e7812d0"><div class="ttname"><a href="_socket_reader_8h.html#a9807c5a0510929ebf0d06a994e7812d0">MAX_SHUTDOWN_TIMEOUT</a></div><div class="ttdeci">#define MAX_SHUTDOWN_TIMEOUT</div><div class="ttdef"><b>Definition:</b> <a href="_socket_reader_8h_source.html#l00039">SocketReader.h:39</a></div></div>
-<div class="ttc" id="aclasscore_1_1_event_receiver_html_a2f57fdd943ac70918678c0a9671fc6c1"><div class="ttname"><a href="classcore_1_1_event_receiver.html#a2f57fdd943ac70918678c0a9671fc6c1">core::EventReceiver::setTimeout</a></div><div class="ttdeci">void setTimeout(const utils::Timeval &amp;timeout)</div><div class="ttdef"><b>Definition:</b> <a href="_event_receiver_8cpp_source.html#l00098">EventReceiver.cpp:98</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00125">125</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                                  {</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            <a class="code" href="classcore_1_1_event_receiver.html#a2f57fdd943ac70918678c0a9671fc6c1">setTimeout</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a954762ab102b608d6e0f04f66e81872e">terminateTimeout</a>);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            <span class="comment">// shutdown(); // do not shutdown our read side because we try to do a full tcp shutdown sequence.</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_socket_reader_8h_source.html#l00039">MAX_SHUTDOWN_TIMEOUT</a>, and <a class="el" href="_event_receiver_8cpp_source.html#l00098">core::EventReceiver::setTimeout()</a>.</p>
+<p class="reference">References <a class="el" href="_event_receiver_8cpp_source.html#l00098">core::EventReceiver::setTimeout()</a>, and <a class="el" href="_socket_reader_8h_source.html#l00141">core::socket::stream::SocketReader&lt; SocketT &gt;::terminateTimeout</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="legacy_2_socket_reader_8h_source.html#l00047">core::socket::stream::legacy::SocketReader&lt; SocketT &gt;::terminate()</a>, and <a class="el" href="tls_2_socket_reader_8h_source.html#l00095">core::socket::stream::tls::SocketReader&lt; SocketT &gt;::terminate()</a>.</p>
 <div class="dynheader">
@@ -734,6 +812,34 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aab70f273af103d055d8e879610bb0298"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab70f273af103d055d8e879610bb0298">&#9670;&nbsp;</a></span>blockSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SocketT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html">core::socket::stream::SocketReader</a>&lt; SocketT &gt;::blockSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00134">134</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_socket_reader_8h_source.html#l00094">core::socket::stream::SocketReader&lt; SocketT &gt;::doRead()</a>, <a class="el" href="_socket_reader_8h_source.html#l00073">core::socket::stream::SocketReader&lt; SocketT &gt;::setBlockSize()</a>, and <a class="el" href="_socket_reader_8h_source.html#l00052">core::socket::stream::SocketReader&lt; SocketT &gt;::SocketReader()</a>.</p>
+
+</div>
+</div>
 <a id="a4acb6278f841ab48967b3ff96102d429"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4acb6278f841ab48967b3ff96102d429">&#9670;&nbsp;</a></span>cursor</h2>
 
@@ -756,37 +862,9 @@ template&lt;typename SocketT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00124">124</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00137">137</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_reader_8h_source.html#l00083">core::socket::stream::SocketReader&lt; SocketT &gt;::doRead()</a>, and <a class="el" href="_socket_reader_8h_source.html#l00071">core::socket::stream::SocketReader&lt; SocketT &gt;::readFromPeer()</a>.</p>
-
-</div>
-</div>
-<a id="a17648f2e4c21e2746f97b76e8247fe9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17648f2e4c21e2746f97b76e8247fe9e">&#9670;&nbsp;</a></span>data</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename SocketT &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">char <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html">core::socket::stream::SocketReader</a>&lt; SocketT &gt;::data[16384] = {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00122">122</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="_socket_reader_8h_source.html#l00083">core::socket::stream::SocketReader&lt; SocketT &gt;::doRead()</a>, and <a class="el" href="_socket_reader_8h_source.html#l00071">core::socket::stream::SocketReader&lt; SocketT &gt;::readFromPeer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_reader_8h_source.html#l00094">core::socket::stream::SocketReader&lt; SocketT &gt;::doRead()</a>, and <a class="el" href="_socket_reader_8h_source.html#l00082">core::socket::stream::SocketReader&lt; SocketT &gt;::readFromPeer()</a>.</p>
 
 </div>
 </div>
@@ -812,9 +890,37 @@ template&lt;typename SocketT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00120">120</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00131">131</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_reader_8h_source.html#l00083">core::socket::stream::SocketReader&lt; SocketT &gt;::doRead()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_reader_8h_source.html#l00094">core::socket::stream::SocketReader&lt; SocketT &gt;::doRead()</a>.</p>
+
+</div>
+</div>
+<a id="ab92c913c462bdae234438033daa77a38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab92c913c462bdae234438033daa77a38">&#9670;&nbsp;</a></span>readBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SocketT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;char&gt; <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html">core::socket::stream::SocketReader</a>&lt; SocketT &gt;::readBuffer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00133">133</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_socket_reader_8h_source.html#l00094">core::socket::stream::SocketReader&lt; SocketT &gt;::doRead()</a>, <a class="el" href="_socket_reader_8h_source.html#l00082">core::socket::stream::SocketReader&lt; SocketT &gt;::readFromPeer()</a>, and <a class="el" href="_socket_reader_8h_source.html#l00073">core::socket::stream::SocketReader&lt; SocketT &gt;::setBlockSize()</a>.</p>
 
 </div>
 </div>
@@ -840,9 +946,9 @@ template&lt;typename SocketT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00126">126</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00139">139</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_reader_8h_source.html#l00107">core::socket::stream::SocketReader&lt; SocketT &gt;::shutdown()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_reader_8h_source.html#l00118">core::socket::stream::SocketReader&lt; SocketT &gt;::shutdown()</a>.</p>
 
 </div>
 </div>
@@ -868,9 +974,37 @@ template&lt;typename SocketT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00123">123</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00136">136</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_reader_8h_source.html#l00103">core::socket::stream::SocketReader&lt; SocketT &gt;::continueReadImmediately()</a>, <a class="el" href="_socket_reader_8h_source.html#l00083">core::socket::stream::SocketReader&lt; SocketT &gt;::doRead()</a>, and <a class="el" href="_socket_reader_8h_source.html#l00071">core::socket::stream::SocketReader&lt; SocketT &gt;::readFromPeer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_reader_8h_source.html#l00114">core::socket::stream::SocketReader&lt; SocketT &gt;::continueReadImmediately()</a>, <a class="el" href="_socket_reader_8h_source.html#l00094">core::socket::stream::SocketReader&lt; SocketT &gt;::doRead()</a>, and <a class="el" href="_socket_reader_8h_source.html#l00082">core::socket::stream::SocketReader&lt; SocketT &gt;::readFromPeer()</a>.</p>
+
+</div>
+</div>
+<a id="a954762ab102b608d6e0f04f66e81872e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a954762ab102b608d6e0f04f66e81872e">&#9670;&nbsp;</a></span>terminateTimeout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SocketT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html">core::socket::stream::SocketReader</a>&lt; SocketT &gt;::terminateTimeout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_socket_reader_8h_source.html#l00141">141</a> of file <a class="el" href="_socket_reader_8h_source.html">SocketReader.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_socket_reader_8h_source.html#l00125">core::socket::stream::SocketReader&lt; SocketT &gt;::terminate()</a>.</p>
 
 </div>
 </div>

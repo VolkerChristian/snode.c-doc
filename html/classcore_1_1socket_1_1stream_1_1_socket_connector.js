@@ -3,6 +3,8 @@ var classcore_1_1socket_1_1stream_1_1_socket_connector =
     [ "Socket", "classcore_1_1socket_1_1stream_1_1_socket_connector.html#aa136946ae0576155ef95086a784cdc13", null ],
     [ "SocketAddress", "classcore_1_1socket_1_1stream_1_1_socket_connector.html#a2f38472c181378c556f1b5e8ca4ef48f", null ],
     [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1_socket_connector.html#a59863a0cb6eeb798914c8418d4f1d0cd", null ],
+    [ "SocketReader", "classcore_1_1socket_1_1stream_1_1_socket_connector.html#a6b4646d35fc5d0d5f5d6487b9228cc39", null ],
+    [ "SocketWriter", "classcore_1_1socket_1_1stream_1_1_socket_connector.html#aad1f73bf79cfab4506288a651890c746", null ],
     [ "SocketConnector", "classcore_1_1socket_1_1stream_1_1_socket_connector.html#a3467fc6895821f4c8b0b6d337c916c6c", null ],
     [ "SocketConnector", "classcore_1_1socket_1_1stream_1_1_socket_connector.html#a40d6b53bdc7b800e49f66e03fe0bbd25", null ],
     [ "SocketConnector", "classcore_1_1socket_1_1stream_1_1_socket_connector.html#aa027cff97e48cb03dfa3af3232312d4b", null ],

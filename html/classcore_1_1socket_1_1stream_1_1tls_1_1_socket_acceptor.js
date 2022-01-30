@@ -1,16 +1,17 @@
 var classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor =
 [
-    [ "Socket", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#af30ebac3991ac8ddbf05e5f69dc91359", null ],
-    [ "SocketAddress", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#a79ec601c0038bc5b4752df26317b5e7d", null ],
-    [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#a22da51bb6b13851505cb03e013ba45f1", null ],
-    [ "Super", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#abb78e637cd6ff31b40cc2a6ec8258a35", null ],
-    [ "SocketAcceptor", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#aa0d484d9f762e28413873939a519f108", null ],
-    [ "~SocketAcceptor", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#ad45750f4a90313bcebffc5667fda1b2c", null ],
-    [ "addMasterCtx", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#a216b34a8c5aa845cfd2593e1b2b6af9a", null ],
-    [ "listen", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#a6ffbcbdfb76b3886524a6a89087d6a10", null ],
-    [ "serverNameCallback", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#aa98f3e974d9a98e43e89afc0ba0024d7", null ],
-    [ "forceSni", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#ad8395d1de55572f9360714828fb17b3d", null ],
-    [ "masterSslCtx", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#a302ce00fd036e88fcf1e8f21c3a0b624", null ],
-    [ "masterSslCtxDomains", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#acf5c2fd7bed9609e0827b6bd05c32418", null ],
-    [ "sniSslCtxs", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#aad114305230326176657a52f8e724366", null ]
+    [ "ServerConfig", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#acce294d242faf2b28d79328f09b31258", null ],
+    [ "Socket", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#a1eb869cd7f10f439e342c32257f94bd3", null ],
+    [ "SocketAddress", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#a951780d1cf7580724131d4ed5fcb9601", null ],
+    [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#ab89a9241dd789aaca125b71240412a2a", null ],
+    [ "Super", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#a9dad527cea0c8bc2545a64bb3d727efd", null ],
+    [ "SocketAcceptor", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#aafa1d24ba245fa80449ef651dbce87e6", null ],
+    [ "~SocketAcceptor", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#abfe19221308469f944a57183c6d709bf", null ],
+    [ "addMasterCtx", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#ab8e378c1a9ec30f1e43744c2da009e1e", null ],
+    [ "listen", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#ab642474dea05ef943b16f42a9ab8e7c5", null ],
+    [ "serverNameCallback", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#a464edd4440c224756ae2568e1c89abe0", null ],
+    [ "forceSni", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#ac3da120f188ad13fd11f500573807626", null ],
+    [ "masterSslCtx", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#a05d173bc9426ff573fd1fcbbc4454c13", null ],
+    [ "masterSslCtxDomains", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#a2eed8a07c10bff0951ab0d6ef793a6ce", null ],
+    [ "sniSslCtxs", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#aeac979c1edd52fa25d3ec68ad17ab213", null ]
 ];

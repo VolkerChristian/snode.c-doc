@@ -1,7 +1,7 @@
 var classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake =
 [
-    [ "TLSHandshake", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html#ac299d0fae027af9303a64090e9415c4d", null ],
-    [ "doHandshake", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html#a2b237e96cbc558865e1af52795641b71", null ],
+    [ "TLSHandshake", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html#a25bf095ec9148785030733d143a41633", null ],
+    [ "doHandshake", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html#a3f3f95800656e2a4314b2a1688e42f97", null ],
     [ "readEvent", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html#a2475a79cbe0ba0cdf3e4a568cc93dd1c", null ],
     [ "readTimeout", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html#a29687cada93d8edacc7caf4873108cb4", null ],
     [ "unobservedEvent", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html#a88dc943f4211ebe4c4062bc293a4a8a3", null ],

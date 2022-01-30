@@ -1,7 +1,7 @@
 var classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown =
 [
-    [ "TLSShutdown", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html#a402c20a30b1df9cb00b182b2d904be5b", null ],
-    [ "doShutdown", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html#aa32f997530c13c9119ba7c67fa17e7cc", null ],
+    [ "TLSShutdown", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html#a7b52255464e549ef7127a88af3d075d3", null ],
+    [ "doShutdown", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html#a73bea20c9a3103a6974905f344e09d09", null ],
     [ "readEvent", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html#adb32b25161f062a3a9c0fd37c5300c31", null ],
     [ "readTimeout", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html#a4002c4149d0a04e300ffd6623997bec6", null ],
     [ "unobservedEvent", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html#aabf7a4119287a1ee239a8527a43cfb2b", null ],

@@ -4,8 +4,8 @@ var dir_cbdb8362360e11eafe2fa3bc74cf0ffd =
     [ "base64.cpp", "base64_8cpp.html", "base64_8cpp" ],
     [ "base64.h", "base64_8h.html", "base64_8h" ],
     [ "CLI11.hpp", "_c_l_i11_8hpp.html", "_c_l_i11_8hpp" ],
-    [ "Config.cpp", "utils_2_config_8cpp.html", "utils_2_config_8cpp" ],
-    [ "Config.h", "utils_2_config_8h.html", [
+    [ "Config.cpp", "_config_8cpp.html", "_config_8cpp" ],
+    [ "Config.h", "_config_8h.html", [
       [ "Config", "classutils_1_1_config.html", "classutils_1_1_config" ]
     ] ],
     [ "instrumentation.cpp", "instrumentation_8cpp.html", "instrumentation_8cpp" ],

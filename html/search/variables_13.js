@@ -1,14 +1,19 @@
 var searchData=
 [
-  ['tickcounter_3460',['tickCounter',['../classcore_1_1_event_loop.html#a056d31c1e85280295f8b10cc80d6cbc1',1,'core::EventLoop']]],
-  ['timeouttriggered_3461',['timeoutTriggered',['../classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html#a1360dcba90512a76e593e66ebdd4fdc1',1,'core::socket::stream::tls::TLSHandshake::timeoutTriggered()'],['../classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html#a38aa20383b847f09eb3828ddf079f9e9',1,'core::socket::stream::tls::TLSShutdown::timeoutTriggered()']]],
-  ['timereventdispatcher_3462',['timerEventDispatcher',['../classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818',1,'core::EventDispatcher']]],
-  ['timerlist_3463',['timerList',['../classcore_1_1_timer_event_dispatcher.html#a02e7cb8535bdc60f51d2e944e69a2f21',1,'core::TimerEventDispatcher']]],
-  ['timerlistdirty_3464',['timerListDirty',['../classcore_1_1_timer_event_dispatcher.html#acb19ea4ed51b134507ff919707df4c55',1,'core::TimerEventDispatcher']]],
-  ['timeval_3465',['timeVal',['../classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2',1,'utils::Timeval']]],
-  ['transforms_3466',['transforms',['../class_s_h_a1.html#ade3c3c425f89513f0703aa29627ef298',1,'SHA1']]],
-  ['trigger_5fon_5fresult_5f_3467',['trigger_on_result_',['../class_c_l_i_1_1_option.html#a4716e3d2f016a0a33580fc4981580e9d',1,'CLI::Option']]],
-  ['type_5fname_5f_3468',['type_name_',['../class_c_l_i_1_1_option.html#a2080c70a11f8935118dffc924824aa87',1,'CLI::Option']]],
-  ['type_5fsize_5fmax_5f_3469',['type_size_max_',['../class_c_l_i_1_1_option.html#ad9a5a55a8c3fdce89dbf5c167c183ca6',1,'CLI::Option']]],
-  ['type_5fsize_5fmin_5f_3470',['type_size_min_',['../class_c_l_i_1_1_option.html#a23e5549e7c0490f15018ee84bc39d644',1,'CLI::Option']]]
+  ['terminatetimeout_3534',['terminateTimeout',['../classcore_1_1socket_1_1stream_1_1_socket_writer.html#a8eadbe91614e217f8949b5ef578db8e8',1,'core::socket::stream::SocketWriter::terminateTimeout()'],['../classnet_1_1_config_conn.html#a1542eb2db532534ea57895b34dc4cc30',1,'net::ConfigConn::terminateTimeout()'],['../classcore_1_1socket_1_1stream_1_1_socket_reader.html#a954762ab102b608d6e0f04f66e81872e',1,'core::socket::stream::SocketReader::terminateTimeout()']]],
+  ['terminatetimeoutopt_3535',['terminateTimeoutOpt',['../classnet_1_1_config_conn.html#a0b29d56ce88506d1fb9ad9bbf7a1a607',1,'net::ConfigConn']]],
+  ['tickcounter_3536',['tickCounter',['../classcore_1_1_event_loop.html#a056d31c1e85280295f8b10cc80d6cbc1',1,'core::EventLoop']]],
+  ['timeouttriggered_3537',['timeoutTriggered',['../classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html#a1360dcba90512a76e593e66ebdd4fdc1',1,'core::socket::stream::tls::TLSHandshake::timeoutTriggered()'],['../classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html#a38aa20383b847f09eb3828ddf079f9e9',1,'core::socket::stream::tls::TLSShutdown::timeoutTriggered()']]],
+  ['timereventdispatcher_3538',['timerEventDispatcher',['../classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818',1,'core::EventDispatcher']]],
+  ['timerlist_3539',['timerList',['../classcore_1_1_timer_event_dispatcher.html#a02e7cb8535bdc60f51d2e944e69a2f21',1,'core::TimerEventDispatcher']]],
+  ['timerlistdirty_3540',['timerListDirty',['../classcore_1_1_timer_event_dispatcher.html#acb19ea4ed51b134507ff919707df4c55',1,'core::TimerEventDispatcher']]],
+  ['timeval_3541',['timeVal',['../classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2',1,'utils::Timeval']]],
+  ['tlsinittimeoutopt_3542',['tlsInitTimeoutOpt',['../classnet_1_1_config_tls.html#a5eb4e1f0ea7ca68cb804ea010785cf28',1,'net::ConfigTls']]],
+  ['tlssc_3543',['tlsSc',['../classnet_1_1_config_tls.html#a7ba8152efe395178b3a1ecb706b0b4cd',1,'net::ConfigTls']]],
+  ['tlsshutdowntimeoutopt_3544',['tlsShutdownTimeoutOpt',['../classnet_1_1_config_tls.html#a9198177592f42d1949bb2e2e20f40392',1,'net::ConfigTls']]],
+  ['transforms_3545',['transforms',['../class_s_h_a1.html#ade3c3c425f89513f0703aa29627ef298',1,'SHA1']]],
+  ['trigger_5fon_5fresult_5f_3546',['trigger_on_result_',['../class_c_l_i_1_1_option.html#a4716e3d2f016a0a33580fc4981580e9d',1,'CLI::Option']]],
+  ['type_5fname_5f_3547',['type_name_',['../class_c_l_i_1_1_option.html#a2080c70a11f8935118dffc924824aa87',1,'CLI::Option']]],
+  ['type_5fsize_5fmax_5f_3548',['type_size_max_',['../class_c_l_i_1_1_option.html#ad9a5a55a8c3fdce89dbf5c167c183ca6',1,'CLI::Option']]],
+  ['type_5fsize_5fmin_5f_3549',['type_size_min_',['../class_c_l_i_1_1_option.html#a23e5549e7c0490f15018ee84bc39d644',1,'CLI::Option']]]
 ];
