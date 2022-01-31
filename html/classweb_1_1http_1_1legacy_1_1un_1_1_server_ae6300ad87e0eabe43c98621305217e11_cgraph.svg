@@ -22,11 +22,11 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a17f6990664b3b663e275afe01f476cd8" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a677296c4503d3cba88eba4c8684cb89d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="142,-0.5 142,-74.5 365,-74.5 365,-0.5 142,-0.5"/>
 <text text-anchor="start" x="150" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="start" x="150" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketServer&lt; ServerConfig</text>
-<text text-anchor="start" x="150" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, ServerSocketT, core::socket</text>
+<text text-anchor="start" x="150" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketServer&lt; ServerSocket</text>
+<text text-anchor="start" x="150" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, ServerConfigT, core::socket</text>
 <text text-anchor="start" x="150" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">::stream::legacy::SocketAcceptor</text>
 <text text-anchor="start" x="150" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; ServerConfigT, ServerSocketT::</text>
 <text text-anchor="middle" x="253.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Socket &gt;, SocketContextFactoryT &gt;::listen</text>

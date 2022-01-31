@@ -2,6 +2,10 @@ var dir_836f66fe27b136f95cc0b12d1409cd7f =
 [
     [ "legacy", "dir_1ce33fa4ede90c080d34a06491529947.html", "dir_1ce33fa4ede90c080d34a06491529947" ],
     [ "tls", "dir_7bcbc01be573b45abbd08d09790e363c.html", "dir_7bcbc01be573b45abbd08d09790e363c" ],
+    [ "ClientConfig.cpp", "l2_2stream_2_client_config_8cpp.html", null ],
+    [ "ClientConfig.h", "l2_2stream_2_client_config_8h.html", [
+      [ "ClientConfig", "classnet_1_1l2_1_1stream_1_1_client_config.html", "classnet_1_1l2_1_1stream_1_1_client_config" ]
+    ] ],
     [ "ClientSocket.cpp", "l2_2stream_2_client_socket_8cpp.html", null ],
     [ "ClientSocket.h", "net_2l2_2stream_2_client_socket_8h.html", [
       [ "ClientSocket", "classnet_1_1l2_1_1stream_1_1_client_socket.html", "classnet_1_1l2_1_1stream_1_1_client_socket" ]
@@ -9,6 +13,10 @@ var dir_836f66fe27b136f95cc0b12d1409cd7f =
     [ "ConfigBind.cpp", "l2_2stream_2_config_bind_8cpp.html", null ],
     [ "ConfigBind.h", "l2_2stream_2_config_bind_8h.html", [
       [ "ConfigBind", "classnet_1_1l2_1_1stream_1_1_config_bind.html", "classnet_1_1l2_1_1stream_1_1_config_bind" ]
+    ] ],
+    [ "ConfigConnect.cpp", "l2_2stream_2_config_connect_8cpp.html", null ],
+    [ "ConfigConnect.h", "l2_2stream_2_config_connect_8h.html", [
+      [ "ConfigConnect", "classnet_1_1l2_1_1stream_1_1_config_connect.html", "classnet_1_1l2_1_1stream_1_1_config_connect" ]
     ] ],
     [ "ServerConfig.cpp", "l2_2stream_2_server_config_8cpp.html", null ],
     [ "ServerConfig.h", "l2_2stream_2_server_config_8h.html", [

@@ -262,13 +262,13 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 : <a class="el" href="classweb_1_1http_1_1server_1_1_socket_context_factory.html#ad5bb8165d81c1b26d31a198133e61c40">web::http::server::SocketContextFactory&lt; RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1_socket_context_factory.html#a34da4dc0a662bd18d2938ea2f480939b">web::http::SocketContextFactory&lt; SocketContextT, RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade.html#a891b3248d6b8d120fcb4775b4d7ff4f4">web::http::SocketContextUpgrade&lt; RequestT, ResponseT &gt;</a>
+, <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory.html#a20c7d13ed89cddbbd67aab4582b6b4ce">web::http::SocketContextUpgradeFactory&lt; RequestT, ResponseT &gt;</a>
 </li>
 <li>request
 : <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory.html#a49afbcd1387bc71ce80b052882472a71">web::http::SocketContextUpgradeFactory&lt; RequestT, ResponseT &gt;</a>
 </li>
 <li>Request
-: <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory.html#a20c7d13ed89cddbbd67aab4582b6b4ce">web::http::SocketContextUpgradeFactory&lt; RequestT, ResponseT &gt;</a>
-, <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a39b69a59a030fdfc856fd9972facec46">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactoryT &gt;</a>
+: <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a39b69a59a030fdfc856fd9972facec46">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactoryT &gt;</a>
 , <a class="el" href="classweb_1_1websocket_1_1_socket_context_upgrade.html#aef94c4ffaed7ff27d70084760e22c49f">web::websocket::SocketContextUpgrade&lt; SubProtocolT, RequestT, ResponseT &gt;</a>
 </li>
 <li>RequestContext()
@@ -296,7 +296,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 : <a class="el" href="class_c_l_i_1_1_app.html#a23af1dbdb22e1083c3593157cb9b1bd3">CLI::App</a>
 </li>
 <li>require_subcommand()
-: <a class="el" href="class_c_l_i_1_1_app.html#a9cb090791a2594ffca877fd6afbf858a">CLI::App</a>
+: <a class="el" href="class_c_l_i_1_1_app.html#a41628b1a9cd4437bb81851fcfe9cdeef">CLI::App</a>
 </li>
 <li>require_subcommand_max_
 : <a class="el" href="class_c_l_i_1_1_app.html#a2c55daa71d2e35868f7e192211a801f2">CLI::App</a>
@@ -308,11 +308,26 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 : <a class="el" href="class_c_l_i_1_1_app.html#a33c3eb125a4e70d387dd9fc49c25432b">CLI::App</a>
 , <a class="el" href="class_c_l_i_1_1_option_base.html#a38c0ea47532de712dd8d9803633383b2">CLI::OptionBase&lt; CRTP &gt;</a>
 , <a class="el" href="classnet_1_1_config_base.html#a91340cc1b468185321686880a18cf960">net::ConfigBase</a>
-, <a class="el" href="classnet_1_1in6_1_1stream_1_1_server_config.html#a8ef3059e99b7f3df363e697b2eee6b38">net::in6::stream::ServerConfig</a>
-, <a class="el" href="classnet_1_1in_1_1stream_1_1_server_config.html#ac8d92bd45498e2919dd3af911d82c70a">net::in::stream::ServerConfig</a>
-, <a class="el" href="classnet_1_1l2_1_1stream_1_1_server_config.html#aed7466a19aae7154aa3cfea1f73161f1">net::l2::stream::ServerConfig</a>
-, <a class="el" href="classnet_1_1rf_1_1stream_1_1_server_config.html#a677fd99d3b0b9a57de48d67f0b168aff">net::rf::stream::ServerConfig</a>
-, <a class="el" href="classnet_1_1un_1_1stream_1_1_server_config.html#a4a8f6d9942878b96be483c7b558ec454">net::un::stream::ServerConfig</a>
+, <a class="el" href="classnet_1_1in6_1_1stream_1_1_client_config.html#a51a28959c91065125c2ee3c2713082c4">net::in6::stream::ClientConfig</a>
+, <a class="el" href="classnet_1_1in6_1_1stream_1_1_config_bind.html#ac6ac7f025e1db67b867d8832e94cf90b">net::in6::stream::ConfigBind</a>
+, <a class="el" href="classnet_1_1in6_1_1stream_1_1_config_connect.html#a3af1c068cf67609eb620d2440973ab2e">net::in6::stream::ConfigConnect</a>
+, <a class="el" href="classnet_1_1in6_1_1stream_1_1_server_config.html#a148294dd92f249d8ecc960f94b30b2e0">net::in6::stream::ServerConfig</a>
+, <a class="el" href="classnet_1_1in_1_1stream_1_1_client_config.html#affedfe5994bf9bb000d1cbd3429b65b4">net::in::stream::ClientConfig</a>
+, <a class="el" href="classnet_1_1in_1_1stream_1_1_config_bind.html#aef4dfeb3dedaf15aa73cc8597feac12c">net::in::stream::ConfigBind</a>
+, <a class="el" href="classnet_1_1in_1_1stream_1_1_config_connect.html#a3047097d705f355b6c54a8675e4fbbc8">net::in::stream::ConfigConnect</a>
+, <a class="el" href="classnet_1_1in_1_1stream_1_1_server_config.html#ac901048d36a8d43cf9559f9e8b2f92fb">net::in::stream::ServerConfig</a>
+, <a class="el" href="classnet_1_1l2_1_1stream_1_1_client_config.html#af84b6dc44c034ca2dc1aee6fceb2cb9f">net::l2::stream::ClientConfig</a>
+, <a class="el" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a204887a288fdc2b8c29b25808116d57d">net::l2::stream::ConfigBind</a>
+, <a class="el" href="classnet_1_1l2_1_1stream_1_1_config_connect.html#a2e2c6f111afc57858d52c0d2a9ea6397">net::l2::stream::ConfigConnect</a>
+, <a class="el" href="classnet_1_1l2_1_1stream_1_1_server_config.html#a14f84e9a7c60a312f0cd3c6c2b1fc94c">net::l2::stream::ServerConfig</a>
+, <a class="el" href="classnet_1_1rf_1_1stream_1_1_client_config.html#ac8e14bd42f0f0b6d092dc1d5356f0fd4">net::rf::stream::ClientConfig</a>
+, <a class="el" href="classnet_1_1rf_1_1stream_1_1_config_bind.html#aec7e0beddc1a1be53b2156cbb6d8f5be">net::rf::stream::ConfigBind</a>
+, <a class="el" href="classnet_1_1rf_1_1stream_1_1_config_connect.html#a3ae15ae59a7aa3a8eaeeba4ca5aeb2b0">net::rf::stream::ConfigConnect</a>
+, <a class="el" href="classnet_1_1rf_1_1stream_1_1_server_config.html#a2ce0b677ed66490da2524ac840517760">net::rf::stream::ServerConfig</a>
+, <a class="el" href="classnet_1_1un_1_1stream_1_1_client_config.html#ab0c4aa948de2019a8b71a13079531618">net::un::stream::ClientConfig</a>
+, <a class="el" href="classnet_1_1un_1_1stream_1_1_config_bind.html#acb7ed45ce122da7ca6637e97d1ee2f6b">net::un::stream::ConfigBind</a>
+, <a class="el" href="classnet_1_1un_1_1stream_1_1_config_connect.html#a581ca1f64b6b355410199225b10806a5">net::un::stream::ConfigConnect</a>
+, <a class="el" href="classnet_1_1un_1_1stream_1_1_server_config.html#aa7788c7b67f830b9e3f13bb41f3cc610">net::un::stream::ServerConfig</a>
 , <a class="el" href="classutils_1_1_config.html#a338c04a7dc175966480b570f096914a9">utils::Config</a>
 </li>
 <li>required_
@@ -326,7 +341,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 : <a class="el" href="class_c_l_i_1_1_option_already_added.html#aed569f7b5b3618f98084348e8f5deede">CLI::OptionAlreadyAdded</a>
 </li>
 <li>RequiresError()
-: <a class="el" href="class_c_l_i_1_1_requires_error.html#a0db6922b797ea0edf5dc338d198f820e">CLI::RequiresError</a>
+: <a class="el" href="class_c_l_i_1_1_requires_error.html#affa8c36d49b80a2d56c86ee506f21f63">CLI::RequiresError</a>
 </li>
 <li>reset()
 : <a class="el" href="classexpress_1_1_response.html#a0444e43ad05632b3eb6df2bded19ae91">express::Response</a>

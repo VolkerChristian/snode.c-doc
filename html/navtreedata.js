@@ -91,18 +91,18 @@ var NAVTREEINDEX =
 "class_c_l_i_1_1_option.html#ab06eb6c31666a4a003aeb2cf3e5cdcd9",
 "classcore_1_1_descriptor.html#a0998a6390c1f6ef1324ddfdfe7b2579b",
 "classcore_1_1pipe_1_1_pipe.html#ad01a1b3259efcbf9880df3c7d8aa3408",
-"classcore_1_1socket_1_1stream_1_1_socket_connection.html#a1bb433a0181f60f6ee128df35c6a71a6",
-"classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html#a7f7f7e1e036caeb420635a7176fdc171",
-"classnet_1_1_config_legacy.html",
-"classutils_1_1_timeval.html#a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b",
-"classweb_1_1http_1_1client_1_1_socket_context_factory.html#ab4b2348d28e8bd691c41a68ff16213b6",
-"classweb_1_1websocket_1_1_socket_context_upgrade.html#a87f0bb8ba7b156e75ee44f50b5f52e00",
-"core_2system_2_socket_8h.html#a252068ee271f0319fdfac711649f852f",
-"http__utils_8h.html#af566d4f31d97a3a84b373a94e6cf9594",
-"namespace_c_l_i_1_1detail.html#a356b9c9cc904af2b0a918fd55e86cd9c",
-"namespacenet_1_1un_1_1stream_1_1tls.html#a7cd755a041bb8544b5bf4180e72d0b88",
-"ssl__utils_8h.html",
-"websocket_2server_2_socket_context_upgrade_factory_8cpp.html"
+"classcore_1_1socket_1_1stream_1_1_socket_client.html#afad49a0b6c9febfa06197887012178fb",
+"classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html",
+"classnet_1_1_config_conn.html#aaa795e09306bef282bd7df02a90dd82a",
+"classnet_1_1rf_1_1stream_1_1_socket.html#a4fa4523aca39b4d58fd4657859945411",
+"classweb_1_1http_1_1client_1_1_client.html#a320d376b21c2928d8e859ec2ab150a48",
+"classweb_1_1http_1_1server_1_1_socket_context_factory.html#ad5bb8165d81c1b26d31a198133e61c40",
+"classweb_1_1websocket_1_1server_1_1_groups_manager.html#a489c2b1127c24a8d63cef0b6ed881ede",
+"functions_func_q.html",
+"legacy_2un_2_client_8h_source.html",
+"namespacecore_1_1system.html#ab33bc3708f662ee03fc101d59ebbea94",
+"net_2un_2stream_2_client_socket_8h.html",
+"structweb_1_1http_1_1server_1_1_socket_context_plugin.html#a52720e7d769a2667f41eedc63241d459"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

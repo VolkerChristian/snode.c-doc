@@ -1,8 +1,8 @@
 var classcore_1_1socket_1_1_server_socket =
 [
-    [ "ServerConfig", "classcore_1_1socket_1_1_server_socket.html#ad4ed90041c5114e8dd21a5f345f151de", null ],
-    [ "Socket", "classcore_1_1socket_1_1_server_socket.html#aa4c60c969fd644cedeccdb410c3663b4", null ],
-    [ "ServerSocket", "classcore_1_1socket_1_1_server_socket.html#a93f5bf6eb443673520efeeaded7c8d19", null ],
-    [ "listen", "classcore_1_1socket_1_1_server_socket.html#adba563aab561a06cd7384049fde510c1", null ],
-    [ "listen", "classcore_1_1socket_1_1_server_socket.html#a39111b237e7a1f3d94cc537f7e2b9467", null ]
+    [ "Socket", "classcore_1_1socket_1_1_server_socket.html#a382131672815f6d15f61ffb9ff5611f1", null ],
+    [ "SocketAddress", "classcore_1_1socket_1_1_server_socket.html#ab27a38a610051d963ca69a11a0737f60", null ],
+    [ "ServerSocket", "classcore_1_1socket_1_1_server_socket.html#a2ddf3aa566f8a819eabfa63044543e1f", null ],
+    [ "listen", "classcore_1_1socket_1_1_server_socket.html#a906da3e315c3dab05ec05ffe27a7f6de", null ],
+    [ "listen", "classcore_1_1socket_1_1_server_socket.html#a966263986fe39544fce1c76c993a9f9f", null ]
 ];

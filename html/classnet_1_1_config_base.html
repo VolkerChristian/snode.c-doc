@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('classnet_1_1_config_base.html',''); in
 <div class="dynheader">
 Inheritance diagram for net::ConfigBase:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1_config_base__inherit__graph.svg" width="1794" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1_config_base__inherit__graph.svg" width="3599" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -224,24 +224,26 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_config_base_8cpp_source.html#l00041">41</a> of file <a class="el" href="_config_base_8cpp_source.html">ConfigBase.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                                        {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="classnet_1_1_config_base.html#a91340cc1b468185321686880a18cf960">required</a>(req);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">try</span> {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <a class="code" href="classutils_1_1_config.html#ad13f9cf22d17f1f3e1e5150d6acd865a">utils::Config::instance</a>().<a class="code" href="classutils_1_1_config.html#aa5ea623fdeef48f8a74ae158d3292b11">parse</a>();</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> <a class="code" href="class_c_l_i_1_1_parse_error.html">CLI::ParseError</a>&amp; e) {</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="classutils_1_1_config.html#ad13f9cf22d17f1f3e1e5150d6acd865a">utils::Config::instance</a>().<a class="code" href="classutils_1_1_config.html#aacaee4b1b3f6b83cb48e7e0d2457a680">required</a>(<a class="code" href="classnet_1_1_config_base.html#ad729c6a09666a79241ebec480ef4fef7">baseSc</a>, req);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="classnet_1_1_config_base.html#a91340cc1b468185321686880a18cf960">required</a>(req);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <a class="code" href="classutils_1_1_config.html#ad13f9cf22d17f1f3e1e5150d6acd865a">utils::Config::instance</a>().<a class="code" href="classutils_1_1_config.html#aa5ea623fdeef48f8a74ae158d3292b11">parse</a>();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> <a class="code" href="class_c_l_i_1_1_parse_error.html">CLI::ParseError</a>&amp; e) {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        }</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
 <div class="ttc" id="aclass_c_l_i_1_1_parse_error_html"><div class="ttname"><a href="class_c_l_i_1_1_parse_error.html">CLI::ParseError</a></div><div class="ttdoc">Anything that can error in Parse.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l00700">CLI11.hpp:700</a></div></div>
 <div class="ttc" id="aclassnet_1_1_config_base_html_a91340cc1b468185321686880a18cf960"><div class="ttname"><a href="classnet_1_1_config_base.html#a91340cc1b468185321686880a18cf960">net::ConfigBase::required</a></div><div class="ttdeci">virtual void required(bool req) const =0</div></div>
 <div class="ttc" id="aclassutils_1_1_config_html_aa5ea623fdeef48f8a74ae158d3292b11"><div class="ttname"><a href="classutils_1_1_config.html#aa5ea623fdeef48f8a74ae158d3292b11">utils::Config::parse</a></div><div class="ttdeci">int parse(bool stopOnError=false)</div><div class="ttdef"><b>Definition:</b> <a href="_config_8cpp_source.html#l00124">Config.cpp:124</a></div></div>
+<div class="ttc" id="aclassutils_1_1_config_html_aacaee4b1b3f6b83cb48e7e0d2457a680"><div class="ttname"><a href="classutils_1_1_config.html#aacaee4b1b3f6b83cb48e7e0d2457a680">utils::Config::required</a></div><div class="ttdeci">CLI::App * required(CLI::App *app, bool required)</div><div class="ttdef"><b>Definition:</b> <a href="_config_8cpp_source.html#l00112">Config.cpp:112</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_config_8cpp_source.html#l00043">utils::Config::instance()</a>, <a class="el" href="_config_8cpp_source.html#l00124">utils::Config::parse()</a>, and <a class="el" href="classnet_1_1_config_base.html#a91340cc1b468185321686880a18cf960">required()</a>.</p>
+<p class="reference">References <a class="el" href="_config_base_8h_source.html#l00045">baseSc</a>, <a class="el" href="_config_8cpp_source.html#l00043">utils::Config::instance()</a>, <a class="el" href="_config_8cpp_source.html#l00124">utils::Config::parse()</a>, <a class="el" href="classnet_1_1_config_base.html#a91340cc1b468185321686880a18cf960">required()</a>, and <a class="el" href="_config_8cpp_source.html#l00112">utils::Config::required()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1_config_base_a5e4b810fb5564389a2ed14e72fbe1837_cgraph.svg" width="1171" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1_config_base_a5e4b810fb5564389a2ed14e72fbe1837_cgraph.svg" width="1190" height="215"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -271,7 +273,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classnet_1_1un_1_1stream_1_1_server_config.html#a4a8f6d9942878b96be483c7b558ec454">net::un::stream::ServerConfig</a>, <a class="el" href="classnet_1_1rf_1_1stream_1_1_server_config.html#a677fd99d3b0b9a57de48d67f0b168aff">net::rf::stream::ServerConfig</a>, <a class="el" href="classnet_1_1l2_1_1stream_1_1_server_config.html#aed7466a19aae7154aa3cfea1f73161f1">net::l2::stream::ServerConfig</a>, <a class="el" href="classnet_1_1in6_1_1stream_1_1_server_config.html#a8ef3059e99b7f3df363e697b2eee6b38">net::in6::stream::ServerConfig</a>, and <a class="el" href="classnet_1_1in_1_1stream_1_1_server_config.html#ac8d92bd45498e2919dd3af911d82c70a">net::in::stream::ServerConfig</a>.</p>
+<p>Implemented in <a class="el" href="classnet_1_1un_1_1stream_1_1_server_config.html#aa7788c7b67f830b9e3f13bb41f3cc610">net::un::stream::ServerConfig</a>, <a class="el" href="classnet_1_1un_1_1stream_1_1_client_config.html#ab0c4aa948de2019a8b71a13079531618">net::un::stream::ClientConfig</a>, <a class="el" href="classnet_1_1rf_1_1stream_1_1_server_config.html#a2ce0b677ed66490da2524ac840517760">net::rf::stream::ServerConfig</a>, <a class="el" href="classnet_1_1rf_1_1stream_1_1_client_config.html#ac8e14bd42f0f0b6d092dc1d5356f0fd4">net::rf::stream::ClientConfig</a>, <a class="el" href="classnet_1_1l2_1_1stream_1_1_server_config.html#a14f84e9a7c60a312f0cd3c6c2b1fc94c">net::l2::stream::ServerConfig</a>, <a class="el" href="classnet_1_1l2_1_1stream_1_1_client_config.html#af84b6dc44c034ca2dc1aee6fceb2cb9f">net::l2::stream::ClientConfig</a>, <a class="el" href="classnet_1_1in6_1_1stream_1_1_server_config.html#a148294dd92f249d8ecc960f94b30b2e0">net::in6::stream::ServerConfig</a>, <a class="el" href="classnet_1_1in6_1_1stream_1_1_client_config.html#a51a28959c91065125c2ee3c2713082c4">net::in6::stream::ClientConfig</a>, <a class="el" href="classnet_1_1in_1_1stream_1_1_server_config.html#ac901048d36a8d43cf9559f9e8b2f92fb">net::in::stream::ServerConfig</a>, and <a class="el" href="classnet_1_1in_1_1stream_1_1_client_config.html#affedfe5994bf9bb000d1cbd3429b65b4">net::in::stream::ClientConfig</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_config_base_8cpp_source.html#l00041">parse()</a>.</p>
 <div class="dynheader">
@@ -306,7 +308,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_config_base_8h_source.html#l00045">45</a> of file <a class="el" href="_config_base_8h_source.html">ConfigBase.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_config_base_8cpp_source.html#l00030">ConfigBase()</a>, <a class="el" href="in_2stream_2_server_config_8cpp_source.html#l00036">net::in::stream::ServerConfig::required()</a>, <a class="el" href="in6_2stream_2_server_config_8cpp_source.html#l00036">net::in6::stream::ServerConfig::required()</a>, <a class="el" href="l2_2stream_2_server_config_8cpp_source.html#l00036">net::l2::stream::ServerConfig::required()</a>, <a class="el" href="rf_2stream_2_server_config_8cpp_source.html#l00036">net::rf::stream::ServerConfig::required()</a>, and <a class="el" href="un_2stream_2_server_config_8cpp_source.html#l00035">net::un::stream::ServerConfig::required()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_config_base_8cpp_source.html#l00030">ConfigBase()</a>, and <a class="el" href="_config_base_8cpp_source.html#l00041">parse()</a>.</p>
 
 </div>
 </div>

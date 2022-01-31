@@ -83,6 +83,7 @@ $(document).ready(function(){initNavTree('classnet_1_1l2_1_1stream_1_1_config_bi
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classnet_1_1l2_1_1stream_1_1_config_bind-members.html">List of all members</a>  </div>
@@ -95,13 +96,13 @@ $(document).ready(function(){initNavTree('classnet_1_1l2_1_1stream_1_1_config_bi
 <div class="dynheader">
 Inheritance diagram for net::l2::stream::ConfigBind:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1l2_1_1stream_1_1_config_bind__inherit__graph.svg" width="344" height="471"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1l2_1_1stream_1_1_config_bind__inherit__graph.svg" width="728" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for net::l2::stream::ConfigBind:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1l2_1_1stream_1_1_config_bind__coll__graph.svg" width="486" height="6380"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1l2_1_1stream_1_1_config_bind__coll__graph.svg" width="486" height="6395"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -113,8 +114,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a157f5aae6bce3fb78fc87467f4f285c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a736cf5784854fff2fd93c3e06fef8462"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a736cf5784854fff2fd93c3e06fef8462">getBindPsm</a> () const</td></tr>
 <tr class="separator:a736cf5784854fff2fd93c3e06fef8462"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dcf82ff37c7205cc9a604d583580962"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classnet_1_1l2_1_1_socket_address.html">net::l2::SocketAddress</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a1dcf82ff37c7205cc9a604d583580962">getBindAddress</a> () const</td></tr>
+<tr class="memitem:a1dcf82ff37c7205cc9a604d583580962"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classnet_1_1l2_1_1_socket_address.html">SocketAddress</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a1dcf82ff37c7205cc9a604d583580962">getBindAddress</a> () const</td></tr>
 <tr class="separator:a1dcf82ff37c7205cc9a604d583580962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a204887a288fdc2b8c29b25808116d57d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a204887a288fdc2b8c29b25808116d57d">required</a> (bool req) const</td></tr>
+<tr class="separator:a204887a288fdc2b8c29b25808116d57d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -160,38 +166,38 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00029">29</a> of file <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html">ConfigBind.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                         {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a627700028e4f701afc8f0085fdb54094">bindSc</a> = baseSc-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a7ad6eb4ec4c5f4a0a9593af9f3fcf9cc">add_subcommand</a>(<span class="stringliteral">&quot;bind&quot;</span>);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a627700028e4f701afc8f0085fdb54094">bindSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a190faa07c199753e02dec21652cfc611">group</a>(<span class="stringliteral">&quot;Sub-Options (use -h,--help on them)&quot;</span>);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a627700028e4f701afc8f0085fdb54094">bindSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a5c26c64a49536e623739685f42475fc2">description</a>(<span class="stringliteral">&quot;Server socket bind options&quot;</span>);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a627700028e4f701afc8f0085fdb54094">bindSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#abb3478595ba469884249b28b3f39b737">configurable</a>();</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a32dc7c300dd88835c5e031431c73d248">bindHostOpt</a> = <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a627700028e4f701afc8f0085fdb54094">bindSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a1f9503a8cdceb4e5b42c9fd4ae6b7b10">add_option</a>(<span class="stringliteral">&quot;-a,--host&quot;</span>, <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a0520741e6d29880a607a27436ec16079">bindHost</a>, <span class="stringliteral">&quot;Bind bluetooth address&quot;</span>);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a32dc7c300dd88835c5e031431c73d248">bindHostOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[bluetooth address]&quot;</span>);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a32dc7c300dd88835c5e031431c73d248">bindHostOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(<span class="stringliteral">&quot;:::::&quot;</span>);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a32dc7c300dd88835c5e031431c73d248">bindHostOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#affbb9fb4e20744e377767952507503f0">configurable</a>();</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#af8f3441d24b0fbf47628dfe39c2e56ad">bindPsmOpt</a> = <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a627700028e4f701afc8f0085fdb54094">bindSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a1f9503a8cdceb4e5b42c9fd4ae6b7b10">add_option</a>(<span class="stringliteral">&quot;-p,--psm&quot;</span>, <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#aac9ef9ceb70447ec882a3e621db6ae11">bindPsm</a>, <span class="stringliteral">&quot;Bind protocol service multiplexer&quot;</span>);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#af8f3441d24b0fbf47628dfe39c2e56ad">bindPsmOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[uint16_t]&quot;</span>);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#af8f3441d24b0fbf47628dfe39c2e56ad">bindPsmOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(0);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#af8f3441d24b0fbf47628dfe39c2e56ad">bindPsmOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#affbb9fb4e20744e377767952507503f0">configurable</a>();</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
-<div class="ttc" id="aclass_c_l_i_1_1_app_html_a190faa07c199753e02dec21652cfc611"><div class="ttname"><a href="class_c_l_i_1_1_app.html#a190faa07c199753e02dec21652cfc611">CLI::App::group</a></div><div class="ttdeci">App * group(std::string group_name)</div><div class="ttdoc">Changes the group membership.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l06563">CLI11.hpp:6563</a></div></div>
+<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00031">31</a> of file <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html">ConfigBind.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                                         {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a627700028e4f701afc8f0085fdb54094">bindSc</a> = baseSc-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a7ad6eb4ec4c5f4a0a9593af9f3fcf9cc">add_subcommand</a>(<span class="stringliteral">&quot;bind&quot;</span>);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a627700028e4f701afc8f0085fdb54094">bindSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a5c26c64a49536e623739685f42475fc2">description</a>(<span class="stringliteral">&quot;Bind options&quot;</span>);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a627700028e4f701afc8f0085fdb54094">bindSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#abb3478595ba469884249b28b3f39b737">configurable</a>();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a627700028e4f701afc8f0085fdb54094">bindSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a33c3eb125a4e70d387dd9fc49c25432b">required</a>();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a32dc7c300dd88835c5e031431c73d248">bindHostOpt</a> = <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a627700028e4f701afc8f0085fdb54094">bindSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a1f9503a8cdceb4e5b42c9fd4ae6b7b10">add_option</a>(<span class="stringliteral">&quot;-a,--host&quot;</span>, <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a0520741e6d29880a607a27436ec16079">bindHost</a>, <span class="stringliteral">&quot;Bluetooth address&quot;</span>);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a32dc7c300dd88835c5e031431c73d248">bindHostOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[bluetooth address]&quot;</span>);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a32dc7c300dd88835c5e031431c73d248">bindHostOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(<span class="stringliteral">&quot;00:00:00:00:00:00&quot;</span>);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a32dc7c300dd88835c5e031431c73d248">bindHostOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#affbb9fb4e20744e377767952507503f0">configurable</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#af8f3441d24b0fbf47628dfe39c2e56ad">bindPsmOpt</a> = <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a627700028e4f701afc8f0085fdb54094">bindSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a1f9503a8cdceb4e5b42c9fd4ae6b7b10">add_option</a>(<span class="stringliteral">&quot;-p,--psm&quot;</span>, <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#aac9ef9ceb70447ec882a3e621db6ae11">bindPsm</a>, <span class="stringliteral">&quot;Protocol service multiplexer&quot;</span>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#af8f3441d24b0fbf47628dfe39c2e56ad">bindPsmOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[uint16_t]&quot;</span>);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#af8f3441d24b0fbf47628dfe39c2e56ad">bindPsmOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(0);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#af8f3441d24b0fbf47628dfe39c2e56ad">bindPsmOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#affbb9fb4e20744e377767952507503f0">configurable</a>();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
 <div class="ttc" id="aclass_c_l_i_1_1_app_html_a1f9503a8cdceb4e5b42c9fd4ae6b7b10"><div class="ttname"><a href="class_c_l_i_1_1_app.html#a1f9503a8cdceb4e5b42c9fd4ae6b7b10">CLI::App::add_option</a></div><div class="ttdeci">Option * add_option(std::string option_name, callback_t option_callback, std::string option_description=&quot;&quot;, bool defaulted=false, std::function&lt; std::string()&gt; func={})</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l06024">CLI11.hpp:6024</a></div></div>
+<div class="ttc" id="aclass_c_l_i_1_1_app_html_a33c3eb125a4e70d387dd9fc49c25432b"><div class="ttname"><a href="class_c_l_i_1_1_app.html#a33c3eb125a4e70d387dd9fc49c25432b">CLI::App::required</a></div><div class="ttdeci">App * required(bool require=true)</div><div class="ttdoc">Remove the error when extras are left over on the command line.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l05849">CLI11.hpp:5849</a></div></div>
 <div class="ttc" id="aclass_c_l_i_1_1_app_html_a5c26c64a49536e623739685f42475fc2"><div class="ttname"><a href="class_c_l_i_1_1_app.html#a5c26c64a49536e623739685f42475fc2">CLI::App::description</a></div><div class="ttdeci">App * description(std::string app_description)</div><div class="ttdoc">Set the description of the app.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l07034">CLI11.hpp:7034</a></div></div>
 <div class="ttc" id="aclass_c_l_i_1_1_app_html_a7ad6eb4ec4c5f4a0a9593af9f3fcf9cc"><div class="ttname"><a href="class_c_l_i_1_1_app.html#a7ad6eb4ec4c5f4a0a9593af9f3fcf9cc">CLI::App::add_subcommand</a></div><div class="ttdeci">App * add_subcommand(std::string subcommand_name=&quot;&quot;, std::string subcommand_description=&quot;&quot;)</div><div class="ttdoc">Add a subcommand. Inherits INHERITABLE and OptionDefaults, and help flag.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l06425">CLI11.hpp:6425</a></div></div>
 <div class="ttc" id="aclass_c_l_i_1_1_app_html_abb3478595ba469884249b28b3f39b737"><div class="ttname"><a href="class_c_l_i_1_1_app.html#abb3478595ba469884249b28b3f39b737">CLI::App::configurable</a></div><div class="ttdeci">App * configurable(bool value=true)</div><div class="ttdoc">Specify that the subcommand can be triggered by a config file.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l05958">CLI11.hpp:5958</a></div></div>
 <div class="ttc" id="aclass_c_l_i_1_1_option_base_html_affbb9fb4e20744e377767952507503f0"><div class="ttname"><a href="class_c_l_i_1_1_option_base.html#affbb9fb4e20744e377767952507503f0">CLI::OptionBase::configurable</a></div><div class="ttdeci">CRTP * configurable(bool value=true)</div><div class="ttdoc">Allow in a configuration file.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l04255">CLI11.hpp:4255</a></div></div>
 <div class="ttc" id="aclass_c_l_i_1_1_option_html_a4685cebdb75c6bf8ce0095fd08d8b892"><div class="ttname"><a href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">CLI::Option::default_val</a></div><div class="ttdeci">Option * default_val(const X &amp;val)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l05302">CLI11.hpp:5302</a></div></div>
 <div class="ttc" id="aclass_c_l_i_1_1_option_html_addaddebd60f66aaedc13e5fb473db902"><div class="ttname"><a href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">CLI::Option::type_name</a></div><div class="ttdeci">Option * type_name(std::string typeval)</div><div class="ttdoc">Set a custom option typestring.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l05223">CLI11.hpp:5223</a></div></div>
-<div class="ttc" id="aclassnet_1_1l2_1_1stream_1_1_config_bind_html_a0520741e6d29880a607a27436ec16079"><div class="ttname"><a href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a0520741e6d29880a607a27436ec16079">net::l2::stream::ConfigBind::bindHost</a></div><div class="ttdeci">std::string bindHost</div><div class="ttdef"><b>Definition:</b> <a href="l2_2stream_2_config_bind_8h_source.html#l00054">ConfigBind.h:54</a></div></div>
-<div class="ttc" id="aclassnet_1_1l2_1_1stream_1_1_config_bind_html_a32dc7c300dd88835c5e031431c73d248"><div class="ttname"><a href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a32dc7c300dd88835c5e031431c73d248">net::l2::stream::ConfigBind::bindHostOpt</a></div><div class="ttdeci">CLI::Option * bindHostOpt</div><div class="ttdef"><b>Definition:</b> <a href="l2_2stream_2_config_bind_8h_source.html#l00050">ConfigBind.h:50</a></div></div>
-<div class="ttc" id="aclassnet_1_1l2_1_1stream_1_1_config_bind_html_a627700028e4f701afc8f0085fdb54094"><div class="ttname"><a href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a627700028e4f701afc8f0085fdb54094">net::l2::stream::ConfigBind::bindSc</a></div><div class="ttdeci">CLI::App * bindSc</div><div class="ttdef"><b>Definition:</b> <a href="l2_2stream_2_config_bind_8h_source.html#l00049">ConfigBind.h:49</a></div></div>
-<div class="ttc" id="aclassnet_1_1l2_1_1stream_1_1_config_bind_html_aac9ef9ceb70447ec882a3e621db6ae11"><div class="ttname"><a href="classnet_1_1l2_1_1stream_1_1_config_bind.html#aac9ef9ceb70447ec882a3e621db6ae11">net::l2::stream::ConfigBind::bindPsm</a></div><div class="ttdeci">uint16_t bindPsm</div><div class="ttdef"><b>Definition:</b> <a href="l2_2stream_2_config_bind_8h_source.html#l00055">ConfigBind.h:55</a></div></div>
-<div class="ttc" id="aclassnet_1_1l2_1_1stream_1_1_config_bind_html_af8f3441d24b0fbf47628dfe39c2e56ad"><div class="ttname"><a href="classnet_1_1l2_1_1stream_1_1_config_bind.html#af8f3441d24b0fbf47628dfe39c2e56ad">net::l2::stream::ConfigBind::bindPsmOpt</a></div><div class="ttdeci">CLI::Option * bindPsmOpt</div><div class="ttdef"><b>Definition:</b> <a href="l2_2stream_2_config_bind_8h_source.html#l00051">ConfigBind.h:51</a></div></div>
+<div class="ttc" id="aclassnet_1_1l2_1_1stream_1_1_config_bind_html_a0520741e6d29880a607a27436ec16079"><div class="ttname"><a href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a0520741e6d29880a607a27436ec16079">net::l2::stream::ConfigBind::bindHost</a></div><div class="ttdeci">std::string bindHost</div><div class="ttdef"><b>Definition:</b> <a href="l2_2stream_2_config_bind_8h_source.html#l00056">ConfigBind.h:56</a></div></div>
+<div class="ttc" id="aclassnet_1_1l2_1_1stream_1_1_config_bind_html_a32dc7c300dd88835c5e031431c73d248"><div class="ttname"><a href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a32dc7c300dd88835c5e031431c73d248">net::l2::stream::ConfigBind::bindHostOpt</a></div><div class="ttdeci">CLI::Option * bindHostOpt</div><div class="ttdef"><b>Definition:</b> <a href="l2_2stream_2_config_bind_8h_source.html#l00052">ConfigBind.h:52</a></div></div>
+<div class="ttc" id="aclassnet_1_1l2_1_1stream_1_1_config_bind_html_a627700028e4f701afc8f0085fdb54094"><div class="ttname"><a href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a627700028e4f701afc8f0085fdb54094">net::l2::stream::ConfigBind::bindSc</a></div><div class="ttdeci">CLI::App * bindSc</div><div class="ttdef"><b>Definition:</b> <a href="l2_2stream_2_config_bind_8h_source.html#l00051">ConfigBind.h:51</a></div></div>
+<div class="ttc" id="aclassnet_1_1l2_1_1stream_1_1_config_bind_html_aac9ef9ceb70447ec882a3e621db6ae11"><div class="ttname"><a href="classnet_1_1l2_1_1stream_1_1_config_bind.html#aac9ef9ceb70447ec882a3e621db6ae11">net::l2::stream::ConfigBind::bindPsm</a></div><div class="ttdeci">uint16_t bindPsm</div><div class="ttdef"><b>Definition:</b> <a href="l2_2stream_2_config_bind_8h_source.html#l00057">ConfigBind.h:57</a></div></div>
+<div class="ttc" id="aclassnet_1_1l2_1_1stream_1_1_config_bind_html_af8f3441d24b0fbf47628dfe39c2e56ad"><div class="ttname"><a href="classnet_1_1l2_1_1stream_1_1_config_bind.html#af8f3441d24b0fbf47628dfe39c2e56ad">net::l2::stream::ConfigBind::bindPsmOpt</a></div><div class="ttdeci">CLI::Option * bindPsmOpt</div><div class="ttdef"><b>Definition:</b> <a href="l2_2stream_2_config_bind_8h_source.html#l00053">ConfigBind.h:53</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l06024">CLI::App::add_option()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l06425">CLI::App::add_subcommand()</a>, <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00054">bindHost</a>, <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00050">bindHostOpt</a>, <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00055">bindPsm</a>, <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00051">bindPsmOpt</a>, <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00049">bindSc</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l04255">CLI::OptionBase&lt; CRTP &gt;::configurable()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l05958">CLI::App::configurable()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l05302">CLI::Option::default_val()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l07034">CLI::App::description()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l06563">CLI::App::group()</a>, and <a class="el" href="_c_l_i11_8hpp_source.html#l05223">CLI::Option::type_name()</a>.</p>
+<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l06024">CLI::App::add_option()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l06425">CLI::App::add_subcommand()</a>, <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00056">bindHost</a>, <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00052">bindHostOpt</a>, <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00057">bindPsm</a>, <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00053">bindPsmOpt</a>, <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00051">bindSc</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l04255">CLI::OptionBase&lt; CRTP &gt;::configurable()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l05958">CLI::App::configurable()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l05302">CLI::Option::default_val()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l07034">CLI::App::description()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l05849">CLI::App::required()</a>, and <a class="el" href="_c_l_i11_8hpp_source.html#l05223">CLI::Option::type_name()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -217,13 +223,12 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00054">54</a> of file <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html">ConfigBind.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                                   {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classnet_1_1l2_1_1_socket_address.html">net::l2::SocketAddress</a>(<a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a0520741e6d29880a607a27436ec16079">bindHost</a>, <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#aac9ef9ceb70447ec882a3e621db6ae11">bindPsm</a>);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
-<div class="ttc" id="aclassnet_1_1l2_1_1_socket_address_html"><div class="ttname"><a href="classnet_1_1l2_1_1_socket_address.html">net::l2::SocketAddress</a></div><div class="ttdef"><b>Definition:</b> <a href="net_2l2_2_socket_address_8h_source.html#l00035">SocketAddress.h:35</a></div></div>
+<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00056">56</a> of file <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html">ConfigBind.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                                                   {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">return</span> SocketAddress(<a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a0520741e6d29880a607a27436ec16079">bindHost</a>, <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#aac9ef9ceb70447ec882a3e621db6ae11">bindPsm</a>);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00054">bindHost</a>, and <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00055">bindPsm</a>.</p>
+<p class="reference">References <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00056">bindHost</a>, and <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00057">bindPsm</a>.</p>
 
 </div>
 </div>
@@ -242,12 +247,12 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00046">46</a> of file <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html">ConfigBind.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                                                   {</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a0520741e6d29880a607a27436ec16079">bindHost</a>;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00048">48</a> of file <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html">ConfigBind.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                                                   {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a0520741e6d29880a607a27436ec16079">bindHost</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00054">bindHost</a>.</p>
+<p class="reference">References <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00056">bindHost</a>.</p>
 
 </div>
 </div>
@@ -266,12 +271,62 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00050">50</a> of file <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html">ConfigBind.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                                          {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#aac9ef9ceb70447ec882a3e621db6ae11">bindPsm</a>;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00052">52</a> of file <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html">ConfigBind.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                                          {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#aac9ef9ceb70447ec882a3e621db6ae11">bindPsm</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00055">bindPsm</a>.</p>
+<p class="reference">References <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00057">bindPsm</a>.</p>
+
+</div>
+</div>
+<a id="a204887a288fdc2b8c29b25808116d57d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a204887a288fdc2b8c29b25808116d57d">&#9670;&nbsp;</a></span>required()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void net::l2::stream::ConfigBind::required </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>req</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00060">60</a> of file <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html">ConfigBind.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                                            {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <a class="code" href="classutils_1_1_config.html#ad13f9cf22d17f1f3e1e5150d6acd865a">utils::Config::instance</a>().<a class="code" href="classutils_1_1_config.html#aacaee4b1b3f6b83cb48e7e0d2457a680">required</a>(<a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#a627700028e4f701afc8f0085fdb54094">bindSc</a>, req);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <a class="code" href="classutils_1_1_config.html#ad13f9cf22d17f1f3e1e5150d6acd865a">utils::Config::instance</a>().<a class="code" href="classutils_1_1_config.html#aacaee4b1b3f6b83cb48e7e0d2457a680">required</a>(<a class="code" href="classnet_1_1l2_1_1stream_1_1_config_bind.html#af8f3441d24b0fbf47628dfe39c2e56ad">bindPsmOpt</a>, req);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
+<div class="ttc" id="aclassutils_1_1_config_html_aacaee4b1b3f6b83cb48e7e0d2457a680"><div class="ttname"><a href="classutils_1_1_config.html#aacaee4b1b3f6b83cb48e7e0d2457a680">utils::Config::required</a></div><div class="ttdeci">CLI::App * required(CLI::App *app, bool required)</div><div class="ttdef"><b>Definition:</b> <a href="_config_8cpp_source.html#l00112">Config.cpp:112</a></div></div>
+<div class="ttc" id="aclassutils_1_1_config_html_ad13f9cf22d17f1f3e1e5150d6acd865a"><div class="ttname"><a href="classutils_1_1_config.html#ad13f9cf22d17f1f3e1e5150d6acd865a">utils::Config::instance</a></div><div class="ttdeci">static Config &amp; instance()</div><div class="ttdef"><b>Definition:</b> <a href="_config_8cpp_source.html#l00043">Config.cpp:43</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00053">bindPsmOpt</a>, <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00051">bindSc</a>, <a class="el" href="_config_8cpp_source.html#l00043">utils::Config::instance()</a>, and <a class="el" href="_config_8cpp_source.html#l00112">utils::Config::required()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="l2_2stream_2_server_config_8cpp_source.html#l00034">net::l2::stream::ServerConfig::required()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1l2_1_1stream_1_1_config_bind_a204887a288fdc2b8c29b25808116d57d_cgraph.svg" width="603" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1l2_1_1stream_1_1_config_bind_a204887a288fdc2b8c29b25808116d57d_icgraph.svg" width="464" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
@@ -296,9 +351,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00054">54</a> of file <a class="el" href="l2_2stream_2_config_bind_8h_source.html">ConfigBind.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00056">56</a> of file <a class="el" href="l2_2stream_2_config_bind_8h_source.html">ConfigBind.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00029">ConfigBind()</a>, <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00054">getBindAddress()</a>, and <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00046">getBindHost()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00031">ConfigBind()</a>, <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00056">getBindAddress()</a>, and <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00048">getBindHost()</a>.</p>
 
 </div>
 </div>
@@ -322,9 +377,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00050">50</a> of file <a class="el" href="l2_2stream_2_config_bind_8h_source.html">ConfigBind.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00052">52</a> of file <a class="el" href="l2_2stream_2_config_bind_8h_source.html">ConfigBind.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00029">ConfigBind()</a>, and <a class="el" href="l2_2stream_2_server_config_8cpp_source.html#l00036">net::l2::stream::ServerConfig::required()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00031">ConfigBind()</a>.</p>
 
 </div>
 </div>
@@ -348,9 +403,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00055">55</a> of file <a class="el" href="l2_2stream_2_config_bind_8h_source.html">ConfigBind.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00057">57</a> of file <a class="el" href="l2_2stream_2_config_bind_8h_source.html">ConfigBind.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00029">ConfigBind()</a>, <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00054">getBindAddress()</a>, and <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00050">getBindPsm()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00031">ConfigBind()</a>, <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00056">getBindAddress()</a>, and <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00052">getBindPsm()</a>.</p>
 
 </div>
 </div>
@@ -374,9 +429,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00051">51</a> of file <a class="el" href="l2_2stream_2_config_bind_8h_source.html">ConfigBind.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00053">53</a> of file <a class="el" href="l2_2stream_2_config_bind_8h_source.html">ConfigBind.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00029">ConfigBind()</a>, and <a class="el" href="l2_2stream_2_server_config_8cpp_source.html#l00036">net::l2::stream::ServerConfig::required()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00031">ConfigBind()</a>, and <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00060">required()</a>.</p>
 
 </div>
 </div>
@@ -400,9 +455,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00049">49</a> of file <a class="el" href="l2_2stream_2_config_bind_8h_source.html">ConfigBind.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="l2_2stream_2_config_bind_8h_source.html#l00051">51</a> of file <a class="el" href="l2_2stream_2_config_bind_8h_source.html">ConfigBind.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00029">ConfigBind()</a>, and <a class="el" href="l2_2stream_2_server_config_8cpp_source.html#l00036">net::l2::stream::ServerConfig::required()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00031">ConfigBind()</a>, and <a class="el" href="l2_2stream_2_config_bind_8cpp_source.html#l00060">required()</a>.</p>
 
 </div>
 </div>

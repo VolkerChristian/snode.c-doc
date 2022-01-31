@@ -1,6 +1,8 @@
 var dir_7bcbc01be573b45abbd08d09790e363c =
 [
-    [ "ServerConfig.cpp", "l2_2stream_2tls_2_server_config_8cpp.html", null ],
+    [ "ClientConfig.h", "l2_2stream_2tls_2_client_config_8h.html", [
+      [ "ClientConfig", "classnet_1_1l2_1_1stream_1_1tls_1_1_client_config.html", "classnet_1_1l2_1_1stream_1_1tls_1_1_client_config" ]
+    ] ],
     [ "ServerConfig.h", "l2_2stream_2tls_2_server_config_8h.html", [
       [ "ServerConfig", "classnet_1_1l2_1_1stream_1_1tls_1_1_server_config.html", "classnet_1_1l2_1_1stream_1_1tls_1_1_server_config" ]
     ] ],

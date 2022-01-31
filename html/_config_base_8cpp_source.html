@@ -126,17 +126,18 @@ $(document).ready(function(){initNavTree('_config_base_8cpp_source.html',''); in
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classnet_1_1_config_base.html#a5e4b810fb5564389a2ed14e72fbe1837">   41</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classnet_1_1_config_base.html#a5e4b810fb5564389a2ed14e72fbe1837">ConfigBase::parse</a>(<span class="keywordtype">bool</span> req)<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="classnet_1_1_config_base.html#a91340cc1b468185321686880a18cf960">required</a>(req);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">try</span> {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <a class="code" href="classutils_1_1_config.html#ad13f9cf22d17f1f3e1e5150d6acd865a">utils::Config::instance</a>().<a class="code" href="classutils_1_1_config.html#aa5ea623fdeef48f8a74ae158d3292b11">parse</a>();</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> <a class="code" href="class_c_l_i_1_1_parse_error.html">CLI::ParseError</a>&amp; e) {</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;} <span class="comment">// namespace net</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="classutils_1_1_config.html#ad13f9cf22d17f1f3e1e5150d6acd865a">utils::Config::instance</a>().<a class="code" href="classutils_1_1_config.html#aacaee4b1b3f6b83cb48e7e0d2457a680">required</a>(<a class="code" href="classnet_1_1_config_base.html#ad729c6a09666a79241ebec480ef4fef7">baseSc</a>, req);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="classnet_1_1_config_base.html#a91340cc1b468185321686880a18cf960">required</a>(req);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <a class="code" href="classutils_1_1_config.html#ad13f9cf22d17f1f3e1e5150d6acd865a">utils::Config::instance</a>().<a class="code" href="classutils_1_1_config.html#aa5ea623fdeef48f8a74ae158d3292b11">parse</a>();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> <a class="code" href="class_c_l_i_1_1_parse_error.html">CLI::ParseError</a>&amp; e) {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        }</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;} <span class="comment">// namespace net</span></div>
 <div class="ttc" id="a_c_l_i11_8hpp_html"><div class="ttname"><a href="_c_l_i11_8hpp.html">CLI11.hpp</a></div></div>
 <div class="ttc" id="a_config_8h_html"><div class="ttname"><a href="_config_8h.html">Config.h</a></div></div>
 <div class="ttc" id="a_config_base_8h_html"><div class="ttname"><a href="_config_base_8h.html">ConfigBase.h</a></div></div>
@@ -150,6 +151,7 @@ $(document).ready(function(){initNavTree('_config_base_8cpp_source.html',''); in
 <div class="ttc" id="aclassnet_1_1_config_base_html_ab1832376e91387013f812baf4aa24527"><div class="ttname"><a href="classnet_1_1_config_base.html#ab1832376e91387013f812baf4aa24527">net::ConfigBase::ConfigBase</a></div><div class="ttdeci">ConfigBase(const std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="_config_base_8cpp_source.html#l00030">ConfigBase.cpp:30</a></div></div>
 <div class="ttc" id="aclassnet_1_1_config_base_html_ad729c6a09666a79241ebec480ef4fef7"><div class="ttname"><a href="classnet_1_1_config_base.html#ad729c6a09666a79241ebec480ef4fef7">net::ConfigBase::baseSc</a></div><div class="ttdeci">CLI::App * baseSc</div><div class="ttdef"><b>Definition:</b> <a href="_config_base_8h_source.html#l00045">ConfigBase.h:45</a></div></div>
 <div class="ttc" id="aclassutils_1_1_config_html_aa5ea623fdeef48f8a74ae158d3292b11"><div class="ttname"><a href="classutils_1_1_config.html#aa5ea623fdeef48f8a74ae158d3292b11">utils::Config::parse</a></div><div class="ttdeci">int parse(bool stopOnError=false)</div><div class="ttdef"><b>Definition:</b> <a href="_config_8cpp_source.html#l00124">Config.cpp:124</a></div></div>
+<div class="ttc" id="aclassutils_1_1_config_html_aacaee4b1b3f6b83cb48e7e0d2457a680"><div class="ttname"><a href="classutils_1_1_config.html#aacaee4b1b3f6b83cb48e7e0d2457a680">utils::Config::required</a></div><div class="ttdeci">CLI::App * required(CLI::App *app, bool required)</div><div class="ttdef"><b>Definition:</b> <a href="_config_8cpp_source.html#l00112">Config.cpp:112</a></div></div>
 <div class="ttc" id="aclassutils_1_1_config_html_ad13f9cf22d17f1f3e1e5150d6acd865a"><div class="ttname"><a href="classutils_1_1_config.html#ad13f9cf22d17f1f3e1e5150d6acd865a">utils::Config::instance</a></div><div class="ttdeci">static Config &amp; instance()</div><div class="ttdef"><b>Definition:</b> <a href="_config_8cpp_source.html#l00043">Config.cpp:43</a></div></div>
 <div class="ttc" id="aclassutils_1_1_config_html_afc99b51e6e50ca723e9dbe179016ee1e"><div class="ttname"><a href="classutils_1_1_config.html#afc99b51e6e50ca723e9dbe179016ee1e">utils::Config::add_subcommand</a></div><div class="ttdeci">CLI::App * add_subcommand(const std::string &amp;subcommand_name, const std::string &amp;subcommand_description)</div><div class="ttdef"><b>Definition:</b> <a href="_config_8cpp_source.html#l00108">Config.cpp:108</a></div></div>
 <div class="ttc" id="anamespacenet_html"><div class="ttname"><a href="namespacenet.html">net</a></div><div class="ttdef"><b>Definition:</b> <a href="_config_backlog_8cpp_source.html#l00029">ConfigBacklog.cpp:29</a></div></div>

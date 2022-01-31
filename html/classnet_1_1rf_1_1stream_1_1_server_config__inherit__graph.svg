@@ -111,27 +111,28 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="classnet_1_1rf_1_1stream_1_1_config_bind.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="239.5,-260 239.5,-394 384.5,-394 384.5,-260 239.5,-260"/>
-<text text-anchor="middle" x="312" y="-382" font-family="Helvetica,sans-Serif" font-size="10.00">net::rf::stream::ConfigBind</text>
-<polyline fill="none" stroke="black" points="239.5,-375 384.5,-375 "/>
-<text text-anchor="start" x="247.5" y="-363" font-family="Helvetica,sans-Serif" font-size="10.00"># bindSc</text>
-<text text-anchor="start" x="247.5" y="-352" font-family="Helvetica,sans-Serif" font-size="10.00"># bindHostOpt</text>
-<text text-anchor="start" x="247.5" y="-341" font-family="Helvetica,sans-Serif" font-size="10.00"># bindChannelOpt</text>
-<text text-anchor="start" x="247.5" y="-330" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; bindHost</text>
-<text text-anchor="start" x="247.5" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; bindChannel</text>
-<polyline fill="none" stroke="black" points="239.5,-312 384.5,-312 "/>
-<text text-anchor="start" x="247.5" y="-300" font-family="Helvetica,sans-Serif" font-size="10.00">+ ConfigBind()</text>
-<text text-anchor="start" x="247.5" y="-289" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindHost()</text>
-<text text-anchor="start" x="247.5" y="-278" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindChannel()</text>
-<text text-anchor="start" x="247.5" y="-267" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindAddress()</text>
+<polygon fill="white" stroke="black" points="239.5,-254.5 239.5,-399.5 384.5,-399.5 384.5,-254.5 239.5,-254.5"/>
+<text text-anchor="middle" x="312" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::rf::stream::ConfigBind</text>
+<polyline fill="none" stroke="black" points="239.5,-380.5 384.5,-380.5 "/>
+<text text-anchor="start" x="247.5" y="-368.5" font-family="Helvetica,sans-Serif" font-size="10.00"># bindSc</text>
+<text text-anchor="start" x="247.5" y="-357.5" font-family="Helvetica,sans-Serif" font-size="10.00"># bindHostOpt</text>
+<text text-anchor="start" x="247.5" y="-346.5" font-family="Helvetica,sans-Serif" font-size="10.00"># bindChannelOpt</text>
+<text text-anchor="start" x="247.5" y="-335.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; bindHost</text>
+<text text-anchor="start" x="247.5" y="-324.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; bindChannel</text>
+<polyline fill="none" stroke="black" points="239.5,-317.5 384.5,-317.5 "/>
+<text text-anchor="start" x="247.5" y="-305.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ConfigBind()</text>
+<text text-anchor="start" x="247.5" y="-294.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindHost()</text>
+<text text-anchor="start" x="247.5" y="-283.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindChannel()</text>
+<text text-anchor="start" x="247.5" y="-272.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindAddress()</text>
+<text text-anchor="start" x="247.5" y="-261.5" font-family="Helvetica,sans-Serif" font-size="10.00"># required()</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M282.27,-250.45C271.74,-223.7 260.44,-194.97 252.02,-173.59"/>
-<polygon fill="none" stroke="midnightblue" points="279.04,-251.79 285.95,-259.82 285.55,-249.23 279.04,-251.79"/>
+<path fill="none" stroke="midnightblue" d="M280.03,-244.77C270.2,-219.77 259.91,-193.63 252.1,-173.78"/>
+<polygon fill="none" stroke="midnightblue" points="276.86,-246.26 283.78,-254.28 283.37,-243.69 276.86,-246.26"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">

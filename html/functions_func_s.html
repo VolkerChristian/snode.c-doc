@@ -210,7 +210,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 : <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#a464edd4440c224756ae2568e1c89abe0">core::socket::stream::tls::SocketAcceptor&lt; ServerConfigT, SocketT &gt;</a>
 </li>
 <li>ServerSocket()
-: <a class="el" href="classcore_1_1socket_1_1_server_socket.html#a93f5bf6eb443673520efeeaded7c8d19">core::socket::ServerSocket&lt; SocketT, ServerConfigT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1_server_socket.html#a2ddf3aa566f8a819eabfa63044543e1f">core::socket::ServerSocket&lt; SocketT &gt;</a>
 </li>
 <li>set()
 : <a class="el" href="classcore_1_1select_1_1_fd_set.html#a6ca48c59f028bf854b375bf738ca7421">core::select::FdSet</a>
@@ -247,7 +247,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 : <a class="el" href="class_c_l_i_1_1_incorrect_construction.html#a00253a96e5be0022367a546fcfdcd2be">CLI::IncorrectConstruction</a>
 </li>
 <li>setForceSni()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a97417ef8e973779aa4fb7e7245194e6f">core::socket::stream::tls::SocketServer&lt; ServerConfigT, ServerSocketT, SocketContextFactoryT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a1b5770b7637363b9b4b0946ed6de5aa3">core::socket::stream::tls::SocketServer&lt; ServerSocketT, ServerConfigT, SocketContextFactoryT &gt;</a>
 </li>
 <li>setHandle()
 : <a class="el" href="classweb_1_1websocket_1_1_sub_protocol_factory.html#af4e0a0b2ab3dba7cc13499500d66f9a8">web::websocket::SubProtocolFactory&lt; SubProtocolT &gt;</a>
@@ -359,7 +359,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 , <a class="el" href="classnet_1_1un_1_1_socket_address.html#af20aa53a2d0f4d9684b9a27d33176568">net::un::SocketAddress</a>
 </li>
 <li>SocketClient()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#a93c470d22d762a8c895353da254463cb">core::socket::stream::SocketClient&lt; ClientSocketT, SocketConnectorT, SocketContextFactoryT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#aa66b48a5a06abcabcdb4a90a35936826">core::socket::stream::SocketClient&lt; ClientSocketT, ClientConfigT, SocketConnectorT, SocketContextFactoryT &gt;</a>
 </li>
 <li>SocketConnection()
 : <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a5ba18c609dd982f32c5cc8309cf29d62">core::socket::SocketConnection</a>
@@ -368,9 +368,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#ae7fa6af006c7b65ff7c45ca3f96274a7">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;</a>
 </li>
 <li>SocketConnector()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connector.html#a3f8e45d1db98cf4d30fdf5cebb3f5dd8">core::socket::stream::legacy::SocketConnector&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a3467fc6895821f4c8b0b6d337c916c6c">core::socket::stream::SocketConnector&lt; SocketConnectionT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a3a6ac1f5f8021905fb49a9bb58e1f86c">core::socket::stream::tls::SocketConnector&lt; SocketT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connector.html#ac748ca064c80cd55bb46554bb7c09256">core::socket::stream::legacy::SocketConnector&lt; ClientConfigT, SocketT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#aa0fb2b148a0bffa9cfcca5b6973628da">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a6d29b58226b64e8621d993948a7f591b">core::socket::stream::tls::SocketConnector&lt; ClientConfigT, SocketT &gt;</a>
 </li>
 <li>SocketContext()
 : <a class="el" href="classcore_1_1socket_1_1_socket_context.html#a3243ee668ab43ab2fbbb59260ff08cd5">core::socket::SocketContext</a>
@@ -406,8 +406,8 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 : <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a576f615b057795210770df0695e789f1">core::socket::stream::SocketReader&lt; SocketT &gt;</a>
 </li>
 <li>SocketServer()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a575381804f85b81ceebb80f7b68df5b1">core::socket::stream::SocketServer&lt; ServerConfigT, ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a3c2da789eff181069a9d2bf0f1b76f60">core::socket::stream::tls::SocketServer&lt; ServerConfigT, ServerSocketT, SocketContextFactoryT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a9b39c5eea51aa3fb7dc324e2907b51b1">core::socket::stream::SocketServer&lt; ServerSocketT, ServerConfigT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#ac63acaa90a8245bc382c212d055b11b0">core::socket::stream::tls::SocketServer&lt; ServerSocketT, ServerConfigT, SocketContextFactoryT &gt;</a>
 </li>
 <li>SocketWriter()
 : <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html#aca6663432f057268a97d1bc3a0856a80">core::socket::stream::SocketWriter&lt; SocketT &gt;</a>

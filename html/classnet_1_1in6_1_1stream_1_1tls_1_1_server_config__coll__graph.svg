@@ -421,24 +421,25 @@
 <g id="node11" class="node">
 <title>Node11</title>
 <g id="a_node11"><a xlink:href="classnet_1_1in6_1_1stream_1_1_config_bind.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="468.48,-240 468.48,-341 621.48,-341 621.48,-240 468.48,-240"/>
-<text text-anchor="middle" x="544.98" y="-329" font-family="Helvetica,sans-Serif" font-size="10.00">net::in6::stream::ConfigBind</text>
-<polyline fill="none" stroke="black" points="468.48,-322 621.48,-322 "/>
-<text text-anchor="start" x="476.48" y="-310" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; bindHost</text>
-<text text-anchor="start" x="476.48" y="-299" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; bindPort</text>
-<polyline fill="none" stroke="black" points="468.48,-292 621.48,-292 "/>
-<text text-anchor="start" x="476.48" y="-280" font-family="Helvetica,sans-Serif" font-size="10.00">+ ConfigBind()</text>
-<text text-anchor="start" x="476.48" y="-269" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindHost()</text>
-<text text-anchor="start" x="476.48" y="-258" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindPort()</text>
-<text text-anchor="start" x="476.48" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindAddress()</text>
+<polygon fill="white" stroke="black" points="468.48,-234.5 468.48,-346.5 621.48,-346.5 621.48,-234.5 468.48,-234.5"/>
+<text text-anchor="middle" x="544.98" y="-334.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::in6::stream::ConfigBind</text>
+<polyline fill="none" stroke="black" points="468.48,-327.5 621.48,-327.5 "/>
+<text text-anchor="start" x="476.48" y="-315.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; bindHost</text>
+<text text-anchor="start" x="476.48" y="-304.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; bindPort</text>
+<polyline fill="none" stroke="black" points="468.48,-297.5 621.48,-297.5 "/>
+<text text-anchor="start" x="476.48" y="-285.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ConfigBind()</text>
+<text text-anchor="start" x="476.48" y="-274.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindHost()</text>
+<text text-anchor="start" x="476.48" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindPort()</text>
+<text text-anchor="start" x="476.48" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindAddress()</text>
+<text text-anchor="start" x="476.48" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00"># required()</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node11 -->
 <g id="edge15" class="edge">
 <title>Node4&#45;&gt;Node11</title>
-<path fill="none" stroke="#404040" d="M459.5,-2644.73C486.16,-2481.07 515.14,-2296.13 538.98,-2127 642.7,-1391.11 695.23,-1208.82 739.98,-467 742.41,-426.63 766.14,-406.84 739.98,-376 708.21,-338.56 675.99,-377.61 630.98,-358 624.44,-355.15 617.95,-351.69 611.65,-347.87"/>
-<polygon fill="none" stroke="#404040" points="611.32,-347.65 604.11,-347.75 601.24,-341.13 608.45,-341.03 611.32,-347.65"/>
+<path fill="none" stroke="#404040" d="M459.5,-2644.73C486.16,-2481.07 515.14,-2296.13 538.98,-2127 642.7,-1391.11 695.23,-1208.82 739.98,-467 742.41,-426.63 766.14,-406.84 739.98,-376 708.21,-338.56 675.99,-377.61 630.98,-358 627.34,-356.42 623.73,-354.65 620.15,-352.73"/>
+<polygon fill="none" stroke="#404040" points="619.93,-352.6 612.74,-353.05 609.56,-346.58 616.75,-346.13 619.93,-352.6"/>
 <text text-anchor="middle" x="759.98" y="-1303.5" font-family="Helvetica,sans-Serif" font-size="10.00"> #bindSc</text>
 </g>
 <!-- Node12 -->
@@ -668,8 +669,8 @@
 <!-- Node8&#45;&gt;Node11 -->
 <g id="edge16" class="edge">
 <title>Node8&#45;&gt;Node11</title>
-<path fill="none" stroke="#404040" d="M529.5,-796.7C543.02,-688.15 554.98,-573.98 561.98,-467 564.61,-426.64 565.98,-416.25 561.98,-376 561.24,-368.57 560.14,-360.83 558.85,-353.18"/>
-<polygon fill="none" stroke="#404040" points="558.84,-353.1 553.83,-347.91 556.7,-341.3 561.7,-346.49 558.84,-353.1"/>
+<path fill="none" stroke="#404040" d="M529.5,-796.7C543.02,-688.15 554.98,-573.98 561.98,-467 564.61,-426.64 565.98,-416.25 561.98,-376 561.41,-370.34 560.64,-364.5 559.74,-358.66"/>
+<polygon fill="none" stroke="#404040" points="559.72,-358.55 554.77,-353.3 557.72,-346.72 562.66,-351.96 559.72,-358.55"/>
 <text text-anchor="middle" x="600.48" y="-424.5" font-family="Helvetica,sans-Serif" font-size="10.00"> #bindHostOpt</text>
 <text text-anchor="middle" x="600.48" y="-413.5" font-family="Helvetica,sans-Serif" font-size="10.00">#bindPortOpt</text>
 </g>
@@ -707,8 +708,8 @@
 <!-- Node11&#45;&gt;Node2 -->
 <g id="edge14" class="edge">
 <title>Node11&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M544.98,-229.56C544.98,-214.76 544.98,-199.3 544.98,-185.81"/>
-<polygon fill="none" stroke="midnightblue" points="541.48,-229.66 544.98,-239.66 548.48,-229.66 541.48,-229.66"/>
+<path fill="none" stroke="midnightblue" d="M544.98,-224.36C544.98,-211.12 544.98,-197.59 544.98,-185.62"/>
+<polygon fill="none" stroke="midnightblue" points="541.48,-224.41 544.98,-234.41 548.48,-224.41 541.48,-224.41"/>
 </g>
 <!-- Node12&#45;&gt;Node2 -->
 <g id="edge17" class="edge">

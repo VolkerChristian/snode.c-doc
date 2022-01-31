@@ -23,7 +23,7 @@ var classcore_1_1socket_1_1stream_1_1_socket_connection =
     [ "unobservedEvent", "classcore_1_1socket_1_1stream_1_1_socket_connection.html#a6f9dc489e6e1a8375995d3f0e323da29", null ],
     [ "writeEvent", "classcore_1_1socket_1_1stream_1_1_socket_connection.html#a2b064579f73324676d6c838608687120", null ],
     [ "SocketAcceptor", "classcore_1_1socket_1_1stream_1_1_socket_connection.html#a965dabcc05c53e9779da2efb02c12556", null ],
-    [ "SocketConnector", "classcore_1_1socket_1_1stream_1_1_socket_connection.html#a93358fd8285cbad5c49755553f9c5c49", null ],
+    [ "SocketConnector", "classcore_1_1socket_1_1stream_1_1_socket_connection.html#a3144d4aced5f6dabf58f7e2affbddc68", null ],
     [ "localAddress", "classcore_1_1socket_1_1stream_1_1_socket_connection.html#a1b47db3d4ee9341f7969d44afe41c1f7", null ],
     [ "newSocketContext", "classcore_1_1socket_1_1stream_1_1_socket_connection.html#a2d35e31f57cc8e88487fa20e10a2897f", null ],
     [ "onDisconnect", "classcore_1_1socket_1_1stream_1_1_socket_connection.html#a96aafe2667a533bfee5ed0faa329c057", null ],

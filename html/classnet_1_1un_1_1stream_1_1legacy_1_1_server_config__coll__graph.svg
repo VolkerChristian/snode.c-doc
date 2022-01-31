@@ -420,22 +420,23 @@
 <g id="node11" class="node">
 <title>Node11</title>
 <g id="a_node11"><a xlink:href="classnet_1_1un_1_1stream_1_1_config_bind.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="428.34,-240 428.34,-319 578.34,-319 578.34,-240 428.34,-240"/>
-<text text-anchor="middle" x="503.34" y="-307" font-family="Helvetica,sans-Serif" font-size="10.00">net::un::stream::ConfigBind</text>
-<polyline fill="none" stroke="black" points="428.34,-300 578.34,-300 "/>
-<text text-anchor="start" x="436.34" y="-288" font-family="Helvetica,sans-Serif" font-size="10.00"># bindSunPath</text>
-<polyline fill="none" stroke="black" points="428.34,-281 578.34,-281 "/>
-<text text-anchor="start" x="436.34" y="-269" font-family="Helvetica,sans-Serif" font-size="10.00">+ ConfigBind()</text>
-<text text-anchor="start" x="436.34" y="-258" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindSunPath()</text>
-<text text-anchor="start" x="436.34" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindAddress()</text>
+<polygon fill="white" stroke="black" points="428.34,-234.5 428.34,-324.5 578.34,-324.5 578.34,-234.5 428.34,-234.5"/>
+<text text-anchor="middle" x="503.34" y="-312.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::un::stream::ConfigBind</text>
+<polyline fill="none" stroke="black" points="428.34,-305.5 578.34,-305.5 "/>
+<text text-anchor="start" x="436.34" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00"># bindSunPath</text>
+<polyline fill="none" stroke="black" points="428.34,-286.5 578.34,-286.5 "/>
+<text text-anchor="start" x="436.34" y="-274.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ConfigBind()</text>
+<text text-anchor="start" x="436.34" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindSunPath()</text>
+<text text-anchor="start" x="436.34" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindAddress()</text>
+<text text-anchor="start" x="436.34" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00"># required()</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node11 -->
 <g id="edge15" class="edge">
 <title>Node4&#45;&gt;Node11</title>
-<path fill="none" stroke="#404040" d="M440.05,-2196.49C441.5,-2169.36 442.93,-2142.48 444.34,-2116 483.69,-1378.23 512.78,-1194.55 532.34,-456 533.41,-415.57 539,-404.89 532.34,-365 530.47,-353.77 527.28,-342.02 523.69,-330.99"/>
-<polygon fill="none" stroke="#404040" points="523.59,-330.69 517.86,-326.33 519.68,-319.35 525.42,-323.72 523.59,-330.69"/>
+<path fill="none" stroke="#404040" d="M440.05,-2196.49C441.5,-2169.36 442.93,-2142.48 444.34,-2116 483.69,-1378.23 512.78,-1194.55 532.34,-456 533.41,-415.57 539,-404.89 532.34,-365 530.75,-355.43 528.2,-345.49 525.26,-335.93"/>
+<polygon fill="none" stroke="#404040" points="525.25,-335.92 519.58,-331.46 521.52,-324.52 527.19,-328.97 525.25,-335.92"/>
 <text text-anchor="middle" x="554.34" y="-1292.5" font-family="Helvetica,sans-Serif" font-size="10.00"> #bindSc</text>
 </g>
 <!-- Node12 -->
@@ -643,8 +644,8 @@
 <!-- Node8&#45;&gt;Node11 -->
 <g id="edge16" class="edge">
 <title>Node8&#45;&gt;Node11</title>
-<path fill="none" stroke="#404040" d="M422.64,-474.46C429.34,-421.17 436.02,-381.92 442.34,-365 447,-352.54 454.01,-340.27 461.64,-329.11"/>
-<polygon fill="none" stroke="#404040" points="461.76,-328.94 462.02,-321.73 468.77,-319.2 468.51,-326.4 461.76,-328.94"/>
+<path fill="none" stroke="#404040" d="M422.64,-474.46C429.34,-421.17 436.02,-381.92 442.34,-365 446.2,-354.67 451.69,-344.47 457.8,-334.92"/>
+<polygon fill="none" stroke="#404040" points="457.89,-334.77 457.95,-327.56 464.63,-324.84 464.57,-332.05 457.89,-334.77"/>
 <text text-anchor="middle" x="487.34" y="-408" font-family="Helvetica,sans-Serif" font-size="10.00"> #bindSunPathOpt</text>
 </g>
 <!-- Node8&#45;&gt;Node12 -->
@@ -673,8 +674,8 @@
 <!-- Node11&#45;&gt;Node2 -->
 <g id="edge14" class="edge">
 <title>Node11&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M483.74,-230.55C476.19,-212.07 467.74,-191.4 460.88,-174.63"/>
-<polygon fill="none" stroke="midnightblue" points="480.57,-232.04 487.59,-239.97 487.05,-229.39 480.57,-232.04"/>
+<path fill="none" stroke="midnightblue" d="M481.52,-225.11C474.57,-208.11 467.08,-189.79 460.89,-174.65"/>
+<polygon fill="none" stroke="midnightblue" points="478.29,-226.47 485.32,-234.4 484.77,-223.82 478.29,-226.47"/>
 </g>
 <!-- Node12&#45;&gt;Node2 -->
 <g id="edge17" class="edge">

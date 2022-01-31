@@ -82,8 +82,8 @@
 <g id="a_node4"><a xlink:href="classcore_1_1socket_1_1stream_1_1_socket_server.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-493.5 0,-759.5 196,-759.5 196,-493.5 0,-493.5"/>
 <text text-anchor="start" x="8" y="-747.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="start" x="8" y="-736.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketServer&lt; ServerConfig</text>
-<text text-anchor="start" x="8" y="-725.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, ServerSocketT, core::socket</text>
+<text text-anchor="start" x="8" y="-736.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketServer&lt; ServerSocket</text>
+<text text-anchor="start" x="8" y="-725.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, ServerConfigT, core::socket</text>
 <text text-anchor="start" x="8" y="-714.5" font-family="Helvetica,sans-Serif" font-size="10.00">::stream::tls::SocketAcceptor</text>
 <text text-anchor="start" x="8" y="-703.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; ServerConfigT, ServerSocketT</text>
 <text text-anchor="middle" x="98" y="-692.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Socket &gt;, SocketContextFactoryT &gt;</text>
@@ -139,8 +139,8 @@
 <g id="a_node6"><a xlink:href="classcore_1_1socket_1_1stream_1_1_socket_server.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="110.5,-840.5 110.5,-1084.5 289.5,-1084.5 289.5,-840.5 110.5,-840.5"/>
 <text text-anchor="start" x="118.5" y="-1072.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="start" x="118.5" y="-1061.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketServer&lt; ServerConfig</text>
-<text text-anchor="start" x="118.5" y="-1050.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, ServerSocketT, SocketAcceptor</text>
+<text text-anchor="start" x="118.5" y="-1061.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketServer&lt; ServerSocket</text>
+<text text-anchor="start" x="118.5" y="-1050.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, ServerConfigT, SocketAcceptor</text>
 <text text-anchor="middle" x="200" y="-1039.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, SocketContextFactoryT &gt;</text>
 <polyline fill="none" stroke="black" points="110.5,-1032.5 289.5,-1032.5 "/>
 <text text-anchor="start" x="118.5" y="-1020.5" font-family="Helvetica,sans-Serif" font-size="10.00"># serverConfig</text>
@@ -174,7 +174,7 @@
 <title>Node6&#45;&gt;Node4</title>
 <path fill="none" stroke="orange" d="M160.1,-830.85C152.97,-807.48 145.53,-783.12 138.38,-759.71"/>
 <polygon fill="orange" stroke="orange" points="156.76,-831.9 163.03,-840.45 163.46,-829.86 156.76,-831.9"/>
-<text text-anchor="start" x="156" y="-814" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; ServerConfigT, ServerSocket</text>
+<text text-anchor="start" x="156" y="-814" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; ServerSocketT, ServerConfig</text>
 <text text-anchor="start" x="156" y="-803" font-family="Helvetica,sans-Serif" font-size="10.00">T, core::socket::stream::</text>
 <text text-anchor="start" x="156" y="-792" font-family="Helvetica,sans-Serif" font-size="10.00">tls::SocketAcceptor&lt; ServerConfigT,</text>
 <text text-anchor="middle" x="282" y="-781" font-family="Helvetica,sans-Serif" font-size="10.00"> ServerSocketT::Socket &gt;, SocketContextFactoryT &gt;</text>

@@ -1,6 +1,8 @@
 var dir_243231fe03f62de5f89f127f1f22dd40 =
 [
-    [ "ServerConfig.cpp", "in_2stream_2tls_2_server_config_8cpp.html", null ],
+    [ "ClientConfig.h", "in_2stream_2tls_2_client_config_8h.html", [
+      [ "ClientConfig", "classnet_1_1in_1_1stream_1_1tls_1_1_client_config.html", "classnet_1_1in_1_1stream_1_1tls_1_1_client_config" ]
+    ] ],
     [ "ServerConfig.h", "in_2stream_2tls_2_server_config_8h.html", [
       [ "ServerConfig", "classnet_1_1in_1_1stream_1_1tls_1_1_server_config.html", "classnet_1_1in_1_1stream_1_1tls_1_1_server_config" ]
     ] ],

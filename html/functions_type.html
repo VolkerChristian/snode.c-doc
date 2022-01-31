@@ -84,8 +84,14 @@ $(document).ready(function(){initNavTree('functions_type.html',''); initResizabl
 &#160;
 
 <h3><a id="index_c"></a>- c -</h3><ul>
+<li>ClientConfig
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connector.html#a56efa6947cea1c5307ce07efc8bbc8da">core::socket::stream::legacy::SocketConnector&lt; ClientConfigT, SocketT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#af4c42cbae19a227400a13f649e3fd854">core::socket::stream::SocketClient&lt; ClientSocketT, ClientConfigT, SocketConnectorT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a5fd268949d379941394e8b41fa4bc669">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a6c9944f077e160bd44fe015058193925">core::socket::stream::tls::SocketConnector&lt; ClientConfigT, SocketT &gt;</a>
+</li>
 <li>ClientSocket
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#a60fd3b9e51012c4a2756898a1df22bd4">core::socket::stream::SocketClient&lt; ClientSocketT, SocketConnectorT, SocketContextFactoryT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#af460c8a5c5152b930a5348333af385ee">core::socket::stream::SocketClient&lt; ClientSocketT, ClientConfigT, SocketConnectorT, SocketContextFactoryT &gt;</a>
 </li>
 </ul>
 
@@ -171,60 +177,59 @@ $(document).ready(function(){initNavTree('functions_type.html',''); initResizabl
 : <a class="el" href="classexpress_1_1_web_app_t.html#aaee690e0bb45eca830326a5bc6091362">express::WebAppT&lt; ServerT &gt;</a>
 </li>
 <li>ServerConfig
-: <a class="el" href="classcore_1_1socket_1_1_server_socket.html#ad4ed90041c5114e8dd21a5f345f151de">core::socket::ServerSocket&lt; SocketT, ServerConfigT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html#a584718f9420a81b8326f3739b462d071">core::socket::stream::legacy::SocketAcceptor&lt; ServerConfigT, SocketT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html#a584718f9420a81b8326f3739b462d071">core::socket::stream::legacy::SocketAcceptor&lt; ServerConfigT, SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#a13c6a00c8d1806428a7e6d4f4738a75a">core::socket::stream::SocketAcceptor&lt; ServerConfigT, SocketConnectionT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#abc2d0b819bad589d7ca7e3a74b4c661a">core::socket::stream::SocketServer&lt; ServerConfigT, ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#aeb591ec7b8700e6a9748fbfb804f52d0">core::socket::stream::SocketServer&lt; ServerSocketT, ServerConfigT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#acce294d242faf2b28d79328f09b31258">core::socket::stream::tls::SocketAcceptor&lt; ServerConfigT, SocketT &gt;</a>
 </li>
 <li>ServerSocket
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a67979db02fc2080eba155af831afdc12">core::socket::stream::SocketServer&lt; ServerConfigT, ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a3552ac640fa815771bef4573bbdb0f1e">core::socket::stream::SocketServer&lt; ServerSocketT, ServerConfigT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
 </li>
 <li>SockAddr
 : <a class="el" href="classcore_1_1socket_1_1_socket_address.html#a5b62aa623041c9b7e1ab7b78ca4accf5">core::socket::SocketAddress&lt; SockAddrT &gt;</a>
 </li>
 <li>Socket
 : <a class="el" href="classcore_1_1socket_1_1_client_socket.html#ae4d183877ca84985e5a2373a45673666">core::socket::ClientSocket&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1_server_socket.html#aa4c60c969fd644cedeccdb410c3663b4">core::socket::ServerSocket&lt; SocketT, ServerConfigT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1_server_socket.html#a382131672815f6d15f61ffb9ff5611f1">core::socket::ServerSocket&lt; SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html#a6093b554865e780ae44a54e53e6fe25a">core::socket::stream::legacy::SocketAcceptor&lt; ServerConfigT, SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#aa1355a10a90f87903335fc8f8f80256a">core::socket::stream::legacy::SocketConnection&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connector.html#a001ca36bf8b1bc75778cc9b4467615e8">core::socket::stream::legacy::SocketConnector&lt; SocketT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connector.html#a23fbc7fd30e220d1f3345880388f3988">core::socket::stream::legacy::SocketConnector&lt; ClientConfigT, SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#afd9c09e918c94ccdaac5aab2c0c5ce6b">core::socket::stream::SocketAcceptor&lt; ServerConfigT, SocketConnectionT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#a1551b461ed97fc5d9cdc77c3f2758514">core::socket::stream::SocketClient&lt; ClientSocketT, SocketConnectorT, SocketContextFactoryT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#aa136946ae0576155ef95086a784cdc13">core::socket::stream::SocketConnector&lt; SocketConnectionT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#afad49a0b6c9febfa06197887012178fb">core::socket::stream::SocketClient&lt; ClientSocketT, ClientConfigT, SocketConnectorT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a94c2240388084515b55a5694d6c78310">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a40b90a1b82f6534e89bc5e01bab3c675">core::socket::stream::SocketReader&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a4e96ebda43bc220d58438b54cde247cb">core::socket::stream::SocketServer&lt; ServerConfigT, ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a6c870886cc775a5963ad6e0f13799b53">core::socket::stream::SocketServer&lt; ServerSocketT, ServerConfigT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html#afcda52ba1bebc197ba59f092d54039b6">core::socket::stream::SocketWriter&lt; SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#a1eb869cd7f10f439e342c32257f94bd3">core::socket::stream::tls::SocketAcceptor&lt; ServerConfigT, SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#abb809bbfd5be4ebfcd87c2307889c0db">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a08e0340e8228a4284ddf73d8383609bb">core::socket::stream::tls::SocketConnector&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a76291c2ba628b61a41bb39218fe15759">core::socket::stream::tls::SocketServer&lt; ServerConfigT, ServerSocketT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a10480020875d482cfdc1e319de6c2076">core::socket::stream::tls::SocketConnector&lt; ClientConfigT, SocketT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#ac99363703946e1154996f182ffc6cb01">core::socket::stream::tls::SocketServer&lt; ServerSocketT, ServerConfigT, SocketContextFactoryT &gt;</a>
 , <a class="el" href="classexpress_1_1_web_app_t.html#ae88d0f48c5c42297645b938b27e0a441">express::WebAppT&lt; ServerT &gt;</a>
 </li>
 <li>SocketAcceptor
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#ab3fd51dc913f54a66590f8ccd76c7bad">core::socket::stream::SocketServer&lt; ServerConfigT, ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a804920d3c080c4d22a418e6cfb574cce">core::socket::stream::SocketServer&lt; ServerSocketT, ServerConfigT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
 </li>
 <li>SocketAddress
-: <a class="el" href="classcore_1_1socket_1_1_socket.html#a6f3a39a7f462eae53a4d5202840889ce">core::socket::Socket&lt; SocketAddressT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1_server_socket.html#ab27a38a610051d963ca69a11a0737f60">core::socket::ServerSocket&lt; SocketT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1_socket.html#a6f3a39a7f462eae53a4d5202840889ce">core::socket::Socket&lt; SocketAddressT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html#a67bc61bc6d1d95975e692fd7896aa036">core::socket::stream::legacy::SocketAcceptor&lt; ServerConfigT, SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a7c680eba5cd363ebfe0680c93ce2d90d">core::socket::stream::legacy::SocketConnection&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connector.html#afe6014ddccd0adce10164c232f115f17">core::socket::stream::legacy::SocketConnector&lt; SocketT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connector.html#a4c26eb061ea58d7e2bc5119baa448a14">core::socket::stream::legacy::SocketConnector&lt; ClientConfigT, SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#ab08c85a83a610b55eae4841ce588dec7">core::socket::stream::SocketAcceptor&lt; ServerConfigT, SocketConnectionT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#a578488ba35bdc866fa162bdbf2dd70f4">core::socket::stream::SocketClient&lt; ClientSocketT, SocketConnectorT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#a318a7bc24dc8a40af1766d88fb27499f">core::socket::stream::SocketClient&lt; ClientSocketT, ClientConfigT, SocketConnectorT, SocketContextFactoryT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae58e99daf1d2a35b93d037fc99a67b6a">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a2f38472c181378c556f1b5e8ca4ef48f">core::socket::stream::SocketConnector&lt; SocketConnectionT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#aae6d8230f196e18b798ef5d22e289bdd">core::socket::stream::SocketServer&lt; ServerConfigT, ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad669aae2accb43f4113b2b588bc87e04">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a385a53434ad6724c3c6d378ae30d00cf">core::socket::stream::SocketServer&lt; ServerSocketT, ServerConfigT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#a951780d1cf7580724131d4ed5fcb9601">core::socket::stream::tls::SocketAcceptor&lt; ServerConfigT, SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a0fc27c1cbbdca4380b7137c15dcafabf">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a88bb07fd5a2758ae2435f5a2d57d7a43">core::socket::stream::tls::SocketConnector&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a1f8a2cc8c126fca2e0cde6fa739b4a4f">core::socket::stream::tls::SocketServer&lt; ServerConfigT, ServerSocketT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a90c8586b07d541ac6647a517f5591e3d">core::socket::stream::tls::SocketConnector&lt; ClientConfigT, SocketT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#ab7a49e632fcc15365ec066ca4c32c3ae">core::socket::stream::tls::SocketServer&lt; ServerSocketT, ServerConfigT, SocketContextFactoryT &gt;</a>
 , <a class="el" href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">express::WebAppT&lt; ServerT &gt;</a>
-, <a class="el" href="classweb_1_1http_1_1client_1_1_client.html#a2edf6c3c2df3ec5d0e169aa22d675140">web::http::client::Client&lt; SocketClientT, RequestT, ResponseT &gt;</a>
+, <a class="el" href="classweb_1_1http_1_1client_1_1_client.html#a9d4688d352cbaa102d877193e5cead9d">web::http::client::Client&lt; SocketClientT, RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a07504eb1aea31fed264786c1b93afbcc">web::http::server::Server&lt; SocketServerT, RequestT, ResponseT &gt;</a>
 </li>
 <li>SocketClient
-: <a class="el" href="classweb_1_1http_1_1client_1_1_client.html#aaefd1e84d255f511e0ad802a3369594e">web::http::client::Client&lt; SocketClientT, RequestT, ResponseT &gt;</a>
-, <a class="el" href="classweb_1_1http_1_1legacy_1_1in6_1_1_client.html#a98a085a8a31fd8a8fc051d7a4371ea4d">web::http::legacy::in6::Client&lt; Request, Response &gt;</a>
+: <a class="el" href="classweb_1_1http_1_1legacy_1_1in6_1_1_client.html#a98a085a8a31fd8a8fc051d7a4371ea4d">web::http::legacy::in6::Client&lt; Request, Response &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1legacy_1_1in_1_1_client.html#a1edd19345e708c3b03e4638d569f1042">web::http::legacy::in::Client&lt; Request, Response &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1legacy_1_1rf_1_1_client.html#a162d7db6104fba1f1aae21e54968d5d7">web::http::legacy::rf::Client&lt; Request, Response &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1legacy_1_1un_1_1_client.html#ab9f67333d2b088e2eace17d374753950">web::http::legacy::un::Client&lt; Request, Response &gt;</a>
@@ -235,27 +240,27 @@ $(document).ready(function(){initNavTree('functions_type.html',''); initResizabl
 </li>
 <li>SocketConnection
 : <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html#aad5733667ca980caef6acd073e7d5070">core::socket::stream::legacy::SocketAcceptor&lt; ServerConfigT, SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connector.html#a41a2e161504beafe92c8ca4e54a43ba9">core::socket::stream::legacy::SocketConnector&lt; SocketT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connector.html#a79e8d578f3b917b73ce3ed6665f09a05">core::socket::stream::legacy::SocketConnector&lt; ClientConfigT, SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#ac06767fdea63a951854f4af4f947a6d9">core::socket::stream::SocketAcceptor&lt; ServerConfigT, SocketConnectionT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#add3106a821d18c739ba7e63842a7a226">core::socket::stream::SocketClient&lt; ClientSocketT, SocketConnectorT, SocketContextFactoryT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a59863a0cb6eeb798914c8418d4f1d0cd">core::socket::stream::SocketConnector&lt; SocketConnectionT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a354a53fb04b104e73761f56f4a3eb796">core::socket::stream::SocketServer&lt; ServerConfigT, ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#aae17c0a93a5ae180f195b7366f982bb8">core::socket::stream::SocketClient&lt; ClientSocketT, ClientConfigT, SocketConnectorT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab862a872a6d0aedad883cb79d80fc545">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#aaec67b560307e137bea14cdd141aeb2f">core::socket::stream::SocketServer&lt; ServerSocketT, ServerConfigT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#ab89a9241dd789aaca125b71240412a2a">core::socket::stream::tls::SocketAcceptor&lt; ServerConfigT, SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a3d33ed44e48e736566bcef1fdead8c34">core::socket::stream::tls::SocketConnector&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a148388efe13f19470535b36eb147ac66">core::socket::stream::tls::SocketServer&lt; ServerConfigT, ServerSocketT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a1f9fc689c24ca02361d3c627fb891c32">core::socket::stream::tls::SocketConnector&lt; ClientConfigT, SocketT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#ae5702b0d7ae07962d187797524a9807b">core::socket::stream::tls::SocketServer&lt; ServerSocketT, ServerConfigT, SocketContextFactoryT &gt;</a>
 , <a class="el" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">express::WebAppT&lt; ServerT &gt;</a>
-, <a class="el" href="classweb_1_1http_1_1client_1_1_client.html#a995656033f859b6af561700ea25bf378">web::http::client::Client&lt; SocketClientT, RequestT, ResponseT &gt;</a>
+, <a class="el" href="classweb_1_1http_1_1client_1_1_client.html#a320d376b21c2928d8e859ec2ab150a48">web::http::client::Client&lt; SocketClientT, RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a51c5075da998eb8d42b1137111cddab2">web::http::server::Server&lt; SocketServerT, RequestT, ResponseT &gt;</a>
 </li>
 <li>SocketConnector
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#a735b407356591e40e29164772967183f">core::socket::stream::SocketClient&lt; ClientSocketT, SocketConnectorT, SocketContextFactoryT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#a9f0cad9d7dceff706079769f3ca03efe">core::socket::stream::SocketClient&lt; ClientSocketT, ClientConfigT, SocketConnectorT, SocketContextFactoryT &gt;</a>
 </li>
 <li>SocketContext
 : <a class="el" href="classweb_1_1http_1_1_socket_context_factory.html#aa584be453b799a1f22cceb4d4875798e">web::http::SocketContextFactory&lt; SocketContextT, RequestT, ResponseT &gt;</a>
 </li>
 <li>SocketContextFactory
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#a3a0fdd68b78d62c937614184a43f05b2">core::socket::stream::SocketClient&lt; ClientSocketT, SocketConnectorT, SocketContextFactoryT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#aa1e0f8d174d1cb58d5bf6ad63f1a7e60">core::socket::stream::SocketServer&lt; ServerConfigT, ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#aeb037bd96fd598367c1465265665a775">core::socket::stream::SocketClient&lt; ClientSocketT, ClientConfigT, SocketConnectorT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a2c8014b2adf24ecac3243b70735b629d">core::socket::stream::SocketServer&lt; ServerSocketT, ServerConfigT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
 </li>
 <li>SocketContextUpgrade
 : <a class="el" href="classweb_1_1websocket_1_1_sub_protocol.html#adc5e24ed30935e0c45fa6dc55d7ad01c">web::websocket::SubProtocol&lt; SocketContextUpgradeT &gt;</a>
@@ -268,7 +273,7 @@ $(document).ready(function(){initNavTree('functions_type.html',''); initResizabl
 : <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a32db4caef85421f8d7bb4bfcb4f5999a">core::socket::stream::legacy::SocketConnection&lt; SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#af6161cf477eaa008d32353907b0923df">core::socket::stream::SocketAcceptor&lt; ServerConfigT, SocketConnectionT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a439716f49a508e63e7549644bd3405e4">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a6b4646d35fc5d0d5f5d6487b9228cc39">core::socket::stream::SocketConnector&lt; SocketConnectionT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#aabff889a0e837dc3cc5f1fecd26d8fa7">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a0b1022f0ad6d2e0499520b4fb9f3da87">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;</a>
 </li>
 <li>SocketServer
@@ -286,7 +291,7 @@ $(document).ready(function(){initNavTree('functions_type.html',''); initResizabl
 : <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a70358ed7b0519a5da4aa3ba3714b5823">core::socket::stream::legacy::SocketConnection&lt; SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#af9da6fded773ea108dc259e202a3fd07">core::socket::stream::SocketAcceptor&lt; ServerConfigT, SocketConnectionT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ac093e0586098f06700ebbb1845627b61">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#aad1f73bf79cfab4506288a651890c746">core::socket::stream::SocketConnector&lt; SocketConnectionT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a998e93a9cfefd200d5595fa971bb4f2a">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a6a7fe32ce49570811a0b36a45d34ec4c">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;</a>
 </li>
 <li>SubProtocol
@@ -298,25 +303,26 @@ $(document).ready(function(){initNavTree('functions_type.html',''); initResizabl
 </li>
 <li>Super
 : <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html#a8bdca7c27586c0d779903a615b51699b">core::socket::stream::legacy::SocketAcceptor&lt; ServerConfigT, SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_client.html#abecf0693be673eb23a7d14f83048a2ca">core::socket::stream::legacy::SocketClient&lt; ClientSocketT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_client.html#a9cafe9f0432b52abccf8f2635f36c043">core::socket::stream::legacy::SocketClient&lt; ClientSocketT, ClientConfigT, SocketContextFactoryT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a5d8648f44fcc647975144be5f364f713">core::socket::stream::legacy::SocketConnection&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connector.html#a2dd3ea417b67a8a5f59167592f3da34d">core::socket::stream::legacy::SocketConnector&lt; SocketT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connector.html#aad81c221d69c80519a34faf737d5c36f">core::socket::stream::legacy::SocketConnector&lt; ClientConfigT, SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader.html#a8b27bd642b84eb5400ddace6ce3e3f6d">core::socket::stream::legacy::SocketReader&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_server.html#a3590a644bd9e91baeb015bdb690702f0">core::socket::stream::legacy::SocketServer&lt; ServerConfigT, ServerSocketT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_server.html#afa002c98b381cedd9fdc4da8765944d3">core::socket::stream::legacy::SocketServer&lt; ServerSocketT, ServerConfigT, SocketContextFactoryT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html#af8b0255cd1419b56328087631268b666">core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a3fd4007f96b9813e63104160466fc502">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#a9dad527cea0c8bc2545a64bb3d727efd">core::socket::stream::tls::SocketAcceptor&lt; ServerConfigT, SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_client.html#a14879442448a4b5b8d0658cf0db89ffa">core::socket::stream::tls::SocketClient&lt; ClientSocketT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_client.html#a63c05afa59e21703d2c658f44ae8e270">core::socket::stream::tls::SocketClient&lt; ClientSocketT, ClientConfigT, SocketContextFactoryT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a3891a834a44ee25a28e96ce88ded9485">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a5f66168e88dab96c585fc35b115add6d">core::socket::stream::tls::SocketConnector&lt; SocketT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a34dbe9e5ecd0d43267b53a947afe338a">core::socket::stream::tls::SocketConnector&lt; ClientConfigT, SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_reader.html#a6ec8dcf88ab0fbc747a6da7ae7580d2b">core::socket::stream::tls::SocketReader&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a4b2a7b8aa79c19d6f1ec6ab36b6db221">core::socket::stream::tls::SocketServer&lt; ServerConfigT, ServerSocketT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a05c46243f2bdb753c8419f383b4fc852">core::socket::stream::tls::SocketServer&lt; ServerSocketT, ServerConfigT, SocketContextFactoryT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_writer.html#ac336ac3cacce3c32be4a1eea2a1ee507">core::socket::stream::tls::SocketWriter&lt; SocketT &gt;</a>
-, <a class="el" href="classnet_1_1in6_1_1stream_1_1_server_socket.html#a7ab161f06c605ba050b861f088b487d2">net::in6::stream::ServerSocket</a>
-, <a class="el" href="classnet_1_1in_1_1stream_1_1_server_socket.html#a23bab1991e5881cc2fab194654455fb6">net::in::stream::ServerSocket</a>
-, <a class="el" href="classnet_1_1l2_1_1stream_1_1_server_socket.html#a438def4c5021b5d82df0b48525403a67">net::l2::stream::ServerSocket</a>
-, <a class="el" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#ad44a88b8e872b835c718e0e7d34076cb">net::rf::stream::ServerSocket</a>
-, <a class="el" href="classnet_1_1un_1_1stream_1_1_server_socket.html#a3bc268931973a1abb5c383e97aaafd64">net::un::stream::ServerSocket</a>
+, <a class="el" href="classnet_1_1in6_1_1stream_1_1_server_socket.html#a442d946663411ac13bac89af1e4ef48f">net::in6::stream::ServerSocket</a>
+, <a class="el" href="classnet_1_1in_1_1stream_1_1_server_socket.html#ab1f36222c04360fe77ffe1aedf4594b1">net::in::stream::ServerSocket</a>
+, <a class="el" href="classnet_1_1l2_1_1stream_1_1_server_socket.html#ab8fdced702d983495192682f68853a7e">net::l2::stream::ServerSocket</a>
+, <a class="el" href="classnet_1_1rf_1_1stream_1_1_server_socket.html#a16c82dcfb17140882d3d14c3595e9112">net::rf::stream::ServerSocket</a>
+, <a class="el" href="classnet_1_1un_1_1stream_1_1_server_socket.html#ac039dd52acf66729f7d57a1aa121a86c">net::un::stream::ServerSocket</a>
+, <a class="el" href="classweb_1_1http_1_1client_1_1_client.html#ac159403015e6728bbc1b616e26f420d3">web::http::client::Client&lt; SocketClientT, RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context.html#a1b8ca85e8dd9811fe66c22d0720bb28f">web::http::client::SocketContext&lt; RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context_upgrade_factory_selector.html#ab3c34ef36a72bfeab410823552dc36cc">web::http::client::SocketContextUpgradeFactorySelector</a>
 , <a class="el" href="classweb_1_1http_1_1server_1_1_server.html#a3b538b5ccd96d6d2acb7e2ee8394dfc3">web::http::server::Server&lt; SocketServerT, RequestT, ResponseT &gt;</a>

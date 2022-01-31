@@ -4,6 +4,7 @@ var classnet_1_1rf_1_1stream_1_1_config_bind =
     [ "getBindAddress", "classnet_1_1rf_1_1stream_1_1_config_bind.html#a7d4f6483c0053ed34aa7cd0c37012c49", null ],
     [ "getBindChannel", "classnet_1_1rf_1_1stream_1_1_config_bind.html#a9796210cfd54aaf674fa39b455303b5d", null ],
     [ "getBindHost", "classnet_1_1rf_1_1stream_1_1_config_bind.html#aeb7ca8e8a043399c1d58d5940e0b0792", null ],
+    [ "required", "classnet_1_1rf_1_1stream_1_1_config_bind.html#aec7e0beddc1a1be53b2156cbb6d8f5be", null ],
     [ "bindChannel", "classnet_1_1rf_1_1stream_1_1_config_bind.html#a5b31a7fcf70471358a1d4e94baee36f1", null ],
     [ "bindChannelOpt", "classnet_1_1rf_1_1stream_1_1_config_bind.html#a7261053aa55d0d8b05e418557cc7df72", null ],
     [ "bindHost", "classnet_1_1rf_1_1stream_1_1_config_bind.html#a4c6dcad9d78a5d8e4f1271756c6389de", null ],

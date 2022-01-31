@@ -115,22 +115,28 @@ $(document).ready(function(){initNavTree('core_2socket_2stream_2tls_2_socket_cli
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecore_1_1socket_1_1stream_1_1tls.html">core::socket::stream::tls</a> {</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> ClientSocketT, <span class="keyword">typename</span> SocketContextFactoryT&gt;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> ClientSocketT, <span class="keyword">typename</span> ClientConfigT, <span class="keyword">typename</span> SocketContextFactoryT&gt;</div>
 <div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_client.html">   32</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_client.html">SocketClient</a></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        : <span class="keyword">public</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_client.html">core::socket::stream::SocketClient</a>&lt;ClientSocketT,</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                                                    core::socket::stream::tls::SocketConnector&lt;typename ClientSocketT::Socket&gt;,</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                                    SocketContextFactoryT&gt; {</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_client.html#a14879442448a4b5b8d0658cf0db89ffa">   37</a></span>&#160;        <span class="keyword">using</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_client.html">Super</a> = core::socket::stream::</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            SocketClient&lt;ClientSocketT, core::socket::stream::tls::SocketConnector&lt;typename ClientSocketT::Socket&gt;, SocketContextFactoryT&gt;;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keyword">using</span> Super::Super;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    };</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;} <span class="comment">// namespace core::socket::stream::tls</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// CORE_SOCKET_STREAM_TLS_SOCKETCLIENT_H</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        : <span class="keyword">public</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_client.html">core::socket::stream::SocketClient</a>&lt;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;              ClientSocketT,</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;              ClientConfigT,</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;              core::socket::stream::tls::SocketConnector&lt;ClientConfigT, typename ClientSocketT::Socket&gt;,</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;              SocketContextFactoryT&gt; {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_client.html#a63c05afa59e21703d2c658f44ae8e270">   39</a></span>&#160;        <span class="keyword">using</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_client.html">Super</a> =</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_client.html">core::socket::stream::SocketClient</a>&lt;ClientSocketT,</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                                               ClientConfigT,</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                                               <a class="code" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html">core::socket::stream::tls::SocketConnector&lt;ClientConfigT, typename ClientSocketT::Socket&gt;</a>,</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                                               SocketContextFactoryT&gt;;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keyword">using</span> Super::Super;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    };</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;} <span class="comment">// namespace core::socket::stream::tls</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// CORE_SOCKET_STREAM_TLS_SOCKETCLIENT_H</span></div>
 <div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_client_html"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_client.html">core::socket::stream::SocketClient</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_client_8h_source.html#l00036">SocketClient.h:36</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1tls_1_1_socket_client_html"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_client.html">core::socket::stream::tls::SocketClient</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2tls_2_socket_client_8h_source.html#l00032">SocketClient.h:35</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1tls_1_1_socket_client_html"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_client.html">core::socket::stream::tls::SocketClient</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2tls_2_socket_client_8h_source.html#l00032">SocketClient.h:37</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1tls_1_1_socket_connector_html"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html">core::socket::stream::tls::SocketConnector</a></div><div class="ttdef"><b>Definition:</b> <a href="tls_2_socket_connector_8h_source.html#l00036">SocketConnector.h:37</a></div></div>
 <div class="ttc" id="acore_2socket_2stream_2_socket_client_8h_html"><div class="ttname"><a href="core_2socket_2stream_2_socket_client_8h.html">SocketClient.h</a></div></div>
 <div class="ttc" id="anamespacecore_1_1socket_1_1stream_1_1tls_html"><div class="ttname"><a href="namespacecore_1_1socket_1_1stream_1_1tls.html">core::socket::stream::tls</a></div><div class="ttdef"><b>Definition:</b> <a href="tls_2_socket_acceptor_8h_source.html#l00038">SocketAcceptor.h:38</a></div></div>
 <div class="ttc" id="atls_2_socket_connector_8h_html"><div class="ttname"><a href="tls_2_socket_connector_8h.html">SocketConnector.h</a></div></div>

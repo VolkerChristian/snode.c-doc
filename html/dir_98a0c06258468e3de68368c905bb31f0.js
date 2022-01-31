@@ -1,6 +1,8 @@
 var dir_98a0c06258468e3de68368c905bb31f0 =
 [
-    [ "ServerConfig.cpp", "rf_2stream_2legacy_2_server_config_8cpp.html", null ],
+    [ "ClientConfig.h", "rf_2stream_2legacy_2_client_config_8h.html", [
+      [ "ClientConfig", "classnet_1_1rf_1_1stream_1_1legacy_1_1_client_config.html", "classnet_1_1rf_1_1stream_1_1legacy_1_1_client_config" ]
+    ] ],
     [ "ServerConfig.h", "rf_2stream_2legacy_2_server_config_8h.html", [
       [ "ServerConfig", "classnet_1_1rf_1_1stream_1_1legacy_1_1_server_config.html", "classnet_1_1rf_1_1stream_1_1legacy_1_1_server_config" ]
     ] ],

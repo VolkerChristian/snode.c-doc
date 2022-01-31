@@ -205,13 +205,17 @@ var annotated_dup =
       [ "in", "namespacenet_1_1in.html", [
         [ "stream", "namespacenet_1_1in_1_1stream.html", [
           [ "legacy", "namespacenet_1_1in_1_1stream_1_1legacy.html", [
+            [ "ClientConfig", "classnet_1_1in_1_1stream_1_1legacy_1_1_client_config.html", "classnet_1_1in_1_1stream_1_1legacy_1_1_client_config" ],
             [ "ServerConfig", "classnet_1_1in_1_1stream_1_1legacy_1_1_server_config.html", "classnet_1_1in_1_1stream_1_1legacy_1_1_server_config" ]
           ] ],
           [ "tls", "namespacenet_1_1in_1_1stream_1_1tls.html", [
+            [ "ClientConfig", "classnet_1_1in_1_1stream_1_1tls_1_1_client_config.html", "classnet_1_1in_1_1stream_1_1tls_1_1_client_config" ],
             [ "ServerConfig", "classnet_1_1in_1_1stream_1_1tls_1_1_server_config.html", "classnet_1_1in_1_1stream_1_1tls_1_1_server_config" ]
           ] ],
+          [ "ClientConfig", "classnet_1_1in_1_1stream_1_1_client_config.html", "classnet_1_1in_1_1stream_1_1_client_config" ],
           [ "ClientSocket", "classnet_1_1in_1_1stream_1_1_client_socket.html", "classnet_1_1in_1_1stream_1_1_client_socket" ],
           [ "ConfigBind", "classnet_1_1in_1_1stream_1_1_config_bind.html", "classnet_1_1in_1_1stream_1_1_config_bind" ],
+          [ "ConfigConnect", "classnet_1_1in_1_1stream_1_1_config_connect.html", "classnet_1_1in_1_1stream_1_1_config_connect" ],
           [ "ServerConfig", "classnet_1_1in_1_1stream_1_1_server_config.html", "classnet_1_1in_1_1stream_1_1_server_config" ],
           [ "ServerSocket", "classnet_1_1in_1_1stream_1_1_server_socket.html", "classnet_1_1in_1_1stream_1_1_server_socket" ],
           [ "Socket", "classnet_1_1in_1_1stream_1_1_socket.html", "classnet_1_1in_1_1stream_1_1_socket" ]
@@ -222,13 +226,17 @@ var annotated_dup =
       [ "in6", "namespacenet_1_1in6.html", [
         [ "stream", "namespacenet_1_1in6_1_1stream.html", [
           [ "legacy", "namespacenet_1_1in6_1_1stream_1_1legacy.html", [
+            [ "ClientConfig", "classnet_1_1in6_1_1stream_1_1legacy_1_1_client_config.html", "classnet_1_1in6_1_1stream_1_1legacy_1_1_client_config" ],
             [ "ServerConfig", "classnet_1_1in6_1_1stream_1_1legacy_1_1_server_config.html", "classnet_1_1in6_1_1stream_1_1legacy_1_1_server_config" ]
           ] ],
           [ "tls", "namespacenet_1_1in6_1_1stream_1_1tls.html", [
+            [ "ClientConfig", "classnet_1_1in6_1_1stream_1_1tls_1_1_client_config.html", "classnet_1_1in6_1_1stream_1_1tls_1_1_client_config" ],
             [ "ServerConfig", "classnet_1_1in6_1_1stream_1_1tls_1_1_server_config.html", "classnet_1_1in6_1_1stream_1_1tls_1_1_server_config" ]
           ] ],
+          [ "ClientConfig", "classnet_1_1in6_1_1stream_1_1_client_config.html", "classnet_1_1in6_1_1stream_1_1_client_config" ],
           [ "ClientSocket", "classnet_1_1in6_1_1stream_1_1_client_socket.html", "classnet_1_1in6_1_1stream_1_1_client_socket" ],
           [ "ConfigBind", "classnet_1_1in6_1_1stream_1_1_config_bind.html", "classnet_1_1in6_1_1stream_1_1_config_bind" ],
+          [ "ConfigConnect", "classnet_1_1in6_1_1stream_1_1_config_connect.html", "classnet_1_1in6_1_1stream_1_1_config_connect" ],
           [ "ServerConfig", "classnet_1_1in6_1_1stream_1_1_server_config.html", "classnet_1_1in6_1_1stream_1_1_server_config" ],
           [ "ServerSocket", "classnet_1_1in6_1_1stream_1_1_server_socket.html", "classnet_1_1in6_1_1stream_1_1_server_socket" ],
           [ "Socket", "classnet_1_1in6_1_1stream_1_1_socket.html", "classnet_1_1in6_1_1stream_1_1_socket" ]
@@ -239,13 +247,17 @@ var annotated_dup =
       [ "l2", "namespacenet_1_1l2.html", [
         [ "stream", "namespacenet_1_1l2_1_1stream.html", [
           [ "legacy", "namespacenet_1_1l2_1_1stream_1_1legacy.html", [
+            [ "ClientConfig", "classnet_1_1l2_1_1stream_1_1legacy_1_1_client_config.html", "classnet_1_1l2_1_1stream_1_1legacy_1_1_client_config" ],
             [ "ServerConfig", "classnet_1_1l2_1_1stream_1_1legacy_1_1_server_config.html", "classnet_1_1l2_1_1stream_1_1legacy_1_1_server_config" ]
           ] ],
           [ "tls", "namespacenet_1_1l2_1_1stream_1_1tls.html", [
+            [ "ClientConfig", "classnet_1_1l2_1_1stream_1_1tls_1_1_client_config.html", "classnet_1_1l2_1_1stream_1_1tls_1_1_client_config" ],
             [ "ServerConfig", "classnet_1_1l2_1_1stream_1_1tls_1_1_server_config.html", "classnet_1_1l2_1_1stream_1_1tls_1_1_server_config" ]
           ] ],
+          [ "ClientConfig", "classnet_1_1l2_1_1stream_1_1_client_config.html", "classnet_1_1l2_1_1stream_1_1_client_config" ],
           [ "ClientSocket", "classnet_1_1l2_1_1stream_1_1_client_socket.html", "classnet_1_1l2_1_1stream_1_1_client_socket" ],
           [ "ConfigBind", "classnet_1_1l2_1_1stream_1_1_config_bind.html", "classnet_1_1l2_1_1stream_1_1_config_bind" ],
+          [ "ConfigConnect", "classnet_1_1l2_1_1stream_1_1_config_connect.html", "classnet_1_1l2_1_1stream_1_1_config_connect" ],
           [ "ServerConfig", "classnet_1_1l2_1_1stream_1_1_server_config.html", "classnet_1_1l2_1_1stream_1_1_server_config" ],
           [ "ServerSocket", "classnet_1_1l2_1_1stream_1_1_server_socket.html", "classnet_1_1l2_1_1stream_1_1_server_socket" ],
           [ "Socket", "classnet_1_1l2_1_1stream_1_1_socket.html", "classnet_1_1l2_1_1stream_1_1_socket" ]
@@ -256,13 +268,17 @@ var annotated_dup =
       [ "rf", "namespacenet_1_1rf.html", [
         [ "stream", "namespacenet_1_1rf_1_1stream.html", [
           [ "legacy", "namespacenet_1_1rf_1_1stream_1_1legacy.html", [
+            [ "ClientConfig", "classnet_1_1rf_1_1stream_1_1legacy_1_1_client_config.html", "classnet_1_1rf_1_1stream_1_1legacy_1_1_client_config" ],
             [ "ServerConfig", "classnet_1_1rf_1_1stream_1_1legacy_1_1_server_config.html", "classnet_1_1rf_1_1stream_1_1legacy_1_1_server_config" ]
           ] ],
           [ "tls", "namespacenet_1_1rf_1_1stream_1_1tls.html", [
+            [ "ClientConfig", "classnet_1_1rf_1_1stream_1_1tls_1_1_client_config.html", "classnet_1_1rf_1_1stream_1_1tls_1_1_client_config" ],
             [ "ServerConfig", "classnet_1_1rf_1_1stream_1_1tls_1_1_server_config.html", "classnet_1_1rf_1_1stream_1_1tls_1_1_server_config" ]
           ] ],
+          [ "ClientConfig", "classnet_1_1rf_1_1stream_1_1_client_config.html", "classnet_1_1rf_1_1stream_1_1_client_config" ],
           [ "ClientSocket", "classnet_1_1rf_1_1stream_1_1_client_socket.html", "classnet_1_1rf_1_1stream_1_1_client_socket" ],
           [ "ConfigBind", "classnet_1_1rf_1_1stream_1_1_config_bind.html", "classnet_1_1rf_1_1stream_1_1_config_bind" ],
+          [ "ConfigConnect", "classnet_1_1rf_1_1stream_1_1_config_connect.html", "classnet_1_1rf_1_1stream_1_1_config_connect" ],
           [ "ServerConfig", "classnet_1_1rf_1_1stream_1_1_server_config.html", "classnet_1_1rf_1_1stream_1_1_server_config" ],
           [ "ServerSocket", "classnet_1_1rf_1_1stream_1_1_server_socket.html", "classnet_1_1rf_1_1stream_1_1_server_socket" ],
           [ "Socket", "classnet_1_1rf_1_1stream_1_1_socket.html", "classnet_1_1rf_1_1stream_1_1_socket" ]
@@ -273,13 +289,17 @@ var annotated_dup =
       [ "un", "namespacenet_1_1un.html", [
         [ "stream", "namespacenet_1_1un_1_1stream.html", [
           [ "legacy", "namespacenet_1_1un_1_1stream_1_1legacy.html", [
+            [ "ClientConfig", "classnet_1_1un_1_1stream_1_1legacy_1_1_client_config.html", "classnet_1_1un_1_1stream_1_1legacy_1_1_client_config" ],
             [ "ServerConfig", "classnet_1_1un_1_1stream_1_1legacy_1_1_server_config.html", "classnet_1_1un_1_1stream_1_1legacy_1_1_server_config" ]
           ] ],
           [ "tls", "namespacenet_1_1un_1_1stream_1_1tls.html", [
+            [ "ClientConfig", "classnet_1_1un_1_1stream_1_1tls_1_1_client_config.html", "classnet_1_1un_1_1stream_1_1tls_1_1_client_config" ],
             [ "ServerConfig", "classnet_1_1un_1_1stream_1_1tls_1_1_server_config.html", "classnet_1_1un_1_1stream_1_1tls_1_1_server_config" ]
           ] ],
+          [ "ClientConfig", "classnet_1_1un_1_1stream_1_1_client_config.html", "classnet_1_1un_1_1stream_1_1_client_config" ],
           [ "ClientSocket", "classnet_1_1un_1_1stream_1_1_client_socket.html", "classnet_1_1un_1_1stream_1_1_client_socket" ],
           [ "ConfigBind", "classnet_1_1un_1_1stream_1_1_config_bind.html", "classnet_1_1un_1_1stream_1_1_config_bind" ],
+          [ "ConfigConnect", "classnet_1_1un_1_1stream_1_1_config_connect.html", "classnet_1_1un_1_1stream_1_1_config_connect" ],
           [ "ServerConfig", "classnet_1_1un_1_1stream_1_1_server_config.html", "classnet_1_1un_1_1stream_1_1_server_config" ],
           [ "ServerSocket", "classnet_1_1un_1_1stream_1_1_server_socket.html", "classnet_1_1un_1_1stream_1_1_server_socket" ],
           [ "Socket", "classnet_1_1un_1_1stream_1_1_socket.html", "classnet_1_1un_1_1stream_1_1_socket" ]

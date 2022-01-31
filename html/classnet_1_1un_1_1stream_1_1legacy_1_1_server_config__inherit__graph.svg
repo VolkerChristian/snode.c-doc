@@ -91,24 +91,25 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="classnet_1_1un_1_1stream_1_1_config_bind.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="240,-276.5 240,-377.5 390,-377.5 390,-276.5 240,-276.5"/>
-<text text-anchor="middle" x="315" y="-365.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::un::stream::ConfigBind</text>
-<polyline fill="none" stroke="black" points="240,-358.5 390,-358.5 "/>
-<text text-anchor="start" x="248" y="-346.5" font-family="Helvetica,sans-Serif" font-size="10.00"># bindSc</text>
-<text text-anchor="start" x="248" y="-335.5" font-family="Helvetica,sans-Serif" font-size="10.00"># bindSunPathOpt</text>
-<text text-anchor="start" x="248" y="-324.5" font-family="Helvetica,sans-Serif" font-size="10.00"># bindSunPath</text>
-<polyline fill="none" stroke="black" points="240,-317.5 390,-317.5 "/>
-<text text-anchor="start" x="248" y="-305.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ConfigBind()</text>
-<text text-anchor="start" x="248" y="-294.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindSunPath()</text>
-<text text-anchor="start" x="248" y="-283.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindAddress()</text>
+<polygon fill="white" stroke="black" points="240,-271 240,-383 390,-383 390,-271 240,-271"/>
+<text text-anchor="middle" x="315" y="-371" font-family="Helvetica,sans-Serif" font-size="10.00">net::un::stream::ConfigBind</text>
+<polyline fill="none" stroke="black" points="240,-364 390,-364 "/>
+<text text-anchor="start" x="248" y="-352" font-family="Helvetica,sans-Serif" font-size="10.00"># bindSc</text>
+<text text-anchor="start" x="248" y="-341" font-family="Helvetica,sans-Serif" font-size="10.00"># bindSunPathOpt</text>
+<text text-anchor="start" x="248" y="-330" font-family="Helvetica,sans-Serif" font-size="10.00"># bindSunPath</text>
+<polyline fill="none" stroke="black" points="240,-323 390,-323 "/>
+<text text-anchor="start" x="248" y="-311" font-family="Helvetica,sans-Serif" font-size="10.00">+ ConfigBind()</text>
+<text text-anchor="start" x="248" y="-300" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindSunPath()</text>
+<text text-anchor="start" x="248" y="-289" font-family="Helvetica,sans-Serif" font-size="10.00">+ getBindAddress()</text>
+<text text-anchor="start" x="248" y="-278" font-family="Helvetica,sans-Serif" font-size="10.00"># required()</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node2 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M291.43,-266.92C279.13,-236.09 264.54,-199.51 254.23,-173.65"/>
-<polygon fill="none" stroke="midnightblue" points="288.21,-268.3 295.17,-276.29 294.71,-265.7 288.21,-268.3"/>
+<path fill="none" stroke="midnightblue" d="M289.23,-261.4C277.42,-231.8 263.93,-197.97 254.22,-173.64"/>
+<polygon fill="none" stroke="midnightblue" points="286.04,-262.85 293,-270.85 292.54,-260.26 286.04,-262.85"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">

@@ -1,11 +1,12 @@
 var classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector =
 [
-    [ "Socket", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a08e0340e8228a4284ddf73d8383609bb", null ],
-    [ "SocketAddress", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a88bb07fd5a2758ae2435f5a2d57d7a43", null ],
-    [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a3d33ed44e48e736566bcef1fdead8c34", null ],
-    [ "Super", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a5f66168e88dab96c585fc35b115add6d", null ],
-    [ "SocketConnector", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a3a6ac1f5f8021905fb49a9bb58e1f86c", null ],
-    [ "~SocketConnector", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a9993c136e8fca93c68f61fa2387a9cba", null ],
-    [ "connect", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#ad2aca1e55d40f84096b633cc79693150", null ],
-    [ "ctx", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a98a26ec73694ed12ce67514834279e56", null ]
+    [ "ClientConfig", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a6c9944f077e160bd44fe015058193925", null ],
+    [ "Socket", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a10480020875d482cfdc1e319de6c2076", null ],
+    [ "SocketAddress", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a90c8586b07d541ac6647a517f5591e3d", null ],
+    [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a1f9fc689c24ca02361d3c627fb891c32", null ],
+    [ "Super", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a34dbe9e5ecd0d43267b53a947afe338a", null ],
+    [ "SocketConnector", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a6d29b58226b64e8621d993948a7f591b", null ],
+    [ "~SocketConnector", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a61541d2b8b12c0c86594252c64160bd5", null ],
+    [ "connect", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#aea7e01939bfc5760beaaa21ef058c844", null ],
+    [ "ctx", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a2e1bbe4a13dcd2273d7318ce71894c51", null ]
 ];
