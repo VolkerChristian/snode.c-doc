@@ -216,7 +216,7 @@ Here is the caller graph for this function:</div>
 <div class="fragment"><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                                                                                   {</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">for</span> (TimerEventReceiver* timer : <a class="code" href="classcore_1_1_timer_event_dispatcher.html#a02e7cb8535bdc60f51d2e944e69a2f21">timerList</a>) {</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <span class="keywordflow">if</span> (timer-&gt;getTimeout() &lt;= currentTime) {</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                <a class="code" href="classcore_1_1_timer_event_dispatcher.html#acb19ea4ed51b134507ff919707df4c55">timerListDirty</a> = timer-&gt;trigger();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                <a class="code" href="classcore_1_1_timer_event_dispatcher.html#acb19ea4ed51b134507ff919707df4c55">timerListDirty</a> = timer-&gt;dispatch();</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            }</div>
@@ -227,7 +227,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_timer_event_dispatcher_8h_source.html#l00052">timerList</a>, and <a class="el" href="_timer_event_dispatcher_8h_source.html#l00056">timerListDirty</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00076">core::EventDispatcher::dispatch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00081">core::EventDispatcher::dispatch()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -259,7 +259,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_timer_event_dispatcher_8h_source.html#l00052">timerList</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00076">core::EventDispatcher::dispatch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00081">core::EventDispatcher::dispatch()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -325,7 +325,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_timer_event_dispatcher_8h_source.html#l00053">addedList</a>, <a class="el" href="_timer_event_dispatcher_8h_source.html#l00054">removedList</a>, <a class="el" href="_timer_event_dispatcher_8h_source.html#l00052">timerList</a>, and <a class="el" href="_timer_event_dispatcher_8h_source.html#l00056">timerListDirty</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00076">core::EventDispatcher::dispatch()</a>, and <a class="el" href="_timer_event_dispatcher_8cpp_source.html#l00091">stop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00081">core::EventDispatcher::dispatch()</a>, and <a class="el" href="_timer_event_dispatcher_8cpp_source.html#l00091">stop()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -404,7 +404,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_timeval_8cpp_source.html#l00062">utils::Timeval::currentTime()</a>, <a class="el" href="_timer_event_dispatcher_8cpp_source.html#l00032">getNextTimeout()</a>, <a class="el" href="_timer_event_dispatcher_8cpp_source.html#l00076">remove()</a>, and <a class="el" href="_timer_event_dispatcher_8h_source.html#l00052">timerList</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00115">core::EventDispatcher::stop()</a>, and <a class="el" href="_event_dispatcher_8cpp_source.html#l00137">core::EventDispatcher::stopTimerEvents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00122">core::EventDispatcher::stop()</a>, and <a class="el" href="_event_dispatcher_8cpp_source.html#l00144">core::EventDispatcher::stopTimerEvents()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

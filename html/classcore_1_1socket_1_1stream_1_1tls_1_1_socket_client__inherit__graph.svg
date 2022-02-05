@@ -120,31 +120,31 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="classcore_1_1socket_1_1stream_1_1_socket_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="261.5,-373.5 261.5,-639.5 457.5,-639.5 457.5,-373.5 261.5,-373.5"/>
-<text text-anchor="start" x="269.5" y="-627.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="start" x="269.5" y="-616.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketClient&lt; ClientSocket</text>
-<text text-anchor="start" x="269.5" y="-605.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, ClientConfigT, core::socket</text>
-<text text-anchor="start" x="269.5" y="-594.5" font-family="Helvetica,sans-Serif" font-size="10.00">::stream::tls::SocketConnector</text>
-<text text-anchor="start" x="269.5" y="-583.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; ClientConfigT, ClientSocketT</text>
-<text text-anchor="middle" x="359.5" y="-572.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Socket &gt;, SocketContextFactoryT &gt;</text>
-<polyline fill="none" stroke="black" points="261.5,-565.5 457.5,-565.5 "/>
-<text text-anchor="start" x="269.5" y="-553.5" font-family="Helvetica,sans-Serif" font-size="10.00"># clientConfig</text>
-<text text-anchor="start" x="269.5" y="-542.5" font-family="Helvetica,sans-Serif" font-size="10.00"># socketContextFactory</text>
-<text text-anchor="start" x="269.5" y="-531.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _onConnect</text>
-<text text-anchor="start" x="269.5" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _onConnected</text>
-<text text-anchor="start" x="269.5" y="-509.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _onDisconnect</text>
-<text text-anchor="start" x="269.5" y="-498.5" font-family="Helvetica,sans-Serif" font-size="10.00"># options</text>
-<polyline fill="none" stroke="black" points="261.5,-491.5 457.5,-491.5 "/>
-<text text-anchor="start" x="269.5" y="-479.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SocketClient()</text>
-<text text-anchor="start" x="269.5" y="-468.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~SocketClient()</text>
-<text text-anchor="start" x="269.5" y="-457.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
-<text text-anchor="start" x="269.5" y="-446.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
-<text text-anchor="start" x="269.5" y="-435.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
-<text text-anchor="start" x="269.5" y="-424.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ onConnect()</text>
-<text text-anchor="start" x="269.5" y="-413.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ onConnected()</text>
-<text text-anchor="start" x="269.5" y="-402.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ onDisconnect()</text>
-<text text-anchor="start" x="269.5" y="-391.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getSocketContextFactory()</text>
-<text text-anchor="start" x="269.5" y="-380.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketClient()</text>
+<polygon fill="white" stroke="black" points="249,-373.5 249,-639.5 470,-639.5 470,-373.5 249,-373.5"/>
+<text text-anchor="start" x="257" y="-627.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
+<text text-anchor="start" x="257" y="-616.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketClient&lt; ClientSocket</text>
+<text text-anchor="start" x="257" y="-605.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, core::socket::stream::</text>
+<text text-anchor="start" x="257" y="-594.5" font-family="Helvetica,sans-Serif" font-size="10.00">tls::SocketConnector&lt; ClientConfig</text>
+<text text-anchor="start" x="257" y="-583.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, ClientSocketT::Socket &gt;, SocketContext</text>
+<text text-anchor="middle" x="359.5" y="-572.5" font-family="Helvetica,sans-Serif" font-size="10.00">FactoryT &gt;</text>
+<polyline fill="none" stroke="black" points="249,-565.5 470,-565.5 "/>
+<text text-anchor="start" x="257" y="-553.5" font-family="Helvetica,sans-Serif" font-size="10.00"># clientConfig</text>
+<text text-anchor="start" x="257" y="-542.5" font-family="Helvetica,sans-Serif" font-size="10.00"># socketContextFactory</text>
+<text text-anchor="start" x="257" y="-531.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _onConnect</text>
+<text text-anchor="start" x="257" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _onConnected</text>
+<text text-anchor="start" x="257" y="-509.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _onDisconnect</text>
+<text text-anchor="start" x="257" y="-498.5" font-family="Helvetica,sans-Serif" font-size="10.00"># options</text>
+<polyline fill="none" stroke="black" points="249,-491.5 470,-491.5 "/>
+<text text-anchor="start" x="257" y="-479.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SocketClient()</text>
+<text text-anchor="start" x="257" y="-468.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~SocketClient()</text>
+<text text-anchor="start" x="257" y="-457.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
+<text text-anchor="start" x="257" y="-446.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
+<text text-anchor="start" x="257" y="-435.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
+<text text-anchor="start" x="257" y="-424.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ onConnect()</text>
+<text text-anchor="start" x="257" y="-413.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ onConnected()</text>
+<text text-anchor="start" x="257" y="-402.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ onDisconnect()</text>
+<text text-anchor="start" x="257" y="-391.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getSocketContextFactory()</text>
+<text text-anchor="start" x="257" y="-380.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketClient()</text>
 </a>
 </g>
 </g>
@@ -177,48 +177,48 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="classcore_1_1socket_1_1stream_1_1_socket_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="371.5,-731.5 371.5,-975.5 553.5,-975.5 553.5,-731.5 371.5,-731.5"/>
-<text text-anchor="start" x="379.5" y="-963.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="start" x="379.5" y="-952.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketClient&lt; ClientSocket</text>
-<text text-anchor="start" x="379.5" y="-941.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, ClientConfigT, SocketConnector</text>
-<text text-anchor="middle" x="462.5" y="-930.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, SocketContextFactoryT &gt;</text>
-<polyline fill="none" stroke="black" points="371.5,-923.5 553.5,-923.5 "/>
-<text text-anchor="start" x="379.5" y="-911.5" font-family="Helvetica,sans-Serif" font-size="10.00"># clientConfig</text>
-<text text-anchor="start" x="379.5" y="-900.5" font-family="Helvetica,sans-Serif" font-size="10.00"># socketContextFactory</text>
-<text text-anchor="start" x="379.5" y="-889.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _onConnect</text>
-<text text-anchor="start" x="379.5" y="-878.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _onConnected</text>
-<text text-anchor="start" x="379.5" y="-867.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _onDisconnect</text>
-<text text-anchor="start" x="379.5" y="-856.5" font-family="Helvetica,sans-Serif" font-size="10.00"># options</text>
-<polyline fill="none" stroke="black" points="371.5,-849.5 553.5,-849.5 "/>
-<text text-anchor="start" x="379.5" y="-837.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SocketClient()</text>
-<text text-anchor="start" x="379.5" y="-826.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~SocketClient()</text>
-<text text-anchor="start" x="379.5" y="-815.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
-<text text-anchor="start" x="379.5" y="-804.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
-<text text-anchor="start" x="379.5" y="-793.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
-<text text-anchor="start" x="379.5" y="-782.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ onConnect()</text>
-<text text-anchor="start" x="379.5" y="-771.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ onConnected()</text>
-<text text-anchor="start" x="379.5" y="-760.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ onDisconnect()</text>
-<text text-anchor="start" x="379.5" y="-749.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getSocketContextFactory()</text>
-<text text-anchor="start" x="379.5" y="-738.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketClient()</text>
+<polygon fill="white" stroke="black" points="372,-731.5 372,-975.5 565,-975.5 565,-731.5 372,-731.5"/>
+<text text-anchor="start" x="380" y="-963.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
+<text text-anchor="start" x="380" y="-952.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketClient&lt; ClientSocket</text>
+<text text-anchor="start" x="380" y="-941.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, SocketConnectorT, SocketContext</text>
+<text text-anchor="middle" x="468.5" y="-930.5" font-family="Helvetica,sans-Serif" font-size="10.00">FactoryT &gt;</text>
+<polyline fill="none" stroke="black" points="372,-923.5 565,-923.5 "/>
+<text text-anchor="start" x="380" y="-911.5" font-family="Helvetica,sans-Serif" font-size="10.00"># clientConfig</text>
+<text text-anchor="start" x="380" y="-900.5" font-family="Helvetica,sans-Serif" font-size="10.00"># socketContextFactory</text>
+<text text-anchor="start" x="380" y="-889.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _onConnect</text>
+<text text-anchor="start" x="380" y="-878.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _onConnected</text>
+<text text-anchor="start" x="380" y="-867.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _onDisconnect</text>
+<text text-anchor="start" x="380" y="-856.5" font-family="Helvetica,sans-Serif" font-size="10.00"># options</text>
+<polyline fill="none" stroke="black" points="372,-849.5 565,-849.5 "/>
+<text text-anchor="start" x="380" y="-837.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SocketClient()</text>
+<text text-anchor="start" x="380" y="-826.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~SocketClient()</text>
+<text text-anchor="start" x="380" y="-815.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
+<text text-anchor="start" x="380" y="-804.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
+<text text-anchor="start" x="380" y="-793.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
+<text text-anchor="start" x="380" y="-782.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ onConnect()</text>
+<text text-anchor="start" x="380" y="-771.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ onConnected()</text>
+<text text-anchor="start" x="380" y="-760.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ onDisconnect()</text>
+<text text-anchor="start" x="380" y="-749.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getSocketContextFactory()</text>
+<text text-anchor="start" x="380" y="-738.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketClient()</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M376.31,-1004.73C381.36,-995.92 387.05,-986.02 393.02,-975.6"/>
-<polygon fill="none" stroke="midnightblue" points="373.23,-1003.07 371.29,-1013.48 379.3,-1006.55 373.23,-1003.07"/>
+<path fill="none" stroke="midnightblue" d="M377.48,-1004.73C382.81,-995.92 388.82,-986.02 395.13,-975.6"/>
+<polygon fill="none" stroke="midnightblue" points="374.36,-1003.11 372.17,-1013.48 380.35,-1006.74 374.36,-1003.11"/>
 </g>
 <!-- Node4&#45;&gt;Node2 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node2</title>
-<path fill="none" stroke="orange" d="M423.4,-721.53C415.38,-694.68 406.94,-666.4 398.91,-639.52"/>
-<polygon fill="orange" stroke="orange" points="420.12,-722.77 426.33,-731.35 426.82,-720.77 420.12,-722.77"/>
-<text text-anchor="start" x="419.5" y="-705" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; ClientSocketT, ClientConfig</text>
-<text text-anchor="start" x="419.5" y="-694" font-family="Helvetica,sans-Serif" font-size="10.00">T, core::socket::stream::</text>
-<text text-anchor="start" x="419.5" y="-683" font-family="Helvetica,sans-Serif" font-size="10.00">tls::SocketConnector&lt; ClientConfig</text>
-<text text-anchor="start" x="419.5" y="-672" font-family="Helvetica,sans-Serif" font-size="10.00">T, ClientSocketT::Socket &gt;, SocketContext</text>
-<text text-anchor="middle" x="522" y="-661" font-family="Helvetica,sans-Serif" font-size="10.00">FactoryT &gt;</text>
+<path fill="none" stroke="orange" d="M427.12,-721.53C418.64,-694.68 409.7,-666.4 401.21,-639.52"/>
+<polygon fill="orange" stroke="orange" points="423.87,-722.87 430.22,-731.35 430.55,-720.76 423.87,-722.87"/>
+<text text-anchor="start" x="423.5" y="-705" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; ClientSocketT, core</text>
+<text text-anchor="start" x="423.5" y="-694" font-family="Helvetica,sans-Serif" font-size="10.00">::socket::stream::tls</text>
+<text text-anchor="start" x="423.5" y="-683" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketConnector&lt; ClientConfig</text>
+<text text-anchor="start" x="423.5" y="-672" font-family="Helvetica,sans-Serif" font-size="10.00">T, ClientSocketT::Socket &gt;,</text>
+<text text-anchor="middle" x="503.5" y="-661" font-family="Helvetica,sans-Serif" font-size="10.00"> SocketContextFactoryT &gt;</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">

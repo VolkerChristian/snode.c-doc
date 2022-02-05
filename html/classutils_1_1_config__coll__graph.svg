@@ -13,31 +13,30 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="0,-688 0,-954 125,-954 125,-688 0,-688"/>
-<text text-anchor="middle" x="62.5" y="-942" font-family="Helvetica,sans-Serif" font-size="10.00">utils::Config</text>
-<polyline fill="none" stroke="black" points="0,-935 125,-935 "/>
-<text text-anchor="start" x="8" y="-923" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; name</text>
-<text text-anchor="start" x="8" y="-912" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; argc</text>
-<text text-anchor="start" x="8" y="-901" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; argv</text>
-<text text-anchor="start" x="8" y="-890" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _required</text>
-<text text-anchor="start" x="8" y="-879" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _dumpConfig</text>
-<text text-anchor="start" x="8" y="-868" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _daemonize</text>
-<text text-anchor="start" x="8" y="-857" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _kill</text>
-<text text-anchor="start" x="8" y="-846" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _logFile</text>
-<polyline fill="none" stroke="black" points="0,-839 125,-839 "/>
-<text text-anchor="start" x="8" y="-827" font-family="Helvetica,sans-Serif" font-size="10.00">+ init()</text>
-<text text-anchor="start" x="8" y="-816" font-family="Helvetica,sans-Serif" font-size="10.00">+ finish()</text>
-<text text-anchor="start" x="8" y="-805" font-family="Helvetica,sans-Serif" font-size="10.00">+ getLogFile()</text>
-<text text-anchor="start" x="8" y="-794" font-family="Helvetica,sans-Serif" font-size="10.00">+ daemonize()</text>
-<text text-anchor="start" x="8" y="-783" font-family="Helvetica,sans-Serif" font-size="10.00">+ kill()</text>
-<text text-anchor="start" x="8" y="-772" font-family="Helvetica,sans-Serif" font-size="10.00">+ add_subcommand()</text>
-<text text-anchor="start" x="8" y="-761" font-family="Helvetica,sans-Serif" font-size="10.00">+ required()</text>
-<text text-anchor="start" x="8" y="-750" font-family="Helvetica,sans-Serif" font-size="10.00">+ required()</text>
-<text text-anchor="start" x="8" y="-739" font-family="Helvetica,sans-Serif" font-size="10.00">+ setRequired()</text>
-<text text-anchor="start" x="8" y="-728" font-family="Helvetica,sans-Serif" font-size="10.00">+ parse()</text>
-<text text-anchor="start" x="8" y="-717" font-family="Helvetica,sans-Serif" font-size="10.00">+ instance()</text>
-<text text-anchor="start" x="8" y="-706" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; Config()</text>
-<text text-anchor="start" x="8" y="-695" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; ~Config()</text>
+<polygon fill="#bfbfbf" stroke="black" points="0,-693.5 0,-948.5 125,-948.5 125,-693.5 0,-693.5"/>
+<text text-anchor="middle" x="62.5" y="-936.5" font-family="Helvetica,sans-Serif" font-size="10.00">utils::Config</text>
+<polyline fill="none" stroke="black" points="0,-929.5 125,-929.5 "/>
+<text text-anchor="start" x="8" y="-917.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; name</text>
+<text text-anchor="start" x="8" y="-906.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; argc</text>
+<text text-anchor="start" x="8" y="-895.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; argv</text>
+<text text-anchor="start" x="8" y="-884.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _dumpConfig</text>
+<text text-anchor="start" x="8" y="-873.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _daemonize</text>
+<text text-anchor="start" x="8" y="-862.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _kill</text>
+<text text-anchor="start" x="8" y="-851.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _forceLogFile</text>
+<text text-anchor="start" x="8" y="-840.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _showConfig</text>
+<text text-anchor="start" x="8" y="-829.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _logFile</text>
+<polyline fill="none" stroke="black" points="0,-822.5 125,-822.5 "/>
+<text text-anchor="start" x="8" y="-810.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ init()</text>
+<text text-anchor="start" x="8" y="-799.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ prepare()</text>
+<text text-anchor="start" x="8" y="-788.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ terminate()</text>
+<text text-anchor="start" x="8" y="-777.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getLogFile()</text>
+<text text-anchor="start" x="8" y="-766.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ daemonize()</text>
+<text text-anchor="start" x="8" y="-755.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ kill()</text>
+<text text-anchor="start" x="8" y="-744.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ add_subcommand()</text>
+<text text-anchor="start" x="8" y="-733.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ parse()</text>
+<text text-anchor="start" x="8" y="-722.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ instance()</text>
+<text text-anchor="start" x="8" y="-711.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; Config()</text>
+<text text-anchor="start" x="8" y="-700.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; ~Config()</text>
 </a>
 </g>
 </g>
@@ -217,8 +216,8 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#404040" d="M83.13,-1722.46C82.92,-1716.29 82.71,-1710.13 82.5,-1704 73.66,-1444.13 67.75,-1141.06 64.77,-966.36"/>
-<polygon fill="none" stroke="#404040" points="64.77,-966.27 60.67,-960.34 64.57,-954.27 68.67,-960.2 64.77,-966.27"/>
+<path fill="none" stroke="#404040" d="M83.13,-1722.46C82.92,-1716.29 82.71,-1710.13 82.5,-1704 73.57,-1441.33 67.62,-1134.52 64.68,-960.75"/>
+<polygon fill="none" stroke="#404040" points="64.67,-960.73 60.57,-954.8 64.47,-948.73 68.57,-954.66 64.67,-960.73"/>
 <text text-anchor="middle" x="95" y="-1679.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &#45;app</text>
 </g>
 <!-- Node2&#45;&gt;Node2 -->

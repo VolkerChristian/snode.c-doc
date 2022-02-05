@@ -54,10 +54,10 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classcore_1_1timer_1_1_interval_timer.html#adfde34de6e71f85f163b20c3f7ae66de" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classcore_1_1timer_1_1_interval_timer.html#a15788aabcd49a2511a69e50ba777493f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="7,-49.5 7,-79.5 148,-79.5 148,-49.5 7,-49.5"/>
 <text text-anchor="start" x="15" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::timer::IntervalTimer</text>
-<text text-anchor="middle" x="77.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::trigger</text>
+<text text-anchor="middle" x="77.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::dispatch</text>
 </a>
 </g>
 </g>
@@ -70,10 +70,10 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classcore_1_1timer_1_1_singleshot_timer.html#a97bc95286ab99488884a78b1b126a6da" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classcore_1_1timer_1_1_singleshot_timer.html#a23692c49e75faa8d6e1ab72c664196e5" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 155,-30.5 155,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::timer::SingleshotTimer</text>
-<text text-anchor="middle" x="77.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::trigger</text>
+<text text-anchor="middle" x="77.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::dispatch</text>
 </a>
 </g>
 </g>

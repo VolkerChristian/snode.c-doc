@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['application_3794',['APPLICATION',['../_router_8h.html#a8b7131df91fe7a961e2cdadcedb55232',1,'Router.h']]]
+  ['_5f_5fnr_5fpidfd_5fopen_3863',['__NR_pidfd_open',['../_daemon_8cpp.html#a4a10483a52daef817cc42093d2902997',1,'Daemon.cpp']]]
 ];

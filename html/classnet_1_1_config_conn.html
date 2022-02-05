@@ -94,7 +94,7 @@ $(document).ready(function(){initNavTree('classnet_1_1_config_conn.html',''); in
 <div class="dynheader">
 Inheritance diagram for net::ConfigConn:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1_config_conn__inherit__graph.svg" width="3599" height="618"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1_config_conn__inherit__graph.svg" width="3599" height="603"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -180,38 +180,41 @@ Private Attributes</h2></td></tr>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a8f19852239555e8a6bdedb02b5665659">connectionSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a5c26c64a49536e623739685f42475fc2">description</a>(<span class="stringliteral">&quot;Options for established client connections&quot;</span>);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a8f19852239555e8a6bdedb02b5665659">connectionSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#abb3478595ba469884249b28b3f39b737">configurable</a>();</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a8f19852239555e8a6bdedb02b5665659">connectionSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a190faa07c199753e02dec21652cfc611">group</a>(<span class="stringliteral">&quot;Sub-Options (use -h,--help on them)&quot;</span>);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a81d731a7d54915ae4a28bc9882b8e108">readTimeoutOpt</a> = <a class="code" href="classnet_1_1_config_conn.html#a8f19852239555e8a6bdedb02b5665659">connectionSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a1f9503a8cdceb4e5b42c9fd4ae6b7b10">add_option</a>(<span class="stringliteral">&quot;-r,--read-timeout&quot;</span>, <a class="code" href="classnet_1_1_config_conn.html#aaa795e09306bef282bd7df02a90dd82a">readTimeout</a>, <span class="stringliteral">&quot;Read timeout&quot;</span>);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a81d731a7d54915ae4a28bc9882b8e108">readTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[sec]&quot;</span>);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a81d731a7d54915ae4a28bc9882b8e108">readTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(60);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a81d731a7d54915ae4a28bc9882b8e108">readTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#affbb9fb4e20744e377767952507503f0">configurable</a>();</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a02b60be065a69c37400ed7f78f18f677">writeTimeoutOpt</a> = <a class="code" href="classnet_1_1_config_conn.html#a8f19852239555e8a6bdedb02b5665659">connectionSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a1f9503a8cdceb4e5b42c9fd4ae6b7b10">add_option</a>(<span class="stringliteral">&quot;-w,--write-timeout&quot;</span>, <a class="code" href="classnet_1_1_config_conn.html#a78e54583bd94babcc685bb98ef8b3c2a">writeTimeout</a>, <span class="stringliteral">&quot;Write timeout&quot;</span>);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a02b60be065a69c37400ed7f78f18f677">writeTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[sec]&quot;</span>);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a02b60be065a69c37400ed7f78f18f677">writeTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(60);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a81d731a7d54915ae4a28bc9882b8e108">readTimeoutOpt</a> = <a class="code" href="classnet_1_1_config_conn.html#a8f19852239555e8a6bdedb02b5665659">connectionSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a1f9503a8cdceb4e5b42c9fd4ae6b7b10">add_option</a>(<span class="stringliteral">&quot;-r,--read-timeout&quot;</span>, <a class="code" href="classnet_1_1_config_conn.html#aaa795e09306bef282bd7df02a90dd82a">readTimeout</a>, <span class="stringliteral">&quot;Read timeout&quot;</span>);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a81d731a7d54915ae4a28bc9882b8e108">readTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[sec]&quot;</span>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a81d731a7d54915ae4a28bc9882b8e108">readTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(60);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a81d731a7d54915ae4a28bc9882b8e108">readTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#abd8b4ebfbff744992a543641cad2b278">take_first</a>();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a81d731a7d54915ae4a28bc9882b8e108">readTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#affbb9fb4e20744e377767952507503f0">configurable</a>();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a02b60be065a69c37400ed7f78f18f677">writeTimeoutOpt</a> = <a class="code" href="classnet_1_1_config_conn.html#a8f19852239555e8a6bdedb02b5665659">connectionSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a1f9503a8cdceb4e5b42c9fd4ae6b7b10">add_option</a>(<span class="stringliteral">&quot;-w,--write-timeout&quot;</span>, <a class="code" href="classnet_1_1_config_conn.html#a78e54583bd94babcc685bb98ef8b3c2a">writeTimeout</a>, <span class="stringliteral">&quot;Write timeout&quot;</span>);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a02b60be065a69c37400ed7f78f18f677">writeTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[sec]&quot;</span>);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a02b60be065a69c37400ed7f78f18f677">writeTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(60);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a02b60be065a69c37400ed7f78f18f677">writeTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#abd8b4ebfbff744992a543641cad2b278">take_first</a>();</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a02b60be065a69c37400ed7f78f18f677">writeTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#affbb9fb4e20744e377767952507503f0">configurable</a>();</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#acdcc667c33cc1d5574625c7791b0af18">readBlockSizeOpt</a> = <a class="code" href="classnet_1_1_config_conn.html#a8f19852239555e8a6bdedb02b5665659">connectionSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a1f9503a8cdceb4e5b42c9fd4ae6b7b10">add_option</a>(<span class="stringliteral">&quot;--read-block-size&quot;</span>, <a class="code" href="classnet_1_1_config_conn.html#a30f16ae5247d7f45468915a7cde612ca">readBlockSize</a>, <span class="stringliteral">&quot;Read block size&quot;</span>);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#acdcc667c33cc1d5574625c7791b0af18">readBlockSizeOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[bytes]&quot;</span>);</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#acdcc667c33cc1d5574625c7791b0af18">readBlockSizeOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(16384);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#acdcc667c33cc1d5574625c7791b0af18">readBlockSizeOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#affbb9fb4e20744e377767952507503f0">configurable</a>();</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#aeb920c370cc24a12f699886a1c2795d2">writeBlockSizeOpt</a> = <a class="code" href="classnet_1_1_config_conn.html#a8f19852239555e8a6bdedb02b5665659">connectionSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a1f9503a8cdceb4e5b42c9fd4ae6b7b10">add_option</a>(<span class="stringliteral">&quot;--write-block-size&quot;</span>, <a class="code" href="classnet_1_1_config_conn.html#a97781ee533ec22f43c6c2c04f964960f">writeBlockSize</a>, <span class="stringliteral">&quot;Write block size&quot;</span>);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#aeb920c370cc24a12f699886a1c2795d2">writeBlockSizeOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[bytes]&quot;</span>);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#aeb920c370cc24a12f699886a1c2795d2">writeBlockSizeOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(16384);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#aeb920c370cc24a12f699886a1c2795d2">writeBlockSizeOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#affbb9fb4e20744e377767952507503f0">configurable</a>();</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a0b29d56ce88506d1fb9ad9bbf7a1a607">terminateTimeoutOpt</a> = <a class="code" href="classnet_1_1_config_conn.html#a8f19852239555e8a6bdedb02b5665659">connectionSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a1f9503a8cdceb4e5b42c9fd4ae6b7b10">add_option</a>(<span class="stringliteral">&quot;-t,--terminate-timeout&quot;</span>, <a class="code" href="classnet_1_1_config_conn.html#a1542eb2db532534ea57895b34dc4cc30">terminateTimeout</a>, <span class="stringliteral">&quot;Terminate timeout&quot;</span>);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a0b29d56ce88506d1fb9ad9bbf7a1a607">terminateTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[sec]&quot;</span>);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a0b29d56ce88506d1fb9ad9bbf7a1a607">terminateTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(1);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a0b29d56ce88506d1fb9ad9bbf7a1a607">terminateTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#affbb9fb4e20744e377767952507503f0">configurable</a>();</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
-<div class="ttc" id="aclass_c_l_i_1_1_app_html_a190faa07c199753e02dec21652cfc611"><div class="ttname"><a href="class_c_l_i_1_1_app.html#a190faa07c199753e02dec21652cfc611">CLI::App::group</a></div><div class="ttdeci">App * group(std::string group_name)</div><div class="ttdoc">Changes the group membership.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l06563">CLI11.hpp:6563</a></div></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#acdcc667c33cc1d5574625c7791b0af18">readBlockSizeOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#abd8b4ebfbff744992a543641cad2b278">take_first</a>();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#acdcc667c33cc1d5574625c7791b0af18">readBlockSizeOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#affbb9fb4e20744e377767952507503f0">configurable</a>();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#aeb920c370cc24a12f699886a1c2795d2">writeBlockSizeOpt</a> = <a class="code" href="classnet_1_1_config_conn.html#a8f19852239555e8a6bdedb02b5665659">connectionSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a1f9503a8cdceb4e5b42c9fd4ae6b7b10">add_option</a>(<span class="stringliteral">&quot;--write-block-size&quot;</span>, <a class="code" href="classnet_1_1_config_conn.html#a97781ee533ec22f43c6c2c04f964960f">writeBlockSize</a>, <span class="stringliteral">&quot;Write block size&quot;</span>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#aeb920c370cc24a12f699886a1c2795d2">writeBlockSizeOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[bytes]&quot;</span>);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#aeb920c370cc24a12f699886a1c2795d2">writeBlockSizeOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(16384);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#aeb920c370cc24a12f699886a1c2795d2">writeBlockSizeOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#abd8b4ebfbff744992a543641cad2b278">take_first</a>();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#aeb920c370cc24a12f699886a1c2795d2">writeBlockSizeOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#affbb9fb4e20744e377767952507503f0">configurable</a>();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a0b29d56ce88506d1fb9ad9bbf7a1a607">terminateTimeoutOpt</a> = <a class="code" href="classnet_1_1_config_conn.html#a8f19852239555e8a6bdedb02b5665659">connectionSc</a>-&gt;<a class="code" href="class_c_l_i_1_1_app.html#a1f9503a8cdceb4e5b42c9fd4ae6b7b10">add_option</a>(<span class="stringliteral">&quot;-t,--terminate-timeout&quot;</span>, <a class="code" href="classnet_1_1_config_conn.html#a1542eb2db532534ea57895b34dc4cc30">terminateTimeout</a>, <span class="stringliteral">&quot;Terminate timeout&quot;</span>);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a0b29d56ce88506d1fb9ad9bbf7a1a607">terminateTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[sec]&quot;</span>);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a0b29d56ce88506d1fb9ad9bbf7a1a607">terminateTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(1);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a0b29d56ce88506d1fb9ad9bbf7a1a607">terminateTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#abd8b4ebfbff744992a543641cad2b278">take_first</a>();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <a class="code" href="classnet_1_1_config_conn.html#a0b29d56ce88506d1fb9ad9bbf7a1a607">terminateTimeoutOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option_base.html#affbb9fb4e20744e377767952507503f0">configurable</a>();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
 <div class="ttc" id="aclass_c_l_i_1_1_app_html_a1f9503a8cdceb4e5b42c9fd4ae6b7b10"><div class="ttname"><a href="class_c_l_i_1_1_app.html#a1f9503a8cdceb4e5b42c9fd4ae6b7b10">CLI::App::add_option</a></div><div class="ttdeci">Option * add_option(std::string option_name, callback_t option_callback, std::string option_description=&quot;&quot;, bool defaulted=false, std::function&lt; std::string()&gt; func={})</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l06024">CLI11.hpp:6024</a></div></div>
 <div class="ttc" id="aclass_c_l_i_1_1_app_html_a5c26c64a49536e623739685f42475fc2"><div class="ttname"><a href="class_c_l_i_1_1_app.html#a5c26c64a49536e623739685f42475fc2">CLI::App::description</a></div><div class="ttdeci">App * description(std::string app_description)</div><div class="ttdoc">Set the description of the app.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l07034">CLI11.hpp:7034</a></div></div>
 <div class="ttc" id="aclass_c_l_i_1_1_app_html_a7ad6eb4ec4c5f4a0a9593af9f3fcf9cc"><div class="ttname"><a href="class_c_l_i_1_1_app.html#a7ad6eb4ec4c5f4a0a9593af9f3fcf9cc">CLI::App::add_subcommand</a></div><div class="ttdeci">App * add_subcommand(std::string subcommand_name=&quot;&quot;, std::string subcommand_description=&quot;&quot;)</div><div class="ttdoc">Add a subcommand. Inherits INHERITABLE and OptionDefaults, and help flag.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l06425">CLI11.hpp:6425</a></div></div>
 <div class="ttc" id="aclass_c_l_i_1_1_app_html_abb3478595ba469884249b28b3f39b737"><div class="ttname"><a href="class_c_l_i_1_1_app.html#abb3478595ba469884249b28b3f39b737">CLI::App::configurable</a></div><div class="ttdeci">App * configurable(bool value=true)</div><div class="ttdoc">Specify that the subcommand can be triggered by a config file.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l05958">CLI11.hpp:5958</a></div></div>
+<div class="ttc" id="aclass_c_l_i_1_1_option_base_html_abd8b4ebfbff744992a543641cad2b278"><div class="ttname"><a href="class_c_l_i_1_1_option_base.html#abd8b4ebfbff744992a543641cad2b278">CLI::OptionBase::take_first</a></div><div class="ttdeci">CRTP * take_first()</div><div class="ttdoc">Set the multi option policy to take last.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l04226">CLI11.hpp:4226</a></div></div>
 <div class="ttc" id="aclass_c_l_i_1_1_option_base_html_affbb9fb4e20744e377767952507503f0"><div class="ttname"><a href="class_c_l_i_1_1_option_base.html#affbb9fb4e20744e377767952507503f0">CLI::OptionBase::configurable</a></div><div class="ttdeci">CRTP * configurable(bool value=true)</div><div class="ttdoc">Allow in a configuration file.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l04255">CLI11.hpp:4255</a></div></div>
 <div class="ttc" id="aclass_c_l_i_1_1_option_html_a4685cebdb75c6bf8ce0095fd08d8b892"><div class="ttname"><a href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">CLI::Option::default_val</a></div><div class="ttdeci">Option * default_val(const X &amp;val)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l05302">CLI11.hpp:5302</a></div></div>
 <div class="ttc" id="aclass_c_l_i_1_1_option_html_addaddebd60f66aaedc13e5fb473db902"><div class="ttname"><a href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">CLI::Option::type_name</a></div><div class="ttdeci">Option * type_name(std::string typeval)</div><div class="ttdoc">Set a custom option typestring.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l05223">CLI11.hpp:5223</a></div></div>
@@ -227,11 +230,11 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aclassnet_1_1_config_conn_html_acdcc667c33cc1d5574625c7791b0af18"><div class="ttname"><a href="classnet_1_1_config_conn.html#acdcc667c33cc1d5574625c7791b0af18">net::ConfigConn::readBlockSizeOpt</a></div><div class="ttdeci">CLI::Option * readBlockSizeOpt</div><div class="ttdef"><b>Definition:</b> <a href="_config_conn_8h_source.html#l00056">ConfigConn.h:56</a></div></div>
 <div class="ttc" id="aclassnet_1_1_config_conn_html_aeb920c370cc24a12f699886a1c2795d2"><div class="ttname"><a href="classnet_1_1_config_conn.html#aeb920c370cc24a12f699886a1c2795d2">net::ConfigConn::writeBlockSizeOpt</a></div><div class="ttdeci">CLI::Option * writeBlockSizeOpt</div><div class="ttdef"><b>Definition:</b> <a href="_config_conn_8h_source.html#l00057">ConfigConn.h:57</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l06024">CLI::App::add_option()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l06425">CLI::App::add_subcommand()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l04255">CLI::OptionBase&lt; CRTP &gt;::configurable()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l05958">CLI::App::configurable()</a>, <a class="el" href="_config_conn_8h_source.html#l00053">connectionSc</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l05302">CLI::Option::default_val()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l07034">CLI::App::description()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l06563">CLI::App::group()</a>, <a class="el" href="_config_conn_8h_source.html#l00065">readBlockSize</a>, <a class="el" href="_config_conn_8h_source.html#l00056">readBlockSizeOpt</a>, <a class="el" href="_config_conn_8h_source.html#l00062">readTimeout</a>, <a class="el" href="_config_conn_8h_source.html#l00054">readTimeoutOpt</a>, <a class="el" href="_config_conn_8h_source.html#l00068">terminateTimeout</a>, <a class="el" href="_config_conn_8h_source.html#l00058">terminateTimeoutOpt</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l05223">CLI::Option::type_name()</a>, <a class="el" href="_config_conn_8h_source.html#l00066">writeBlockSize</a>, <a class="el" href="_config_conn_8h_source.html#l00057">writeBlockSizeOpt</a>, <a class="el" href="_config_conn_8h_source.html#l00063">writeTimeout</a>, and <a class="el" href="_config_conn_8h_source.html#l00055">writeTimeoutOpt</a>.</p>
+<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l06024">CLI::App::add_option()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l06425">CLI::App::add_subcommand()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l04255">CLI::OptionBase&lt; CRTP &gt;::configurable()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l05958">CLI::App::configurable()</a>, <a class="el" href="_config_conn_8h_source.html#l00053">connectionSc</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l05302">CLI::Option::default_val()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l07034">CLI::App::description()</a>, <a class="el" href="_config_conn_8h_source.html#l00065">readBlockSize</a>, <a class="el" href="_config_conn_8h_source.html#l00056">readBlockSizeOpt</a>, <a class="el" href="_config_conn_8h_source.html#l00062">readTimeout</a>, <a class="el" href="_config_conn_8h_source.html#l00054">readTimeoutOpt</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l04226">CLI::OptionBase&lt; CRTP &gt;::take_first()</a>, <a class="el" href="_config_conn_8h_source.html#l00068">terminateTimeout</a>, <a class="el" href="_config_conn_8h_source.html#l00058">terminateTimeoutOpt</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l05223">CLI::Option::type_name()</a>, <a class="el" href="_config_conn_8h_source.html#l00066">writeBlockSize</a>, <a class="el" href="_config_conn_8h_source.html#l00057">writeBlockSizeOpt</a>, <a class="el" href="_config_conn_8h_source.html#l00063">writeTimeout</a>, and <a class="el" href="_config_conn_8h_source.html#l00055">writeTimeoutOpt</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1_config_conn_a5639dae01b5e3fdc1fe2e78e5c90f382_cgraph.svg" width="858" height="395"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1_config_conn_a5639dae01b5e3fdc1fe2e78e5c90f382_cgraph.svg" width="858" height="411"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -253,10 +256,10 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_config_conn_8cpp_source.html#l00070">70</a> of file <a class="el" href="_config_conn_8cpp_source.html">ConfigConn.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                                                 {</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classnet_1_1_config_conn.html#a30f16ae5247d7f45468915a7cde612ca">readBlockSize</a>;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_config_conn_8cpp_source.html#l00073">73</a> of file <a class="el" href="_config_conn_8cpp_source.html">ConfigConn.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                                                 {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classnet_1_1_config_conn.html#a30f16ae5247d7f45468915a7cde612ca">readBlockSize</a>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_config_conn_8h_source.html#l00065">readBlockSize</a>.</p>
 
@@ -277,10 +280,10 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_config_conn_8cpp_source.html#l00062">62</a> of file <a class="el" href="_config_conn_8cpp_source.html">ConfigConn.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                                                         {</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classnet_1_1_config_conn.html#aaa795e09306bef282bd7df02a90dd82a">readTimeout</a>;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_config_conn_8cpp_source.html#l00065">65</a> of file <a class="el" href="_config_conn_8cpp_source.html">ConfigConn.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                                                         {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classnet_1_1_config_conn.html#aaa795e09306bef282bd7df02a90dd82a">readTimeout</a>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_config_conn_8h_source.html#l00062">readTimeout</a>.</p>
 
@@ -301,10 +304,10 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_config_conn_8cpp_source.html#l00078">78</a> of file <a class="el" href="_config_conn_8cpp_source.html">ConfigConn.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                                                              {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classnet_1_1_config_conn.html#a1542eb2db532534ea57895b34dc4cc30">terminateTimeout</a>;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_config_conn_8cpp_source.html#l00081">81</a> of file <a class="el" href="_config_conn_8cpp_source.html">ConfigConn.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                                              {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classnet_1_1_config_conn.html#a1542eb2db532534ea57895b34dc4cc30">terminateTimeout</a>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_config_conn_8h_source.html#l00068">terminateTimeout</a>.</p>
 
@@ -325,10 +328,10 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_config_conn_8cpp_source.html#l00074">74</a> of file <a class="el" href="_config_conn_8cpp_source.html">ConfigConn.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                                                  {</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classnet_1_1_config_conn.html#a97781ee533ec22f43c6c2c04f964960f">writeBlockSize</a>;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_config_conn_8cpp_source.html#l00077">77</a> of file <a class="el" href="_config_conn_8cpp_source.html">ConfigConn.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                                  {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classnet_1_1_config_conn.html#a97781ee533ec22f43c6c2c04f964960f">writeBlockSize</a>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_config_conn_8h_source.html#l00066">writeBlockSize</a>.</p>
 
@@ -349,10 +352,10 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_config_conn_8cpp_source.html#l00066">66</a> of file <a class="el" href="_config_conn_8cpp_source.html">ConfigConn.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                                                          {</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classnet_1_1_config_conn.html#a78e54583bd94babcc685bb98ef8b3c2a">writeTimeout</a>;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_config_conn_8cpp_source.html#l00069">69</a> of file <a class="el" href="_config_conn_8cpp_source.html">ConfigConn.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                                                          {</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classnet_1_1_config_conn.html#a78e54583bd94babcc685bb98ef8b3c2a">writeTimeout</a>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_config_conn_8h_source.html#l00063">writeTimeout</a>.</p>
 
@@ -431,7 +434,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_config_conn_8h_source.html#l00065">65</a> of file <a class="el" href="_config_conn_8h_source.html">ConfigConn.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_config_conn_8cpp_source.html#l00029">ConfigConn()</a>, and <a class="el" href="_config_conn_8cpp_source.html#l00070">getReadBlockSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_config_conn_8cpp_source.html#l00029">ConfigConn()</a>, and <a class="el" href="_config_conn_8cpp_source.html#l00073">getReadBlockSize()</a>.</p>
 
 </div>
 </div>
@@ -483,7 +486,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_config_conn_8h_source.html#l00062">62</a> of file <a class="el" href="_config_conn_8h_source.html">ConfigConn.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_config_conn_8cpp_source.html#l00029">ConfigConn()</a>, and <a class="el" href="_config_conn_8cpp_source.html#l00062">getReadTimeout()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_config_conn_8cpp_source.html#l00029">ConfigConn()</a>, and <a class="el" href="_config_conn_8cpp_source.html#l00065">getReadTimeout()</a>.</p>
 
 </div>
 </div>
@@ -535,7 +538,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_config_conn_8h_source.html#l00068">68</a> of file <a class="el" href="_config_conn_8h_source.html">ConfigConn.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_config_conn_8cpp_source.html#l00029">ConfigConn()</a>, and <a class="el" href="_config_conn_8cpp_source.html#l00078">getTerminateTimeout()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_config_conn_8cpp_source.html#l00029">ConfigConn()</a>, and <a class="el" href="_config_conn_8cpp_source.html#l00081">getTerminateTimeout()</a>.</p>
 
 </div>
 </div>
@@ -587,7 +590,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_config_conn_8h_source.html#l00066">66</a> of file <a class="el" href="_config_conn_8h_source.html">ConfigConn.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_config_conn_8cpp_source.html#l00029">ConfigConn()</a>, and <a class="el" href="_config_conn_8cpp_source.html#l00074">getWriteBlockSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_config_conn_8cpp_source.html#l00029">ConfigConn()</a>, and <a class="el" href="_config_conn_8cpp_source.html#l00077">getWriteBlockSize()</a>.</p>
 
 </div>
 </div>
@@ -639,7 +642,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_config_conn_8h_source.html#l00063">63</a> of file <a class="el" href="_config_conn_8h_source.html">ConfigConn.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_config_conn_8cpp_source.html#l00029">ConfigConn()</a>, and <a class="el" href="_config_conn_8cpp_source.html#l00066">getWriteTimeout()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_config_conn_8cpp_source.html#l00029">ConfigConn()</a>, and <a class="el" href="_config_conn_8cpp_source.html#l00069">getWriteTimeout()</a>.</p>
 
 </div>
 </div>

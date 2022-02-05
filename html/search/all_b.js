@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['keep_858',['Keep',['../namespaceweb_1_1http.html#ac27fdcf348c7472940ecd0e34342dca1a19331c4aeb7eb71943963ec94adb057e',1,'web::http']]],
-  ['key_859',['key',['../unionweb_1_1websocket_1_1_receiver_1_1_masking_key.html#aa543130c25e2d8f11573e33be7cdf7e7',1,'web::websocket::Receiver::MaskingKey']]],
-  ['keyasarray_860',['keyAsArray',['../unionweb_1_1websocket_1_1_receiver_1_1_masking_key.html#a593c45413c67d95013bd7aa14231b795',1,'web::websocket::Receiver::MaskingKey']]],
-  ['kill_861',['kill',['../classutils_1_1_config.html#a1012e6d8db116cb49c16cbec41800b6c',1,'utils::Config']]]
+  ['keep_884',['Keep',['../namespaceweb_1_1http.html#ac27fdcf348c7472940ecd0e34342dca1a19331c4aeb7eb71943963ec94adb057e',1,'web::http']]],
+  ['key_885',['key',['../unionweb_1_1websocket_1_1_receiver_1_1_masking_key.html#aa543130c25e2d8f11573e33be7cdf7e7',1,'web::websocket::Receiver::MaskingKey']]],
+  ['keyasarray_886',['keyAsArray',['../unionweb_1_1websocket_1_1_receiver_1_1_masking_key.html#a593c45413c67d95013bd7aa14231b795',1,'web::websocket::Receiver::MaskingKey']]],
+  ['kill_887',['kill',['../classutils_1_1_config.html#a1012e6d8db116cb49c16cbec41800b6c',1,'utils::Config::kill()'],['../classutils_1_1_daemon.html#aaf715f5b5f989773fd7cee261560ff37',1,'utils::Daemon::kill()']]]
 ];

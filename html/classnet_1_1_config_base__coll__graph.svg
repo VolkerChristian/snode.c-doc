@@ -13,15 +13,14 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="0,-776 0,-866 94,-866 94,-776 0,-776"/>
-<text text-anchor="middle" x="47" y="-854" font-family="Helvetica,sans-Serif" font-size="10.00">net::ConfigBase</text>
-<polyline fill="none" stroke="black" points="0,-847 94,-847 "/>
-<text text-anchor="start" x="8" y="-835" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; name</text>
-<polyline fill="none" stroke="black" points="0,-828 94,-828 "/>
-<text text-anchor="start" x="8" y="-816" font-family="Helvetica,sans-Serif" font-size="10.00">+ ConfigBase()</text>
-<text text-anchor="start" x="8" y="-805" font-family="Helvetica,sans-Serif" font-size="10.00">+ getName()</text>
-<text text-anchor="start" x="8" y="-794" font-family="Helvetica,sans-Serif" font-size="10.00">+ parse()</text>
-<text text-anchor="start" x="8" y="-783" font-family="Helvetica,sans-Serif" font-size="10.00"># required()</text>
+<polygon fill="#bfbfbf" stroke="black" points="0,-781.5 0,-860.5 94,-860.5 94,-781.5 0,-781.5"/>
+<text text-anchor="middle" x="47" y="-848.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::ConfigBase</text>
+<polyline fill="none" stroke="black" points="0,-841.5 94,-841.5 "/>
+<text text-anchor="start" x="8" y="-829.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; name</text>
+<polyline fill="none" stroke="black" points="0,-822.5 94,-822.5 "/>
+<text text-anchor="start" x="8" y="-810.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ConfigBase()</text>
+<text text-anchor="start" x="8" y="-799.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getName()</text>
+<text text-anchor="start" x="8" y="-788.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ parse()</text>
 </a>
 </g>
 </g>
@@ -201,8 +200,8 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#404040" d="M49.63,-1722.48C49.41,-1716.3 49.2,-1710.14 49,-1704 38.73,-1392.34 43.53,-1018.4 45.93,-878.48"/>
-<polygon fill="none" stroke="#404040" points="45.93,-878.07 42.04,-872 46.14,-866.07 50.04,-872.14 45.93,-878.07"/>
+<path fill="none" stroke="#404040" d="M49.63,-1722.48C49.41,-1716.3 49.2,-1710.14 49,-1704 38.59,-1388.21 43.66,-1008.47 46.02,-873.04"/>
+<polygon fill="none" stroke="#404040" points="46.03,-872.7 42.13,-866.63 46.24,-860.7 50.13,-866.77 46.03,-872.7"/>
 <text text-anchor="middle" x="72" y="-1679.5" font-family="Helvetica,sans-Serif" font-size="10.00"> #baseSc</text>
 </g>
 <!-- Node2&#45;&gt;Node2 -->

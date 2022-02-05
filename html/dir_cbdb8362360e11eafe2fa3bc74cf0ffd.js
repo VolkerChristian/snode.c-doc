@@ -8,6 +8,10 @@ var dir_cbdb8362360e11eafe2fa3bc74cf0ffd =
     [ "Config.h", "_config_8h.html", [
       [ "Config", "classutils_1_1_config.html", "classutils_1_1_config" ]
     ] ],
+    [ "Daemon.cpp", "_daemon_8cpp.html", "_daemon_8cpp" ],
+    [ "Daemon.h", "_daemon_8h.html", [
+      [ "Daemon", "classutils_1_1_daemon.html", "classutils_1_1_daemon" ]
+    ] ],
     [ "instrumentation.cpp", "instrumentation_8cpp.html", "instrumentation_8cpp" ],
     [ "sha1.cpp", "sha1_8cpp.html", "sha1_8cpp" ],
     [ "sha1.h", "sha1_8h.html", "sha1_8h" ],

@@ -16,6 +16,7 @@ var classcore_1_1socket_1_1stream_1_1_socket_writer =
     [ "markShutdown", "classcore_1_1socket_1_1stream_1_1_socket_writer.html#a2d6c66078757083f99ff8ede184db5eb", null ],
     [ "onError", "classcore_1_1socket_1_1stream_1_1_socket_writer.html#ae8b9b9e1eb2dd92c63640e1c1c9ba57b", null ],
     [ "shutdownInProgress", "classcore_1_1socket_1_1stream_1_1_socket_writer.html#a8340b8587f3d02196c4c439d40485f69", null ],
+    [ "terminateInProgress", "classcore_1_1socket_1_1stream_1_1_socket_writer.html#a9c95e7288e3c7968a0d21f285ff3206f", null ],
     [ "terminateTimeout", "classcore_1_1socket_1_1stream_1_1_socket_writer.html#a8eadbe91614e217f8949b5ef578db8e8", null ],
     [ "writeBuffer", "classcore_1_1socket_1_1stream_1_1_socket_writer.html#a640b6d15769aeb00fe839410326858b1", null ]
 ];

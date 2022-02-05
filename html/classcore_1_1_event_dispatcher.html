@@ -98,13 +98,13 @@ $(document).ready(function(){initNavTree('classcore_1_1_event_dispatcher.html','
 <div class="dynheader">
 Inheritance diagram for core::EventDispatcher:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_dispatcher__inherit__graph.svg" width="675" height="580"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_dispatcher__inherit__graph.svg" width="675" height="654"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for core::EventDispatcher:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_dispatcher__coll__graph.svg" width="284" height="610"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_dispatcher__coll__graph.svg" width="284" height="683"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -122,6 +122,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab66f88205f662bc29adce3aa4542711f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b06ddc10b95166fed700f63c16c1232"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1_timer_event_dispatcher.html">TimerEventDispatcher</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_dispatcher.html#a0b06ddc10b95166fed700f63c16c1232">getTimerEventDispatcher</a> ()</td></tr>
 <tr class="separator:a0b06ddc10b95166fed700f63c16c1232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67ea6954faa01cc7b64293dc116056c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_dispatcher.html#a67ea6954faa01cc7b64293dc116056c9">publish</a> (<a class="el" href="classcore_1_1_event.html">core::Event</a> *event)</td></tr>
+<tr class="separator:a67ea6954faa01cc7b64293dc116056c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b403d2a3f909e4f867d1e5ab5376e52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749">TickStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_dispatcher.html#a5b403d2a3f909e4f867d1e5ab5376e52">dispatch</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;tickTimeOut, bool stopped)</td></tr>
 <tr class="separator:a5b403d2a3f909e4f867d1e5ab5376e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8516a3072393f99750d5ff3434db3b94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_dispatcher.html#a8516a3072393f99750d5ff3434db3b94">stop</a> ()</td></tr>
@@ -153,25 +155,33 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:acf7b6adb4fd74fda1f92ef101779b21b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec3bf96a7dcb8be5546d226e891bb90f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1_event_dispatcher.html">EventDispatcher</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_dispatcher.html#aec3bf96a7dcb8be5546d226e891bb90f">operator=</a> (const <a class="el" href="classcore_1_1_event_dispatcher.html">EventDispatcher</a> &amp;)=delete</td></tr>
 <tr class="separator:aec3bf96a7dcb8be5546d226e891bb90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8f664193eb430561cb2d903439a01dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_dispatcher.html#ac8f664193eb430561cb2d903439a01dc">executeEventQueue</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime)</td></tr>
+<tr class="separator:ac8f664193eb430561cb2d903439a01dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba0977fdf864069c170d9981b01370a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_dispatcher.html#aba0977fdf864069c170d9981b01370a0">checkTimedOutEvents</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime)</td></tr>
+<tr class="separator:aba0977fdf864069c170d9981b01370a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8668613420b1b5d7df85ba012638c827"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_dispatcher.html#a8668613420b1b5d7df85ba012638c827">getNextTimeout</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime)</td></tr>
 <tr class="separator:a8668613420b1b5d7df85ba012638c827"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72c47a2528ac429eaf731bafb10035e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_dispatcher.html#a72c47a2528ac429eaf731bafb10035e6">observeEnabledEvents</a> ()</td></tr>
-<tr class="separator:a72c47a2528ac429eaf731bafb10035e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f87d6139ea3f1944b3c997214683784"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_dispatcher.html#a7f87d6139ea3f1944b3c997214683784">observeEnabledEvents</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime)</td></tr>
+<tr class="separator:a7f87d6139ea3f1944b3c997214683784"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ecbf87eb5bb10f93779e61e7a59d5d5"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_dispatcher.html#a0ecbf87eb5bb10f93779e61e7a59d5d5">multiplex</a> (<a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;tickTimeOut)=0</td></tr>
 <tr class="separator:a0ecbf87eb5bb10f93779e61e7a59d5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a871c108fbe3474eda25a7a8308fff058"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_dispatcher.html#a871c108fbe3474eda25a7a8308fff058">dispatchActiveEvents</a> (int count, const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime)=0</td></tr>
-<tr class="separator:a871c108fbe3474eda25a7a8308fff058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a7ceb977756a17324dca36a3b4e0a97"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_dispatcher.html#a6a7ceb977756a17324dca36a3b4e0a97">dispatchActiveEvents</a> (int count)=0</td></tr>
+<tr class="separator:a6a7ceb977756a17324dca36a3b4e0a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80267a1a4b993c326ea2cca579b5fd22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_dispatcher.html#a80267a1a4b993c326ea2cca579b5fd22">dispatchImmediateEvents</a> ()</td></tr>
+<tr class="separator:a80267a1a4b993c326ea2cca579b5fd22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab81cc018afefef91d1b3bafc0baf12fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_dispatcher.html#ab81cc018afefef91d1b3bafc0baf12fc">unobserveDisabledEvents</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime)</td></tr>
 <tr class="separator:ab81cc018afefef91d1b3bafc0baf12fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a2b26011bac7999cff0a7686bd4529adc"><td class="memItemLeft" align="right" valign="top">std::deque&lt; <a class="el" href="classcore_1_1_event.html">Event</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_dispatcher.html#a2b26011bac7999cff0a7686bd4529adc">eventQueue</a></td></tr>
+<tr class="separator:a2b26011bac7999cff0a7686bd4529adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37f3a2fc56c7817c98dd4d064c124818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1_timer_event_dispatcher.html">core::TimerEventDispatcher</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">timerEventDispatcher</a></td></tr>
 <tr class="separator:a37f3a2fc56c7817c98dd4d064c124818"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8h_source.html#l00041">41</a> of file <a class="el" href="_event_dispatcher_8h_source.html">EventDispatcher.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8h_source.html#l00043">43</a> of file <a class="el" href="_event_dispatcher_8h_source.html">EventDispatcher.h</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a979ee87db10fb248bee2443b82424d8b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a979ee87db10fb248bee2443b82424d8b">&#9670;&nbsp;</a></span>DISP_TYPE</h2>
@@ -190,11 +200,11 @@ Private Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="a979ee87db10fb248bee2443b82424d8ba5fecb37e76c991d620f1919813292f97"></a>EX&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8h_source.html#l00054">54</a> of file <a class="el" href="_event_dispatcher_8h_source.html">EventDispatcher.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;{ <a class="code" href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8ba26bffd1e5037589f9b903a6266a14b09">RD</a> = 0, <a class="code" href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8baa59136c213f8053cb7a68638887eb2f2">WR</a> = 1, <a class="code" href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8ba5fecb37e76c991d620f1919813292f97">EX</a> = 2 };</div>
-<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a979ee87db10fb248bee2443b82424d8ba26bffd1e5037589f9b903a6266a14b09"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8ba26bffd1e5037589f9b903a6266a14b09">core::EventDispatcher::RD</a></div><div class="ttdeci">@ RD</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8h_source.html#l00054">EventDispatcher.h:54</a></div></div>
-<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a979ee87db10fb248bee2443b82424d8ba5fecb37e76c991d620f1919813292f97"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8ba5fecb37e76c991d620f1919813292f97">core::EventDispatcher::EX</a></div><div class="ttdeci">@ EX</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8h_source.html#l00054">EventDispatcher.h:54</a></div></div>
-<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a979ee87db10fb248bee2443b82424d8baa59136c213f8053cb7a68638887eb2f2"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8baa59136c213f8053cb7a68638887eb2f2">core::EventDispatcher::WR</a></div><div class="ttdeci">@ WR</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8h_source.html#l00054">EventDispatcher.h:54</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8h_source.html#l00056">56</a> of file <a class="el" href="_event_dispatcher_8h_source.html">EventDispatcher.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{ <a class="code" href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8ba26bffd1e5037589f9b903a6266a14b09">RD</a> = 0, <a class="code" href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8baa59136c213f8053cb7a68638887eb2f2">WR</a> = 1, <a class="code" href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8ba5fecb37e76c991d620f1919813292f97">EX</a> = 2 };</div>
+<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a979ee87db10fb248bee2443b82424d8ba26bffd1e5037589f9b903a6266a14b09"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8ba26bffd1e5037589f9b903a6266a14b09">core::EventDispatcher::RD</a></div><div class="ttdeci">@ RD</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8h_source.html#l00056">EventDispatcher.h:56</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a979ee87db10fb248bee2443b82424d8ba5fecb37e76c991d620f1919813292f97"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8ba5fecb37e76c991d620f1919813292f97">core::EventDispatcher::EX</a></div><div class="ttdeci">@ EX</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8h_source.html#l00056">EventDispatcher.h:56</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a979ee87db10fb248bee2443b82424d8baa59136c213f8053cb7a68638887eb2f2"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a979ee87db10fb248bee2443b82424d8baa59136c213f8053cb7a68638887eb2f2">core::EventDispatcher::WR</a></div><div class="ttdeci">@ WR</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8h_source.html#l00056">EventDispatcher.h:56</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -265,12 +275,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00035">35</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>{readDescriptorEventDispatcher, writeDescriptorEventDispatcher, exceptionDescriptorEventDispatcher}</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        , <a class="code" href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">timerEventDispatcher</a>(<span class="keyword">new</span> <a class="code" href="classcore_1_1_timer_event_dispatcher.html">core::TimerEventDispatcher</a>()) {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a2535c6c3544e1215c6eb6b7b47fdbe4b"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">core::EventDispatcher::descriptorEventDispatcher</a></div><div class="ttdeci">std::array&lt; core::DescriptorEventDispatcher *, 3 &gt; descriptorEventDispatcher</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8h_source.html#l00077">EventDispatcher.h:77</a></div></div>
-<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a37f3a2fc56c7817c98dd4d064c124818"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">core::EventDispatcher::timerEventDispatcher</a></div><div class="ttdeci">core::TimerEventDispatcher *const timerEventDispatcher</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8h_source.html#l00080">EventDispatcher.h:80</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00036">36</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>{readDescriptorEventDispatcher, writeDescriptorEventDispatcher, exceptionDescriptorEventDispatcher}</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        , <a class="code" href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">timerEventDispatcher</a>(<span class="keyword">new</span> <a class="code" href="classcore_1_1_timer_event_dispatcher.html">core::TimerEventDispatcher</a>()) {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a2535c6c3544e1215c6eb6b7b47fdbe4b"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">core::EventDispatcher::descriptorEventDispatcher</a></div><div class="ttdeci">std::array&lt; core::DescriptorEventDispatcher *, 3 &gt; descriptorEventDispatcher</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8h_source.html#l00085">EventDispatcher.h:85</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a37f3a2fc56c7817c98dd4d064c124818"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">core::EventDispatcher::timerEventDispatcher</a></div><div class="ttdeci">core::TimerEventDispatcher *const timerEventDispatcher</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8h_source.html#l00090">EventDispatcher.h:90</a></div></div>
 <div class="ttc" id="aclasscore_1_1_timer_event_dispatcher_html"><div class="ttname"><a href="classcore_1_1_timer_event_dispatcher.html">core::TimerEventDispatcher</a></div><div class="ttdef"><b>Definition:</b> <a href="_timer_event_dispatcher_8h_source.html#l00036">TimerEventDispatcher.h:36</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -298,21 +308,64 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00042">42</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                                      {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a> : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="keyword">delete</span> <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        }</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keyword">delete</span> <a class="code" href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">timerEventDispatcher</a>;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1_descriptor_event_dispatcher_html"><div class="ttname"><a href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a></div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_event_dispatcher_8h_source.html#l00039">DescriptorEventDispatcher.h:39</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00043">43</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                                      {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a> : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="keyword">delete</span> <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keyword">delete</span> <a class="code" href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">timerEventDispatcher</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1_descriptor_event_dispatcher_html"><div class="ttname"><a href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a></div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_event_dispatcher_8h_source.html#l00040">DescriptorEventDispatcher.h:40</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00077">descriptorEventDispatcher</a>, and <a class="el" href="_event_dispatcher_8h_source.html#l00080">timerEventDispatcher</a>.</p>
+<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00085">descriptorEventDispatcher</a>, and <a class="el" href="_event_dispatcher_8h_source.html#l00090">timerEventDispatcher</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aba0977fdf864069c170d9981b01370a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba0977fdf864069c170d9981b01370a0">&#9670;&nbsp;</a></span>checkTimedOutEvents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void core::EventDispatcher::checkTimedOutEvents </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;&#160;</td>
+          <td class="paramname"><em>currentTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00165">165</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                                                                             {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <span class="keyword">const</span> eventDispatcher : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) {</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            eventDispatcher-&gt;checkTimedOutEvents(currentTime);</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        }</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00085">descriptorEventDispatcher</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00081">dispatch()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_dispatcher_aba0977fdf864069c170d9981b01370a0_icgraph.svg" width="1471" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a5b403d2a3f909e4f867d1e5ab5376e52"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5b403d2a3f909e4f867d1e5ab5376e52">&#9670;&nbsp;</a></span>dispatch()</h2>
 
@@ -339,51 +392,56 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00076">76</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                                                                      {</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <a class="code" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749">TickStatus</a> tickStatus = <a class="code" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c">TickStatus::SUCCESS</a>;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <a class="code" href="classcore_1_1_event_dispatcher.html#a72c47a2528ac429eaf731bafb10035e6">EventDispatcher::observeEnabledEvents</a>();</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordtype">int</span> observedEventReceiverCount = <a class="code" href="classcore_1_1_event_dispatcher.html#af0ab163c3c810c0a7a345c644e8dceab">getObservedEventReceiverCount</a>();</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> currentTime = <a class="code" href="classutils_1_1_timeval.html#a54b232dc1ffeea007100dcd1caad1987">utils::Timeval::currentTime</a>();</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> nextEventTimeout = <a class="code" href="classcore_1_1_event_dispatcher.html#a8668613420b1b5d7df85ba012638c827">getNextTimeout</a>(currentTime);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> nextTimerTimeout = <a class="code" href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">timerEventDispatcher</a>-&gt;<a class="code" href="classcore_1_1_timer_event_dispatcher.html#a1a0a3e8a85f873c37bb0f38dd49b4cda">getNextTimeout</a>(currentTime);</div>
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00081">81</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                                                                      {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="code" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749">TickStatus</a> tickStatus = <a class="code" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c">TickStatus::SUCCESS</a>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> currentTime = <a class="code" href="classutils_1_1_timeval.html#a54b232dc1ffeea007100dcd1caad1987">utils::Timeval::currentTime</a>();</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <a class="code" href="classcore_1_1_event_dispatcher.html#ac8f664193eb430561cb2d903439a01dc">executeEventQueue</a>(currentTime);</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">if</span> (observedEventReceiverCount &gt; 0 || (!<a class="code" href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">timerEventDispatcher</a>-&gt;<a class="code" href="classcore_1_1_timer_event_dispatcher.html#ab9e60520aa911e56dc0fcb8db01a7372">empty</a>() &amp;&amp; !stopped)) {</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> nextTimeout = stopped ? nextEventTimeout : std::min(nextTimerTimeout, nextEventTimeout);</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            nextTimeout = std::min(nextTimeout, tickTimeOut);</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            nextTimeout = std::max(nextTimeout, <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a>()); <span class="comment">// In case nextEventTimeout is negativ</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="keywordtype">int</span> ret = <a class="code" href="classcore_1_1_event_dispatcher.html#a0ecbf87eb5bb10f93779e61e7a59d5d5">multiplex</a>(nextTimeout);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <a class="code" href="classcore_1_1_event_dispatcher.html#aba0977fdf864069c170d9981b01370a0">checkTimedOutEvents</a>(currentTime);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <a class="code" href="classcore_1_1_event_dispatcher.html#ab81cc018afefef91d1b3bafc0baf12fc">unobserveDisabledEvents</a>(currentTime);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="code" href="classcore_1_1_event_dispatcher.html#a7f87d6139ea3f1944b3c997214683784">observeEnabledEvents</a>(currentTime);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classcore_1_1_event_dispatcher.html#af0ab163c3c810c0a7a345c644e8dceab">getObservedEventReceiverCount</a>() &gt; 0 || (!<a class="code" href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">timerEventDispatcher</a>-&gt;<a class="code" href="classcore_1_1_timer_event_dispatcher.html#ab9e60520aa911e56dc0fcb8db01a7372">empty</a>() &amp;&amp; !stopped)) {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> nextEventTimeout = <a class="code" href="classcore_1_1_event_dispatcher.html#a8668613420b1b5d7df85ba012638c827">getNextTimeout</a>(currentTime);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> nextTimerTimeout = <a class="code" href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">timerEventDispatcher</a>-&gt;<a class="code" href="classcore_1_1_timer_event_dispatcher.html#a1a0a3e8a85f873c37bb0f38dd49b4cda">getNextTimeout</a>(currentTime);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            <span class="keywordflow">if</span> (ret &gt;= 0) {</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                currentTime = <a class="code" href="classutils_1_1_timeval.html#a54b232dc1ffeea007100dcd1caad1987">utils::Timeval::currentTime</a>();</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                <a class="code" href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">timerEventDispatcher</a>-&gt;<a class="code" href="classcore_1_1_timer_event_dispatcher.html#ad9f23074622661d99d7dacf624fe22d0">dispatchActiveEvents</a>(currentTime);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> nextTimeout = stopped ? nextEventTimeout : std::min(nextTimerTimeout, nextEventTimeout);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            nextTimeout = std::min(nextTimeout, tickTimeOut);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            nextTimeout = std::max(nextTimeout, <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a>()); <span class="comment">// In case nextEventTimeout is negativ</span></div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                <a class="code" href="classcore_1_1_event_dispatcher.html#a871c108fbe3474eda25a7a8308fff058">dispatchActiveEvents</a>(ret, currentTime);</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                <a class="code" href="classcore_1_1_event_dispatcher.html#ab81cc018afefef91d1b3bafc0baf12fc">unobserveDisabledEvents</a>(currentTime);</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                <span class="keywordflow">if</span> (errno != EINTR) {</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                    tickStatus = <a class="code" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749abb1ca97ec761fc37101737ba0aa2e7c5">TickStatus::ERROR</a>;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                }</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            }</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            tickStatus = <a class="code" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749a925ec21267dbd278be63adfb4a34bf98">TickStatus::NO_OBSERVER</a>;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        }</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">return</span> tickStatus;</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    }</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            <span class="keywordtype">int</span> ret = <a class="code" href="classcore_1_1_event_dispatcher.html#a0ecbf87eb5bb10f93779e61e7a59d5d5">multiplex</a>(nextTimeout);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            <span class="keywordflow">if</span> (ret &gt;= 0) {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                currentTime = <a class="code" href="classutils_1_1_timeval.html#a54b232dc1ffeea007100dcd1caad1987">utils::Timeval::currentTime</a>();</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                <a class="code" href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">timerEventDispatcher</a>-&gt;<a class="code" href="classcore_1_1_timer_event_dispatcher.html#ad9f23074622661d99d7dacf624fe22d0">dispatchActiveEvents</a>(currentTime);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                <a class="code" href="classcore_1_1_event_dispatcher.html#a6a7ceb977756a17324dca36a3b4e0a97">dispatchActiveEvents</a>(ret);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                <a class="code" href="classcore_1_1_event_dispatcher.html#a80267a1a4b993c326ea2cca579b5fd22">dispatchImmediateEvents</a>();</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                <span class="keywordflow">if</span> (errno != EINTR) {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                    tickStatus = <a class="code" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749abb1ca97ec761fc37101737ba0aa2e7c5">TickStatus::ERROR</a>;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                }</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            }</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            tickStatus = <a class="code" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749a925ec21267dbd278be63adfb4a34bf98">TickStatus::NO_OBSERVER</a>;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        }</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">return</span> tickStatus;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a0ecbf87eb5bb10f93779e61e7a59d5d5"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a0ecbf87eb5bb10f93779e61e7a59d5d5">core::EventDispatcher::multiplex</a></div><div class="ttdeci">virtual int multiplex(utils::Timeval &amp;tickTimeOut)=0</div></div>
-<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a72c47a2528ac429eaf731bafb10035e6"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a72c47a2528ac429eaf731bafb10035e6">core::EventDispatcher::observeEnabledEvents</a></div><div class="ttdeci">void observeEnabledEvents()</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8cpp_source.html#l00150">EventDispatcher.cpp:150</a></div></div>
-<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a8668613420b1b5d7df85ba012638c827"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a8668613420b1b5d7df85ba012638c827">core::EventDispatcher::getNextTimeout</a></div><div class="ttdeci">utils::Timeval getNextTimeout(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8cpp_source.html#l00141">EventDispatcher.cpp:141</a></div></div>
-<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a871c108fbe3474eda25a7a8308fff058"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a871c108fbe3474eda25a7a8308fff058">core::EventDispatcher::dispatchActiveEvents</a></div><div class="ttdeci">virtual void dispatchActiveEvents(int count, const utils::Timeval &amp;currentTime)=0</div></div>
-<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_ab81cc018afefef91d1b3bafc0baf12fc"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#ab81cc018afefef91d1b3bafc0baf12fc">core::EventDispatcher::unobserveDisabledEvents</a></div><div class="ttdeci">void unobserveDisabledEvents(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8cpp_source.html#l00156">EventDispatcher.cpp:156</a></div></div>
-<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_af0ab163c3c810c0a7a345c644e8dceab"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#af0ab163c3c810c0a7a345c644e8dceab">core::EventDispatcher::getObservedEventReceiverCount</a></div><div class="ttdeci">int getObservedEventReceiverCount()</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8cpp_source.html#l00058">EventDispatcher.cpp:58</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a6a7ceb977756a17324dca36a3b4e0a97"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a6a7ceb977756a17324dca36a3b4e0a97">core::EventDispatcher::dispatchActiveEvents</a></div><div class="ttdeci">virtual void dispatchActiveEvents(int count)=0</div></div>
+<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a7f87d6139ea3f1944b3c997214683784"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a7f87d6139ea3f1944b3c997214683784">core::EventDispatcher::observeEnabledEvents</a></div><div class="ttdeci">void observeEnabledEvents(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8cpp_source.html#l00171">EventDispatcher.cpp:171</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a80267a1a4b993c326ea2cca579b5fd22"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a80267a1a4b993c326ea2cca579b5fd22">core::EventDispatcher::dispatchImmediateEvents</a></div><div class="ttdeci">void dispatchImmediateEvents()</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8cpp_source.html#l00177">EventDispatcher.cpp:177</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a8668613420b1b5d7df85ba012638c827"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a8668613420b1b5d7df85ba012638c827">core::EventDispatcher::getNextTimeout</a></div><div class="ttdeci">utils::Timeval getNextTimeout(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8cpp_source.html#l00148">EventDispatcher.cpp:148</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_ab81cc018afefef91d1b3bafc0baf12fc"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#ab81cc018afefef91d1b3bafc0baf12fc">core::EventDispatcher::unobserveDisabledEvents</a></div><div class="ttdeci">void unobserveDisabledEvents(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8cpp_source.html#l00183">EventDispatcher.cpp:183</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_aba0977fdf864069c170d9981b01370a0"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#aba0977fdf864069c170d9981b01370a0">core::EventDispatcher::checkTimedOutEvents</a></div><div class="ttdeci">void checkTimedOutEvents(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8cpp_source.html#l00165">EventDispatcher.cpp:165</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_ac8f664193eb430561cb2d903439a01dc"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#ac8f664193eb430561cb2d903439a01dc">core::EventDispatcher::executeEventQueue</a></div><div class="ttdeci">void executeEventQueue(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8cpp_source.html#l00157">EventDispatcher.cpp:157</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_af0ab163c3c810c0a7a345c644e8dceab"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#af0ab163c3c810c0a7a345c644e8dceab">core::EventDispatcher::getObservedEventReceiverCount</a></div><div class="ttdeci">int getObservedEventReceiverCount()</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8cpp_source.html#l00063">EventDispatcher.cpp:63</a></div></div>
 <div class="ttc" id="aclasscore_1_1_timer_event_dispatcher_html_a1a0a3e8a85f873c37bb0f38dd49b4cda"><div class="ttname"><a href="classcore_1_1_timer_event_dispatcher.html#a1a0a3e8a85f873c37bb0f38dd49b4cda">core::TimerEventDispatcher::getNextTimeout</a></div><div class="ttdeci">utils::Timeval getNextTimeout(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_timer_event_dispatcher_8cpp_source.html#l00032">TimerEventDispatcher.cpp:32</a></div></div>
 <div class="ttc" id="aclasscore_1_1_timer_event_dispatcher_html_ab9e60520aa911e56dc0fcb8db01a7372"><div class="ttname"><a href="classcore_1_1_timer_event_dispatcher.html#ab9e60520aa911e56dc0fcb8db01a7372">core::TimerEventDispatcher::empty</a></div><div class="ttdeci">bool empty()</div><div class="ttdef"><b>Definition:</b> <a href="_timer_event_dispatcher_8cpp_source.html#l00087">TimerEventDispatcher.cpp:87</a></div></div>
 <div class="ttc" id="aclasscore_1_1_timer_event_dispatcher_html_ad9f23074622661d99d7dacf624fe22d0"><div class="ttname"><a href="classcore_1_1_timer_event_dispatcher.html#ad9f23074622661d99d7dacf624fe22d0">core::TimerEventDispatcher::dispatchActiveEvents</a></div><div class="ttdeci">void dispatchActiveEvents(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_timer_event_dispatcher_8cpp_source.html#l00066">TimerEventDispatcher.cpp:66</a></div></div>
@@ -394,13 +452,13 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="anamespacecore_html_a47acf5c7d3fb3967a2547c74082e9749abb1ca97ec761fc37101737ba0aa2e7c5"><div class="ttname"><a href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749abb1ca97ec761fc37101737ba0aa2e7c5">core::TickStatus::ERROR</a></div><div class="ttdeci">@ ERROR</div></div>
 <div class="ttc" id="anamespacecore_html_a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c"><div class="ttname"><a href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c">core::TickStatus::SUCCESS</a></div><div class="ttdeci">@ SUCCESS</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8cpp_source.html#l00062">utils::Timeval::currentTime()</a>, <a class="el" href="_timer_event_dispatcher_8cpp_source.html#l00066">core::TimerEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="classcore_1_1_event_dispatcher.html#a871c108fbe3474eda25a7a8308fff058">dispatchActiveEvents()</a>, <a class="el" href="_timer_event_dispatcher_8cpp_source.html#l00087">core::TimerEventDispatcher::empty()</a>, <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749abb1ca97ec761fc37101737ba0aa2e7c5">core::ERROR</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00141">getNextTimeout()</a>, <a class="el" href="_timer_event_dispatcher_8cpp_source.html#l00032">core::TimerEventDispatcher::getNextTimeout()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00058">getObservedEventReceiverCount()</a>, <a class="el" href="classcore_1_1_event_dispatcher.html#a0ecbf87eb5bb10f93779e61e7a59d5d5">multiplex()</a>, <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749a925ec21267dbd278be63adfb4a34bf98">core::NO_OBSERVER</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00150">observeEnabledEvents()</a>, <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c">core::SUCCESS</a>, <a class="el" href="_event_dispatcher_8h_source.html#l00080">timerEventDispatcher</a>, and <a class="el" href="_event_dispatcher_8cpp_source.html#l00156">unobserveDisabledEvents()</a>.</p>
+<p class="reference">References <a class="el" href="_event_dispatcher_8cpp_source.html#l00165">checkTimedOutEvents()</a>, <a class="el" href="_timeval_8cpp_source.html#l00062">utils::Timeval::currentTime()</a>, <a class="el" href="_timer_event_dispatcher_8cpp_source.html#l00066">core::TimerEventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="classcore_1_1_event_dispatcher.html#a6a7ceb977756a17324dca36a3b4e0a97">dispatchActiveEvents()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00177">dispatchImmediateEvents()</a>, <a class="el" href="_timer_event_dispatcher_8cpp_source.html#l00087">core::TimerEventDispatcher::empty()</a>, <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749abb1ca97ec761fc37101737ba0aa2e7c5">core::ERROR</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00157">executeEventQueue()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00148">getNextTimeout()</a>, <a class="el" href="_timer_event_dispatcher_8cpp_source.html#l00032">core::TimerEventDispatcher::getNextTimeout()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00063">getObservedEventReceiverCount()</a>, <a class="el" href="classcore_1_1_event_dispatcher.html#a0ecbf87eb5bb10f93779e61e7a59d5d5">multiplex()</a>, <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749a925ec21267dbd278be63adfb4a34bf98">core::NO_OBSERVER</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00171">observeEnabledEvents()</a>, <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c">core::SUCCESS</a>, <a class="el" href="_event_dispatcher_8h_source.html#l00090">timerEventDispatcher</a>, and <a class="el" href="_event_dispatcher_8cpp_source.html#l00183">unobserveDisabledEvents()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_loop_8cpp_source.html#l00184">core::EventLoop::_tick()</a>, and <a class="el" href="_event_dispatcher_8cpp_source.html#l00115">stop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_loop_8cpp_source.html#l00090">core::EventLoop::_tick()</a>, and <a class="el" href="_event_dispatcher_8cpp_source.html#l00122">stop()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_dispatcher_a5b403d2a3f909e4f867d1e5ab5376e52_cgraph.svg" width="720" height="627"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_dispatcher_a5b403d2a3f909e4f867d1e5ab5376e52_cgraph.svg" width="720" height="823"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -412,8 +470,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a871c108fbe3474eda25a7a8308fff058"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a871c108fbe3474eda25a7a8308fff058">&#9670;&nbsp;</a></span>dispatchActiveEvents()</h2>
+<a id="a6a7ceb977756a17324dca36a3b4e0a97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a7ceb977756a17324dca36a3b4e0a97">&#9670;&nbsp;</a></span>dispatchActiveEvents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -425,18 +483,8 @@ Here is the caller graph for this function:</div>
           <td class="memname">virtual void core::EventDispatcher::dispatchActiveEvents </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>count</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>count</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;&#160;</td>
-          <td class="paramname"><em>currentTime</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -446,13 +494,102 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcore_1_1select_1_1_event_dispatcher.html#af25d1aec4e13ab903056d03c6a774e00">core::select::EventDispatcher</a>, <a class="el" href="classcore_1_1poll_1_1_event_dispatcher.html#a23ffae7ec7bc076a6b225a19aafef99a">core::poll::EventDispatcher</a>, and <a class="el" href="classcore_1_1epoll_1_1_event_dispatcher.html#a68f0b5a963c921182575c65a803625cd">core::epoll::EventDispatcher</a>.</p>
+<p>Implemented in <a class="el" href="classcore_1_1select_1_1_event_dispatcher.html#ac3f2645dc1ce2e8a8bcadd65ff037e24">core::select::EventDispatcher</a>, <a class="el" href="classcore_1_1poll_1_1_event_dispatcher.html#a98eed78fd1ea3bbd458f8b4fda32ccc5">core::poll::EventDispatcher</a>, and <a class="el" href="classcore_1_1epoll_1_1_event_dispatcher.html#a05485e6dfe818f16b7deb9d3337501df">core::epoll::EventDispatcher</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00076">dispatch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00081">dispatch()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_dispatcher_a871c108fbe3474eda25a7a8308fff058_icgraph.svg" width="1467" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_dispatcher_a6a7ceb977756a17324dca36a3b4e0a97_icgraph.svg" width="1467" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a80267a1a4b993c326ea2cca579b5fd22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80267a1a4b993c326ea2cca579b5fd22">&#9670;&nbsp;</a></span>dispatchImmediateEvents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void core::EventDispatcher::dispatchImmediateEvents </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00177">177</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                                                  {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <span class="keyword">const</span> eventDispatcher : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            eventDispatcher-&gt;dispatchImmediateEvents();</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        }</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00085">descriptorEventDispatcher</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00081">dispatch()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_dispatcher_a80267a1a4b993c326ea2cca579b5fd22_icgraph.svg" width="1496" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ac8f664193eb430561cb2d903439a01dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8f664193eb430561cb2d903439a01dc">&#9670;&nbsp;</a></span>executeEventQueue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void core::EventDispatcher::executeEventQueue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;&#160;</td>
+          <td class="paramname"><em>currentTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00157">157</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_event.html">core::Event</a>* event : <a class="code" href="classcore_1_1_event_dispatcher.html#a2b26011bac7999cff0a7686bd4529adc">eventQueue</a>) {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            <span class="keyword">event</span>-&gt;dispatch(currentTime);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        }</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <a class="code" href="classcore_1_1_event_dispatcher.html#a2b26011bac7999cff0a7686bd4529adc">eventQueue</a>.clear();</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a2b26011bac7999cff0a7686bd4529adc"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a2b26011bac7999cff0a7686bd4529adc">core::EventDispatcher::eventQueue</a></div><div class="ttdeci">std::deque&lt; Event * &gt; eventQueue</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8h_source.html#l00088">EventDispatcher.h:88</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_html"><div class="ttname"><a href="classcore_1_1_event.html">core::Event</a></div><div class="ttdef"><b>Definition:</b> <a href="_event_8h_source.html#l00036">Event.h:36</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00088">eventQueue</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00081">dispatch()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_dispatcher_ac8f664193eb430561cb2d903439a01dc_icgraph.svg" width="1462" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -474,12 +611,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00050">50</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                                                                                                                      {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">return</span> *<a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>[dispType];</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00051">51</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                                                                                                      {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">return</span> *<a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>[dispType];</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00077">descriptorEventDispatcher</a>.</p>
+<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00085">descriptorEventDispatcher</a>.</p>
 
 </div>
 </div>
@@ -506,17 +643,17 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00067">67</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                  {</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">return</span> std::accumulate(<a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>.begin(),</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                               <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>.end(),</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                               -1,</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                               [](<span class="keywordtype">int</span> count, <a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) -&gt; <span class="keywordtype">int</span> {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                   return std::max(descriptorEventDispatcher-&gt;getMaxFd(), count);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                               });</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00072">72</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                  {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">return</span> std::accumulate(<a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>.begin(),</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                               <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>.end(),</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                               -1,</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                               [](<span class="keywordtype">int</span> count, <a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) -&gt; <span class="keywordtype">int</span> {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                   return std::max(descriptorEventDispatcher-&gt;getMaxFd(), count);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                               });</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00077">descriptorEventDispatcher</a>.</p>
+<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00085">descriptorEventDispatcher</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="mux_2select_2_event_dispatcher_8cpp_source.html#l00042">core::select::EventDispatcher::multiplex()</a>.</p>
 <div class="dynheader">
@@ -552,20 +689,20 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00141">141</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                                                                                {</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> nextTimeout = <a class="code" href="classcore_1_1_event_receiver_1_1_t_i_m_e_o_u_t.html#ae11382c83d53ea53eb2ee23f13c312e7">core::EventReceiver::TIMEOUT::MAX</a>;</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160; </div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <span class="keyword">const</span> eventDispatcher : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) {</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            nextTimeout = std::min(eventDispatcher-&gt;getNextTimeout(currentTime), nextTimeout);</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        }</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <span class="keywordflow">return</span> nextTimeout;</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1_event_receiver_1_1_t_i_m_e_o_u_t_html_ae11382c83d53ea53eb2ee23f13c312e7"><div class="ttname"><a href="classcore_1_1_event_receiver_1_1_t_i_m_e_o_u_t.html#ae11382c83d53ea53eb2ee23f13c312e7">core::EventReceiver::TIMEOUT::MAX</a></div><div class="ttdeci">static const utils::Timeval MAX</div><div class="ttdef"><b>Definition:</b> <a href="_event_receiver_8h_source.html#l00067">EventReceiver.h:67</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00148">148</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                                                                                {</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> nextTimeout = <a class="code" href="classcore_1_1_descriptor_event_receiver_1_1_t_i_m_e_o_u_t.html#a66faca140de0c0f8dbdd6d0757ac1ee2">core::DescriptorEventReceiver::TIMEOUT::MAX</a>;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160; </div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <span class="keyword">const</span> eventDispatcher : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) {</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            nextTimeout = std::min(eventDispatcher-&gt;getNextTimeout(currentTime), nextTimeout);</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        }</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="keywordflow">return</span> nextTimeout;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1_descriptor_event_receiver_1_1_t_i_m_e_o_u_t_html_a66faca140de0c0f8dbdd6d0757ac1ee2"><div class="ttname"><a href="classcore_1_1_descriptor_event_receiver_1_1_t_i_m_e_o_u_t.html#a66faca140de0c0f8dbdd6d0757ac1ee2">core::DescriptorEventReceiver::TIMEOUT::MAX</a></div><div class="ttdeci">static const utils::Timeval MAX</div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_event_receiver_8h_source.html#l00071">DescriptorEventReceiver.h:71</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00077">descriptorEventDispatcher</a>, and <a class="el" href="_event_receiver_8h_source.html#l00067">core::EventReceiver::TIMEOUT::MAX</a>.</p>
+<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00085">descriptorEventDispatcher</a>, and <a class="el" href="_descriptor_event_receiver_8h_source.html#l00071">core::DescriptorEventReceiver::TIMEOUT::MAX</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00076">dispatch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00081">dispatch()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -598,19 +735,19 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00058">58</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                                                       {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">return</span> std::accumulate(<a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>.begin(),</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                               <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>.end(),</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                               0,</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                               [](<span class="keywordtype">int</span> count, <a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) -&gt; <span class="keywordtype">int</span> {</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                   return count + descriptorEventDispatcher-&gt;getObservedEventReceiverCount();</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                               });</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00063">63</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                                       {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">return</span> std::accumulate(<a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>.begin(),</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                               <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>.end(),</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                               0,</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                               [](<span class="keywordtype">int</span> count, <a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) -&gt; <span class="keywordtype">int</span> {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                   return count + descriptorEventDispatcher-&gt;getObservedEventReceiverCount();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                               });</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00077">descriptorEventDispatcher</a>.</p>
+<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00085">descriptorEventDispatcher</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00076">dispatch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00081">dispatch()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -635,12 +772,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00054">54</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                                                       {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">return</span> *<a class="code" href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">timerEventDispatcher</a>;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00055">55</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                                                                       {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">return</span> *<a class="code" href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">timerEventDispatcher</a>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00080">timerEventDispatcher</a>.</p>
+<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00090">timerEventDispatcher</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_timer_8cpp_source.html#l00061">core::timer::Timer::cancel()</a>, <a class="el" href="_timer_8cpp_source.html#l00042">core::timer::Timer::intervalTimer()</a>, and <a class="el" href="_timer_8cpp_source.html#l00034">core::timer::Timer::singleshotTimer()</a>.</p>
 <div class="dynheader">
@@ -678,7 +815,7 @@ Here is the caller graph for this function:</div>
 
 <p>Implemented in <a class="el" href="classcore_1_1select_1_1_event_dispatcher.html#a6d3f7c2b779cd3879a84f8347ae1672b">core::select::EventDispatcher</a>, <a class="el" href="classcore_1_1poll_1_1_event_dispatcher.html#a9c7e16e5a57a4ae5499766ae48021603">core::poll::EventDispatcher</a>, and <a class="el" href="classcore_1_1epoll_1_1_event_dispatcher.html#a45fe0f95a209f9dc493c016c6ccb6312">core::epoll::EventDispatcher</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00076">dispatch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00081">dispatch()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -688,8 +825,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a72c47a2528ac429eaf731bafb10035e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72c47a2528ac429eaf731bafb10035e6">&#9670;&nbsp;</a></span>observeEnabledEvents()</h2>
+<a id="a7f87d6139ea3f1944b3c997214683784"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f87d6139ea3f1944b3c997214683784">&#9670;&nbsp;</a></span>observeEnabledEvents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -700,7 +837,8 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void core::EventDispatcher::observeEnabledEvents </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;&#160;</td>
+          <td class="paramname"><em>currentTime</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -711,20 +849,20 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00150">150</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                                               {</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <span class="keyword">const</span> eventDispatcher : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) {</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            eventDispatcher-&gt;observeEnabledEvents();</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        }</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00171">171</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                                                                              {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <span class="keyword">const</span> eventDispatcher : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) {</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;            eventDispatcher-&gt;observeEnabledEvents(currentTime);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        }</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00077">descriptorEventDispatcher</a>.</p>
+<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00085">descriptorEventDispatcher</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00076">dispatch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00081">dispatch()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_dispatcher_a72c47a2528ac429eaf731bafb10035e6_icgraph.svg" width="1475" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_dispatcher_a7f87d6139ea3f1944b3c997214683784_icgraph.svg" width="1475" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -756,6 +894,39 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a67ea6954faa01cc7b64293dc116056c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67ea6954faa01cc7b64293dc116056c9">&#9670;&nbsp;</a></span>publish()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void core::EventDispatcher::publish </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcore_1_1_event.html">core::Event</a> *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00059">59</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                                                  {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="classcore_1_1_event_dispatcher.html#a2b26011bac7999cff0a7686bd4529adc">eventQueue</a>.push_back(event);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00088">eventQueue</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_event_receiver_8cpp_source.html#l00034">core::EventReceiver::publish()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_dispatcher_a67ea6954faa01cc7b64293dc116056c9_icgraph.svg" width="664" height="395"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a8516a3072393f99750d5ff3434db3b94"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8516a3072393f99750d5ff3434db3b94">&#9670;&nbsp;</a></span>stop()</h2>
 
@@ -771,30 +942,30 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00115">115</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                               {</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <a class="code" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749">core::TickStatus</a> tickStatus;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">do</span> {</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <span class="keyword">const</span> eventDispatcher : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) {</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                eventDispatcher-&gt;stop();</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            }</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            tickStatus = <a class="code" href="classcore_1_1_event_dispatcher.html#a5b403d2a3f909e4f867d1e5ab5376e52">dispatch</a>(2, <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        } <span class="keywordflow">while</span> (tickStatus == <a class="code" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c">TickStatus::SUCCESS</a>);</div>
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00122">122</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                               {</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <a class="code" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749">core::TickStatus</a> tickStatus;</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">do</span> {</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            <a class="code" href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">timerEventDispatcher</a>-&gt;<a class="code" href="classcore_1_1_timer_event_dispatcher.html#a229ad877842013f7ff6413842dcb357c">stop</a>();</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            tickStatus = <a class="code" href="classcore_1_1_event_dispatcher.html#a5b403d2a3f909e4f867d1e5ab5376e52">dispatch</a>(0, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        } <span class="keywordflow">while</span> (tickStatus == <a class="code" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c">TickStatus::SUCCESS</a>);</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a5b403d2a3f909e4f867d1e5ab5376e52"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a5b403d2a3f909e4f867d1e5ab5376e52">core::EventDispatcher::dispatch</a></div><div class="ttdeci">TickStatus dispatch(const utils::Timeval &amp;tickTimeOut, bool stopped)</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8cpp_source.html#l00076">EventDispatcher.cpp:76</a></div></div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <span class="keyword">const</span> eventDispatcher : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                eventDispatcher-&gt;stop();</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            }</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            tickStatus = <a class="code" href="classcore_1_1_event_dispatcher.html#a5b403d2a3f909e4f867d1e5ab5376e52">dispatch</a>(2, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        } <span class="keywordflow">while</span> (tickStatus == <a class="code" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c">TickStatus::SUCCESS</a>);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160; </div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keywordflow">do</span> {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            <a class="code" href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">timerEventDispatcher</a>-&gt;<a class="code" href="classcore_1_1_timer_event_dispatcher.html#a229ad877842013f7ff6413842dcb357c">stop</a>();</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            tickStatus = <a class="code" href="classcore_1_1_event_dispatcher.html#a5b403d2a3f909e4f867d1e5ab5376e52">dispatch</a>(0, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        } <span class="keywordflow">while</span> (tickStatus == <a class="code" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c">TickStatus::SUCCESS</a>);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1_event_dispatcher_html_a5b403d2a3f909e4f867d1e5ab5376e52"><div class="ttname"><a href="classcore_1_1_event_dispatcher.html#a5b403d2a3f909e4f867d1e5ab5376e52">core::EventDispatcher::dispatch</a></div><div class="ttdeci">TickStatus dispatch(const utils::Timeval &amp;tickTimeOut, bool stopped)</div><div class="ttdef"><b>Definition:</b> <a href="_event_dispatcher_8cpp_source.html#l00081">EventDispatcher.cpp:81</a></div></div>
 <div class="ttc" id="aclasscore_1_1_timer_event_dispatcher_html_a229ad877842013f7ff6413842dcb357c"><div class="ttname"><a href="classcore_1_1_timer_event_dispatcher.html#a229ad877842013f7ff6413842dcb357c">core::TimerEventDispatcher::stop</a></div><div class="ttdeci">void stop()</div><div class="ttdef"><b>Definition:</b> <a href="_timer_event_dispatcher_8cpp_source.html#l00091">TimerEventDispatcher.cpp:91</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00077">descriptorEventDispatcher</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00076">dispatch()</a>, <a class="el" href="_timer_event_dispatcher_8cpp_source.html#l00091">core::TimerEventDispatcher::stop()</a>, <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c">core::SUCCESS</a>, and <a class="el" href="_event_dispatcher_8h_source.html#l00080">timerEventDispatcher</a>.</p>
+<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00085">descriptorEventDispatcher</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00081">dispatch()</a>, <a class="el" href="_timer_event_dispatcher_8cpp_source.html#l00091">core::TimerEventDispatcher::stop()</a>, <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c">core::SUCCESS</a>, and <a class="el" href="_event_dispatcher_8h_source.html#l00090">timerEventDispatcher</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_dispatcher_a8516a3072393f99750d5ff3434db3b94_cgraph.svg" width="971" height="692"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_dispatcher_a8516a3072393f99750d5ff3434db3b94_cgraph.svg" width="971" height="888"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -815,16 +986,16 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00131">131</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                                               {</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <span class="keyword">const</span> eventDispatcher : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) {</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            eventDispatcher-&gt;stop();</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        }</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00138">138</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                                               {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <span class="keyword">const</span> eventDispatcher : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) {</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;            eventDispatcher-&gt;stop();</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        }</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00077">descriptorEventDispatcher</a>.</p>
+<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00085">descriptorEventDispatcher</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_loop_8cpp_source.html#l00266">core::EventLoop::free()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_loop_8cpp_source.html#l00172">core::EventLoop::free()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -849,14 +1020,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00137">137</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                                          {</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <a class="code" href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">timerEventDispatcher</a>-&gt;<a class="code" href="classcore_1_1_timer_event_dispatcher.html#a229ad877842013f7ff6413842dcb357c">stop</a>();</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00144">144</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                                          {</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <a class="code" href="classcore_1_1_event_dispatcher.html#a37f3a2fc56c7817c98dd4d064c124818">timerEventDispatcher</a>-&gt;<a class="code" href="classcore_1_1_timer_event_dispatcher.html#a229ad877842013f7ff6413842dcb357c">stop</a>();</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timer_event_dispatcher_8cpp_source.html#l00091">core::TimerEventDispatcher::stop()</a>, and <a class="el" href="_event_dispatcher_8h_source.html#l00080">timerEventDispatcher</a>.</p>
+<p class="reference">References <a class="el" href="_timer_event_dispatcher_8cpp_source.html#l00091">core::TimerEventDispatcher::stop()</a>, and <a class="el" href="_event_dispatcher_8h_source.html#l00090">timerEventDispatcher</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_loop_8cpp_source.html#l00266">core::EventLoop::free()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_loop_8cpp_source.html#l00172">core::EventLoop::free()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -896,16 +1067,16 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00156">156</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;                                                                                 {</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <span class="keyword">const</span> eventDispatcher : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) {</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            eventDispatcher-&gt;unobserveDisabledEvents(currentTime);</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        }</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8cpp_source.html#l00183">183</a> of file <a class="el" href="_event_dispatcher_8cpp_source.html">EventDispatcher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                                                                                 {</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_descriptor_event_dispatcher.html">core::DescriptorEventDispatcher</a>* <span class="keyword">const</span> eventDispatcher : <a class="code" href="classcore_1_1_event_dispatcher.html#a2535c6c3544e1215c6eb6b7b47fdbe4b">descriptorEventDispatcher</a>) {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;            eventDispatcher-&gt;unobserveDisabledEvents(currentTime);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        }</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00077">descriptorEventDispatcher</a>.</p>
+<p class="reference">References <a class="el" href="_event_dispatcher_8h_source.html#l00085">descriptorEventDispatcher</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00076">dispatch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00081">dispatch()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -936,9 +1107,35 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8h_source.html#l00077">77</a> of file <a class="el" href="_event_dispatcher_8h_source.html">EventDispatcher.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8h_source.html#l00085">85</a> of file <a class="el" href="_event_dispatcher_8h_source.html">EventDispatcher.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mux_2epoll_2_event_dispatcher_8cpp_source.html#l00060">core::epoll::EventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html#l00170">core::poll::EventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="mux_2select_2_event_dispatcher_8cpp_source.html#l00046">core::select::EventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="mux_2epoll_2_event_dispatcher_8cpp_source.html#l00037">core::epoll::EventDispatcher::EventDispatcher()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00050">getDescriptorEventDispatcher()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00067">getMaxFd()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00141">getNextTimeout()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00058">getObservedEventReceiverCount()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00150">observeEnabledEvents()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00115">stop()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00131">stopDescriptorEvents()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00156">unobserveDisabledEvents()</a>, and <a class="el" href="_event_dispatcher_8cpp_source.html#l00042">~EventDispatcher()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00165">checkTimedOutEvents()</a>, <a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html#l00170">core::poll::EventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="mux_2select_2_event_dispatcher_8cpp_source.html#l00047">core::select::EventDispatcher::dispatchActiveEvents()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00177">dispatchImmediateEvents()</a>, <a class="el" href="mux_2epoll_2_event_dispatcher_8cpp_source.html#l00037">core::epoll::EventDispatcher::EventDispatcher()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00051">getDescriptorEventDispatcher()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00072">getMaxFd()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00148">getNextTimeout()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00063">getObservedEventReceiverCount()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00171">observeEnabledEvents()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00122">stop()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00138">stopDescriptorEvents()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00183">unobserveDisabledEvents()</a>, and <a class="el" href="_event_dispatcher_8cpp_source.html#l00043">~EventDispatcher()</a>.</p>
+
+</div>
+</div>
+<a id="a2b26011bac7999cff0a7686bd4529adc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b26011bac7999cff0a7686bd4529adc">&#9670;&nbsp;</a></span>eventQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::deque&lt;<a class="el" href="classcore_1_1_event.html">Event</a>*&gt; core::EventDispatcher::eventQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8h_source.html#l00088">88</a> of file <a class="el" href="_event_dispatcher_8h_source.html">EventDispatcher.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00157">executeEventQueue()</a>, and <a class="el" href="_event_dispatcher_8cpp_source.html#l00059">publish()</a>.</p>
 
 </div>
 </div>
@@ -962,9 +1159,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8h_source.html#l00080">80</a> of file <a class="el" href="_event_dispatcher_8h_source.html">EventDispatcher.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_event_dispatcher_8h_source.html#l00090">90</a> of file <a class="el" href="_event_dispatcher_8h_source.html">EventDispatcher.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00076">dispatch()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00054">getTimerEventDispatcher()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00115">stop()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00137">stopTimerEvents()</a>, and <a class="el" href="_event_dispatcher_8cpp_source.html#l00042">~EventDispatcher()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00081">dispatch()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00055">getTimerEventDispatcher()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00122">stop()</a>, <a class="el" href="_event_dispatcher_8cpp_source.html#l00144">stopTimerEvents()</a>, and <a class="el" href="_event_dispatcher_8cpp_source.html#l00043">~EventDispatcher()</a>.</p>
 
 </div>
 </div>

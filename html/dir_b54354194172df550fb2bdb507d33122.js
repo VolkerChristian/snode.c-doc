@@ -28,7 +28,7 @@ var dir_b54354194172df550fb2bdb507d33122 =
     [ "TLSHandshake.h", "_t_l_s_handshake_8h.html", [
       [ "TLSHandshake", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake" ]
     ] ],
-    [ "TLSShutdown.cpp", "_t_l_s_shutdown_8cpp.html", "_t_l_s_shutdown_8cpp" ],
+    [ "TLSShutdown.cpp", "_t_l_s_shutdown_8cpp.html", null ],
     [ "TLSShutdown.h", "_t_l_s_shutdown_8h.html", [
       [ "TLSShutdown", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown" ]
     ] ]

@@ -167,12 +167,16 @@ var annotated_dup =
       [ "ConnectEventReceiver", "classcore_1_1_connect_event_receiver.html", "classcore_1_1_connect_event_receiver" ],
       [ "Descriptor", "classcore_1_1_descriptor.html", "classcore_1_1_descriptor" ],
       [ "DescriptorEventDispatcher", "classcore_1_1_descriptor_event_dispatcher.html", "classcore_1_1_descriptor_event_dispatcher" ],
+      [ "Observer", "classcore_1_1_observer.html", "classcore_1_1_observer" ],
+      [ "DescriptorEventReceiver", "classcore_1_1_descriptor_event_receiver.html", "classcore_1_1_descriptor_event_receiver" ],
       [ "DynamicLoader", "classcore_1_1_dynamic_loader.html", "classcore_1_1_dynamic_loader" ],
+      [ "Event", "classcore_1_1_event.html", "classcore_1_1_event" ],
       [ "EventDispatcher", "classcore_1_1_event_dispatcher.html", "classcore_1_1_event_dispatcher" ],
       [ "EventLoop", "classcore_1_1_event_loop.html", "classcore_1_1_event_loop" ],
-      [ "Observer", "classcore_1_1_observer.html", "classcore_1_1_observer" ],
       [ "EventReceiver", "classcore_1_1_event_receiver.html", "classcore_1_1_event_receiver" ],
       [ "ExceptionalConditionEventReceiver", "classcore_1_1_exceptional_condition_event_receiver.html", "classcore_1_1_exceptional_condition_event_receiver" ],
+      [ "InitAcceptEventReceiver", "classcore_1_1_init_accept_event_receiver.html", "classcore_1_1_init_accept_event_receiver" ],
+      [ "InitConnectEventReceiver", "classcore_1_1_init_connect_event_receiver.html", "classcore_1_1_init_connect_event_receiver" ],
       [ "ReadEventReceiver", "classcore_1_1_read_event_receiver.html", "classcore_1_1_read_event_receiver" ],
       [ "SNodeC", "classcore_1_1_s_node_c.html", "classcore_1_1_s_node_c" ],
       [ "TimerEventDispatcher", "classcore_1_1_timer_event_dispatcher.html", "classcore_1_1_timer_event_dispatcher" ],
@@ -214,12 +218,12 @@ var annotated_dup =
           ] ],
           [ "ClientConfig", "classnet_1_1in_1_1stream_1_1_client_config.html", "classnet_1_1in_1_1stream_1_1_client_config" ],
           [ "ClientSocket", "classnet_1_1in_1_1stream_1_1_client_socket.html", "classnet_1_1in_1_1stream_1_1_client_socket" ],
-          [ "ConfigBind", "classnet_1_1in_1_1stream_1_1_config_bind.html", "classnet_1_1in_1_1stream_1_1_config_bind" ],
-          [ "ConfigConnect", "classnet_1_1in_1_1stream_1_1_config_connect.html", "classnet_1_1in_1_1stream_1_1_config_connect" ],
           [ "ServerConfig", "classnet_1_1in_1_1stream_1_1_server_config.html", "classnet_1_1in_1_1stream_1_1_server_config" ],
           [ "ServerSocket", "classnet_1_1in_1_1stream_1_1_server_socket.html", "classnet_1_1in_1_1stream_1_1_server_socket" ],
           [ "Socket", "classnet_1_1in_1_1stream_1_1_socket.html", "classnet_1_1in_1_1stream_1_1_socket" ]
         ] ],
+        [ "ConfigLocal", "classnet_1_1in_1_1_config_local.html", "classnet_1_1in_1_1_config_local" ],
+        [ "ConfigRemote", "classnet_1_1in_1_1_config_remote.html", "classnet_1_1in_1_1_config_remote" ],
         [ "bad_hostname", "classnet_1_1in_1_1bad__hostname.html", "classnet_1_1in_1_1bad__hostname" ],
         [ "SocketAddress", "classnet_1_1in_1_1_socket_address.html", "classnet_1_1in_1_1_socket_address" ]
       ] ],
@@ -235,12 +239,12 @@ var annotated_dup =
           ] ],
           [ "ClientConfig", "classnet_1_1in6_1_1stream_1_1_client_config.html", "classnet_1_1in6_1_1stream_1_1_client_config" ],
           [ "ClientSocket", "classnet_1_1in6_1_1stream_1_1_client_socket.html", "classnet_1_1in6_1_1stream_1_1_client_socket" ],
-          [ "ConfigBind", "classnet_1_1in6_1_1stream_1_1_config_bind.html", "classnet_1_1in6_1_1stream_1_1_config_bind" ],
-          [ "ConfigConnect", "classnet_1_1in6_1_1stream_1_1_config_connect.html", "classnet_1_1in6_1_1stream_1_1_config_connect" ],
           [ "ServerConfig", "classnet_1_1in6_1_1stream_1_1_server_config.html", "classnet_1_1in6_1_1stream_1_1_server_config" ],
           [ "ServerSocket", "classnet_1_1in6_1_1stream_1_1_server_socket.html", "classnet_1_1in6_1_1stream_1_1_server_socket" ],
           [ "Socket", "classnet_1_1in6_1_1stream_1_1_socket.html", "classnet_1_1in6_1_1stream_1_1_socket" ]
         ] ],
+        [ "ConfigLocal", "classnet_1_1in6_1_1_config_local.html", "classnet_1_1in6_1_1_config_local" ],
+        [ "ConfigRemote", "classnet_1_1in6_1_1_config_remote.html", "classnet_1_1in6_1_1_config_remote" ],
         [ "bad_hostname", "classnet_1_1in6_1_1bad__hostname.html", "classnet_1_1in6_1_1bad__hostname" ],
         [ "SocketAddress", "classnet_1_1in6_1_1_socket_address.html", "classnet_1_1in6_1_1_socket_address" ]
       ] ],
@@ -256,12 +260,12 @@ var annotated_dup =
           ] ],
           [ "ClientConfig", "classnet_1_1l2_1_1stream_1_1_client_config.html", "classnet_1_1l2_1_1stream_1_1_client_config" ],
           [ "ClientSocket", "classnet_1_1l2_1_1stream_1_1_client_socket.html", "classnet_1_1l2_1_1stream_1_1_client_socket" ],
-          [ "ConfigBind", "classnet_1_1l2_1_1stream_1_1_config_bind.html", "classnet_1_1l2_1_1stream_1_1_config_bind" ],
-          [ "ConfigConnect", "classnet_1_1l2_1_1stream_1_1_config_connect.html", "classnet_1_1l2_1_1stream_1_1_config_connect" ],
           [ "ServerConfig", "classnet_1_1l2_1_1stream_1_1_server_config.html", "classnet_1_1l2_1_1stream_1_1_server_config" ],
           [ "ServerSocket", "classnet_1_1l2_1_1stream_1_1_server_socket.html", "classnet_1_1l2_1_1stream_1_1_server_socket" ],
           [ "Socket", "classnet_1_1l2_1_1stream_1_1_socket.html", "classnet_1_1l2_1_1stream_1_1_socket" ]
         ] ],
+        [ "ConfigLocal", "classnet_1_1l2_1_1_config_local.html", "classnet_1_1l2_1_1_config_local" ],
+        [ "ConfigRemote", "classnet_1_1l2_1_1_config_remote.html", "classnet_1_1l2_1_1_config_remote" ],
         [ "bad_bdaddress", "classnet_1_1l2_1_1bad__bdaddress.html", "classnet_1_1l2_1_1bad__bdaddress" ],
         [ "SocketAddress", "classnet_1_1l2_1_1_socket_address.html", "classnet_1_1l2_1_1_socket_address" ]
       ] ],
@@ -277,12 +281,12 @@ var annotated_dup =
           ] ],
           [ "ClientConfig", "classnet_1_1rf_1_1stream_1_1_client_config.html", "classnet_1_1rf_1_1stream_1_1_client_config" ],
           [ "ClientSocket", "classnet_1_1rf_1_1stream_1_1_client_socket.html", "classnet_1_1rf_1_1stream_1_1_client_socket" ],
-          [ "ConfigBind", "classnet_1_1rf_1_1stream_1_1_config_bind.html", "classnet_1_1rf_1_1stream_1_1_config_bind" ],
-          [ "ConfigConnect", "classnet_1_1rf_1_1stream_1_1_config_connect.html", "classnet_1_1rf_1_1stream_1_1_config_connect" ],
           [ "ServerConfig", "classnet_1_1rf_1_1stream_1_1_server_config.html", "classnet_1_1rf_1_1stream_1_1_server_config" ],
           [ "ServerSocket", "classnet_1_1rf_1_1stream_1_1_server_socket.html", "classnet_1_1rf_1_1stream_1_1_server_socket" ],
           [ "Socket", "classnet_1_1rf_1_1stream_1_1_socket.html", "classnet_1_1rf_1_1stream_1_1_socket" ]
         ] ],
+        [ "ConfigLocal", "classnet_1_1rf_1_1_config_local.html", "classnet_1_1rf_1_1_config_local" ],
+        [ "ConfigRemote", "classnet_1_1rf_1_1_config_remote.html", "classnet_1_1rf_1_1_config_remote" ],
         [ "bad_bdaddress", "classnet_1_1rf_1_1bad__bdaddress.html", "classnet_1_1rf_1_1bad__bdaddress" ],
         [ "SocketAddress", "classnet_1_1rf_1_1_socket_address.html", "classnet_1_1rf_1_1_socket_address" ]
       ] ],
@@ -298,12 +302,12 @@ var annotated_dup =
           ] ],
           [ "ClientConfig", "classnet_1_1un_1_1stream_1_1_client_config.html", "classnet_1_1un_1_1stream_1_1_client_config" ],
           [ "ClientSocket", "classnet_1_1un_1_1stream_1_1_client_socket.html", "classnet_1_1un_1_1stream_1_1_client_socket" ],
-          [ "ConfigBind", "classnet_1_1un_1_1stream_1_1_config_bind.html", "classnet_1_1un_1_1stream_1_1_config_bind" ],
-          [ "ConfigConnect", "classnet_1_1un_1_1stream_1_1_config_connect.html", "classnet_1_1un_1_1stream_1_1_config_connect" ],
           [ "ServerConfig", "classnet_1_1un_1_1stream_1_1_server_config.html", "classnet_1_1un_1_1stream_1_1_server_config" ],
           [ "ServerSocket", "classnet_1_1un_1_1stream_1_1_server_socket.html", "classnet_1_1un_1_1stream_1_1_server_socket" ],
           [ "Socket", "classnet_1_1un_1_1stream_1_1_socket.html", "classnet_1_1un_1_1stream_1_1_socket" ]
         ] ],
+        [ "ConfigLocal", "classnet_1_1un_1_1_config_local.html", "classnet_1_1un_1_1_config_local" ],
+        [ "ConfigRemote", "classnet_1_1un_1_1_config_remote.html", "classnet_1_1un_1_1_config_remote" ],
         [ "bad_sunpath", "classnet_1_1un_1_1bad__sunpath.html", "classnet_1_1un_1_1bad__sunpath" ],
         [ "SocketAddress", "classnet_1_1un_1_1_socket_address.html", "classnet_1_1un_1_1_socket_address" ]
       ] ],
@@ -311,6 +315,8 @@ var annotated_dup =
       [ "ConfigBase", "classnet_1_1_config_base.html", "classnet_1_1_config_base" ],
       [ "ConfigConn", "classnet_1_1_config_conn.html", "classnet_1_1_config_conn" ],
       [ "ConfigLegacy", "classnet_1_1_config_legacy.html", "classnet_1_1_config_legacy" ],
+      [ "ConfigLocal", "classnet_1_1_config_local.html", "classnet_1_1_config_local" ],
+      [ "ConfigRemote", "classnet_1_1_config_remote.html", "classnet_1_1_config_remote" ],
       [ "ConfigTls", "classnet_1_1_config_tls.html", "classnet_1_1_config_tls" ]
     ] ],
     [ "utils", "namespaceutils.html", [
@@ -318,6 +324,7 @@ var annotated_dup =
       [ "SingleAttributeInjector", "classutils_1_1_single_attribute_injector.html", "classutils_1_1_single_attribute_injector" ],
       [ "MultibleAttributeInjector", "classutils_1_1_multible_attribute_injector.html", "classutils_1_1_multible_attribute_injector" ],
       [ "Config", "classutils_1_1_config.html", "classutils_1_1_config" ],
+      [ "Daemon", "classutils_1_1_daemon.html", "classutils_1_1_daemon" ],
       [ "Timeval", "classutils_1_1_timeval.html", "classutils_1_1_timeval" ]
     ] ],
     [ "web", "namespaceweb.html", [

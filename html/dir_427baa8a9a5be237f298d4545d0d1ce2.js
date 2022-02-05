@@ -21,6 +21,12 @@ var dir_427baa8a9a5be237f298d4545d0d1ce2 =
     [ "ConfigLegacy.h", "_config_legacy_8h.html", [
       [ "ConfigLegacy", "classnet_1_1_config_legacy.html", "classnet_1_1_config_legacy" ]
     ] ],
+    [ "ConfigLocal.h", "_config_local_8h.html", [
+      [ "ConfigLocal", "classnet_1_1_config_local.html", "classnet_1_1_config_local" ]
+    ] ],
+    [ "ConfigRemote.h", "_config_remote_8h.html", [
+      [ "ConfigRemote", "classnet_1_1_config_remote.html", "classnet_1_1_config_remote" ]
+    ] ],
     [ "ConfigTls.cpp", "_config_tls_8cpp.html", null ],
     [ "ConfigTls.h", "_config_tls_8h.html", [
       [ "ConfigTls", "classnet_1_1_config_tls.html", "classnet_1_1_config_tls" ]

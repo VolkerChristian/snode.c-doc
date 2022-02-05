@@ -19,5 +19,6 @@ var classcore_1_1socket_1_1stream_1_1_socket_reader =
     [ "readBuffer", "classcore_1_1socket_1_1stream_1_1_socket_reader.html#ab92c913c462bdae234438033daa77a38", null ],
     [ "shutdownTriggered", "classcore_1_1socket_1_1stream_1_1_socket_reader.html#ad247eb2f0bc6f58ed7265c7203230f18", null ],
     [ "size", "classcore_1_1socket_1_1stream_1_1_socket_reader.html#af006733b64eb78536af7dc25b22795cb", null ],
+    [ "terminateInProgress", "classcore_1_1socket_1_1stream_1_1_socket_reader.html#a72ac56ceeb89a3526674b5fc689457ee", null ],
     [ "terminateTimeout", "classcore_1_1socket_1_1stream_1_1_socket_reader.html#a954762ab102b608d6e0f04f66e81872e", null ]
 ];

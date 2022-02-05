@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('_config_8cpp.html',''); initResizable(
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="_config_8h_source.html">utils/Config.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_c_l_i11_8hpp_source.html">utils/CLI11.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_daemon_8h_source.html">utils/Daemon.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Config.cpp:</div>
 <div class="dyncontent">
@@ -106,8 +107,12 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a7213e901c029d7f7651c3b76b3effd2a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_config_8cpp.html#a7213e901c029d7f7651c3b76b3effd2a">CONFFILEPATH</a>&#160;&#160;&#160;&quot;/home/voc/etc/snode.c&quot;</td></tr>
+<tr class="memitem:a7213e901c029d7f7651c3b76b3effd2a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_config_8cpp.html#a7213e901c029d7f7651c3b76b3effd2a">CONFFILEPATH</a>&#160;&#160;&#160;std::string(&quot;/home/voc/etc/snode.c&quot;)</td></tr>
 <tr class="separator:a7213e901c029d7f7651c3b76b3effd2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfcaa29a9bba860f0d5777971a63a9bd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_config_8cpp.html#acfcaa29a9bba860f0d5777971a63a9bd">LOGFILEPATH</a>&#160;&#160;&#160;std::string(&quot;/home/voc/etc/snode.c&quot;)</td></tr>
+<tr class="separator:acfcaa29a9bba860f0d5777971a63a9bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a0efdc597dcd5a88d49caf38c31affd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_config_8cpp.html#a3a0efdc597dcd5a88d49caf38c31affd">PIDFILEPATH</a>&#160;&#160;&#160;std::string(&quot;/home/voc/etc/snode.c&quot;)</td></tr>
+<tr class="separator:a3a0efdc597dcd5a88d49caf38c31affd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a7213e901c029d7f7651c3b76b3effd2a"></a>
@@ -117,12 +122,44 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CONFFILEPATH&#160;&#160;&#160;&quot;/home/voc/etc/snode.c&quot;</td>
+          <td class="memname">#define CONFFILEPATH&#160;&#160;&#160;std::string(&quot;/home/voc/etc/snode.c&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_config_8cpp_source.html#l00031">31</a> of file <a class="el" href="_config_8cpp_source.html">Config.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_config_8cpp_source.html#l00034">34</a> of file <a class="el" href="_config_8cpp_source.html">Config.cpp</a>.</p>
+
+</div>
+</div>
+<a id="acfcaa29a9bba860f0d5777971a63a9bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfcaa29a9bba860f0d5777971a63a9bd">&#9670;&nbsp;</a></span>LOGFILEPATH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOGFILEPATH&#160;&#160;&#160;std::string(&quot;/home/voc/etc/snode.c&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_config_8cpp_source.html#l00035">35</a> of file <a class="el" href="_config_8cpp_source.html">Config.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a3a0efdc597dcd5a88d49caf38c31affd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a0efdc597dcd5a88d49caf38c31affd">&#9670;&nbsp;</a></span>PIDFILEPATH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PIDFILEPATH&#160;&#160;&#160;std::string(&quot;/home/voc/etc/snode.c&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_config_8cpp_source.html#l00036">36</a> of file <a class="el" href="_config_8cpp_source.html">Config.cpp</a>.</p>
 
 </div>
 </div>
