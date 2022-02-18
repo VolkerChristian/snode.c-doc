@@ -108,7 +108,7 @@ $(document).ready(function(){initNavTree('net_2un_2stream_2legacy_2_socket_clien
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="core_2socket_2stream_2legacy_2_socket_client_8h.html">core/socket/stream/legacy/SocketClient.h</a>&quot;</span> <span class="comment">// IWYU pragma: export</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="net_2un_2stream_2_client_socket_8h.html">net/un/stream/ClientSocket.h</a>&quot;</span>             <span class="comment">// IWYU pragma: export</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="un_2stream_2legacy_2_client_config_8h.html">net/un/stream/legacy/ClientConfig.h</a>&quot;</span>      <span class="comment">// IWYU pragma: export</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="un_2stream_2legacy_2config_2_config_socket_client_8h.html">net/un/stream/legacy/config/ConfigSocketClient.h</a>&quot;</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
@@ -117,17 +117,17 @@ $(document).ready(function(){initNavTree('net_2un_2stream_2legacy_2_socket_clien
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacenet_1_1un_1_1stream_1_1legacy.html">net::un::stream::legacy</a> {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> SocketContextFactoryT&gt;</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="namespacenet_1_1un_1_1stream_1_1legacy.html#aa5b148981e9f03b41a82c0ab03184228">   33</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_client.html">SocketClient</a> = core::socket::stream::legacy::</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        SocketClient&lt;net::un::stream::ClientSocket, net::un::stream::legacy::ClientConfig, SocketContextFactoryT&gt;;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="namespacenet_1_1un_1_1stream_1_1legacy.html#a24840f2e596e4c14f2c07954af56a948">   33</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_client.html">SocketClient</a> = core::socket::stream::legacy::</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        SocketClient&lt;net::un::stream::ClientSocket, net::un::stream::legacy::config::ConfigSocketClient, SocketContextFactoryT&gt;;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;} <span class="comment">// namespace net::un::stream::legacy</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// NET_UN_STREAM_LEGACY_SOCKETCLIENT_H</span></div>
 <div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1legacy_1_1_socket_client_html"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_client.html">core::socket::stream::legacy::SocketClient</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2legacy_2_socket_client_8h_source.html#l00032">SocketClient.h:36</a></div></div>
 <div class="ttc" id="acore_2socket_2stream_2legacy_2_socket_client_8h_html"><div class="ttname"><a href="core_2socket_2stream_2legacy_2_socket_client_8h.html">SocketClient.h</a></div></div>
-<div class="ttc" id="anamespacenet_1_1un_1_1stream_1_1legacy_html"><div class="ttname"><a href="namespacenet_1_1un_1_1stream_1_1legacy.html">net::un::stream::legacy</a></div><div class="ttdef"><b>Definition:</b> <a href="un_2stream_2legacy_2_client_config_8h_source.html#l00031">ClientConfig.h:31</a></div></div>
+<div class="ttc" id="anamespacenet_1_1un_1_1stream_1_1legacy_html"><div class="ttname"><a href="namespacenet_1_1un_1_1stream_1_1legacy.html">net::un::stream::legacy</a></div><div class="ttdef"><b>Definition:</b> <a href="un_2stream_2legacy_2config_2_config_socket_client_8h_source.html#l00031">ConfigSocketClient.h:31</a></div></div>
 <div class="ttc" id="anet_2un_2stream_2_client_socket_8h_html"><div class="ttname"><a href="net_2un_2stream_2_client_socket_8h.html">ClientSocket.h</a></div></div>
-<div class="ttc" id="aun_2stream_2legacy_2_client_config_8h_html"><div class="ttname"><a href="un_2stream_2legacy_2_client_config_8h.html">ClientConfig.h</a></div></div>
+<div class="ttc" id="aun_2stream_2legacy_2config_2_config_socket_client_8h_html"><div class="ttname"><a href="un_2stream_2legacy_2config_2_config_socket_client_8h.html">ConfigSocketClient.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

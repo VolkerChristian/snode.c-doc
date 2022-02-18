@@ -3,7 +3,7 @@ var classcore_1_1socket_1_1stream_1_1_socket_writer =
     [ "Socket", "classcore_1_1socket_1_1stream_1_1_socket_writer.html#afcda52ba1bebc197ba59f092d54039b6", null ],
     [ "SocketWriter", "classcore_1_1socket_1_1stream_1_1_socket_writer.html#aca6663432f057268a97d1bc3a0856a80", null ],
     [ "SocketWriter", "classcore_1_1socket_1_1stream_1_1_socket_writer.html#a5ba1c52e7d40026bb53913db9dd139ba", null ],
-    [ "~SocketWriter", "classcore_1_1socket_1_1stream_1_1_socket_writer.html#a06f401900ca0cc9b56f2462e8815ca41", null ],
+    [ "~SocketWriter", "classcore_1_1socket_1_1stream_1_1_socket_writer.html#a1981edbafaf11db06b28be93282469c0", null ],
     [ "doWrite", "classcore_1_1socket_1_1stream_1_1_socket_writer.html#a7cf7e0d247704957a3d606c9c5143e29", null ],
     [ "doWriteShutdown", "classcore_1_1socket_1_1stream_1_1_socket_writer.html#a4050048ee5097b7008678846e5fc8e7a", null ],
     [ "sendToPeer", "classcore_1_1socket_1_1stream_1_1_socket_writer.html#ab37b0d0dff3ab0f18964cb36396f04b3", null ],

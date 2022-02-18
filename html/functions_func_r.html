@@ -100,16 +100,15 @@ $(document).ready(function(){initNavTree('functions_func_r.html',''); initResiza
 : <a class="el" href="classweb_1_1websocket_1_1_receiver.html#a263b9520148d0d1a9b2ba05209e616ff">web::websocket::Receiver</a>
 </li>
 <li>readEvent()
-: <a class="el" href="classcore_1_1file_1_1_file_reader.html#afca7a5cb94011825ca21e49ca738a42d">core::file::FileReader</a>
+: <a class="el" href="classcore_1_1eventreceiver_1_1_read_event_receiver.html#a9396a2e4334dc4fc5c5e63ab551ed35a">core::eventreceiver::ReadEventReceiver</a>
 , <a class="el" href="classcore_1_1pipe_1_1_pipe_sink.html#a2e57f7ff6c59add569e94b6760c0dac2">core::pipe::PipeSink</a>
-, <a class="el" href="classcore_1_1_read_event_receiver.html#aadc0032888cae94b16254b91bc8995b0">core::ReadEventReceiver</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#af24dd6f9592596f818b44c7a072db1f2">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a9ebbadd17920ee771825b42b5d792b16">core::socket::stream::SocketReader&lt; SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html#a2475a79cbe0ba0cdf3e4a568cc93dd1c">core::socket::stream::tls::TLSHandshake</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html#adb32b25161f062a3a9c0fd37c5300c31">core::socket::stream::tls::TLSShutdown</a>
 </li>
 <li>ReadEventReceiver()
-: <a class="el" href="classcore_1_1_read_event_receiver.html#aae05088bb3f59c15f50509a6da8db2ad">core::ReadEventReceiver</a>
+: <a class="el" href="classcore_1_1eventreceiver_1_1_read_event_receiver.html#ae765b1949ba6e16f190ba7cb56fbdde2">core::eventreceiver::ReadEventReceiver</a>
 </li>
 <li>readFrameData()
 : <a class="el" href="classweb_1_1websocket_1_1_receiver.html#a1bf9f1c1a337f001fa3bde4d21546eec">web::websocket::Receiver</a>
@@ -140,7 +139,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html',''); initResiza
 : <a class="el" href="classweb_1_1http_1_1_parser.html#a94144a45d0ffcf8b7ce6023131b4d687">web::http::Parser</a>
 </li>
 <li>readTimeout()
-: <a class="el" href="classcore_1_1_read_event_receiver.html#abc9eaa4cf873c9853dfca502559eef1b">core::ReadEventReceiver</a>
+: <a class="el" href="classcore_1_1eventreceiver_1_1_read_event_receiver.html#a200fd809003fdd94839f07aaec13a144">core::eventreceiver::ReadEventReceiver</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html#a29687cada93d8edacc7caf4873108cb4">core::socket::stream::tls::TLSHandshake</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html#a4002c4149d0a04e300ffd6623997bec6">core::socket::stream::tls::TLSShutdown</a>
 </li>
@@ -172,7 +171,8 @@ $(document).ready(function(){initNavTree('functions_func_r.html',''); initResiza
 : <a class="el" href="class_c_l_i_1_1_app.html#a7a94b729128d22a6cc3e4998149d7101">CLI::App</a>
 </li>
 <li>remove()
-: <a class="el" href="classcore_1_1_timer_event_dispatcher.html#ab0b7b0911ba9e7f5e17464e6419595cb">core::TimerEventDispatcher</a>
+: <a class="el" href="classcore_1_1_event_multiplexer_1_1_event_queue.html#adca87697809ec8278f7705e275b0e132">core::EventMultiplexer::EventQueue</a>
+, <a class="el" href="classcore_1_1_timer_event_publisher.html#af8725b379e9302f110a8c11e4662a217">core::TimerEventPublisher</a>
 </li>
 <li>remove_excludes()
 : <a class="el" href="class_c_l_i_1_1_app.html#a9ea4153f3081d8424e772254135237fd">CLI::App</a>
@@ -188,6 +188,9 @@ $(document).ready(function(){initNavTree('functions_func_r.html',''); initResiza
 <li>remove_subcommand()
 : <a class="el" href="class_c_l_i_1_1_app.html#acfd0b05943b8acba2a38c58f47140534">CLI::App</a>
 </li>
+<li>removeTimerEventReceiver()
+: <a class="el" href="classcore_1_1_timer.html#a7d3e4f597ef3306320a6944f66a3ee1e">core::Timer</a>
+</li>
 <li>Request()
 : <a class="el" href="classweb_1_1http_1_1client_1_1_request.html#aa7d24e563f55371ba96cd87b7fed63b9">web::http::client::Request</a>
 , <a class="el" href="classweb_1_1http_1_1server_1_1_request.html#a9147d174fe3e97836fdf8fb63ee302b6">web::http::server::Request</a>
@@ -199,10 +202,13 @@ $(document).ready(function(){initNavTree('functions_func_r.html',''); initResiza
 : <a class="el" href="classweb_1_1http_1_1server_1_1_socket_context.html#a6b88d296c560158f634c5b7b60e6cb75">web::http::server::SocketContext&lt; RequestT, ResponseT &gt;</a>
 </li>
 <li>RequestParser()
-: <a class="el" href="classweb_1_1http_1_1server_1_1_request_parser.html#a885099e64bbaa8c469041e17fa7abad7">web::http::server::RequestParser</a>
+: <a class="el" href="classweb_1_1http_1_1server_1_1_request_parser.html#ad058d028a653f11f3e73454e9bfaaebe">web::http::server::RequestParser</a>
+</li>
+<li>require()
+: <a class="el" href="classnet_1_1config_1_1_config_address.html#a3bca75fb5e8908ff39513a7549558839">net::config::ConfigAddress&lt; SocketAddressT &gt;</a>
 </li>
 <li>require_option()
-: <a class="el" href="class_c_l_i_1_1_app.html#a0e50594ad2ebfe6ce58e1d17398aeaac">CLI::App</a>
+: <a class="el" href="class_c_l_i_1_1_app.html#ad77cd2ce39f74e6bd871d05f377d8cc8">CLI::App</a>
 </li>
 <li>require_subcommand()
 : <a class="el" href="class_c_l_i_1_1_app.html#a9cb090791a2594ffca877fd6afbf858a">CLI::App</a>
@@ -210,19 +216,14 @@ $(document).ready(function(){initNavTree('functions_func_r.html',''); initResiza
 <li>required()
 : <a class="el" href="class_c_l_i_1_1_app.html#a33c3eb125a4e70d387dd9fc49c25432b">CLI::App</a>
 , <a class="el" href="class_c_l_i_1_1_option_base.html#a38c0ea47532de712dd8d9803633383b2">CLI::OptionBase&lt; CRTP &gt;</a>
-, <a class="el" href="classnet_1_1in6_1_1_config_local.html#a96a229f24ed845a46e0e45cdfa6d829a">net::in6::ConfigLocal</a>
-, <a class="el" href="classnet_1_1in6_1_1_config_remote.html#aebf9c92a1734fffe8d05ea6d55162f84">net::in6::ConfigRemote</a>
-, <a class="el" href="classnet_1_1in_1_1_config_local.html#a5e4277014daebc8bdca4fc40cbd3a2f6">net::in::ConfigLocal</a>
-, <a class="el" href="classnet_1_1in_1_1_config_remote.html#a38db072ee5f36935ddca78131d67b631">net::in::ConfigRemote</a>
-, <a class="el" href="classnet_1_1l2_1_1_config_local.html#a0fae9800ac9f7279a79d32b4c521d601">net::l2::ConfigLocal</a>
-, <a class="el" href="classnet_1_1l2_1_1_config_remote.html#a2d19cbf95173fbb6ee8cf3b86ae47cdb">net::l2::ConfigRemote</a>
-, <a class="el" href="classnet_1_1rf_1_1_config_local.html#a4b0eed8d6c1718208579a4a631ef802f">net::rf::ConfigLocal</a>
-, <a class="el" href="classnet_1_1rf_1_1_config_remote.html#a99efa0d37bec3241355e4f3538463d04">net::rf::ConfigRemote</a>
-, <a class="el" href="classnet_1_1un_1_1_config_local.html#a46b8f24b0ea19a1af683827f7ea9ee65">net::un::ConfigLocal</a>
-, <a class="el" href="classnet_1_1un_1_1_config_remote.html#a0f84253f555b083915799b6b1919efa1">net::un::ConfigRemote</a>
+, <a class="el" href="classnet_1_1in6_1_1config_1_1_config_address.html#a29b791ccce40673b43460b05f43488d6">net::in6::config::ConfigAddress&lt; ConfigAddressTypeT &gt;</a>
+, <a class="el" href="classnet_1_1in_1_1config_1_1_config_address.html#af019512a172815a732b3051fecb733b0">net::in::config::ConfigAddress&lt; ConfigAddressTypeT &gt;</a>
+, <a class="el" href="classnet_1_1l2_1_1config_1_1_config_address.html#a5db0c0ada71400c38cb3cedaaf76789d">net::l2::config::ConfigAddress&lt; ConfigAddressTypeT &gt;</a>
+, <a class="el" href="classnet_1_1rf_1_1config_1_1_config_address.html#a5884563809652dc5d39bab0cbc4dcc85">net::rf::config::ConfigAddress&lt; ConfigAddressTypeT &gt;</a>
+, <a class="el" href="classnet_1_1un_1_1config_1_1_config_address.html#a64bee1321308de08a44eb9ebd1700448">net::un::config::ConfigAddress&lt; ConfigAddressTypeT &gt;</a>
 </li>
 <li>RequiredError()
-: <a class="el" href="class_c_l_i_1_1_required_error.html#accaf02d1c768076cbe9c170563959891">CLI::RequiredError</a>
+: <a class="el" href="class_c_l_i_1_1_required_error.html#aa24b31317e4670f0eacd25cde2acbb35">CLI::RequiredError</a>
 </li>
 <li>Requires()
 : <a class="el" href="class_c_l_i_1_1_option_already_added.html#aed569f7b5b3618f98084348e8f5deede">CLI::OptionAlreadyAdded</a>
@@ -256,7 +257,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html',''); initResiza
 : <a class="el" href="class_c_l_i_1_1_option.html#a5d906c9a9cba1e759367e4e9a63a7703">CLI::Option</a>
 </li>
 <li>resume()
-: <a class="el" href="classcore_1_1_descriptor_event_dispatcher.html#ab197433bb62044a20c3f6b413592a058">core::DescriptorEventDispatcher</a>
+: <a class="el" href="classcore_1_1_descriptor_event_publisher.html#adef0cdee352a13b99772af079fb7bfe1">core::DescriptorEventPublisher</a>
 , <a class="el" href="classcore_1_1_descriptor_event_receiver.html#afa983ac6b0ba8f28ce4c0fc16cd914f8">core::DescriptorEventReceiver</a>
 </li>
 <li>returnTo()

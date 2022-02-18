@@ -2,7 +2,7 @@ var classweb_1_1websocket_1_1server_1_1_sub_protocol =
 [
     [ "Super", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a1ae152bbbe518143a580d4ac38f3ba00", null ],
     [ "SubProtocol", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a09ff711fdd0066999bf8fb2aeb552ff8", null ],
-    [ "~SubProtocol", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a2410b54d5707a714bc45730349a9d55d", null ],
+    [ "~SubProtocol", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#aee801141f906aec646de34c82da8c58c", null ],
     [ "forEachClient", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#ab938b78d34fdb811bd8aa3dc295c003b", null ],
     [ "onConnected", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a572b0b3541a224cf9bf8976c191e1d45", null ],
     [ "onDisconnected", "classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a6bac3391ba4d39a9e66ab3f20cbd3195", null ],

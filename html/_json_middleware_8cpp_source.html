@@ -136,7 +136,7 @@ $(document).ready(function(){initNavTree('_json_middleware_8cpp_source.html','')
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                <span class="comment">// set all the json data as attributes in the request object</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                req.setAttribute&lt;nlohmann::json&gt;(json);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            } <span class="keywordflow">catch</span> (nlohmann::detail::parse_error&amp; error) {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            } <span class="keywordflow">catch</span> ([[maybe_unused]] nlohmann::detail::parse_error&amp; error) {</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                <span class="comment">// silently fail if body is not json</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            }</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>

@@ -87,10 +87,6 @@ $(document).ready(function(){initNavTree('functions_func_o.html',''); initResiza
 <li>observed()
 : <a class="el" href="classcore_1_1_observer.html#aeff595f74f25efea85406cf700e13550">core::Observer</a>
 </li>
-<li>observeEnabledEvents()
-: <a class="el" href="classcore_1_1_descriptor_event_dispatcher.html#a59ce8901c2d2c26e659850ee4f3efedb">core::DescriptorEventDispatcher</a>
-, <a class="el" href="classcore_1_1_event_dispatcher.html#a7f87d6139ea3f1944b3c997214683784">core::EventDispatcher</a>
-</li>
 <li>onConnect()
 : <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#a3fe0583738f7dd6fe0e1695c4f2d7b2b">core::socket::stream::SocketClient&lt; ClientSocketT, SocketConnectorT, SocketContextFactoryT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a170050f20d519f360c88d85531330823">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
@@ -197,8 +193,8 @@ $(document).ready(function(){initNavTree('functions_func_o.html',''); initResiza
 , <a class="el" href="classutils_1_1_timeval.html#a4a554848a362fa40feef1c3f93c0c2e5">utils::Timeval</a>
 </li>
 <li>operator()()
-: <a class="el" href="class_c_l_i_1_1_validator.html#a3e4e7670d82455a43c0d3f8c9cc1db4f">CLI::Validator</a>
-, <a class="el" href="classcore_1_1_timer_event_dispatcher_1_1timernode__lt.html#a90ec8d7d76eb7c6025902debf256ecaa">core::TimerEventDispatcher::timernode_lt</a>
+: <a class="el" href="class_c_l_i_1_1_validator.html#a97241be1f8ac1c8d2fabdcf2ec761f49">CLI::Validator</a>
+, <a class="el" href="classcore_1_1_timer_event_publisher_1_1timernode__lt.html#aa71ca0bd38f645b5863f30417186eeda">core::TimerEventPublisher::timernode_lt</a>
 , <a class="el" href="classexpress_1_1_state.html#a4a1d715329ec6397027cd945d52c0f00">express::State</a>
 </li>
 <li>operator*()
@@ -226,31 +222,35 @@ $(document).ready(function(){initNavTree('functions_func_o.html',''); initResiza
 : <a class="el" href="class_c_l_i_1_1_app.html#a379b496023da38cc91fa184b494e658e">CLI::App</a>
 , <a class="el" href="class_c_l_i_1_1_option.html#ab98149dd8e47cf117ad0d705ee79c83a">CLI::Option</a>
 , <a class="el" href="classcore_1_1_descriptor.html#a1cd77955a89febc35fd36a9ef66bb92c">core::Descriptor</a>
-, <a class="el" href="classcore_1_1_descriptor_event_dispatcher.html#a94640dc3a474105014b02c69b10577f1">core::DescriptorEventDispatcher</a>
+, <a class="el" href="classcore_1_1_descriptor_event_publisher.html#aa0fead8d4ac9b15ba864fab1ad63dcdb">core::DescriptorEventPublisher</a>
 , <a class="el" href="classcore_1_1_descriptor_event_receiver.html#ace91a9dabbdff30937a1c2e6b4c8e0fe">core::DescriptorEventReceiver</a>
-, <a class="el" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher.html#aebf7f39ca0b6f1af62c577924e858d53">core::epoll::DescriptorEventDispatcher</a>
-, <a class="el" href="classcore_1_1epoll_1_1_event_dispatcher.html#a7a5180228f7c281eba3f2982740286ac">core::epoll::EventDispatcher</a>
-, <a class="el" href="classcore_1_1_event_dispatcher.html#aec3bf96a7dcb8be5546d226e891bb90f">core::EventDispatcher</a>
+, <a class="el" href="classcore_1_1epoll_1_1_descriptor_event_publisher.html#a161620915b7f85514c40ee59a50591b3">core::epoll::DescriptorEventPublisher</a>
+, <a class="el" href="classcore_1_1epoll_1_1_event_multiplexer.html#aacfa9c9292192f44f1ff870fcba3dab0">core::epoll::EventMultiplexer</a>
 , <a class="el" href="classcore_1_1_event_loop.html#ac14614733829a570977f4943ccca0e45">core::EventLoop</a>
+, <a class="el" href="classcore_1_1_event_multiplexer.html#a15a552b7891d3ecebd070c2af89a09c8">core::EventMultiplexer</a>
 , <a class="el" href="classcore_1_1pipe_1_1_pipe.html#ad01a1b3259efcbf9880df3c7d8aa3408">core::pipe::Pipe</a>
 , <a class="el" href="classcore_1_1pipe_1_1_pipe_sink.html#a3919e3c65c72ba43d21ac37adb3f786c">core::pipe::PipeSink</a>
 , <a class="el" href="classcore_1_1pipe_1_1_pipe_source.html#a8db4ee493a6caf349dcb84b6fd72793f">core::pipe::PipeSource</a>
-, <a class="el" href="classcore_1_1poll_1_1_descriptor_event_dispatcher.html#a4495fd81a2751922354b4b6776c7a971">core::poll::DescriptorEventDispatcher</a>
-, <a class="el" href="classcore_1_1poll_1_1_event_dispatcher.html#a538334f3ae8a0afcf1322aad4b6f9ebe">core::poll::EventDispatcher</a>
-, <a class="el" href="classcore_1_1select_1_1_descriptor_event_dispatcher.html#a9cb2b3a7f7592e32c59193e005aa5aac">core::select::DescriptorEventDispatcher</a>
-, <a class="el" href="classcore_1_1select_1_1_event_dispatcher.html#a12fb2e6364c4c775c2c93a898ccb416b">core::select::EventDispatcher</a>
+, <a class="el" href="classcore_1_1poll_1_1_descriptor_event_publisher.html#a0de4099ea24ad669cc0fbcd4e3cfd3e9">core::poll::DescriptorEventPublisher</a>
+, <a class="el" href="classcore_1_1poll_1_1_event_multiplexer.html#a8ef5f9885d979ff34f9c8e1690cf486e">core::poll::EventMultiplexer</a>
+, <a class="el" href="classcore_1_1select_1_1_descriptor_event_publisher.html#a4a6f64ca0d18d9a888802638ca3928cb">core::select::DescriptorEventPublisher</a>
+, <a class="el" href="classcore_1_1select_1_1_event_multiplexer.html#ac6e1ae3cb79df95ee9ff0a5be05117fa">core::select::EventMultiplexer</a>
 , <a class="el" href="classcore_1_1socket_1_1_socket.html#a7d106d5c96749efbfef8f478a1e2d706">core::socket::Socket&lt; SocketAddressT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1_socket_address.html#a6e60af8f9cefbb2a2eabb7fc0bcd0354">core::socket::SocketAddress&lt; SockAddrT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a01164b1b5ace34eb7d57737ac07237dd">core::socket::SocketConnection</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#a01d631ce5c19cc2d43133a5f29ebc2d9">core::socket::stream::SocketAcceptor&lt; ServerConfigT, SocketConnectionT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ac0108959fb4c83a5625aa157c7a27d4d">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;</a>
 , <a class="el" href="classcore_1_1timer_1_1_interval_timer.html#a6e23bcb916f2131cbf28de4364285864">core::timer::IntervalTimer</a>
+, <a class="el" href="classcore_1_1timer_1_1_interval_timer_stopable.html#a8da15d4274ed61decb9e451431b21e53">core::timer::IntervalTimerStopable</a>
+, <a class="el" href="classcore_1_1_timer.html#a2213410154f03a7ce647ed689080b143">core::Timer</a>
 , <a class="el" href="classcore_1_1timer_1_1_singleshot_timer.html#ac044e0e488432cde4f6311c580adf11e">core::timer::SingleshotTimer</a>
+, <a class="el" href="classcore_1_1timer_1_1_timer.html#a49666315fc60101504a1e62d3faf0945">core::timer::Timer</a>
 , <a class="el" href="classcore_1_1_timer_event_receiver.html#a5705832c6e83afdabb18b5f5e40a1b2c">core::TimerEventReceiver</a>
 , <a class="el" href="classexpress_1_1_dispatcher.html#ad8a0ae846e70c483c3041af51d12467e">express::Dispatcher</a>
 , <a class="el" href="classexpress_1_1middleware_1_1_json_middleware.html#a083d7f6cdd0597c809bff362e2a35023">express::middleware::JsonMiddleware</a>
 , <a class="el" href="classexpress_1_1middleware_1_1_static_middleware.html#affa81877ef800c2c23ce51dc8f5a854b">express::middleware::StaticMiddleware</a>
 , <a class="el" href="classexpress_1_1_router.html#a044d5ca46a162498b2ec93aab0ffd6d4">express::Router</a>
+, <a class="el" href="classutils_1_1_config.html#ac1923992b8ba60844267baca61692247">utils::Config</a>
 , <a class="el" href="classutils_1_1_timeval.html#ac5696b678505b8fb9ee27540ab1802ca">utils::Timeval</a>
 , <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context_factory.html#a2557bc72d5693a0590c6e6e32b4e4863">web::http::client::SocketContextFactory&lt; RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1_mime_types.html#a300659ad74ceffe1f21b888b036c7aa9">web::http::MimeTypes</a>
@@ -280,7 +280,7 @@ $(document).ready(function(){initNavTree('functions_func_o.html',''); initResiza
 : <a class="el" href="classutils_1_1_timeval.html#ad2c64952dc08b9e5be444b0ba8779146">utils::Timeval</a>
 </li>
 <li>operator[]()
-: <a class="el" href="class_c_l_i_1_1_app.html#a9d9a4dbfc968456b1ba9e988d27c3bc9">CLI::App</a>
+: <a class="el" href="class_c_l_i_1_1_app.html#aa52aa8786d2be70543e36d1c668f49c3">CLI::App</a>
 </li>
 <li>operator|()
 : <a class="el" href="class_c_l_i_1_1_validator.html#ac19919604a6ac47c5a1cbd34920991a4">CLI::Validator</a>
@@ -299,22 +299,22 @@ $(document).ready(function(){initNavTree('functions_func_o.html',''); initResiza
 : <a class="el" href="class_c_l_i_1_1_option.html#a0786ed712d1ac7e961b5c167cc900af9">CLI::Option</a>
 </li>
 <li>OptionAlreadyAdded()
-: <a class="el" href="class_c_l_i_1_1_option_already_added.html#ae5b4c795d980744136ab905da9f15bc6">CLI::OptionAlreadyAdded</a>
+: <a class="el" href="class_c_l_i_1_1_option_already_added.html#a1a506d4fff48a6db7edf2f2aa3c679c7">CLI::OptionAlreadyAdded</a>
 </li>
 <li>OptionDefaults()
 : <a class="el" href="class_c_l_i_1_1_option_defaults.html#ab3b11a73b6f5ce805514b3f44cb9b079">CLI::OptionDefaults</a>
 </li>
 <li>OptionNotFound()
-: <a class="el" href="class_c_l_i_1_1_option_not_found.html#a6fe9fae6b801d526d9b8cc2c228cb323">CLI::OptionNotFound</a>
+: <a class="el" href="class_c_l_i_1_1_option_not_found.html#aa00e9b8d09d139a1084a846c1ad5889d">CLI::OptionNotFound</a>
 </li>
 <li>options()
 : <a class="el" href="classexpress_1_1_router.html#a6a02a5c7aa05ff68497edd322a8fd092">express::Router</a>
 </li>
 <li>outOfBandEvent()
-: <a class="el" href="classcore_1_1_exceptional_condition_event_receiver.html#a2a63cf48c3b4441699adf716eec40cf4">core::ExceptionalConditionEventReceiver</a>
+: <a class="el" href="classcore_1_1eventreceiver_1_1_exceptional_condition_event_receiver.html#a24ba0c7466217f87dae5edc1f29ae56d">core::eventreceiver::ExceptionalConditionEventReceiver</a>
 </li>
 <li>outOfBandTimeout()
-: <a class="el" href="classcore_1_1_exceptional_condition_event_receiver.html#a0868ae2174c55a543c2a74efe1512c9c">core::ExceptionalConditionEventReceiver</a>
+: <a class="el" href="classcore_1_1eventreceiver_1_1_exceptional_condition_event_receiver.html#a55cd4bbf27a064f65c579c5068d6f2bd">core::eventreceiver::ExceptionalConditionEventReceiver</a>
 </li>
 </ul>
 </div><!-- contents -->

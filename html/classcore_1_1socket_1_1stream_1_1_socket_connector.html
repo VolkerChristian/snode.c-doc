@@ -82,9 +82,12 @@ $(document).ready(function(){initNavTree('classcore_1_1socket_1_1stream_1_1_sock
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcore_1_1socket_1_1stream_1_1_socket_connector-members.html">List of all members</a>  </div>
@@ -97,90 +100,86 @@ $(document).ready(function(){initNavTree('classcore_1_1socket_1_1stream_1_1_sock
 <div class="dynheader">
 Inheritance diagram for core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_connector__inherit__graph.svg" width="598" height="2028"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_connector__inherit__graph.svg" width="598" height="2014"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_connector__coll__graph.svg" width="947" height="1614"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_connector__coll__graph.svg" width="935" height="1614"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ad669aae2accb43f4113b2b588bc87e04"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad669aae2accb43f4113b2b588bc87e04">SocketAddress</a> = typename <a class="el" href="classcore_1_1socket_1_1_socket.html#a6f3a39a7f462eae53a4d5202840889ce">Socket::SocketAddress</a></td></tr>
+<tr class="separator:ad669aae2accb43f4113b2b588bc87e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a606afaa37cd931d8abb96fdab0b229f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a606afaa37cd931d8abb96fdab0b229f8">SocketConnector</a> (const std::shared_ptr&lt; <a class="el" href="classcore_1_1socket_1_1_socket_context_factory.html">core::socket::SocketContextFactory</a> &gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a382ba3ad995d89dbffbcbafbf4ba9b26">socketContextFactory</a>, const std::function&lt; void(<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab862a872a6d0aedad883cb79d80fc545">SocketConnection</a> *)&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a544dcf27ef206c8a68c94f0d2254c547">onConnect</a>, const std::function&lt; void(<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab862a872a6d0aedad883cb79d80fc545">SocketConnection</a> *)&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a0022075bf74b577257aaec87793c11aa">onConnected</a>, const std::function&lt; void(<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab862a872a6d0aedad883cb79d80fc545">SocketConnection</a> *)&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#aa485c249a6d73db6b3a4d7e5efbc9c64">onDisconnect</a>, const std::map&lt; std::string, std::any &gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a745cf97447b7862b846a27d8758145f7">options</a>)</td></tr>
+<tr class="separator:a606afaa37cd931d8abb96fdab0b229f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96e41db5bb2dc6daab4d9e883673fc98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a96e41db5bb2dc6daab4d9e883673fc98">~SocketConnector</a> () override=default</td></tr>
+<tr class="separator:a96e41db5bb2dc6daab4d9e883673fc98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b2e9396e2283ddf8d9ab920befa8525"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a3b2e9396e2283ddf8d9ab920befa8525">connect</a> (const std::shared_ptr&lt; <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a5fd268949d379941394e8b41fa4bc669">ClientConfig</a> &gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>, const std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad669aae2accb43f4113b2b588bc87e04">SocketAddress</a> &amp;, int)&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a27fb9eacedcfbc50b1ab57acd01f927f">onError</a>)</td></tr>
+<tr class="separator:a3b2e9396e2283ddf8d9ab920befa8525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
 Protected Types</h2></td></tr>
 <tr class="memitem:a5fd268949d379941394e8b41fa4bc669"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a5fd268949d379941394e8b41fa4bc669">ClientConfig</a> = ClientConfigT</td></tr>
 <tr class="separator:a5fd268949d379941394e8b41fa4bc669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab862a872a6d0aedad883cb79d80fc545"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab862a872a6d0aedad883cb79d80fc545">SocketConnection</a> = SocketConnectionT</td></tr>
 <tr class="separator:ab862a872a6d0aedad883cb79d80fc545"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94c2240388084515b55a5694d6c78310"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a94c2240388084515b55a5694d6c78310">Socket</a> = typename SocketConnection::Socket</td></tr>
-<tr class="separator:a94c2240388084515b55a5694d6c78310"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad669aae2accb43f4113b2b588bc87e04"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad669aae2accb43f4113b2b588bc87e04">SocketAddress</a> = typename <a class="el" href="classcore_1_1socket_1_1_socket.html#a6f3a39a7f462eae53a4d5202840889ce">Socket::SocketAddress</a></td></tr>
-<tr class="separator:ad669aae2accb43f4113b2b588bc87e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabff889a0e837dc3cc5f1fecd26d8fa7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#aabff889a0e837dc3cc5f1fecd26d8fa7">SocketReader</a> = typename <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a439716f49a508e63e7549644bd3405e4">SocketConnection::SocketReader</a></td></tr>
-<tr class="separator:aabff889a0e837dc3cc5f1fecd26d8fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a998e93a9cfefd200d5595fa971bb4f2a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a998e93a9cfefd200d5595fa971bb4f2a">SocketWriter</a> = typename <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ac093e0586098f06700ebbb1845627b61">SocketConnection::SocketWriter</a></td></tr>
-<tr class="separator:a998e93a9cfefd200d5595fa971bb4f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a606afaa37cd931d8abb96fdab0b229f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a606afaa37cd931d8abb96fdab0b229f8">SocketConnector</a> (const std::shared_ptr&lt; <a class="el" href="classcore_1_1socket_1_1_socket_context_factory.html">core::socket::SocketContextFactory</a> &gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a382ba3ad995d89dbffbcbafbf4ba9b26">socketContextFactory</a>, const std::function&lt; void(<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab862a872a6d0aedad883cb79d80fc545">SocketConnection</a> *)&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a544dcf27ef206c8a68c94f0d2254c547">onConnect</a>, const std::function&lt; void(<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab862a872a6d0aedad883cb79d80fc545">SocketConnection</a> *)&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a0022075bf74b577257aaec87793c11aa">onConnected</a>, const std::function&lt; void(<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab862a872a6d0aedad883cb79d80fc545">SocketConnection</a> *)&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#aa485c249a6d73db6b3a4d7e5efbc9c64">onDisconnect</a>, const std::map&lt; std::string, std::any &gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a745cf97447b7862b846a27d8758145f7">options</a>)</td></tr>
-<tr class="separator:a606afaa37cd931d8abb96fdab0b229f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d04301339071b27e3311e021ab70470"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a9d04301339071b27e3311e021ab70470">~SocketConnector</a> ()=default</td></tr>
-<tr class="separator:a9d04301339071b27e3311e021ab70470"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fdfec6262c5b514e3431667c1b2cda4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a8fdfec6262c5b514e3431667c1b2cda4">connect</a> (const std::shared_ptr&lt; <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a5fd268949d379941394e8b41fa4bc669">ClientConfig</a> &gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>, const std::function&lt; void(int)&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ae3d3d94e9e90bbfc120f7e091e72c625">onError</a>)</td></tr>
-<tr class="separator:a8fdfec6262c5b514e3431667c1b2cda4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae91616a047fa2defa8cd302c1a57d058"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ae91616a047fa2defa8cd302c1a57d058">destruct</a> ()</td></tr>
 <tr class="separator:ae91616a047fa2defa8cd302c1a57d058"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classcore_1_1_init_connect_event_receiver"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1_init_connect_event_receiver')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1_init_connect_event_receiver.html">core::InitConnectEventReceiver</a></td></tr>
-<tr class="memitem:a23ac72317bdbe96b010dcfd9437e4ac5 inherit pro_methods_classcore_1_1_init_connect_event_receiver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_init_connect_event_receiver.html#a23ac72317bdbe96b010dcfd9437e4ac5">InitConnectEventReceiver</a> ()=default</td></tr>
-<tr class="separator:a23ac72317bdbe96b010dcfd9437e4ac5 inherit pro_methods_classcore_1_1_init_connect_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb14487f67820dbb781d36fc962025fa inherit pro_methods_classcore_1_1_init_connect_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_init_connect_event_receiver.html#adb14487f67820dbb781d36fc962025fa">dispatch</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime) override</td></tr>
-<tr class="separator:adb14487f67820dbb781d36fc962025fa inherit pro_methods_classcore_1_1_init_connect_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classcore_1_1eventreceiver_1_1_init_connect_event_receiver"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1eventreceiver_1_1_init_connect_event_receiver')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1eventreceiver_1_1_init_connect_event_receiver.html">core::eventreceiver::InitConnectEventReceiver</a></td></tr>
+<tr class="memitem:a42ed6246a7611c3b587498ab632c1597 inherit pro_methods_classcore_1_1eventreceiver_1_1_init_connect_event_receiver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1eventreceiver_1_1_init_connect_event_receiver.html#a42ed6246a7611c3b587498ab632c1597">InitConnectEventReceiver</a> (const std::string &amp;<a class="el" href="classcore_1_1_event_receiver.html#aa642880e94c406fb71363b70571e6a58">name</a>)</td></tr>
+<tr class="separator:a42ed6246a7611c3b587498ab632c1597 inherit pro_methods_classcore_1_1eventreceiver_1_1_init_connect_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92a69c59079059ecb23db2f861fa0f7f inherit pro_methods_classcore_1_1eventreceiver_1_1_init_connect_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1eventreceiver_1_1_init_connect_event_receiver.html#a92a69c59079059ecb23db2f861fa0f7f">dispatch</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime) override</td></tr>
+<tr class="separator:a92a69c59079059ecb23db2f861fa0f7f inherit pro_methods_classcore_1_1eventreceiver_1_1_init_connect_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classcore_1_1_event_receiver"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1_event_receiver')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1_event_receiver.html">core::EventReceiver</a></td></tr>
-<tr class="memitem:aa0c5bd08716bf1c8f9822ebf303efdc4 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#aa0c5bd08716bf1c8f9822ebf303efdc4">EventReceiver</a> ()</td></tr>
-<tr class="separator:aa0c5bd08716bf1c8f9822ebf303efdc4 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adec275118bd8a68e2b4cb71fa94d79b6 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#adec275118bd8a68e2b4cb71fa94d79b6">EventReceiver</a> (const std::string &amp;<a class="el" href="classcore_1_1_event_receiver.html#aa642880e94c406fb71363b70571e6a58">name</a>)</td></tr>
+<tr class="separator:adec275118bd8a68e2b4cb71fa94d79b6 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a992cbab6f773fbbb24d89d34ca938d98 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a992cbab6f773fbbb24d89d34ca938d98">~EventReceiver</a> ()=default</td></tr>
 <tr class="separator:a992cbab6f773fbbb24d89d34ca938d98 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b80e945995510922706c33403f0a4f0 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a2b80e945995510922706c33403f0a4f0">publish</a> ()</td></tr>
-<tr class="separator:a2b80e945995510922706c33403f0a4f0 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classcore_1_1_connect_event_receiver"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1_connect_event_receiver')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1_connect_event_receiver.html">core::ConnectEventReceiver</a></td></tr>
-<tr class="memitem:a784295cc01734166fe11502d85be8dbf inherit pro_methods_classcore_1_1_connect_event_receiver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_connect_event_receiver.html#a784295cc01734166fe11502d85be8dbf">ConnectEventReceiver</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;timeout=10)</td></tr>
-<tr class="separator:a784295cc01734166fe11502d85be8dbf inherit pro_methods_classcore_1_1_connect_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c98dfe13e9f7928f7bdc32d27c50be3 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a1c98dfe13e9f7928f7bdc32d27c50be3">publish</a> () const</td></tr>
+<tr class="separator:a1c98dfe13e9f7928f7bdc32d27c50be3 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac62114d8385172bb2c536774a7dfcf7 inherit pro_methods_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#aac62114d8385172bb2c536774a7dfcf7">getName</a> ()</td></tr>
+<tr class="separator:aac62114d8385172bb2c536774a7dfcf7 inherit pro_methods_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classcore_1_1eventreceiver_1_1_connect_event_receiver"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1eventreceiver_1_1_connect_event_receiver')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1eventreceiver_1_1_connect_event_receiver.html">core::eventreceiver::ConnectEventReceiver</a></td></tr>
+<tr class="memitem:ac0fd7bc52fdddde065f2411aaa68357d inherit pro_methods_classcore_1_1eventreceiver_1_1_connect_event_receiver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1eventreceiver_1_1_connect_event_receiver.html#ac0fd7bc52fdddde065f2411aaa68357d">ConnectEventReceiver</a> (const std::string &amp;<a class="el" href="classcore_1_1_event_receiver.html#aa642880e94c406fb71363b70571e6a58">name</a>, const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;timeout=10)</td></tr>
+<tr class="separator:ac0fd7bc52fdddde065f2411aaa68357d inherit pro_methods_classcore_1_1eventreceiver_1_1_connect_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classcore_1_1_descriptor_event_receiver"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1_descriptor_event_receiver')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1_descriptor_event_receiver.html">core::DescriptorEventReceiver</a></td></tr>
-<tr class="memitem:ae7f2d974abad7f88a533648478996e06 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#ae7f2d974abad7f88a533648478996e06">DescriptorEventReceiver</a> (<a class="el" href="classcore_1_1_descriptor_event_dispatcher.html">DescriptorEventDispatcher</a> &amp;<a class="el" href="classcore_1_1_descriptor_event_receiver.html#ad54165398cd8baf1af0b366d3491a531">descriptorEventDispatcher</a>, const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;timeout=<a class="el" href="classcore_1_1_descriptor_event_receiver_1_1_t_i_m_e_o_u_t.html#a8d4a97f68c2045b102dd2f81cb1126ff">TIMEOUT::DISABLE</a>)</td></tr>
-<tr class="separator:ae7f2d974abad7f88a533648478996e06 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac11690794009cb5603d280b4b2e68892 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#ac11690794009cb5603d280b4b2e68892">~DescriptorEventReceiver</a> ()=default</td></tr>
-<tr class="separator:ac11690794009cb5603d280b4b2e68892 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a445606dc995a71972d83e7683ada144b inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#a445606dc995a71972d83e7683ada144b">getRegisteredFd</a> ()</td></tr>
-<tr class="separator:a445606dc995a71972d83e7683ada144b inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c88ab07dd31cc902fdfeb071f11956e inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#a1c88ab07dd31cc902fdfeb071f11956e">DescriptorEventReceiver</a> (const std::string &amp;<a class="el" href="classcore_1_1_event_receiver.html#aa642880e94c406fb71363b70571e6a58">name</a>, <a class="el" href="classcore_1_1_descriptor_event_publisher.html">DescriptorEventPublisher</a> &amp;<a class="el" href="classcore_1_1_descriptor_event_receiver.html#a6946646a808f64f92675becaf2de7f7e">descriptorEventPublisher</a>, const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;timeout=<a class="el" href="classcore_1_1_descriptor_event_receiver_1_1_t_i_m_e_o_u_t.html#a8d4a97f68c2045b102dd2f81cb1126ff">TIMEOUT::DISABLE</a>)</td></tr>
+<tr class="separator:a1c88ab07dd31cc902fdfeb071f11956e inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8611e3a44e67126e1418844dea4a326 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#ac8611e3a44e67126e1418844dea4a326">enable</a> (int fd)</td></tr>
 <tr class="separator:ac8611e3a44e67126e1418844dea4a326 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ab422ce6622a29cee38a0108ee6ccc1 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#a4ab422ce6622a29cee38a0108ee6ccc1">disable</a> ()</td></tr>
 <tr class="separator:a4ab422ce6622a29cee38a0108ee6ccc1 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5dc7e86ddad09f5bd3eeb0c74f2e7f9 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#ac5dc7e86ddad09f5bd3eeb0c74f2e7f9">isEnabled</a> () const</td></tr>
-<tr class="separator:ac5dc7e86ddad09f5bd3eeb0c74f2e7f9 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab5e466759c83194c5bc4b41f1a33103 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#aab5e466759c83194c5bc4b41f1a33103">suspend</a> ()</td></tr>
 <tr class="separator:aab5e466759c83194c5bc4b41f1a33103 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa983ac6b0ba8f28ce4c0fc16cd914f8 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#afa983ac6b0ba8f28ce4c0fc16cd914f8">resume</a> ()</td></tr>
 <tr class="separator:afa983ac6b0ba8f28ce4c0fc16cd914f8 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac80fc901f941c059a6ebdb28147b25a2 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#ac80fc901f941c059a6ebdb28147b25a2">isSuspended</a> () const</td></tr>
-<tr class="separator:ac80fc901f941c059a6ebdb28147b25a2 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac73e1dbc027789948ae7bcfd86a25cf0 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#ac73e1dbc027789948ae7bcfd86a25cf0">dispatch</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime) override</td></tr>
-<tr class="separator:ac73e1dbc027789948ae7bcfd86a25cf0 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a550c1ba95dcb4e286eaf680eed1ca11b inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#a550c1ba95dcb4e286eaf680eed1ca11b">triggered</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime)</td></tr>
-<tr class="separator:a550c1ba95dcb4e286eaf680eed1ca11b inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ae11ef40db1dc53806247d7e8d4000e inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#a4ae11ef40db1dc53806247d7e8d4000e">disabled</a> ()</td></tr>
-<tr class="separator:a4ae11ef40db1dc53806247d7e8d4000e inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89834bfd8d8f74d4570c45838239eeb8 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#a89834bfd8d8f74d4570c45838239eeb8">terminate</a> ()</td></tr>
-<tr class="separator:a89834bfd8d8f74d4570c45838239eeb8 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7891fad490ecab4a5bd98dc9b6f65b2 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#ab7891fad490ecab4a5bd98dc9b6f65b2">setTimeout</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;timeout)</td></tr>
 <tr class="separator:ab7891fad490ecab4a5bd98dc9b6f65b2 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af169839f390fc4695734ec7248fd3af2 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#af169839f390fc4695734ec7248fd3af2">getTimeout</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime) const</td></tr>
-<tr class="separator:af169839f390fc4695734ec7248fd3af2 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae04e87c4f44979a04d3839759a63220a inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#ae04e87c4f44979a04d3839759a63220a">checkTimeout</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime)</td></tr>
 <tr class="separator:ae04e87c4f44979a04d3839759a63220a inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89834bfd8d8f74d4570c45838239eeb8 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#a89834bfd8d8f74d4570c45838239eeb8">terminate</a> ()</td></tr>
+<tr class="separator:a89834bfd8d8f74d4570c45838239eeb8 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a445606dc995a71972d83e7683ada144b inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#a445606dc995a71972d83e7683ada144b">getRegisteredFd</a> ()</td></tr>
+<tr class="separator:a445606dc995a71972d83e7683ada144b inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af169839f390fc4695734ec7248fd3af2 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#af169839f390fc4695734ec7248fd3af2">getTimeout</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime) const</td></tr>
+<tr class="separator:af169839f390fc4695734ec7248fd3af2 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5dc7e86ddad09f5bd3eeb0c74f2e7f9 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#ac5dc7e86ddad09f5bd3eeb0c74f2e7f9">isEnabled</a> () const</td></tr>
+<tr class="separator:ac5dc7e86ddad09f5bd3eeb0c74f2e7f9 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac80fc901f941c059a6ebdb28147b25a2 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#ac80fc901f941c059a6ebdb28147b25a2">isSuspended</a> () const</td></tr>
+<tr class="separator:ac80fc901f941c059a6ebdb28147b25a2 inherit pro_methods_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classcore_1_1_observer"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcore_1_1_observer')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcore_1_1_observer.html">core::Observer</a></td></tr>
+<tr class="memitem:a960c012722b620c5102a778c868958ba inherit pro_methods_classcore_1_1_observer"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_observer.html#a960c012722b620c5102a778c868958ba">~Observer</a> ()=default</td></tr>
+<tr class="separator:a960c012722b620c5102a778c868958ba inherit pro_methods_classcore_1_1_observer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12bf1ddfdb90f05f28d16c09ce0658f8 inherit pro_methods_classcore_1_1_observer"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_observer.html#a12bf1ddfdb90f05f28d16c09ce0658f8">isObserved</a> ()</td></tr>
 <tr class="separator:a12bf1ddfdb90f05f28d16c09ce0658f8 inherit pro_methods_classcore_1_1_observer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeff595f74f25efea85406cf700e13550 inherit pro_methods_classcore_1_1_observer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_observer.html#aeff595f74f25efea85406cf700e13550">observed</a> ()</td></tr>
@@ -194,24 +193,18 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ab3fcbd7c86a0f27600e9c0548295369f"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a5fd268949d379941394e8b41fa4bc669">ClientConfig</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a> = nullptr</td></tr>
 <tr class="separator:ab3fcbd7c86a0f27600e9c0548295369f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3d3d94e9e90bbfc120f7e091e72c625"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(int err)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ae3d3d94e9e90bbfc120f7e091e72c625">onError</a></td></tr>
-<tr class="separator:ae3d3d94e9e90bbfc120f7e091e72c625"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27fb9eacedcfbc50b1ab57acd01f927f"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad669aae2accb43f4113b2b588bc87e04">SocketAddress</a> &amp;socketAddress, int err)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a27fb9eacedcfbc50b1ab57acd01f927f">onError</a></td></tr>
+<tr class="separator:a27fb9eacedcfbc50b1ab57acd01f927f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a745cf97447b7862b846a27d8758145f7"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::any &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a745cf97447b7862b846a27d8758145f7">options</a></td></tr>
 <tr class="separator:a745cf97447b7862b846a27d8758145f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classcore_1_1_event_receiver"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classcore_1_1_event_receiver')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classcore_1_1_event_receiver.html">core::EventReceiver</a></td></tr>
 <tr class="memitem:aa7594f344bc5bf40ed9d8bd0fd00ac5a inherit pro_attribs_classcore_1_1_event_receiver"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1_event.html">Event</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#aa7594f344bc5bf40ed9d8bd0fd00ac5a">event</a></td></tr>
 <tr class="separator:aa7594f344bc5bf40ed9d8bd0fd00ac5a inherit pro_attribs_classcore_1_1_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classcore_1_1_descriptor_event_receiver"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classcore_1_1_descriptor_event_receiver')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classcore_1_1_descriptor_event_receiver.html">core::DescriptorEventReceiver</a></td></tr>
-<tr class="memitem:a2591de216eb47e565e696e4687a9406d inherit pro_attribs_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#a2591de216eb47e565e696e4687a9406d">publisedTime</a></td></tr>
-<tr class="separator:a2591de216eb47e565e696e4687a9406d inherit pro_attribs_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a026ce37e5bf35f3a3dc91dcbb382d926 inherit pro_attribs_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#a026ce37e5bf35f3a3dc91dcbb382d926">lastTriggered</a></td></tr>
-<tr class="separator:a026ce37e5bf35f3a3dc91dcbb382d926 inherit pro_attribs_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f1288f7ed5140d353e24b611a942618 inherit pro_attribs_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#a1f1288f7ed5140d353e24b611a942618">maxInactivity</a></td></tr>
-<tr class="separator:a1f1288f7ed5140d353e24b611a942618 inherit pro_attribs_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a137779aa6ae35d8bb2c57871d280fea8 inherit pro_attribs_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#a137779aa6ae35d8bb2c57871d280fea8">initialTimeout</a></td></tr>
-<tr class="separator:a137779aa6ae35d8bb2c57871d280fea8 inherit pro_attribs_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc69d093acc72b3d6963ae7f35f12ec9 inherit pro_attribs_classcore_1_1_descriptor_event_receiver"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_descriptor_event_receiver.html#acc69d093acc72b3d6963ae7f35f12ec9">eventCounter</a> = 0</td></tr>
-<tr class="separator:acc69d093acc72b3d6963ae7f35f12ec9 inherit pro_attribs_classcore_1_1_descriptor_event_receiver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a94c2240388084515b55a5694d6c78310"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a94c2240388084515b55a5694d6c78310">Socket</a> = typename SocketConnection::Socket</td></tr>
+<tr class="separator:a94c2240388084515b55a5694d6c78310"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -291,12 +284,12 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00056">56</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00057">57</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
 
 </div>
 </div>
@@ -307,22 +300,14 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html">core::socket::stream::SocketConnector</a>&lt; ClientConfigT, SocketConnectionT &gt;::<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad669aae2accb43f4113b2b588bc87e04">SocketAddress</a> =  typename <a class="el" href="classcore_1_1socket_1_1_socket.html#a6f3a39a7f462eae53a4d5202840889ce">Socket::SocketAddress</a></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00057">57</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00060">60</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
 
 </div>
 </div>
@@ -348,59 +333,7 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00055">55</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
-
-</div>
-</div>
-<a id="aabff889a0e837dc3cc5f1fecd26d8fa7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabff889a0e837dc3cc5f1fecd26d8fa7">&#9670;&nbsp;</a></span>SocketReader</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html">core::socket::stream::SocketConnector</a>&lt; ClientConfigT, SocketConnectionT &gt;::<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#aabff889a0e837dc3cc5f1fecd26d8fa7">SocketReader</a> =  typename <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a439716f49a508e63e7549644bd3405e4">SocketConnection::SocketReader</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00059">59</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
-
-</div>
-</div>
-<a id="a998e93a9cfefd200d5595fa971bb4f2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a998e93a9cfefd200d5595fa971bb4f2a">&#9670;&nbsp;</a></span>SocketWriter</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html">core::socket::stream::SocketConnector</a>&lt; ClientConfigT, SocketConnectionT &gt;::<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a998e93a9cfefd200d5595fa971bb4f2a">SocketWriter</a> =  typename <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ac093e0586098f06700ebbb1845627b61">SocketConnection::SocketWriter</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00060">60</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00054">54</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
 
 </div>
 </div>
@@ -509,28 +442,32 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00062">62</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            : <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a382ba3ad995d89dbffbcbafbf4ba9b26">socketContextFactory</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a382ba3ad995d89dbffbcbafbf4ba9b26">socketContextFactory</a>)</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            , <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a544dcf27ef206c8a68c94f0d2254c547">onConnect</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a544dcf27ef206c8a68c94f0d2254c547">onConnect</a>)</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            , <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a0022075bf74b577257aaec87793c11aa">onConnected</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a0022075bf74b577257aaec87793c11aa">onConnected</a>)</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            , <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#aa485c249a6d73db6b3a4d7e5efbc9c64">onDisconnect</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#aa485c249a6d73db6b3a4d7e5efbc9c64">onDisconnect</a>)</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            , <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a745cf97447b7862b846a27d8758145f7">options</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a745cf97447b7862b846a27d8758145f7">options</a>) {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        }</div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_a0022075bf74b577257aaec87793c11aa"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a0022075bf74b577257aaec87793c11aa">core::socket::stream::SocketConnector::onConnected</a></div><div class="ttdeci">std::function&lt; void(SocketConnection *)&gt; onConnected</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00181">SocketConnector.h:181</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_a382ba3ad995d89dbffbcbafbf4ba9b26"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a382ba3ad995d89dbffbcbafbf4ba9b26">core::socket::stream::SocketConnector::socketContextFactory</a></div><div class="ttdeci">std::shared_ptr&lt; core::socket::SocketContextFactory &gt; socketContextFactory</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00177">SocketConnector.h:177</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_a544dcf27ef206c8a68c94f0d2254c547"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a544dcf27ef206c8a68c94f0d2254c547">core::socket::stream::SocketConnector::onConnect</a></div><div class="ttdeci">std::function&lt; void(SocketConnection *)&gt; onConnect</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00179">SocketConnector.h:179</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_a745cf97447b7862b846a27d8758145f7"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a745cf97447b7862b846a27d8758145f7">core::socket::stream::SocketConnector::options</a></div><div class="ttdeci">std::map&lt; std::string, std::any &gt; options</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00187">SocketConnector.h:187</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_aa485c249a6d73db6b3a4d7e5efbc9c64"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#aa485c249a6d73db6b3a4d7e5efbc9c64">core::socket::stream::SocketConnector::onDisconnect</a></div><div class="ttdeci">std::function&lt; void(SocketConnection *)&gt; onDisconnect</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00182">SocketConnector.h:182</a></div></div>
+<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            : <a class="code" href="classcore_1_1eventreceiver_1_1_init_connect_event_receiver.html">core::eventreceiver::InitConnectEventReceiver</a>(<span class="stringliteral">&quot;SocketConnector&quot;</span>)</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            , <a class="code" href="classcore_1_1eventreceiver_1_1_connect_event_receiver.html">core::eventreceiver::ConnectEventReceiver</a>(<span class="stringliteral">&quot;SocketConnector&quot;</span>)</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            , <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a382ba3ad995d89dbffbcbafbf4ba9b26">socketContextFactory</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a382ba3ad995d89dbffbcbafbf4ba9b26">socketContextFactory</a>)</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            , <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a544dcf27ef206c8a68c94f0d2254c547">onConnect</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a544dcf27ef206c8a68c94f0d2254c547">onConnect</a>)</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            , <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a0022075bf74b577257aaec87793c11aa">onConnected</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a0022075bf74b577257aaec87793c11aa">onConnected</a>)</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            , <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#aa485c249a6d73db6b3a4d7e5efbc9c64">onDisconnect</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#aa485c249a6d73db6b3a4d7e5efbc9c64">onDisconnect</a>)</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            , <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a745cf97447b7862b846a27d8758145f7">options</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a745cf97447b7862b846a27d8758145f7">options</a>) {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        }</div>
+<div class="ttc" id="aclasscore_1_1eventreceiver_1_1_connect_event_receiver_html"><div class="ttname"><a href="classcore_1_1eventreceiver_1_1_connect_event_receiver.html">core::eventreceiver::ConnectEventReceiver</a></div><div class="ttdef"><b>Definition:</b> <a href="_connect_event_receiver_8h_source.html#l00034">ConnectEventReceiver.h:34</a></div></div>
+<div class="ttc" id="aclasscore_1_1eventreceiver_1_1_init_connect_event_receiver_html"><div class="ttname"><a href="classcore_1_1eventreceiver_1_1_init_connect_event_receiver.html">core::eventreceiver::InitConnectEventReceiver</a></div><div class="ttdef"><b>Definition:</b> <a href="_init_connect_event_receiver_8h_source.html#l00038">InitConnectEventReceiver.h:38</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_a0022075bf74b577257aaec87793c11aa"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a0022075bf74b577257aaec87793c11aa">core::socket::stream::SocketConnector::onConnected</a></div><div class="ttdeci">std::function&lt; void(SocketConnection *)&gt; onConnected</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00186">SocketConnector.h:186</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_a382ba3ad995d89dbffbcbafbf4ba9b26"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a382ba3ad995d89dbffbcbafbf4ba9b26">core::socket::stream::SocketConnector::socketContextFactory</a></div><div class="ttdeci">std::shared_ptr&lt; core::socket::SocketContextFactory &gt; socketContextFactory</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00182">SocketConnector.h:182</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_a544dcf27ef206c8a68c94f0d2254c547"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a544dcf27ef206c8a68c94f0d2254c547">core::socket::stream::SocketConnector::onConnect</a></div><div class="ttdeci">std::function&lt; void(SocketConnection *)&gt; onConnect</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00184">SocketConnector.h:184</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_a745cf97447b7862b846a27d8758145f7"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a745cf97447b7862b846a27d8758145f7">core::socket::stream::SocketConnector::options</a></div><div class="ttdeci">std::map&lt; std::string, std::any &gt; options</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00192">SocketConnector.h:192</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_aa485c249a6d73db6b3a4d7e5efbc9c64"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#aa485c249a6d73db6b3a4d7e5efbc9c64">core::socket::stream::SocketConnector::onDisconnect</a></div><div class="ttdeci">std::function&lt; void(SocketConnection *)&gt; onDisconnect</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00187">SocketConnector.h:187</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a9d04301339071b27e3311e021ab70470"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d04301339071b27e3311e021ab70470">&#9670;&nbsp;</a></span>~SocketConnector()</h2>
+<a id="a96e41db5bb2dc6daab4d9e883673fc98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96e41db5bb2dc6daab4d9e883673fc98">&#9670;&nbsp;</a></span>~SocketConnector()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -541,7 +478,7 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html">core::socket::stream::SocketConnector</a>&lt; ClientConfigT, SocketConnectionT &gt;::~<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html">SocketConnector</a> </td>
+          <td class="memname"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html">core::socket::stream::SocketConnector</a>&lt; ClientConfigT, SocketConnectionT &gt;::~<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html">SocketConnector</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -549,18 +486,16 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html#a61541d2b8b12c0c86594252c64160bd5">core::socket::stream::tls::SocketConnector&lt; ClientConfigT, SocketT &gt;</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8fdfec6262c5b514e3431667c1b2cda4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fdfec6262c5b514e3431667c1b2cda4">&#9670;&nbsp;</a></span>connect()</h2>
+<a id="a3b2e9396e2283ddf8d9ab920befa8525"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b2e9396e2283ddf8d9ab920befa8525">&#9670;&nbsp;</a></span>connect()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -579,7 +514,7 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::function&lt; void(int)&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad669aae2accb43f4113b2b588bc87e04">SocketAddress</a> &amp;, int)&gt; &amp;&#160;</td>
           <td class="paramname"><em>onError</em>&#160;</td>
         </tr>
         <tr>
@@ -590,29 +525,22 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00076">76</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                                                                                             {</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            this-&gt;<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a> = <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            this-&gt;<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ae3d3d94e9e90bbfc120f7e091e72c625">onError</a> = <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ae3d3d94e9e90bbfc120f7e091e72c625">onError</a>;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <a class="code" href="classcore_1_1_event_receiver.html#a2b80e945995510922706c33403f0a4f0">InitConnectEventReceiver::publish</a>();</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        }</div>
-<div class="ttc" id="aclasscore_1_1_event_receiver_html_a2b80e945995510922706c33403f0a4f0"><div class="ttname"><a href="classcore_1_1_event_receiver.html#a2b80e945995510922706c33403f0a4f0">core::EventReceiver::publish</a></div><div class="ttdeci">void publish()</div><div class="ttdef"><b>Definition:</b> <a href="_event_receiver_8cpp_source.html#l00034">EventReceiver.cpp:34</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_ab3fcbd7c86a0f27600e9c0548295369f"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">core::socket::stream::SocketConnector::clientConfig</a></div><div class="ttdeci">std::shared_ptr&lt; ClientConfig &gt; clientConfig</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00174">SocketConnector.h:174</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_ae3d3d94e9e90bbfc120f7e091e72c625"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ae3d3d94e9e90bbfc120f7e091e72c625">core::socket::stream::SocketConnector::onError</a></div><div class="ttdeci">std::function&lt; void(int err)&gt; onError</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00185">SocketConnector.h:185</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00078">78</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                                                                                                                                   {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            this-&gt;<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a> = <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            this-&gt;<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a27fb9eacedcfbc50b1ab57acd01f927f">onError</a> = <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a27fb9eacedcfbc50b1ab57acd01f927f">onError</a>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            InitConnectEventReceiver::publish();</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        }</div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_a27fb9eacedcfbc50b1ab57acd01f927f"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a27fb9eacedcfbc50b1ab57acd01f927f">core::socket::stream::SocketConnector::onError</a></div><div class="ttdeci">std::function&lt; void(const SocketAddress &amp;socketAddress, int err)&gt; onError</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00190">SocketConnector.h:190</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_ab3fcbd7c86a0f27600e9c0548295369f"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">core::socket::stream::SocketConnector::clientConfig</a></div><div class="ttdeci">std::shared_ptr&lt; ClientConfig &gt; clientConfig</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00175">SocketConnector.h:175</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_socket_connector_8h_source.html#l00174">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::clientConfig</a>, <a class="el" href="_socket_connector_8h_source.html#l00185">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::onError</a>, and <a class="el" href="_event_receiver_8cpp_source.html#l00034">core::EventReceiver::publish()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_connector_a8fdfec6262c5b514e3431667c1b2cda4_cgraph.svg" width="650" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="reference">References <a class="el" href="_socket_connector_8h_source.html#l00175">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::clientConfig</a>, and <a class="el" href="_socket_connector_8h_source.html#l00190">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::onError</a>.</p>
 
 </div>
 </div>
@@ -641,66 +569,68 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classcore_1_1_connect_event_receiver.html#a4fff5d965c84f94ea9c77287feec7846">core::ConnectEventReceiver</a>.</p>
+<p>Implements <a class="el" href="classcore_1_1eventreceiver_1_1_connect_event_receiver.html#aacaf1050dfd7ddce442f38bb088ebe7c">core::eventreceiver::ConnectEventReceiver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00113">113</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                                     {</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            <span class="keywordtype">int</span> cErrno = -1;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            socklen_t cErrnoLen = <span class="keyword">sizeof</span>(cErrno);</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            <span class="keywordtype">int</span> err = <a class="code" href="namespacecore_1_1system.html#a5658d0ea06a95cb8f07412b13f393ecb">core::system::getsockopt</a>(SocketConnector::getFd(), SOL_SOCKET, SO_ERROR, &amp;cErrno, &amp;cErrnoLen);</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            <span class="keywordflow">if</span> (err == 0) {</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                errno = cErrno;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                <span class="keywordflow">if</span> (errno != EINPROGRESS) {</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                    <span class="keywordflow">if</span> (errno == 0) {</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                        <span class="keyword">typename</span> <a class="code" href="classcore_1_1socket_1_1_socket_address.html#a5b62aa623041c9b7e1ab7b78ca4accf5">SocketAddress::SockAddr</a> localAddress{};</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                        socklen_t localAddressLength = <span class="keyword">sizeof</span>(localAddress);</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                        <span class="keyword">typename</span> <a class="code" href="classcore_1_1socket_1_1_socket_address.html#a5b62aa623041c9b7e1ab7b78ca4accf5">SocketAddress::SockAddr</a> remoteAddress{};</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                        socklen_t remoteAddressLength = <span class="keyword">sizeof</span>(remoteAddress);</div>
+<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00116">116</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                                     {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            <span class="keywordtype">int</span> cErrno = -1;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            socklen_t cErrnoLen = <span class="keyword">sizeof</span>(cErrno);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            <span class="keywordtype">int</span> err = <a class="code" href="namespacecore_1_1system.html#a5658d0ea06a95cb8f07412b13f393ecb">core::system::getsockopt</a>(SocketConnector::getFd(), SOL_SOCKET, SO_ERROR, &amp;cErrno, &amp;cErrnoLen);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; </div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            <span class="keywordflow">if</span> (err == 0) {</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                errno = cErrno;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                <span class="keywordflow">if</span> (errno != EINPROGRESS) {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                    <span class="keywordflow">if</span> (errno == 0) {</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                        <span class="keyword">typename</span> <a class="code" href="classcore_1_1socket_1_1_socket_address.html#a5b62aa623041c9b7e1ab7b78ca4accf5">SocketAddress::SockAddr</a> localAddress{};</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                        socklen_t localAddressLength = <span class="keyword">sizeof</span>(localAddress);</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                        <span class="keywordflow">if</span> (<a class="code" href="namespacecore_1_1system.html#a252068ee271f0319fdfac711649f852f">core::system::getsockname</a>(<a class="code" href="classcore_1_1_descriptor.html#a359e01790fa87afb5e1b75df7904bc2d">Socket::fd</a>, <span class="keyword">reinterpret_cast&lt;</span>sockaddr*<span class="keyword">&gt;</span>(&amp;localAddress), &amp;localAddressLength) == 0 &amp;&amp;</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                            <a class="code" href="namespacecore_1_1system.html#a72b5fb13dfc490223fded986576e70fb">core::system::getpeername</a>(<a class="code" href="classcore_1_1_descriptor.html#a359e01790fa87afb5e1b75df7904bc2d">Socket::fd</a>, <span class="keyword">reinterpret_cast&lt;</span>sockaddr*<span class="keyword">&gt;</span>(&amp;remoteAddress), &amp;remoteAddressLength) == 0) {</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab862a872a6d0aedad883cb79d80fc545">SocketConnection</a>* socketConnection = <span class="keyword">new</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab862a872a6d0aedad883cb79d80fc545">SocketConnection</a>(SocketConnector::getFd(),</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a382ba3ad995d89dbffbcbafbf4ba9b26">socketContextFactory</a>,</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad669aae2accb43f4113b2b588bc87e04">SocketAddress</a>(localAddress),</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad669aae2accb43f4113b2b588bc87e04">SocketAddress</a>(remoteAddress),</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a544dcf27ef206c8a68c94f0d2254c547">onConnect</a>,</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#aa485c249a6d73db6b3a4d7e5efbc9c64">onDisconnect</a>,</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>-&gt;getReadTimeout(),</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>-&gt;getWriteTimeout(),</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>-&gt;getReadBlockSize(),</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>-&gt;getWriteBlockSize(),</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>-&gt;getTerminateTimeout());</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160; </div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a0022075bf74b577257aaec87793c11aa">onConnected</a>(socketConnection);</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ae3d3d94e9e90bbfc120f7e091e72c625">onError</a>(0);</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160; </div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                            <a class="code" href="classcore_1_1_descriptor.html#aab7f2b5c431191ee6b5d6632ee6a3d53">Socket::dontClose</a>(<span class="keyword">true</span>);</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                            <a class="code" href="classcore_1_1_descriptor_event_receiver.html#a4ab422ce6622a29cee38a0108ee6ccc1">disable</a>();</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ae3d3d94e9e90bbfc120f7e091e72c625">onError</a>(errno);</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                            <a class="code" href="classcore_1_1_descriptor_event_receiver.html#a4ab422ce6622a29cee38a0108ee6ccc1">disable</a>();</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                        }</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                        <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ae3d3d94e9e90bbfc120f7e091e72c625">onError</a>(errno);</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                        <a class="code" href="classcore_1_1_descriptor_event_receiver.html#a4ab422ce6622a29cee38a0108ee6ccc1">disable</a>();</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                    }</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;                } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                    <span class="comment">// Do nothing: connect() still in progress</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                }</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ae3d3d94e9e90bbfc120f7e091e72c625">onError</a>(errno);</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                <a class="code" href="classcore_1_1_descriptor_event_receiver.html#a4ab422ce6622a29cee38a0108ee6ccc1">disable</a>();</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            }</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        }</div>
-<div class="ttc" id="aclasscore_1_1_descriptor_event_receiver_html_a4ab422ce6622a29cee38a0108ee6ccc1"><div class="ttname"><a href="classcore_1_1_descriptor_event_receiver.html#a4ab422ce6622a29cee38a0108ee6ccc1">core::DescriptorEventReceiver::disable</a></div><div class="ttdeci">void disable()</div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_event_receiver_8cpp_source.html#l00053">DescriptorEventReceiver.cpp:53</a></div></div>
-<div class="ttc" id="aclasscore_1_1_descriptor_html_a359e01790fa87afb5e1b75df7904bc2d"><div class="ttname"><a href="classcore_1_1_descriptor.html#a359e01790fa87afb5e1b75df7904bc2d">core::Descriptor::fd</a></div><div class="ttdeci">int fd</div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_8h_source.html#l00050">Descriptor.h:50</a></div></div>
-<div class="ttc" id="aclasscore_1_1_descriptor_html_aab7f2b5c431191ee6b5d6632ee6a3d53"><div class="ttname"><a href="classcore_1_1_descriptor.html#aab7f2b5c431191ee6b5d6632ee6a3d53">core::Descriptor::dontClose</a></div><div class="ttdeci">bool dontClose() const</div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_8cpp_source.html#l00046">Descriptor.cpp:46</a></div></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                        <span class="keyword">typename</span> <a class="code" href="classcore_1_1socket_1_1_socket_address.html#a5b62aa623041c9b7e1ab7b78ca4accf5">SocketAddress::SockAddr</a> remoteAddress{};</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                        socklen_t remoteAddressLength = <span class="keyword">sizeof</span>(remoteAddress);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160; </div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                        <span class="keywordflow">if</span> (<a class="code" href="namespacecore_1_1system.html#a252068ee271f0319fdfac711649f852f">core::system::getsockname</a>(<a class="code" href="classcore_1_1_descriptor.html#af1ac9826d5c5f44bb357c845932ea5e4">Socket::getFd</a>(), <span class="keyword">reinterpret_cast&lt;</span>sockaddr*<span class="keyword">&gt;</span>(&amp;localAddress), &amp;localAddressLength) ==</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                                0 &amp;&amp;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                            <a class="code" href="namespacecore_1_1system.html#a72b5fb13dfc490223fded986576e70fb">core::system::getpeername</a>(<a class="code" href="classcore_1_1_descriptor.html#af1ac9826d5c5f44bb357c845932ea5e4">Socket::getFd</a>(), <span class="keyword">reinterpret_cast&lt;</span>sockaddr*<span class="keyword">&gt;</span>(&amp;remoteAddress), &amp;remoteAddressLength) ==</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                                0) {</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab862a872a6d0aedad883cb79d80fc545">SocketConnection</a>* socketConnection = <span class="keyword">new</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab862a872a6d0aedad883cb79d80fc545">SocketConnection</a>(SocketConnector::getFd(),</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a382ba3ad995d89dbffbcbafbf4ba9b26">socketContextFactory</a>,</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad669aae2accb43f4113b2b588bc87e04">SocketAddress</a>(localAddress),</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad669aae2accb43f4113b2b588bc87e04">SocketAddress</a>(remoteAddress),</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a544dcf27ef206c8a68c94f0d2254c547">onConnect</a>,</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#aa485c249a6d73db6b3a4d7e5efbc9c64">onDisconnect</a>,</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>-&gt;getReadTimeout(),</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>-&gt;getWriteTimeout(),</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>-&gt;getReadBlockSize(),</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>-&gt;getWriteBlockSize(),</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                                                                                      <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>-&gt;getTerminateTimeout());</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160; </div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a0022075bf74b577257aaec87793c11aa">onConnected</a>(socketConnection);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a27fb9eacedcfbc50b1ab57acd01f927f">onError</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>-&gt;getRemoteAddress(), 0);</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160; </div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                            <a class="code" href="classcore_1_1_descriptor.html#aab7f2b5c431191ee6b5d6632ee6a3d53">Socket::dontClose</a>(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                            <a class="code" href="classcore_1_1_descriptor_event_receiver.html#a4ab422ce6622a29cee38a0108ee6ccc1">disable</a>();</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a27fb9eacedcfbc50b1ab57acd01f927f">onError</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>-&gt;getRemoteAddress(), errno);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                            <a class="code" href="classcore_1_1_descriptor_event_receiver.html#a4ab422ce6622a29cee38a0108ee6ccc1">disable</a>();</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;                        }</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                        <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a27fb9eacedcfbc50b1ab57acd01f927f">onError</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>-&gt;getRemoteAddress(), errno);</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                        <a class="code" href="classcore_1_1_descriptor_event_receiver.html#a4ab422ce6622a29cee38a0108ee6ccc1">disable</a>();</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                    }</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                    <span class="comment">// Do nothing: connect() still in progress</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                }</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a27fb9eacedcfbc50b1ab57acd01f927f">onError</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>-&gt;getRemoteAddress(), errno);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                <a class="code" href="classcore_1_1_descriptor_event_receiver.html#a4ab422ce6622a29cee38a0108ee6ccc1">disable</a>();</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            }</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        }</div>
+<div class="ttc" id="aclasscore_1_1_descriptor_event_receiver_html_a4ab422ce6622a29cee38a0108ee6ccc1"><div class="ttname"><a href="classcore_1_1_descriptor_event_receiver.html#a4ab422ce6622a29cee38a0108ee6ccc1">core::DescriptorEventReceiver::disable</a></div><div class="ttdeci">void disable()</div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_event_receiver_8cpp_source.html#l00067">DescriptorEventReceiver.cpp:67</a></div></div>
+<div class="ttc" id="aclasscore_1_1_descriptor_html_aab7f2b5c431191ee6b5d6632ee6a3d53"><div class="ttname"><a href="classcore_1_1_descriptor.html#aab7f2b5c431191ee6b5d6632ee6a3d53">core::Descriptor::dontClose</a></div><div class="ttdeci">bool dontClose() const</div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_8cpp_source.html#l00050">Descriptor.cpp:50</a></div></div>
+<div class="ttc" id="aclasscore_1_1_descriptor_html_af1ac9826d5c5f44bb357c845932ea5e4"><div class="ttname"><a href="classcore_1_1_descriptor.html#af1ac9826d5c5f44bb357c845932ea5e4">core::Descriptor::getFd</a></div><div class="ttdeci">int getFd() const</div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_8cpp_source.html#l00042">Descriptor.cpp:42</a></div></div>
 <div class="ttc" id="aclasscore_1_1socket_1_1_socket_address_html_a5b62aa623041c9b7e1ab7b78ca4accf5"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_address.html#a5b62aa623041c9b7e1ab7b78ca4accf5">core::socket::SocketAddress::SockAddr</a></div><div class="ttdeci">SockAddrT SockAddr</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2_socket_address_8h_source.html#l00036">SocketAddress.h:36</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_ab862a872a6d0aedad883cb79d80fc545"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab862a872a6d0aedad883cb79d80fc545">core::socket::stream::SocketConnector::SocketConnection</a></div><div class="ttdeci">SocketConnectionT SocketConnection</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00055">SocketConnector.h:55</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_ad669aae2accb43f4113b2b588bc87e04"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad669aae2accb43f4113b2b588bc87e04">core::socket::stream::SocketConnector::SocketAddress</a></div><div class="ttdeci">typename Socket::SocketAddress SocketAddress</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00057">SocketConnector.h:57</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_ab862a872a6d0aedad883cb79d80fc545"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab862a872a6d0aedad883cb79d80fc545">core::socket::stream::SocketConnector::SocketConnection</a></div><div class="ttdeci">SocketConnectionT SocketConnection</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00054">SocketConnector.h:54</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_ad669aae2accb43f4113b2b588bc87e04"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad669aae2accb43f4113b2b588bc87e04">core::socket::stream::SocketConnector::SocketAddress</a></div><div class="ttdeci">typename Socket::SocketAddress SocketAddress</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00060">SocketConnector.h:60</a></div></div>
 <div class="ttc" id="anamespacecore_1_1system_html_a252068ee271f0319fdfac711649f852f"><div class="ttname"><a href="namespacecore_1_1system.html#a252068ee271f0319fdfac711649f852f">core::system::getsockname</a></div><div class="ttdeci">int getsockname(int sockfd, struct sockaddr *addr, socklen_t *addrlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00053">socket.cpp:53</a></div></div>
 <div class="ttc" id="anamespacecore_1_1system_html_a5658d0ea06a95cb8f07412b13f393ecb"><div class="ttname"><a href="namespacecore_1_1system.html#a5658d0ea06a95cb8f07412b13f393ecb">core::system::getsockopt</a></div><div class="ttdeci">int getsockopt(int sockfd, int level, int optname, void *optval, socklen_t *optlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00073">socket.cpp:73</a></div></div>
 <div class="ttc" id="anamespacecore_1_1system_html_a72b5fb13dfc490223fded986576e70fb"><div class="ttname"><a href="namespacecore_1_1system.html#a72b5fb13dfc490223fded986576e70fb">core::system::getpeername</a></div><div class="ttdeci">int getpeername(int sockfd, struct sockaddr *addr, socklen_t *addrlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00058">socket.cpp:58</a></div></div>
@@ -740,12 +670,12 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00170">170</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                        {</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;            <span class="keyword">delete</span> <span class="keyword">this</span>;</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00171">171</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                        {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            <span class="keyword">delete</span> <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_socket_connector_8h_source.html#l00084">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::initConnectEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_connector_8h_source.html#l00086">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::initConnectEvent()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -780,46 +710,47 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classcore_1_1_init_connect_event_receiver.html#a31361b4f1e9f11380630517ca96b3bc3">core::InitConnectEventReceiver</a>.</p>
+<p>Implements <a class="el" href="classcore_1_1eventreceiver_1_1_init_connect_event_receiver.html#a1816477df62650ceb79f9ca76c007e90">core::eventreceiver::InitConnectEventReceiver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00084">84</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                                         {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <a class="code" href="classcore_1_1socket_1_1_socket.html#a3a3224933a53212310bb8a39bc9628d7">Socket::open</a>(</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                [<span class="keyword">this</span>](<span class="keywordtype">int</span> errnum) -&gt; <span class="keywordtype">void</span> {</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                    <span class="keywordflow">if</span> (errnum &gt; 0) {</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                        <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ae3d3d94e9e90bbfc120f7e091e72c625">onError</a>(errnum);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                        <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ae91616a047fa2defa8cd302c1a57d058">destruct</a>();</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                        <a class="code" href="classcore_1_1socket_1_1_socket.html#ad2f0d76cf6464ac717efb986c6c7c263">Socket::bind</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>-&gt;getLocalAddress(), [<span class="keyword">this</span>](<span class="keywordtype">int</span> errnum) -&gt; <span class="keywordtype">void</span> {</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                            if (errnum &gt; 0) {</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                onError(errnum);</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                                destruct();</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                            } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                int ret = core::system::connect(Socket::fd,</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                                                                &amp;clientConfig-&gt;getRemoteAddress().getSockAddr(),</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                                                                clientConfig-&gt;getRemoteAddress().getSockAddrLen());</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                                if (ret == 0 || errno == EINPROGRESS) {</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                                    enable(Socket::fd);</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                                } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                                    onError(errno);</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                                    destruct();</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                                }</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                            }</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                        });</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                    }</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                },</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                SOCK_NONBLOCK);</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00086">86</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                                         {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <a class="code" href="classcore_1_1socket_1_1_socket.html#a3a3224933a53212310bb8a39bc9628d7">Socket::open</a>(</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                [<span class="keyword">this</span>](<span class="keywordtype">int</span> errnum) -&gt; <span class="keywordtype">void</span> {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                    <span class="keywordflow">if</span> (errnum &gt; 0) {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                        <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a27fb9eacedcfbc50b1ab57acd01f927f">onError</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>-&gt;getRemoteAddress(), errnum);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                        <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ae91616a047fa2defa8cd302c1a57d058">destruct</a>();</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                        <a class="code" href="classcore_1_1socket_1_1_socket.html#a8f47114b4c18d0341a12c98b0ebb82de">Socket::bind</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ab3fcbd7c86a0f27600e9c0548295369f">clientConfig</a>-&gt;getLocalAddress(), [<span class="keyword">this</span>](<span class="keywordtype">int</span> errnum) -&gt; <span class="keywordtype">void</span> {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                            if (errnum &gt; 0) {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                                onError(clientConfig-&gt;getRemoteAddress(), errnum);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                destruct();</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                                int ret = core::system::connect(Socket::getFd(),</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                                                                &amp;clientConfig-&gt;getRemoteAddress().getSockAddr(),</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                                                                clientConfig-&gt;getRemoteAddress().getSockAddrLen());</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                                if (ret == 0 || errno == EINPROGRESS) {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                                    enable(Socket::getFd());</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                                    onError(clientConfig-&gt;getRemoteAddress(), 0);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                                } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                                    onError(clientConfig-&gt;getRemoteAddress(), errno);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                                    destruct();</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                                }</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                            }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                        });</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                    }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                },</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                SOCK_NONBLOCK);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        }</div>
 <div class="ttc" id="aclasscore_1_1socket_1_1_socket_html_a3a3224933a53212310bb8a39bc9628d7"><div class="ttname"><a href="classcore_1_1socket_1_1_socket.html#a3a3224933a53212310bb8a39bc9628d7">core::socket::Socket::open</a></div><div class="ttdeci">void open(const std::function&lt; void(int)&gt; &amp;onError, int flags=0)</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2_socket_8h_source.html#l00051">Socket.h:51</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1_socket_html_ad2f0d76cf6464ac717efb986c6c7c263"><div class="ttname"><a href="classcore_1_1socket_1_1_socket.html#ad2f0d76cf6464ac717efb986c6c7c263">core::socket::Socket::bind</a></div><div class="ttdeci">void bind(const SocketAddress &amp;bindAddress, const std::function&lt; void(int)&gt; &amp;onError)</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2_socket_8h_source.html#l00061">Socket.h:61</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_ae91616a047fa2defa8cd302c1a57d058"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ae91616a047fa2defa8cd302c1a57d058">core::socket::stream::SocketConnector::destruct</a></div><div class="ttdeci">void destruct()</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00170">SocketConnector.h:170</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1_socket_html_a8f47114b4c18d0341a12c98b0ebb82de"><div class="ttname"><a href="classcore_1_1socket_1_1_socket.html#a8f47114b4c18d0341a12c98b0ebb82de">core::socket::Socket::bind</a></div><div class="ttdeci">void bind(const SocketAddress &amp;localAddress, const std::function&lt; void(int)&gt; &amp;onError)</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2_socket_8h_source.html#l00061">Socket.h:61</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_connector_html_ae91616a047fa2defa8cd302c1a57d058"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ae91616a047fa2defa8cd302c1a57d058">core::socket::stream::SocketConnector::destruct</a></div><div class="ttdeci">void destruct()</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connector_8h_source.html#l00171">SocketConnector.h:171</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="core_2socket_2_socket_8h_source.html#l00061">core::socket::Socket&lt; SocketAddressT &gt;::bind()</a>, <a class="el" href="_socket_connector_8h_source.html#l00174">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::clientConfig</a>, <a class="el" href="_socket_connector_8h_source.html#l00170">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::destruct()</a>, <a class="el" href="_socket_connector_8h_source.html#l00185">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::onError</a>, and <a class="el" href="core_2socket_2_socket_8h_source.html#l00051">core::socket::Socket&lt; SocketAddressT &gt;::open()</a>.</p>
+<p class="reference">References <a class="el" href="core_2socket_2_socket_8h_source.html#l00061">core::socket::Socket&lt; SocketAddressT &gt;::bind()</a>, <a class="el" href="_socket_connector_8h_source.html#l00175">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::clientConfig</a>, <a class="el" href="_socket_connector_8h_source.html#l00171">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::destruct()</a>, <a class="el" href="_socket_connector_8h_source.html#l00190">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::onError</a>, and <a class="el" href="core_2socket_2_socket_8h_source.html#l00051">core::socket::Socket&lt; SocketAddressT &gt;::open()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_connector_aaf29a9449c56ddda14b21f9c8be306a7_cgraph.svg" width="699" height="202"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_connector_aaf29a9449c56ddda14b21f9c8be306a7_cgraph.svg" width="719" height="234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -880,10 +811,10 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
 
 <p>Implements <a class="el" href="classcore_1_1_observer.html#ab67ac92682df570b0ac712351f5a064a">core::Observer</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00165">165</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                                        {</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ae91616a047fa2defa8cd302c1a57d058">destruct</a>();</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00178">178</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                                        {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ae91616a047fa2defa8cd302c1a57d058">destruct</a>();</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -910,9 +841,9 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00174">174</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00175">175</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_connector_8h_source.html#l00076">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::connect()</a>, and <a class="el" href="_socket_connector_8h_source.html#l00084">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::initConnectEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_connector_8h_source.html#l00078">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::connect()</a>, and <a class="el" href="_socket_connector_8h_source.html#l00086">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::initConnectEvent()</a>.</p>
 
 </div>
 </div>
@@ -938,7 +869,7 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00179">179</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00184">184</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
 
 </div>
 </div>
@@ -964,7 +895,7 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00181">181</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00186">186</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
 
 </div>
 </div>
@@ -990,7 +921,7 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00180">180</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00185">185</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
 
 </div>
 </div>
@@ -1016,12 +947,12 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00182">182</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00187">187</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
 
 </div>
 </div>
-<a id="ae3d3d94e9e90bbfc120f7e091e72c625"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3d3d94e9e90bbfc120f7e091e72c625">&#9670;&nbsp;</a></span>onError</h2>
+<a id="a27fb9eacedcfbc50b1ab57acd01f927f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27fb9eacedcfbc50b1ab57acd01f927f">&#9670;&nbsp;</a></span>onError</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1032,7 +963,7 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;void(int err)&gt; <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html">core::socket::stream::SocketConnector</a>&lt; ClientConfigT, SocketConnectionT &gt;::onError</td>
+          <td class="memname">std::function&lt;void(const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad669aae2accb43f4113b2b588bc87e04">SocketAddress</a>&amp; socketAddress, int err)&gt; <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html">core::socket::stream::SocketConnector</a>&lt; ClientConfigT, SocketConnectionT &gt;::onError</td>
         </tr>
       </table>
   </td>
@@ -1042,9 +973,9 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00185">185</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00190">190</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_connector_8h_source.html#l00076">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::connect()</a>, and <a class="el" href="_socket_connector_8h_source.html#l00084">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::initConnectEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_connector_8h_source.html#l00078">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::connect()</a>, and <a class="el" href="_socket_connector_8h_source.html#l00086">core::socket::stream::SocketConnector&lt; ClientConfigT, SocketConnectionT &gt;::initConnectEvent()</a>.</p>
 
 </div>
 </div>
@@ -1070,7 +1001,7 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00187">187</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00192">192</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
 
 </div>
 </div>
@@ -1096,7 +1027,7 @@ template&lt;typename ClientConfigT , typename SocketConnectionT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00177">177</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_connector_8h_source.html#l00182">182</a> of file <a class="el" href="_socket_connector_8h_source.html">SocketConnector.h</a>.</p>
 
 </div>
 </div>

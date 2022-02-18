@@ -1,7 +1,9 @@
 var classweb_1_1http_1_1legacy_1_1in6_1_1_server =
 [
-    [ "SocketServer", "classweb_1_1http_1_1legacy_1_1in6_1_1_server.html#a361524d02731bcefdbcf486485fdfaa0", null ],
-    [ "listen", "classweb_1_1http_1_1legacy_1_1in6_1_1_server.html#a697c597d4954db28ee3c0507466f3f3c", null ],
-    [ "listen", "classweb_1_1http_1_1legacy_1_1in6_1_1_server.html#a9d6fb8b29015de5aa524e0b1782e2b9b", null ],
-    [ "listen", "classweb_1_1http_1_1legacy_1_1in6_1_1_server.html#afc2c1c8258b583f0822e8507da33cd3b", null ]
+    [ "SocketAddress", "classweb_1_1http_1_1legacy_1_1in6_1_1_server.html#a6f9f90c332366e900acb9253263d1cd4", null ],
+    [ "SocketConnection", "classweb_1_1http_1_1legacy_1_1in6_1_1_server.html#add07533535a74bb4a3f53a7f702357a9", null ],
+    [ "Super", "classweb_1_1http_1_1legacy_1_1in6_1_1_server.html#a424a05dc15a05f37fedd5bd289d79a70", null ],
+    [ "listen", "classweb_1_1http_1_1legacy_1_1in6_1_1_server.html#a5c8ca66b6e401df2816f5044e9f2bec8", null ],
+    [ "listen", "classweb_1_1http_1_1legacy_1_1in6_1_1_server.html#a4b211434cb56f216d0077542fb723bd1", null ],
+    [ "listen", "classweb_1_1http_1_1legacy_1_1in6_1_1_server.html#a5a87ffa76cbad7133dc577b12bf4bab6", null ]
 ];

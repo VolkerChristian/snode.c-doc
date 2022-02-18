@@ -1,4 +1,4 @@
 var net_2in_2stream_2legacy_2_socket_server_8h =
 [
-    [ "SocketServer", "net_2in_2stream_2legacy_2_socket_server_8h.html#a9c77ea41b7c77f5298f726f105cd00f8", null ]
+    [ "SocketServer", "net_2in_2stream_2legacy_2_socket_server_8h.html#ae81b28bd95eb30e2d56c98794b4269ea", null ]
 ];

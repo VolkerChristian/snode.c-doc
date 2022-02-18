@@ -147,6 +147,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a09c93683f8c399644adff88b92577624"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutils_1_1_timeval.html#a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b">ms</a> () const</td></tr>
 <tr class="separator:a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a3408e3001b306e55a823fda12f9999"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutils_1_1_timeval.html#a1a3408e3001b306e55a823fda12f9999">msd</a> () const</td></tr>
+<tr class="separator:a1a3408e3001b306e55a823fda12f9999"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -190,7 +192,7 @@ Friends</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="_timeval_8cpp_source.html#l00033">33</a> of file <a class="el" href="_timeval_8cpp_source.html">Timeval.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        : <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>({0, 0}) {</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
-<div class="ttc" id="aclassutils_1_1_timeval_html_a553ae25c0399d9e68393779f41de83d2"><div class="ttname"><a href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">utils::Timeval::timeVal</a></div><div class="ttdeci">timeval timeVal</div><div class="ttdef"><b>Definition:</b> <a href="_timeval_8h_source.html#l00071">Timeval.h:71</a></div></div>
+<div class="ttc" id="aclassutils_1_1_timeval_html_a553ae25c0399d9e68393779f41de83d2"><div class="ttname"><a href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">utils::Timeval::timeVal</a></div><div class="ttdeci">timeval timeVal</div><div class="ttdef"><b>Definition:</b> <a href="_timeval_8h_source.html#l00072">Timeval.h:72</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -243,7 +245,7 @@ Friends</h2></td></tr>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        this-&gt;<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a> = <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.timeVal;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 
 </div>
 </div>
@@ -266,14 +268,14 @@ Friends</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="_timeval_8cpp_source.html#l00051">51</a> of file <a class="el" href="_timeval_8cpp_source.html">Timeval.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                {</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec = <span class="keyword">static_cast&lt;</span>time_t<span class="keyword">&gt;</span>(<a class="code" href="namespacecore_1_1system.html#a04721c28c02cc5c20d4dda8e7c2d991c">time</a>);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec = <span class="keyword">static_cast&lt;</span>useconds_t<span class="keyword">&gt;</span>((<a class="code" href="namespacecore_1_1system.html#a04721c28c02cc5c20d4dda8e7c2d991c">time</a> - (double) <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec) * 1&#39;000&#39;000.0);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec = <span class="keyword">static_cast&lt;</span>useconds_t<span class="keyword">&gt;</span>((<a class="code" href="namespacecore_1_1system.html#a04721c28c02cc5c20d4dda8e7c2d991c">time</a> - <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec)) * 1&#39;000&#39;000.0);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="classutils_1_1_timeval.html#af8b19ac507d5120c815d07da9f5146b1">normalize</a>();</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
-<div class="ttc" id="aclassutils_1_1_timeval_html_af8b19ac507d5120c815d07da9f5146b1"><div class="ttname"><a href="classutils_1_1_timeval.html#af8b19ac507d5120c815d07da9f5146b1">utils::Timeval::normalize</a></div><div class="ttdeci">const Timeval &amp; normalize()</div><div class="ttdef"><b>Definition:</b> <a href="_timeval_8cpp_source.html#l00177">Timeval.cpp:177</a></div></div>
+<div class="ttc" id="aclassutils_1_1_timeval_html_af8b19ac507d5120c815d07da9f5146b1"><div class="ttname"><a href="classutils_1_1_timeval.html#af8b19ac507d5120c815d07da9f5146b1">utils::Timeval::normalize</a></div><div class="ttdeci">const Timeval &amp; normalize()</div><div class="ttdef"><b>Definition:</b> <a href="_timeval_8cpp_source.html#l00188">Timeval.cpp:188</a></div></div>
 <div class="ttc" id="anamespacecore_1_1system_html_a04721c28c02cc5c20d4dda8e7c2d991c"><div class="ttname"><a href="namespacecore_1_1system.html#a04721c28c02cc5c20d4dda8e7c2d991c">core::system::time</a></div><div class="ttdeci">time_t time(time_t *tloc)</div><div class="ttdef"><b>Definition:</b> <a href="time_8cpp_source.html#l00029">time.cpp:29</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8cpp_source.html#l00177">normalize()</a>, <a class="el" href="time_8cpp_source.html#l00029">core::system::time()</a>, and <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8cpp_source.html#l00188">normalize()</a>, <a class="el" href="time_8cpp_source.html#l00029">core::system::time()</a>, and <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -332,7 +334,7 @@ Here is the call graph for this function:</div>
 <p class="definition">Definition at line <a class="el" href="_timeval_8cpp_source.html#l00062">62</a> of file <a class="el" href="_timeval_8cpp_source.html">Timeval.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                                 {</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> <a class="code" href="classutils_1_1_timeval.html#a54b232dc1ffeea007100dcd1caad1987">currentTime</a>;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="namespacecore_1_1system.html#acf9e7364dbf51f07083e05caa50d3b66">core::system::gettimeofday</a>(&amp;<a class="code" href="classutils_1_1_timeval.html#a54b232dc1ffeea007100dcd1caad1987">currentTime</a>, NULL);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="namespacecore_1_1system.html#acf9e7364dbf51f07083e05caa50d3b66">core::system::gettimeofday</a>(&amp;<a class="code" href="classutils_1_1_timeval.html#a54b232dc1ffeea007100dcd1caad1987">currentTime</a>, <span class="keyword">nullptr</span>);</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classutils_1_1_timeval.html#a54b232dc1ffeea007100dcd1caad1987">currentTime</a>;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
@@ -342,7 +344,7 @@ Here is the call graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="time_8cpp_source.html#l00034">core::system::gettimeofday()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_dispatcher_8cpp_source.html#l00081">core::EventDispatcher::dispatch()</a>, <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00077">core::DescriptorEventReceiver::resume()</a>, <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00095">core::DescriptorEventReceiver::setTimeout()</a>, and <a class="el" href="_timer_event_dispatcher_8cpp_source.html#l00091">core::TimerEventDispatcher::stop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00104">core::DescriptorEventReceiver::resume()</a>, <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00131">core::DescriptorEventReceiver::setTimeout()</a>, and <a class="el" href="_event_multiplexer_8cpp_source.html#l00086">core::EventMultiplexer::tick()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -352,7 +354,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutils_1_1_timeval_a54b232dc1ffeea007100dcd1caad1987_icgraph.svg" width="1692" height="1215"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutils_1_1_timeval_a54b232dc1ffeea007100dcd1caad1987_icgraph.svg" width="1675" height="786"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -380,22 +382,54 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec &gt; INT_MAX - 1) {</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            <a class="code" href="classutils_1_1_timeval.html#a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b">ms</a> = INT_MAX;</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            <a class="code" href="classutils_1_1_timeval.html#a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b">ms</a> = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec * 1&#39;000 + <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec / 1&#39;000);</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            <a class="code" href="classutils_1_1_timeval.html#a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b">ms</a> = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec) * 1&#39;000. + <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec) / 1&#39;000. + 0.5);</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        }</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160; </div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classutils_1_1_timeval.html#a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b">ms</a>;</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    }</div>
 <div class="ttc" id="aclassutils_1_1_timeval_html_a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b"><div class="ttname"><a href="classutils_1_1_timeval.html#a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b">utils::Timeval::ms</a></div><div class="ttdeci">int ms() const</div><div class="ttdef"><b>Definition:</b> <a href="_timeval_8cpp_source.html#l00161">Timeval.cpp:161</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="mux_2epoll_2_event_dispatcher_8cpp_source.html#l00056">core::epoll::EventDispatcher::multiplex()</a>, and <a class="el" href="mux_2poll_2_event_dispatcher_8cpp_source.html#l00166">core::poll::EventDispatcher::multiplex()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="multiplexer_2epoll_2_event_multiplexer_8cpp_source.html#l00056">core::epoll::EventMultiplexer::multiplex()</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00142">core::poll::EventMultiplexer::multiplex()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutils_1_1_timeval_a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b_icgraph.svg" width="403" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutils_1_1_timeval_a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b_icgraph.svg" width="407" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
+
+</div>
+</div>
+<a id="a1a3408e3001b306e55a823fda12f9999"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a3408e3001b306e55a823fda12f9999">&#9670;&nbsp;</a></span>msd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double utils::Timeval::msd </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_timeval_8cpp_source.html#l00173">173</a> of file <a class="el" href="_timeval_8cpp_source.html">Timeval.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                              {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <span class="keywordtype">double</span> <a class="code" href="classutils_1_1_timeval.html#a1a3408e3001b306e55a823fda12f9999">msd</a> = 0;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec &gt; INT_MAX - 1) {</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;            <a class="code" href="classutils_1_1_timeval.html#a1a3408e3001b306e55a823fda12f9999">msd</a> = INT_MAX;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            <a class="code" href="classutils_1_1_timeval.html#a1a3408e3001b306e55a823fda12f9999">msd</a> = <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec) * 1&#39;000. + <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span>(<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec) / 1&#39;000.;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        }</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160; </div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classutils_1_1_timeval.html#a1a3408e3001b306e55a823fda12f9999">msd</a>;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    }</div>
+<div class="ttc" id="aclassutils_1_1_timeval_html_a1a3408e3001b306e55a823fda12f9999"><div class="ttname"><a href="classutils_1_1_timeval.html#a1a3408e3001b306e55a823fda12f9999">utils::Timeval::msd</a></div><div class="ttdeci">double msd() const</div><div class="ttdef"><b>Definition:</b> <a href="_timeval_8cpp_source.html#l00173">Timeval.cpp:173</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 
 </div>
 </div>
@@ -422,20 +456,20 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_timeval_8cpp_source.html#l00177">177</a> of file <a class="el" href="_timeval_8cpp_source.html">Timeval.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                                      {</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec &gt; 999&#39;999) {</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec -= 1&#39;000&#39;000;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;            <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec++;</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec &lt; 0) {</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec += 1&#39;000&#39;000;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;            <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec--;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        }</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_timeval_8cpp_source.html#l00188">188</a> of file <a class="el" href="_timeval_8cpp_source.html">Timeval.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                                      {</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec &gt; 999&#39;999) {</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec -= 1&#39;000&#39;000;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec++;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec &lt; 0) {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec += 1&#39;000&#39;000;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec--;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        }</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160; </div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_timeval_8cpp_source.html#l00113">operator+=()</a>, <a class="el" href="_timeval_8cpp_source.html#l00118">operator-=()</a>, and <a class="el" href="_timeval_8cpp_source.html#l00051">Timeval()</a>.</p>
 <div class="dynheader">
@@ -468,7 +502,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="keywordflow">return</span> !(*<span class="keyword">this</span> == <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>);</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 
 </div>
 </div>
@@ -492,7 +526,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="keywordflow">return</span> &amp;<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>;</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 
 </div>
 </div>
@@ -511,12 +545,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_timeval_8cpp_source.html#l00173">173</a> of file <a class="el" href="_timeval_8cpp_source.html">Timeval.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                                            {</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <span class="keywordflow">return</span> &amp;<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>;</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_timeval_8cpp_source.html#l00184">184</a> of file <a class="el" href="_timeval_8cpp_source.html">Timeval.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                                            {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="keywordflow">return</span> &amp;<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 
 </div>
 </div>
@@ -547,7 +581,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
 <div class="ttc" id="anamespace_c_l_i_1_1_failure_message_html_aa7e418b32b7d6f28aee8c4e5ad0bbc95"><div class="ttname"><a href="namespace_c_l_i_1_1_failure_message.html#aa7e418b32b7d6f28aee8c4e5ad0bbc95">CLI::FailureMessage::help</a></div><div class="ttdeci">std::string help(const App *app, const Error &amp;e)</div><div class="ttdoc">Printout the full help string on error (if this fn is set, the old default for CLI11)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l08719">CLI11.hpp:8719</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l08719">CLI::FailureMessage::help()</a>, and <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l08719">CLI::FailureMessage::help()</a>, and <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -579,7 +613,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8cpp_source.html#l00177">normalize()</a>, and <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8cpp_source.html#l00188">normalize()</a>, and <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -615,7 +649,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
 <div class="ttc" id="aclassutils_1_1_timeval_html_a195acf87387c34dcff43ffd545e235e8"><div class="ttname"><a href="classutils_1_1_timeval.html#a195acf87387c34dcff43ffd545e235e8">utils::Timeval::Timeval</a></div><div class="ttdeci">Timeval()</div><div class="ttdef"><b>Definition:</b> <a href="_timeval_8cpp_source.html#l00033">Timeval.cpp:33</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 
 </div>
 </div>
@@ -645,7 +679,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordflow">return</span> help.<a class="code" href="classutils_1_1_timeval.html#af8b19ac507d5120c815d07da9f5146b1">normalize</a>();</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l08719">CLI::FailureMessage::help()</a>, and <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l08719">CLI::FailureMessage::help()</a>, and <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -677,7 +711,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8cpp_source.html#l00177">normalize()</a>, and <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8cpp_source.html#l00188">normalize()</a>, and <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -709,7 +743,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;               ((this-&gt;<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_sec == <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.timeVal.tv_sec) &amp;&amp; (this-&gt;<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.tv_usec &lt; <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.timeVal.tv_usec));</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 
 </div>
 </div>
@@ -734,7 +768,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <span class="keywordflow">return</span> !(*<span class="keyword">this</span> &gt; <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>);</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 
 </div>
 </div>
@@ -768,7 +802,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 
 </div>
 </div>
@@ -796,7 +830,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 
 </div>
 </div>
@@ -823,7 +857,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 
 </div>
 </div>
@@ -848,7 +882,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <span class="keywordflow">return</span> !(*<span class="keyword">this</span> &lt; <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>) &amp;&amp; !(*<span class="keyword">this</span> &gt; <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>);</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 
 </div>
 </div>
@@ -873,7 +907,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a> &lt; *<span class="keyword">this</span>;</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 
 </div>
 </div>
@@ -898,7 +932,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">return</span> !(*<span class="keyword">this</span> &lt; <a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>);</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00071">timeVal</a>.</p>
+<p class="reference">References <a class="el" href="_timeval_8h_source.html#l00072">timeVal</a>.</p>
 
 </div>
 </div>
@@ -937,10 +971,10 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_timeval_8cpp_source.html#l00189">189</a> of file <a class="el" href="_timeval_8cpp_source.html">Timeval.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                                                                             {</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">return</span> ostream &lt;&lt; <span class="stringliteral">&quot;{&quot;</span> + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.timeVal.tv_sec) + <span class="stringliteral">&quot;:&quot;</span> + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.timeVal.tv_usec) + <span class="stringliteral">&quot;}&quot;</span>;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_timeval_8cpp_source.html#l00200">200</a> of file <a class="el" href="_timeval_8cpp_source.html">Timeval.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                                                                             {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <span class="keywordflow">return</span> ostream &lt;&lt; <span class="stringliteral">&quot;{&quot;</span> + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.timeVal.tv_sec) + <span class="stringliteral">&quot;:&quot;</span> + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(<a class="code" href="classutils_1_1_timeval.html#a553ae25c0399d9e68393779f41de83d2">timeVal</a>.timeVal.tv_usec) + <span class="stringliteral">&quot;}&quot;</span>;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    }</div>
 <div class="ttc" id="anamespace_c_l_i_1_1detail_html_a0e94052d485636fc9f18c21009026577"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">CLI::detail::to_string</a></div><div class="ttdeci">auto to_string(T &amp;&amp;value) -&gt; decltype(std::forward&lt; T &gt;(value))</div><div class="ttdoc">Convert an object to a string (directly forward if this can become a string)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l01203">CLI11.hpp:1203</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -966,9 +1000,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_timeval_8h_source.html#l00071">71</a> of file <a class="el" href="_timeval_8h_source.html">Timeval.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_timeval_8h_source.html#l00072">72</a> of file <a class="el" href="_timeval_8h_source.html">Timeval.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_timeval_8cpp_source.html#l00161">ms()</a>, <a class="el" href="_timeval_8cpp_source.html#l00177">normalize()</a>, <a class="el" href="_timeval_8cpp_source.html#l00153">operator!=()</a>, <a class="el" href="_timeval_8cpp_source.html#l00157">operator&amp;()</a>, <a class="el" href="_timeval_8cpp_source.html#l00095">operator+()</a>, <a class="el" href="_timeval_8cpp_source.html#l00113">operator+=()</a>, <a class="el" href="_timeval_8cpp_source.html#l00104">operator-()</a>, <a class="el" href="_timeval_8cpp_source.html#l00118">operator-=()</a>, <a class="el" href="_timeval_8cpp_source.html#l00132">operator&lt;()</a>, <a class="el" href="_timeval_8cpp_source.html#l00141">operator&lt;=()</a>, <a class="el" href="_timeval_8cpp_source.html#l00069">operator=()</a>, <a class="el" href="_timeval_8cpp_source.html#l00149">operator==()</a>, <a class="el" href="_timeval_8cpp_source.html#l00137">operator&gt;()</a>, <a class="el" href="_timeval_8cpp_source.html#l00145">operator&gt;=()</a>, and <a class="el" href="_timeval_8cpp_source.html#l00047">Timeval()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_timeval_8cpp_source.html#l00161">ms()</a>, <a class="el" href="_timeval_8cpp_source.html#l00173">msd()</a>, <a class="el" href="_timeval_8cpp_source.html#l00188">normalize()</a>, <a class="el" href="_timeval_8cpp_source.html#l00153">operator!=()</a>, <a class="el" href="_timeval_8cpp_source.html#l00157">operator&amp;()</a>, <a class="el" href="_timeval_8cpp_source.html#l00095">operator+()</a>, <a class="el" href="_timeval_8cpp_source.html#l00113">operator+=()</a>, <a class="el" href="_timeval_8cpp_source.html#l00104">operator-()</a>, <a class="el" href="_timeval_8cpp_source.html#l00118">operator-=()</a>, <a class="el" href="_timeval_8cpp_source.html#l00132">operator&lt;()</a>, <a class="el" href="_timeval_8cpp_source.html#l00141">operator&lt;=()</a>, <a class="el" href="_timeval_8cpp_source.html#l00069">operator=()</a>, <a class="el" href="_timeval_8cpp_source.html#l00149">operator==()</a>, <a class="el" href="_timeval_8cpp_source.html#l00137">operator&gt;()</a>, <a class="el" href="_timeval_8cpp_source.html#l00145">operator&gt;=()</a>, and <a class="el" href="_timeval_8cpp_source.html#l00047">Timeval()</a>.</p>
 
 </div>
 </div>

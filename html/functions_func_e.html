@@ -89,11 +89,13 @@ $(document).ready(function(){initNavTree('functions_func_e.html',''); initResiza
 </li>
 <li>empty()
 : <a class="el" href="class_c_l_i_1_1_option.html#af5677ee4a55c2a85784f64198db6b452">CLI::Option</a>
-, <a class="el" href="classcore_1_1_timer_event_dispatcher.html#ab9e60520aa911e56dc0fcb8db01a7372">core::TimerEventDispatcher</a>
+, <a class="el" href="classcore_1_1_event_multiplexer_1_1_event_queue.html#a05ecc5808b60fde7388876e96b540f29">core::EventMultiplexer::EventQueue</a>
+, <a class="el" href="classcore_1_1_timer_event_publisher.html#a05883e2317e3c244387b654916f480e0">core::TimerEventPublisher</a>
 </li>
 <li>enable()
-: <a class="el" href="classcore_1_1_descriptor_event_dispatcher.html#a1b789e6ef1911a6cc7a64d470a13d418">core::DescriptorEventDispatcher</a>
+: <a class="el" href="classcore_1_1_descriptor_event_publisher.html#ab1ba62f94b1882616f47a3cc8045b28d">core::DescriptorEventPublisher</a>
 , <a class="el" href="classcore_1_1_descriptor_event_receiver.html#ac8611e3a44e67126e1418844dea4a326">core::DescriptorEventReceiver</a>
+, <a class="el" href="classcore_1_1_timer_event_receiver.html#a64613d632473ee47eaf07dbfd0d9e683">core::TimerEventReceiver</a>
 </li>
 <li>enabled_by_default()
 : <a class="el" href="class_c_l_i_1_1_app.html#afce0e89d19f39a0ba4532bb82315b817">CLI::App</a>
@@ -116,7 +118,10 @@ $(document).ready(function(){initNavTree('functions_func_e.html',''); initResiza
 , <a class="el" href="classweb_1_1http_1_1server_1_1_response.html#ade530ea8d74c3ed98feaa7cca499dea5">web::http::server::Response</a>
 </li>
 <li>EPollEvents()
-: <a class="el" href="classcore_1_1epoll_1_1_descriptor_event_dispatcher_1_1_e_poll_events.html#a5c764470de7ce20d2be7230a72dca2ef">core::epoll::DescriptorEventDispatcher::EPollEvents</a>
+: <a class="el" href="classcore_1_1epoll_1_1_descriptor_event_publisher_1_1_e_poll_events.html#a7afd9f553afb1033f9f3d52768e3f07f">core::epoll::DescriptorEventPublisher::EPollEvents</a>
+</li>
+<li>erase()
+: <a class="el" href="classcore_1_1_timer_event_publisher.html#a839184da8ade044bec3945f3558c70c0">core::TimerEventPublisher</a>
 </li>
 <li>erasePidFile()
 : <a class="el" href="classutils_1_1_daemon.html#ade68cf0c06a22b8d0446244b82d75ba8">utils::Daemon</a>
@@ -131,22 +136,25 @@ $(document).ready(function(){initNavTree('functions_func_e.html',''); initResiza
 , <a class="el" href="classweb_1_1http_1_1server_1_1_response.html#a3cafd9aa6d11129548b54007eab49543">web::http::server::Response</a>
 </li>
 <li>Event()
-: <a class="el" href="classcore_1_1_event.html#a89761c940b06b0314b8bcced2838b801">core::Event</a>
-</li>
-<li>EventDispatcher()
-: <a class="el" href="classcore_1_1epoll_1_1_event_dispatcher.html#a20ac1e98a7f9fe82a600fc89b5449038">core::epoll::EventDispatcher</a>
-, <a class="el" href="classcore_1_1_event_dispatcher.html#acf7b6adb4fd74fda1f92ef101779b21b">core::EventDispatcher</a>
-, <a class="el" href="classcore_1_1poll_1_1_event_dispatcher.html#a60e6b27b4cf1c8f5041264910c98c7a6">core::poll::EventDispatcher</a>
-, <a class="el" href="classcore_1_1select_1_1_event_dispatcher.html#a58297e0bbaebdf6634fc5e4abcdb56b3">core::select::EventDispatcher</a>
+: <a class="el" href="classcore_1_1_event.html#a7f9bcab5d3e44ae60837226d30e172da">core::Event</a>
 </li>
 <li>EventLoop()
 : <a class="el" href="classcore_1_1_event_loop.html#adbd1cef1a239898d5e176586f87322cb">core::EventLoop</a>
 </li>
+<li>EventMultiplexer()
+: <a class="el" href="classcore_1_1epoll_1_1_event_multiplexer.html#a24ed5e1d484f98d740524361e18e0d36">core::epoll::EventMultiplexer</a>
+, <a class="el" href="classcore_1_1_event_multiplexer.html#a3793b41887faf825b9a91b330287a379">core::EventMultiplexer</a>
+, <a class="el" href="classcore_1_1poll_1_1_event_multiplexer.html#a6116f9a97a8becd036817149468ec8a5">core::poll::EventMultiplexer</a>
+, <a class="el" href="classcore_1_1select_1_1_event_multiplexer.html#a3813fd71507d39ca821907f8fbe9ae87">core::select::EventMultiplexer</a>
+</li>
+<li>EventQueue()
+: <a class="el" href="classcore_1_1_event_multiplexer_1_1_event_queue.html#a68d51b10213ad2f79602cf810f5e1a33">core::EventMultiplexer::EventQueue</a>
+</li>
 <li>EventReceiver()
-: <a class="el" href="classcore_1_1_event_receiver.html#aa0c5bd08716bf1c8f9822ebf303efdc4">core::EventReceiver</a>
+: <a class="el" href="classcore_1_1_event_receiver.html#adec275118bd8a68e2b4cb71fa94d79b6">core::EventReceiver</a>
 </li>
 <li>ExceptionalConditionEventReceiver()
-: <a class="el" href="classcore_1_1_exceptional_condition_event_receiver.html#aaec736372a1707a19e880e1926b19451">core::ExceptionalConditionEventReceiver</a>
+: <a class="el" href="classcore_1_1eventreceiver_1_1_exceptional_condition_event_receiver.html#a89a098b6bb8425ad3031cec9355be9d1">core::eventreceiver::ExceptionalConditionEventReceiver</a>
 </li>
 <li>excludes()
 : <a class="el" href="class_c_l_i_1_1_app.html#af8af6e58e767ec987d5ca0ee9fad16b9">CLI::App</a>
@@ -167,8 +175,8 @@ $(document).ready(function(){initNavTree('functions_func_e.html',''); initResiza
 <li>execDlCloseDeleyed()
 : <a class="el" href="classcore_1_1_dynamic_loader.html#a8c4d850882c7177f93a543b96eb450a0">core::DynamicLoader</a>
 </li>
-<li>executeEventQueue()
-: <a class="el" href="classcore_1_1_event_dispatcher.html#ac8f664193eb430561cb2d903439a01dc">core::EventDispatcher</a>
+<li>execute()
+: <a class="el" href="classcore_1_1_event_multiplexer_1_1_event_queue.html#af3c487910b6de3faae228b92ecedb06a">core::EventMultiplexer::EventQueue</a>
 </li>
 <li>ExistingDirectoryValidator()
 : <a class="el" href="class_c_l_i_1_1detail_1_1_existing_directory_validator.html#a75f836841c9a0b7f2eaccb32f25d59f4">CLI::detail::ExistingDirectoryValidator</a>
@@ -183,7 +191,7 @@ $(document).ready(function(){initNavTree('functions_func_e.html',''); initResiza
 : <a class="el" href="class_c_l_i_1_1_app.html#aac000657ef11647125ba91af38fd7d9c">CLI::App</a>
 </li>
 <li>expected()
-: <a class="el" href="class_c_l_i_1_1_option.html#af75c26433baa09c7c762bfb9eb466215">CLI::Option</a>
+: <a class="el" href="class_c_l_i_1_1_option.html#ac471b8485c4df8c0411880a58a6f6e8a">CLI::Option</a>
 </li>
 <li>extend()
 : <a class="el" href="classexpress_1_1_request.html#a92b577e5f1fe4ff3890b999b534ea385">express::Request</a>

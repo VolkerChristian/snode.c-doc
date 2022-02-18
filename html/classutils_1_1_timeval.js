@@ -7,6 +7,7 @@ var classutils_1_1_timeval =
     [ "Timeval", "classutils_1_1_timeval.html#aeb216485513c3ad618dafa5c34f555ae", null ],
     [ "currentTime", "classutils_1_1_timeval.html#a54b232dc1ffeea007100dcd1caad1987", null ],
     [ "ms", "classutils_1_1_timeval.html#a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b", null ],
+    [ "msd", "classutils_1_1_timeval.html#a1a3408e3001b306e55a823fda12f9999", null ],
     [ "normalize", "classutils_1_1_timeval.html#af8b19ac507d5120c815d07da9f5146b1", null ],
     [ "operator!=", "classutils_1_1_timeval.html#a72795dc49a378b6e82a392562272eee3", null ],
     [ "operator&", "classutils_1_1_timeval.html#a4a554848a362fa40feef1c3f93c0c2e5", null ],

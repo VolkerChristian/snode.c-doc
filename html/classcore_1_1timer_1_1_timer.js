@@ -1,12 +1,11 @@
 var classcore_1_1timer_1_1_timer =
 [
-    [ "~Timer", "classcore_1_1timer_1_1_timer.html#a85a5a52ec3d9eb28cba62a38af54baaf", null ],
-    [ "cancel", "classcore_1_1timer_1_1_timer.html#a799ffcc07d85afe22c30af1270ce72b6", null ],
-    [ "getTimeout", "classcore_1_1timer_1_1_timer.html#ae47fddd23b4481369ce2ab720ffaa921", null ],
-    [ "intervalTimer", "classcore_1_1timer_1_1_timer.html#a078bb2338f62a0e665a92fa8bce3daf7", null ],
-    [ "intervalTimer", "classcore_1_1timer_1_1_timer.html#a62b944bbad2f4f711879acab5f780b0c", null ],
-    [ "singleshotTimer", "classcore_1_1timer_1_1_timer.html#aab3d6c158408a29f43505c782bf1c75c", null ],
-    [ "TimerEventReceiver", "classcore_1_1timer_1_1_timer.html#a31044eb7aa2338951eb3e7bae1933b38", null ],
-    [ "TimerEventReceiver", "classcore_1_1timer_1_1_timer.html#ae7d50dc63afe5f6d524589149d70e54b", null ],
-    [ "unobservedEvent", "classcore_1_1timer_1_1_timer.html#a4d4f144a4d5ed6f8907add18dc69e269", null ]
+    [ "Timer", "classcore_1_1timer_1_1_timer.html#aff277ad19328d58d4c91f794a996cc52", null ],
+    [ "Timer", "classcore_1_1timer_1_1_timer.html#a2182f68a2fd008281ed26d062d9f7087", null ],
+    [ "Timer", "classcore_1_1timer_1_1_timer.html#aa78c31a5c2cf45eec089380d7e2437c1", null ],
+    [ "intervalTimer", "classcore_1_1timer_1_1_timer.html#aacad0dae5c746544b04a995635e929f6", null ],
+    [ "intervalTimer", "classcore_1_1timer_1_1_timer.html#a19f2c54de1e85a74dd9e76ab4d30b008", null ],
+    [ "operator=", "classcore_1_1timer_1_1_timer.html#a49666315fc60101504a1e62d3faf0945", null ],
+    [ "operator=", "classcore_1_1timer_1_1_timer.html#a74d49d21b90003672889fb1ede72f183", null ],
+    [ "singleshotTimer", "classcore_1_1timer_1_1_timer.html#aafcb1acf32ab83c16953e405e25b71cc", null ]
 ];

@@ -7,6 +7,7 @@ var classcore_1_1_descriptor =
     [ "Descriptor", "classcore_1_1_descriptor.html#af505c25fb4316ad49ffc87f1e15980a8", null ],
     [ "Descriptor", "classcore_1_1_descriptor.html#a957152d7de770b886ab40d41a5cbea25", null ],
     [ "~Descriptor", "classcore_1_1_descriptor.html#a212cfe5a0a307e83dcdc2daad0342fb1", null ],
+    [ "attachFd", "classcore_1_1_descriptor.html#a2b0d85c19ad119c08ee534c0f542846d", null ],
     [ "close", "classcore_1_1_descriptor.html#a098be4cee708449c8ae045f06cf17c29", null ],
     [ "dontClose", "classcore_1_1_descriptor.html#aab7f2b5c431191ee6b5d6632ee6a3d53", null ],
     [ "dontClose", "classcore_1_1_descriptor.html#aced383bc9484519db6943b0111ed6411", null ],

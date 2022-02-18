@@ -143,8 +143,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a29a59f732ed9a916406d049045faee9f inherit pro_methods_classweb_1_1http_1_1_socket_context_upgrade_factory_selector"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35d66b755bee9d26c3598dd8d4cc480c inherit pro_methods_classweb_1_1http_1_1_socket_context_upgrade_factory_selector"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a35d66b755bee9d26c3598dd8d4cc480c">addSocketContextUpgradeSearchPath</a> (const std::string &amp;searchPath)</td></tr>
 <tr class="separator:a35d66b755bee9d26c3598dd8d4cc480c inherit pro_methods_classweb_1_1http_1_1_socket_context_upgrade_factory_selector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab71641dc445ed573c18f4069b1bd46ff inherit pro_methods_classweb_1_1http_1_1_socket_context_upgrade_factory_selector"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#abc18b9113d82388b6b5e04d5d930be40">SocketContextUpgradeFactory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#ab71641dc445ed573c18f4069b1bd46ff">load</a> (const std::string &amp;upgradeContextName, <a class="el" href="classcore_1_1socket_1_1_socket_context.html#a8dfa05374cbe796e6b62911adcba7971">core::socket::SocketContext::Role</a> role)</td></tr>
-<tr class="separator:ab71641dc445ed573c18f4069b1bd46ff inherit pro_methods_classweb_1_1http_1_1_socket_context_upgrade_factory_selector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4399aa92b0d0df8dfe2517af312028de inherit pro_methods_classweb_1_1http_1_1_socket_context_upgrade_factory_selector"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#abc18b9113d82388b6b5e04d5d930be40">SocketContextUpgradeFactory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a4399aa92b0d0df8dfe2517af312028de">load</a> (const std::string &amp;upgradeContextName, typename <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade.html">web::http::SocketContextUpgrade</a>&lt; <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a39b69a59a030fdfc856fd9972facec46">Request</a>, <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a0caceb1be9b1e29d742e085ac2d4d6b7">Response</a> &gt;::Role role)</td></tr>
+<tr class="separator:a4399aa92b0d0df8dfe2517af312028de inherit pro_methods_classweb_1_1http_1_1_socket_context_upgrade_factory_selector"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
@@ -225,16 +225,16 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00033">33</a> of file <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html">SocketContextUpgradeFactorySelector.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        : <a class="code" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html">web::http::SocketContextUpgradeFactorySelector&lt;SocketContextUpgradeFactory&gt;</a>() {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a35d66b755bee9d26c3598dd8d4cc480c">addSocketContextUpgradeSearchPath</a>(HTTP_SOCKETCONTEXTUPGRADE_SERVER_INSTALL_LIBDIR);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#if !defined(NDEBUG) &amp;&amp; defined(HTTP_SOCKETCONTEXTUPGRADE_SERVER_COMPILE_LIBDIR)</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a35d66b755bee9d26c3598dd8d4cc480c">addSocketContextUpgradeSearchPath</a>(HTTP_SOCKETCONTEXTUPGRADE_SERVER_COMPILE_LIBDIR);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !defined(NDEBUG) &amp;&amp; defined(HTTP_SOCKETCONTEXTUPGRADE_SERVER_COMPILE_LIBDIR)</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00034">34</a> of file <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html">SocketContextUpgradeFactorySelector.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        : <a class="code" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html">web::http::SocketContextUpgradeFactorySelector&lt;SocketContextUpgradeFactory&gt;</a>() {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a35d66b755bee9d26c3598dd8d4cc480c">addSocketContextUpgradeSearchPath</a>(HTTP_SOCKETCONTEXTUPGRADE_SERVER_INSTALL_LIBDIR);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#if !defined(NDEBUG) &amp;&amp; defined(HTTP_SOCKETCONTEXTUPGRADE_SERVER_COMPILE_LIBDIR)</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a35d66b755bee9d26c3598dd8d4cc480c">addSocketContextUpgradeSearchPath</a>(HTTP_SOCKETCONTEXTUPGRADE_SERVER_COMPILE_LIBDIR);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !defined(NDEBUG) &amp;&amp; defined(HTTP_SOCKETCONTEXTUPGRADE_SERVER_COMPILE_LIBDIR)</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
 <div class="ttc" id="aclassweb_1_1http_1_1_socket_context_upgrade_factory_selector_html"><div class="ttname"><a href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactory &gt;</a></div></div>
 <div class="ttc" id="aclassweb_1_1http_1_1_socket_context_upgrade_factory_selector_html_a35d66b755bee9d26c3598dd8d4cc480c"><div class="ttname"><a href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a35d66b755bee9d26c3598dd8d4cc480c">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactory &gt;::addSocketContextUpgradeSearchPath</a></div><div class="ttdeci">void addSocketContextUpgradeSearchPath(const std::string &amp;searchPath)</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_upgrade_factory_selector_8hpp_source.html#l00065">SocketContextUpgradeFactorySelector.hpp:36</a></div></div>
 </div><!-- fragment -->
@@ -299,13 +299,13 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00044">44</a> of file <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html">SocketContextUpgradeFactorySelector.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                                                                                       {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keyword">static</span> <a class="code" href="classweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector.html#aca89c6f2c856716b294532968d0ae9bf">SocketContextUpgradeFactorySelector</a> socketContextUpgradeFactorySelector;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> &amp;socketContextUpgradeFactorySelector;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
-<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector_html_aca89c6f2c856716b294532968d0ae9bf"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector.html#aca89c6f2c856716b294532968d0ae9bf">web::http::server::SocketContextUpgradeFactorySelector::SocketContextUpgradeFactorySelector</a></div><div class="ttdeci">SocketContextUpgradeFactorySelector()</div><div class="ttdef"><b>Definition:</b> <a href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00033">SocketContextUpgradeFactorySelector.cpp:33</a></div></div>
+<p class="definition">Definition at line <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00045">45</a> of file <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html">SocketContextUpgradeFactorySelector.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                                                                                       {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keyword">static</span> <a class="code" href="classweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector.html#aca89c6f2c856716b294532968d0ae9bf">SocketContextUpgradeFactorySelector</a> socketContextUpgradeFactorySelector;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">return</span> &amp;socketContextUpgradeFactorySelector;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
+<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector_html_aca89c6f2c856716b294532968d0ae9bf"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector.html#aca89c6f2c856716b294532968d0ae9bf">web::http::server::SocketContextUpgradeFactorySelector::SocketContextUpgradeFactorySelector</a></div><div class="ttdeci">SocketContextUpgradeFactorySelector()</div><div class="ttdef"><b>Definition:</b> <a href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00034">SocketContextUpgradeFactorySelector.cpp:34</a></div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="http_2server_2_socket_context_upgrade_factory_8cpp_source.html#l00034">web::http::server::SocketContextUpgradeFactory::checkRefCount()</a>, <a class="el" href="http_2server_2_socket_context_upgrade_factory_8cpp_source.html#l00040">web::http::server::SocketContextUpgradeFactory::link()</a>, and <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00157">web::http::server::Response::upgrade()</a>.</p>
 <div class="dynheader">
@@ -343,29 +343,13 @@ Here is the caller graph for this function:</div>
 
 <p>Implements <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a99ae9cd5be8fd4f20b80dea3df702a73">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactory &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00051">51</a> of file <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html">SocketContextUpgradeFactorySelector.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                                                                 {</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector.html#a2ccb751735be1bb30c89c6d3c1609515">load</a>(upgradeContextName, <a class="code" href="classcore_1_1socket_1_1_socket_context.html#a8dfa05374cbe796e6b62911adcba7971a3d27c95bfdbea691b250894d96852844">core::socket::SocketContext::Role::SERVER</a>);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_a8dfa05374cbe796e6b62911adcba7971a3d27c95bfdbea691b250894d96852844"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#a8dfa05374cbe796e6b62911adcba7971a3d27c95bfdbea691b250894d96852844">core::socket::SocketContext::Role::SERVER</a></div><div class="ttdeci">@ SERVER</div></div>
-<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector_html_a2ccb751735be1bb30c89c6d3c1609515"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector.html#a2ccb751735be1bb30c89c6d3c1609515">web::http::server::SocketContextUpgradeFactorySelector::load</a></div><div class="ttdeci">SocketContextUpgradeFactory * load(const std::string &amp;upgradeContextName) override</div><div class="ttdef"><b>Definition:</b> <a href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00051">SocketContextUpgradeFactorySelector.cpp:51</a></div></div>
+<p class="definition">Definition at line <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00052">52</a> of file <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html">SocketContextUpgradeFactorySelector.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                                                                                 {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector.html#a2ccb751735be1bb30c89c6d3c1609515">load</a>(upgradeContextName, <a class="code" href="classweb_1_1http_1_1_socket_context_upgrade.html">web::http::SocketContextUpgrade&lt;Request, Response&gt;::Role::SERVER</a>);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
+<div class="ttc" id="aclassweb_1_1http_1_1_socket_context_upgrade_html"><div class="ttname"><a href="classweb_1_1http_1_1_socket_context_upgrade.html">web::http::SocketContextUpgrade</a></div><div class="ttdef"><b>Definition:</b> <a href="http_2_socket_context_upgrade_8h_source.html#l00036">SocketContextUpgrade.h:36</a></div></div>
+<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector_html_a2ccb751735be1bb30c89c6d3c1609515"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector.html#a2ccb751735be1bb30c89c6d3c1609515">web::http::server::SocketContextUpgradeFactorySelector::load</a></div><div class="ttdeci">SocketContextUpgradeFactory * load(const std::string &amp;upgradeContextName) override</div><div class="ttdef"><b>Definition:</b> <a href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00052">SocketContextUpgradeFactorySelector.cpp:52</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00051">load()</a>, and <a class="el" href="classcore_1_1socket_1_1_socket_context.html#a8dfa05374cbe796e6b62911adcba7971a3d27c95bfdbea691b250894d96852844">core::socket::SocketContext::SERVER</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00051">load()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector_a2ccb751735be1bb30c89c6d3c1609515_cgraph.svg" width="230" height="91"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector_a2ccb751735be1bb30c89c6d3c1609515_icgraph.svg" width="230" height="91"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
 </div>
 </div>
 <a id="a0f3c3fc11f20bc704da83f07ad3fa2ff"></a>
@@ -402,32 +386,32 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00056">56</a> of file <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html">SocketContextUpgradeFactorySelector.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                                                                                                        {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#abc18b9113d82388b6b5e04d5d930be40">SocketContextUpgradeFactory</a>* socketContextUpgradeFactory = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        std::string upgradeContextNames = req.header(<span class="stringliteral">&quot;upgrade&quot;</span>);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">if</span> (!upgradeContextNames.empty()) {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            std::string upgradeContextName;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            std::string upgradeContextPriority;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            std::tie(upgradeContextName, upgradeContextNames) = <a class="code" href="namespacehttputils.html#a9e46abe5c20380871f3884c9176a424d">httputils::str_split</a>(upgradeContextNames, <span class="charliteral">&#39;,&#39;</span>);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            std::tie(upgradeContextName, upgradeContextPriority) = <a class="code" href="namespacehttputils.html#a9e46abe5c20380871f3884c9176a424d">httputils::str_split</a>(upgradeContextName, <span class="charliteral">&#39;/&#39;</span>);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <a class="code" href="namespacehttputils.html#a4dd60a8e2472042c70e00dec22ebf927">httputils::to_lower</a>(upgradeContextName);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            socketContextUpgradeFactory = <a class="code" href="classweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector.html#a0f3c3fc11f20bc704da83f07ad3fa2ff">select</a>(upgradeContextName);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <span class="keywordflow">if</span> (socketContextUpgradeFactory != <span class="keyword">nullptr</span>) {</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                socketContextUpgradeFactory-&gt;prepare(req, res);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            }</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        }</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">return</span> socketContextUpgradeFactory;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00057">57</a> of file <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html">SocketContextUpgradeFactorySelector.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                                                                                                        {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <a class="code" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#abc18b9113d82388b6b5e04d5d930be40">SocketContextUpgradeFactory</a>* socketContextUpgradeFactory = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        std::string upgradeContextNames = req.header(<span class="stringliteral">&quot;upgrade&quot;</span>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">if</span> (!upgradeContextNames.empty()) {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            std::string upgradeContextName;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            std::string upgradeContextPriority;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            std::tie(upgradeContextName, upgradeContextNames) = <a class="code" href="namespacehttputils.html#a9e46abe5c20380871f3884c9176a424d">httputils::str_split</a>(upgradeContextNames, <span class="charliteral">&#39;,&#39;</span>);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            std::tie(upgradeContextName, upgradeContextPriority) = <a class="code" href="namespacehttputils.html#a9e46abe5c20380871f3884c9176a424d">httputils::str_split</a>(upgradeContextName, <span class="charliteral">&#39;/&#39;</span>);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <a class="code" href="namespacehttputils.html#a4dd60a8e2472042c70e00dec22ebf927">httputils::to_lower</a>(upgradeContextName);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            socketContextUpgradeFactory = <a class="code" href="classweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector.html#a0f3c3fc11f20bc704da83f07ad3fa2ff">select</a>(upgradeContextName);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="keywordflow">if</span> (socketContextUpgradeFactory != <span class="keyword">nullptr</span>) {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                socketContextUpgradeFactory-&gt;prepare(req, res);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">return</span> socketContextUpgradeFactory;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
 <div class="ttc" id="aclassweb_1_1http_1_1_socket_context_upgrade_factory_selector_html_abc18b9113d82388b6b5e04d5d930be40"><div class="ttname"><a href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#abc18b9113d82388b6b5e04d5d930be40">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactory &gt;::SocketContextUpgradeFactory</a></div><div class="ttdeci">SocketContextUpgradeFactory SocketContextUpgradeFactory</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_upgrade_factory_selector_8h_source.html#l00043">SocketContextUpgradeFactorySelector.h:43</a></div></div>
-<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector_html_a0f3c3fc11f20bc704da83f07ad3fa2ff"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector.html#a0f3c3fc11f20bc704da83f07ad3fa2ff">web::http::server::SocketContextUpgradeFactorySelector::select</a></div><div class="ttdeci">SocketContextUpgradeFactory * select(Request &amp;req, Response &amp;res) override</div><div class="ttdef"><b>Definition:</b> <a href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00056">SocketContextUpgradeFactorySelector.cpp:56</a></div></div>
+<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector_html_a0f3c3fc11f20bc704da83f07ad3fa2ff"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector.html#a0f3c3fc11f20bc704da83f07ad3fa2ff">web::http::server::SocketContextUpgradeFactorySelector::select</a></div><div class="ttdeci">SocketContextUpgradeFactory * select(Request &amp;req, Response &amp;res) override</div><div class="ttdef"><b>Definition:</b> <a href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00057">SocketContextUpgradeFactorySelector.cpp:57</a></div></div>
 <div class="ttc" id="anamespacehttputils_html_a4dd60a8e2472042c70e00dec22ebf927"><div class="ttname"><a href="namespacehttputils.html#a4dd60a8e2472042c70e00dec22ebf927">httputils::to_lower</a></div><div class="ttdeci">std::string::iterator to_lower(std::string &amp;string)</div><div class="ttdef"><b>Definition:</b> <a href="http__utils_8cpp_source.html#l00168">http_utils.cpp:168</a></div></div>
 <div class="ttc" id="anamespacehttputils_html_a9e46abe5c20380871f3884c9176a424d"><div class="ttname"><a href="namespacehttputils.html#a9e46abe5c20380871f3884c9176a424d">httputils::str_split</a></div><div class="ttdeci">std::pair&lt; std::string, std::string &gt; str_split(const std::string &amp;base, char c_middle)</div><div class="ttdef"><b>Definition:</b> <a href="http__utils_8cpp_source.html#l00091">http_utils.cpp:91</a></div></div>
 </div><!-- fragment -->

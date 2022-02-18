@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['eventloop_3843',['EventLoop',['../classcore_1_1_dynamic_loader.html#aca25e36665670fcb6909dd8ab04b1d05',1,'core::DynamicLoader']]]
+  ['descriptoreventpublisher_3888',['DescriptorEventPublisher',['../classcore_1_1_descriptor_event_receiver.html#ad8fdf38b934708783fc2e575dcfd3232',1,'core::DescriptorEventReceiver']]]
 ];

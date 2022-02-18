@@ -5,6 +5,7 @@ var classcore_1_1socket_1_1_socket_connection =
     [ "SocketConnection", "classcore_1_1socket_1_1_socket_connection.html#a5ba18c609dd982f32c5cc8309cf29d62", null ],
     [ "~SocketConnection", "classcore_1_1socket_1_1_socket_connection.html#a23e47efb139e240006debe30d8d8b53d", null ],
     [ "close", "classcore_1_1socket_1_1_socket_connection.html#a9b8dcd50d3aee2376df71eb53bb3805f", null ],
+    [ "getDescriptor", "classcore_1_1socket_1_1_socket_connection.html#ab0a476b27623ad3dfdb5f6b7aaa5c256", null ],
     [ "getLocalAddressAsString", "classcore_1_1socket_1_1_socket_connection.html#a9e9e574c80c8633f510f3a7ea2d202df", null ],
     [ "getRemoteAddressAsString", "classcore_1_1socket_1_1_socket_connection.html#a3e628fbd6f5f56592469a80006311c5c", null ],
     [ "getSocketContext", "classcore_1_1socket_1_1_socket_connection.html#af536759142bd03b3d71fb5c0a0e27bc8", null ],

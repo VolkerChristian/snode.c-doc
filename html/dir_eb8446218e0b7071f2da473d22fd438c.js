@@ -1,18 +1,11 @@
 var dir_eb8446218e0b7071f2da473d22fd438c =
 [
+    [ "config", "dir_9e77cc276999d13e05176d78515adb67.html", "dir_9e77cc276999d13e05176d78515adb67" ],
     [ "legacy", "dir_93ebcb8a12cd24330739c86192ef685b.html", "dir_93ebcb8a12cd24330739c86192ef685b" ],
     [ "tls", "dir_744fa51b4ade7212eca692c9a7f2d864.html", "dir_744fa51b4ade7212eca692c9a7f2d864" ],
-    [ "ClientConfig.cpp", "un_2stream_2_client_config_8cpp.html", null ],
-    [ "ClientConfig.h", "un_2stream_2_client_config_8h.html", [
-      [ "ClientConfig", "classnet_1_1un_1_1stream_1_1_client_config.html", "classnet_1_1un_1_1stream_1_1_client_config" ]
-    ] ],
     [ "ClientSocket.cpp", "un_2stream_2_client_socket_8cpp.html", null ],
     [ "ClientSocket.h", "net_2un_2stream_2_client_socket_8h.html", [
       [ "ClientSocket", "classnet_1_1un_1_1stream_1_1_client_socket.html", "classnet_1_1un_1_1stream_1_1_client_socket" ]
-    ] ],
-    [ "ServerConfig.cpp", "un_2stream_2_server_config_8cpp.html", null ],
-    [ "ServerConfig.h", "un_2stream_2_server_config_8h.html", [
-      [ "ServerConfig", "classnet_1_1un_1_1stream_1_1_server_config.html", "classnet_1_1un_1_1stream_1_1_server_config" ]
     ] ],
     [ "ServerSocket.cpp", "un_2stream_2_server_socket_8cpp.html", null ],
     [ "ServerSocket.h", "net_2un_2stream_2_server_socket_8h.html", [

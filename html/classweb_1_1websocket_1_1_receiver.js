@@ -12,6 +12,7 @@ var classweb_1_1websocket_1_1_receiver =
     ] ],
     [ "Receiver", "classweb_1_1websocket_1_1_receiver.html#a7e5f2d5ec1769a0c8ed4b2ffd6d9c7d2", null ],
     [ "Receiver", "classweb_1_1websocket_1_1_receiver.html#a97c46555f6b1b929c44018b6f4a28621", null ],
+    [ "~Receiver", "classweb_1_1websocket_1_1_receiver.html#acc15b1fa3fddf61beea9f037211f0817", null ],
     [ "dumpFrame", "classweb_1_1websocket_1_1_receiver.html#abca3cacfb74fd31ee884acd8814b7bf5", null ],
     [ "onMessageData", "classweb_1_1websocket_1_1_receiver.html#a1f94e91b4cd84eb7f425e33ac7eee433", null ],
     [ "onMessageEnd", "classweb_1_1websocket_1_1_receiver.html#a0f54f3da386c2166362d48978de37550", null ],

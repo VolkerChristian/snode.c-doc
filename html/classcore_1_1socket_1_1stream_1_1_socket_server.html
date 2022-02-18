@@ -84,8 +84,8 @@ $(document).ready(function(){initNavTree('classcore_1_1socket_1_1stream_1_1_sock
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="classcore_1_1socket_1_1stream_1_1_socket_server-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -97,35 +97,35 @@ $(document).ready(function(){initNavTree('classcore_1_1socket_1_1stream_1_1_sock
 <div class="dynheader">
 Inheritance diagram for core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_server__inherit__graph.svg" width="1872" height="1571"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_server__inherit__graph.svg" width="1872" height="1615"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_server__coll__graph.svg" width="259" height="463"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1stream_1_1_socket_server__coll__graph.svg" width="259" height="478"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a379ea9d8d25d90ba359dc1c71f152a36"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a379ea9d8d25d90ba359dc1c71f152a36">Socket</a> = typename <a class="el" href="classcore_1_1socket_1_1_server_socket.html#a382131672815f6d15f61ffb9ff5611f1">ServerSocket::Socket</a></td></tr>
-<tr class="separator:a379ea9d8d25d90ba359dc1c71f152a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a902bc33e544b939efc3273c730b85acd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a902bc33e544b939efc3273c730b85acd">SocketAddress</a> = typename <a class="el" href="classcore_1_1socket_1_1_socket.html#a6f3a39a7f462eae53a4d5202840889ce">Socket::SocketAddress</a></td></tr>
-<tr class="separator:a902bc33e544b939efc3273c730b85acd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75e2c8968e5526e1e2979b4e03c42117"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a75e2c8968e5526e1e2979b4e03c42117">SocketConnection</a> = typename <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#ac06767fdea63a951854f4af4f947a6d9">SocketAcceptor::SocketConnection</a></td></tr>
 <tr class="separator:a75e2c8968e5526e1e2979b4e03c42117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6df92da08551501e255f2806c7ff77ad"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a6df92da08551501e255f2806c7ff77ad">SocketAddress</a> = typename Super::SocketAddress</td></tr>
+<tr class="separator:a6df92da08551501e255f2806c7ff77ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a86e16a2a3e3a0f1ab22ae7ea6439f792"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a86e16a2a3e3a0f1ab22ae7ea6439f792">SocketServer</a> (const std::string &amp;name, const std::function&lt; void(<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a75e2c8968e5526e1e2979b4e03c42117">SocketConnection</a> *)&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a170050f20d519f360c88d85531330823">onConnect</a>, const std::function&lt; void(<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a75e2c8968e5526e1e2979b4e03c42117">SocketConnection</a> *)&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#acb47bcf315734f20f8829151a69d185e">onConnected</a>, const std::function&lt; void(<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a75e2c8968e5526e1e2979b4e03c42117">SocketConnection</a> *)&gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a0848bd6c8553ffc083dcd558a5c81a1f">onDisconnect</a>, const std::map&lt; std::string, std::any &gt; &amp;<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a7899040fa0bda481746d8c3ba8085b79">options</a>={{}})</td></tr>
 <tr class="separator:a86e16a2a3e3a0f1ab22ae7ea6439f792"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa629870717cdb957da7a9b372b395400"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#aa629870717cdb957da7a9b372b395400">~SocketServer</a> ()=default</td></tr>
-<tr class="separator:aa629870717cdb957da7a9b372b395400"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8156b1caebcf1aae2ca9fee1a88dcd6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a8156b1caebcf1aae2ca9fee1a88dcd6f">listen</a> (const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a902bc33e544b939efc3273c730b85acd">SocketAddress</a> &amp;bindAddress, int backlog, const std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a379ea9d8d25d90ba359dc1c71f152a36">Socket</a> &amp;socket, int)&gt; &amp;onError) const override</td></tr>
-<tr class="separator:a8156b1caebcf1aae2ca9fee1a88dcd6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c4bf4f7a1f4f5671e32b63ae52fc7ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a1c4bf4f7a1f4f5671e32b63ae52fc7ae">listen</a> (const std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a379ea9d8d25d90ba359dc1c71f152a36">Socket</a> &amp;socket, int)&gt; &amp;onError) const override</td></tr>
-<tr class="separator:a1c4bf4f7a1f4f5671e32b63ae52fc7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f431fc3e7a23e0dad1e9d33978630f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a5f431fc3e7a23e0dad1e9d33978630f5">SocketServer</a> (const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html">SocketServer</a> &amp;)=default</td></tr>
+<tr class="separator:a5f431fc3e7a23e0dad1e9d33978630f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a537a89cc1c2ba34edf72b5058a32bb3c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a537a89cc1c2ba34edf72b5058a32bb3c">~SocketServer</a> () override=default</td></tr>
+<tr class="separator:a537a89cc1c2ba34edf72b5058a32bb3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ec5e2b016bb78893946cc82a55cea56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a3ec5e2b016bb78893946cc82a55cea56">listen</a> (const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a6df92da08551501e255f2806c7ff77ad">SocketAddress</a> &amp;localAddress, int backlog, const std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a6df92da08551501e255f2806c7ff77ad">SocketAddress</a> &amp;, int)&gt; &amp;onError) const override</td></tr>
+<tr class="separator:a3ec5e2b016bb78893946cc82a55cea56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9b4787959426e0d46e27bb24428957e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#ac9b4787959426e0d46e27bb24428957e">listen</a> (const std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a6df92da08551501e255f2806c7ff77ad">SocketAddress</a> &amp;, int)&gt; &amp;onError) const override</td></tr>
+<tr class="separator:ac9b4787959426e0d46e27bb24428957e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a170050f20d519f360c88d85531330823"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a170050f20d519f360c88d85531330823">onConnect</a> (const std::function&lt; void(<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a75e2c8968e5526e1e2979b4e03c42117">SocketConnection</a> *)&gt; &amp;onConnect)</td></tr>
 <tr class="separator:a170050f20d519f360c88d85531330823"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb47bcf315734f20f8829151a69d185e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#acb47bcf315734f20f8829151a69d185e">onConnected</a> (const std::function&lt; void(<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a75e2c8968e5526e1e2979b4e03c42117">SocketConnection</a> *)&gt; &amp;onConnected)</td></tr>
@@ -136,17 +136,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae4b75959d2d6ecc550d98c682781fdf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae68963a1aa982b5fb5941488f7937efa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#aa7bc9bee7f23cbe25719bbdb898286c1">ServerConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#ae68963a1aa982b5fb5941488f7937efa">getServerConfig</a> ()</td></tr>
 <tr class="separator:ae68963a1aa982b5fb5941488f7937efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
-Protected Types</h2></td></tr>
-<tr class="memitem:aaf45f7f794974f3addba002a6bc68324"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#aaf45f7f794974f3addba002a6bc68324">ServerSocket</a> = ServerSocketT</td></tr>
-<tr class="separator:aaf45f7f794974f3addba002a6bc68324"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd77e28ee1b5dd0f9f2fb23640b7ed52"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#afd77e28ee1b5dd0f9f2fb23640b7ed52">SocketAcceptor</a> = SocketAcceptorT</td></tr>
-<tr class="separator:afd77e28ee1b5dd0f9f2fb23640b7ed52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7bc9bee7f23cbe25719bbdb898286c1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#aa7bc9bee7f23cbe25719bbdb898286c1">ServerConfig</a> = typename <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#a13c6a00c8d1806428a7e6d4f4738a75a">SocketAcceptor::ServerConfig</a></td></tr>
-<tr class="separator:aa7bc9bee7f23cbe25719bbdb898286c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d8a4e0f50a3655736304eec32e7cab4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a4d8a4e0f50a3655736304eec32e7cab4">SocketContextFactory</a> = SocketContextFactoryT</td></tr>
-<tr class="separator:a4d8a4e0f50a3655736304eec32e7cab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -162,6 +151,17 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a53dc86d66a8ea03a50093e2c38d2240f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7899040fa0bda481746d8c3ba8085b79"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::any &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a7899040fa0bda481746d8c3ba8085b79">options</a></td></tr>
 <tr class="separator:a7899040fa0bda481746d8c3ba8085b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a737f8f3727127467805c0f93bbe9cf0b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a737f8f3727127467805c0f93bbe9cf0b">Super</a> = ServerSocketT</td></tr>
+<tr class="separator:a737f8f3727127467805c0f93bbe9cf0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd77e28ee1b5dd0f9f2fb23640b7ed52"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#afd77e28ee1b5dd0f9f2fb23640b7ed52">SocketAcceptor</a> = SocketAcceptorT</td></tr>
+<tr class="separator:afd77e28ee1b5dd0f9f2fb23640b7ed52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7bc9bee7f23cbe25719bbdb898286c1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#aa7bc9bee7f23cbe25719bbdb898286c1">ServerConfig</a> = typename <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#a13c6a00c8d1806428a7e6d4f4738a75a">SocketAcceptor::ServerConfig</a></td></tr>
+<tr class="separator:aa7bc9bee7f23cbe25719bbdb898286c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d8a4e0f50a3655736304eec32e7cab4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a4d8a4e0f50a3655736304eec32e7cab4">SocketContextFactory</a> = SocketContextFactoryT</td></tr>
+<tr class="separator:a4d8a4e0f50a3655736304eec32e7cab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -192,56 +192,12 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00044">44</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
-
-</div>
-</div>
-<a id="aaf45f7f794974f3addba002a6bc68324"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf45f7f794974f3addba002a6bc68324">&#9670;&nbsp;</a></span>ServerSocket</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketContextFactoryT &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html">core::socket::stream::SocketServer</a>&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#aaf45f7f794974f3addba002a6bc68324">ServerSocket</a> =  ServerSocketT</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00042">42</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
-
-</div>
-</div>
-<a id="a379ea9d8d25d90ba359dc1c71f152a36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a379ea9d8d25d90ba359dc1c71f152a36">&#9670;&nbsp;</a></span>Socket</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketContextFactoryT &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html">core::socket::stream::SocketServer</a>&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a379ea9d8d25d90ba359dc1c71f152a36">Socket</a> =  typename <a class="el" href="classcore_1_1socket_1_1_server_socket.html#a382131672815f6d15f61ffb9ff5611f1">ServerSocket::Socket</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00048">48</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
 
 </div>
 </div>
@@ -262,7 +218,7 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -271,8 +227,8 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 
 </div>
 </div>
-<a id="a902bc33e544b939efc3273c730b85acd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a902bc33e544b939efc3273c730b85acd">&#9670;&nbsp;</a></span>SocketAddress</h2>
+<a id="a6df92da08551501e255f2806c7ff77ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6df92da08551501e255f2806c7ff77ad">&#9670;&nbsp;</a></span>SocketAddress</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -280,7 +236,7 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketContextFactoryT &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html">core::socket::stream::SocketServer</a>&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a902bc33e544b939efc3273c730b85acd">SocketAddress</a> =  typename <a class="el" href="classcore_1_1socket_1_1_socket.html#a6f3a39a7f462eae53a4d5202840889ce">Socket::SocketAddress</a></td>
+          <td class="memname">using <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html">core::socket::stream::SocketServer</a>&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a6df92da08551501e255f2806c7ff77ad">SocketAddress</a> =  typename Super::SocketAddress</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -303,7 +259,7 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00050">50</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00048">48</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
 
 </div>
 </div>
@@ -324,7 +280,7 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -333,9 +289,35 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 
 </div>
 </div>
+<a id="a737f8f3727127467805c0f93bbe9cf0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a737f8f3727127467805c0f93bbe9cf0b">&#9670;&nbsp;</a></span>Super</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketContextFactoryT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html">core::socket::stream::SocketServer</a>&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a737f8f3727127467805c0f93bbe9cf0b">Super</a> =  ServerSocketT</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00042">42</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad471d26ba254c1b2655bdcd7396a94fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad471d26ba254c1b2655bdcd7396a94fe">&#9670;&nbsp;</a></span>SocketServer() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad471d26ba254c1b2655bdcd7396a94fe">&#9670;&nbsp;</a></span>SocketServer() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -362,7 +344,7 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 </div>
 </div>
 <a id="a86e16a2a3e3a0f1ab22ae7ea6439f792"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86e16a2a3e3a0f1ab22ae7ea6439f792">&#9670;&nbsp;</a></span>SocketServer() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a86e16a2a3e3a0f1ab22ae7ea6439f792">&#9670;&nbsp;</a></span>SocketServer() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -424,20 +406,20 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            , <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a53dc86d66a8ea03a50093e2c38d2240f">_onDisconnect</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a0848bd6c8553ffc083dcd558a5c81a1f">onDisconnect</a>)</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            , <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a7899040fa0bda481746d8c3ba8085b79">options</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a7899040fa0bda481746d8c3ba8085b79">options</a>) {</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a0848bd6c8553ffc083dcd558a5c81a1f"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a0848bd6c8553ffc083dcd558a5c81a1f">core::socket::stream::SocketServer::onDisconnect</a></div><div class="ttdeci">void onDisconnect(const std::function&lt; void(SocketConnection *)&gt; &amp;onDisconnect)</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00092">SocketServer.h:92</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a170050f20d519f360c88d85531330823"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a170050f20d519f360c88d85531330823">core::socket::stream::SocketServer::onConnect</a></div><div class="ttdeci">void onConnect(const std::function&lt; void(SocketConnection *)&gt; &amp;onConnect)</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00084">SocketServer.h:84</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a3fb07c9da5c25faadad0bd14f0691415"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a3fb07c9da5c25faadad0bd14f0691415">core::socket::stream::SocketServer::socketContextFactory</a></div><div class="ttdeci">std::shared_ptr&lt; SocketContextFactory &gt; socketContextFactory</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00106">SocketServer.h:106</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a4c0c3e2673f909f582d5bd4e074143d8"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a4c0c3e2673f909f582d5bd4e074143d8">core::socket::stream::SocketServer::serverConfig</a></div><div class="ttdeci">std::shared_ptr&lt; ServerConfig &gt; serverConfig</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00105">SocketServer.h:105</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a53dc86d66a8ea03a50093e2c38d2240f"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a53dc86d66a8ea03a50093e2c38d2240f">core::socket::stream::SocketServer::_onDisconnect</a></div><div class="ttdeci">std::function&lt; void(SocketConnection *)&gt; _onDisconnect</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00110">SocketServer.h:110</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a7899040fa0bda481746d8c3ba8085b79"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a7899040fa0bda481746d8c3ba8085b79">core::socket::stream::SocketServer::options</a></div><div class="ttdeci">std::map&lt; std::string, std::any &gt; options</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00112">SocketServer.h:112</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a99fd95e46c356db37d6c1b650c6126c5"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a99fd95e46c356db37d6c1b650c6126c5">core::socket::stream::SocketServer::_onConnected</a></div><div class="ttdeci">std::function&lt; void(SocketConnection *)&gt; _onConnected</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00109">SocketServer.h:109</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_acb47bcf315734f20f8829151a69d185e"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#acb47bcf315734f20f8829151a69d185e">core::socket::stream::SocketServer::onConnected</a></div><div class="ttdeci">void onConnected(const std::function&lt; void(SocketConnection *)&gt; &amp;onConnected)</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00088">SocketServer.h:88</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_ae4798ecaf5157b24f64b8ed42f8c9568"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#ae4798ecaf5157b24f64b8ed42f8c9568">core::socket::stream::SocketServer::_onConnect</a></div><div class="ttdeci">std::function&lt; void(SocketConnection *)&gt; _onConnect</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00108">SocketServer.h:108</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a0848bd6c8553ffc083dcd558a5c81a1f"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a0848bd6c8553ffc083dcd558a5c81a1f">core::socket::stream::SocketServer::onDisconnect</a></div><div class="ttdeci">void onDisconnect(const std::function&lt; void(SocketConnection *)&gt; &amp;onDisconnect)</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00094">SocketServer.h:94</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a170050f20d519f360c88d85531330823"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a170050f20d519f360c88d85531330823">core::socket::stream::SocketServer::onConnect</a></div><div class="ttdeci">void onConnect(const std::function&lt; void(SocketConnection *)&gt; &amp;onConnect)</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00086">SocketServer.h:86</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a3fb07c9da5c25faadad0bd14f0691415"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a3fb07c9da5c25faadad0bd14f0691415">core::socket::stream::SocketServer::socketContextFactory</a></div><div class="ttdeci">std::shared_ptr&lt; SocketContextFactory &gt; socketContextFactory</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00108">SocketServer.h:108</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a4c0c3e2673f909f582d5bd4e074143d8"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a4c0c3e2673f909f582d5bd4e074143d8">core::socket::stream::SocketServer::serverConfig</a></div><div class="ttdeci">std::shared_ptr&lt; ServerConfig &gt; serverConfig</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00107">SocketServer.h:107</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a53dc86d66a8ea03a50093e2c38d2240f"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a53dc86d66a8ea03a50093e2c38d2240f">core::socket::stream::SocketServer::_onDisconnect</a></div><div class="ttdeci">std::function&lt; void(SocketConnection *)&gt; _onDisconnect</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00112">SocketServer.h:112</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a7899040fa0bda481746d8c3ba8085b79"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a7899040fa0bda481746d8c3ba8085b79">core::socket::stream::SocketServer::options</a></div><div class="ttdeci">std::map&lt; std::string, std::any &gt; options</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00114">SocketServer.h:114</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a99fd95e46c356db37d6c1b650c6126c5"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a99fd95e46c356db37d6c1b650c6126c5">core::socket::stream::SocketServer::_onConnected</a></div><div class="ttdeci">std::function&lt; void(SocketConnection *)&gt; _onConnected</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00111">SocketServer.h:111</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_acb47bcf315734f20f8829151a69d185e"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#acb47bcf315734f20f8829151a69d185e">core::socket::stream::SocketServer::onConnected</a></div><div class="ttdeci">void onConnected(const std::function&lt; void(SocketConnection *)&gt; &amp;onConnected)</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00090">SocketServer.h:90</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_ae4798ecaf5157b24f64b8ed42f8c9568"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#ae4798ecaf5157b24f64b8ed42f8c9568">core::socket::stream::SocketServer::_onConnect</a></div><div class="ttdeci">std::function&lt; void(SocketConnection *)&gt; _onConnect</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00110">SocketServer.h:110</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="aa629870717cdb957da7a9b372b395400"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa629870717cdb957da7a9b372b395400">&#9670;&nbsp;</a></span>~SocketServer()</h2>
+<a id="a5f431fc3e7a23e0dad1e9d33978630f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f431fc3e7a23e0dad1e9d33978630f5">&#9670;&nbsp;</a></span>SocketServer() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -448,7 +430,35 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html">core::socket::stream::SocketServer</a>&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::~<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html">SocketServer</a> </td>
+          <td class="memname"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html">core::socket::stream::SocketServer</a>&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html">SocketServer</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html">SocketServer</a>&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt; &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a537a89cc1c2ba34edf72b5058a32bb3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a537a89cc1c2ba34edf72b5058a32bb3c">&#9670;&nbsp;</a></span>~SocketServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketContextFactoryT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html">core::socket::stream::SocketServer</a>&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::~<a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html">SocketServer</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -456,7 +466,7 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -489,12 +499,12 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00100">100</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                                        {</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a4c0c3e2673f909f582d5bd4e074143d8">serverConfig</a>;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00102">102</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                                        {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a4c0c3e2673f909f582d5bd4e074143d8">serverConfig</a>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00105">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::serverConfig</a>.</p>
+<p class="reference">References <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00107">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::serverConfig</a>.</p>
 
 </div>
 </div>
@@ -523,17 +533,17 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00096">96</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                                                      {</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a3fb07c9da5c25faadad0bd14f0691415">socketContextFactory</a>;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00098">98</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a3fb07c9da5c25faadad0bd14f0691415">socketContextFactory</a>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00106">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::socketContextFactory</a>.</p>
+<p class="reference">References <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00108">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::socketContextFactory</a>.</p>
 
 </div>
 </div>
-<a id="a8156b1caebcf1aae2ca9fee1a88dcd6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8156b1caebcf1aae2ca9fee1a88dcd6f">&#9670;&nbsp;</a></span>listen() <span class="overload">[1/2]</span></h2>
+<a id="a3ec5e2b016bb78893946cc82a55cea56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ec5e2b016bb78893946cc82a55cea56">&#9670;&nbsp;</a></span>listen() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -546,8 +556,8 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
         <tr>
           <td class="memname">void <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html">core::socket::stream::SocketServer</a>&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::listen </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a902bc33e544b939efc3273c730b85acd">SocketAddress</a> &amp;&#160;</td>
-          <td class="paramname"><em>bindAddress</em>, </td>
+          <td class="paramtype">const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a6df92da08551501e255f2806c7ff77ad">SocketAddress</a> &amp;&#160;</td>
+          <td class="paramname"><em>localAddress</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -558,7 +568,7 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a379ea9d8d25d90ba359dc1c71f152a36">Socket</a> &amp;socket, int)&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a6df92da08551501e255f2806c7ff77ad">SocketAddress</a> &amp;, int)&gt; &amp;&#160;</td>
           <td class="paramname"><em>onError</em>&#160;</td>
         </tr>
         <tr>
@@ -574,21 +584,21 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00069">69</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                                                                                                {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a4c0c3e2673f909f582d5bd4e074143d8">serverConfig</a>-&gt;setLocalAddress(bindAddress);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a4c0c3e2673f909f582d5bd4e074143d8">serverConfig</a>-&gt;setBacklog(backlog);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a8156b1caebcf1aae2ca9fee1a88dcd6f">listen</a>(onError);</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a8156b1caebcf1aae2ca9fee1a88dcd6f"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a8156b1caebcf1aae2ca9fee1a88dcd6f">core::socket::stream::SocketServer::listen</a></div><div class="ttdeci">void listen(const SocketAddress &amp;bindAddress, int backlog, const std::function&lt; void(const Socket &amp;socket, int)&gt; &amp;onError) const override</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00069">SocketServer.h:69</a></div></div>
+<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00071">71</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                                                                                                {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a4c0c3e2673f909f582d5bd4e074143d8">serverConfig</a>-&gt;setLocalAddress(localAddress);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a4c0c3e2673f909f582d5bd4e074143d8">serverConfig</a>-&gt;setBacklog(backlog);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a3ec5e2b016bb78893946cc82a55cea56">listen</a>(onError);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        }</div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_a3ec5e2b016bb78893946cc82a55cea56"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a3ec5e2b016bb78893946cc82a55cea56">core::socket::stream::SocketServer::listen</a></div><div class="ttdeci">void listen(const SocketAddress &amp;localAddress, int backlog, const std::function&lt; void(const SocketAddress &amp;, int)&gt; &amp;onError) const override</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00071">SocketServer.h:71</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00105">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::serverConfig</a>.</p>
+<p class="reference">References <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00107">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::serverConfig</a>.</p>
 
 </div>
 </div>
-<a id="a1c4bf4f7a1f4f5671e32b63ae52fc7ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c4bf4f7a1f4f5671e32b63ae52fc7ae">&#9670;&nbsp;</a></span>listen() <span class="overload">[2/2]</span></h2>
+<a id="ac9b4787959426e0d46e27bb24428957e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9b4787959426e0d46e27bb24428957e">&#9670;&nbsp;</a></span>listen() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -601,7 +611,7 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
         <tr>
           <td class="memname">void <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html">core::socket::stream::SocketServer</a>&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::listen </td>
           <td>(</td>
-          <td class="paramtype">const std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a379ea9d8d25d90ba359dc1c71f152a36">Socket</a> &amp;socket, int)&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::function&lt; void(const <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a6df92da08551501e255f2806c7ff77ad">SocketAddress</a> &amp;, int)&gt; &amp;&#160;</td>
           <td class="paramname"><em>onError</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -613,15 +623,15 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00078">78</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                                                                                                {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#afd77e28ee1b5dd0f9f2fb23640b7ed52">SocketAcceptor</a>* socketAcceptor = <span class="keyword">new</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#afd77e28ee1b5dd0f9f2fb23640b7ed52">SocketAcceptor</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a3fb07c9da5c25faadad0bd14f0691415">socketContextFactory</a>, <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#ae4798ecaf5157b24f64b8ed42f8c9568">_onConnect</a>, <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a99fd95e46c356db37d6c1b650c6126c5">_onConnected</a>, <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a53dc86d66a8ea03a50093e2c38d2240f">_onDisconnect</a>, <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a7899040fa0bda481746d8c3ba8085b79">options</a>);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            socketAcceptor-&gt;listen(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a4c0c3e2673f909f582d5bd4e074143d8">serverConfig</a>, onError);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00080">80</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                                                                                                {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#afd77e28ee1b5dd0f9f2fb23640b7ed52">SocketAcceptor</a>* socketAcceptor = <span class="keyword">new</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#afd77e28ee1b5dd0f9f2fb23640b7ed52">SocketAcceptor</a>(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a3fb07c9da5c25faadad0bd14f0691415">socketContextFactory</a>, <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#ae4798ecaf5157b24f64b8ed42f8c9568">_onConnect</a>, <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a99fd95e46c356db37d6c1b650c6126c5">_onConnected</a>, <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a53dc86d66a8ea03a50093e2c38d2240f">_onDisconnect</a>, <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a7899040fa0bda481746d8c3ba8085b79">options</a>);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            socketAcceptor-&gt;listen(<a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a4c0c3e2673f909f582d5bd4e074143d8">serverConfig</a>, onError);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        }</div>
 <div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_server_html_afd77e28ee1b5dd0f9f2fb23640b7ed52"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_server.html#afd77e28ee1b5dd0f9f2fb23640b7ed52">core::socket::stream::SocketServer::SocketAcceptor</a></div><div class="ttdeci">SocketAcceptorT SocketAcceptor</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2_socket_server_8h_source.html#l00043">SocketServer.h:43</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00108">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::_onConnect</a>, <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00109">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::_onConnected</a>, <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00110">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::_onDisconnect</a>, <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00112">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::options</a>, <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00105">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::serverConfig</a>, and <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00106">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::socketContextFactory</a>.</p>
+<p class="reference">References <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00110">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::_onConnect</a>, <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00111">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::_onConnected</a>, <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00112">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::_onDisconnect</a>, <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00114">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::options</a>, <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00107">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::serverConfig</a>, and <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00108">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::socketContextFactory</a>.</p>
 
 </div>
 </div>
@@ -651,12 +661,12 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00084">84</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                                                                              {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#ae4798ecaf5157b24f64b8ed42f8c9568">_onConnect</a> = <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a170050f20d519f360c88d85531330823">onConnect</a>;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00086">86</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                                                                              {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#ae4798ecaf5157b24f64b8ed42f8c9568">_onConnect</a> = <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a170050f20d519f360c88d85531330823">onConnect</a>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00108">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::_onConnect</a>.</p>
+<p class="reference">References <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00110">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::_onConnect</a>.</p>
 
 </div>
 </div>
@@ -686,12 +696,12 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00088">88</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                                                                                  {</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a99fd95e46c356db37d6c1b650c6126c5">_onConnected</a> = <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#acb47bcf315734f20f8829151a69d185e">onConnected</a>;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00090">90</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                                                                                  {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a99fd95e46c356db37d6c1b650c6126c5">_onConnected</a> = <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#acb47bcf315734f20f8829151a69d185e">onConnected</a>;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00109">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::_onConnected</a>.</p>
+<p class="reference">References <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00111">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::_onConnected</a>.</p>
 
 </div>
 </div>
@@ -721,12 +731,12 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00092">92</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                                                                                    {</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a53dc86d66a8ea03a50093e2c38d2240f">_onDisconnect</a> = <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a0848bd6c8553ffc083dcd558a5c81a1f">onDisconnect</a>;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00094">94</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                                                                                    {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a53dc86d66a8ea03a50093e2c38d2240f">_onDisconnect</a> = <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a0848bd6c8553ffc083dcd558a5c81a1f">onDisconnect</a>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00110">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::_onDisconnect</a>.</p>
+<p class="reference">References <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00112">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::_onDisconnect</a>.</p>
 
 </div>
 </div>
@@ -753,9 +763,9 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00108">108</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00110">110</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00078">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::listen()</a>, and <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00084">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::onConnect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00080">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::listen()</a>, and <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00086">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::onConnect()</a>.</p>
 
 </div>
 </div>
@@ -781,9 +791,9 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00109">109</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00111">111</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00078">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::listen()</a>, and <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00088">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::onConnected()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00080">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::listen()</a>, and <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00090">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::onConnected()</a>.</p>
 
 </div>
 </div>
@@ -809,9 +819,9 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00110">110</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00112">112</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00078">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::listen()</a>, and <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00092">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::onDisconnect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00080">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::listen()</a>, and <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00094">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::onDisconnect()</a>.</p>
 
 </div>
 </div>
@@ -837,9 +847,9 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00112">112</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00114">114</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00078">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::listen()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00080">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::listen()</a>.</p>
 
 </div>
 </div>
@@ -865,9 +875,9 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00105">105</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00107">107</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00100">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::getServerConfig()</a>, and <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00069">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::listen()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00102">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::getServerConfig()</a>, and <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00071">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::listen()</a>.</p>
 
 </div>
 </div>
@@ -893,9 +903,9 @@ template&lt;typename ServerSocketT , typename SocketAcceptorT , typename SocketC
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00106">106</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00108">108</a> of file <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html">SocketServer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00096">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::getSocketContextFactory()</a>, and <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00078">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::listen()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00098">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::getSocketContextFactory()</a>, and <a class="el" href="core_2socket_2stream_2_socket_server_8h_source.html#l00080">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;::listen()</a>.</p>
 
 </div>
 </div>

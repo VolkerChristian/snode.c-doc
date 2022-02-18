@@ -9,10 +9,14 @@ var classweb_1_1websocket_1_1_socket_context_upgrade =
       [ "PING", "classweb_1_1websocket_1_1_socket_context_upgrade.html#afe7f0b682e699a618736ddc20bb13fc2a46231183793793f3ebde75a20606ec5f", null ],
       [ "PONG", "classweb_1_1websocket_1_1_socket_context_upgrade.html#afe7f0b682e699a618736ddc20bb13fc2ae44f91710e53dd426a64284a0b75eb39", null ]
     ] ],
-    [ "SocketContextUpgrade", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a53d6faf25ae99d651480758c94193862", null ],
+    [ "Role", "classweb_1_1websocket_1_1_socket_context_upgrade.html#aa97f7fa1f915b6090b7c7b3dabf8726b", [
+      [ "SERVER", "classweb_1_1websocket_1_1_socket_context_upgrade.html#aa97f7fa1f915b6090b7c7b3dabf8726ba3d27c95bfdbea691b250894d96852844", null ],
+      [ "CLIENT", "classweb_1_1websocket_1_1_socket_context_upgrade.html#aa97f7fa1f915b6090b7c7b3dabf8726baef10c650df47bffd6399e5e78da2a9b1", null ]
+    ] ],
+    [ "SocketContextUpgrade", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a426a0fdc5b40b16b2b71db16d55da8ac", null ],
     [ "SocketContextUpgrade", "classweb_1_1websocket_1_1_socket_context_upgrade.html#aa630fad44c5a7187a230ef617ec35725", null ],
     [ "SocketContextUpgrade", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a38dfdce9ae721f940f473b9789b84b66", null ],
-    [ "~SocketContextUpgrade", "classweb_1_1websocket_1_1_socket_context_upgrade.html#abfa155107d7d17d8fe9e893d75d3b89b", null ],
+    [ "~SocketContextUpgrade", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a2b7ead4ce5fe5c6dcfdedea86ea6d921", null ],
     [ "onConnected", "classweb_1_1websocket_1_1_socket_context_upgrade.html#aee68fb95bda86aa0f770497e7c640178", null ],
     [ "onDisconnected", "classweb_1_1websocket_1_1_socket_context_upgrade.html#a013d4dead9b8f188f5c3a641fbc64ba6", null ],
     [ "onMessageData", "classweb_1_1websocket_1_1_socket_context_upgrade.html#ad0b0a801483bfc911e9be10dd334a7f6", null ],

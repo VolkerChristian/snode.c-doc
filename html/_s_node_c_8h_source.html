@@ -106,38 +106,40 @@ $(document).ready(function(){initNavTree('_s_node_c_8h_source.html',''); initRes
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#ifndef CORE_SNODEC_H</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#define CORE_SNODEC_H</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_tick_status_8h.html">core/TickStatus.h</a>&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_tick_status_8h.html">TickStatus.h</a>&quot;</span> <span class="comment">// IWYU pragma: export</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">// IWYU pragma: no_include &quot;core/TickStatus.h&quot;</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_timeval_8h.html">utils/Timeval.h</a>&quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &lt;climits&gt;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_timeval_8h.html">utils/Timeval.h</a>&quot;</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &lt;climits&gt;</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecore.html">core</a> {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classcore_1_1_s_node_c.html">   34</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classcore_1_1_s_node_c.html">SNodeC</a> {</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classcore_1_1_s_node_c.html#a7917a6ce85b3d3fb83a317bfb8f705bb">   35</a></span>&#160;        <a class="code" href="classcore_1_1_s_node_c.html#a7917a6ce85b3d3fb83a317bfb8f705bb">SNodeC</a>() = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classcore_1_1_s_node_c.html#a503e2d667787f5d9950d0f5999097812">   36</a></span>&#160;        <a class="code" href="classcore_1_1_s_node_c.html#a503e2d667787f5d9950d0f5999097812">~SNodeC</a>() = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classcore_1_1_s_node_c.html#a58d5942276e694a0a30039998fa1dcc4">   39</a></span>&#160;        <span class="keywordtype">void</span>* <span class="keyword">operator</span> <span class="keyword">new</span>(std::size_t count) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classcore_1_1_s_node_c.html#a2c8b01c5fc6ecc3036cb48a76f76f3b5">init</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[]);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classcore_1_1_s_node_c.html#ac3d0dcb6c216ae72d9bbb77fe080e461">start</a>(<span class="keyword">const</span> <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a>&amp; timeOut = {LONG_MAX, 0});</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keyword">static</span> <a class="code" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749">TickStatus</a> <a class="code" href="classcore_1_1_s_node_c.html#a57b40bb139f23e6a9fc2704d2415e636">tick</a>(<span class="keyword">const</span> <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a>&amp; timeOut = 0);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classcore_1_1_s_node_c.html#a723f1f8e484db32164adeca1fbf98e28">free</a>();</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    };</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;} <span class="comment">// namespace core</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecore.html">core</a> {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classcore_1_1_s_node_c.html">   36</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classcore_1_1_s_node_c.html">SNodeC</a> {</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classcore_1_1_s_node_c.html#a7917a6ce85b3d3fb83a317bfb8f705bb">   37</a></span>&#160;        <a class="code" href="classcore_1_1_s_node_c.html#a7917a6ce85b3d3fb83a317bfb8f705bb">SNodeC</a>() = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classcore_1_1_s_node_c.html#a503e2d667787f5d9950d0f5999097812">   38</a></span>&#160;        <a class="code" href="classcore_1_1_s_node_c.html#a503e2d667787f5d9950d0f5999097812">~SNodeC</a>() = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classcore_1_1_s_node_c.html#a58d5942276e694a0a30039998fa1dcc4">   41</a></span>&#160;        <span class="keywordtype">void</span>* <span class="keyword">operator</span> <span class="keyword">new</span>(std::size_t count) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classcore_1_1_s_node_c.html#a2c8b01c5fc6ecc3036cb48a76f76f3b5">init</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[]);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classcore_1_1_s_node_c.html#ac3d0dcb6c216ae72d9bbb77fe080e461">start</a>(<span class="keyword">const</span> <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a>&amp; timeOut = {LONG_MAX, 0});</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keyword">static</span> <a class="code" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749">TickStatus</a> <a class="code" href="classcore_1_1_s_node_c.html#a57b40bb139f23e6a9fc2704d2415e636">tick</a>(<span class="keyword">const</span> <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a>&amp; timeOut = 0);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classcore_1_1_s_node_c.html#a723f1f8e484db32164adeca1fbf98e28">free</a>();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    };</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// CORE_SNODEC_H</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;} <span class="comment">// namespace core</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// CORE_SNODEC_H</span></div>
 <div class="ttc" id="a_tick_status_8h_html"><div class="ttname"><a href="_tick_status_8h.html">TickStatus.h</a></div></div>
 <div class="ttc" id="a_timeval_8h_html"><div class="ttname"><a href="_timeval_8h.html">Timeval.h</a></div></div>
-<div class="ttc" id="aclasscore_1_1_s_node_c_html"><div class="ttname"><a href="classcore_1_1_s_node_c.html">core::SNodeC</a></div><div class="ttdef"><b>Definition:</b> <a href="_s_node_c_8h_source.html#l00034">SNodeC.h:34</a></div></div>
+<div class="ttc" id="aclasscore_1_1_s_node_c_html"><div class="ttname"><a href="classcore_1_1_s_node_c.html">core::SNodeC</a></div><div class="ttdef"><b>Definition:</b> <a href="_s_node_c_8h_source.html#l00036">SNodeC.h:36</a></div></div>
 <div class="ttc" id="aclasscore_1_1_s_node_c_html_a2c8b01c5fc6ecc3036cb48a76f76f3b5"><div class="ttname"><a href="classcore_1_1_s_node_c.html#a2c8b01c5fc6ecc3036cb48a76f76f3b5">core::SNodeC::init</a></div><div class="ttdeci">static void init(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> <a href="_s_node_c_8cpp_source.html#l00029">SNodeC.cpp:29</a></div></div>
 <div class="ttc" id="aclasscore_1_1_s_node_c_html_a503e2d667787f5d9950d0f5999097812"><div class="ttname"><a href="classcore_1_1_s_node_c.html#a503e2d667787f5d9950d0f5999097812">core::SNodeC::~SNodeC</a></div><div class="ttdeci">~SNodeC()=delete</div></div>
 <div class="ttc" id="aclasscore_1_1_s_node_c_html_a57b40bb139f23e6a9fc2704d2415e636"><div class="ttname"><a href="classcore_1_1_s_node_c.html#a57b40bb139f23e6a9fc2704d2415e636">core::SNodeC::tick</a></div><div class="ttdeci">static TickStatus tick(const utils::Timeval &amp;timeOut=0)</div><div class="ttdef"><b>Definition:</b> <a href="_s_node_c_8cpp_source.html#l00037">SNodeC.cpp:37</a></div></div>
@@ -145,7 +147,7 @@ $(document).ready(function(){initNavTree('_s_node_c_8h_source.html',''); initRes
 <div class="ttc" id="aclasscore_1_1_s_node_c_html_a7917a6ce85b3d3fb83a317bfb8f705bb"><div class="ttname"><a href="classcore_1_1_s_node_c.html#a7917a6ce85b3d3fb83a317bfb8f705bb">core::SNodeC::SNodeC</a></div><div class="ttdeci">SNodeC()=delete</div></div>
 <div class="ttc" id="aclasscore_1_1_s_node_c_html_ac3d0dcb6c216ae72d9bbb77fe080e461"><div class="ttname"><a href="classcore_1_1_s_node_c.html#ac3d0dcb6c216ae72d9bbb77fe080e461">core::SNodeC::start</a></div><div class="ttdeci">static int start(const utils::Timeval &amp;timeOut={LONG_MAX, 0})</div><div class="ttdef"><b>Definition:</b> <a href="_s_node_c_8cpp_source.html#l00033">SNodeC.cpp:33</a></div></div>
 <div class="ttc" id="aclassutils_1_1_timeval_html"><div class="ttname"><a href="classutils_1_1_timeval.html">utils::Timeval</a></div><div class="ttdef"><b>Definition:</b> <a href="_timeval_8h_source.html#l00034">Timeval.h:34</a></div></div>
-<div class="ttc" id="anamespacecore_html"><div class="ttname"><a href="namespacecore.html">core</a></div><div class="ttdef"><b>Definition:</b> <a href="_accept_event_receiver_8cpp_source.html#l00028">AcceptEventReceiver.cpp:28</a></div></div>
+<div class="ttc" id="anamespacecore_html"><div class="ttname"><a href="namespacecore.html">core</a></div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_8cpp_source.html#l00027">Descriptor.cpp:27</a></div></div>
 <div class="ttc" id="anamespacecore_html_a47acf5c7d3fb3967a2547c74082e9749"><div class="ttname"><a href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749">core::TickStatus</a></div><div class="ttdeci">TickStatus</div><div class="ttdef"><b>Definition:</b> <a href="_tick_status_8h_source.html#l00028">TickStatus.h:28</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

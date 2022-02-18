@@ -1,6 +1,5 @@
 var classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server =
 [
-    [ "Socket", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#ac99363703946e1154996f182ffc6cb01", null ],
     [ "SocketAddress", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#ab7a49e632fcc15365ec066ca4c32c3ae", null ],
     [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#ae5702b0d7ae07962d187797524a9807b", null ],
     [ "Super", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a11384390dac0b446ab63463464aecb90", null ],

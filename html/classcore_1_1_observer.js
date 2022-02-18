@@ -1,5 +1,6 @@
 var classcore_1_1_observer =
 [
+    [ "~Observer", "classcore_1_1_observer.html#a960c012722b620c5102a778c868958ba", null ],
     [ "getObservationCounter", "classcore_1_1_observer.html#a942a6bb4857e6ec986d0a366b2aaea26", null ],
     [ "isObserved", "classcore_1_1_observer.html#a12bf1ddfdb90f05f28d16c09ce0658f8", null ],
     [ "observed", "classcore_1_1_observer.html#aeff595f74f25efea85406cf700e13550", null ],

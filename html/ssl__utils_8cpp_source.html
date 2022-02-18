@@ -200,7 +200,7 @@ $(document).ready(function(){initNavTree('ssl__utils_8cpp_source.html',''); init
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <span class="keywordtype">bool</span> sslErr = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <span class="keywordflow">if</span> (server) {</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                SSL_CTX_set_session_id_context(ctx, (<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>*) &amp;sslSessionCtxId, <span class="keyword">sizeof</span>(sslSessionCtxId));</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                SSL_CTX_set_session_id_context(ctx, <span class="keyword">reinterpret_cast&lt;</span><span class="keyword">const </span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>*<span class="keyword">&gt;</span>(&amp;sslSessionCtxId), <span class="keyword">sizeof</span>(sslSessionCtxId));</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                sslSessionCtxId++;</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            }</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            <span class="keywordflow">if</span> (!caFile.empty() || !caDir.empty()) {</div>
@@ -283,7 +283,7 @@ $(document).ready(function(){initNavTree('ssl__utils_8cpp_source.html',''); init
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                <a class="code" href="namespacecore_1_1socket_1_1stream_1_1tls.html#a3a133b1b35c394931d65dfe02977c810">ssl_log_warning</a>(message);</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        };</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        }</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        errno = errnum;</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    }</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160; </div>

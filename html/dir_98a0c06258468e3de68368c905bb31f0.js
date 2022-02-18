@@ -1,11 +1,6 @@
 var dir_98a0c06258468e3de68368c905bb31f0 =
 [
-    [ "ClientConfig.h", "rf_2stream_2legacy_2_client_config_8h.html", [
-      [ "ClientConfig", "classnet_1_1rf_1_1stream_1_1legacy_1_1_client_config.html", "classnet_1_1rf_1_1stream_1_1legacy_1_1_client_config" ]
-    ] ],
-    [ "ServerConfig.h", "rf_2stream_2legacy_2_server_config_8h.html", [
-      [ "ServerConfig", "classnet_1_1rf_1_1stream_1_1legacy_1_1_server_config.html", "classnet_1_1rf_1_1stream_1_1legacy_1_1_server_config" ]
-    ] ],
+    [ "config", "dir_235976094d5d7c5a014574831e4ba7ba.html", "dir_235976094d5d7c5a014574831e4ba7ba" ],
     [ "SocketClient.h", "net_2rf_2stream_2legacy_2_socket_client_8h.html", "net_2rf_2stream_2legacy_2_socket_client_8h" ],
     [ "SocketServer.h", "net_2rf_2stream_2legacy_2_socket_server_8h.html", "net_2rf_2stream_2legacy_2_socket_server_8h" ]
 ];

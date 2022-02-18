@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('classexpress_1_1_web_app_t.html',''); 
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
 <a href="classexpress_1_1_web_app_t-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">express::WebAppT&lt; ServerT &gt; Class Template Reference</div>  </div>
@@ -106,16 +107,10 @@ Collaboration diagram for express::WebAppT&lt; ServerT &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aaee690e0bb45eca830326a5bc6091362"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app_t.html#aaee690e0bb45eca830326a5bc6091362">Server</a> = ServerT</td></tr>
-<tr class="separator:aaee690e0bb45eca830326a5bc6091362"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6d27cea97ba0493c2f66cb99404a5a4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app_t.html#af6d27cea97ba0493c2f66cb99404a5a4">SocketServer</a> = typename Server::SocketServer</td></tr>
-<tr class="separator:af6d27cea97ba0493c2f66cb99404a5a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cd9d21f6db40a34af80fd2066462504"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">SocketConnection</a> = typename SocketServer::SocketConnection</td></tr>
-<tr class="separator:a4cd9d21f6db40a34af80fd2066462504"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae88d0f48c5c42297645b938b27e0a441"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app_t.html#ae88d0f48c5c42297645b938b27e0a441">Socket</a> = typename SocketConnection::Socket</td></tr>
-<tr class="separator:ae88d0f48c5c42297645b938b27e0a441"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9ad5ffb7b74403eb360209b226e478f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">SocketAddress</a> = typename Socket::SocketAddress</td></tr>
-<tr class="separator:ae9ad5ffb7b74403eb360209b226e478f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac2a3855a73cbf3547da8e1268605f02"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app_t.html#aac2a3855a73cbf3547da8e1268605f02">SocketConnection</a> = typename Server::SocketConnection</td></tr>
+<tr class="separator:aac2a3855a73cbf3547da8e1268605f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6c8401e279b2a243f2fb0e498ef319e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app_t.html#ae6c8401e279b2a243f2fb0e498ef319e">SocketAddress</a> = typename Server::SocketAddress</td></tr>
+<tr class="separator:ae6c8401e279b2a243f2fb0e498ef319e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -263,6 +258,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac7ab83e8e8c6eb1dd74d23e1a6e8540f inherit pub_methods_classexpress_1_1_router"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classexpress_1_1_router.html">Router</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_router.html#ac7ab83e8e8c6eb1dd74d23e1a6e8540f">head</a> (const std::function&lt; void(<a class="el" href="classexpress_1_1_request.html">Request</a> &amp;req, <a class="el" href="classexpress_1_1_response.html">Response</a> &amp;res, <a class="el" href="classexpress_1_1_state.html">State</a> &amp;state)&gt; &amp;lambda)</td></tr>
 <tr class="separator:ac7ab83e8e8c6eb1dd74d23e1a6e8540f inherit pub_methods_classexpress_1_1_router"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:aaee690e0bb45eca830326a5bc6091362"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_web_app_t.html#aaee690e0bb45eca830326a5bc6091362">Server</a> = ServerT</td></tr>
+<tr class="separator:aaee690e0bb45eca830326a5bc6091362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_methods_classexpress_1_1_web_app"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classexpress_1_1_web_app')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classexpress_1_1_web_app.html">express::WebApp</a></td></tr>
@@ -295,19 +295,27 @@ class express::WebAppT&lt; ServerT &gt;</h3>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename ServerT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classexpress_1_1_web_app_t.html">express::WebAppT</a>&lt; ServerT &gt;::<a class="el" href="classexpress_1_1_web_app_t.html#aaee690e0bb45eca830326a5bc6091362">Server</a> =  ServerT</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00044">44</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
 
 </div>
 </div>
-<a id="ae88d0f48c5c42297645b938b27e0a441"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae88d0f48c5c42297645b938b27e0a441">&#9670;&nbsp;</a></span>Socket</h2>
+<a id="ae6c8401e279b2a243f2fb0e498ef319e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6c8401e279b2a243f2fb0e498ef319e">&#9670;&nbsp;</a></span>SocketAddress</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -315,25 +323,7 @@ template&lt;typename ServerT &gt; </div>
 template&lt;typename ServerT &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classexpress_1_1_web_app_t.html">express::WebAppT</a>&lt; ServerT &gt;::<a class="el" href="classexpress_1_1_web_app_t.html#ae88d0f48c5c42297645b938b27e0a441">Socket</a> =  typename SocketConnection::Socket</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00047">47</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
-
-</div>
-</div>
-<a id="ae9ad5ffb7b74403eb360209b226e478f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9ad5ffb7b74403eb360209b226e478f">&#9670;&nbsp;</a></span>SocketAddress</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ServerT &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classexpress_1_1_web_app_t.html">express::WebAppT</a>&lt; ServerT &gt;::<a class="el" href="classexpress_1_1_web_app_t.html#ae9ad5ffb7b74403eb360209b226e478f">SocketAddress</a> =  typename Socket::SocketAddress</td>
+          <td class="memname">using <a class="el" href="classexpress_1_1_web_app_t.html">express::WebAppT</a>&lt; ServerT &gt;::<a class="el" href="classexpress_1_1_web_app_t.html#ae6c8401e279b2a243f2fb0e498ef319e">SocketAddress</a> =  typename Server::SocketAddress</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -342,8 +332,8 @@ template&lt;typename ServerT &gt; </div>
 
 </div>
 </div>
-<a id="a4cd9d21f6db40a34af80fd2066462504"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cd9d21f6db40a34af80fd2066462504">&#9670;&nbsp;</a></span>SocketConnection</h2>
+<a id="aac2a3855a73cbf3547da8e1268605f02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac2a3855a73cbf3547da8e1268605f02">&#9670;&nbsp;</a></span>SocketConnection</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -351,30 +341,12 @@ template&lt;typename ServerT &gt; </div>
 template&lt;typename ServerT &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classexpress_1_1_web_app_t.html">express::WebAppT</a>&lt; ServerT &gt;::<a class="el" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">SocketConnection</a> =  typename SocketServer::SocketConnection</td>
+          <td class="memname">using <a class="el" href="classexpress_1_1_web_app_t.html">express::WebAppT</a>&lt; ServerT &gt;::<a class="el" href="classexpress_1_1_web_app_t.html#aac2a3855a73cbf3547da8e1268605f02">SocketConnection</a> =  typename Server::SocketConnection</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00046">46</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
-
-</div>
-</div>
-<a id="af6d27cea97ba0493c2f66cb99404a5a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6d27cea97ba0493c2f66cb99404a5a4">&#9670;&nbsp;</a></span>SocketServer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ServerT &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classexpress_1_1_web_app_t.html">express::WebAppT</a>&lt; ServerT &gt;::<a class="el" href="classexpress_1_1_web_app_t.html#af6d27cea97ba0493c2f66cb99404a5a4">SocketServer</a> =  typename Server::SocketServer</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00045">45</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_web_app_t_8h_source.html#l00047">47</a> of file <a class="el" href="_web_app_t_8h_source.html">WebAppT.h</a>.</p>
 
 </div>
 </div>
@@ -472,7 +444,7 @@ template&lt;typename ServerT &gt; </div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            : <a class="code" href="classexpress_1_1_web_app.html#ab9ca336adfe5dc11fbd121cb9165b472">WebApp</a>(router)</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            , <a class="code" href="classexpress_1_1_web_app_t.html#aaee690e0bb45eca830326a5bc6091362">Server</a>(</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                  name,</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                  [](<a class="code" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">SocketConnection</a>* socketConnection) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onConnect</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                  [](<a class="code" href="classexpress_1_1_web_app_t.html#aac2a3855a73cbf3547da8e1268605f02">SocketConnection</a>* socketConnection) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onConnect</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnConnect:&quot;</span>;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tServer: (&quot;</span> + socketConnection-&gt;getLocalAddress().address() + <span class="stringliteral">&quot;) &quot;</span> +</div>
@@ -480,7 +452,7 @@ template&lt;typename ServerT &gt; </div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tClient: (&quot;</span> + socketConnection-&gt;getRemoteAddress().address() + <span class="stringliteral">&quot;) &quot;</span> +</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                     socketConnection-&gt;getRemoteAddress().toString();</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                  },</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                  [](<a class="code" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">SocketConnection</a>* socketConnection) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onConnected</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                  [](<a class="code" href="classexpress_1_1_web_app_t.html#aac2a3855a73cbf3547da8e1268605f02">SocketConnection</a>* socketConnection) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onConnected</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnConnected:&quot;</span>;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tServer: (&quot;</span> + socketConnection-&gt;getLocalAddress().address() + <span class="stringliteral">&quot;) &quot;</span> +</div>
@@ -493,7 +465,7 @@ template&lt;typename ServerT &gt; </div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                      req.extend();</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                      <a class="code" href="classexpress_1_1_router.html#aa3c8a0794fc3e3882654f4a81bed6cb2">routerDispatcher</a>-&gt;dispatch(req, res);</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                  },</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                  [](<a class="code" href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">SocketConnection</a>* socketConnection) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onDisconnect</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                  [](<a class="code" href="classexpress_1_1_web_app_t.html#aac2a3855a73cbf3547da8e1268605f02">SocketConnection</a>* socketConnection) -&gt; <span class="keywordtype">void</span> { <span class="comment">// onDisconnect</span></div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;OnDisconnect:&quot;</span>;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                      VLOG(0) &lt;&lt; <span class="stringliteral">&quot;\tServer: (&quot;</span> + socketConnection-&gt;getLocalAddress().address() + <span class="stringliteral">&quot;) &quot;</span> +</div>
@@ -507,7 +479,7 @@ template&lt;typename ServerT &gt; </div>
 <div class="ttc" id="aclassexpress_1_1_response_html"><div class="ttname"><a href="classexpress_1_1_response.html">express::Response</a></div><div class="ttdef"><b>Definition:</b> <a href="express_2_response_8h_source.html#l00037">Response.h:37</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_router_html_aa3c8a0794fc3e3882654f4a81bed6cb2"><div class="ttname"><a href="classexpress_1_1_router.html#aa3c8a0794fc3e3882654f4a81bed6cb2">express::Router::routerDispatcher</a></div><div class="ttdeci">std::shared_ptr&lt; RouterDispatcher &gt; routerDispatcher</div><div class="ttdef"><b>Definition:</b> <a href="_router_8h_source.html#l00140">Router.h:140</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_web_app_html_ab9ca336adfe5dc11fbd121cb9165b472"><div class="ttname"><a href="classexpress_1_1_web_app.html#ab9ca336adfe5dc11fbd121cb9165b472">express::WebApp::WebApp</a></div><div class="ttdeci">WebApp(const Router &amp;router)</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_8cpp_source.html#l00031">WebApp.cpp:31</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_web_app_t_html_a4cd9d21f6db40a34af80fd2066462504"><div class="ttname"><a href="classexpress_1_1_web_app_t.html#a4cd9d21f6db40a34af80fd2066462504">express::WebAppT::SocketConnection</a></div><div class="ttdeci">typename SocketServer::SocketConnection SocketConnection</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_t_8h_source.html#l00046">WebAppT.h:46</a></div></div>
+<div class="ttc" id="aclassexpress_1_1_web_app_t_html_aac2a3855a73cbf3547da8e1268605f02"><div class="ttname"><a href="classexpress_1_1_web_app_t.html#aac2a3855a73cbf3547da8e1268605f02">express::WebAppT::SocketConnection</a></div><div class="ttdeci">typename Server::SocketConnection SocketConnection</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_t_8h_source.html#l00047">WebAppT.h:47</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_web_app_t_html_aaee690e0bb45eca830326a5bc6091362"><div class="ttname"><a href="classexpress_1_1_web_app_t.html#aaee690e0bb45eca830326a5bc6091362">express::WebAppT::Server</a></div><div class="ttdeci">ServerT Server</div><div class="ttdef"><b>Definition:</b> <a href="_web_app_t_8h_source.html#l00044">WebAppT.h:44</a></div></div>
 </div><!-- fragment -->
 </div>

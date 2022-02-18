@@ -2,6 +2,7 @@ var classweb_1_1websocket_1_1_transmitter =
 [
     [ "Transmitter", "classweb_1_1websocket_1_1_transmitter.html#afdb3f4f58ab8165ad60ddd567543902a", null ],
     [ "Transmitter", "classweb_1_1websocket_1_1_transmitter.html#ad7f46f0118686ea85058eb3e4f143364", null ],
+    [ "~Transmitter", "classweb_1_1websocket_1_1_transmitter.html#a64cf00563170922d05a2ab3a78eb2501", null ],
     [ "Transmitter", "classweb_1_1websocket_1_1_transmitter.html#a4820c0f2d4fbae086d20ce088478d982", null ],
     [ "dumpFrame", "classweb_1_1websocket_1_1_transmitter.html#af9c93a3596f8875ee4e5230dd00b0141", null ],
     [ "operator=", "classweb_1_1websocket_1_1_transmitter.html#ab7d02db81643f44bb67c9b2c4dc0d92a", null ],

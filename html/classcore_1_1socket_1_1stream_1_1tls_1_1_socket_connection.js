@@ -2,8 +2,8 @@ var classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection =
 [
     [ "Socket", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#abb809bbfd5be4ebfcd87c2307889c0db", null ],
     [ "SocketAddress", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a0fc27c1cbbdca4380b7137c15dcafabf", null ],
-    [ "SocketReader", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a0b1022f0ad6d2e0499520b4fb9f3da87", null ],
-    [ "SocketWriter", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a6a7fe32ce49570811a0b36a45d34ec4c", null ],
+    [ "SocketReader", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a0d7e9cdcdf71b2355e63344796873d3f", null ],
+    [ "SocketWriter", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a823b53bea06e02abddb41e38f9b972c1", null ],
     [ "Super", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a3891a834a44ee25a28e96ce88ded9485", null ],
     [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#ae7fa6af006c7b65ff7c45ca3f96274a7", null ],
     [ "~SocketConnection", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a716fead0ecb9930bd1a53cb74ce0b7e5", null ],

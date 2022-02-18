@@ -147,10 +147,12 @@ Static Private Attributes</h2></td></tr>
 Friends</h2></td></tr>
 <tr class="memitem:aca25e36665670fcb6909dd8ab04b1d05"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_dynamic_loader.html#aca25e36665670fcb6909dd8ab04b1d05">EventLoop</a></td></tr>
 <tr class="separator:aca25e36665670fcb6909dd8ab04b1d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a223d62cb28785eb6f6dd34e25f0d61ed"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_dynamic_loader.html#a223d62cb28785eb6f6dd34e25f0d61ed">EventMultiplexer</a></td></tr>
+<tr class="separator:a223d62cb28785eb6f6dd34e25f0d61ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_dynamic_loader_8h_source.html#l00036">36</a> of file <a class="el" href="_dynamic_loader_8h_source.html">DynamicLoader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_dynamic_loader_8h_source.html#l00034">34</a> of file <a class="el" href="_dynamic_loader_8h_source.html">DynamicLoader.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a45a8660b348ff01e3e83ffcc02df9092"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a45a8660b348ff01e3e83ffcc02df9092">&#9670;&nbsp;</a></span>DynamicLoader()</h2>
@@ -245,13 +247,13 @@ Friends</h2></td></tr>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1_dynamic_loader_html_a686abfc426926c79f8801c98555c7a4b"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#a686abfc426926c79f8801c98555c7a4b">core::DynamicLoader::dlOpenedLibraries</a></div><div class="ttdeci">static std::map&lt; void *, Library &gt; dlOpenedLibraries</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8h_source.html#l00061">DynamicLoader.h:61</a></div></div>
-<div class="ttc" id="aclasscore_1_1_dynamic_loader_html_a90cba68c54ff0c6029b3b263d6c43aa9"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#a90cba68c54ff0c6029b3b263d6c43aa9">core::DynamicLoader::registeredForDlClose</a></div><div class="ttdeci">static std::map&lt; void *, std::size_t &gt; registeredForDlClose</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8h_source.html#l00062">DynamicLoader.h:62</a></div></div>
+<div class="ttc" id="aclasscore_1_1_dynamic_loader_html_a686abfc426926c79f8801c98555c7a4b"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#a686abfc426926c79f8801c98555c7a4b">core::DynamicLoader::dlOpenedLibraries</a></div><div class="ttdeci">static std::map&lt; void *, Library &gt; dlOpenedLibraries</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8h_source.html#l00059">DynamicLoader.h:59</a></div></div>
+<div class="ttc" id="aclasscore_1_1_dynamic_loader_html_a90cba68c54ff0c6029b3b263d6c43aa9"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#a90cba68c54ff0c6029b3b263d6c43aa9">core::DynamicLoader::registeredForDlClose</a></div><div class="ttdeci">static std::map&lt; void *, std::size_t &gt; registeredForDlClose</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8h_source.html#l00060">DynamicLoader.h:60</a></div></div>
 <div class="ttc" id="aclasscore_1_1_dynamic_loader_html_afea22388177ead6ebd12f9ef041e6d2b"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#afea22388177ead6ebd12f9ef041e6d2b">core::DynamicLoader::execDlClose</a></div><div class="ttdeci">static int execDlClose(void *handle)</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00089">DynamicLoader.cpp:89</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_dynamic_loader_8h_source.html#l00061">dlOpenedLibraries</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00089">execDlClose()</a>, and <a class="el" href="_dynamic_loader_8h_source.html#l00062">registeredForDlClose</a>.</p>
+<p class="reference">References <a class="el" href="_dynamic_loader_8h_source.html#l00059">dlOpenedLibraries</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00089">execDlClose()</a>, and <a class="el" href="_dynamic_loader_8h_source.html#l00060">registeredForDlClose</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00052">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::load()</a>, and <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00117">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::unload()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00052">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::load()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -261,7 +263,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_dynamic_loader_a42ac52cda1ec4534f1cc9e225dcb31b0_icgraph.svg" width="963" height="374"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_dynamic_loader_a42ac52cda1ec4534f1cc9e225dcb31b0_icgraph.svg" width="688" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -306,13 +308,13 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        }</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_dynamic_loader_8h_source.html#l00061">dlOpenedLibraries</a>, and <a class="el" href="_dynamic_loader_8h_source.html#l00062">registeredForDlClose</a>.</p>
+<p class="reference">References <a class="el" href="_dynamic_loader_8h_source.html#l00059">dlOpenedLibraries</a>, and <a class="el" href="_dynamic_loader_8h_source.html#l00060">registeredForDlClose</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_context_upgrade_factory_selector_8hpp_source.html#l00041">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactory &gt;::add()</a>, and <a class="el" href="_socket_context_upgrade_factory_selector_8hpp_source.html#l00139">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactoryT &gt;::unload()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_context_upgrade_factory_selector_8hpp_source.html#l00139">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactoryT &gt;::unload()</a>, and <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00117">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::unload()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_dynamic_loader_aea517617ba189573803a8c3a4c5e9575_icgraph.svg" width="951" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_dynamic_loader_aea517617ba189573803a8c3a4c5e9575_icgraph.svg" width="971" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -349,7 +351,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="dlfcn_8cpp_source.html#l00039">core::system::dlerror()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_context_upgrade_factory_selector_8hpp_source.html#l00041">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactory &gt;::add()</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00122">execDlCloseAll()</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00108">execDlCloseDeleyed()</a>, and <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00052">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_dynamic_loader_8cpp_source.html#l00122">execDlCloseAll()</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00108">execDlCloseDeleyed()</a>, and <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00052">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::load()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -359,7 +361,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_dynamic_loader_a28d14f3029339351d8bb8b328a6110b0_icgraph.svg" width="1618" height="294"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_dynamic_loader_a28d14f3029339351d8bb8b328a6110b0_icgraph.svg" width="1764" height="235"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -416,9 +418,9 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
 <div class="ttc" id="anamespacecore_1_1system_html_a87ab6f4aac806776e472cc3abeb61447"><div class="ttname"><a href="namespacecore_1_1system.html#a87ab6f4aac806776e472cc3abeb61447">core::system::dlopen</a></div><div class="ttdeci">void * dlopen(const char *filename, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="dlfcn_8cpp_source.html#l00027">dlfcn.cpp:27</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="dlfcn_8cpp_source.html#l00027">core::system::dlopen()</a>, and <a class="el" href="_dynamic_loader_8h_source.html#l00061">dlOpenedLibraries</a>.</p>
+<p class="reference">References <a class="el" href="dlfcn_8cpp_source.html#l00027">core::system::dlopen()</a>, and <a class="el" href="_dynamic_loader_8h_source.html#l00059">dlOpenedLibraries</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_context_upgrade_factory_selector_8hpp_source.html#l00041">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactory &gt;::add()</a>, and <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00052">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00052">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::load()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -428,7 +430,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_dynamic_loader_a608355c38f00831c64e122ae1722db2d_icgraph.svg" width="759" height="134"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_dynamic_loader_a608355c38f00831c64e122ae1722db2d_icgraph.svg" width="688" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -476,7 +478,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="dlfcn_8cpp_source.html#l00035">core::system::dlsym()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_context_upgrade_factory_selector_8hpp_source.html#l00041">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactory &gt;::add()</a>, and <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00052">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00052">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::load()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -486,7 +488,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_dynamic_loader_a708b7adb431acbc8976968c59692625e_icgraph.svg" width="759" height="134"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_dynamic_loader_a708b7adb431acbc8976968c59692625e_icgraph.svg" width="688" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -537,7 +539,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
 <div class="ttc" id="anamespacecore_1_1system_html_a4317d54914cd18248143183ea71252d3"><div class="ttname"><a href="namespacecore_1_1system.html#a4317d54914cd18248143183ea71252d3">core::system::dlclose</a></div><div class="ttdeci">int dlclose(void *handle)</div><div class="ttdef"><b>Definition:</b> <a href="dlfcn_8cpp_source.html#l00031">dlfcn.cpp:31</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="dlfcn_8cpp_source.html#l00031">core::system::dlclose()</a>, and <a class="el" href="_dynamic_loader_8h_source.html#l00061">dlOpenedLibraries</a>.</p>
+<p class="reference">References <a class="el" href="dlfcn_8cpp_source.html#l00031">core::system::dlclose()</a>, and <a class="el" href="_dynamic_loader_8h_source.html#l00059">dlOpenedLibraries</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_dynamic_loader_8cpp_source.html#l00063">dlClose()</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00122">execDlCloseAll()</a>, and <a class="el" href="_dynamic_loader_8cpp_source.html#l00108">execDlCloseDeleyed()</a>.</p>
 <div class="dynheader">
@@ -549,7 +551,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_dynamic_loader_afea22388177ead6ebd12f9ef041e6d2b_icgraph.svg" width="1615" height="526"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_dynamic_loader_afea22388177ead6ebd12f9ef041e6d2b_icgraph.svg" width="1760" height="286"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -592,7 +594,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                <span class="keywordtype">int</span> ret = <a class="code" href="classcore_1_1_dynamic_loader.html#afea22388177ead6ebd12f9ef041e6d2b">execDlClose</a>(tmpIt-&gt;first);</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160; </div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                <span class="keywordflow">if</span> (ret != 0) {</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                    VLOG(0) &lt;&lt; <span class="stringliteral">&quot;Error execDlCloseAll: &quot;</span> &lt;&lt; <a class="code" href="classcore_1_1_dynamic_loader.html#a28d14f3029339351d8bb8b328a6110b0">core::DynamicLoader::dlError</a>();</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                    VLOG(0) &lt;&lt; <span class="stringliteral">&quot;Error execDlCloseAll: &quot;</span> &lt;&lt; <a class="code" href="classcore_1_1_dynamic_loader.html#a28d14f3029339351d8bb8b328a6110b0">DynamicLoader::dlError</a>();</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                }</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            } <span class="keywordflow">while</span> (it-&gt;second.refCount &gt; 0);</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        }</div>
@@ -600,9 +602,9 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="aclasscore_1_1_dynamic_loader_html_a28d14f3029339351d8bb8b328a6110b0"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#a28d14f3029339351d8bb8b328a6110b0">core::DynamicLoader::dlError</a></div><div class="ttdeci">static char * dlError()</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00085">DynamicLoader.cpp:85</a></div></div>
 <div class="ttc" id="aclasscore_1_1_dynamic_loader_html_a8c4d850882c7177f93a543b96eb450a0"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#a8c4d850882c7177f93a543b96eb450a0">core::DynamicLoader::execDlCloseDeleyed</a></div><div class="ttdeci">static void execDlCloseDeleyed()</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00108">DynamicLoader.cpp:108</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_dynamic_loader_8cpp_source.html#l00085">dlError()</a>, <a class="el" href="_dynamic_loader_8h_source.html#l00061">dlOpenedLibraries</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00089">execDlClose()</a>, and <a class="el" href="_dynamic_loader_8cpp_source.html#l00108">execDlCloseDeleyed()</a>.</p>
+<p class="reference">References <a class="el" href="_dynamic_loader_8cpp_source.html#l00085">dlError()</a>, <a class="el" href="_dynamic_loader_8h_source.html#l00059">dlOpenedLibraries</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00089">execDlClose()</a>, and <a class="el" href="_dynamic_loader_8cpp_source.html#l00108">execDlCloseDeleyed()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_loop_8cpp_source.html#l00172">core::EventLoop::free()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_loop_8cpp_source.html#l00165">core::EventLoop::free()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -648,7 +650,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                <span class="keywordtype">int</span> ret = <a class="code" href="classcore_1_1_dynamic_loader.html#afea22388177ead6ebd12f9ef041e6d2b">execDlClose</a>(handle);</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                <span class="keywordflow">if</span> (ret != 0) {</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                    VLOG(0) &lt;&lt; <span class="stringliteral">&quot;Error execDeleyedDlClose: &quot;</span> &lt;&lt; <a class="code" href="classcore_1_1_dynamic_loader.html#a28d14f3029339351d8bb8b328a6110b0">core::DynamicLoader::dlError</a>();</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                    VLOG(0) &lt;&lt; <span class="stringliteral">&quot;Error execDeleyedDlClose: &quot;</span> &lt;&lt; <a class="code" href="classcore_1_1_dynamic_loader.html#a28d14f3029339351d8bb8b328a6110b0">DynamicLoader::dlError</a>();</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                }</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            } <span class="keywordflow">while</span> (--refCount &gt; 0);</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        }</div>
@@ -656,9 +658,9 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <a class="code" href="classcore_1_1_dynamic_loader.html#a90cba68c54ff0c6029b3b263d6c43aa9">registeredForDlClose</a>.clear();</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_dynamic_loader_8cpp_source.html#l00085">dlError()</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00089">execDlClose()</a>, and <a class="el" href="_dynamic_loader_8h_source.html#l00062">registeredForDlClose</a>.</p>
+<p class="reference">References <a class="el" href="_dynamic_loader_8cpp_source.html#l00085">dlError()</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00089">execDlClose()</a>, and <a class="el" href="_dynamic_loader_8h_source.html#l00060">registeredForDlClose</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_loop_8cpp_source.html#l00090">core::EventLoop::_tick()</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00122">execDlCloseAll()</a>, and <a class="el" href="_event_loop_8cpp_source.html#l00172">core::EventLoop::free()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_dynamic_loader_8cpp_source.html#l00122">execDlCloseAll()</a>, <a class="el" href="_event_loop_8cpp_source.html#l00165">core::EventLoop::free()</a>, and <a class="el" href="_event_multiplexer_8cpp_source.html#l00086">core::EventMultiplexer::tick()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -668,7 +670,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_dynamic_loader_a8c4d850882c7177f93a543b96eb450a0_icgraph.svg" width="1248" height="166"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_dynamic_loader_a8c4d850882c7177f93a543b96eb450a0_icgraph.svg" width="1470" height="220"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -695,7 +697,31 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_dynamic_loader_8h_source.html#l00064">64</a> of file <a class="el" href="_dynamic_loader_8h_source.html">DynamicLoader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_dynamic_loader_8h_source.html#l00062">62</a> of file <a class="el" href="_dynamic_loader_8h_source.html">DynamicLoader.h</a>.</p>
+
+</div>
+</div>
+<a id="a223d62cb28785eb6f6dd34e25f0d61ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a223d62cb28785eb6f6dd34e25f0d61ed">&#9670;&nbsp;</a></span>EventMultiplexer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classcore_1_1_event_multiplexer.html">EventMultiplexer</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_dynamic_loader_8h_source.html#l00063">63</a> of file <a class="el" href="_dynamic_loader_8h_source.html">DynamicLoader.h</a>.</p>
 
 </div>
 </div>
@@ -720,7 +746,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_dynamic_loader_8h_source.html#l00061">61</a> of file <a class="el" href="_dynamic_loader_8h_source.html">DynamicLoader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_dynamic_loader_8h_source.html#l00059">59</a> of file <a class="el" href="_dynamic_loader_8h_source.html">DynamicLoader.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_dynamic_loader_8cpp_source.html#l00063">dlClose()</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00049">dlCloseDelayed()</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00034">dlOpen()</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00089">execDlClose()</a>, and <a class="el" href="_dynamic_loader_8cpp_source.html#l00122">execDlCloseAll()</a>.</p>
 
@@ -746,7 +772,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_dynamic_loader_8h_source.html#l00062">62</a> of file <a class="el" href="_dynamic_loader_8h_source.html">DynamicLoader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_dynamic_loader_8h_source.html#l00060">60</a> of file <a class="el" href="_dynamic_loader_8h_source.html">DynamicLoader.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_dynamic_loader_8cpp_source.html#l00063">dlClose()</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00049">dlCloseDelayed()</a>, and <a class="el" href="_dynamic_loader_8cpp_source.html#l00108">execDlCloseDeleyed()</a>.</p>
 

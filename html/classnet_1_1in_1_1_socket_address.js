@@ -8,5 +8,7 @@ var classnet_1_1in_1_1_socket_address =
     [ "host", "classnet_1_1in_1_1_socket_address.html#a48d236adf6d0df36035667e6b6f96fb3", null ],
     [ "port", "classnet_1_1in_1_1_socket_address.html#a93c7ae7c694a1fda5a62277ac9287624", null ],
     [ "serv", "classnet_1_1in_1_1_socket_address.html#a1e27132fd9098736cd12a3590822cecf", null ],
+    [ "setHost", "classnet_1_1in_1_1_socket_address.html#af23db185a8be6b63f35d17b319cf2757", null ],
+    [ "setPort", "classnet_1_1in_1_1_socket_address.html#afa3c04d7aab9e50f1d6b0b98acd66942", null ],
     [ "toString", "classnet_1_1in_1_1_socket_address.html#accb215df860073e1869c0202fa7f5f7c", null ]
 ];

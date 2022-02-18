@@ -8,6 +8,7 @@ var classcore_1_1socket_1_1stream_1_1_socket_connection =
     [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1_socket_connection.html#af7a796c6907d21aa1778786352a0cc5b", null ],
     [ "~SocketConnection", "classcore_1_1socket_1_1stream_1_1_socket_connection.html#a2e7e536914305deefc1a776d2b9e9a86", null ],
     [ "close", "classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae696d9f63ddd56c11b5342a32f55421c", null ],
+    [ "getDescriptor", "classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae2fe7af090c3a37d329d447bf6b020e5", null ],
     [ "getLocalAddress", "classcore_1_1socket_1_1stream_1_1_socket_connection.html#a826895e6a4fc470d60c71eb3dced1af0", null ],
     [ "getLocalAddressAsString", "classcore_1_1socket_1_1stream_1_1_socket_connection.html#ad4744902c54c4c6d6885740ee4baa595", null ],
     [ "getRemoteAddress", "classcore_1_1socket_1_1stream_1_1_socket_connection.html#a3fe932dffe9466f6cb97c5e523204fc5", null ],

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>snode.c: core/InitAcceptEventReceiver.cpp Source File</title>
+<title>snode.c: core/eventreceiver/InitAcceptEventReceiver.cpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -111,25 +111,32 @@ $(document).ready(function(){initNavTree('_init_accept_event_receiver_8cpp_sourc
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecore.html">core</a> {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecore_1_1eventreceiver.html">core::eventreceiver</a> {</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classcore_1_1_init_accept_event_receiver.html#aab45414446619dd875d1f7ec29c49cde">   29</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcore_1_1_init_accept_event_receiver.html#aab45414446619dd875d1f7ec29c49cde">InitAcceptEventReceiver::dispatch</a>([[maybe_unused]] <span class="keyword">const</span> <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a>&amp; currentTime) {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="classcore_1_1_init_accept_event_receiver.html#a1489797ed17260f9fabfcf0cf5a9d20b">initAcceptEvent</a>();</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classcore_1_1eventreceiver_1_1_init_accept_event_receiver.html#abb43e1ce464cbf896b9fe6b06393b312">   29</a></span>&#160;    <a class="code" href="classcore_1_1eventreceiver_1_1_init_accept_event_receiver.html#abb43e1ce464cbf896b9fe6b06393b312">InitAcceptEventReceiver::InitAcceptEventReceiver</a>(<span class="keyword">const</span> std::string&amp; name)</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        : <a class="code" href="namespacecore.html">core</a>::<a class="code" href="classcore_1_1_event_receiver.html">EventReceiver</a>(<span class="stringliteral">&quot;InitAcceptEventReceiver: &quot;</span> + name) {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;} <span class="comment">// namespace core</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classcore_1_1eventreceiver_1_1_init_accept_event_receiver.html#ab8395ba8343308e7cf42661f0f45b1c1">   33</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcore_1_1eventreceiver_1_1_init_accept_event_receiver.html#ab8395ba8343308e7cf42661f0f45b1c1">InitAcceptEventReceiver::dispatch</a>([[maybe_unused]] <span class="keyword">const</span> <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a>&amp; currentTime) {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="classcore_1_1eventreceiver_1_1_init_accept_event_receiver.html#a2743bad3046c548a369116640e26a26b">initAcceptEvent</a>();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;} <span class="comment">// namespace core::eventreceiver</span></div>
 <div class="ttc" id="a_init_accept_event_receiver_8h_html"><div class="ttname"><a href="_init_accept_event_receiver_8h.html">InitAcceptEventReceiver.h</a></div></div>
 <div class="ttc" id="a_timeval_8h_html"><div class="ttname"><a href="_timeval_8h.html">Timeval.h</a></div></div>
-<div class="ttc" id="aclasscore_1_1_init_accept_event_receiver_html_a1489797ed17260f9fabfcf0cf5a9d20b"><div class="ttname"><a href="classcore_1_1_init_accept_event_receiver.html#a1489797ed17260f9fabfcf0cf5a9d20b">core::InitAcceptEventReceiver::initAcceptEvent</a></div><div class="ttdeci">virtual void initAcceptEvent()=0</div></div>
-<div class="ttc" id="aclasscore_1_1_init_accept_event_receiver_html_aab45414446619dd875d1f7ec29c49cde"><div class="ttname"><a href="classcore_1_1_init_accept_event_receiver.html#aab45414446619dd875d1f7ec29c49cde">core::InitAcceptEventReceiver::dispatch</a></div><div class="ttdeci">void dispatch(const utils::Timeval &amp;currentTime) override</div><div class="ttdef"><b>Definition:</b> <a href="_init_accept_event_receiver_8cpp_source.html#l00029">InitAcceptEventReceiver.cpp:29</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_receiver_html"><div class="ttname"><a href="classcore_1_1_event_receiver.html">core::EventReceiver</a></div><div class="ttdef"><b>Definition:</b> <a href="_event_receiver_8h_source.html#l00036">EventReceiver.h:36</a></div></div>
+<div class="ttc" id="aclasscore_1_1eventreceiver_1_1_init_accept_event_receiver_html_a2743bad3046c548a369116640e26a26b"><div class="ttname"><a href="classcore_1_1eventreceiver_1_1_init_accept_event_receiver.html#a2743bad3046c548a369116640e26a26b">core::eventreceiver::InitAcceptEventReceiver::initAcceptEvent</a></div><div class="ttdeci">virtual void initAcceptEvent()=0</div></div>
+<div class="ttc" id="aclasscore_1_1eventreceiver_1_1_init_accept_event_receiver_html_ab8395ba8343308e7cf42661f0f45b1c1"><div class="ttname"><a href="classcore_1_1eventreceiver_1_1_init_accept_event_receiver.html#ab8395ba8343308e7cf42661f0f45b1c1">core::eventreceiver::InitAcceptEventReceiver::dispatch</a></div><div class="ttdeci">void dispatch(const utils::Timeval &amp;currentTime) override</div><div class="ttdef"><b>Definition:</b> <a href="_init_accept_event_receiver_8cpp_source.html#l00033">InitAcceptEventReceiver.cpp:33</a></div></div>
+<div class="ttc" id="aclasscore_1_1eventreceiver_1_1_init_accept_event_receiver_html_abb43e1ce464cbf896b9fe6b06393b312"><div class="ttname"><a href="classcore_1_1eventreceiver_1_1_init_accept_event_receiver.html#abb43e1ce464cbf896b9fe6b06393b312">core::eventreceiver::InitAcceptEventReceiver::InitAcceptEventReceiver</a></div><div class="ttdeci">InitAcceptEventReceiver(const std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="_init_accept_event_receiver_8cpp_source.html#l00029">InitAcceptEventReceiver.cpp:29</a></div></div>
 <div class="ttc" id="aclassutils_1_1_timeval_html"><div class="ttname"><a href="classutils_1_1_timeval.html">utils::Timeval</a></div><div class="ttdef"><b>Definition:</b> <a href="_timeval_8h_source.html#l00034">Timeval.h:34</a></div></div>
-<div class="ttc" id="anamespacecore_html"><div class="ttname"><a href="namespacecore.html">core</a></div><div class="ttdef"><b>Definition:</b> <a href="_accept_event_receiver_8cpp_source.html#l00028">AcceptEventReceiver.cpp:28</a></div></div>
+<div class="ttc" id="anamespacecore_1_1eventreceiver_html"><div class="ttname"><a href="namespacecore_1_1eventreceiver.html">core::eventreceiver</a></div><div class="ttdef"><b>Definition:</b> <a href="_accept_event_receiver_8cpp_source.html#l00028">AcceptEventReceiver.cpp:28</a></div></div>
+<div class="ttc" id="anamespacecore_html"><div class="ttname"><a href="namespacecore.html">core</a></div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_8cpp_source.html#l00027">Descriptor.cpp:27</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="_init_accept_event_receiver_8cpp.html">InitAcceptEventReceiver.cpp</a></li>
+    <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_83f263c613d4caa68880b24b92ba1a1d.html">eventreceiver</a></li><li class="navelem"><a class="el" href="_init_accept_event_receiver_8cpp.html">InitAcceptEventReceiver.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
