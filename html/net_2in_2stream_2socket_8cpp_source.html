@@ -105,18 +105,26 @@ $(document).ready(function(){initNavTree('net_2in_2stream_2socket_8cpp_source.ht
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="net_2in_2stream_2_socket_8h.html">net/in/stream/Socket.h</a>&quot;</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_socket_8hpp.html">core/socket/Socket.hpp</a>&quot;</span> <span class="comment">// IWYU pragma: keep</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacenet_1_1in_1_1stream.html">net::in::stream</a> {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classnet_1_1in_1_1stream_1_1_socket.html#affbb856f19193ebcbf3131b8cab97661">   27</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classnet_1_1in_1_1stream_1_1_socket.html#affbb856f19193ebcbf3131b8cab97661">Socket::create</a>(<span class="keywordtype">int</span> flags) {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespacecore_1_1system.html#a5ffaddeca7b0ee1c5ee33addd15e02db">core::system::socket</a>(PF_INET, SOCK_STREAM | flags, 0);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;} <span class="comment">// namespace net::in::stream</span></div>
-<div class="ttc" id="aclassnet_1_1in_1_1stream_1_1_socket_html_affbb856f19193ebcbf3131b8cab97661"><div class="ttname"><a href="classnet_1_1in_1_1stream_1_1_socket.html#affbb856f19193ebcbf3131b8cab97661">net::in::stream::Socket::create</a></div><div class="ttdeci">int create(int flags) override</div><div class="ttdef"><b>Definition:</b> <a href="net_2in_2stream_2socket_8cpp_source.html#l00027">Socket.cpp:27</a></div></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacenet_1_1in_1_1stream.html">net::in::stream</a> {</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classnet_1_1in_1_1stream_1_1_socket.html#affbb856f19193ebcbf3131b8cab97661">   29</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classnet_1_1in_1_1stream_1_1_socket.html#affbb856f19193ebcbf3131b8cab97661">Socket::create</a>(<span class="keywordtype">int</span> flags) {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespacecore_1_1system.html#a5ffaddeca7b0ee1c5ee33addd15e02db">core::system::socket</a>(PF_INET, SOCK_STREAM | flags, 0);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;} <span class="comment">// namespace net::in::stream</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecore_1_1socket.html">core::socket</a> {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">template</span> <span class="keyword">class </span>Socket&lt;net::in::SocketAddress&gt;;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
+<div class="ttc" id="a_socket_8hpp_html"><div class="ttname"><a href="_socket_8hpp.html">Socket.hpp</a></div></div>
+<div class="ttc" id="aclassnet_1_1in_1_1stream_1_1_socket_html_affbb856f19193ebcbf3131b8cab97661"><div class="ttname"><a href="classnet_1_1in_1_1stream_1_1_socket.html#affbb856f19193ebcbf3131b8cab97661">net::in::stream::Socket::create</a></div><div class="ttdeci">int create(int flags) override</div><div class="ttdef"><b>Definition:</b> <a href="net_2in_2stream_2socket_8cpp_source.html#l00029">Socket.cpp:29</a></div></div>
+<div class="ttc" id="anamespacecore_1_1socket_html"><div class="ttname"><a href="namespacecore_1_1socket.html">core::socket</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2_socket_8h_source.html#l00032">Socket.h:32</a></div></div>
 <div class="ttc" id="anamespacecore_1_1system_html_a5ffaddeca7b0ee1c5ee33addd15e02db"><div class="ttname"><a href="namespacecore_1_1system.html#a5ffaddeca7b0ee1c5ee33addd15e02db">core::system::socket</a></div><div class="ttdeci">int socket(int domain, int type, int protocol)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00029">socket.cpp:29</a></div></div>
 <div class="ttc" id="anamespacenet_1_1in_1_1stream_html"><div class="ttname"><a href="namespacenet_1_1in_1_1stream.html">net::in::stream</a></div><div class="ttdef"><b>Definition:</b> <a href="in_2stream_2_client_socket_8cpp_source.html#l00025">ClientSocket.cpp:25</a></div></div>
 <div class="ttc" id="anet_2in_2stream_2_socket_8h_html"><div class="ttname"><a href="net_2in_2stream_2_socket_8h.html">Socket.h</a></div></div>

@@ -2,6 +2,7 @@ var classcore_1_1pipe_1_1_pipe_source =
 [
     [ "PipeSource", "classcore_1_1pipe_1_1_pipe_source.html#af4140a78974106220882dcfc4cf1d839", null ],
     [ "PipeSource", "classcore_1_1pipe_1_1_pipe_source.html#a6804eb1f9c27124f36a2bf37454af2c7", null ],
+    [ "~PipeSource", "classcore_1_1pipe_1_1_pipe_source.html#abea2fa6ba7415c44f28a9ec6bc10865b", null ],
     [ "eof", "classcore_1_1pipe_1_1_pipe_source.html#a39b9fdbb94241dfd6865129d6f7eef8b", null ],
     [ "operator=", "classcore_1_1pipe_1_1_pipe_source.html#a8db4ee493a6caf349dcb84b6fd72793f", null ],
     [ "send", "classcore_1_1pipe_1_1_pipe_source.html#afc3c43fb43ed99f9ca7d68e9fba9dc1b", null ],

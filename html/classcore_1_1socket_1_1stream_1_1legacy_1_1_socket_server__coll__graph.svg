@@ -36,7 +36,7 @@
 <text text-anchor="start" x="8" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00">legacy::SocketAcceptor&lt; ServerConfig</text>
 <text text-anchor="middle" x="138.5" y="-338.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, ServerSocketT::Socket &gt;, SocketContextFactoryT &gt;</text>
 <polyline fill="none" stroke="black" points="0,-331.5 277,-331.5 "/>
-<text text-anchor="start" x="8" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00"># serverConfig</text>
+<text text-anchor="start" x="8" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00"># config</text>
 <text text-anchor="start" x="8" y="-308.5" font-family="Helvetica,sans-Serif" font-size="10.00"># socketContextFactory</text>
 <text text-anchor="start" x="8" y="-297.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _onConnect</text>
 <text text-anchor="start" x="8" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _onConnected</text>
@@ -52,7 +52,7 @@
 <text text-anchor="start" x="8" y="-179.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ onConnected()</text>
 <text text-anchor="start" x="8" y="-168.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ onDisconnect()</text>
 <text text-anchor="start" x="8" y="-157.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getSocketContextFactory()</text>
-<text text-anchor="start" x="8" y="-146.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getServerConfig()</text>
+<text text-anchor="start" x="8" y="-146.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getConfig()</text>
 <text text-anchor="start" x="8" y="-135.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketServer()</text>
 </a>
 </g>
@@ -92,7 +92,7 @@
 <text text-anchor="start" x="158.5" y="-707.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, SocketAcceptorT, SocketContext</text>
 <text text-anchor="middle" x="243.5" y="-696.5" font-family="Helvetica,sans-Serif" font-size="10.00">FactoryT &gt;</text>
 <polyline fill="none" stroke="black" points="150.5,-689.5 336.5,-689.5 "/>
-<text text-anchor="start" x="158.5" y="-677.5" font-family="Helvetica,sans-Serif" font-size="10.00"># serverConfig</text>
+<text text-anchor="start" x="158.5" y="-677.5" font-family="Helvetica,sans-Serif" font-size="10.00"># config</text>
 <text text-anchor="start" x="158.5" y="-666.5" font-family="Helvetica,sans-Serif" font-size="10.00"># socketContextFactory</text>
 <text text-anchor="start" x="158.5" y="-655.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _onConnect</text>
 <text text-anchor="start" x="158.5" y="-644.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _onConnected</text>
@@ -108,7 +108,7 @@
 <text text-anchor="start" x="158.5" y="-537.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ onConnected()</text>
 <text text-anchor="start" x="158.5" y="-526.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ onDisconnect()</text>
 <text text-anchor="start" x="158.5" y="-515.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getSocketContextFactory()</text>
-<text text-anchor="start" x="158.5" y="-504.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getServerConfig()</text>
+<text text-anchor="start" x="158.5" y="-504.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getConfig()</text>
 <text text-anchor="start" x="158.5" y="-493.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketServer()</text>
 </a>
 </g>

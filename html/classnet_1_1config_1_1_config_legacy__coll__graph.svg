@@ -26,24 +26,28 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="classnet_1_1config_1_1_config_base.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="5,-865.5 5,-966.5 135,-966.5 135,-865.5 5,-865.5"/>
-<text text-anchor="middle" x="70" y="-954.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::config::ConfigBase</text>
-<polyline fill="none" stroke="black" points="5,-947.5 135,-947.5 "/>
-<text text-anchor="start" x="13" y="-935.5" font-family="Helvetica,sans-Serif" font-size="10.00"># name</text>
-<polyline fill="none" stroke="black" points="5,-928.5 135,-928.5 "/>
+<polygon fill="white" stroke="black" points="5,-843.5 5,-988.5 135,-988.5 135,-843.5 5,-843.5"/>
+<text text-anchor="middle" x="70" y="-976.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::config::ConfigBase</text>
+<polyline fill="none" stroke="black" points="5,-969.5 135,-969.5 "/>
+<text text-anchor="start" x="13" y="-957.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; name</text>
+<polyline fill="none" stroke="black" points="5,-950.5 135,-950.5 "/>
+<text text-anchor="start" x="13" y="-938.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ConfigBase()</text>
+<text text-anchor="start" x="13" y="-927.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ConfigBase()</text>
 <text text-anchor="start" x="13" y="-916.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ConfigBase()</text>
-<text text-anchor="start" x="13" y="-905.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ConfigBase()</text>
+<text text-anchor="start" x="13" y="-905.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ operator=()</text>
 <text text-anchor="start" x="13" y="-894.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~ConfigBase()</text>
 <text text-anchor="start" x="13" y="-883.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getName()</text>
-<text text-anchor="start" x="13" y="-872.5" font-family="Helvetica,sans-Serif" font-size="10.00"># parse()</text>
+<text text-anchor="start" x="13" y="-872.5" font-family="Helvetica,sans-Serif" font-size="10.00"># add_subcommand()</text>
+<text text-anchor="start" x="13" y="-861.5" font-family="Helvetica,sans-Serif" font-size="10.00"># add_option()</text>
+<text text-anchor="start" x="13" y="-850.5" font-family="Helvetica,sans-Serif" font-size="10.00"># parse()</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="darkgreen" d="M70,-854.96C70,-681 70,-181.21 70,-57.8"/>
-<polygon fill="none" stroke="darkgreen" points="66.5,-855.2 70,-865.2 73.5,-855.2 66.5,-855.2"/>
+<path fill="none" stroke="darkgreen" d="M70,-833.08C70,-642.3 70,-175.6 70,-57.51"/>
+<polygon fill="none" stroke="darkgreen" points="66.5,-833.33 70,-843.33 73.5,-833.33 66.5,-833.33"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -221,9 +225,9 @@
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="#404040" d="M86.78,-1817.48C86.51,-1811.3 86.25,-1805.14 86,-1799 73.26,-1491.53 70.66,-1123.35 70.13,-979.19"/>
-<polygon fill="none" stroke="#404040" points="70.13,-978.76 66.11,-972.77 70.09,-966.76 74.11,-972.74 70.13,-978.76"/>
-<text text-anchor="middle" x="109" y="-1774.5" font-family="Helvetica,sans-Serif" font-size="10.00"> #baseSc</text>
+<path fill="none" stroke="#404040" d="M89.78,-1817.47C89.51,-1811.29 89.25,-1805.14 89,-1799 76.83,-1506.04 72.24,-1158 70.69,-1001.09"/>
+<polygon fill="none" stroke="#404040" points="70.69,-1000.77 66.63,-994.81 70.58,-988.77 74.63,-994.73 70.69,-1000.77"/>
+<text text-anchor="middle" x="110" y="-1774.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &#45;baseSc</text>
 </g>
 <!-- Node3&#45;&gt;Node3 -->
 <g id="edge3" class="edge">

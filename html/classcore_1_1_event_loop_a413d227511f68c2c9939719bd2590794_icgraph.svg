@@ -148,26 +148,26 @@
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="classcore_1_1file_1_1_file_reader.html#a70b043ec42bb320537db9496af7204ab" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="507.5,-296 507.5,-326 623.5,-326 623.5,-296 507.5,-296"/>
-<text text-anchor="start" x="515.5" y="-314" font-family="Helvetica,sans-Serif" font-size="10.00">core::file::FileReader</text>
-<text text-anchor="middle" x="565.5" y="-303" font-family="Helvetica,sans-Serif" font-size="10.00">::dispatch</text>
+<g id="a_node9"><a xlink:href="classcore_1_1_descriptor_event_receiver.html#ae04e87c4f44979a04d3839759a63220a" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="483.5,-296 483.5,-326 647.5,-326 647.5,-296 483.5,-296"/>
+<text text-anchor="start" x="491.5" y="-314" font-family="Helvetica,sans-Serif" font-size="10.00">core::DescriptorEventReceiver</text>
+<text text-anchor="middle" x="565.5" y="-303" font-family="Helvetica,sans-Serif" font-size="10.00">::checkTimeout</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node8&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M723.77,-235.32C705.55,-251.72 678.86,-273.43 652,-287 643.19,-291.45 633.45,-295.17 623.78,-298.26"/>
+<path fill="none" stroke="midnightblue" d="M723.77,-235.32C705.55,-251.72 678.86,-273.43 652,-287 645.26,-290.41 637.96,-293.39 630.58,-295.98"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="726.52,-237.55 731.52,-228.21 721.78,-232.39 726.52,-237.55"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="classcore_1_1epoll_1_1_descriptor_event_publisher.html#aa43fb0c28dd331042f24794ddc8d741a" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="479,-247 479,-277 652,-277 652,-247 479,-247"/>
-<text text-anchor="start" x="487" y="-265" font-family="Helvetica,sans-Serif" font-size="10.00">core::epoll::DescriptorEvent</text>
-<text text-anchor="middle" x="565.5" y="-254" font-family="Helvetica,sans-Serif" font-size="10.00">Publisher::dispatchActiveEvents</text>
+<g id="a_node10"><a xlink:href="classcore_1_1file_1_1_file_reader.html#a70b043ec42bb320537db9496af7204ab" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="507.5,-247 507.5,-277 623.5,-277 623.5,-247 507.5,-247"/>
+<text text-anchor="start" x="515.5" y="-265" font-family="Helvetica,sans-Serif" font-size="10.00">core::file::FileReader</text>
+<text text-anchor="middle" x="565.5" y="-254" font-family="Helvetica,sans-Serif" font-size="10.00">::dispatch</text>
 </a>
 </g>
 </g>
@@ -180,9 +180,9 @@
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="classcore_1_1poll_1_1_descriptor_event_publisher.html#aa3b8882783cd69f6c3a5d771b394fb41" target="_top" xlink:title=" ">
+<g id="a_node11"><a xlink:href="classcore_1_1epoll_1_1_descriptor_event_publisher.html#aa43fb0c28dd331042f24794ddc8d741a" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="479,-198 479,-228 652,-228 652,-198 479,-198"/>
-<text text-anchor="start" x="487" y="-216" font-family="Helvetica,sans-Serif" font-size="10.00">core::poll::DescriptorEvent</text>
+<text text-anchor="start" x="487" y="-216" font-family="Helvetica,sans-Serif" font-size="10.00">core::epoll::DescriptorEvent</text>
 <text text-anchor="middle" x="565.5" y="-205" font-family="Helvetica,sans-Serif" font-size="10.00">Publisher::dispatchActiveEvents</text>
 </a>
 </g>
@@ -196,99 +196,99 @@
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="classcore_1_1select_1_1_descriptor_event_publisher.html#a017bd6585988f4b2f90fb6f5230a50fc" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="482,-137.5 482,-178.5 649,-178.5 649,-137.5 482,-137.5"/>
-<text text-anchor="start" x="490" y="-166.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::select::Descriptor</text>
-<text text-anchor="start" x="490" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">EventPublisher::dispatchActive</text>
-<text text-anchor="middle" x="565.5" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00">Events</text>
+<g id="a_node12"><a xlink:href="classcore_1_1poll_1_1_descriptor_event_publisher.html#aa3b8882783cd69f6c3a5d771b394fb41" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="479,-149 479,-179 652,-179 652,-149 479,-149"/>
+<text text-anchor="start" x="487" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00">core::poll::DescriptorEvent</text>
+<text text-anchor="middle" x="565.5" y="-156" font-family="Helvetica,sans-Serif" font-size="10.00">Publisher::dispatchActiveEvents</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node12 -->
 <g id="edge11" class="edge">
 <title>Node8&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M687.78,-194.95C670.59,-189.72 651.69,-183.96 634.03,-178.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="687.09,-198.4 697.68,-197.97 689.13,-191.71 687.09,-198.4"/>
+<path fill="none" stroke="midnightblue" d="M681.62,-195.25C662.06,-189.94 640.8,-184.17 621.95,-179.05"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="680.8,-198.66 691.37,-197.9 682.64,-191.9 680.8,-198.66"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="classcore_1_1file_1_1_file_reader.html#a528c00603662070fffba7df4cffa067c" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="507.5,-88 507.5,-118 623.5,-118 623.5,-88 507.5,-88"/>
-<text text-anchor="start" x="515.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">core::file::FileReader</text>
-<text text-anchor="middle" x="565.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">::FileReader</text>
+<g id="a_node13"><a xlink:href="classcore_1_1select_1_1_descriptor_event_publisher.html#a017bd6585988f4b2f90fb6f5230a50fc" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="482,-88.5 482,-129.5 649,-129.5 649,-88.5 482,-88.5"/>
+<text text-anchor="start" x="490" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::select::Descriptor</text>
+<text text-anchor="start" x="490" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">EventPublisher::dispatchActive</text>
+<text text-anchor="middle" x="565.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">Events</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node13 -->
 <g id="edge12" class="edge">
 <title>Node8&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M727.28,-190.42C709.4,-171.26 681.41,-144.34 652,-128 643.21,-123.12 633.38,-119.1 623.59,-115.83"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="724.74,-192.83 734.07,-197.85 729.91,-188.11 724.74,-192.83"/>
-</g>
-<!-- Node17 -->
-<g id="node17" class="node">
-<title>Node17</title>
-<g id="a_node17"><a xlink:href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#af24dd6f9592596f818b44c7a072db1f2" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="483,-39 483,-69 648,-69 648,-39 483,-39"/>
-<text text-anchor="start" x="491" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="middle" x="565.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketConnection::readEvent</text>
-</a>
-</g>
-</g>
-<!-- Node8&#45;&gt;Node17 -->
-<g id="edge16" class="edge">
-<title>Node8&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M735.83,-188.17C720.96,-157.94 691.85,-107.4 652,-79 646.58,-75.14 640.58,-71.87 634.33,-69.1"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="732.85,-190.07 740.31,-197.59 739.17,-187.05 732.85,-190.07"/>
+<path fill="none" stroke="midnightblue" d="M722.75,-190.98C704.38,-175.17 677.94,-154.22 652,-140 645.08,-136.2 637.6,-132.71 630.04,-129.54"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="720.77,-193.9 730.6,-197.85 725.38,-188.63 720.77,-193.9"/>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="classcore_1_1file_1_1_file_reader.html#a1283a619871fb6ae3ecaa472afdab866" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="321.5,-88 321.5,-118 437.5,-118 437.5,-88 321.5,-88"/>
-<text text-anchor="start" x="329.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">core::file::FileReader</text>
-<text text-anchor="middle" x="379.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">::connect</text>
+<g id="a_node14"><a xlink:href="classcore_1_1file_1_1_file_reader.html#a528c00603662070fffba7df4cffa067c" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="507.5,-39 507.5,-69 623.5,-69 623.5,-39 507.5,-39"/>
+<text text-anchor="start" x="515.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">core::file::FileReader</text>
+<text text-anchor="middle" x="565.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">::FileReader</text>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node14 -->
+<!-- Node8&#45;&gt;Node14 -->
 <g id="edge13" class="edge">
-<title>Node13&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M497.24,-103C477.69,-103 456.54,-103 437.67,-103"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="497.29,-106.5 507.29,-103 497.29,-99.5 497.29,-106.5"/>
+<title>Node8&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M735.83,-188.17C720.96,-157.94 691.85,-107.4 652,-79 643.56,-72.99 633.68,-68.41 623.7,-64.92"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="732.85,-190.07 740.31,-197.59 739.17,-187.05 732.85,-190.07"/>
 </g>
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="classexpress_1_1_response.html#aa7a3b9c880c1af5b11e832f84eeda58c" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="158,-88 158,-118 272,-118 272,-88 158,-88"/>
-<text text-anchor="start" x="166" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">express::Response::</text>
-<text text-anchor="middle" x="215" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">sendFile</text>
+<g id="a_node15"><a xlink:href="classcore_1_1file_1_1_file_reader.html#a1283a619871fb6ae3ecaa472afdab866" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="321.5,-39 321.5,-69 437.5,-69 437.5,-39 321.5,-39"/>
+<text text-anchor="start" x="329.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">core::file::FileReader</text>
+<text text-anchor="middle" x="379.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">::connect</text>
 </a>
 </g>
 </g>
 <!-- Node14&#45;&gt;Node15 -->
 <g id="edge14" class="edge">
 <title>Node14&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M310.99,-103C298.1,-103 284.72,-103 272.23,-103"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="311.21,-106.5 321.21,-103 311.21,-99.5 311.21,-106.5"/>
+<path fill="none" stroke="midnightblue" d="M497.24,-54C477.69,-54 456.54,-54 437.67,-54"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="497.29,-57.5 507.29,-54 497.29,-50.5 497.29,-57.5"/>
 </g>
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="classexpress_1_1_response.html#a9fe9c08eaaf312665cefdd87b0a47f54" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-88 0,-118 114,-118 114,-88 0,-88"/>
-<text text-anchor="start" x="8" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">express::Response::</text>
-<text text-anchor="middle" x="57" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">download</text>
+<g id="a_node16"><a xlink:href="classexpress_1_1_response.html#aa7a3b9c880c1af5b11e832f84eeda58c" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="158,-39 158,-69 272,-69 272,-39 158,-39"/>
+<text text-anchor="start" x="166" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">express::Response::</text>
+<text text-anchor="middle" x="215" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">sendFile</text>
 </a>
 </g>
 </g>
 <!-- Node15&#45;&gt;Node16 -->
 <g id="edge15" class="edge">
 <title>Node15&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M147.6,-103C136.49,-103 125.06,-103 114.24,-103"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="147.68,-106.5 157.68,-103 147.68,-99.5 147.68,-106.5"/>
+<path fill="none" stroke="midnightblue" d="M310.99,-54C298.1,-54 284.72,-54 272.23,-54"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="311.21,-57.5 321.21,-54 311.21,-50.5 311.21,-57.5"/>
+</g>
+<!-- Node17 -->
+<g id="node17" class="node">
+<title>Node17</title>
+<g id="a_node17"><a xlink:href="classexpress_1_1_response.html#a9fe9c08eaaf312665cefdd87b0a47f54" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="0,-39 0,-69 114,-69 114,-39 0,-39"/>
+<text text-anchor="start" x="8" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">express::Response::</text>
+<text text-anchor="middle" x="57" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">download</text>
+</a>
+</g>
+</g>
+<!-- Node16&#45;&gt;Node17 -->
+<g id="edge16" class="edge">
+<title>Node16&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M147.6,-54C136.49,-54 125.06,-54 114.24,-54"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="147.68,-57.5 157.68,-54 147.68,-50.5 147.68,-57.5"/>
 </g>
 <!-- Node19 -->
 <g id="node19" class="node">

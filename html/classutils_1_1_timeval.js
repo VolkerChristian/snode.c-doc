@@ -19,7 +19,6 @@ var classutils_1_1_timeval =
     [ "operator-=", "classutils_1_1_timeval.html#aa2576ab14928d6f71ab1e064c1f95848", null ],
     [ "operator<", "classutils_1_1_timeval.html#a11e78b5aeeb6526856905939d9642815", null ],
     [ "operator<=", "classutils_1_1_timeval.html#a5c6ca8cc12ddd867f878aa88a97be72b", null ],
-    [ "operator=", "classutils_1_1_timeval.html#adcf14720bd7215aa3f124c0fe24185db", null ],
     [ "operator=", "classutils_1_1_timeval.html#ac5696b678505b8fb9ee27540ab1802ca", null ],
     [ "operator=", "classutils_1_1_timeval.html#a96a1c4cba660f218599fdd30600abaa1", null ],
     [ "operator==", "classutils_1_1_timeval.html#a9c49ffd69cd0e5ea799fecafa2af798d", null ],

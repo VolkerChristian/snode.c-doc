@@ -1,6 +1,6 @@
 var classcore_1_1socket_1_1stream_1_1_socket_server =
 [
-    [ "ServerConfig", "classcore_1_1socket_1_1stream_1_1_socket_server.html#aa7bc9bee7f23cbe25719bbdb898286c1", null ],
+    [ "Config", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a8d746437dcce5e93e7792d527b595173", null ],
     [ "SocketAcceptor", "classcore_1_1socket_1_1stream_1_1_socket_server.html#afd77e28ee1b5dd0f9f2fb23640b7ed52", null ],
     [ "SocketAddress", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a6df92da08551501e255f2806c7ff77ad", null ],
     [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a75e2c8968e5526e1e2979b4e03c42117", null ],
@@ -10,7 +10,7 @@ var classcore_1_1socket_1_1stream_1_1_socket_server =
     [ "SocketServer", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a86e16a2a3e3a0f1ab22ae7ea6439f792", null ],
     [ "SocketServer", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a5f431fc3e7a23e0dad1e9d33978630f5", null ],
     [ "~SocketServer", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a537a89cc1c2ba34edf72b5058a32bb3c", null ],
-    [ "getServerConfig", "classcore_1_1socket_1_1stream_1_1_socket_server.html#ae68963a1aa982b5fb5941488f7937efa", null ],
+    [ "getConfig", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a49df4e3829a2015af2259d9d12e19bf2", null ],
     [ "getSocketContextFactory", "classcore_1_1socket_1_1stream_1_1_socket_server.html#ae4b75959d2d6ecc550d98c682781fdf5", null ],
     [ "listen", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a3ec5e2b016bb78893946cc82a55cea56", null ],
     [ "listen", "classcore_1_1socket_1_1stream_1_1_socket_server.html#ac9b4787959426e0d46e27bb24428957e", null ],
@@ -20,7 +20,7 @@ var classcore_1_1socket_1_1stream_1_1_socket_server =
     [ "_onConnect", "classcore_1_1socket_1_1stream_1_1_socket_server.html#ae4798ecaf5157b24f64b8ed42f8c9568", null ],
     [ "_onConnected", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a99fd95e46c356db37d6c1b650c6126c5", null ],
     [ "_onDisconnect", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a53dc86d66a8ea03a50093e2c38d2240f", null ],
+    [ "config", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a8ad49cbca03d695a768e8a104457f120", null ],
     [ "options", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a7899040fa0bda481746d8c3ba8085b79", null ],
-    [ "serverConfig", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a4c0c3e2673f909f582d5bd4e074143d8", null ],
     [ "socketContextFactory", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a3fb07c9da5c25faadad0bd14f0691415", null ]
 ];

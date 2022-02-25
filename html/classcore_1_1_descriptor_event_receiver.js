@@ -12,6 +12,7 @@ var classcore_1_1_descriptor_event_receiver =
     [ "getTimeout", "classcore_1_1_descriptor_event_receiver.html#af169839f390fc4695734ec7248fd3af2", null ],
     [ "isEnabled", "classcore_1_1_descriptor_event_receiver.html#ac5dc7e86ddad09f5bd3eeb0c74f2e7f9", null ],
     [ "isSuspended", "classcore_1_1_descriptor_event_receiver.html#ac80fc901f941c059a6ebdb28147b25a2", null ],
+    [ "isToBeContinued", "classcore_1_1_descriptor_event_receiver.html#a6c6b57a0f6602ba33cd396cdb4efa08d", null ],
     [ "operator=", "classcore_1_1_descriptor_event_receiver.html#ace91a9dabbdff30937a1c2e6b4c8e0fe", null ],
     [ "resume", "classcore_1_1_descriptor_event_receiver.html#afa983ac6b0ba8f28ce4c0fc16cd914f8", null ],
     [ "setDisabled", "classcore_1_1_descriptor_event_receiver.html#a53b16eb14da654bfaf9a7e28e3024ff1", null ],

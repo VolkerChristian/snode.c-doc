@@ -25,18 +25,18 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classcore_1_1socket_1_1_server_socket.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="4.5,-95.5 4.5,-207.5 156.5,-207.5 156.5,-95.5 4.5,-95.5"/>
-<text text-anchor="start" x="12.5" y="-195.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::ServerSocket</text>
-<text text-anchor="middle" x="80.5" y="-184.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; net::un::stream::Socket &gt;</text>
-<polyline fill="none" stroke="black" points="4.5,-177.5 156.5,-177.5 "/>
+<g id="a_node2"><a xlink:href="classnet_1_1_server_socket.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="9,-95.5 9,-207.5 152,-207.5 152,-95.5 9,-95.5"/>
+<text text-anchor="start" x="17" y="-195.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::ServerSocket&lt;</text>
+<text text-anchor="middle" x="80.5" y="-184.5" font-family="Helvetica,sans-Serif" font-size="10.00"> net::un::stream::Socket &gt;</text>
+<polyline fill="none" stroke="black" points="9,-177.5 152,-177.5 "/>
 <text text-anchor="middle" x="80.5" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="4.5,-158.5 156.5,-158.5 "/>
-<text text-anchor="start" x="12.5" y="-146.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ServerSocket()</text>
-<text text-anchor="start" x="12.5" y="-135.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ServerSocket()</text>
-<text text-anchor="start" x="12.5" y="-124.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ~ServerSocket()</text>
-<text text-anchor="start" x="12.5" y="-113.5" font-family="Helvetica,sans-Serif" font-size="10.00"># listen()</text>
-<text text-anchor="start" x="12.5" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00"># listen()</text>
+<polyline fill="none" stroke="black" points="9,-158.5 152,-158.5 "/>
+<text text-anchor="start" x="17" y="-146.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ServerSocket()</text>
+<text text-anchor="start" x="17" y="-135.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ServerSocket()</text>
+<text text-anchor="start" x="17" y="-124.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ~ServerSocket()</text>
+<text text-anchor="start" x="17" y="-113.5" font-family="Helvetica,sans-Serif" font-size="10.00"># listen()</text>
+<text text-anchor="start" x="17" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00"># listen()</text>
 </a>
 </g>
 </g>
@@ -49,18 +49,18 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classcore_1_1socket_1_1_server_socket.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="8,-266.5 8,-378.5 153,-378.5 153,-266.5 8,-266.5"/>
-<text text-anchor="start" x="16" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::ServerSocket</text>
-<text text-anchor="middle" x="80.5" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; SocketT &gt;</text>
-<polyline fill="none" stroke="black" points="8,-348.5 153,-348.5 "/>
+<g id="a_node3"><a xlink:href="classnet_1_1_server_socket.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="25.5,-266.5 25.5,-378.5 135.5,-378.5 135.5,-266.5 25.5,-266.5"/>
+<text text-anchor="start" x="33.5" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::ServerSocket&lt;</text>
+<text text-anchor="middle" x="80.5" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00"> SocketT &gt;</text>
+<polyline fill="none" stroke="black" points="25.5,-348.5 135.5,-348.5 "/>
 <text text-anchor="middle" x="80.5" y="-336.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="8,-329.5 153,-329.5 "/>
-<text text-anchor="start" x="16" y="-317.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ServerSocket()</text>
-<text text-anchor="start" x="16" y="-306.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ServerSocket()</text>
-<text text-anchor="start" x="16" y="-295.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ~ServerSocket()</text>
-<text text-anchor="start" x="16" y="-284.5" font-family="Helvetica,sans-Serif" font-size="10.00"># listen()</text>
-<text text-anchor="start" x="16" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00"># listen()</text>
+<polyline fill="none" stroke="black" points="25.5,-329.5 135.5,-329.5 "/>
+<text text-anchor="start" x="33.5" y="-317.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ServerSocket()</text>
+<text text-anchor="start" x="33.5" y="-306.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ServerSocket()</text>
+<text text-anchor="start" x="33.5" y="-295.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ~ServerSocket()</text>
+<text text-anchor="start" x="33.5" y="-284.5" font-family="Helvetica,sans-Serif" font-size="10.00"># listen()</text>
+<text text-anchor="start" x="33.5" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00"># listen()</text>
 </a>
 </g>
 </g>

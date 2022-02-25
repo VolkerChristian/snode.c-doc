@@ -261,12 +261,12 @@ Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00059">59</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                                                                                      {</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [fd, eventReceivers] : <a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>) { <span class="comment">// cppcheck-suppress unusedVariable</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            eventReceivers.front()-&gt;checkTimeout(currentTime);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        }</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00056">56</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                                                                                      {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [fd, eventReceivers] : <a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>) { <span class="comment">// cppcheck-suppress unusedVariable</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            eventReceivers.front()-&gt;checkTimeout(currentTime);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        }</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1_descriptor_event_publisher_html_ab3ba1ddd022eac76ca6b1a1181e3676b"><div class="ttname"><a href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">core::DescriptorEventPublisher::observedEventReceivers</a></div><div class="ttdeci">std::map&lt; int, std::list&lt; DescriptorEventReceiver * &gt; &gt; observedEventReceivers</div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_event_publisher_8h_source.html#l00075">DescriptorEventPublisher.h:75</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_descriptor_event_publisher_8h_source.html#l00075">observedEventReceivers</a>.</p>
@@ -289,10 +289,10 @@ Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00047">47</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                                                                                                            {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <a class="code" href="classcore_1_1_descriptor_event_publisher.html#a73f4e1767b7bb5a06a8d40d9db6963d0">observedEventReceiversDirty</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00044">44</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                                                                                                            {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="classcore_1_1_descriptor_event_publisher.html#a73f4e1767b7bb5a06a8d40d9db6963d0">observedEventReceiversDirty</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1_descriptor_event_publisher_html_a73f4e1767b7bb5a06a8d40d9db6963d0"><div class="ttname"><a href="classcore_1_1_descriptor_event_publisher.html#a73f4e1767b7bb5a06a8d40d9db6963d0">core::DescriptorEventPublisher::observedEventReceiversDirty</a></div><div class="ttdeci">bool observedEventReceiversDirty</div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_event_publisher_8h_source.html#l00078">DescriptorEventPublisher.h:78</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_descriptor_event_publisher_8h_source.html#l00078">observedEventReceiversDirty</a>.</p>
@@ -350,27 +350,26 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00036">36</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                                                                                          {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">int</span> fd = descriptorEventReceiver-&gt;getRegisteredFd();</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        LOG(INFO) &lt;&lt; <span class="stringliteral">&quot;Observed: &quot;</span> &lt;&lt; descriptorEventReceiver-&gt;getName() &lt;&lt; <span class="stringliteral">&quot;, fd = &quot;</span> &lt;&lt; fd;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        descriptorEventReceiver-&gt;setEnabled();</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>[fd].push_front(descriptorEventReceiver);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="classcore_1_1_descriptor_event_publisher.html#a010d889407017a69f9635271587aab9a">muxAdd</a>(descriptorEventReceiver);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">if</span> (descriptorEventReceiver-&gt;isSuspended()) {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <a class="code" href="classcore_1_1_descriptor_event_publisher.html#af6a191195ac34bd0dfc6573b1adc3745">muxOff</a>(fd);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        }</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00034">34</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                                                                                          {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">int</span> fd = descriptorEventReceiver-&gt;getRegisteredFd();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        descriptorEventReceiver-&gt;setEnabled();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>[fd].push_front(descriptorEventReceiver);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="classcore_1_1_descriptor_event_publisher.html#a010d889407017a69f9635271587aab9a">muxAdd</a>(descriptorEventReceiver);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">if</span> (descriptorEventReceiver-&gt;isSuspended()) {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <a class="code" href="classcore_1_1_descriptor_event_publisher.html#af6a191195ac34bd0dfc6573b1adc3745">muxOff</a>(fd);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        }</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1_descriptor_event_publisher_html_a010d889407017a69f9635271587aab9a"><div class="ttname"><a href="classcore_1_1_descriptor_event_publisher.html#a010d889407017a69f9635271587aab9a">core::DescriptorEventPublisher::muxAdd</a></div><div class="ttdeci">virtual void muxAdd(DescriptorEventReceiver *descriptorEventReceiver)=0</div></div>
 <div class="ttc" id="aclasscore_1_1_descriptor_event_publisher_html_af6a191195ac34bd0dfc6573b1adc3745"><div class="ttname"><a href="classcore_1_1_descriptor_event_publisher.html#af6a191195ac34bd0dfc6573b1adc3745">core::DescriptorEventPublisher::muxOff</a></div><div class="ttdeci">virtual void muxOff(int fd)=0</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_receiver_8cpp_source.html#l00039">core::EventReceiver::getName()</a>, <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00046">core::DescriptorEventReceiver::getRegisteredFd()</a>, <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00121">core::DescriptorEventReceiver::isSuspended()</a>, <a class="el" href="classcore_1_1_descriptor_event_publisher.html#a010d889407017a69f9635271587aab9a">muxAdd()</a>, <a class="el" href="classcore_1_1_descriptor_event_publisher.html#af6a191195ac34bd0dfc6573b1adc3745">muxOff()</a>, <a class="el" href="_descriptor_event_publisher_8h_source.html#l00075">observedEventReceivers</a>, and <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00061">core::DescriptorEventReceiver::setEnabled()</a>.</p>
+<p class="reference">References <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00046">core::DescriptorEventReceiver::getRegisteredFd()</a>, <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00125">core::DescriptorEventReceiver::isSuspended()</a>, <a class="el" href="classcore_1_1_descriptor_event_publisher.html#a010d889407017a69f9635271587aab9a">muxAdd()</a>, <a class="el" href="classcore_1_1_descriptor_event_publisher.html#af6a191195ac34bd0dfc6573b1adc3745">muxOff()</a>, <a class="el" href="_descriptor_event_publisher_8h_source.html#l00075">observedEventReceivers</a>, and <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00061">core::DescriptorEventReceiver::setEnabled()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00050">core::DescriptorEventReceiver::enable()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_descriptor_event_publisher_ab1ba62f94b1882616f47a3cc8045b28d_cgraph.svg" width="738" height="379"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_descriptor_event_publisher_ab1ba62f94b1882616f47a3cc8045b28d_cgraph.svg" width="738" height="314"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -397,16 +396,16 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00104">104</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                                                 {</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordtype">int</span> maxFd = -1;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>.empty()) {</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            maxFd = <a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>.rbegin()-&gt;first;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        }</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <span class="keywordflow">return</span> maxFd;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00097">97</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                                                 {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordtype">int</span> maxFd = -1;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>.empty()) {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            maxFd = <a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>.rbegin()-&gt;first;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        }</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">return</span> maxFd;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_descriptor_event_publisher_8h_source.html#l00075">observedEventReceivers</a>.</p>
 
@@ -428,24 +427,24 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00114">114</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                                                                                               {</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> nextTimeout = <a class="code" href="classcore_1_1_descriptor_event_receiver_1_1_t_i_m_e_o_u_t.html#a66faca140de0c0f8dbdd6d0757ac1ee2">DescriptorEventReceiver::TIMEOUT::MAX</a>;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [fd, eventReceivers] : <a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>) { <span class="comment">// cppcheck-suppress unusedVariable</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            <span class="keyword">const</span> DescriptorEventReceiver* eventReceiver = eventReceivers.front();</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            <span class="keywordflow">if</span> (!eventReceiver-&gt;isSuspended()) {</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                nextTimeout = std::min(eventReceiver-&gt;getTimeout(currentTime), nextTimeout);</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            }</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        }</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">return</span> nextTimeout;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1_descriptor_event_receiver_1_1_t_i_m_e_o_u_t_html_a66faca140de0c0f8dbdd6d0757ac1ee2"><div class="ttname"><a href="classcore_1_1_descriptor_event_receiver_1_1_t_i_m_e_o_u_t.html#a66faca140de0c0f8dbdd6d0757ac1ee2">core::DescriptorEventReceiver::TIMEOUT::MAX</a></div><div class="ttdeci">static const utils::Timeval MAX</div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_event_receiver_8h_source.html#l00075">DescriptorEventReceiver.h:75</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00107">107</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                                                                                               {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> nextTimeout = <a class="code" href="classcore_1_1_descriptor_event_receiver_1_1_t_i_m_e_o_u_t.html#a66faca140de0c0f8dbdd6d0757ac1ee2">DescriptorEventReceiver::TIMEOUT::MAX</a>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [fd, eventReceivers] : <a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>) { <span class="comment">// cppcheck-suppress unusedVariable</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            <span class="keyword">const</span> DescriptorEventReceiver* eventReceiver = eventReceivers.front();</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <span class="keywordflow">if</span> (!eventReceiver-&gt;isSuspended()) {</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                nextTimeout = std::min(eventReceiver-&gt;getTimeout(currentTime), nextTimeout);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            }</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        }</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">return</span> nextTimeout;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1_descriptor_event_receiver_1_1_t_i_m_e_o_u_t_html_a66faca140de0c0f8dbdd6d0757ac1ee2"><div class="ttname"><a href="classcore_1_1_descriptor_event_receiver_1_1_t_i_m_e_o_u_t.html#a66faca140de0c0f8dbdd6d0757ac1ee2">core::DescriptorEventReceiver::TIMEOUT::MAX</a></div><div class="ttdeci">static const utils::Timeval MAX</div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_event_receiver_8h_source.html#l00077">DescriptorEventReceiver.h:77</a></div></div>
 <div class="ttc" id="aclassutils_1_1_timeval_html"><div class="ttname"><a href="classutils_1_1_timeval.html">utils::Timeval</a></div><div class="ttdef"><b>Definition:</b> <a href="_timeval_8h_source.html#l00034">Timeval.h:34</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00141">core::DescriptorEventReceiver::getTimeout()</a>, <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00121">core::DescriptorEventReceiver::isSuspended()</a>, <a class="el" href="_descriptor_event_receiver_8h_source.html#l00075">core::DescriptorEventReceiver::TIMEOUT::MAX</a>, and <a class="el" href="_descriptor_event_publisher_8h_source.html#l00075">observedEventReceivers</a>.</p>
+<p class="reference">References <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00145">core::DescriptorEventReceiver::getTimeout()</a>, <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00125">core::DescriptorEventReceiver::isSuspended()</a>, <a class="el" href="_descriptor_event_receiver_8h_source.html#l00077">core::DescriptorEventReceiver::TIMEOUT::MAX</a>, and <a class="el" href="_descriptor_event_publisher_8h_source.html#l00075">observedEventReceivers</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -470,10 +469,10 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00100">100</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                                                                      {</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>.size());</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00093">93</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>.size());</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_descriptor_event_publisher_8h_source.html#l00075">observedEventReceivers</a>.</p>
 
@@ -505,7 +504,7 @@ Here is the call graph for this function:</div>
 
 <p>Implemented in <a class="el" href="classcore_1_1select_1_1_descriptor_event_publisher.html#a5100eb5545a45223273568d9c67d9db5">core::select::DescriptorEventPublisher</a>, <a class="el" href="classcore_1_1poll_1_1_descriptor_event_publisher.html#af2bd18a6a33392f2119a938b198eb07d">core::poll::DescriptorEventPublisher</a>, and <a class="el" href="classcore_1_1epoll_1_1_descriptor_event_publisher.html#a58efcc42c16d1c98ce6b03b75554c85a">core::epoll::DescriptorEventPublisher</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00036">enable()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00034">enable()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -541,7 +540,7 @@ Here is the caller graph for this function:</div>
 
 <p>Implemented in <a class="el" href="classcore_1_1select_1_1_descriptor_event_publisher.html#a1c757695f8afff856c63b4b8c66b1e39">core::select::DescriptorEventPublisher</a>, <a class="el" href="classcore_1_1poll_1_1_descriptor_event_publisher.html#a69497a4167975bf5283ba0fcda2854b8">core::poll::DescriptorEventPublisher</a>, and <a class="el" href="classcore_1_1epoll_1_1_descriptor_event_publisher.html#a342472bfafeab645e6aa4cb7eb2752c6">core::epoll::DescriptorEventPublisher</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00065">unobserveDisabledEvents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00062">unobserveDisabledEvents()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -577,7 +576,7 @@ Here is the caller graph for this function:</div>
 
 <p>Implemented in <a class="el" href="classcore_1_1select_1_1_descriptor_event_publisher.html#a028296a48158825155516aeeedb8421f">core::select::DescriptorEventPublisher</a>, <a class="el" href="classcore_1_1poll_1_1_descriptor_event_publisher.html#a3104789055b2f8d25101486b54adc0ef">core::poll::DescriptorEventPublisher</a>, and <a class="el" href="classcore_1_1epoll_1_1_descriptor_event_publisher.html#af832a2b7bdd2b8d8a9d3a3a981be2c02">core::epoll::DescriptorEventPublisher</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00036">enable()</a>, <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00051">suspend()</a>, and <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00065">unobserveDisabledEvents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00034">enable()</a>, <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00048">suspend()</a>, and <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00062">unobserveDisabledEvents()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -613,7 +612,7 @@ Here is the caller graph for this function:</div>
 
 <p>Implemented in <a class="el" href="classcore_1_1select_1_1_descriptor_event_publisher.html#a2e05969de6555245b0bde2e4845c5801">core::select::DescriptorEventPublisher</a>, <a class="el" href="classcore_1_1poll_1_1_descriptor_event_publisher.html#aaded8dfb036d6a016126b05035db7453">core::poll::DescriptorEventPublisher</a>, and <a class="el" href="classcore_1_1epoll_1_1_descriptor_event_publisher.html#ae856fff72a30f634a48ea0a8685ba1d1">core::epoll::DescriptorEventPublisher</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00055">resume()</a>, and <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00065">unobserveDisabledEvents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00052">resume()</a>, and <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00062">unobserveDisabledEvents()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -683,15 +682,15 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00055">55</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                                                                                          {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="classcore_1_1_descriptor_event_publisher.html#a8cdba59fd3522f1e108a21f6f818840e">muxOn</a>(descriptorEventReceiver);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00052">52</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                                                                                          {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="classcore_1_1_descriptor_event_publisher.html#a8cdba59fd3522f1e108a21f6f818840e">muxOn</a>(descriptorEventReceiver);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1_descriptor_event_publisher_html_a8cdba59fd3522f1e108a21f6f818840e"><div class="ttname"><a href="classcore_1_1_descriptor_event_publisher.html#a8cdba59fd3522f1e108a21f6f818840e">core::DescriptorEventPublisher::muxOn</a></div><div class="ttdeci">virtual void muxOn(DescriptorEventReceiver *descriptorEventReceiver)=0</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classcore_1_1_descriptor_event_publisher.html#a8cdba59fd3522f1e108a21f6f818840e">muxOn()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00104">core::DescriptorEventReceiver::resume()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00108">core::DescriptorEventReceiver::resume()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -722,16 +721,16 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00128">128</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                                        {</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [fd, eventReceivers] : <a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>) { <span class="comment">// cppcheck-suppress unusedVariable</span></div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            <span class="keywordflow">for</span> (DescriptorEventReceiver* eventReceiver : eventReceivers) {</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                <span class="keywordflow">if</span> (eventReceiver-&gt;isEnabled()) {</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                    eventReceiver-&gt;terminate();</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                }</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            }</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        }</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00121">121</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                                        {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [fd, eventReceivers] : <a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>) { <span class="comment">// cppcheck-suppress unusedVariable</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="keywordflow">for</span> (DescriptorEventReceiver* eventReceiver : eventReceivers) {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                <span class="keywordflow">if</span> (eventReceiver-&gt;isEnabled()) {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                    eventReceiver-&gt;terminate();</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                }</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            }</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        }</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_descriptor_event_publisher_8h_source.html#l00075">observedEventReceivers</a>.</p>
 
@@ -753,14 +752,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00051">51</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                                                                           {</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="classcore_1_1_descriptor_event_publisher.html#af6a191195ac34bd0dfc6573b1adc3745">muxOff</a>(descriptorEventReceiver-&gt;getRegisteredFd());</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00048">48</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                                                                                           {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="classcore_1_1_descriptor_event_publisher.html#af6a191195ac34bd0dfc6573b1adc3745">muxOff</a>(descriptorEventReceiver-&gt;getRegisteredFd());</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00046">core::DescriptorEventReceiver::getRegisteredFd()</a>, and <a class="el" href="classcore_1_1_descriptor_event_publisher.html#af6a191195ac34bd0dfc6573b1adc3745">muxOff()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00088">core::DescriptorEventReceiver::suspend()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00092">core::DescriptorEventReceiver::suspend()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -792,44 +791,40 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00065">65</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                                                                                          {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classcore_1_1_descriptor_event_publisher.html#a73f4e1767b7bb5a06a8d40d9db6963d0">observedEventReceiversDirty</a>) {</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            std::erase_if(<a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>, [<span class="keyword">this</span>, &amp;currentTime](<span class="keyword">auto</span>&amp; observedEventReceiversEntry) -&gt; <span class="keywordtype">bool</span> {</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                <span class="keyword">auto</span>&amp; [fdTmp, observedEventReceiverList] = observedEventReceiversEntry; <span class="comment">// cppcheck-suppress constVariable</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                <span class="keywordtype">int</span> fd = fdTmp; <span class="comment">// NOTE: Needed because clang did not capture compound initialized variables. Bug in clang?</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                std::erase_if(observedEventReceiverList, [fd](DescriptorEventReceiver* descriptorEventReceiver) -&gt; <span class="keywordtype">bool</span> {</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                    <span class="keywordtype">bool</span> isDisabled = !descriptorEventReceiver-&gt;isEnabled();</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                    <span class="keywordflow">if</span> (isDisabled) {</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                        descriptorEventReceiver-&gt;setDisabled();</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                        <span class="keywordflow">if</span> (!descriptorEventReceiver-&gt;isObserved()) {</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                            LOG(INFO) &lt;&lt; <span class="stringliteral">&quot;UnobservedEvent: &quot;</span> &lt;&lt; descriptorEventReceiver-&gt;getName() &lt;&lt; <span class="stringliteral">&quot;, fd = &quot;</span> &lt;&lt; fd;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                            descriptorEventReceiver-&gt;unobservedEvent();</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                            LOG(INFO) &lt;&lt; <span class="stringliteral">&quot;Unobserved: &quot;</span> &lt;&lt; descriptorEventReceiver-&gt;getName() &lt;&lt; <span class="stringliteral">&quot;, fd = &quot;</span> &lt;&lt; fd;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                        }</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                    }</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                    <span class="keywordflow">return</span> isDisabled;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                });</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                <span class="keywordflow">if</span> (observedEventReceiverList.empty()) {</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                    <a class="code" href="classcore_1_1_descriptor_event_publisher.html#a28bc1eb205ca9783d96a4bfedf344e8f">muxDel</a>(fd);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                    DescriptorEventReceiver* descriptorEventReceiver = <a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>[fd].front();</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                    descriptorEventReceiver-&gt;triggered(currentTime);</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                    <span class="keywordflow">if</span> (!descriptorEventReceiver-&gt;isSuspended()) {</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                        <a class="code" href="classcore_1_1_descriptor_event_publisher.html#a8cdba59fd3522f1e108a21f6f818840e">muxOn</a>(descriptorEventReceiver);</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                        <a class="code" href="classcore_1_1_descriptor_event_publisher.html#af6a191195ac34bd0dfc6573b1adc3745">muxOff</a>(fd);</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                    }</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                }</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                <span class="keywordflow">return</span> observedEventReceiverList.empty();</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            });</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            <a class="code" href="classcore_1_1_descriptor_event_publisher.html#a73f4e1767b7bb5a06a8d40d9db6963d0">observedEventReceiversDirty</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        }</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00062">62</a> of file <a class="el" href="_descriptor_event_publisher_8cpp_source.html">DescriptorEventPublisher.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                                                                                          {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classcore_1_1_descriptor_event_publisher.html#a73f4e1767b7bb5a06a8d40d9db6963d0">observedEventReceiversDirty</a>) {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            std::erase_if(<a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>, [<span class="keyword">this</span>, &amp;currentTime](<span class="keyword">auto</span>&amp; observedEventReceiversEntry) -&gt; <span class="keywordtype">bool</span> {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                <span class="keyword">auto</span>&amp; [fd, observedEventReceiverList] = observedEventReceiversEntry; <span class="comment">// cppcheck-suppress constVariable</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                std::erase_if(observedEventReceiverList, [](DescriptorEventReceiver* descriptorEventReceiver) -&gt; <span class="keywordtype">bool</span> {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                    <span class="keywordtype">bool</span> isDisabled = !descriptorEventReceiver-&gt;isEnabled();</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                    <span class="keywordflow">if</span> (isDisabled) {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                        descriptorEventReceiver-&gt;setDisabled();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                        <span class="keywordflow">if</span> (!descriptorEventReceiver-&gt;isObserved()) {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                            descriptorEventReceiver-&gt;unobservedEvent();</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                        }</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                    }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                    <span class="keywordflow">return</span> isDisabled;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                });</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                <span class="keywordflow">if</span> (observedEventReceiverList.empty()) {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                    <a class="code" href="classcore_1_1_descriptor_event_publisher.html#a28bc1eb205ca9783d96a4bfedf344e8f">muxDel</a>(fd);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                    DescriptorEventReceiver* descriptorEventReceiver = <a class="code" href="classcore_1_1_descriptor_event_publisher.html#ab3ba1ddd022eac76ca6b1a1181e3676b">observedEventReceivers</a>[fd].front();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                    descriptorEventReceiver-&gt;triggered(currentTime);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                    <span class="keywordflow">if</span> (!descriptorEventReceiver-&gt;isSuspended()) {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                        <a class="code" href="classcore_1_1_descriptor_event_publisher.html#a8cdba59fd3522f1e108a21f6f818840e">muxOn</a>(descriptorEventReceiver);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                        <a class="code" href="classcore_1_1_descriptor_event_publisher.html#af6a191195ac34bd0dfc6573b1adc3745">muxOff</a>(fd);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                    }</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                <span class="keywordflow">return</span> observedEventReceiverList.empty();</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            });</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <a class="code" href="classcore_1_1_descriptor_event_publisher.html#a73f4e1767b7bb5a06a8d40d9db6963d0">observedEventReceiversDirty</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1_descriptor_event_publisher_html_a28bc1eb205ca9783d96a4bfedf344e8f"><div class="ttname"><a href="classcore_1_1_descriptor_event_publisher.html#a28bc1eb205ca9783d96a4bfedf344e8f">core::DescriptorEventPublisher::muxDel</a></div><div class="ttdeci">virtual void muxDel(int fd)=0</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00084">core::DescriptorEventReceiver::isEnabled()</a>, <a class="el" href="_descriptor_event_receiver_8h_source.html#l00042">core::Observer::isObserved()</a>, <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00121">core::DescriptorEventReceiver::isSuspended()</a>, <a class="el" href="classcore_1_1_descriptor_event_publisher.html#a28bc1eb205ca9783d96a4bfedf344e8f">muxDel()</a>, <a class="el" href="classcore_1_1_descriptor_event_publisher.html#af6a191195ac34bd0dfc6573b1adc3745">muxOff()</a>, <a class="el" href="classcore_1_1_descriptor_event_publisher.html#a8cdba59fd3522f1e108a21f6f818840e">muxOn()</a>, <a class="el" href="_descriptor_event_publisher_8h_source.html#l00075">observedEventReceivers</a>, <a class="el" href="_descriptor_event_publisher_8h_source.html#l00078">observedEventReceiversDirty</a>, <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00080">core::DescriptorEventReceiver::setDisabled()</a>, and <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00154">core::DescriptorEventReceiver::triggered()</a>.</p>
+<p class="reference">References <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00088">core::DescriptorEventReceiver::isEnabled()</a>, <a class="el" href="_descriptor_event_receiver_8h_source.html#l00044">core::Observer::isObserved()</a>, <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00125">core::DescriptorEventReceiver::isSuspended()</a>, <a class="el" href="classcore_1_1_descriptor_event_publisher.html#a28bc1eb205ca9783d96a4bfedf344e8f">muxDel()</a>, <a class="el" href="classcore_1_1_descriptor_event_publisher.html#af6a191195ac34bd0dfc6573b1adc3745">muxOff()</a>, <a class="el" href="classcore_1_1_descriptor_event_publisher.html#a8cdba59fd3522f1e108a21f6f818840e">muxOn()</a>, <a class="el" href="_descriptor_event_publisher_8h_source.html#l00075">observedEventReceivers</a>, <a class="el" href="_descriptor_event_publisher_8h_source.html#l00078">observedEventReceiversDirty</a>, <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00080">core::DescriptorEventReceiver::setDisabled()</a>, and <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00158">core::DescriptorEventReceiver::triggered()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -888,7 +883,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8h_source.html#l00075">75</a> of file <a class="el" href="_descriptor_event_publisher_8h_source.html">DescriptorEventPublisher.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00059">checkTimedOutEvents()</a>, <a class="el" href="multiplexer_2poll_2_descriptor_event_publisher_8cpp_source.html#l00055">core::poll::DescriptorEventPublisher::dispatchActiveEvents()</a>, <a class="el" href="multiplexer_2select_2_descriptor_event_publisher_8cpp_source.html#l00078">core::select::DescriptorEventPublisher::dispatchActiveEvents()</a>, <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00036">enable()</a>, <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00104">getMaxFd()</a>, <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00114">getNextTimeout()</a>, <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00100">getObservedEventReceiverCount()</a>, <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00128">stop()</a>, and <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00065">unobserveDisabledEvents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00056">checkTimedOutEvents()</a>, <a class="el" href="multiplexer_2poll_2_descriptor_event_publisher_8cpp_source.html#l00055">core::poll::DescriptorEventPublisher::dispatchActiveEvents()</a>, <a class="el" href="multiplexer_2select_2_descriptor_event_publisher_8cpp_source.html#l00078">core::select::DescriptorEventPublisher::dispatchActiveEvents()</a>, <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00034">enable()</a>, <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00097">getMaxFd()</a>, <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00107">getNextTimeout()</a>, <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00093">getObservedEventReceiverCount()</a>, <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00121">stop()</a>, and <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00062">unobserveDisabledEvents()</a>.</p>
 
 </div>
 </div>
@@ -914,7 +909,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_descriptor_event_publisher_8h_source.html#l00078">78</a> of file <a class="el" href="_descriptor_event_publisher_8h_source.html">DescriptorEventPublisher.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00047">disable()</a>, and <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00065">unobserveDisabledEvents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00044">disable()</a>, and <a class="el" href="_descriptor_event_publisher_8cpp_source.html#l00062">unobserveDisabledEvents()</a>.</p>
 
 </div>
 </div>

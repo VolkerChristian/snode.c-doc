@@ -1,6 +1,6 @@
 var classcore_1_1socket_1_1stream_1_1_socket_client =
 [
-    [ "ClientConfig", "classcore_1_1socket_1_1stream_1_1_socket_client.html#a1a82d0e9174132a4a1b4683d4bf7b000", null ],
+    [ "Config", "classcore_1_1socket_1_1stream_1_1_socket_client.html#aa0dca854e5992b7cb6c6bbf95bc6cd9d", null ],
     [ "SocketAddress", "classcore_1_1socket_1_1stream_1_1_socket_client.html#a424395501100649eef2d89628943fb20", null ],
     [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1_socket_client.html#add3106a821d18c739ba7e63842a7a226", null ],
     [ "SocketConnector", "classcore_1_1socket_1_1stream_1_1_socket_client.html#a735b407356591e40e29164772967183f", null ],
@@ -13,6 +13,7 @@ var classcore_1_1socket_1_1stream_1_1_socket_client =
     [ "connect", "classcore_1_1socket_1_1stream_1_1_socket_client.html#a94e056083eeb59eb97f50a92763beaac", null ],
     [ "connect", "classcore_1_1socket_1_1stream_1_1_socket_client.html#a15da51acef5942b8d9c814f55fd964d4", null ],
     [ "connect", "classcore_1_1socket_1_1stream_1_1_socket_client.html#aabcec3591fb60194f291f5b98df5d990", null ],
+    [ "getConfig", "classcore_1_1socket_1_1stream_1_1_socket_client.html#a17fa3c067bc143070a981da00f6533a2", null ],
     [ "getSocketContextFactory", "classcore_1_1socket_1_1stream_1_1_socket_client.html#aefcf39d01132d045df803b91b48c122b", null ],
     [ "onConnect", "classcore_1_1socket_1_1stream_1_1_socket_client.html#a3fe0583738f7dd6fe0e1695c4f2d7b2b", null ],
     [ "onConnected", "classcore_1_1socket_1_1stream_1_1_socket_client.html#aca84102a82ef2d9ddebbe95735c19034", null ],
@@ -20,7 +21,7 @@ var classcore_1_1socket_1_1stream_1_1_socket_client =
     [ "_onConnect", "classcore_1_1socket_1_1stream_1_1_socket_client.html#a878101e9b821eb72fbce4606b5fc1c74", null ],
     [ "_onConnected", "classcore_1_1socket_1_1stream_1_1_socket_client.html#a47d64e3a1b889c588866b3a41a889000", null ],
     [ "_onDisconnect", "classcore_1_1socket_1_1stream_1_1_socket_client.html#a7c840e29893059158a546d1866364e9b", null ],
-    [ "clientConfig", "classcore_1_1socket_1_1stream_1_1_socket_client.html#a8900e8f585f65201b7aacc5b2a2f4c20", null ],
+    [ "config", "classcore_1_1socket_1_1stream_1_1_socket_client.html#a8d05e69bf4c2b21e6bf909e9412116ce", null ],
     [ "options", "classcore_1_1socket_1_1stream_1_1_socket_client.html#a1ef6b60f9129854355958ce1b01b93da", null ],
     [ "socketContextFactory", "classcore_1_1socket_1_1stream_1_1_socket_client.html#a17e04a425dda9f73699e0d278cccf626", null ]
 ];

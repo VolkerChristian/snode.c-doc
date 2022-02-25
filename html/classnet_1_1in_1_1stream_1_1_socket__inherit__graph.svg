@@ -30,7 +30,7 @@
 <text text-anchor="start" x="8" y="-239.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::Socket</text>
 <text text-anchor="middle" x="73.5" y="-228.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; net::in::SocketAddress &gt;</text>
 <polyline fill="none" stroke="black" points="0,-221.5 147,-221.5 "/>
-<text text-anchor="start" x="8" y="-209.5" font-family="Helvetica,sans-Serif" font-size="10.00"># localAddress</text>
+<text text-anchor="start" x="8" y="-209.5" font-family="Helvetica,sans-Serif" font-size="10.00"># bindAddress</text>
 <polyline fill="none" stroke="black" points="0,-202.5 147,-202.5 "/>
 <text text-anchor="start" x="8" y="-190.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ shutdown()</text>
 <text text-anchor="start" x="8" y="-179.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Socket()</text>
@@ -86,7 +86,7 @@
 <text text-anchor="start" x="93.5" y="-443.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::Socket</text>
 <text text-anchor="middle" x="143.5" y="-432.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; SocketAddressT &gt;</text>
 <polyline fill="none" stroke="black" points="85.5,-425.5 201.5,-425.5 "/>
-<text text-anchor="start" x="93.5" y="-413.5" font-family="Helvetica,sans-Serif" font-size="10.00"># localAddress</text>
+<text text-anchor="start" x="93.5" y="-413.5" font-family="Helvetica,sans-Serif" font-size="10.00"># bindAddress</text>
 <polyline fill="none" stroke="black" points="85.5,-406.5 201.5,-406.5 "/>
 <text text-anchor="start" x="93.5" y="-394.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Socket()</text>
 <text text-anchor="start" x="93.5" y="-383.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Socket()</text>

@@ -213,30 +213,51 @@ template&lt;template&lt; typename SocketAddressT &gt; typename ConfigAddressType
 <div class="memproto">
 <div class="memtemplate">
 template&lt;template&lt; typename SocketAddress &gt; typename ConfigAddressType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classnet_1_1in6_1_1config_1_1_config_address.html">net::in6::config::ConfigAddress</a>&lt; <a class="el" href="classnet_1_1in6_1_1config_1_1_config_address.html#af980a846c9a07ec3d6c63f4bd65d282b">ConfigAddressType</a> &gt;::<a class="el" href="classnet_1_1in6_1_1config_1_1_config_address.html">ConfigAddress</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="in6_2config_2_config_address_8cpp_source.html#l00033">33</a> of file <a class="el" href="in6_2config_2_config_address_8cpp_source.html">ConfigAddress.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                                    {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a019b7c2a8a7017c536337447310aec4c">hostOpt</a> = ConfigAddressType::addressSc-&gt;add_option(<span class="stringliteral">&quot;-a,--host&quot;</span>, <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a6aa28395cf99a3586083aabb9f38cf25">host</a>, <span class="stringliteral">&quot;Host name or IP address&quot;</span>);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a019b7c2a8a7017c536337447310aec4c">hostOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[hostname|ip]&quot;</span>);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a019b7c2a8a7017c536337447310aec4c">hostOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(<span class="stringliteral">&quot;::&quot;</span>);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a9d7104548437e8da9099f93405814243">portOpt</a> = ConfigAddressType::addressSc-&gt;add_option(<span class="stringliteral">&quot;-p,--port&quot;</span>, <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#aa65a2fce6398d21852a914e24608a495">port</a>, <span class="stringliteral">&quot;Port number&quot;</span>);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a9d7104548437e8da9099f93405814243">portOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[uint16_t]&quot;</span>);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a9d7104548437e8da9099f93405814243">portOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(0);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="in6_2config_2_config_address_8cpp_source.html#l00035">35</a> of file <a class="el" href="in6_2config_2_config_address_8cpp_source.html">ConfigAddress.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                                    {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="classnet_1_1config_1_1_config_base.html#aa08565b0421efbf6c8a4a64b3ad7d76e">net::config::ConfigBase::getName</a>().empty()) {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a019b7c2a8a7017c536337447310aec4c">hostOpt</a> = ConfigAddressType::addressSc-&gt;add_option(<span class="stringliteral">&quot;--host&quot;</span>, <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a6aa28395cf99a3586083aabb9f38cf25">host</a>, <span class="stringliteral">&quot;Host name or IP address&quot;</span>);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a019b7c2a8a7017c536337447310aec4c">hostOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[hostname|ip]&quot;</span>);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a019b7c2a8a7017c536337447310aec4c">hostOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(<span class="stringliteral">&quot;::&quot;</span>);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a9d7104548437e8da9099f93405814243">portOpt</a> = ConfigAddressType::addressSc-&gt;add_option(<span class="stringliteral">&quot;--port&quot;</span>, <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#aa65a2fce6398d21852a914e24608a495">port</a>, <span class="stringliteral">&quot;Port number&quot;</span>);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a9d7104548437e8da9099f93405814243">portOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[uint16_t]&quot;</span>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a9d7104548437e8da9099f93405814243">portOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(0);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        ConfigAddressType::address.setHost(<span class="stringliteral">&quot;::&quot;</span>);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        ConfigAddressType::address.setPort(0);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
 <div class="ttc" id="aclass_c_l_i_1_1_option_html_a4685cebdb75c6bf8ce0095fd08d8b892"><div class="ttname"><a href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">CLI::Option::default_val</a></div><div class="ttdeci">Option * default_val(const X &amp;val)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l05302">CLI11.hpp:5302</a></div></div>
 <div class="ttc" id="aclass_c_l_i_1_1_option_html_addaddebd60f66aaedc13e5fb473db902"><div class="ttname"><a href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">CLI::Option::type_name</a></div><div class="ttdeci">Option * type_name(std::string typeval)</div><div class="ttdoc">Set a custom option typestring.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l05223">CLI11.hpp:5223</a></div></div>
+<div class="ttc" id="aclassnet_1_1config_1_1_config_base_html_aa08565b0421efbf6c8a4a64b3ad7d76e"><div class="ttname"><a href="classnet_1_1config_1_1_config_base.html#aa08565b0421efbf6c8a4a64b3ad7d76e">net::config::ConfigBase::getName</a></div><div class="ttdeci">const std::string &amp; getName() const</div><div class="ttdef"><b>Definition:</b> <a href="_config_base_8cpp_source.html#l00040">ConfigBase.cpp:40</a></div></div>
 <div class="ttc" id="aclassnet_1_1in6_1_1config_1_1_config_address_html_a019b7c2a8a7017c536337447310aec4c"><div class="ttname"><a href="classnet_1_1in6_1_1config_1_1_config_address.html#a019b7c2a8a7017c536337447310aec4c">net::in6::config::ConfigAddress::hostOpt</a></div><div class="ttdeci">CLI::Option * hostOpt</div><div class="ttdef"><b>Definition:</b> <a href="in6_2config_2_config_address_8h_source.html#l00052">ConfigAddress.h:52</a></div></div>
 <div class="ttc" id="aclassnet_1_1in6_1_1config_1_1_config_address_html_a6aa28395cf99a3586083aabb9f38cf25"><div class="ttname"><a href="classnet_1_1in6_1_1config_1_1_config_address.html#a6aa28395cf99a3586083aabb9f38cf25">net::in6::config::ConfigAddress::host</a></div><div class="ttdeci">std::string host</div><div class="ttdef"><b>Definition:</b> <a href="in6_2config_2_config_address_8h_source.html#l00058">ConfigAddress.h:58</a></div></div>
 <div class="ttc" id="aclassnet_1_1in6_1_1config_1_1_config_address_html_a9d7104548437e8da9099f93405814243"><div class="ttname"><a href="classnet_1_1in6_1_1config_1_1_config_address.html#a9d7104548437e8da9099f93405814243">net::in6::config::ConfigAddress::portOpt</a></div><div class="ttdeci">CLI::Option * portOpt</div><div class="ttdef"><b>Definition:</b> <a href="in6_2config_2_config_address_8h_source.html#l00053">ConfigAddress.h:53</a></div></div>
 <div class="ttc" id="aclassnet_1_1in6_1_1config_1_1_config_address_html_aa65a2fce6398d21852a914e24608a495"><div class="ttname"><a href="classnet_1_1in6_1_1config_1_1_config_address.html#aa65a2fce6398d21852a914e24608a495">net::in6::config::ConfigAddress::port</a></div><div class="ttdeci">uint16_t port</div><div class="ttdef"><b>Definition:</b> <a href="in6_2config_2_config_address_8h_source.html#l00059">ConfigAddress.h:59</a></div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="_config_base_8cpp_source.html#l00040">net::config::ConfigBase::getName()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1in6_1_1config_1_1_config_address_a17e16d5c997d6f04a7181320975e69d7_cgraph.svg" width="408" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -262,12 +283,13 @@ template&lt;template&lt; typename SocketAddress &gt; typename ConfigAddressType&
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="in6_2config_2_config_address_8cpp_source.html#l00049">49</a> of file <a class="el" href="in6_2config_2_config_address_8cpp_source.html">ConfigAddress.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                                                        {</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        ConfigAddressType::require(<a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a9d7104548437e8da9099f93405814243">portOpt</a>);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="in6_2config_2_config_address_8cpp_source.html#l00057">57</a> of file <a class="el" href="in6_2config_2_config_address_8cpp_source.html">ConfigAddress.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                                                        {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        ConfigAddressType::require(<a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a9d7104548437e8da9099f93405814243">portOpt</a>);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a9d7104548437e8da9099f93405814243">portOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="in6_2stream_2config_2_config_server_socket_8cpp_source.html#l00027">net::in6::stream::config::ConfigServerSocket::ConfigServerSocket()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="in6_2stream_2config_2_config_server_socket_8cpp_source.html#l00029">net::in6::stream::config::ConfigServerSocket::ConfigServerSocket()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -299,12 +321,14 @@ template&lt;template&lt; typename SocketAddress &gt; typename ConfigAddressType&
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="in6_2config_2_config_address_8cpp_source.html#l00044">44</a> of file <a class="el" href="in6_2config_2_config_address_8cpp_source.html">ConfigAddress.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                                                    {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        ConfigAddressType::require(<a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a019b7c2a8a7017c536337447310aec4c">hostOpt</a>, <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a9d7104548437e8da9099f93405814243">portOpt</a>);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="in6_2config_2_config_address_8cpp_source.html#l00050">50</a> of file <a class="el" href="in6_2config_2_config_address_8cpp_source.html">ConfigAddress.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                                                    {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        ConfigAddressType::require(<a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a019b7c2a8a7017c536337447310aec4c">hostOpt</a>, <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a9d7104548437e8da9099f93405814243">portOpt</a>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a019b7c2a8a7017c536337447310aec4c">hostOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a9d7104548437e8da9099f93405814243">portOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="in6_2stream_2config_2_config_client_socket_8cpp_source.html#l00027">net::in6::stream::config::ConfigClientSocket::ConfigClientSocket()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="in6_2stream_2config_2_config_client_socket_8cpp_source.html#l00029">net::in6::stream::config::ConfigClientSocket::ConfigClientSocket()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -336,15 +360,15 @@ template&lt;template&lt; typename SocketAddress &gt; typename ConfigAddressType&
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="in6_2config_2_config_address_8cpp_source.html#l00054">54</a> of file <a class="el" href="in6_2config_2_config_address_8cpp_source.html">ConfigAddress.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                                                 {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a019b7c2a8a7017c536337447310aec4c">hostOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a154543609c45d9c59c69991a08ca272b">count</a>() &gt; 0) {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            ConfigAddressType::address.setHost(<a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a6aa28395cf99a3586083aabb9f38cf25">host</a>);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        }</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a9d7104548437e8da9099f93405814243">portOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a154543609c45d9c59c69991a08ca272b">count</a>() &gt; 0) {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            ConfigAddressType::address.setPort(<a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#aa65a2fce6398d21852a914e24608a495">port</a>);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        }</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="in6_2config_2_config_address_8cpp_source.html#l00063">63</a> of file <a class="el" href="in6_2config_2_config_address_8cpp_source.html">ConfigAddress.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a019b7c2a8a7017c536337447310aec4c">hostOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a154543609c45d9c59c69991a08ca272b">count</a>() &gt; 0) {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            ConfigAddressType::address.setHost(<a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a6aa28395cf99a3586083aabb9f38cf25">host</a>);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        }</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#a9d7104548437e8da9099f93405814243">portOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a154543609c45d9c59c69991a08ca272b">count</a>() &gt; 0) {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            ConfigAddressType::address.setPort(<a class="code" href="classnet_1_1in6_1_1config_1_1_config_address.html#aa65a2fce6398d21852a914e24608a495">port</a>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
 <div class="ttc" id="aclass_c_l_i_1_1_option_html_a154543609c45d9c59c69991a08ca272b"><div class="ttname"><a href="class_c_l_i_1_1_option.html#a154543609c45d9c59c69991a08ca272b">CLI::Option::count</a></div><div class="ttdeci">std::size_t count() const</div><div class="ttdoc">Count the total number of times an option was passed.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l04436">CLI11.hpp:4436</a></div></div>
 </div><!-- fragment -->
 </div>

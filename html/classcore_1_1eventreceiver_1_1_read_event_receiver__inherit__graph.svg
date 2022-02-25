@@ -13,17 +13,17 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="222.5,-1102.5 222.5,-1214.5 353.5,-1214.5 353.5,-1102.5 222.5,-1102.5"/>
-<text text-anchor="start" x="230.5" y="-1202.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::eventreceiver</text>
-<text text-anchor="middle" x="288" y="-1191.5" font-family="Helvetica,sans-Serif" font-size="10.00">::ReadEventReceiver</text>
-<polyline fill="none" stroke="black" points="222.5,-1184.5 353.5,-1184.5 "/>
-<text text-anchor="middle" x="288" y="-1172.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="222.5,-1165.5 353.5,-1165.5 "/>
-<text text-anchor="start" x="230.5" y="-1153.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ReadEventReceiver()</text>
-<text text-anchor="start" x="230.5" y="-1142.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readEvent()</text>
-<text text-anchor="start" x="230.5" y="-1131.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readTimeout()</text>
-<text text-anchor="start" x="230.5" y="-1120.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; dispatchEvent()</text>
-<text text-anchor="start" x="230.5" y="-1109.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; timeoutEvent()</text>
+<polygon fill="#bfbfbf" stroke="black" points="222.5,-1091.5 222.5,-1203.5 353.5,-1203.5 353.5,-1091.5 222.5,-1091.5"/>
+<text text-anchor="start" x="230.5" y="-1191.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::eventreceiver</text>
+<text text-anchor="middle" x="288" y="-1180.5" font-family="Helvetica,sans-Serif" font-size="10.00">::ReadEventReceiver</text>
+<polyline fill="none" stroke="black" points="222.5,-1173.5 353.5,-1173.5 "/>
+<text text-anchor="middle" x="288" y="-1161.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="222.5,-1154.5 353.5,-1154.5 "/>
+<text text-anchor="start" x="230.5" y="-1142.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ReadEventReceiver()</text>
+<text text-anchor="start" x="230.5" y="-1131.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readEvent()</text>
+<text text-anchor="start" x="230.5" y="-1120.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readTimeout()</text>
+<text text-anchor="start" x="230.5" y="-1109.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; dispatchEvent()</text>
+<text text-anchor="start" x="230.5" y="-1098.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; timeoutEvent()</text>
 </a>
 </g>
 </g>
@@ -31,136 +31,138 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="classcore_1_1pipe_1_1_pipe_sink.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-849 0,-1016 120,-1016 120,-849 0,-849"/>
-<text text-anchor="middle" x="60" y="-1004" font-family="Helvetica,sans-Serif" font-size="10.00">core::pipe::PipeSink</text>
-<polyline fill="none" stroke="black" points="0,-997 120,-997 "/>
-<text text-anchor="start" x="8" y="-985" font-family="Helvetica,sans-Serif" font-size="10.00"># onData</text>
-<text text-anchor="start" x="8" y="-974" font-family="Helvetica,sans-Serif" font-size="10.00"># onEof</text>
-<text text-anchor="start" x="8" y="-963" font-family="Helvetica,sans-Serif" font-size="10.00"># onError</text>
-<polyline fill="none" stroke="black" points="0,-956 120,-956 "/>
-<text text-anchor="start" x="8" y="-944" font-family="Helvetica,sans-Serif" font-size="10.00">+ PipeSink()</text>
-<text text-anchor="start" x="8" y="-933" font-family="Helvetica,sans-Serif" font-size="10.00">+ setOnData()</text>
-<text text-anchor="start" x="8" y="-922" font-family="Helvetica,sans-Serif" font-size="10.00">+ setOnEof()</text>
-<text text-anchor="start" x="8" y="-911" font-family="Helvetica,sans-Serif" font-size="10.00">+ setOnError()</text>
-<text text-anchor="start" x="8" y="-900" font-family="Helvetica,sans-Serif" font-size="10.00"># readEvent()</text>
-<text text-anchor="start" x="8" y="-889" font-family="Helvetica,sans-Serif" font-size="10.00"># unobservedEvent()</text>
-<text text-anchor="start" x="8" y="-878" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; PipeSink()</text>
-<text text-anchor="start" x="8" y="-867" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; operator=()</text>
-<text text-anchor="start" x="8" y="-856" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; terminate()</text>
+<polygon fill="white" stroke="black" points="0,-827 0,-1005 120,-1005 120,-827 0,-827"/>
+<text text-anchor="middle" x="60" y="-993" font-family="Helvetica,sans-Serif" font-size="10.00">core::pipe::PipeSink</text>
+<polyline fill="none" stroke="black" points="0,-986 120,-986 "/>
+<text text-anchor="start" x="8" y="-974" font-family="Helvetica,sans-Serif" font-size="10.00"># onData</text>
+<text text-anchor="start" x="8" y="-963" font-family="Helvetica,sans-Serif" font-size="10.00"># onEof</text>
+<text text-anchor="start" x="8" y="-952" font-family="Helvetica,sans-Serif" font-size="10.00"># onError</text>
+<polyline fill="none" stroke="black" points="0,-945 120,-945 "/>
+<text text-anchor="start" x="8" y="-933" font-family="Helvetica,sans-Serif" font-size="10.00">+ PipeSink()</text>
+<text text-anchor="start" x="8" y="-922" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~PipeSink()</text>
+<text text-anchor="start" x="8" y="-911" font-family="Helvetica,sans-Serif" font-size="10.00">+ setOnData()</text>
+<text text-anchor="start" x="8" y="-900" font-family="Helvetica,sans-Serif" font-size="10.00">+ setOnEof()</text>
+<text text-anchor="start" x="8" y="-889" font-family="Helvetica,sans-Serif" font-size="10.00">+ setOnError()</text>
+<text text-anchor="start" x="8" y="-878" font-family="Helvetica,sans-Serif" font-size="10.00"># readEvent()</text>
+<text text-anchor="start" x="8" y="-867" font-family="Helvetica,sans-Serif" font-size="10.00"># unobservedEvent()</text>
+<text text-anchor="start" x="8" y="-856" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; PipeSink()</text>
+<text text-anchor="start" x="8" y="-845" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; operator=()</text>
+<text text-anchor="start" x="8" y="-834" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; terminate()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M213.02,-1125.56C184.19,-1110.59 152.57,-1090.58 129,-1066 115.18,-1051.58 103.43,-1033.85 93.76,-1016.11"/>
-<polygon fill="none" stroke="midnightblue" points="211.77,-1128.85 222.27,-1130.24 214.93,-1122.6 211.77,-1128.85"/>
+<path fill="none" stroke="midnightblue" d="M213.18,-1114.95C184.22,-1099.99 152.46,-1079.88 129,-1055 115.4,-1040.58 103.9,-1022.97 94.42,-1005.21"/>
+<polygon fill="none" stroke="midnightblue" points="211.96,-1118.25 222.47,-1119.62 215.11,-1112 211.96,-1118.25"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="classcore_1_1socket_1_1stream_1_1_socket_reader.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="138,-799.5 138,-1065.5 288,-1065.5 288,-799.5 138,-799.5"/>
-<text text-anchor="start" x="146" y="-1053.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="middle" x="213" y="-1042.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketReader&lt; SocketT &gt;</text>
-<polyline fill="none" stroke="black" points="138,-1035.5 288,-1035.5 "/>
-<text text-anchor="start" x="146" y="-1023.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onError</text>
-<text text-anchor="start" x="146" y="-1012.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readBuffer</text>
-<text text-anchor="start" x="146" y="-1001.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; blockSize</text>
-<text text-anchor="start" x="146" y="-990.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; size</text>
-<text text-anchor="start" x="146" y="-979.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; cursor</text>
-<text text-anchor="start" x="146" y="-968.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; shutdownTriggered</text>
-<text text-anchor="start" x="146" y="-957.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; terminateInProgress</text>
-<text text-anchor="start" x="146" y="-946.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; terminateTimeout</text>
-<polyline fill="none" stroke="black" points="138,-939.5 288,-939.5 "/>
-<text text-anchor="start" x="146" y="-927.5" font-family="Helvetica,sans-Serif" font-size="10.00"># SocketReader()</text>
-<text text-anchor="start" x="146" y="-916.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ~SocketReader()</text>
-<text text-anchor="start" x="146" y="-905.5" font-family="Helvetica,sans-Serif" font-size="10.00"># setBlockSize()</text>
-<text text-anchor="start" x="146" y="-894.5" font-family="Helvetica,sans-Serif" font-size="10.00"># doReadShutdown()</text>
-<text text-anchor="start" x="146" y="-883.5" font-family="Helvetica,sans-Serif" font-size="10.00"># readFromPeer()</text>
-<text text-anchor="start" x="146" y="-872.5" font-family="Helvetica,sans-Serif" font-size="10.00"># doRead()</text>
-<text text-anchor="start" x="146" y="-861.5" font-family="Helvetica,sans-Serif" font-size="10.00"># hasBufferedData()</text>
-<text text-anchor="start" x="146" y="-850.5" font-family="Helvetica,sans-Serif" font-size="10.00"># shutdown()</text>
-<text text-anchor="start" x="146" y="-839.5" font-family="Helvetica,sans-Serif" font-size="10.00"># terminate()</text>
-<text text-anchor="start" x="146" y="-828.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketReader()</text>
-<text text-anchor="start" x="146" y="-817.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; read()</text>
-<text text-anchor="start" x="146" y="-806.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readEvent()</text>
+<polygon fill="white" stroke="black" points="138,-777.5 138,-1054.5 288,-1054.5 288,-777.5 138,-777.5"/>
+<text text-anchor="start" x="146" y="-1042.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
+<text text-anchor="middle" x="213" y="-1031.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketReader&lt; SocketT &gt;</text>
+<polyline fill="none" stroke="black" points="138,-1024.5 288,-1024.5 "/>
+<text text-anchor="start" x="146" y="-1012.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onError</text>
+<text text-anchor="start" x="146" y="-1001.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readBuffer</text>
+<text text-anchor="start" x="146" y="-990.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; blockSize</text>
+<text text-anchor="start" x="146" y="-979.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; size</text>
+<text text-anchor="start" x="146" y="-968.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; cursor</text>
+<text text-anchor="start" x="146" y="-957.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; shutdownTriggered</text>
+<text text-anchor="start" x="146" y="-946.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; terminateInProgress</text>
+<text text-anchor="start" x="146" y="-935.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; terminateTimeout</text>
+<polyline fill="none" stroke="black" points="138,-928.5 288,-928.5 "/>
+<text text-anchor="start" x="146" y="-916.5" font-family="Helvetica,sans-Serif" font-size="10.00"># SocketReader()</text>
+<text text-anchor="start" x="146" y="-905.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ~SocketReader()</text>
+<text text-anchor="start" x="146" y="-894.5" font-family="Helvetica,sans-Serif" font-size="10.00"># setBlockSize()</text>
+<text text-anchor="start" x="146" y="-883.5" font-family="Helvetica,sans-Serif" font-size="10.00"># doReadShutdown()</text>
+<text text-anchor="start" x="146" y="-872.5" font-family="Helvetica,sans-Serif" font-size="10.00"># readFromPeer()</text>
+<text text-anchor="start" x="146" y="-861.5" font-family="Helvetica,sans-Serif" font-size="10.00"># doRead()</text>
+<text text-anchor="start" x="146" y="-850.5" font-family="Helvetica,sans-Serif" font-size="10.00"># hasBufferedData()</text>
+<text text-anchor="start" x="146" y="-839.5" font-family="Helvetica,sans-Serif" font-size="10.00"># shutdown()</text>
+<text text-anchor="start" x="146" y="-828.5" font-family="Helvetica,sans-Serif" font-size="10.00"># terminate()</text>
+<text text-anchor="start" x="146" y="-817.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketReader()</text>
+<text text-anchor="start" x="146" y="-806.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; read()</text>
+<text text-anchor="start" x="146" y="-795.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readEvent()</text>
+<text text-anchor="start" x="146" y="-784.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; isToBeContinued()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M266.35,-1092.84C263.45,-1084.17 260.39,-1075.04 257.27,-1065.71"/>
-<polygon fill="none" stroke="midnightblue" points="263.06,-1094.05 269.56,-1102.42 269.7,-1091.82 263.06,-1094.05"/>
+<path fill="none" stroke="midnightblue" d="M266.75,-1081.49C263.98,-1072.99 261.06,-1064.05 258.07,-1054.9"/>
+<polygon fill="none" stroke="midnightblue" points="263.51,-1082.82 269.94,-1091.24 270.16,-1080.64 263.51,-1082.82"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
 <g id="a_node13"><a xlink:href="classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="306,-838 306,-1027 422,-1027 422,-838 306,-838"/>
-<text text-anchor="start" x="314" y="-1015" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="middle" x="364" y="-1004" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::TLSHandshake</text>
-<polyline fill="none" stroke="black" points="306,-997 422,-997 "/>
-<text text-anchor="start" x="314" y="-985" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; ssl</text>
-<text text-anchor="start" x="314" y="-974" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onSuccess</text>
-<text text-anchor="start" x="314" y="-963" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onTimeout</text>
-<text text-anchor="start" x="314" y="-952" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onError</text>
-<text text-anchor="start" x="314" y="-941" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; timeoutTriggered</text>
-<text text-anchor="start" x="314" y="-930" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; fd</text>
-<polyline fill="none" stroke="black" points="306,-923 422,-923 "/>
-<text text-anchor="start" x="314" y="-911" font-family="Helvetica,sans-Serif" font-size="10.00">+ doHandshake()</text>
-<text text-anchor="start" x="314" y="-900" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; TLSHandshake()</text>
-<text text-anchor="start" x="314" y="-889" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readEvent()</text>
-<text text-anchor="start" x="314" y="-878" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; writeEvent()</text>
-<text text-anchor="start" x="314" y="-867" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readTimeout()</text>
-<text text-anchor="start" x="314" y="-856" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; writeTimeout()</text>
-<text text-anchor="start" x="314" y="-845" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; unobservedEvent()</text>
+<polygon fill="white" stroke="black" points="306,-821.5 306,-1010.5 422,-1010.5 422,-821.5 306,-821.5"/>
+<text text-anchor="start" x="314" y="-998.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
+<text text-anchor="middle" x="364" y="-987.5" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::TLSHandshake</text>
+<polyline fill="none" stroke="black" points="306,-980.5 422,-980.5 "/>
+<text text-anchor="start" x="314" y="-968.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; ssl</text>
+<text text-anchor="start" x="314" y="-957.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onSuccess</text>
+<text text-anchor="start" x="314" y="-946.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onTimeout</text>
+<text text-anchor="start" x="314" y="-935.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onError</text>
+<text text-anchor="start" x="314" y="-924.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; timeoutTriggered</text>
+<text text-anchor="start" x="314" y="-913.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; fd</text>
+<polyline fill="none" stroke="black" points="306,-906.5 422,-906.5 "/>
+<text text-anchor="start" x="314" y="-894.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ doHandshake()</text>
+<text text-anchor="start" x="314" y="-883.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; TLSHandshake()</text>
+<text text-anchor="start" x="314" y="-872.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readEvent()</text>
+<text text-anchor="start" x="314" y="-861.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; writeEvent()</text>
+<text text-anchor="start" x="314" y="-850.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readTimeout()</text>
+<text text-anchor="start" x="314" y="-839.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; writeTimeout()</text>
+<text text-anchor="start" x="314" y="-828.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; unobservedEvent()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node13 -->
 <g id="edge12" class="edge">
 <title>Node1&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M309.92,-1092.9C316.87,-1072.41 324.7,-1049.34 332.19,-1027.24"/>
-<polygon fill="none" stroke="midnightblue" points="306.59,-1091.82 306.69,-1102.42 313.22,-1094.07 306.59,-1091.82"/>
+<path fill="none" stroke="midnightblue" d="M309.47,-1081.67C316.76,-1059.65 325.06,-1034.58 332.95,-1010.76"/>
+<polygon fill="none" stroke="midnightblue" points="306.12,-1080.64 306.3,-1091.24 312.77,-1082.84 306.12,-1080.64"/>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
 <g id="a_node14"><a xlink:href="classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="440,-838 440,-1027 556,-1027 556,-838 440,-838"/>
-<text text-anchor="start" x="448" y="-1015" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="middle" x="498" y="-1004" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::TLSShutdown</text>
-<polyline fill="none" stroke="black" points="440,-997 556,-997 "/>
-<text text-anchor="start" x="448" y="-985" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; ssl</text>
-<text text-anchor="start" x="448" y="-974" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onSuccess</text>
-<text text-anchor="start" x="448" y="-963" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onTimeout</text>
-<text text-anchor="start" x="448" y="-952" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onError</text>
-<text text-anchor="start" x="448" y="-941" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; timeoutTriggered</text>
-<text text-anchor="start" x="448" y="-930" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; fd</text>
-<polyline fill="none" stroke="black" points="440,-923 556,-923 "/>
-<text text-anchor="start" x="448" y="-911" font-family="Helvetica,sans-Serif" font-size="10.00">+ doShutdown()</text>
-<text text-anchor="start" x="448" y="-900" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; TLSShutdown()</text>
-<text text-anchor="start" x="448" y="-889" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readEvent()</text>
-<text text-anchor="start" x="448" y="-878" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; writeEvent()</text>
-<text text-anchor="start" x="448" y="-867" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readTimeout()</text>
-<text text-anchor="start" x="448" y="-856" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; writeTimeout()</text>
-<text text-anchor="start" x="448" y="-845" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; unobservedEvent()</text>
+<polygon fill="white" stroke="black" points="440,-821.5 440,-1010.5 556,-1010.5 556,-821.5 440,-821.5"/>
+<text text-anchor="start" x="448" y="-998.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
+<text text-anchor="middle" x="498" y="-987.5" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::TLSShutdown</text>
+<polyline fill="none" stroke="black" points="440,-980.5 556,-980.5 "/>
+<text text-anchor="start" x="448" y="-968.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; ssl</text>
+<text text-anchor="start" x="448" y="-957.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onSuccess</text>
+<text text-anchor="start" x="448" y="-946.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onTimeout</text>
+<text text-anchor="start" x="448" y="-935.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onError</text>
+<text text-anchor="start" x="448" y="-924.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; timeoutTriggered</text>
+<text text-anchor="start" x="448" y="-913.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; fd</text>
+<polyline fill="none" stroke="black" points="440,-906.5 556,-906.5 "/>
+<text text-anchor="start" x="448" y="-894.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ doShutdown()</text>
+<text text-anchor="start" x="448" y="-883.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; TLSShutdown()</text>
+<text text-anchor="start" x="448" y="-872.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readEvent()</text>
+<text text-anchor="start" x="448" y="-861.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; writeEvent()</text>
+<text text-anchor="start" x="448" y="-850.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readTimeout()</text>
+<text text-anchor="start" x="448" y="-839.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; writeTimeout()</text>
+<text text-anchor="start" x="448" y="-828.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; unobservedEvent()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node14 -->
 <g id="edge13" class="edge">
 <title>Node1&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M362.4,-1120.24C386.39,-1105.68 411.73,-1087.33 431,-1066 441.46,-1054.43 450.71,-1040.93 458.75,-1027.05"/>
-<polygon fill="none" stroke="midnightblue" points="360.45,-1117.32 353.63,-1125.43 364.02,-1123.34 360.45,-1117.32"/>
+<path fill="none" stroke="midnightblue" d="M362.6,-1109.41C386.6,-1094.87 411.9,-1076.48 431,-1055 442.68,-1041.86 452.79,-1026.33 461.36,-1010.5"/>
+<polygon fill="none" stroke="midnightblue" points="360.65,-1106.5 353.82,-1114.6 364.21,-1112.52 360.65,-1106.5"/>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="classcore_1_1_descriptor_event_receiver.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="206,-1251.5 206,-1594.5 370,-1594.5 370,-1251.5 206,-1251.5"/>
+<polygon fill="white" stroke="black" points="206,-1240.5 206,-1594.5 370,-1594.5 370,-1240.5 206,-1240.5"/>
 <text text-anchor="middle" x="288" y="-1582.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::DescriptorEventReceiver</text>
 <polyline fill="none" stroke="black" points="206,-1575.5 370,-1575.5 "/>
 <text text-anchor="start" x="214" y="-1563.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; descriptorEventPublisher</text>
@@ -190,16 +192,17 @@
 <text text-anchor="start" x="214" y="-1302.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; triggered()</text>
 <text text-anchor="start" x="214" y="-1291.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; setEnabled()</text>
 <text text-anchor="start" x="214" y="-1280.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; setDisabled()</text>
-<text text-anchor="start" x="214" y="-1269.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; dispatchEvent()</text>
-<text text-anchor="start" x="214" y="-1258.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; timeoutEvent()</text>
+<text text-anchor="start" x="214" y="-1269.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; isToBeContinued()</text>
+<text text-anchor="start" x="214" y="-1258.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; dispatchEvent()</text>
+<text text-anchor="start" x="214" y="-1247.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; timeoutEvent()</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M288,-1241.06C288,-1231.75 288,-1222.83 288,-1214.53"/>
-<polygon fill="none" stroke="midnightblue" points="284.5,-1241.31 288,-1251.31 291.5,-1241.31 284.5,-1241.31"/>
+<path fill="none" stroke="midnightblue" d="M288,-1230.15C288,-1220.87 288,-1212 288,-1203.74"/>
+<polygon fill="none" stroke="midnightblue" points="284.5,-1230.36 288,-1240.36 291.5,-1230.36 284.5,-1230.36"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -222,8 +225,8 @@
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M231.53,-1621.63C233.99,-1613.04 236.59,-1603.93 239.28,-1594.52"/>
-<polygon fill="none" stroke="midnightblue" points="228.1,-1620.89 228.72,-1631.47 234.84,-1622.82 228.1,-1620.89"/>
+<path fill="none" stroke="midnightblue" d="M231.18,-1621.53C233.57,-1613 236.1,-1603.96 238.71,-1594.62"/>
+<polygon fill="none" stroke="midnightblue" points="227.77,-1620.72 228.45,-1631.3 234.51,-1622.61 227.77,-1620.72"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -246,87 +249,85 @@
 <!-- Node4&#45;&gt;Node2 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M344.47,-1621.63C342.01,-1613.04 339.41,-1603.93 336.72,-1594.52"/>
-<polygon fill="none" stroke="midnightblue" points="341.16,-1622.82 347.28,-1631.47 347.9,-1620.89 341.16,-1622.82"/>
+<path fill="none" stroke="midnightblue" d="M344.82,-1621.53C342.43,-1613 339.9,-1603.96 337.29,-1594.62"/>
+<polygon fill="none" stroke="midnightblue" points="341.49,-1622.61 347.55,-1631.3 348.23,-1620.72 341.49,-1622.61"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="69.5,-656 69.5,-746 196.5,-746 196.5,-656 69.5,-656"/>
-<text text-anchor="start" x="77.5" y="-734" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="start" x="77.5" y="-723" font-family="Helvetica,sans-Serif" font-size="10.00">::legacy::SocketReader</text>
-<text text-anchor="middle" x="133" y="-712" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; SocketT &gt;</text>
-<polyline fill="none" stroke="black" points="69.5,-705 196.5,-705 "/>
-<text text-anchor="middle" x="133" y="-693" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="69.5,-686 196.5,-686 "/>
-<text text-anchor="start" x="77.5" y="-674" font-family="Helvetica,sans-Serif" font-size="10.00"># terminate()</text>
-<text text-anchor="start" x="77.5" y="-663" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; read()</text>
+<polygon fill="white" stroke="black" points="69.5,-634 69.5,-724 196.5,-724 196.5,-634 69.5,-634"/>
+<text text-anchor="start" x="77.5" y="-712" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
+<text text-anchor="start" x="77.5" y="-701" font-family="Helvetica,sans-Serif" font-size="10.00">::legacy::SocketReader</text>
+<text text-anchor="middle" x="133" y="-690" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; SocketT &gt;</text>
+<polyline fill="none" stroke="black" points="69.5,-683 196.5,-683 "/>
+<text text-anchor="middle" x="133" y="-671" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="69.5,-664 196.5,-664 "/>
+<text text-anchor="start" x="77.5" y="-652" font-family="Helvetica,sans-Serif" font-size="10.00"># terminate()</text>
+<text text-anchor="start" x="77.5" y="-641" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; read()</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M163.51,-789.53C158.07,-773.93 152.88,-759.04 148.38,-746.11"/>
-<polygon fill="none" stroke="midnightblue" points="160.33,-791.04 166.93,-799.33 166.94,-788.73 160.33,-791.04"/>
+<path fill="none" stroke="midnightblue" d="M162.8,-767.54C157.52,-752.04 152.5,-737.28 148.13,-724.45"/>
+<polygon fill="none" stroke="midnightblue" points="159.58,-768.94 166.12,-777.28 166.21,-766.69 159.58,-768.94"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
 <g id="a_node10"><a xlink:href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_reader.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="233.5,-639.5 233.5,-762.5 352.5,-762.5 352.5,-639.5 233.5,-639.5"/>
-<text text-anchor="start" x="241.5" y="-750.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="start" x="241.5" y="-739.5" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketReader&lt;</text>
-<text text-anchor="middle" x="293" y="-728.5" font-family="Helvetica,sans-Serif" font-size="10.00"> SocketT &gt;</text>
-<polyline fill="none" stroke="black" points="233.5,-721.5 352.5,-721.5 "/>
-<text text-anchor="start" x="241.5" y="-709.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ssl</text>
-<text text-anchor="start" x="241.5" y="-698.5" font-family="Helvetica,sans-Serif" font-size="10.00"># sslErr</text>
-<polyline fill="none" stroke="black" points="233.5,-691.5 352.5,-691.5 "/>
-<text text-anchor="start" x="241.5" y="-679.5" font-family="Helvetica,sans-Serif" font-size="10.00"># hasBufferedData()</text>
-<text text-anchor="start" x="241.5" y="-668.5" font-family="Helvetica,sans-Serif" font-size="10.00"># terminate()</text>
-<text text-anchor="start" x="241.5" y="-657.5" font-family="Helvetica,sans-Serif" font-size="10.00"># doSSLHandshake()</text>
-<text text-anchor="start" x="241.5" y="-646.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; read()</text>
+<polygon fill="white" stroke="black" points="233.5,-617.5 233.5,-740.5 352.5,-740.5 352.5,-617.5 233.5,-617.5"/>
+<text text-anchor="start" x="241.5" y="-728.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
+<text text-anchor="start" x="241.5" y="-717.5" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketReader&lt;</text>
+<text text-anchor="middle" x="293" y="-706.5" font-family="Helvetica,sans-Serif" font-size="10.00"> SocketT &gt;</text>
+<polyline fill="none" stroke="black" points="233.5,-699.5 352.5,-699.5 "/>
+<text text-anchor="start" x="241.5" y="-687.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ssl</text>
+<text text-anchor="start" x="241.5" y="-676.5" font-family="Helvetica,sans-Serif" font-size="10.00"># sslErr</text>
+<polyline fill="none" stroke="black" points="233.5,-669.5 352.5,-669.5 "/>
+<text text-anchor="start" x="241.5" y="-657.5" font-family="Helvetica,sans-Serif" font-size="10.00"># hasBufferedData()</text>
+<text text-anchor="start" x="241.5" y="-646.5" font-family="Helvetica,sans-Serif" font-size="10.00"># terminate()</text>
+<text text-anchor="start" x="241.5" y="-635.5" font-family="Helvetica,sans-Serif" font-size="10.00"># doSSLHandshake()</text>
+<text text-anchor="start" x="241.5" y="-624.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; read()</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node10 -->
 <g id="edge9" class="edge">
 <title>Node6&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M262.38,-789.83C265.67,-780.4 268.87,-771.24 271.88,-762.6"/>
-<polygon fill="none" stroke="midnightblue" points="259.06,-788.73 259.07,-799.33 265.67,-791.04 259.06,-788.73"/>
+<path fill="none" stroke="midnightblue" d="M263.11,-767.81C266.3,-758.42 269.41,-749.3 272.33,-740.71"/>
+<polygon fill="none" stroke="midnightblue" points="259.79,-766.69 259.88,-777.28 266.42,-768.94 259.79,-766.69"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="classcore_1_1socket_1_1stream_1_1_socket_connection.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-248.5 0,-602.5 190,-602.5 190,-248.5 0,-248.5"/>
-<text text-anchor="start" x="8" y="-590.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="start" x="8" y="-579.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketConnection&lt; core</text>
-<text text-anchor="start" x="8" y="-568.5" font-family="Helvetica,sans-Serif" font-size="10.00">::socket::stream::legacy</text>
-<text text-anchor="start" x="8" y="-557.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketReader&lt; SocketT &gt;</text>
-<text text-anchor="start" x="8" y="-546.5" font-family="Helvetica,sans-Serif" font-size="10.00">, core::socket::stream::legacy</text>
-<text text-anchor="start" x="8" y="-535.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketWriter&lt; SocketT &gt;, SocketT</text>
-<text text-anchor="middle" x="95" y="-524.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketAddress &gt;</text>
-<polyline fill="none" stroke="black" points="0,-517.5 190,-517.5 "/>
-<text text-anchor="start" x="8" y="-505.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; localAddress</text>
-<text text-anchor="start" x="8" y="-494.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; remoteAddress</text>
-<text text-anchor="start" x="8" y="-483.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; newSocketContext</text>
-<text text-anchor="start" x="8" y="-472.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onDisconnect</text>
-<polyline fill="none" stroke="black" points="0,-465.5 190,-465.5 "/>
-<text text-anchor="start" x="8" y="-453.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ close()</text>
-<text text-anchor="start" x="8" y="-442.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ shutdownRead()</text>
-<text text-anchor="start" x="8" y="-431.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ shutdownWrite()</text>
-<text text-anchor="start" x="8" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setTimeout()</text>
-<text text-anchor="start" x="8" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getRemoteAddress()</text>
-<text text-anchor="start" x="8" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getLocalAddress()</text>
-<text text-anchor="start" x="8" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getDescriptor()</text>
-<text text-anchor="start" x="8" y="-376.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getSocketContext()</text>
-<text text-anchor="start" x="8" y="-365.5" font-family="Helvetica,sans-Serif" font-size="10.00"># SocketConnection()</text>
-<text text-anchor="start" x="8" y="-354.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ~SocketConnection()</text>
-<text text-anchor="start" x="8" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketConnection()</text>
-<text text-anchor="start" x="8" y="-332.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; getLocalAddressAsString()</text>
-<text text-anchor="start" x="8" y="-321.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; getRemoteAddressAsString()</text>
+<polygon fill="white" stroke="black" points="0,-248.5 0,-580.5 190,-580.5 190,-248.5 0,-248.5"/>
+<text text-anchor="start" x="8" y="-568.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
+<text text-anchor="start" x="8" y="-557.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketConnection&lt; core</text>
+<text text-anchor="start" x="8" y="-546.5" font-family="Helvetica,sans-Serif" font-size="10.00">::socket::stream::legacy</text>
+<text text-anchor="start" x="8" y="-535.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketReader&lt; SocketT &gt;</text>
+<text text-anchor="start" x="8" y="-524.5" font-family="Helvetica,sans-Serif" font-size="10.00">, core::socket::stream::legacy</text>
+<text text-anchor="start" x="8" y="-513.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketWriter&lt; SocketT &gt;, SocketT</text>
+<text text-anchor="middle" x="95" y="-502.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketAddress &gt;</text>
+<polyline fill="none" stroke="black" points="0,-495.5 190,-495.5 "/>
+<text text-anchor="start" x="8" y="-483.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; localAddress</text>
+<text text-anchor="start" x="8" y="-472.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; remoteAddress</text>
+<text text-anchor="start" x="8" y="-461.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; newSocketContext</text>
+<text text-anchor="start" x="8" y="-450.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onDisconnect</text>
+<polyline fill="none" stroke="black" points="0,-443.5 190,-443.5 "/>
+<text text-anchor="start" x="8" y="-431.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ close()</text>
+<text text-anchor="start" x="8" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ shutdownRead()</text>
+<text text-anchor="start" x="8" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ shutdownWrite()</text>
+<text text-anchor="start" x="8" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setTimeout()</text>
+<text text-anchor="start" x="8" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getRemoteAddress()</text>
+<text text-anchor="start" x="8" y="-376.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getLocalAddress()</text>
+<text text-anchor="start" x="8" y="-365.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getDescriptor()</text>
+<text text-anchor="start" x="8" y="-354.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getSocketContext()</text>
+<text text-anchor="start" x="8" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00"># SocketConnection()</text>
+<text text-anchor="start" x="8" y="-332.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ~SocketConnection()</text>
+<text text-anchor="start" x="8" y="-321.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketConnection()</text>
 <text text-anchor="start" x="8" y="-310.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readFromPeer()</text>
 <text text-anchor="start" x="8" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; sendToPeer()</text>
 <text text-anchor="start" x="8" y="-288.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; sendToPeer()</text>
@@ -339,8 +340,8 @@
 <!-- Node7&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="darkgreen" d="M125.45,-645.67C123.64,-632.65 121.61,-618.04 119.48,-602.7"/>
-<polygon fill="none" stroke="darkgreen" points="122.01,-646.33 126.85,-655.75 128.94,-645.37 122.01,-646.33"/>
+<path fill="none" stroke="darkgreen" d="M125.13,-623.64C123.24,-610.57 121.12,-595.93 118.91,-580.63"/>
+<polygon fill="none" stroke="darkgreen" points="121.7,-624.37 126.6,-633.77 128.63,-623.37 121.7,-624.37"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
@@ -361,39 +362,37 @@
 <!-- Node8&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node8&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M95,-237.99C95,-205.54 95,-174.68 95,-151.07"/>
-<polygon fill="none" stroke="midnightblue" points="91.5,-238.11 95,-248.11 98.5,-238.11 91.5,-238.11"/>
+<path fill="none" stroke="midnightblue" d="M95,-238.07C95,-205.74 95,-174.76 95,-151.04"/>
+<polygon fill="none" stroke="midnightblue" points="91.5,-238.14 95,-248.14 98.5,-238.14 91.5,-238.14"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
 <g id="a_node11"><a xlink:href="classcore_1_1socket_1_1stream_1_1_socket_connection.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="208,-254 208,-597 416,-597 416,-254 208,-254"/>
-<text text-anchor="start" x="216" y="-585" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="start" x="216" y="-574" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketConnection&lt; core</text>
-<text text-anchor="start" x="216" y="-563" font-family="Helvetica,sans-Serif" font-size="10.00">::socket::stream::tls::SocketReader</text>
-<text text-anchor="start" x="216" y="-552" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; SocketT &gt;, core::socket::stream</text>
-<text text-anchor="start" x="216" y="-541" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketWriter&lt; SocketT &gt;, SocketT</text>
-<text text-anchor="middle" x="312" y="-530" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketAddress &gt;</text>
-<polyline fill="none" stroke="black" points="208,-523 416,-523 "/>
-<text text-anchor="start" x="216" y="-511" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; localAddress</text>
-<text text-anchor="start" x="216" y="-500" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; remoteAddress</text>
-<text text-anchor="start" x="216" y="-489" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; newSocketContext</text>
-<text text-anchor="start" x="216" y="-478" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onDisconnect</text>
-<polyline fill="none" stroke="black" points="208,-471 416,-471 "/>
-<text text-anchor="start" x="216" y="-459" font-family="Helvetica,sans-Serif" font-size="10.00">+ close()</text>
-<text text-anchor="start" x="216" y="-448" font-family="Helvetica,sans-Serif" font-size="10.00">+ shutdownRead()</text>
-<text text-anchor="start" x="216" y="-437" font-family="Helvetica,sans-Serif" font-size="10.00">+ shutdownWrite()</text>
-<text text-anchor="start" x="216" y="-426" font-family="Helvetica,sans-Serif" font-size="10.00">+ setTimeout()</text>
-<text text-anchor="start" x="216" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00">+ getRemoteAddress()</text>
-<text text-anchor="start" x="216" y="-404" font-family="Helvetica,sans-Serif" font-size="10.00">+ getLocalAddress()</text>
-<text text-anchor="start" x="216" y="-393" font-family="Helvetica,sans-Serif" font-size="10.00">+ getDescriptor()</text>
-<text text-anchor="start" x="216" y="-382" font-family="Helvetica,sans-Serif" font-size="10.00">+ getSocketContext()</text>
-<text text-anchor="start" x="216" y="-371" font-family="Helvetica,sans-Serif" font-size="10.00"># SocketConnection()</text>
-<text text-anchor="start" x="216" y="-360" font-family="Helvetica,sans-Serif" font-size="10.00"># ~SocketConnection()</text>
-<text text-anchor="start" x="216" y="-349" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketConnection()</text>
-<text text-anchor="start" x="216" y="-338" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; getLocalAddressAsString()</text>
-<text text-anchor="start" x="216" y="-327" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; getRemoteAddressAsString()</text>
+<polygon fill="white" stroke="black" points="208,-254 208,-575 416,-575 416,-254 208,-254"/>
+<text text-anchor="start" x="216" y="-563" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
+<text text-anchor="start" x="216" y="-552" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketConnection&lt; core</text>
+<text text-anchor="start" x="216" y="-541" font-family="Helvetica,sans-Serif" font-size="10.00">::socket::stream::tls::SocketReader</text>
+<text text-anchor="start" x="216" y="-530" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; SocketT &gt;, core::socket::stream</text>
+<text text-anchor="start" x="216" y="-519" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketWriter&lt; SocketT &gt;, SocketT</text>
+<text text-anchor="middle" x="312" y="-508" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketAddress &gt;</text>
+<polyline fill="none" stroke="black" points="208,-501 416,-501 "/>
+<text text-anchor="start" x="216" y="-489" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; localAddress</text>
+<text text-anchor="start" x="216" y="-478" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; remoteAddress</text>
+<text text-anchor="start" x="216" y="-467" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; newSocketContext</text>
+<text text-anchor="start" x="216" y="-456" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onDisconnect</text>
+<polyline fill="none" stroke="black" points="208,-449 416,-449 "/>
+<text text-anchor="start" x="216" y="-437" font-family="Helvetica,sans-Serif" font-size="10.00">+ close()</text>
+<text text-anchor="start" x="216" y="-426" font-family="Helvetica,sans-Serif" font-size="10.00">+ shutdownRead()</text>
+<text text-anchor="start" x="216" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00">+ shutdownWrite()</text>
+<text text-anchor="start" x="216" y="-404" font-family="Helvetica,sans-Serif" font-size="10.00">+ setTimeout()</text>
+<text text-anchor="start" x="216" y="-393" font-family="Helvetica,sans-Serif" font-size="10.00">+ getRemoteAddress()</text>
+<text text-anchor="start" x="216" y="-382" font-family="Helvetica,sans-Serif" font-size="10.00">+ getLocalAddress()</text>
+<text text-anchor="start" x="216" y="-371" font-family="Helvetica,sans-Serif" font-size="10.00">+ getDescriptor()</text>
+<text text-anchor="start" x="216" y="-360" font-family="Helvetica,sans-Serif" font-size="10.00">+ getSocketContext()</text>
+<text text-anchor="start" x="216" y="-349" font-family="Helvetica,sans-Serif" font-size="10.00"># SocketConnection()</text>
+<text text-anchor="start" x="216" y="-338" font-family="Helvetica,sans-Serif" font-size="10.00"># ~SocketConnection()</text>
+<text text-anchor="start" x="216" y="-327" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; SocketConnection()</text>
 <text text-anchor="start" x="216" y="-316" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; readFromPeer()</text>
 <text text-anchor="start" x="216" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; sendToPeer()</text>
 <text text-anchor="start" x="216" y="-294" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; sendToPeer()</text>
@@ -406,8 +405,8 @@
 <!-- Node10&#45;&gt;Node11 -->
 <g id="edge10" class="edge">
 <title>Node10&#45;&gt;Node11</title>
-<path fill="none" stroke="darkgreen" d="M297.91,-629.32C298.62,-619.12 299.37,-608.27 300.15,-597.1"/>
-<polygon fill="none" stroke="darkgreen" points="294.42,-629.08 297.22,-639.3 301.4,-629.57 294.42,-629.08"/>
+<path fill="none" stroke="darkgreen" d="M298.11,-607.45C298.85,-597.22 299.63,-586.37 300.44,-575.23"/>
+<polygon fill="none" stroke="darkgreen" points="294.61,-607.22 297.38,-617.45 301.6,-607.73 294.61,-607.22"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
@@ -439,8 +438,8 @@
 <!-- Node11&#45;&gt;Node12 -->
 <g id="edge11" class="edge">
 <title>Node11&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M312,-243.35C312,-232.63 312,-222.05 312,-211.81"/>
-<polygon fill="none" stroke="midnightblue" points="308.5,-243.67 312,-253.67 315.5,-243.67 308.5,-243.67"/>
+<path fill="none" stroke="midnightblue" d="M312,-243.96C312,-233.09 312,-222.34 312,-211.91"/>
+<polygon fill="none" stroke="midnightblue" points="308.5,-243.97 312,-253.97 315.5,-243.97 308.5,-243.97"/>
 </g>
 </g>
 </svg>

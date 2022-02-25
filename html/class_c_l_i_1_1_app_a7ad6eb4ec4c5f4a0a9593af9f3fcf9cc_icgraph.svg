@@ -13,74 +13,90 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="Add a subcommand. Inherits INHERITABLE and OptionDefaults, and help flag.">
-<polygon fill="#bfbfbf" stroke="black" points="363,-55 363,-74 515,-74 515,-55 363,-55"/>
-<text text-anchor="middle" x="439" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">CLI::App::add_subcommand</text>
+<polygon fill="#bfbfbf" stroke="black" points="363,-30 363,-49 515,-49 515,-30 363,-30"/>
+<text text-anchor="middle" x="439" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">CLI::App::add_subcommand</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classutils_1_1_config.html#afc99b51e6e50ca723e9dbe179016ee1e" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="197,-98.5 197,-128.5 296,-128.5 296,-98.5 197,-98.5"/>
-<text text-anchor="start" x="205" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">utils::Config::add</text>
-<text text-anchor="middle" x="246.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">_subcommand</text>
+<g id="a_node2"><a xlink:href="classnet_1_1config_1_1_config_base.html#a46b38a714d87f27354f8c83d4d831bfc" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="197,-49.5 197,-79.5 327,-79.5 327,-49.5 197,-49.5"/>
+<text text-anchor="start" x="205" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::config::ConfigBase</text>
+<text text-anchor="middle" x="262" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::add_subcommand</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M390.98,-76.6C362.13,-84.01 325.28,-93.49 296.15,-100.99"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="392,-79.94 400.82,-74.06 390.26,-73.17 392,-79.94"/>
-</g>
-<!-- Node4 -->
-<g id="node4" class="node">
-<title>Node4</title>
-<g id="a_node4"><a xlink:href="classnet_1_1config_1_1_config_connection.html#a8a2ea75ee917fca1f9e3e2564d56fcaa" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="166,-49.5 166,-79.5 327,-79.5 327,-49.5 166,-49.5"/>
-<text text-anchor="start" x="174" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::config::ConfigConnection</text>
-<text text-anchor="middle" x="246.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::ConfigConnection</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge">
-<title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M352.97,-64.5C344.38,-64.5 335.68,-64.5 327.15,-64.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="352.98,-68 362.98,-64.5 352.98,-61 352.98,-68"/>
+<path fill="none" stroke="midnightblue" d="M361.39,-50.44C349.97,-52.08 338.29,-53.74 327.16,-55.33"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="361.94,-53.9 371.34,-49.02 360.95,-46.97 361.94,-53.9"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classnet_1_1config_1_1_config_tls.html#a6677fad29dca3bfe4e932bd6766e3afa" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="186.5,-0.5 186.5,-30.5 306.5,-30.5 306.5,-0.5 186.5,-0.5"/>
-<text text-anchor="start" x="194.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::config::ConfigTls</text>
-<text text-anchor="middle" x="246.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::ConfigTls</text>
+<g id="a_node5"><a xlink:href="classutils_1_1_config.html#afc99b51e6e50ca723e9dbe179016ee1e" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="212.5,-0.5 212.5,-30.5 311.5,-30.5 311.5,-0.5 212.5,-0.5"/>
+<text text-anchor="start" x="220.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">utils::Config::add</text>
+<text text-anchor="middle" x="262" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">_subcommand</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M390.95,-52.4C365.27,-45.79 333.24,-37.55 305.96,-30.54"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="390.26,-55.83 400.82,-54.94 392,-49.06 390.26,-55.83"/>
+<path fill="none" stroke="midnightblue" d="M358.66,-28.62C342.6,-26.42 326.18,-24.16 311.58,-22.16"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="358.2,-32.09 368.58,-29.98 359.15,-25.15 358.2,-32.09"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classnet_1_1config_1_1_config_base.html#a0a520c601952d3859ac5b3063aeec5e4" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-98.5 0,-128.5 130,-128.5 130,-98.5 0,-98.5"/>
-<text text-anchor="start" x="8" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::config::ConfigBase</text>
-<text text-anchor="middle" x="65" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::ConfigBase</text>
+<g id="a_node3"><a xlink:href="classnet_1_1config_1_1_config_connection.html#a8a2ea75ee917fca1f9e3e2564d56fcaa" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="0,-98.5 0,-128.5 161,-128.5 161,-98.5 0,-98.5"/>
+<text text-anchor="start" x="8" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::config::ConfigConnection</text>
+<text text-anchor="middle" x="80.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::ConfigConnection</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M186.79,-113.5C168.66,-113.5 148.61,-113.5 130.13,-113.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="186.92,-117 196.92,-113.5 186.92,-110 186.92,-117"/>
+<path fill="none" stroke="midnightblue" d="M195.98,-82.25C176.53,-87.56 155.39,-93.33 136.64,-98.45"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="196.95,-85.61 205.68,-79.6 195.11,-78.86 196.95,-85.61"/>
+</g>
+<!-- Node4 -->
+<g id="node4" class="node">
+<title>Node4</title>
+<g id="a_node4"><a xlink:href="classnet_1_1config_1_1_config_tls.html#a6677fad29dca3bfe4e932bd6766e3afa" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="20.5,-49.5 20.5,-79.5 140.5,-79.5 140.5,-49.5 20.5,-49.5"/>
+<text text-anchor="start" x="28.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::config::ConfigTls</text>
+<text text-anchor="middle" x="80.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::ConfigTls</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node4 -->
+<g id="edge3" class="edge">
+<title>Node2&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M186.95,-64.5C171.55,-64.5 155.51,-64.5 140.72,-64.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="186.96,-68 196.96,-64.5 186.96,-61 186.96,-68"/>
+</g>
+<!-- Node6 -->
+<g id="node6" class="node">
+<title>Node6</title>
+<g id="a_node6"><a xlink:href="classnet_1_1config_1_1_config_base.html#a0a520c601952d3859ac5b3063aeec5e4" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="15.5,-0.5 15.5,-30.5 145.5,-30.5 145.5,-0.5 15.5,-0.5"/>
+<text text-anchor="start" x="23.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::config::ConfigBase</text>
+<text text-anchor="middle" x="80.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::ConfigBase</text>
+</a>
+</g>
+</g>
+<!-- Node5&#45;&gt;Node6 -->
+<g id="edge5" class="edge">
+<title>Node5&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M202.29,-15.5C184.16,-15.5 164.11,-15.5 145.63,-15.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="202.42,-19 212.42,-15.5 202.42,-12 202.42,-19"/>
 </g>
 </g>
 </svg>

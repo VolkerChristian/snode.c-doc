@@ -159,8 +159,6 @@ var annotated_dup =
           [ "SocketServer", "classcore_1_1socket_1_1stream_1_1_socket_server.html", "classcore_1_1socket_1_1stream_1_1_socket_server" ],
           [ "SocketWriter", "classcore_1_1socket_1_1stream_1_1_socket_writer.html", "classcore_1_1socket_1_1stream_1_1_socket_writer" ]
         ] ],
-        [ "ClientSocket", "classcore_1_1socket_1_1_client_socket.html", "classcore_1_1socket_1_1_client_socket" ],
-        [ "ServerSocket", "classcore_1_1socket_1_1_server_socket.html", "classcore_1_1socket_1_1_server_socket" ],
         [ "Socket", "classcore_1_1socket_1_1_socket.html", "classcore_1_1socket_1_1_socket" ],
         [ "SocketAddress", "classcore_1_1socket_1_1_socket_address.html", "classcore_1_1socket_1_1_socket_address" ],
         [ "SocketConnection", "classcore_1_1socket_1_1_socket_connection.html", "classcore_1_1socket_1_1_socket_connection" ],
@@ -214,10 +212,10 @@ var annotated_dup =
         [ "ConfigAddress", "classnet_1_1config_1_1_config_address.html", "classnet_1_1config_1_1_config_address" ],
         [ "ConfigAddressLocal", "classnet_1_1config_1_1_config_address_local.html", "classnet_1_1config_1_1_config_address_local" ],
         [ "ConfigAddressRemote", "classnet_1_1config_1_1_config_address_remote.html", "classnet_1_1config_1_1_config_address_remote" ],
-        [ "ConfigBacklog", "classnet_1_1config_1_1_config_backlog.html", "classnet_1_1config_1_1_config_backlog" ],
         [ "ConfigBase", "classnet_1_1config_1_1_config_base.html", "classnet_1_1config_1_1_config_base" ],
         [ "ConfigConnection", "classnet_1_1config_1_1_config_connection.html", "classnet_1_1config_1_1_config_connection" ],
         [ "ConfigLegacy", "classnet_1_1config_1_1_config_legacy.html", "classnet_1_1config_1_1_config_legacy" ],
+        [ "ConfigListen", "classnet_1_1config_1_1_config_listen.html", "classnet_1_1config_1_1_config_listen" ],
         [ "ConfigTls", "classnet_1_1config_1_1_config_tls.html", "classnet_1_1config_1_1_config_tls" ]
       ] ],
       [ "in", "namespacenet_1_1in.html", [
@@ -359,7 +357,9 @@ var annotated_dup =
         ] ],
         [ "bad_sunpath", "classnet_1_1un_1_1bad__sunpath.html", "classnet_1_1un_1_1bad__sunpath" ],
         [ "SocketAddress", "classnet_1_1un_1_1_socket_address.html", "classnet_1_1un_1_1_socket_address" ]
-      ] ]
+      ] ],
+      [ "ClientSocket", "classnet_1_1_client_socket.html", "classnet_1_1_client_socket" ],
+      [ "ServerSocket", "classnet_1_1_server_socket.html", "classnet_1_1_server_socket" ]
     ] ],
     [ "utils", "namespaceutils.html", [
       [ "AttributeProxy", "classutils_1_1_attribute_proxy.html", "classutils_1_1_attribute_proxy" ],

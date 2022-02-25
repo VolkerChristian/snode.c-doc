@@ -27,19 +27,19 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classcore_1_1socket_1_1_client_socket.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="3,-117.5 3,-240.5 152,-240.5 152,-117.5 3,-117.5"/>
-<text text-anchor="start" x="11" y="-228.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::ClientSocket</text>
-<text text-anchor="middle" x="77.5" y="-217.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; net::l2::stream::Socket &gt;</text>
-<polyline fill="none" stroke="black" points="3,-210.5 152,-210.5 "/>
+<g id="a_node2"><a xlink:href="classnet_1_1_client_socket.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="7.5,-117.5 7.5,-240.5 147.5,-240.5 147.5,-117.5 7.5,-117.5"/>
+<text text-anchor="start" x="15.5" y="-228.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::ClientSocket&lt;</text>
+<text text-anchor="middle" x="77.5" y="-217.5" font-family="Helvetica,sans-Serif" font-size="10.00"> net::l2::stream::Socket &gt;</text>
+<polyline fill="none" stroke="black" points="7.5,-210.5 147.5,-210.5 "/>
 <text text-anchor="middle" x="77.5" y="-198.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="3,-191.5 152,-191.5 "/>
-<text text-anchor="start" x="11" y="-179.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
-<text text-anchor="start" x="11" y="-168.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
-<text text-anchor="start" x="11" y="-157.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
-<text text-anchor="start" x="11" y="-146.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ClientSocket()</text>
-<text text-anchor="start" x="11" y="-135.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ClientSocket()</text>
-<text text-anchor="start" x="11" y="-124.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ~ClientSocket()</text>
+<polyline fill="none" stroke="black" points="7.5,-191.5 147.5,-191.5 "/>
+<text text-anchor="start" x="15.5" y="-179.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
+<text text-anchor="start" x="15.5" y="-168.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
+<text text-anchor="start" x="15.5" y="-157.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
+<text text-anchor="start" x="15.5" y="-146.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ClientSocket()</text>
+<text text-anchor="start" x="15.5" y="-135.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ClientSocket()</text>
+<text text-anchor="start" x="15.5" y="-124.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ~ClientSocket()</text>
 </a>
 </g>
 </g>
@@ -52,19 +52,19 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classcore_1_1socket_1_1_client_socket.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="6.5,-299.5 6.5,-422.5 148.5,-422.5 148.5,-299.5 6.5,-299.5"/>
-<text text-anchor="start" x="14.5" y="-410.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::ClientSocket</text>
-<text text-anchor="middle" x="77.5" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; SocketT &gt;</text>
-<polyline fill="none" stroke="black" points="6.5,-392.5 148.5,-392.5 "/>
+<g id="a_node3"><a xlink:href="classnet_1_1_client_socket.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="24,-299.5 24,-422.5 131,-422.5 131,-299.5 24,-299.5"/>
+<text text-anchor="start" x="32" y="-410.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::ClientSocket&lt;</text>
+<text text-anchor="middle" x="77.5" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00"> SocketT &gt;</text>
+<polyline fill="none" stroke="black" points="24,-392.5 131,-392.5 "/>
 <text text-anchor="middle" x="77.5" y="-380.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="6.5,-373.5 148.5,-373.5 "/>
-<text text-anchor="start" x="14.5" y="-361.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
-<text text-anchor="start" x="14.5" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
-<text text-anchor="start" x="14.5" y="-339.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
-<text text-anchor="start" x="14.5" y="-328.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ClientSocket()</text>
-<text text-anchor="start" x="14.5" y="-317.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ClientSocket()</text>
-<text text-anchor="start" x="14.5" y="-306.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ~ClientSocket()</text>
+<polyline fill="none" stroke="black" points="24,-373.5 131,-373.5 "/>
+<text text-anchor="start" x="32" y="-361.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
+<text text-anchor="start" x="32" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
+<text text-anchor="start" x="32" y="-339.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ connect()</text>
+<text text-anchor="start" x="32" y="-328.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ClientSocket()</text>
+<text text-anchor="start" x="32" y="-317.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ClientSocket()</text>
+<text text-anchor="start" x="32" y="-306.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ~ClientSocket()</text>
 </a>
 </g>
 </g>

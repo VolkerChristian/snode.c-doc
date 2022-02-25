@@ -115,21 +115,23 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="stacktrace_8cpp_source.html#l00038">38</a> of file <a class="el" href="stacktrace_8cpp_source.html">stacktrace.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                                              {</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#ifdef BACKTRACE_SUPPORTED</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordtype">void</span>* buffer[2];</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        backtrace(buffer, 2);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="comment">//        void* buffer[2];</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="comment">//        backtrace(buffer, 2);</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        backward::StackTrace st;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="comment">//        st.load_here(trace_cnt_max);</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        st.load_from(<span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">char</span>*<span class="keyword">&gt;</span>(buffer[1]) - 1, trace_cnt_max);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        backward::Printer p;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        p.snippet = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        p.object = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        p.color_mode = backward::ColorMode::automatic;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        p.address = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        p.print(st, stderr);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="comment">//        st.load_from(reinterpret_cast&lt;char*&gt;(buffer[1]) - 1, trace_cnt_max);</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        st.load_here(trace_cnt_max);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        st.skip_n_firsts(3);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        backward::Printer p;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        p.snippet = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        p.object = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        p.color_mode = backward::ColorMode::automatic;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        p.address = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        p.print(st, stderr);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
