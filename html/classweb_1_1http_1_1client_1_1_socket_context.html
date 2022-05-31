@@ -126,10 +126,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a10a73ab3264dc536464f7a530fda8fa7 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac62c1fa45cee58c5ac10b00eb0853639 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#ac62c1fa45cee58c5ac10b00eb0853639">shutdownRead</a> ()</td></tr>
 <tr class="separator:ac62c1fa45cee58c5ac10b00eb0853639 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e872afff9b592389b7555fab5a3d5a5 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#a3e872afff9b592389b7555fab5a3d5a5">shutdownWrite</a> ()</td></tr>
-<tr class="separator:a3e872afff9b592389b7555fab5a3d5a5 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a270a18f3261a7dc3162c9446067b38fa inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#a270a18f3261a7dc3162c9446067b38fa">shutdown</a> ()</td></tr>
-<tr class="separator:a270a18f3261a7dc3162c9446067b38fa inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae09865f4749ebecaef4ed44e09029438 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#ae09865f4749ebecaef4ed44e09029438">shutdownWrite</a> (bool forceClose=false)</td></tr>
+<tr class="separator:ae09865f4749ebecaef4ed44e09029438 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c1bc50944c00c648bbe88b6dc9cb510 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#a8c1bc50944c00c648bbe88b6dc9cb510">shutdown</a> (bool forceClose=false)</td></tr>
+<tr class="separator:a8c1bc50944c00c648bbe88b6dc9cb510 inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7daa40724b091ab2970e60cd5c46148a inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#a7daa40724b091ab2970e60cd5c46148a">close</a> ()</td></tr>
 <tr class="separator:a7daa40724b091ab2970e60cd5c46148a inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea4040a01068a4b14956dd2475b7327d inherit pub_methods_classcore_1_1socket_1_1_socket_context"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1socket_1_1_socket_context.html">SocketContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#aea4040a01068a4b14956dd2475b7327d">switchSocketContext</a> (<a class="el" href="classcore_1_1socket_1_1_socket_context_factory.html">core::socket::SocketContextFactory</a> *socketContextFactory)</td></tr>
@@ -305,40 +305,38 @@ template&lt;typename Request , typename Response &gt; </div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;              <span class="keyword">this</span>,</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;              [](<span class="keywordtype">void</span>) -&gt; <span class="keywordtype">void</span> {</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;              },</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;              [&amp;<a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a> =</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                   this-&gt;<a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>](<span class="keyword">const</span> std::string&amp; httpVersion, <span class="keyword">const</span> std::string&amp; statusCode, <span class="keyword">const</span> std::string&amp; reason) -&gt; <span class="keywordtype">void</span> {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>.httpVersion = httpVersion;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>.statusCode = statusCode;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>.reason = reason;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;              },</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;              [&amp;<a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a> = this-&gt;<a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>](<span class="keyword">const</span> std::map&lt;std::string, std::string&gt;&amp; headers,</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                                           <span class="keyword">const</span> std::map&lt;std::string, web::http::CookieOptions&gt;&amp; cookies) -&gt; <span class="keywordtype">void</span> {</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>.headers = &amp;headers;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>.cookies = &amp;cookies;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;              },</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;              [&amp;<a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a> = this-&gt;<a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>](std::vector&lt;uint8_t&gt;&amp; content) -&gt; <span class="keywordtype">void</span> {</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>.body = std::move(content);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;              },</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;              [onResponse, <span class="keyword">this</span>](<a class="code" href="classweb_1_1http_1_1client_1_1_response_parser.html">web::http::client::ResponseParser</a>&amp; <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a83a8ba6b41692d7dea065f86ddac26d0">parser</a>) -&gt; <span class="keywordtype">void</span> {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                  onResponse(<a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#aa82e1f3f3d41b612ed0e897ae0e66e63">request</a>, <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                  <span class="keywordflow">if</span> (<a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>.header(<span class="stringliteral">&quot;connection&quot;</span>) == <span class="stringliteral">&quot;close&quot;</span> || <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#aa82e1f3f3d41b612ed0e897ae0e66e63">request</a>.header(<span class="stringliteral">&quot;connection&quot;</span>) == <span class="stringliteral">&quot;close&quot;</span>) {</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                      <a class="code" href="classcore_1_1socket_1_1_socket_context.html#a3e872afff9b592389b7555fab5a3d5a5">shutdownWrite</a>();</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                  }</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a83a8ba6b41692d7dea065f86ddac26d0">parser</a>.<a class="code" href="classweb_1_1http_1_1client_1_1_response_parser.html#a9fb333ebc53ea413c1725f48e49be69f">reset</a>();</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#aa82e1f3f3d41b612ed0e897ae0e66e63">request</a>.reset();</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>.reset();</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;              },</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;              [onError, <span class="keyword">this</span>](<span class="keywordtype">int</span> status, <span class="keyword">const</span> std::string&amp; reason) -&gt; <span class="keywordtype">void</span> {</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                  onError(status, reason);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                  <a class="code" href="classcore_1_1socket_1_1_socket_context.html#a7daa40724b091ab2970e60cd5c46148a">close</a>();</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;              }) {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;              [&amp;<a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a> = this-&gt;<a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>](std::string&amp; httpVersion, std::string&amp; statusCode, std::string&amp; reason) -&gt; <span class="keywordtype">void</span> {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>.httpVersion = httpVersion;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>.statusCode = statusCode;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>.reason = reason;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;              },</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;              [&amp;<a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a> = this-&gt;<a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>](std::map&lt;std::string, std::string&gt;&amp; headers,</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                                           std::map&lt;std::string, web::http::CookieOptions&gt;&amp; cookies) -&gt; <span class="keywordtype">void</span> {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>.headers = std::move(headers);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>.cookies = std::move(cookies);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;              },</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;              [&amp;<a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a> = this-&gt;<a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>](std::vector&lt;uint8_t&gt;&amp; content) -&gt; <span class="keywordtype">void</span> {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>.body = std::move(content);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;              },</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;              [onResponse, <span class="keyword">this</span>](<a class="code" href="classweb_1_1http_1_1client_1_1_response_parser.html">web::http::client::ResponseParser</a>&amp; <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a83a8ba6b41692d7dea065f86ddac26d0">parser</a>) -&gt; <span class="keywordtype">void</span> {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                  onResponse(<a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#aa82e1f3f3d41b612ed0e897ae0e66e63">request</a>, <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                  <span class="keywordflow">if</span> (<a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>.header(<span class="stringliteral">&quot;connection&quot;</span>) == <span class="stringliteral">&quot;close&quot;</span> || <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#aa82e1f3f3d41b612ed0e897ae0e66e63">request</a>.header(<span class="stringliteral">&quot;connection&quot;</span>) == <span class="stringliteral">&quot;close&quot;</span>) {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                      <a class="code" href="classcore_1_1socket_1_1_socket_context.html#ae09865f4749ebecaef4ed44e09029438">shutdownWrite</a>();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                  }</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a83a8ba6b41692d7dea065f86ddac26d0">parser</a>.<a class="code" href="classweb_1_1http_1_1client_1_1_response_parser.html#a9fb333ebc53ea413c1725f48e49be69f">reset</a>();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#aa82e1f3f3d41b612ed0e897ae0e66e63">request</a>.reset();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                  <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>.reset();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;              },</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;              [onError, <span class="keyword">this</span>](<span class="keywordtype">int</span> status, <span class="keyword">const</span> std::string&amp; reason) -&gt; <span class="keywordtype">void</span> {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                  onError(status, reason);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                  <a class="code" href="classcore_1_1socket_1_1_socket_context.html#ae09865f4749ebecaef4ed44e09029438">shutdownWrite</a>(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;              }) {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_a3555c0def7a19e1a0877de7fe5140351"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#a3555c0def7a19e1a0877de7fe5140351">core::socket::SocketContext::socketConnection</a></div><div class="ttdeci">core::socket::SocketConnection * socketConnection</div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2_socket_context_8h_source.html#l00073">SocketContext.h:73</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_a3e872afff9b592389b7555fab5a3d5a5"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#a3e872afff9b592389b7555fab5a3d5a5">core::socket::SocketContext::shutdownWrite</a></div><div class="ttdeci">void shutdownWrite()</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_8cpp_source.html#l00067">SocketContext.cpp:67</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_a7daa40724b091ab2970e60cd5c46148a"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#a7daa40724b091ab2970e60cd5c46148a">core::socket::SocketContext::close</a></div><div class="ttdeci">void close()</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_8cpp_source.html#l00076">SocketContext.cpp:76</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_ae09865f4749ebecaef4ed44e09029438"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#ae09865f4749ebecaef4ed44e09029438">core::socket::SocketContext::shutdownWrite</a></div><div class="ttdeci">void shutdownWrite(bool forceClose=false)</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_8cpp_source.html#l00067">SocketContext.cpp:67</a></div></div>
 <div class="ttc" id="aclassweb_1_1http_1_1client_1_1_response_parser_html"><div class="ttname"><a href="classweb_1_1http_1_1client_1_1_response_parser.html">web::http::client::ResponseParser</a></div><div class="ttdef"><b>Definition:</b> <a href="_response_parser_8h_source.html#l00039">ResponseParser.h:39</a></div></div>
 <div class="ttc" id="aclassweb_1_1http_1_1client_1_1_response_parser_html_a9fb333ebc53ea413c1725f48e49be69f"><div class="ttname"><a href="classweb_1_1http_1_1client_1_1_response_parser.html#a9fb333ebc53ea413c1725f48e49be69f">web::http::client::ResponseParser::reset</a></div><div class="ttdeci">void reset() override</div><div class="ttdef"><b>Definition:</b> <a href="_response_parser_8cpp_source.html#l00056">ResponseParser.cpp:56</a></div></div>
 <div class="ttc" id="aclassweb_1_1http_1_1client_1_1_socket_context_html_a11e5dd34b30654b0bd8299d78dcb2e3b"><div class="ttname"><a href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">web::http::client::SocketContext::response</a></div><div class="ttdeci">Response response</div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2client_2_socket_context_8h_source.html#l00074">SocketContext.h:74</a></div></div>
@@ -392,10 +390,10 @@ template&lt;typename Request , typename Response &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="client_2_socket_context_8hpp_source.html#l00084">84</a> of file <a class="el" href="client_2_socket_context_8hpp_source.html">SocketContext.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                                                          {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#aa82e1f3f3d41b612ed0e897ae0e66e63">request</a>;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="client_2_socket_context_8hpp_source.html#l00083">83</a> of file <a class="el" href="client_2_socket_context_8hpp_source.html">SocketContext.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                                                          {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#aa82e1f3f3d41b612ed0e897ae0e66e63">request</a>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -413,10 +411,10 @@ template&lt;typename Request , typename Response &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="client_2_socket_context_8hpp_source.html#l00089">89</a> of file <a class="el" href="client_2_socket_context_8hpp_source.html">SocketContext.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                                                            {</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="client_2_socket_context_8hpp_source.html#l00088">88</a> of file <a class="el" href="client_2_socket_context_8hpp_source.html">SocketContext.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                                                            {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">response</a>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -473,10 +471,10 @@ template&lt;typename Request , typename Response &gt; </div>
 
 <p>Reimplemented from <a class="el" href="classcore_1_1socket_1_1_socket_context.html#a0ba2685c1e091d7bda717f8ff7cf622e">core::socket::SocketContext</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="client_2_socket_context_8hpp_source.html#l00099">99</a> of file <a class="el" href="client_2_socket_context_8hpp_source.html">SocketContext.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                                                          {</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;HTTP disconnected&quot;</span>;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="client_2_socket_context_8hpp_source.html#l00098">98</a> of file <a class="el" href="client_2_socket_context_8hpp_source.html">SocketContext.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                                                          {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;HTTP disconnected&quot;</span>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -504,10 +502,10 @@ template&lt;typename Request , typename Response &gt; </div>
 
 <p>Implements <a class="el" href="classweb_1_1http_1_1_socket_context.html#abef4465ac97c1368df030847e22b1101">web::http::SocketContext</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="client_2_socket_context_8hpp_source.html#l00079">79</a> of file <a class="el" href="client_2_socket_context_8hpp_source.html">SocketContext.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                                                             {</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a83a8ba6b41692d7dea065f86ddac26d0">parser</a>.<a class="code" href="classweb_1_1http_1_1_parser.html#ac355ac1ce5844ed0d6626df639dfa985">parse</a>();</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="client_2_socket_context_8hpp_source.html#l00078">78</a> of file <a class="el" href="client_2_socket_context_8hpp_source.html">SocketContext.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                                                             {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html#a83a8ba6b41692d7dea065f86ddac26d0">parser</a>.<a class="code" href="classweb_1_1http_1_1_parser.html#ac355ac1ce5844ed0d6626df639dfa985">parse</a>();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
 <div class="ttc" id="aclassweb_1_1http_1_1_parser_html_ac355ac1ce5844ed0d6626df639dfa985"><div class="ttname"><a href="classweb_1_1http_1_1_parser.html#ac355ac1ce5844ed0d6626df639dfa985">web::http::Parser::parse</a></div><div class="ttdeci">void parse()</div><div class="ttdef"><b>Definition:</b> <a href="_parser_8cpp_source.html#l00049">Parser.cpp:49</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -536,9 +534,9 @@ template&lt;typename Request , typename Response &gt; </div>
 
 <p>Implements <a class="el" href="classweb_1_1http_1_1_socket_context.html#a3d37b0a17a47ce6c9ebf96900bfe2a74">web::http::SocketContext</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="client_2_socket_context_8hpp_source.html#l00075">75</a> of file <a class="el" href="client_2_socket_context_8hpp_source.html">SocketContext.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                                                               {</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="client_2_socket_context_8hpp_source.html#l00074">74</a> of file <a class="el" href="client_2_socket_context_8hpp_source.html">SocketContext.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                                                               {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>

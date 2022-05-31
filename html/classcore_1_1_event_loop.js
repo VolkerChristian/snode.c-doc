@@ -11,6 +11,7 @@ var classcore_1_1_event_loop =
     [ "instance", "classcore_1_1_event_loop.html#a413d227511f68c2c9939719bd2590794", null ],
     [ "operator=", "classcore_1_1_event_loop.html#ac14614733829a570977f4943ccca0e45", null ],
     [ "start", "classcore_1_1_event_loop.html#aaa2c3856fed808d00542d573c2b3a737", null ],
+    [ "stop", "classcore_1_1_event_loop.html#aaa96da1dffd0e1800ba0c134ad07f97e", null ],
     [ "stoponsig", "classcore_1_1_event_loop.html#a96a2e40259e00e7560dc8dde4d85131f", null ],
     [ "tick", "classcore_1_1_event_loop.html#a811fbdf8265440db286c44f08c644235", null ],
     [ "SNodeC", "classcore_1_1_event_loop.html#ab84101a4341e7fdedf48702c35067cd4", null ],

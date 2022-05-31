@@ -167,12 +167,12 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ac849bb8e86fe6b1ffb210d7df7c9ce12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceweb_1_1http.html#ac27fdcf348c7472940ecd0e34342dca1">ConnectionState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1server_1_1_request.html#ac849bb8e86fe6b1ffb210d7df7c9ce12">connectionState</a> = ConnectionState::Default</td></tr>
 <tr class="separator:ac849bb8e86fe6b1ffb210d7df7c9ce12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a893d2475f4116b85d0d4a2b9bd0b7b04"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::string, std::string &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1server_1_1_request.html#a893d2475f4116b85d0d4a2b9bd0b7b04">queries</a> = nullptr</td></tr>
-<tr class="separator:a893d2475f4116b85d0d4a2b9bd0b7b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae814e77a19ead3b432945b83a5c15867"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::string, std::string &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1server_1_1_request.html#ae814e77a19ead3b432945b83a5c15867">headers</a> = nullptr</td></tr>
-<tr class="separator:ae814e77a19ead3b432945b83a5c15867"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4d4c1ca578735e7d1671d91489754ef"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::string, std::string &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1server_1_1_request.html#af4d4c1ca578735e7d1671d91489754ef">cookies</a> = nullptr</td></tr>
-<tr class="separator:af4d4c1ca578735e7d1671d91489754ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fdb3d31083fb88ced7c42df354134e3"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1server_1_1_request.html#a2fdb3d31083fb88ced7c42df354134e3">queries</a></td></tr>
+<tr class="separator:a2fdb3d31083fb88ced7c42df354134e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6cacd230334c252a976574e37fe582c"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1server_1_1_request.html#ae6cacd230334c252a976574e37fe582c">headers</a></td></tr>
+<tr class="separator:ae6cacd230334c252a976574e37fe582c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d019b16859d00b2b613cf7f5aee8562"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1server_1_1_request.html#a4d019b16859d00b2b613cf7f5aee8562">cookies</a></td></tr>
+<tr class="separator:a4d019b16859d00b2b613cf7f5aee8562"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbc56ed49a648427ea68413cc20a353c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1http_1_1server_1_1_request.html#abbc56ed49a648427ea68413cc20a353c">nullstr</a> = &quot;&quot;</td></tr>
 <tr class="separator:abbc56ed49a648427ea68413cc20a353c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -281,27 +281,18 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00051">51</a> of file <a class="el" href="web_2http_2server_2_request_8cpp_source.html">Request.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                                               {</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        std::map&lt;std::string, std::string&gt;::const_iterator it;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        std::string tmpKey = key;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <a class="code" href="namespacehttputils.html#a4dd60a8e2472042c70e00dec22ebf927">httputils::to_lower</a>(tmpKey);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">if</span> ((it = <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#af4d4c1ca578735e7d1671d91489754ef">cookies</a>-&gt;find(tmpKey)) != <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#af4d4c1ca578735e7d1671d91489754ef">cookies</a>-&gt;end()) {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="keywordflow">return</span> it-&gt;second;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#abbc56ed49a648427ea68413cc20a353c">nullstr</a>;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        }</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        std::map&lt;std::string, std::string&gt;::const_iterator it = <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a4d019b16859d00b2b613cf7f5aee8562">cookies</a>.find(key);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">if</span> (it != <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a4d019b16859d00b2b613cf7f5aee8562">cookies</a>.end()) {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <span class="keywordflow">return</span> it-&gt;second;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#abbc56ed49a648427ea68413cc20a353c">nullstr</a>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
+<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_request_html_a4d019b16859d00b2b613cf7f5aee8562"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_request.html#a4d019b16859d00b2b613cf7f5aee8562">web::http::server::Request::cookies</a></div><div class="ttdeci">std::map&lt; std::string, std::string &gt; cookies</div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2server_2_request_8h_source.html#l00063">Request.h:63</a></div></div>
 <div class="ttc" id="aclassweb_1_1http_1_1server_1_1_request_html_abbc56ed49a648427ea68413cc20a353c"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_request.html#abbc56ed49a648427ea68413cc20a353c">web::http::server::Request::nullstr</a></div><div class="ttdeci">std::string nullstr</div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2server_2_request_8h_source.html#l00065">Request.h:65</a></div></div>
-<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_request_html_af4d4c1ca578735e7d1671d91489754ef"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_request.html#af4d4c1ca578735e7d1671d91489754ef">web::http::server::Request::cookies</a></div><div class="ttdeci">const std::map&lt; std::string, std::string &gt; * cookies</div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2server_2_request_8h_source.html#l00063">Request.h:63</a></div></div>
-<div class="ttc" id="anamespacehttputils_html_a4dd60a8e2472042c70e00dec22ebf927"><div class="ttname"><a href="namespacehttputils.html#a4dd60a8e2472042c70e00dec22ebf927">httputils::to_lower</a></div><div class="ttdeci">std::string::iterator to_lower(std::string &amp;string)</div><div class="ttdef"><b>Definition:</b> <a href="http__utils_8cpp_source.html#l00168">http_utils.cpp:168</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="web_2http_2server_2_request_8h_source.html#l00063">cookies</a>, <a class="el" href="web_2http_2server_2_request_8h_source.html#l00065">nullstr</a>, and <a class="el" href="http__utils_8cpp_source.html#l00168">httputils::to_lower()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1http_1_1server_1_1_request_a682573954449cf969511fbcbe25f19cc_cgraph.svg" width="339" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="reference">References <a class="el" href="web_2http_2server_2_request_8h_source.html#l00063">cookies</a>, and <a class="el" href="web_2http_2server_2_request_8h_source.html#l00065">nullstr</a>.</p>
 
 </div>
 </div>
@@ -336,9 +327,9 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        std::string tmpKey = key;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="namespacehttputils.html#a4dd60a8e2472042c70e00dec22ebf927">httputils::to_lower</a>(tmpKey);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classweb_1_1http_1_1server_1_1_request.html#ae814e77a19ead3b432945b83a5c15867">headers</a>-&gt;find(tmpKey) != <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#ae814e77a19ead3b432945b83a5c15867">headers</a>-&gt;end()) {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classweb_1_1http_1_1server_1_1_request.html#ae6cacd230334c252a976574e37fe582c">headers</a>.find(tmpKey) != <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#ae6cacd230334c252a976574e37fe582c">headers</a>.end()) {</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            std::pair&lt;std::multimap&lt;std::string, std::string&gt;::const_iterator, std::multimap&lt;std::string, std::string&gt;::const_iterator&gt;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                range = <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#ae814e77a19ead3b432945b83a5c15867">headers</a>-&gt;equal_range(tmpKey);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                range = <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#ae6cacd230334c252a976574e37fe582c">headers</a>.equal_range(tmpKey);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <span class="keywordflow">if</span> (std::distance(range.first, range.second) &gt;= i) {</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                std::advance(range.first, i);</div>
@@ -350,11 +341,12 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#abbc56ed49a648427ea68413cc20a353c">nullstr</a>;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        }</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
-<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_request_html_ae814e77a19ead3b432945b83a5c15867"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_request.html#ae814e77a19ead3b432945b83a5c15867">web::http::server::Request::headers</a></div><div class="ttdeci">const std::map&lt; std::string, std::string &gt; * headers</div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2server_2_request_8h_source.html#l00062">Request.h:62</a></div></div>
+<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_request_html_ae6cacd230334c252a976574e37fe582c"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_request.html#ae6cacd230334c252a976574e37fe582c">web::http::server::Request::headers</a></div><div class="ttdeci">std::map&lt; std::string, std::string &gt; headers</div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2server_2_request_8h_source.html#l00062">Request.h:62</a></div></div>
+<div class="ttc" id="anamespacehttputils_html_a4dd60a8e2472042c70e00dec22ebf927"><div class="ttname"><a href="namespacehttputils.html#a4dd60a8e2472042c70e00dec22ebf927">httputils::to_lower</a></div><div class="ttdeci">std::string::iterator to_lower(std::string &amp;string)</div><div class="ttdef"><b>Definition:</b> <a href="http__utils_8cpp_source.html#l00168">http_utils.cpp:168</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="web_2http_2server_2_request_8h_source.html#l00062">headers</a>, <a class="el" href="web_2http_2server_2_request_8h_source.html#l00065">nullstr</a>, and <a class="el" href="http__utils_8cpp_source.html#l00168">httputils::to_lower()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="websocket_2server_2_socket_context_upgrade_factory_8cpp_source.html#l00039">web::websocket::server::SocketContextUpgradeFactory::create()</a>, <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00057">web::http::server::SocketContextUpgradeFactorySelector::select()</a>, and <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00157">web::http::server::Response::upgrade()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="websocket_2server_2_socket_context_upgrade_factory_8cpp_source.html#l00039">web::websocket::server::SocketContextUpgradeFactory::create()</a>, <a class="el" href="server_2_socket_context_upgrade_factory_selector_8cpp_source.html#l00057">web::http::server::SocketContextUpgradeFactorySelector::select()</a>, and <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00158">web::http::server::Response::upgrade()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -386,17 +378,17 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00063">63</a> of file <a class="el" href="web_2http_2server_2_request_8cpp_source.html">Request.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                                              {</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        std::map&lt;std::string, std::string&gt;::const_iterator it;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">if</span> ((it = <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a893d2475f4116b85d0d4a2b9bd0b7b04">queries</a>-&gt;find(key)) != <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a893d2475f4116b85d0d4a2b9bd0b7b04">queries</a>-&gt;end()) {</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordflow">return</span> it-&gt;second;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#abbc56ed49a648427ea68413cc20a353c">nullstr</a>;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        }</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
-<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_request_html_a893d2475f4116b85d0d4a2b9bd0b7b04"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_request.html#a893d2475f4116b85d0d4a2b9bd0b7b04">web::http::server::Request::queries</a></div><div class="ttdeci">const std::map&lt; std::string, std::string &gt; * queries</div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2server_2_request_8h_source.html#l00061">Request.h:61</a></div></div>
+<p class="definition">Definition at line <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00061">61</a> of file <a class="el" href="web_2http_2server_2_request_8cpp_source.html">Request.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                                                              {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        std::map&lt;std::string, std::string&gt;::const_iterator it = <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a2fdb3d31083fb88ced7c42df354134e3">queries</a>.find(key);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">if</span> (it != <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a2fdb3d31083fb88ced7c42df354134e3">queries</a>.end()) {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keywordflow">return</span> it-&gt;second;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#abbc56ed49a648427ea68413cc20a353c">nullstr</a>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
+<div class="ttc" id="aclassweb_1_1http_1_1server_1_1_request_html_a2fdb3d31083fb88ced7c42df354134e3"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_request.html#a2fdb3d31083fb88ced7c42df354134e3">web::http::server::Request::queries</a></div><div class="ttdeci">std::map&lt; std::string, std::string &gt; queries</div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2server_2_request_8h_source.html#l00061">Request.h:61</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="web_2http_2server_2_request_8h_source.html#l00065">nullstr</a>, and <a class="el" href="web_2http_2server_2_request_8h_source.html#l00061">queries</a>.</p>
 
@@ -425,19 +417,19 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00073">73</a> of file <a class="el" href="web_2http_2server_2_request_8cpp_source.html">Request.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                        {</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a7bbff0c0900a11bab6fbb98b95d74a01">method</a>.clear();</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a2c2ef2815be183f1130e9a4fd43f9851">url</a>.clear();</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a8094ae39445aef4b1bb729e47297537e">httpVersion</a>.clear();</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a9830d0fa4e479713dbdb438aeed897db">httpMajor</a> = 0;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a1ca6289401e639e7ef23a3ad426e64af">httpMinor</a> = 0;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#ac849bb8e86fe6b1ffb210d7df7c9ce12">connectionState</a> = <a class="code" href="namespaceweb_1_1http.html#ac27fdcf348c7472940ecd0e34342dca1a2e49d6b06cbe1718b81c65c7eee76807">ConnectionState::Default</a>;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#ae814e77a19ead3b432945b83a5c15867">headers</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#af4d4c1ca578735e7d1671d91489754ef">cookies</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a893d2475f4116b85d0d4a2b9bd0b7b04">queries</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        MultibleAttributeInjector::reset();</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00071">71</a> of file <a class="el" href="web_2http_2server_2_request_8cpp_source.html">Request.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                        {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a7bbff0c0900a11bab6fbb98b95d74a01">method</a>.clear();</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a2c2ef2815be183f1130e9a4fd43f9851">url</a>.clear();</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a8094ae39445aef4b1bb729e47297537e">httpVersion</a>.clear();</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a9830d0fa4e479713dbdb438aeed897db">httpMajor</a> = 0;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a1ca6289401e639e7ef23a3ad426e64af">httpMinor</a> = 0;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#ac849bb8e86fe6b1ffb210d7df7c9ce12">connectionState</a> = <a class="code" href="namespaceweb_1_1http.html#ac27fdcf348c7472940ecd0e34342dca1a2e49d6b06cbe1718b81c65c7eee76807">ConnectionState::Default</a>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#ae6cacd230334c252a976574e37fe582c">headers</a>.clear();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a4d019b16859d00b2b613cf7f5aee8562">cookies</a>.clear();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <a class="code" href="classweb_1_1http_1_1server_1_1_request.html#a2fdb3d31083fb88ced7c42df354134e3">queries</a>.clear();</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        MultibleAttributeInjector::reset();</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
 <div class="ttc" id="aclassweb_1_1http_1_1server_1_1_request_html_a1ca6289401e639e7ef23a3ad426e64af"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_request.html#a1ca6289401e639e7ef23a3ad426e64af">web::http::server::Request::httpMinor</a></div><div class="ttdeci">int httpMinor</div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2server_2_request_8h_source.html#l00053">Request.h:53</a></div></div>
 <div class="ttc" id="aclassweb_1_1http_1_1server_1_1_request_html_a2c2ef2815be183f1130e9a4fd43f9851"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_request.html#a2c2ef2815be183f1130e9a4fd43f9851">web::http::server::Request::url</a></div><div class="ttdeci">std::string url</div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2server_2_request_8h_source.html#l00050">Request.h:50</a></div></div>
 <div class="ttc" id="aclassweb_1_1http_1_1server_1_1_request_html_a7bbff0c0900a11bab6fbb98b95d74a01"><div class="ttname"><a href="classweb_1_1http_1_1server_1_1_request.html#a7bbff0c0900a11bab6fbb98b95d74a01">web::http::server::Request::method</a></div><div class="ttdeci">std::string method</div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2server_2_request_8h_source.html#l00049">Request.h:49</a></div></div>
@@ -516,12 +508,12 @@ template&lt;typename Request , typename Response &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="web_2http_2server_2_request_8h_source.html#l00057">57</a> of file <a class="el" href="web_2http_2server_2_request_8h_source.html">Request.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00073">reset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00071">reset()</a>.</p>
 
 </div>
 </div>
-<a id="af4d4c1ca578735e7d1671d91489754ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4d4c1ca578735e7d1671d91489754ef">&#9670;&nbsp;</a></span>cookies</h2>
+<a id="a4d019b16859d00b2b613cf7f5aee8562"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d019b16859d00b2b613cf7f5aee8562">&#9670;&nbsp;</a></span>cookies</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -530,7 +522,7 @@ template&lt;typename Request , typename Response &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::map&lt;std::string, std::string&gt;* web::http::server::Request::cookies = nullptr</td>
+          <td class="memname">std::map&lt;std::string, std::string&gt; web::http::server::Request::cookies</td>
         </tr>
       </table>
   </td>
@@ -542,12 +534,12 @@ template&lt;typename Request , typename Response &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="web_2http_2server_2_request_8h_source.html#l00063">63</a> of file <a class="el" href="web_2http_2server_2_request_8h_source.html">Request.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00051">cookie()</a>, and <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00073">reset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00051">cookie()</a>, and <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00071">reset()</a>.</p>
 
 </div>
 </div>
-<a id="ae814e77a19ead3b432945b83a5c15867"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae814e77a19ead3b432945b83a5c15867">&#9670;&nbsp;</a></span>headers</h2>
+<a id="ae6cacd230334c252a976574e37fe582c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6cacd230334c252a976574e37fe582c">&#9670;&nbsp;</a></span>headers</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -556,7 +548,7 @@ template&lt;typename Request , typename Response &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::map&lt;std::string, std::string&gt;* web::http::server::Request::headers = nullptr</td>
+          <td class="memname">std::map&lt;std::string, std::string&gt; web::http::server::Request::headers</td>
         </tr>
       </table>
   </td>
@@ -568,7 +560,7 @@ template&lt;typename Request , typename Response &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="web_2http_2server_2_request_8h_source.html#l00062">62</a> of file <a class="el" href="web_2http_2server_2_request_8h_source.html">Request.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00032">header()</a>, and <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00073">reset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00032">header()</a>, and <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00071">reset()</a>.</p>
 
 </div>
 </div>
@@ -586,7 +578,7 @@ template&lt;typename Request , typename Response &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="web_2http_2server_2_request_8h_source.html#l00052">52</a> of file <a class="el" href="web_2http_2server_2_request_8h_source.html">Request.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00073">reset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00071">reset()</a>.</p>
 
 </div>
 </div>
@@ -604,7 +596,7 @@ template&lt;typename Request , typename Response &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="web_2http_2server_2_request_8h_source.html#l00053">53</a> of file <a class="el" href="web_2http_2server_2_request_8h_source.html">Request.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00073">reset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00071">reset()</a>.</p>
 
 </div>
 </div>
@@ -622,7 +614,7 @@ template&lt;typename Request , typename Response &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="web_2http_2server_2_request_8h_source.html#l00051">51</a> of file <a class="el" href="web_2http_2server_2_request_8h_source.html">Request.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00073">reset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00071">reset()</a>.</p>
 
 </div>
 </div>
@@ -640,7 +632,7 @@ template&lt;typename Request , typename Response &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="web_2http_2server_2_request_8h_source.html#l00049">49</a> of file <a class="el" href="web_2http_2server_2_request_8h_source.html">Request.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_router_8cpp_source.html#l00257">express::MiddlewareDispatcher::dispatch()</a>, <a class="el" href="_router_8cpp_source.html#l00278">express::ApplicationDispatcher::dispatch()</a>, <a class="el" href="_router_8cpp_source.html#l00222">express::RouterDispatcher::dispatch()</a>, and <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00073">reset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_application_dispatcher_8cpp_source.html#l00036">express::dispatcher::ApplicationDispatcher::dispatch()</a>, <a class="el" href="_middleware_dispatcher_8cpp_source.html#l00042">express::dispatcher::MiddlewareDispatcher::dispatch()</a>, <a class="el" href="_router_dispatcher_8cpp_source.html#l00036">express::dispatcher::RouterDispatcher::dispatch()</a>, and <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00071">reset()</a>.</p>
 
 </div>
 </div>
@@ -666,12 +658,12 @@ template&lt;typename Request , typename Response &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="web_2http_2server_2_request_8h_source.html#l00065">65</a> of file <a class="el" href="web_2http_2server_2_request_8h_source.html">Request.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00051">cookie()</a>, <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00032">header()</a>, and <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00063">query()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00051">cookie()</a>, <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00032">header()</a>, and <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00061">query()</a>.</p>
 
 </div>
 </div>
-<a id="a893d2475f4116b85d0d4a2b9bd0b7b04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a893d2475f4116b85d0d4a2b9bd0b7b04">&#9670;&nbsp;</a></span>queries</h2>
+<a id="a2fdb3d31083fb88ced7c42df354134e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fdb3d31083fb88ced7c42df354134e3">&#9670;&nbsp;</a></span>queries</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -680,7 +672,7 @@ template&lt;typename Request , typename Response &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::map&lt;std::string, std::string&gt;* web::http::server::Request::queries = nullptr</td>
+          <td class="memname">std::map&lt;std::string, std::string&gt; web::http::server::Request::queries</td>
         </tr>
       </table>
   </td>
@@ -692,7 +684,7 @@ template&lt;typename Request , typename Response &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="web_2http_2server_2_request_8h_source.html#l00061">61</a> of file <a class="el" href="web_2http_2server_2_request_8h_source.html">Request.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00063">query()</a>, and <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00073">reset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00061">query()</a>, and <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00071">reset()</a>.</p>
 
 </div>
 </div>
@@ -710,7 +702,7 @@ template&lt;typename Request , typename Response &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="web_2http_2server_2_request_8h_source.html#l00050">50</a> of file <a class="el" href="web_2http_2server_2_request_8h_source.html">Request.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_router_8cpp_source.html#l00257">express::MiddlewareDispatcher::dispatch()</a>, <a class="el" href="_router_8cpp_source.html#l00278">express::ApplicationDispatcher::dispatch()</a>, <a class="el" href="express_2_request_8cpp_source.html#l00035">express::Request::extend()</a>, <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00073">reset()</a>, and <a class="el" href="_router_8cpp_source.html#l00105">express::setParams()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_application_dispatcher_8cpp_source.html#l00036">express::dispatcher::ApplicationDispatcher::dispatch()</a>, <a class="el" href="_middleware_dispatcher_8cpp_source.html#l00042">express::dispatcher::MiddlewareDispatcher::dispatch()</a>, <a class="el" href="express_2_request_8cpp_source.html#l00035">express::Request::extend()</a>, <a class="el" href="web_2http_2server_2_request_8cpp_source.html#l00071">reset()</a>, and <a class="el" href="regex__utils_8cpp_source.html#l00103">express::dispatcher::setParams()</a>.</p>
 
 </div>
 </div>

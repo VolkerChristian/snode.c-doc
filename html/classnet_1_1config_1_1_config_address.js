@@ -11,6 +11,6 @@ var classnet_1_1config_1_1_config_address =
     [ "address", "classnet_1_1config_1_1_config_address.html#a5e59b6c4936fa41eb62aa9c1180b1f5d", null ],
     [ "addressSc", "classnet_1_1config_1_1_config_address.html#a235559c880fdf1b8f70f1a519318f77f", null ],
     [ "initialized", "classnet_1_1config_1_1_config_address.html#ac76b81b31f039b32b359a1cf876a2ef2", null ],
-    [ "parsedRequired", "classnet_1_1config_1_1_config_address.html#a8b1b79fed053ea3be4257d46e9db2f19", null ],
+    [ "needsRequired", "classnet_1_1config_1_1_config_address.html#aad58621739d966a5256893d18b89cac5", null ],
     [ "updated", "classnet_1_1config_1_1_config_address.html#a42c140fe0469800807653e46580d6327", null ]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['descriptoreventpublisher_3941',['DescriptorEventPublisher',['../classcore_1_1_descriptor_event_receiver.html#ad8fdf38b934708783fc2e575dcfd3232',1,'core::DescriptorEventReceiver']]]
+  ['socketconnection_4278',['SocketConnection',['../classcore_1_1socket_1_1_socket_context.html#afe0716ae0bb46ff2afc82c87b1ab49f1',1,'core::socket::SocketContext']]]
 ];

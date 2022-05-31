@@ -8,6 +8,7 @@ var dir_001861d41473c343e7c3cc7f26309d08 =
     [ "SubProtocol.h", "_sub_protocol_8h.html", [
       [ "SubProtocol", "classweb_1_1websocket_1_1_sub_protocol.html", "classweb_1_1websocket_1_1_sub_protocol" ]
     ] ],
+    [ "SubProtocol.hpp", "_sub_protocol_8hpp.html", null ],
     [ "SubProtocolFactory.h", "_sub_protocol_factory_8h.html", [
       [ "SubProtocolFactory", "classweb_1_1websocket_1_1_sub_protocol_factory.html", "classweb_1_1websocket_1_1_sub_protocol_factory" ]
     ] ],

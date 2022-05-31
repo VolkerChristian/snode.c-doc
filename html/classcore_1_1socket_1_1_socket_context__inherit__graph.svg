@@ -114,32 +114,33 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="classweb_1_1http_1_1server_1_1_socket_context.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-690 0,-890 147,-890 147,-690 0,-690"/>
-<text text-anchor="start" x="8" y="-878" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::server::</text>
-<text text-anchor="start" x="8" y="-867" font-family="Helvetica,sans-Serif" font-size="10.00">SocketContext&lt; RequestT,</text>
-<text text-anchor="middle" x="73.5" y="-856" font-family="Helvetica,sans-Serif" font-size="10.00"> ResponseT &gt;</text>
-<polyline fill="none" stroke="black" points="0,-849 147,-849 "/>
-<text text-anchor="start" x="8" y="-837" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onRequestReady</text>
-<text text-anchor="start" x="8" y="-826" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; parser</text>
-<text text-anchor="start" x="8" y="-815" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; requestContexts</text>
-<text text-anchor="start" x="8" y="-804" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; requestInProgress</text>
-<text text-anchor="start" x="8" y="-793" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; connectionTerminated</text>
-<polyline fill="none" stroke="black" points="0,-786 147,-786 "/>
-<text text-anchor="start" x="8" y="-774" font-family="Helvetica,sans-Serif" font-size="10.00">+ SocketContext()</text>
-<text text-anchor="start" x="8" y="-763" font-family="Helvetica,sans-Serif" font-size="10.00"># ~SocketContext()</text>
-<text text-anchor="start" x="8" y="-752" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onReceiveFromPeer()</text>
-<text text-anchor="start" x="8" y="-741" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; sendToPeerCompleted()</text>
-<text text-anchor="start" x="8" y="-730" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onConnected()</text>
-<text text-anchor="start" x="8" y="-719" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onDisconnected()</text>
-<text text-anchor="start" x="8" y="-708" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; requestParsed()</text>
-<text text-anchor="start" x="8" y="-697" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; reset()</text>
+<polygon fill="white" stroke="black" points="0,-684.5 0,-895.5 147,-895.5 147,-684.5 0,-684.5"/>
+<text text-anchor="start" x="8" y="-883.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::server::</text>
+<text text-anchor="start" x="8" y="-872.5" font-family="Helvetica,sans-Serif" font-size="10.00">SocketContext&lt; RequestT,</text>
+<text text-anchor="middle" x="73.5" y="-861.5" font-family="Helvetica,sans-Serif" font-size="10.00"> ResponseT &gt;</text>
+<polyline fill="none" stroke="black" points="0,-854.5 147,-854.5 "/>
+<text text-anchor="start" x="8" y="-842.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onRequestReady</text>
+<text text-anchor="start" x="8" y="-831.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; parser</text>
+<text text-anchor="start" x="8" y="-820.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; requestContexts</text>
+<text text-anchor="start" x="8" y="-809.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; currentRequestContext</text>
+<text text-anchor="start" x="8" y="-798.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; requestInProgress</text>
+<text text-anchor="start" x="8" y="-787.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; connectionTerminated</text>
+<polyline fill="none" stroke="black" points="0,-780.5 147,-780.5 "/>
+<text text-anchor="start" x="8" y="-768.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SocketContext()</text>
+<text text-anchor="start" x="8" y="-757.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ~SocketContext()</text>
+<text text-anchor="start" x="8" y="-746.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onReceiveFromPeer()</text>
+<text text-anchor="start" x="8" y="-735.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; sendToPeerCompleted()</text>
+<text text-anchor="start" x="8" y="-724.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onConnected()</text>
+<text text-anchor="start" x="8" y="-713.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; onDisconnected()</text>
+<text text-anchor="start" x="8" y="-702.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; requestParsed()</text>
+<text text-anchor="start" x="8" y="-691.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; reset()</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node2&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M180.04,-1014C171.15,-1004.57 162.59,-994.4 155.5,-984 136.02,-955.42 119.71,-921.47 106.9,-890.08"/>
+<path fill="none" stroke="midnightblue" d="M180.04,-1014C171.15,-1004.57 162.59,-994.4 155.5,-984 137.15,-957.07 121.61,-925.39 109.16,-895.56"/>
 <polygon fill="none" stroke="midnightblue" points="177.74,-1016.66 187.22,-1021.4 182.76,-1011.79 177.74,-1016.66"/>
 </g>
 <!-- Node6 -->

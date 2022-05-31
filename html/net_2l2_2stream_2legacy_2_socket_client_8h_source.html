@@ -117,13 +117,14 @@ $(document).ready(function(){initNavTree('net_2l2_2stream_2legacy_2_socket_clien
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacenet_1_1l2_1_1stream_1_1legacy.html">net::l2::stream::legacy</a> {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> SocketContextFactoryT&gt;</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="namespacenet_1_1l2_1_1stream_1_1legacy.html#a6f1d92cf6f9cf542b6477583b97988ab">   33</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_client.html">SocketClient</a> = core::socket::stream::legacy::</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        SocketClient&lt;net::l2::stream::ClientSocket, net::l2::stream::legacy::config::ConfigSocketClient, SocketContextFactoryT&gt;;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;} <span class="comment">// namespace net::l2::stream::legacy</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// NET_L2_STREAM_LEGACY_SOCKETCLIENT_H</span></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1legacy_1_1_socket_client_html"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_client.html">core::socket::stream::legacy::SocketClient</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2legacy_2_socket_client_8h_source.html#l00032">SocketClient.h:36</a></div></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="namespacenet_1_1l2_1_1stream_1_1legacy.html#a6ba0f624522a29246c404d73d07c297a">   33</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_client.html">SocketClient</a> =</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_client.html">core::socket::stream::legacy::SocketClient&lt;net::l2::stream::ClientSocket&lt;net::l2::stream::legacy::config::ConfigSocketClient&gt;</a>,</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                                   SocketContextFactoryT&gt;;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;} <span class="comment">// namespace net::l2::stream::legacy</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// NET_L2_STREAM_LEGACY_SOCKETCLIENT_H</span></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1legacy_1_1_socket_client_html"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_client.html">core::socket::stream::legacy::SocketClient</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2legacy_2_socket_client_8h_source.html#l00032">SocketClient.h:33</a></div></div>
 <div class="ttc" id="acore_2socket_2stream_2legacy_2_socket_client_8h_html"><div class="ttname"><a href="core_2socket_2stream_2legacy_2_socket_client_8h.html">SocketClient.h</a></div></div>
 <div class="ttc" id="al2_2stream_2_client_socket_8h_html"><div class="ttname"><a href="l2_2stream_2_client_socket_8h.html">ClientSocket.h</a></div></div>
 <div class="ttc" id="al2_2stream_2legacy_2config_2_config_socket_client_8h_html"><div class="ttname"><a href="l2_2stream_2legacy_2config_2_config_socket_client_8h.html">ConfigSocketClient.h</a></div></div>

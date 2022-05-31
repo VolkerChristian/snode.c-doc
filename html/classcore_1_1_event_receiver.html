@@ -84,7 +84,6 @@ $(document).ready(function(){initNavTree('classcore_1_1_event_receiver.html','')
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcore_1_1_event_receiver-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">core::EventReceiver Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -95,38 +94,35 @@ $(document).ready(function(){initNavTree('classcore_1_1_event_receiver.html','')
 <div class="dynheader">
 Inheritance diagram for core::EventReceiver:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver__inherit__graph.svg" width="2919" height="2622"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver__inherit__graph.svg" width="3019" height="2084"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for core::EventReceiver:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver__coll__graph.svg" width="180" height="316"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver__coll__graph.svg" width="187" height="390"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adec275118bd8a68e2b4cb71fa94d79b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#adec275118bd8a68e2b4cb71fa94d79b6">EventReceiver</a> (const std::string &amp;<a class="el" href="classcore_1_1_event_receiver.html#aa642880e94c406fb71363b70571e6a58">name</a>)</td></tr>
+<tr class="memitem:adec275118bd8a68e2b4cb71fa94d79b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#adec275118bd8a68e2b4cb71fa94d79b6">EventReceiver</a> (const std::string &amp;name)</td></tr>
 <tr class="separator:adec275118bd8a68e2b4cb71fa94d79b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a992cbab6f773fbbb24d89d34ca938d98"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a992cbab6f773fbbb24d89d34ca938d98">~EventReceiver</a> ()=default</td></tr>
 <tr class="separator:a992cbab6f773fbbb24d89d34ca938d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c98dfe13e9f7928f7bdc32d27c50be3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a1c98dfe13e9f7928f7bdc32d27c50be3">publish</a> () const</td></tr>
-<tr class="separator:a1c98dfe13e9f7928f7bdc32d27c50be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68bbd81df2074e66c5ebaff085ef2cc9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a68bbd81df2074e66c5ebaff085ef2cc9">dispatch</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime)=0</td></tr>
-<tr class="separator:a68bbd81df2074e66c5ebaff085ef2cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b80e945995510922706c33403f0a4f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a2b80e945995510922706c33403f0a4f0">publish</a> ()</td></tr>
+<tr class="separator:a2b80e945995510922706c33403f0a4f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adceeaf6ab0c3203a2f7da637c16b6bc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#adceeaf6ab0c3203a2f7da637c16b6bc9">unPublish</a> ()</td></tr>
+<tr class="separator:adceeaf6ab0c3203a2f7da637c16b6bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6765acf2d09577bd5bce19f7eb7b4290"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a6765acf2d09577bd5bce19f7eb7b4290">event</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime)=0</td></tr>
+<tr class="separator:a6765acf2d09577bd5bce19f7eb7b4290"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac62114d8385172bb2c536774a7dfcf7"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#aac62114d8385172bb2c536774a7dfcf7">getName</a> ()</td></tr>
 <tr class="separator:aac62114d8385172bb2c536774a7dfcf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aa7594f344bc5bf40ed9d8bd0fd00ac5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1_event.html">Event</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#aa7594f344bc5bf40ed9d8bd0fd00ac5a">event</a></td></tr>
-<tr class="separator:aa7594f344bc5bf40ed9d8bd0fd00ac5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:aa642880e94c406fb71363b70571e6a58"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#aa642880e94c406fb71363b70571e6a58">name</a></td></tr>
-<tr class="separator:aa642880e94c406fb71363b70571e6a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cb04ae1fd7030755afebe1e7ff8c582"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1_event.html">Event</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_receiver.html#a8cb04ae1fd7030755afebe1e7ff8c582">_event</a></td></tr>
+<tr class="separator:a8cb04ae1fd7030755afebe1e7ff8c582"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -148,12 +144,10 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_receiver_8cpp_source.html#l00030">30</a> of file <a class="el" href="_event_receiver_8cpp_source.html">EventReceiver.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        : <a class="code" href="classcore_1_1_event_receiver.html#aa642880e94c406fb71363b70571e6a58">name</a>(<a class="code" href="classcore_1_1_event_receiver.html#aa642880e94c406fb71363b70571e6a58">name</a>)</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        , <a class="code" href="classcore_1_1_event_receiver.html#aa7594f344bc5bf40ed9d8bd0fd00ac5a">event</a>(<span class="keyword">this</span>) {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1_event_receiver_html_aa642880e94c406fb71363b70571e6a58"><div class="ttname"><a href="classcore_1_1_event_receiver.html#aa642880e94c406fb71363b70571e6a58">core::EventReceiver::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition:</b> <a href="_event_receiver_8h_source.html#l00048">EventReceiver.h:48</a></div></div>
-<div class="ttc" id="aclasscore_1_1_event_receiver_html_aa7594f344bc5bf40ed9d8bd0fd00ac5a"><div class="ttname"><a href="classcore_1_1_event_receiver.html#aa7594f344bc5bf40ed9d8bd0fd00ac5a">core::EventReceiver::event</a></div><div class="ttdeci">Event event</div><div class="ttdef"><b>Definition:</b> <a href="_event_receiver_8h_source.html#l00051">EventReceiver.h:51</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_event_receiver_8cpp_source.html#l00027">27</a> of file <a class="el" href="_event_receiver_8cpp_source.html">EventReceiver.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        : <a class="code" href="classcore_1_1_event_receiver.html#a8cb04ae1fd7030755afebe1e7ff8c582">_event</a>(<span class="keyword">this</span>, name) {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1_event_receiver_html_a8cb04ae1fd7030755afebe1e7ff8c582"><div class="ttname"><a href="classcore_1_1_event_receiver.html#a8cb04ae1fd7030755afebe1e7ff8c582">core::EventReceiver::_event</a></div><div class="ttdeci">Event _event</div><div class="ttdef"><b>Definition:</b> <a href="_event_receiver_8h_source.html#l00049">EventReceiver.h:49</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -183,8 +177,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a68bbd81df2074e66c5ebaff085ef2cc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68bbd81df2074e66c5ebaff085ef2cc9">&#9670;&nbsp;</a></span>dispatch()</h2>
+<a id="a6765acf2d09577bd5bce19f7eb7b4290"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6765acf2d09577bd5bce19f7eb7b4290">&#9670;&nbsp;</a></span>event()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -193,7 +187,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void core::EventReceiver::dispatch </td>
+          <td class="memname">virtual void core::EventReceiver::event </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;&#160;</td>
           <td class="paramname"><em>currentTime</em></td><td>)</td>
@@ -207,13 +201,13 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcore_1_1file_1_1_file_reader.html#a70b043ec42bb320537db9496af7204ab">core::file::FileReader</a>, <a class="el" href="classcore_1_1eventreceiver_1_1_init_connect_event_receiver.html#a92a69c59079059ecb23db2f861fa0f7f">core::eventreceiver::InitConnectEventReceiver</a>, <a class="el" href="classcore_1_1eventreceiver_1_1_init_accept_event_receiver.html#ab8395ba8343308e7cf42661f0f45b1c1">core::eventreceiver::InitAcceptEventReceiver</a>, <a class="el" href="classcore_1_1_timer_event_receiver.html#a9d02ea7aa4db747173abd27f4b048754">core::TimerEventReceiver</a>, and <a class="el" href="classcore_1_1_descriptor_event_receiver.html#a1dfce3b12cb998d452b9b78d1fc9b2fa">core::DescriptorEventReceiver</a>.</p>
+<p>Implemented in <a class="el" href="classdatabase_1_1mariadb_1_1_maria_d_b_command_start_event.html#a7f943966c50ed241f18cae25a9598e47">database::mariadb::MariaDBCommandStartEvent</a>, <a class="el" href="classcore_1_1file_1_1_file_reader.html#a707dd40b31059427719a559ae1f31281">core::file::FileReader</a>, <a class="el" href="classcore_1_1eventreceiver_1_1_init_connect_event_receiver.html#a63828198891287319109a4ed7068f2bc">core::eventreceiver::InitConnectEventReceiver</a>, <a class="el" href="classcore_1_1eventreceiver_1_1_init_accept_event_receiver.html#aabda3fcacfc648aae12ad4ecda8050f8">core::eventreceiver::InitAcceptEventReceiver</a>, <a class="el" href="classcore_1_1_timer_event_receiver.html#aa4a86802e7879fce39551aa79b2ebacd">core::TimerEventReceiver</a>, and <a class="el" href="classcore_1_1_descriptor_event_receiver.html#afddba2c19ccae69eb0f9a1501cd1bc11">core::DescriptorEventReceiver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_8cpp_source.html#l00035">core::Event::dispatch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_8cpp_source.html#l00060">core::Event::dispatch()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver_a68bbd81df2074e66c5ebaff085ef2cc9_icgraph.svg" width="370" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver_a6765acf2d09577bd5bce19f7eb7b4290_icgraph.svg" width="370" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -236,23 +230,30 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_event_receiver_8cpp_source.html#l00039">39</a> of file <a class="el" href="_event_receiver_8cpp_source.html">EventReceiver.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                                            {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1_event_receiver.html#aa642880e94c406fb71363b70571e6a58">name</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1_event_receiver.html#a8cb04ae1fd7030755afebe1e7ff8c582">_event</a>.<a class="code" href="classcore_1_1_event.html#add8f12b93d4937dcd6a4863cbe4fdb69">getName</a>();</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1_event_html_add8f12b93d4937dcd6a4863cbe4fdb69"><div class="ttname"><a href="classcore_1_1_event.html#add8f12b93d4937dcd6a4863cbe4fdb69">core::Event::getName</a></div><div class="ttdeci">const std::string &amp; getName()</div><div class="ttdef"><b>Definition:</b> <a href="_event_8cpp_source.html#l00056">Event.cpp:56</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_receiver_8h_source.html#l00048">name</a>.</p>
+<p class="reference">References <a class="el" href="_event_receiver_8h_source.html#l00049">_event</a>, and <a class="el" href="_event_8cpp_source.html#l00056">core::Event::getName()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00067">core::DescriptorEventReceiver::disable()</a>, <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00050">core::DescriptorEventReceiver::enable()</a>, <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00108">core::DescriptorEventReceiver::resume()</a>, and <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00092">core::DescriptorEventReceiver::suspend()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00067">core::DescriptorEventReceiver::disable()</a>, <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00050">core::DescriptorEventReceiver::enable()</a>, <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00104">core::DescriptorEventReceiver::resume()</a>, and <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00088">core::DescriptorEventReceiver::suspend()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver_aac62114d8385172bb2c536774a7dfcf7_cgraph.svg" width="374" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver_aac62114d8385172bb2c536774a7dfcf7_icgraph.svg" width="1786" height="1003"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver_aac62114d8385172bb2c536774a7dfcf7_icgraph.svg" width="1244" height="1048"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a1c98dfe13e9f7928f7bdc32d27c50be3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c98dfe13e9f7928f7bdc32d27c50be3">&#9670;&nbsp;</a></span>publish()</h2>
+<a id="a2b80e945995510922706c33403f0a4f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b80e945995510922706c33403f0a4f0">&#9670;&nbsp;</a></span>publish()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -261,40 +262,77 @@ Here is the caller graph for this function:</div>
           <td class="memname">void core::EventReceiver::publish </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_receiver_8cpp_source.html#l00035">35</a> of file <a class="el" href="_event_receiver_8cpp_source.html">EventReceiver.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                      {</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="classcore_1_1_event_loop.html#a413d227511f68c2c9939719bd2590794">core::EventLoop::instance</a>().<a class="code" href="classcore_1_1_event_loop.html#a17f1623de6ca2ea2682c63cf502c3c36">getEventMultiplexer</a>().<a class="code" href="classcore_1_1_event_multiplexer.html#adc91f8c5640fafa82ae7403068255392">publish</a>(&amp;<a class="code" href="classcore_1_1_event_receiver.html#aa7594f344bc5bf40ed9d8bd0fd00ac5a">event</a>);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1_event_loop_html_a17f1623de6ca2ea2682c63cf502c3c36"><div class="ttname"><a href="classcore_1_1_event_loop.html#a17f1623de6ca2ea2682c63cf502c3c36">core::EventLoop::getEventMultiplexer</a></div><div class="ttdeci">EventMultiplexer &amp; getEventMultiplexer()</div><div class="ttdef"><b>Definition:</b> <a href="_event_loop_8cpp_source.html#l00072">EventLoop.cpp:72</a></div></div>
-<div class="ttc" id="aclasscore_1_1_event_loop_html_a413d227511f68c2c9939719bd2590794"><div class="ttname"><a href="classcore_1_1_event_loop.html#a413d227511f68c2c9939719bd2590794">core::EventLoop::instance</a></div><div class="ttdeci">static EventLoop &amp; instance()</div><div class="ttdef"><b>Definition:</b> <a href="_event_loop_8cpp_source.html#l00062">EventLoop.cpp:62</a></div></div>
-<div class="ttc" id="aclasscore_1_1_event_multiplexer_html_adc91f8c5640fafa82ae7403068255392"><div class="ttname"><a href="classcore_1_1_event_multiplexer.html#adc91f8c5640fafa82ae7403068255392">core::EventMultiplexer::publish</a></div><div class="ttdeci">void publish(const core::Event *event)</div><div class="ttdef"><b>Definition:</b> <a href="_event_multiplexer_8cpp_source.html#l00060">EventMultiplexer.cpp:60</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_event_receiver_8cpp_source.html#l00031">31</a> of file <a class="el" href="_event_receiver_8cpp_source.html">EventReceiver.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                                {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="classcore_1_1_event_receiver.html#a8cb04ae1fd7030755afebe1e7ff8c582">_event</a>.<a class="code" href="classcore_1_1_event.html#ad4d48001b033cdcd0eb4f509cf53e396">publish</a>();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1_event_html_ad4d48001b033cdcd0eb4f509cf53e396"><div class="ttname"><a href="classcore_1_1_event.html#ad4d48001b033cdcd0eb4f509cf53e396">core::Event::publish</a></div><div class="ttdeci">void publish()</div><div class="ttdef"><b>Definition:</b> <a href="_event_8cpp_source.html#l00042">Event.cpp:42</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_receiver_8h_source.html#l00051">event</a>, <a class="el" href="_event_loop_8cpp_source.html#l00072">core::EventLoop::getEventMultiplexer()</a>, <a class="el" href="_event_loop_8cpp_source.html#l00062">core::EventLoop::instance()</a>, and <a class="el" href="_event_multiplexer_8cpp_source.html#l00060">core::EventMultiplexer::publish()</a>.</p>
+<p class="reference">References <a class="el" href="_event_receiver_8h_source.html#l00049">_event</a>, and <a class="el" href="_event_8cpp_source.html#l00042">core::Event::publish()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00162">core::DescriptorEventReceiver::checkTimeout()</a>, <a class="el" href="_file_reader_8cpp_source.html#l00056">core::file::FileReader::dispatch()</a>, <a class="el" href="multiplexer_2epoll_2_descriptor_event_publisher_8cpp_source.html#l00115">core::epoll::DescriptorEventPublisher::dispatchActiveEvents()</a>, <a class="el" href="multiplexer_2poll_2_descriptor_event_publisher_8cpp_source.html#l00055">core::poll::DescriptorEventPublisher::dispatchActiveEvents()</a>, <a class="el" href="multiplexer_2select_2_descriptor_event_publisher_8cpp_source.html#l00078">core::select::DescriptorEventPublisher::dispatchActiveEvents()</a>, and <a class="el" href="_file_reader_8cpp_source.html#l00034">core::file::FileReader::FileReader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_reader_8h_source.html#l00082">core::socket::stream::SocketReader&lt; SocketT &gt;::doRead()</a>, <a class="el" href="stream_2tls_2_socket_connection_8h_source.html#l00120">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;::doSSLHandshake()</a>, <a class="el" href="_socket_writer_8h_source.html#l00093">core::socket::stream::SocketWriter&lt; SocketT &gt;::doWrite()</a>, <a class="el" href="_file_reader_8cpp_source.html#l00058">core::file::FileReader::event()</a>, <a class="el" href="_file_reader_8cpp_source.html#l00034">core::file::FileReader::FileReader()</a>, <a class="el" href="_maria_d_b_connection_8cpp_source.html#l00256">database::mariadb::MariaDBCommandStartEvent::publish()</a>, <a class="el" href="multiplexer_2epoll_2_descriptor_event_publisher_8cpp_source.html#l00116">core::epoll::DescriptorEventPublisher::publishActiveEvents()</a>, <a class="el" href="multiplexer_2poll_2_descriptor_event_publisher_8cpp_source.html#l00056">core::poll::DescriptorEventPublisher::publishActiveEvents()</a>, <a class="el" href="multiplexer_2select_2_descriptor_event_publisher_8cpp_source.html#l00079">core::select::DescriptorEventPublisher::publishActiveEvents()</a>, <a class="el" href="_file_reader_8cpp_source.html#l00086">core::file::FileReader::resume()</a>, and <a class="el" href="_socket_writer_8h_source.html#l00080">core::socket::stream::SocketWriter&lt; SocketT &gt;::sendToPeer()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver_a1c98dfe13e9f7928f7bdc32d27c50be3_cgraph.svg" width="620" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver_a2b80e945995510922706c33403f0a4f0_cgraph.svg" width="819" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver_a1c98dfe13e9f7928f7bdc32d27c50be3_icgraph.svg" width="1044" height="395"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver_a2b80e945995510922706c33403f0a4f0_icgraph.svg" width="1367" height="754"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="adceeaf6ab0c3203a2f7da637c16b6bc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adceeaf6ab0c3203a2f7da637c16b6bc9">&#9670;&nbsp;</a></span>unPublish()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void core::EventReceiver::unPublish </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_event_receiver_8cpp_source.html#l00035">35</a> of file <a class="el" href="_event_receiver_8cpp_source.html">EventReceiver.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                  {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="classcore_1_1_event_receiver.html#a8cb04ae1fd7030755afebe1e7ff8c582">_event</a>.<a class="code" href="classcore_1_1_event.html#ab88453934791bf46f7265cec2e34e00b">unPublish</a>();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1_event_html_ab88453934791bf46f7265cec2e34e00b"><div class="ttname"><a href="classcore_1_1_event.html#ab88453934791bf46f7265cec2e34e00b">core::Event::unPublish</a></div><div class="ttdeci">void unPublish()</div><div class="ttdef"><b>Definition:</b> <a href="_event_8cpp_source.html#l00049">Event.cpp:49</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="_event_receiver_8h_source.html#l00049">_event</a>, and <a class="el" href="_event_8cpp_source.html#l00049">core::Event::unPublish()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_maria_d_b_connection_8cpp_source.html#l00252">database::mariadb::MariaDBCommandStartEvent::~MariaDBCommandStartEvent()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver_adceeaf6ab0c3203a2f7da637c16b6bc9_cgraph.svg" width="835" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_receiver_adceeaf6ab0c3203a2f7da637c16b6bc9_icgraph.svg" width="443" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa7594f344bc5bf40ed9d8bd0fd00ac5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7594f344bc5bf40ed9d8bd0fd00ac5a">&#9670;&nbsp;</a></span>event</h2>
+<a id="a8cb04ae1fd7030755afebe1e7ff8c582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cb04ae1fd7030755afebe1e7ff8c582">&#9670;&nbsp;</a></span>_event</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -303,7 +341,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classcore_1_1_event.html">Event</a> core::EventReceiver::event</td>
+          <td class="memname"><a class="el" href="classcore_1_1_event.html">Event</a> core::EventReceiver::_event</td>
         </tr>
       </table>
   </td>
@@ -313,35 +351,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_receiver_8h_source.html#l00051">51</a> of file <a class="el" href="_event_receiver_8h_source.html">EventReceiver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_event_receiver_8h_source.html#l00049">49</a> of file <a class="el" href="_event_receiver_8h_source.html">EventReceiver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_receiver_8cpp_source.html#l00035">publish()</a>.</p>
-
-</div>
-</div>
-<a id="aa642880e94c406fb71363b70571e6a58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa642880e94c406fb71363b70571e6a58">&#9670;&nbsp;</a></span>name</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string core::EventReceiver::name</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_event_receiver_8h_source.html#l00048">48</a> of file <a class="el" href="_event_receiver_8h_source.html">EventReceiver.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="_event_receiver_8cpp_source.html#l00039">getName()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_receiver_8cpp_source.html#l00039">getName()</a>, <a class="el" href="_event_receiver_8cpp_source.html#l00031">publish()</a>, and <a class="el" href="_event_receiver_8cpp_source.html#l00035">unPublish()</a>.</p>
 
 </div>
 </div>

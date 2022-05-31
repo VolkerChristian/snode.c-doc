@@ -1,18 +1,21 @@
 <map id="web::http::server::Response::sendHeader" name="web::http::server::Response::sendHeader">
-<area shape="rect" id="node1" title=" " alt="" coords="5,197,176,239"/>
-<area shape="rect" id="node2" href="$classweb_1_1http_1_1server_1_1_response.html#aa9a6f2cbf1a4f186db94f9a2d5d6da08" title=" " alt="" coords="237,67,377,108"/>
-<area shape="rect" id="node3" href="$classweb_1_1http_1_1server_1_1_response.html#a6bdff1ff4fb13a952df7bfefd0b87667" title=" " alt="" coords="233,132,382,173"/>
-<area shape="rect" id="node9" href="$classweb_1_1http_1_1_status_code.html#ad3c635f1cb778cdb4a2e23332ebda277" title=" " alt="" coords="225,197,390,239"/>
-<area shape="rect" id="node11" href="$classweb_1_1http_1_1server_1_1_response.html#a82301ce94e8418a2d0b9bc052207a178" title=" " alt="" coords="237,263,377,304"/>
-<area shape="rect" id="node15" href="$namespacehttputils.html#a01539c1af68e4d072d3507ae44c0b02a" title=" " alt="" coords="224,329,391,355"/>
-<area shape="rect" id="node16" href="$namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577" title="Convert an object to a string (directly forward if this can become a string)" alt="" coords="231,379,383,406"/>
-<area shape="rect" id="node4" href="$classcore_1_1socket_1_1_socket_context.html#a7daa40724b091ab2970e60cd5c46148a" title=" " alt="" coords="439,5,641,47"/>
-<area shape="rect" id="node6" href="$classcore_1_1socket_1_1_socket_context.html#acf71eb98dd1dbbf97af68326bdaac8ff" title=" " alt="" coords="439,71,641,112"/>
-<area shape="rect" id="node8" href="$classweb_1_1http_1_1_socket_context.html#a3d37b0a17a47ce6c9ebf96900bfe2a74" title=" " alt="" coords="447,136,633,177"/>
-<area shape="rect" id="node5" href="$classcore_1_1socket_1_1_socket_connection.html#a9b8dcd50d3aee2376df71eb53bb3805f" title=" " alt="" coords="689,5,913,47"/>
-<area shape="rect" id="node7" href="$classcore_1_1socket_1_1_socket_connection.html#a15c934a69a64a7d2a0f230ebf1033195" title=" " alt="" coords="689,71,913,112"/>
-<area shape="rect" id="node10" href="$classweb_1_1http_1_1_status_code.html#a7128168d2becba8d8bfd0e47ab2854ff" title=" " alt="" coords="457,201,623,243"/>
-<area shape="rect" id="node12" href="$namespacehttputils.html#af566d4f31d97a3a84b373a94e6cf9594" title=" " alt="" coords="461,270,619,297"/>
-<area shape="rect" id="node13" href="$namespace_c_l_i_1_1detail.html#aa4b4a0a97c9b07110595765887647385" title="A search function." alt="" coords="732,270,871,297"/>
-<area shape="rect" id="node14" href="$namespace_c_l_i_1_1detail.html#a0c6cf48feae9d909d52e7b4c346cba29" title=" " alt="" coords="961,263,1095,304"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,224,176,265"/>
+<area shape="rect" id="node2" href="$classweb_1_1http_1_1server_1_1_response.html#aa9a6f2cbf1a4f186db94f9a2d5d6da08" title=" " alt="" coords="237,93,377,135"/>
+<area shape="rect" id="node3" href="$classweb_1_1http_1_1server_1_1_response.html#a6bdff1ff4fb13a952df7bfefd0b87667" title=" " alt="" coords="233,159,382,200"/>
+<area shape="rect" id="node12" href="$classweb_1_1http_1_1_status_code.html#ad3c635f1cb778cdb4a2e23332ebda277" title=" " alt="" coords="225,224,390,265"/>
+<area shape="rect" id="node14" href="$classweb_1_1http_1_1server_1_1_response.html#a82301ce94e8418a2d0b9bc052207a178" title=" " alt="" coords="237,289,377,331"/>
+<area shape="rect" id="node18" href="$namespacehttputils.html#a01539c1af68e4d072d3507ae44c0b02a" title=" " alt="" coords="224,355,391,382"/>
+<area shape="rect" id="node19" href="$namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577" title="Convert an object to a string (directly forward if this can become a string)" alt="" coords="231,406,383,433"/>
+<area shape="rect" id="node4" href="$classweb_1_1http_1_1server_1_1_request_context_base.html#a4f00d26b05063a3f91a13a4e3f83023d" title=" " alt="" coords="439,5,639,47"/>
+<area shape="rect" id="node7" href="$classweb_1_1http_1_1server_1_1_request_context_base.html#a75e9f8daa736c9af15f9b784477fd216" title=" " alt="" coords="455,71,622,127"/>
+<area shape="rect" id="node10" href="$classweb_1_1http_1_1server_1_1_request_context_base.html#a0d34bccc21c1e0139345d8a59520c8cb" title=" " alt="" coords="455,151,622,207"/>
+<area shape="rect" id="node5" href="$classcore_1_1socket_1_1_socket_context.html#a7daa40724b091ab2970e60cd5c46148a" title=" " alt="" coords="687,5,889,47"/>
+<area shape="rect" id="node6" href="$classcore_1_1socket_1_1_socket_connection.html#a9b8dcd50d3aee2376df71eb53bb3805f" title=" " alt="" coords="937,5,1161,47"/>
+<area shape="rect" id="node8" href="$classcore_1_1socket_1_1_socket_context.html#acf71eb98dd1dbbf97af68326bdaac8ff" title=" " alt="" coords="687,79,889,120"/>
+<area shape="rect" id="node9" href="$classcore_1_1socket_1_1_socket_connection.html#a15c934a69a64a7d2a0f230ebf1033195" title=" " alt="" coords="937,79,1161,120"/>
+<area shape="rect" id="node11" href="$classweb_1_1http_1_1_socket_context.html#a3d37b0a17a47ce6c9ebf96900bfe2a74" title=" " alt="" coords="695,159,881,200"/>
+<area shape="rect" id="node13" href="$classweb_1_1http_1_1_status_code.html#a7128168d2becba8d8bfd0e47ab2854ff" title=" " alt="" coords="456,232,621,273"/>
+<area shape="rect" id="node15" href="$namespacehttputils.html#af566d4f31d97a3a84b373a94e6cf9594" title=" " alt="" coords="460,298,617,325"/>
+<area shape="rect" id="node16" href="$namespace_c_l_i_1_1detail.html#aa4b4a0a97c9b07110595765887647385" title="A search function." alt="" coords="719,298,857,325"/>
+<area shape="rect" id="node17" href="$namespace_c_l_i_1_1detail.html#a0c6cf48feae9d909d52e7b4c346cba29" title=" " alt="" coords="983,291,1116,332"/>
 </map>

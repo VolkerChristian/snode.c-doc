@@ -23,7 +23,7 @@
 <text text-anchor="start" x="14" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; EventMultiplexer()</text>
 <text text-anchor="start" x="14" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; operator=()</text>
 <text text-anchor="start" x="14" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; multiplex()</text>
-<text text-anchor="start" x="14" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; dispatchActiveEvents()</text>
+<text text-anchor="start" x="14" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; publishActiveEvents()</text>
 </a>
 </g>
 </g>
@@ -35,8 +35,8 @@
 <text text-anchor="middle" x="87" y="-414.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::EventMultiplexer</text>
 <polyline fill="none" stroke="black" points="0,-407.5 174,-407.5 "/>
 <text text-anchor="start" x="8" y="-395.5" font-family="Helvetica,sans-Serif" font-size="10.00"># descriptorEventPublishers</text>
-<text text-anchor="start" x="8" y="-384.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; eventQueue</text>
-<text text-anchor="start" x="8" y="-373.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; timerEventPublisher</text>
+<text text-anchor="start" x="8" y="-384.5" font-family="Helvetica,sans-Serif" font-size="10.00"># timerEventPublisher</text>
+<text text-anchor="start" x="8" y="-373.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; eventQueue</text>
 <polyline fill="none" stroke="black" points="0,-366.5 174,-366.5 "/>
 <text text-anchor="start" x="8" y="-354.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getDescriptorEventPublisher()</text>
 <text text-anchor="start" x="8" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getTimerEventPublisher()</text>
@@ -54,8 +54,8 @@
 <text text-anchor="start" x="8" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; checkTimedOutEvents()</text>
 <text text-anchor="start" x="8" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; getNextTimeout()</text>
 <text text-anchor="start" x="8" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; multiplex()</text>
-<text text-anchor="start" x="8" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; dispatchActiveEvents()</text>
-<text text-anchor="start" x="8" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; dispatchActiveEvents()</text>
+<text text-anchor="start" x="8" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; publishActiveEvents()</text>
+<text text-anchor="start" x="8" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; publishActiveEvents()</text>
 <text text-anchor="start" x="8" y="-156.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; unobserveDisabledEvents()</text>
 </a>
 </g>

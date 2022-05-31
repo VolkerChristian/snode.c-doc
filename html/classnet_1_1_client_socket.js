@@ -1,11 +1,14 @@
 var classnet_1_1_client_socket =
 [
-    [ "Socket", "classnet_1_1_client_socket.html#a8a425640ae0e4cfbd6bfbf4a5e35b3cf", null ],
-    [ "SocketAddress", "classnet_1_1_client_socket.html#adc10c859d0bf6c313cc6493442664c36", null ],
-    [ "ClientSocket", "classnet_1_1_client_socket.html#a655131482ccec0ea2dd2fbdc7227390f", null ],
-    [ "ClientSocket", "classnet_1_1_client_socket.html#a0268aedb31d58c6dc6ede10b1368f0fe", null ],
-    [ "~ClientSocket", "classnet_1_1_client_socket.html#ae25ce458a2e92af3c1609a8d74415e82", null ],
-    [ "connect", "classnet_1_1_client_socket.html#aefa54f89d65f26280ff5ba698efed0ec", null ],
-    [ "connect", "classnet_1_1_client_socket.html#ab1aea453f3ec535c725efbe71f3e6771", null ],
-    [ "connect", "classnet_1_1_client_socket.html#a7be821717276b71bcba39a00690b4951", null ]
+    [ "Config", "classnet_1_1_client_socket.html#a5da4272f5b8819a0783565485253ca5e", null ],
+    [ "Socket", "classnet_1_1_client_socket.html#ae086665295edab2587643e0246ad1565", null ],
+    [ "SocketAddress", "classnet_1_1_client_socket.html#a656adbdc6fc4a22fd2d486e6913c306a", null ],
+    [ "ClientSocket", "classnet_1_1_client_socket.html#abfb2ceef0108bec46b3ccd1085135ee7", null ],
+    [ "ClientSocket", "classnet_1_1_client_socket.html#a55c30782f00188793627bb12bb2e195f", null ],
+    [ "~ClientSocket", "classnet_1_1_client_socket.html#a0ec961507fb74fb454c274727096b04c", null ],
+    [ "connect", "classnet_1_1_client_socket.html#a2cbed8b498438067727403e5b0cf5e00", null ],
+    [ "connect", "classnet_1_1_client_socket.html#a4440ffee8a0fa9bfdda5d5eee6ddc7ba", null ],
+    [ "connect", "classnet_1_1_client_socket.html#adb53e4f4bc3e886e560914351575c6fe", null ],
+    [ "getConfig", "classnet_1_1_client_socket.html#a42867860fdf68cbbfbb4d0f9010179bb", null ],
+    [ "config", "classnet_1_1_client_socket.html#a913dfbfd4b5df107323c6a64afb79510", null ]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['utils_2208',['utils',['../namespaceutils.html',1,'']]]
+  ['stacktrace_2399',['stacktrace',['../namespacestacktrace.html',1,'']]]
 ];

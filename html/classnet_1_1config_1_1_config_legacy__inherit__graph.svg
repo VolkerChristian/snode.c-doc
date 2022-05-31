@@ -18,7 +18,7 @@
 <polyline fill="none" stroke="black" points="774.5,-143.5 914.5,-143.5 "/>
 <text text-anchor="middle" x="844.5" y="-131.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <polyline fill="none" stroke="black" points="774.5,-124.5 914.5,-124.5 "/>
-<text text-anchor="start" x="782.5" y="-112.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ConfigLegacy()</text>
+<text text-anchor="middle" x="844.5" y="-112.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 </a>
 </g>
 </g>
@@ -145,9 +145,9 @@
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="classnet_1_1rf_1_1stream_1_1legacy_1_1config_1_1_config_socket_client.html" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="classnet_1_1rc_1_1stream_1_1legacy_1_1config_1_1_config_socket_client.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="1026,-0.5 1026,-68.5 1177,-68.5 1177,-0.5 1026,-0.5"/>
-<text text-anchor="start" x="1034" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::rf::stream::legacy</text>
+<text text-anchor="start" x="1034" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::rc::stream::legacy</text>
 <text text-anchor="middle" x="1101.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">::config::ConfigSocketClient</text>
 <polyline fill="none" stroke="black" points="1026,-38.5 1177,-38.5 "/>
 <text text-anchor="middle" x="1101.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
@@ -165,9 +165,9 @@
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="classnet_1_1rf_1_1stream_1_1legacy_1_1config_1_1_config_socket_server.html" target="_top" xlink:title=" ">
+<g id="a_node10"><a xlink:href="classnet_1_1rc_1_1stream_1_1legacy_1_1config_1_1_config_socket_server.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="1195.5,-0.5 1195.5,-68.5 1349.5,-68.5 1349.5,-0.5 1195.5,-0.5"/>
-<text text-anchor="start" x="1203.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::rf::stream::legacy</text>
+<text text-anchor="start" x="1203.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::rc::stream::legacy</text>
 <text text-anchor="middle" x="1272.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">::config::ConfigSocketServer</text>
 <polyline fill="none" stroke="black" points="1195.5,-38.5 1349.5,-38.5 "/>
 <text text-anchor="middle" x="1272.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>

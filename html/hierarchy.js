@@ -1,45 +1,33 @@
 var hierarchy =
 [
+    [ "core::socket::stream:: SocketConnection", null, [
+      [ "core::socket::stream::legacy::SocketConnection< SocketT >", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html", null ],
+      [ "core::socket::stream::tls::SocketConnection< SocketT >", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html", null ]
+    ] ],
     [ "CLI::App", "class_c_l_i_1_1_app.html", [
       [ "CLI::Option_group", "class_c_l_i_1_1_option__group.html", null ]
     ] ],
     [ "CLI::detail::AppFriend", "struct_c_l_i_1_1detail_1_1_app_friend.html", null ],
     [ "utils::AttributeProxy< Attribute >", "classutils_1_1_attribute_proxy.html", null ],
-    [ "net::ClientSocket< SocketT >", "classnet_1_1_client_socket.html", null ],
-    [ "net::ClientSocket< net::in6::stream::Socket >", "classnet_1_1_client_socket.html", [
-      [ "net::in6::stream::ClientSocket", "classnet_1_1in6_1_1stream_1_1_client_socket.html", null ]
+    [ "net::ClientSocket< ConfigT, SocketT >", "classnet_1_1_client_socket.html", null ],
+    [ "net::ClientSocket< ConfigT, net::in6::stream::Socket >", "classnet_1_1_client_socket.html", [
+      [ "net::in6::stream::ClientSocket< ConfigT >", "classnet_1_1in6_1_1stream_1_1_client_socket.html", null ]
     ] ],
-    [ "net::ClientSocket< net::in::stream::Socket >", "classnet_1_1_client_socket.html", [
-      [ "net::in::stream::ClientSocket", "classnet_1_1in_1_1stream_1_1_client_socket.html", null ]
+    [ "net::ClientSocket< ConfigT, net::in::stream::Socket >", "classnet_1_1_client_socket.html", [
+      [ "net::in::stream::ClientSocket< ConfigT >", "classnet_1_1in_1_1stream_1_1_client_socket.html", null ]
     ] ],
-    [ "net::ClientSocket< net::l2::stream::Socket >", "classnet_1_1_client_socket.html", [
-      [ "net::l2::stream::ClientSocket", "classnet_1_1l2_1_1stream_1_1_client_socket.html", null ]
+    [ "net::ClientSocket< ConfigT, net::l2::stream::Socket >", "classnet_1_1_client_socket.html", [
+      [ "net::l2::stream::ClientSocket< ConfigT >", "classnet_1_1l2_1_1stream_1_1_client_socket.html", null ]
     ] ],
-    [ "net::ClientSocket< net::rf::stream::Socket >", "classnet_1_1_client_socket.html", [
-      [ "net::rf::stream::ClientSocket", "classnet_1_1rf_1_1stream_1_1_client_socket.html", null ]
+    [ "net::ClientSocket< ConfigT, net::rc::stream::Socket >", "classnet_1_1_client_socket.html", [
+      [ "net::rc::stream::ClientSocket< ConfigT >", "classnet_1_1rc_1_1stream_1_1_client_socket.html", null ]
     ] ],
-    [ "net::ClientSocket< net::un::stream::Socket >", "classnet_1_1_client_socket.html", [
-      [ "net::un::stream::ClientSocket", "classnet_1_1un_1_1stream_1_1_client_socket.html", null ]
+    [ "net::ClientSocket< ConfigT, net::un::stream::Socket >", "classnet_1_1_client_socket.html", [
+      [ "net::un::stream::ClientSocket< ConfigT >", "classnet_1_1un_1_1stream_1_1_client_socket.html", null ]
     ] ],
     [ "ClientSocketT", null, [
-      [ "core::socket::stream::SocketClient< ClientSocketT, core::socket::stream::tls::SocketConnector< ClientConfigT, ClientSocketT::Socket >, SocketContextFactoryT >", "classcore_1_1socket_1_1stream_1_1_socket_client.html", [
-        [ "core::socket::stream::tls::SocketClient< ClientSocketT, ClientConfigT, SocketContextFactoryT >", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_client.html", [
-          [ "web::http::client::Client< net::in::stream::tls::SocketClient, Request, Response >", "classweb_1_1http_1_1client_1_1_client.html", [
-            [ "web::http::tls::in::Client< Request, Response >", "classweb_1_1http_1_1tls_1_1in_1_1_client.html", null ]
-          ] ],
-          [ "web::http::client::Client< net::in6::stream::tls::SocketClient, web::http::client::Request, web::http::client::Response >", "classweb_1_1http_1_1client_1_1_client.html", [
-            [ "web::http::tls::in6::Client< Request, Response >", "classweb_1_1http_1_1tls_1_1in6_1_1_client.html", null ]
-          ] ],
-          [ "web::http::client::Client< net::un::stream::tls::SocketClient, web::http::client::Request, web::http::client::Response >", "classweb_1_1http_1_1client_1_1_client.html", [
-            [ "web::http::tls::un::Client< Request, Response >", "classweb_1_1http_1_1tls_1_1un_1_1_client.html", null ]
-          ] ],
-          [ "web::http::client::Client< net::rf::stream::tls::SocketClient, web::http::client::Request, web::http::client::Response >", "classweb_1_1http_1_1client_1_1_client.html", [
-            [ "web::http::tls::rf::Client< Request, Response >", "classweb_1_1http_1_1tls_1_1rf_1_1_client.html", null ]
-          ] ]
-        ] ]
-      ] ],
-      [ "core::socket::stream::SocketClient< ClientSocketT, core::socket::stream::legacy::SocketConnector< ClientConfigT, ClientSocketT::Socket >, SocketContextFactoryT >", "classcore_1_1socket_1_1stream_1_1_socket_client.html", [
-        [ "core::socket::stream::legacy::SocketClient< ClientSocketT, ClientConfigT, SocketContextFactoryT >", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_client.html", [
+      [ "core::socket::stream::SocketClient< ClientSocketT, core::socket::stream::legacy::SocketConnector, SocketContextFactoryT >", "classcore_1_1socket_1_1stream_1_1_socket_client.html", [
+        [ "core::socket::stream::legacy::SocketClient< ClientSocketT, SocketContextFactoryT >", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_client.html", [
           [ "web::http::client::Client< net::un::stream::legacy::SocketClient, Request, Response >", "classweb_1_1http_1_1client_1_1_client.html", [
             [ "web::http::legacy::un::Client< Request, Response >", "classweb_1_1http_1_1legacy_1_1un_1_1_client.html", null ]
           ] ],
@@ -49,8 +37,24 @@ var hierarchy =
           [ "web::http::client::Client< net::in6::stream::legacy::SocketClient, web::http::client::Request, web::http::client::Response >", "classweb_1_1http_1_1client_1_1_client.html", [
             [ "web::http::legacy::in6::Client< Request, Response >", "classweb_1_1http_1_1legacy_1_1in6_1_1_client.html", null ]
           ] ],
-          [ "web::http::client::Client< net::rf::stream::legacy::SocketClient, web::http::client::Request, web::http::client::Response >", "classweb_1_1http_1_1client_1_1_client.html", [
-            [ "web::http::legacy::rf::Client< Request, Response >", "classweb_1_1http_1_1legacy_1_1rf_1_1_client.html", null ]
+          [ "web::http::client::Client< net::rc::stream::legacy::SocketClient, web::http::client::Request, web::http::client::Response >", "classweb_1_1http_1_1client_1_1_client.html", [
+            [ "web::http::legacy::rc::Client< Request, Response >", "classweb_1_1http_1_1legacy_1_1rc_1_1_client.html", null ]
+          ] ]
+        ] ]
+      ] ],
+      [ "core::socket::stream::SocketClient< ClientSocketT, core::socket::stream::tls::SocketConnector, SocketContextFactoryT >", "classcore_1_1socket_1_1stream_1_1_socket_client.html", [
+        [ "core::socket::stream::tls::SocketClient< ClientSocketT, SocketContextFactoryT >", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_client.html", [
+          [ "web::http::client::Client< net::in::stream::tls::SocketClient, Request, Response >", "classweb_1_1http_1_1client_1_1_client.html", [
+            [ "web::http::tls::in::Client< Request, Response >", "classweb_1_1http_1_1tls_1_1in_1_1_client.html", null ]
+          ] ],
+          [ "web::http::client::Client< net::in6::stream::tls::SocketClient, web::http::client::Request, web::http::client::Response >", "classweb_1_1http_1_1client_1_1_client.html", [
+            [ "web::http::tls::in6::Client< Request, Response >", "classweb_1_1http_1_1tls_1_1in6_1_1_client.html", null ]
+          ] ],
+          [ "web::http::client::Client< net::un::stream::tls::SocketClient, web::http::client::Request, web::http::client::Response >", "classweb_1_1http_1_1client_1_1_client.html", [
+            [ "web::http::tls::un::Client< Request, Response >", "classweb_1_1http_1_1tls_1_1un_1_1_client.html", null ]
+          ] ],
+          [ "web::http::client::Client< net::rc::stream::tls::SocketClient, web::http::client::Request, web::http::client::Response >", "classweb_1_1http_1_1client_1_1_client.html", [
+            [ "web::http::tls::rc::Client< Request, Response >", "classweb_1_1http_1_1tls_1_1rc_1_1_client.html", null ]
           ] ]
         ] ]
       ] ],
@@ -89,15 +93,15 @@ var hierarchy =
           [ "net::l2::stream::tls::config::ConfigSocketServer", "classnet_1_1l2_1_1stream_1_1tls_1_1config_1_1_config_socket_server.html", null ]
         ] ]
       ] ],
-      [ "net::rf::config::ConfigAddress< ConfigAddressTypeT >", "classnet_1_1rf_1_1config_1_1_config_address.html", [
-        [ "net::rf::stream::config::ConfigClientSocket", "classnet_1_1rf_1_1stream_1_1config_1_1_config_client_socket.html", [
-          [ "net::rf::stream::legacy::config::ConfigSocketClient", "classnet_1_1rf_1_1stream_1_1legacy_1_1config_1_1_config_socket_client.html", null ],
-          [ "net::rf::stream::tls::config::ConfigSocketClient", "classnet_1_1rf_1_1stream_1_1tls_1_1config_1_1_config_socket_client.html", null ]
+      [ "net::rc::config::ConfigAddress< ConfigAddressTypeT >", "classnet_1_1rc_1_1config_1_1_config_address.html", [
+        [ "net::rc::stream::config::ConfigClientSocket", "classnet_1_1rc_1_1stream_1_1config_1_1_config_client_socket.html", [
+          [ "net::rc::stream::legacy::config::ConfigSocketClient", "classnet_1_1rc_1_1stream_1_1legacy_1_1config_1_1_config_socket_client.html", null ],
+          [ "net::rc::stream::tls::config::ConfigSocketClient", "classnet_1_1rc_1_1stream_1_1tls_1_1config_1_1_config_socket_client.html", null ]
         ] ],
-        [ "net::rf::stream::config::ConfigClientSocket", "classnet_1_1rf_1_1stream_1_1config_1_1_config_client_socket.html", null ],
-        [ "net::rf::stream::config::ConfigServerSocket", "classnet_1_1rf_1_1stream_1_1config_1_1_config_server_socket.html", [
-          [ "net::rf::stream::legacy::config::ConfigSocketServer", "classnet_1_1rf_1_1stream_1_1legacy_1_1config_1_1_config_socket_server.html", null ],
-          [ "net::rf::stream::tls::config::ConfigSocketServer", "classnet_1_1rf_1_1stream_1_1tls_1_1config_1_1_config_socket_server.html", null ]
+        [ "net::rc::stream::config::ConfigClientSocket", "classnet_1_1rc_1_1stream_1_1config_1_1_config_client_socket.html", null ],
+        [ "net::rc::stream::config::ConfigServerSocket", "classnet_1_1rc_1_1stream_1_1config_1_1_config_server_socket.html", [
+          [ "net::rc::stream::legacy::config::ConfigSocketServer", "classnet_1_1rc_1_1stream_1_1legacy_1_1config_1_1_config_socket_server.html", null ],
+          [ "net::rc::stream::tls::config::ConfigSocketServer", "classnet_1_1rc_1_1stream_1_1tls_1_1config_1_1_config_socket_server.html", null ]
         ] ]
       ] ],
       [ "net::un::config::ConfigAddress< ConfigAddressTypeT >", "classnet_1_1un_1_1config_1_1_config_address.html", [
@@ -139,8 +143,8 @@ var hierarchy =
         [ "net::in::stream::config::ConfigServerSocket", "classnet_1_1in_1_1stream_1_1config_1_1_config_server_socket.html", null ],
         [ "net::l2::stream::config::ConfigClientSocket", "classnet_1_1l2_1_1stream_1_1config_1_1_config_client_socket.html", null ],
         [ "net::l2::stream::config::ConfigServerSocket", "classnet_1_1l2_1_1stream_1_1config_1_1_config_server_socket.html", null ],
-        [ "net::rf::stream::config::ConfigClientSocket", "classnet_1_1rf_1_1stream_1_1config_1_1_config_client_socket.html", null ],
-        [ "net::rf::stream::config::ConfigServerSocket", "classnet_1_1rf_1_1stream_1_1config_1_1_config_server_socket.html", null ],
+        [ "net::rc::stream::config::ConfigClientSocket", "classnet_1_1rc_1_1stream_1_1config_1_1_config_client_socket.html", null ],
+        [ "net::rc::stream::config::ConfigServerSocket", "classnet_1_1rc_1_1stream_1_1config_1_1_config_server_socket.html", null ],
         [ "net::un::stream::config::ConfigClientSocket", "classnet_1_1un_1_1stream_1_1config_1_1_config_client_socket.html", null ],
         [ "net::un::stream::config::ConfigServerSocket", "classnet_1_1un_1_1stream_1_1config_1_1_config_server_socket.html", null ]
       ] ],
@@ -151,8 +155,8 @@ var hierarchy =
         [ "net::in::stream::legacy::config::ConfigSocketServer", "classnet_1_1in_1_1stream_1_1legacy_1_1config_1_1_config_socket_server.html", null ],
         [ "net::l2::stream::legacy::config::ConfigSocketClient", "classnet_1_1l2_1_1stream_1_1legacy_1_1config_1_1_config_socket_client.html", null ],
         [ "net::l2::stream::legacy::config::ConfigSocketServer", "classnet_1_1l2_1_1stream_1_1legacy_1_1config_1_1_config_socket_server.html", null ],
-        [ "net::rf::stream::legacy::config::ConfigSocketClient", "classnet_1_1rf_1_1stream_1_1legacy_1_1config_1_1_config_socket_client.html", null ],
-        [ "net::rf::stream::legacy::config::ConfigSocketServer", "classnet_1_1rf_1_1stream_1_1legacy_1_1config_1_1_config_socket_server.html", null ],
+        [ "net::rc::stream::legacy::config::ConfigSocketClient", "classnet_1_1rc_1_1stream_1_1legacy_1_1config_1_1_config_socket_client.html", null ],
+        [ "net::rc::stream::legacy::config::ConfigSocketServer", "classnet_1_1rc_1_1stream_1_1legacy_1_1config_1_1_config_socket_server.html", null ],
         [ "net::un::stream::legacy::config::ConfigSocketClient", "classnet_1_1un_1_1stream_1_1legacy_1_1config_1_1_config_socket_client.html", null ],
         [ "net::un::stream::legacy::config::ConfigSocketServer", "classnet_1_1un_1_1stream_1_1legacy_1_1config_1_1_config_socket_server.html", null ]
       ] ],
@@ -160,7 +164,7 @@ var hierarchy =
         [ "net::in6::stream::config::ConfigServerSocket", "classnet_1_1in6_1_1stream_1_1config_1_1_config_server_socket.html", null ],
         [ "net::in::stream::config::ConfigServerSocket", "classnet_1_1in_1_1stream_1_1config_1_1_config_server_socket.html", null ],
         [ "net::l2::stream::config::ConfigServerSocket", "classnet_1_1l2_1_1stream_1_1config_1_1_config_server_socket.html", null ],
-        [ "net::rf::stream::config::ConfigServerSocket", "classnet_1_1rf_1_1stream_1_1config_1_1_config_server_socket.html", null ],
+        [ "net::rc::stream::config::ConfigServerSocket", "classnet_1_1rc_1_1stream_1_1config_1_1_config_server_socket.html", null ],
         [ "net::un::stream::config::ConfigServerSocket", "classnet_1_1un_1_1stream_1_1config_1_1_config_server_socket.html", null ]
       ] ],
       [ "net::config::ConfigTls", "classnet_1_1config_1_1_config_tls.html", [
@@ -170,8 +174,8 @@ var hierarchy =
         [ "net::in::stream::tls::config::ConfigSocketServer", "classnet_1_1in_1_1stream_1_1tls_1_1config_1_1_config_socket_server.html", null ],
         [ "net::l2::stream::tls::config::ConfigSocketClient", "classnet_1_1l2_1_1stream_1_1tls_1_1config_1_1_config_socket_client.html", null ],
         [ "net::l2::stream::tls::config::ConfigSocketServer", "classnet_1_1l2_1_1stream_1_1tls_1_1config_1_1_config_socket_server.html", null ],
-        [ "net::rf::stream::tls::config::ConfigSocketClient", "classnet_1_1rf_1_1stream_1_1tls_1_1config_1_1_config_socket_client.html", null ],
-        [ "net::rf::stream::tls::config::ConfigSocketServer", "classnet_1_1rf_1_1stream_1_1tls_1_1config_1_1_config_socket_server.html", null ],
+        [ "net::rc::stream::tls::config::ConfigSocketClient", "classnet_1_1rc_1_1stream_1_1tls_1_1config_1_1_config_socket_client.html", null ],
+        [ "net::rc::stream::tls::config::ConfigSocketServer", "classnet_1_1rc_1_1stream_1_1tls_1_1config_1_1_config_socket_server.html", null ],
         [ "net::un::stream::tls::config::ConfigSocketClient", "classnet_1_1un_1_1stream_1_1tls_1_1config_1_1_config_socket_client.html", null ],
         [ "net::un::stream::tls::config::ConfigSocketServer", "classnet_1_1un_1_1stream_1_1tls_1_1config_1_1_config_socket_server.html", null ]
       ] ]
@@ -180,35 +184,35 @@ var hierarchy =
     [ "web::http::CookieOptions", "classweb_1_1http_1_1_cookie_options.html", null ],
     [ "utils::Daemon", "classutils_1_1_daemon.html", null ],
     [ "core::Descriptor", "classcore_1_1_descriptor.html", [
-      [ "core::socket::Socket< net::in6::SocketAddress >", "classcore_1_1socket_1_1_socket.html", [
+      [ "net::Socket< net::in6::SocketAddress >", "classnet_1_1_socket.html", [
         [ "net::in6::stream::Socket", "classnet_1_1in6_1_1stream_1_1_socket.html", null ]
       ] ],
-      [ "core::socket::Socket< net::in::SocketAddress >", "classcore_1_1socket_1_1_socket.html", [
+      [ "net::Socket< net::in::SocketAddress >", "classnet_1_1_socket.html", [
         [ "net::in::stream::Socket", "classnet_1_1in_1_1stream_1_1_socket.html", null ]
       ] ],
-      [ "core::socket::Socket< net::un::SocketAddress >", "classcore_1_1socket_1_1_socket.html", [
+      [ "net::Socket< net::rc::SocketAddress >", "classnet_1_1_socket.html", [
+        [ "net::rc::stream::Socket", "classnet_1_1rc_1_1stream_1_1_socket.html", null ]
+      ] ],
+      [ "net::Socket< net::un::SocketAddress >", "classnet_1_1_socket.html", [
         [ "net::un::stream::Socket", "classnet_1_1un_1_1stream_1_1_socket.html", null ]
       ] ],
-      [ "core::socket::Socket< net::l2::SocketAddress >", "classcore_1_1socket_1_1_socket.html", [
+      [ "net::Socket< net::l2::SocketAddress >", "classnet_1_1_socket.html", [
         [ "net::l2::stream::Socket", "classnet_1_1l2_1_1stream_1_1_socket.html", null ]
-      ] ],
-      [ "core::socket::Socket< net::rf::SocketAddress >", "classcore_1_1socket_1_1_socket.html", [
-        [ "net::rf::stream::Socket", "classnet_1_1rf_1_1stream_1_1_socket.html", null ]
       ] ],
       [ "core::file::File", "classcore_1_1file_1_1_file.html", [
         [ "core::file::FileReader", "classcore_1_1file_1_1_file_reader.html", null ]
       ] ],
-      [ "core::socket::Socket< SocketAddressT >", "classcore_1_1socket_1_1_socket.html", null ]
+      [ "net::Socket< SocketAddressT >", "classnet_1_1_socket.html", null ]
     ] ],
     [ "core::DescriptorEventPublisher", "classcore_1_1_descriptor_event_publisher.html", [
       [ "core::epoll::DescriptorEventPublisher", "classcore_1_1epoll_1_1_descriptor_event_publisher.html", null ],
       [ "core::poll::DescriptorEventPublisher", "classcore_1_1poll_1_1_descriptor_event_publisher.html", null ],
       [ "core::select::DescriptorEventPublisher", "classcore_1_1select_1_1_descriptor_event_publisher.html", null ]
     ] ],
-    [ "express::Dispatcher", "classexpress_1_1_dispatcher.html", [
-      [ "express::ApplicationDispatcher", "classexpress_1_1_application_dispatcher.html", null ],
-      [ "express::MiddlewareDispatcher", "classexpress_1_1_middleware_dispatcher.html", null ],
-      [ "express::RouterDispatcher", "classexpress_1_1_router_dispatcher.html", null ]
+    [ "express::dispatcher::Dispatcher", "classexpress_1_1dispatcher_1_1_dispatcher.html", [
+      [ "express::dispatcher::ApplicationDispatcher", "classexpress_1_1dispatcher_1_1_application_dispatcher.html", null ],
+      [ "express::dispatcher::MiddlewareDispatcher", "classexpress_1_1dispatcher_1_1_middleware_dispatcher.html", null ],
+      [ "express::dispatcher::RouterDispatcher", "classexpress_1_1dispatcher_1_1_router_dispatcher.html", null ]
     ] ],
     [ "core::DynamicLoader", "classcore_1_1_dynamic_loader.html", null ],
     [ "CLI::detail::element_type< T, Enable >", "struct_c_l_i_1_1detail_1_1element__type.html", null ],
@@ -226,53 +230,45 @@ var hierarchy =
     [ "core::EventReceiver", "classcore_1_1_event_receiver.html", [
       [ "core::DescriptorEventReceiver", "classcore_1_1_descriptor_event_receiver.html", [
         [ "core::eventreceiver::AcceptEventReceiver", "classcore_1_1eventreceiver_1_1_accept_event_receiver.html", [
-          [ "core::socket::stream::SocketAcceptor< ServerConfigT, core::socket::stream::tls::SocketConnection< SocketT > >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", [
-            [ "core::socket::stream::tls::SocketAcceptor< ServerConfigT, SocketT >", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html", null ]
+          [ "core::socket::stream::SocketAcceptor< ServerSocketT, core::socket::stream::legacy::SocketConnection >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", [
+            [ "core::socket::stream::legacy::SocketAcceptor< ServerSocketT >", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html", null ]
           ] ],
-          [ "core::socket::stream::SocketAcceptor< ServerConfigT, core::socket::stream::legacy::SocketConnection< SocketT > >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", [
-            [ "core::socket::stream::legacy::SocketAcceptor< ServerConfigT, SocketT >", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html", null ]
+          [ "core::socket::stream::SocketAcceptor< ServerSocketT, core::socket::stream::tls::SocketConnection >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", [
+            [ "core::socket::stream::tls::SocketAcceptor< ServerSocketT >", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html", null ]
           ] ],
-          [ "core::socket::stream::SocketAcceptor< ConfigT, SocketConnectionT >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", null ]
+          [ "core::socket::stream::SocketAcceptor< ServerSocketT, SocketConnectionT >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", null ]
         ] ],
         [ "core::eventreceiver::ConnectEventReceiver", "classcore_1_1eventreceiver_1_1_connect_event_receiver.html", [
-          [ "core::socket::stream::SocketConnector< ClientConfigT, core::socket::stream::legacy::SocketConnection< SocketT > >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", [
-            [ "core::socket::stream::legacy::SocketConnector< ClientConfigT, SocketT >", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connector.html", null ]
+          [ "core::socket::stream::SocketConnector< ClientSocketT, core::socket::stream::tls::SocketConnection >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", [
+            [ "core::socket::stream::tls::SocketConnector< ClientSocketT >", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html", null ]
           ] ],
-          [ "core::socket::stream::SocketConnector< ClientConfigT, core::socket::stream::tls::SocketConnection< SocketT > >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", [
-            [ "core::socket::stream::tls::SocketConnector< ClientConfigT, SocketT >", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connector.html", null ]
+          [ "core::socket::stream::SocketConnector< ClientSocketT, core::socket::stream::legacy::SocketConnection >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", [
+            [ "core::socket::stream::legacy::SocketConnector< ClientSocketT >", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connector.html", null ]
           ] ],
-          [ "core::socket::stream::SocketConnector< ConfigT, SocketConnectionT >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", null ]
+          [ "core::socket::stream::SocketConnector< ClientSocketT, SocketConnectionT >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", null ]
         ] ],
-        [ "core::eventreceiver::ExceptionalConditionEventReceiver", "classcore_1_1eventreceiver_1_1_exceptional_condition_event_receiver.html", null ],
+        [ "core::eventreceiver::ExceptionalConditionEventReceiver", "classcore_1_1eventreceiver_1_1_exceptional_condition_event_receiver.html", [
+          [ "database::mariadb::MariaDBConnection", "classdatabase_1_1mariadb_1_1_maria_d_b_connection.html", null ]
+        ] ],
         [ "core::eventreceiver::ReadEventReceiver", "classcore_1_1eventreceiver_1_1_read_event_receiver.html", [
           [ "core::pipe::PipeSink", "classcore_1_1pipe_1_1_pipe_sink.html", null ],
           [ "core::socket::stream::SocketReader< SocketT >", "classcore_1_1socket_1_1stream_1_1_socket_reader.html", [
-            [ "core::socket::stream::legacy::SocketReader< SocketT >", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader.html", [
-              [ "core::socket::stream::SocketConnection< core::socket::stream::legacy::SocketReader< SocketT >, core::socket::stream::legacy::SocketWriter< SocketT >, SocketT::SocketAddress >", "classcore_1_1socket_1_1stream_1_1_socket_connection.html", [
-                [ "core::socket::stream::legacy::SocketConnection< SocketT >", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html", null ]
-              ] ]
-            ] ],
-            [ "core::socket::stream::tls::SocketReader< SocketT >", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_reader.html", [
-              [ "core::socket::stream::SocketConnection< core::socket::stream::tls::SocketReader< SocketT >, core::socket::stream::tls::SocketWriter< SocketT >, SocketT::SocketAddress >", "classcore_1_1socket_1_1stream_1_1_socket_connection.html", [
-                [ "core::socket::stream::tls::SocketConnection< SocketT >", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html", null ]
-              ] ]
-            ] ]
+            [ "core::socket::stream::legacy::SocketReader< SocketT >", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader.html", null ],
+            [ "core::socket::stream::tls::SocketReader< SocketT >", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_reader.html", null ]
           ] ],
           [ "core::socket::stream::tls::TLSHandshake", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html", null ],
-          [ "core::socket::stream::tls::TLSShutdown", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html", null ]
+          [ "core::socket::stream::tls::TLSShutdown", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html", null ],
+          [ "database::mariadb::MariaDBConnection", "classdatabase_1_1mariadb_1_1_maria_d_b_connection.html", null ]
         ] ],
         [ "core::eventreceiver::WriteEventReceiver", "classcore_1_1eventreceiver_1_1_write_event_receiver.html", [
           [ "core::pipe::PipeSource", "classcore_1_1pipe_1_1_pipe_source.html", null ],
           [ "core::socket::stream::SocketWriter< SocketT >", "classcore_1_1socket_1_1stream_1_1_socket_writer.html", [
-            [ "core::socket::stream::legacy::SocketWriter< SocketT >", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html", [
-              [ "core::socket::stream::SocketConnection< core::socket::stream::legacy::SocketReader< SocketT >, core::socket::stream::legacy::SocketWriter< SocketT >, SocketT::SocketAddress >", "classcore_1_1socket_1_1stream_1_1_socket_connection.html", null ]
-            ] ],
-            [ "core::socket::stream::tls::SocketWriter< SocketT >", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_writer.html", [
-              [ "core::socket::stream::SocketConnection< core::socket::stream::tls::SocketReader< SocketT >, core::socket::stream::tls::SocketWriter< SocketT >, SocketT::SocketAddress >", "classcore_1_1socket_1_1stream_1_1_socket_connection.html", null ]
-            ] ]
+            [ "core::socket::stream::legacy::SocketWriter< SocketT >", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html", null ],
+            [ "core::socket::stream::tls::SocketWriter< SocketT >", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_writer.html", null ]
           ] ],
           [ "core::socket::stream::tls::TLSHandshake", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html", null ],
-          [ "core::socket::stream::tls::TLSShutdown", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html", null ]
+          [ "core::socket::stream::tls::TLSShutdown", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html", null ],
+          [ "database::mariadb::MariaDBConnection", "classdatabase_1_1mariadb_1_1_maria_d_b_connection.html", null ]
         ] ]
       ] ],
       [ "core::TimerEventReceiver", "classcore_1_1_timer_event_receiver.html", [
@@ -281,22 +277,23 @@ var hierarchy =
         [ "core::timer::SingleshotTimer", "classcore_1_1timer_1_1_singleshot_timer.html", null ]
       ] ],
       [ "core::eventreceiver::InitAcceptEventReceiver", "classcore_1_1eventreceiver_1_1_init_accept_event_receiver.html", [
-        [ "core::socket::stream::SocketAcceptor< ServerConfigT, core::socket::stream::tls::SocketConnection< SocketT > >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", null ],
-        [ "core::socket::stream::SocketAcceptor< ServerConfigT, core::socket::stream::legacy::SocketConnection< SocketT > >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", null ],
-        [ "core::socket::stream::SocketAcceptor< ConfigT, SocketConnectionT >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", null ]
+        [ "core::socket::stream::SocketAcceptor< ServerSocketT, core::socket::stream::legacy::SocketConnection >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", null ],
+        [ "core::socket::stream::SocketAcceptor< ServerSocketT, core::socket::stream::tls::SocketConnection >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", null ],
+        [ "core::socket::stream::SocketAcceptor< ServerSocketT, SocketConnectionT >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", null ]
       ] ],
       [ "core::eventreceiver::InitConnectEventReceiver", "classcore_1_1eventreceiver_1_1_init_connect_event_receiver.html", [
-        [ "core::socket::stream::SocketConnector< ClientConfigT, core::socket::stream::legacy::SocketConnection< SocketT > >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", null ],
-        [ "core::socket::stream::SocketConnector< ClientConfigT, core::socket::stream::tls::SocketConnection< SocketT > >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", null ],
-        [ "core::socket::stream::SocketConnector< ConfigT, SocketConnectionT >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", null ]
+        [ "core::socket::stream::SocketConnector< ClientSocketT, core::socket::stream::tls::SocketConnection >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", null ],
+        [ "core::socket::stream::SocketConnector< ClientSocketT, core::socket::stream::legacy::SocketConnection >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", null ],
+        [ "core::socket::stream::SocketConnector< ClientSocketT, SocketConnectionT >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", null ]
       ] ],
-      [ "core::file::FileReader", "classcore_1_1file_1_1_file_reader.html", null ]
+      [ "core::file::FileReader", "classcore_1_1file_1_1_file_reader.html", null ],
+      [ "database::mariadb::MariaDBCommandStartEvent", "classdatabase_1_1mariadb_1_1_maria_d_b_command_start_event.html", null ]
     ] ],
     [ "std::exception", null, [
       [ "net::in6::bad_hostname", "classnet_1_1in6_1_1bad__hostname.html", null ],
       [ "net::in::bad_hostname", "classnet_1_1in_1_1bad__hostname.html", null ],
       [ "net::l2::bad_bdaddress", "classnet_1_1l2_1_1bad__bdaddress.html", null ],
-      [ "net::rf::bad_bdaddress", "classnet_1_1rf_1_1bad__bdaddress.html", null ],
+      [ "net::rc::bad_bdaddress", "classnet_1_1rc_1_1bad__bdaddress.html", null ],
       [ "net::un::bad_sunpath", "classnet_1_1un_1_1bad__sunpath.html", null ]
     ] ],
     [ "std::false_type", null, [
@@ -325,9 +322,35 @@ var hierarchy =
     [ "core::DynamicLoader::Library", "structcore_1_1_dynamic_loader_1_1_library.html", null ],
     [ "logger::Logger", "classlogger_1_1_logger.html", null ],
     [ "CLI::make_void< Ts >", "struct_c_l_i_1_1make__void.html", null ],
+    [ "database::mariadb::MariaDBClientASyncAPI", "classdatabase_1_1mariadb_1_1_maria_d_b_client_a_sync_a_p_i.html", [
+      [ "database::mariadb::MariaDBClient", "classdatabase_1_1mariadb_1_1_maria_d_b_client.html", null ],
+      [ "database::mariadb::MariaDBCommandSequence", "classdatabase_1_1mariadb_1_1_maria_d_b_command_sequence.html", null ]
+    ] ],
+    [ "database::mariadb::MariaDBClientSyncAPI", "classdatabase_1_1mariadb_1_1_maria_d_b_client_sync_a_p_i.html", [
+      [ "database::mariadb::MariaDBClient", "classdatabase_1_1mariadb_1_1_maria_d_b_client.html", null ],
+      [ "database::mariadb::MariaDBCommandSequence", "classdatabase_1_1mariadb_1_1_maria_d_b_command_sequence.html", null ]
+    ] ],
+    [ "database::mariadb::MariaDBCommand", "classdatabase_1_1mariadb_1_1_maria_d_b_command.html", [
+      [ "database::mariadb::MariaDBCommandASync", "classdatabase_1_1mariadb_1_1_maria_d_b_command_a_sync.html", [
+        [ "database::mariadb::commands::async::MariaDBAutoCommitCommand", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_auto_commit_command.html", null ],
+        [ "database::mariadb::commands::async::MariaDBCommitCommand", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_commit_command.html", null ],
+        [ "database::mariadb::commands::async::MariaDBConnectCommand", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_connect_command.html", null ],
+        [ "database::mariadb::commands::async::MariaDBExecCommand", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_exec_command.html", null ],
+        [ "database::mariadb::commands::async::MariaDBFetchRowCommand", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_fetch_row_command.html", null ],
+        [ "database::mariadb::commands::async::MariaDBFreeResultCommand", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_free_result_command.html", null ],
+        [ "database::mariadb::commands::async::MariaDBQueryCommand", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_query_command.html", null ],
+        [ "database::mariadb::commands::async::MariaDBRollbackCommand", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_rollback_command.html", null ]
+      ] ],
+      [ "database::mariadb::MariaDBCommandSync", "classdatabase_1_1mariadb_1_1_maria_d_b_command_sync.html", [
+        [ "database::mariadb::commands::sync::MariaDBAffectedRowsCommand", "classdatabase_1_1mariadb_1_1commands_1_1sync_1_1_maria_d_b_affected_rows_command.html", null ],
+        [ "database::mariadb::commands::sync::MariaDBFieldCountCommand", "classdatabase_1_1mariadb_1_1commands_1_1sync_1_1_maria_d_b_field_count_command.html", null ],
+        [ "database::mariadb::commands::sync::MariaDBUseResultCommand", "classdatabase_1_1mariadb_1_1commands_1_1sync_1_1_maria_d_b_use_result_command.html", null ]
+      ] ]
+    ] ],
+    [ "database::mariadb::MariaDBConnectionDetails", "structdatabase_1_1mariadb_1_1_maria_d_b_connection_details.html", null ],
     [ "web::websocket::Receiver::MaskingKey", "unionweb_1_1websocket_1_1_receiver_1_1_masking_key.html", null ],
     [ "web::http::MimeTypes", "classweb_1_1http_1_1_mime_types.html", null ],
-    [ "express::MountPoint", "structexpress_1_1_mount_point.html", null ],
+    [ "express::dispatcher::MountPoint", "structexpress_1_1dispatcher_1_1_mount_point.html", null ],
     [ "utils::MultibleAttributeInjector", "classutils_1_1_multible_attribute_injector.html", [
       [ "web::http::server::Request", "classweb_1_1http_1_1server_1_1_request.html", [
         [ "express::Request", "classexpress_1_1_request.html", null ]
@@ -359,13 +382,17 @@ var hierarchy =
       ] ],
       [ "web::websocket::SocketContextUpgrade< SubProtocolT, RequestT, ResponseT >", "classweb_1_1websocket_1_1_socket_context_upgrade.html", null ]
     ] ],
-    [ "web::http::server::SocketContext< RequestT, ResponseT >::RequestContext", "structweb_1_1http_1_1server_1_1_socket_context_1_1_request_context.html", null ],
+    [ "web::http::client::Request", "classweb_1_1http_1_1client_1_1_request.html", null ],
+    [ "web::http::server::RequestContextBase", "classweb_1_1http_1_1server_1_1_request_context_base.html", [
+      [ "web::http::server::SocketContext< RequestT, ResponseT >::RequestContext", "classweb_1_1http_1_1server_1_1_socket_context_1_1_request_context.html", null ]
+    ] ],
     [ "web::http::client::Response", "classweb_1_1http_1_1client_1_1_response.html", null ],
-    [ "express::Route", "classexpress_1_1_route.html", null ],
+    [ "express::dispatcher::Route", "classexpress_1_1dispatcher_1_1_route.html", null ],
     [ "express::Router", "classexpress_1_1_router.html", [
       [ "express::WebApp", "classexpress_1_1_web_app.html", [
         [ "express::WebAppT< ServerT >", "classexpress_1_1_web_app_t.html", null ]
       ] ],
+      [ "express::middleware::BasicAuthentication", "classexpress_1_1middleware_1_1_basic_authentication.html", null ],
       [ "express::middleware::JsonMiddleware", "classexpress_1_1middleware_1_1_json_middleware.html", null ],
       [ "express::middleware::StaticMiddleware", "classexpress_1_1middleware_1_1_static_middleware.html", null ],
       [ "express::middleware::VHost", "classexpress_1_1middleware_1_1_v_host.html", null ]
@@ -399,52 +426,52 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
-    [ "net::ServerSocket< SocketT >", "classnet_1_1_server_socket.html", null ],
-    [ "net::ServerSocket< net::in6::stream::Socket >", "classnet_1_1_server_socket.html", [
-      [ "net::in6::stream::ServerSocket", "classnet_1_1in6_1_1stream_1_1_server_socket.html", null ]
+    [ "net::ServerSocket< ConfigT, SocketT >", "classnet_1_1_server_socket.html", null ],
+    [ "net::ServerSocket< ConfigT, net::in6::stream::Socket >", "classnet_1_1_server_socket.html", [
+      [ "net::in6::stream::ServerSocket< ConfigT >", "classnet_1_1in6_1_1stream_1_1_server_socket.html", null ]
     ] ],
-    [ "net::ServerSocket< net::in::stream::Socket >", "classnet_1_1_server_socket.html", [
-      [ "net::in::stream::ServerSocket", "classnet_1_1in_1_1stream_1_1_server_socket.html", null ]
+    [ "net::ServerSocket< ConfigT, net::in::stream::Socket >", "classnet_1_1_server_socket.html", [
+      [ "net::in::stream::ServerSocket< ConfigT >", "classnet_1_1in_1_1stream_1_1_server_socket.html", null ]
     ] ],
-    [ "net::ServerSocket< net::l2::stream::Socket >", "classnet_1_1_server_socket.html", [
-      [ "net::l2::stream::ServerSocket", "classnet_1_1l2_1_1stream_1_1_server_socket.html", null ]
+    [ "net::ServerSocket< ConfigT, net::l2::stream::Socket >", "classnet_1_1_server_socket.html", [
+      [ "net::l2::stream::ServerSocket< ConfigT >", "classnet_1_1l2_1_1stream_1_1_server_socket.html", null ]
     ] ],
-    [ "net::ServerSocket< net::rf::stream::Socket >", "classnet_1_1_server_socket.html", [
-      [ "net::rf::stream::ServerSocket", "classnet_1_1rf_1_1stream_1_1_server_socket.html", null ]
+    [ "net::ServerSocket< ConfigT, net::rc::stream::Socket >", "classnet_1_1_server_socket.html", [
+      [ "net::rc::stream::ServerSocket< ConfigT >", "classnet_1_1rc_1_1stream_1_1_server_socket.html", null ]
     ] ],
-    [ "net::ServerSocket< net::un::stream::Socket >", "classnet_1_1_server_socket.html", [
-      [ "net::un::stream::ServerSocket", "classnet_1_1un_1_1stream_1_1_server_socket.html", null ]
+    [ "net::ServerSocket< ConfigT, net::un::stream::Socket >", "classnet_1_1_server_socket.html", [
+      [ "net::un::stream::ServerSocket< ConfigT >", "classnet_1_1un_1_1stream_1_1_server_socket.html", null ]
     ] ],
     [ "ServerSocketT", null, [
-      [ "core::socket::stream::SocketServer< ServerSocketT, core::socket::stream::legacy::SocketAcceptor< ServerConfigT, ServerSocketT::Socket >, SocketContextFactoryT >", "classcore_1_1socket_1_1stream_1_1_socket_server.html", [
-        [ "core::socket::stream::legacy::SocketServer< ServerSocketT, ServerConfigT, SocketContextFactoryT >", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_server.html", [
-          [ "web::http::server::Server< net::in6::stream::legacy::SocketServer, web::http::server::Request, web::http::server::Response >", "classweb_1_1http_1_1server_1_1_server.html", [
-            [ "web::http::legacy::in6::Server< Request, Response >", "classweb_1_1http_1_1legacy_1_1in6_1_1_server.html", null ]
-          ] ],
-          [ "web::http::server::Server< net::in::stream::legacy::SocketServer, Request, Response >", "classweb_1_1http_1_1server_1_1_server.html", [
-            [ "web::http::legacy::in::Server< Request, Response >", "classweb_1_1http_1_1legacy_1_1in_1_1_server.html", null ]
-          ] ],
-          [ "web::http::server::Server< net::rf::stream::legacy::SocketServer, web::http::server::Request, web::http::server::Response >", "classweb_1_1http_1_1server_1_1_server.html", [
-            [ "web::http::legacy::rf::Server< Request, Response >", "classweb_1_1http_1_1legacy_1_1rf_1_1_server.html", null ]
-          ] ],
-          [ "web::http::server::Server< net::un::stream::legacy::SocketServer, Request, Response >", "classweb_1_1http_1_1server_1_1_server.html", [
-            [ "web::http::legacy::un::Server< Request, Response >", "classweb_1_1http_1_1legacy_1_1un_1_1_server.html", null ]
-          ] ]
-        ] ]
-      ] ],
-      [ "core::socket::stream::SocketServer< ServerSocketT, core::socket::stream::tls::SocketAcceptor< ServerConfigT, ServerSocketT::Socket >, SocketContextFactoryT >", "classcore_1_1socket_1_1stream_1_1_socket_server.html", [
-        [ "core::socket::stream::tls::SocketServer< ServerSocketT, ServerConfigT, SocketContextFactoryT >", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html", [
+      [ "core::socket::stream::SocketServer< ServerSocketT, core::socket::stream::tls::SocketAcceptor, SocketContextFactoryT >", "classcore_1_1socket_1_1stream_1_1_socket_server.html", [
+        [ "core::socket::stream::tls::SocketServer< ServerSocketT, SocketContextFactoryT >", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html", [
           [ "web::http::server::Server< net::in::stream::tls::SocketServer, Request, Response >", "classweb_1_1http_1_1server_1_1_server.html", [
             [ "web::http::tls::in::Server< Request, Response >", "classweb_1_1http_1_1tls_1_1in_1_1_server.html", null ]
-          ] ],
-          [ "web::http::server::Server< net::rf::stream::tls::SocketServer, web::http::server::Request, web::http::server::Response >", "classweb_1_1http_1_1server_1_1_server.html", [
-            [ "web::http::tls::rf::Server< Request, Response >", "classweb_1_1http_1_1tls_1_1rf_1_1_server.html", null ]
           ] ],
           [ "web::http::server::Server< net::un::stream::tls::SocketServer, web::http::server::Request, web::http::server::Response >", "classweb_1_1http_1_1server_1_1_server.html", [
             [ "web::http::tls::un::Server< Request, Response >", "classweb_1_1http_1_1tls_1_1un_1_1_server.html", null ]
           ] ],
           [ "web::http::server::Server< net::in6::stream::tls::SocketServer, web::http::server::Request, web::http::server::Response >", "classweb_1_1http_1_1server_1_1_server.html", [
             [ "web::http::tls::in6::Server< Request, Response >", "classweb_1_1http_1_1tls_1_1in6_1_1_server.html", null ]
+          ] ],
+          [ "web::http::server::Server< net::rc::stream::tls::SocketServer, web::http::server::Request, web::http::server::Response >", "classweb_1_1http_1_1server_1_1_server.html", [
+            [ "web::http::tls::rc::Server< Request, Response >", "classweb_1_1http_1_1tls_1_1rc_1_1_server.html", null ]
+          ] ]
+        ] ]
+      ] ],
+      [ "core::socket::stream::SocketServer< ServerSocketT, core::socket::stream::legacy::SocketAcceptor, SocketContextFactoryT >", "classcore_1_1socket_1_1stream_1_1_socket_server.html", [
+        [ "core::socket::stream::legacy::SocketServer< ServerSocketT, SocketContextFactoryT >", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_server.html", [
+          [ "web::http::server::Server< net::in6::stream::legacy::SocketServer, web::http::server::Request, web::http::server::Response >", "classweb_1_1http_1_1server_1_1_server.html", [
+            [ "web::http::legacy::in6::Server< Request, Response >", "classweb_1_1http_1_1legacy_1_1in6_1_1_server.html", null ]
+          ] ],
+          [ "web::http::server::Server< net::in::stream::legacy::SocketServer, Request, Response >", "classweb_1_1http_1_1server_1_1_server.html", [
+            [ "web::http::legacy::in::Server< Request, Response >", "classweb_1_1http_1_1legacy_1_1in_1_1_server.html", null ]
+          ] ],
+          [ "web::http::server::Server< net::rc::stream::legacy::SocketServer, web::http::server::Request, web::http::server::Response >", "classweb_1_1http_1_1server_1_1_server.html", [
+            [ "web::http::legacy::rc::Server< Request, Response >", "classweb_1_1http_1_1legacy_1_1rc_1_1_server.html", null ]
+          ] ],
+          [ "web::http::server::Server< net::un::stream::legacy::SocketServer, Request, Response >", "classweb_1_1http_1_1server_1_1_server.html", [
+            [ "web::http::legacy::un::Server< Request, Response >", "classweb_1_1http_1_1legacy_1_1un_1_1_server.html", null ]
           ] ]
         ] ]
       ] ],
@@ -456,43 +483,42 @@ var hierarchy =
     [ "SHA1", "class_s_h_a1.html", null ],
     [ "utils::SingleAttributeInjector", "classutils_1_1_single_attribute_injector.html", null ],
     [ "core::pipe::Sink", "classcore_1_1pipe_1_1_sink.html", [
-      [ "web::http::client::Request", "classweb_1_1http_1_1client_1_1_request.html", null ],
       [ "web::http::server::Response", "classweb_1_1http_1_1server_1_1_response.html", [
         [ "express::Response", "classexpress_1_1_response.html", null ]
       ] ]
     ] ],
     [ "core::SNodeC", "classcore_1_1_s_node_c.html", null ],
-    [ "SocketConnectionT::Socket", null, [
-      [ "core::socket::stream::SocketAcceptor< ServerConfigT, core::socket::stream::tls::SocketConnection< SocketT > >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", null ],
-      [ "core::socket::stream::SocketAcceptor< ServerConfigT, core::socket::stream::legacy::SocketConnection< SocketT > >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", null ],
-      [ "core::socket::stream::SocketConnector< ClientConfigT, core::socket::stream::legacy::SocketConnection< SocketT > >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", null ],
-      [ "core::socket::stream::SocketConnector< ClientConfigT, core::socket::stream::tls::SocketConnection< SocketT > >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", null ],
-      [ "core::socket::stream::SocketAcceptor< ConfigT, SocketConnectionT >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", null ],
-      [ "core::socket::stream::SocketConnector< ConfigT, SocketConnectionT >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", null ]
+    [ "ClientSocketT::Socket", null, [
+      [ "core::socket::stream::SocketConnector< ClientSocketT, core::socket::stream::tls::SocketConnection >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", null ],
+      [ "core::socket::stream::SocketConnector< ClientSocketT, core::socket::stream::legacy::SocketConnection >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", null ],
+      [ "core::socket::stream::SocketConnector< ClientSocketT, SocketConnectionT >", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", null ]
     ] ],
-    [ "core::socket::SocketAddress< SockAddrT >", "classcore_1_1socket_1_1_socket_address.html", null ],
-    [ "core::socket::SocketAddress< struct sockaddr_in >", "classcore_1_1socket_1_1_socket_address.html", [
+    [ "ServerSocketT::Socket", null, [
+      [ "core::socket::stream::SocketAcceptor< ServerSocketT, core::socket::stream::legacy::SocketConnection >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", null ],
+      [ "core::socket::stream::SocketAcceptor< ServerSocketT, core::socket::stream::tls::SocketConnection >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", null ],
+      [ "core::socket::stream::SocketAcceptor< ServerSocketT, SocketConnectionT >", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", null ]
+    ] ],
+    [ "net::SocketAddress< SockAddrT >", "classnet_1_1_socket_address.html", null ],
+    [ "net::SocketAddress< struct sockaddr_in >", "classnet_1_1_socket_address.html", [
       [ "net::in::SocketAddress", "classnet_1_1in_1_1_socket_address.html", null ]
     ] ],
-    [ "core::socket::SocketAddress< struct sockaddr_in6 >", "classcore_1_1socket_1_1_socket_address.html", [
+    [ "net::SocketAddress< struct sockaddr_in6 >", "classnet_1_1_socket_address.html", [
       [ "net::in6::SocketAddress", "classnet_1_1in6_1_1_socket_address.html", null ]
     ] ],
-    [ "core::socket::SocketAddress< struct sockaddr_l2 >", "classcore_1_1socket_1_1_socket_address.html", [
+    [ "net::SocketAddress< struct sockaddr_l2 >", "classnet_1_1_socket_address.html", [
       [ "net::l2::SocketAddress", "classnet_1_1l2_1_1_socket_address.html", null ]
     ] ],
-    [ "core::socket::SocketAddress< struct sockaddr_rc >", "classcore_1_1socket_1_1_socket_address.html", [
-      [ "net::rf::SocketAddress", "classnet_1_1rf_1_1_socket_address.html", null ]
+    [ "net::SocketAddress< struct sockaddr_rc >", "classnet_1_1_socket_address.html", [
+      [ "net::rc::SocketAddress", "classnet_1_1rc_1_1_socket_address.html", null ]
     ] ],
-    [ "core::socket::SocketAddress< struct sockaddr_un >", "classcore_1_1socket_1_1_socket_address.html", [
+    [ "net::SocketAddress< struct sockaddr_un >", "classnet_1_1_socket_address.html", [
       [ "net::un::SocketAddress", "classnet_1_1un_1_1_socket_address.html", null ]
     ] ],
     [ "SocketClientT", null, [
       [ "web::http::client::Client< SocketClientT, RequestT, ResponseT >", "classweb_1_1http_1_1client_1_1_client.html", null ]
     ] ],
     [ "core::socket::SocketConnection", "classcore_1_1socket_1_1_socket_connection.html", [
-      [ "core::socket::stream::SocketConnection< core::socket::stream::tls::SocketReader< SocketT >, core::socket::stream::tls::SocketWriter< SocketT >, SocketT::SocketAddress >", "classcore_1_1socket_1_1stream_1_1_socket_connection.html", null ],
-      [ "core::socket::stream::SocketConnection< core::socket::stream::legacy::SocketReader< SocketT >, core::socket::stream::legacy::SocketWriter< SocketT >, SocketT::SocketAddress >", "classcore_1_1socket_1_1stream_1_1_socket_connection.html", null ],
-      [ "core::socket::stream::SocketConnection< SocketReaderT, SocketWriterT, SocketAddressT >", "classcore_1_1socket_1_1stream_1_1_socket_connection.html", null ]
+      [ "core::socket::stream::SocketConnection< SocketT, SocketReaderT, SocketWriterT >", "classcore_1_1socket_1_1stream_1_1_socket_connection.html", null ]
     ] ],
     [ "core::socket::SocketContext", "classcore_1_1socket_1_1_socket_context.html", [
       [ "web::http::SocketContext", "classweb_1_1http_1_1_socket_context.html", [
@@ -533,7 +559,7 @@ var hierarchy =
       [ "web::http::server::SocketContextUpgradeFactorySelector", "classweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector.html", null ]
     ] ],
     [ "SocketReaderT", null, [
-      [ "core::socket::stream::SocketConnection< SocketReaderT, SocketWriterT, SocketAddressT >", "classcore_1_1socket_1_1stream_1_1_socket_connection.html", null ]
+      [ "core::socket::stream::SocketConnection< SocketT, SocketReaderT, SocketWriterT >", "classcore_1_1socket_1_1stream_1_1_socket_connection.html", null ]
     ] ],
     [ "SocketServerT", null, [
       [ "web::http::server::Server< SocketServerT, RequestT, ResponseT >", "classweb_1_1http_1_1server_1_1_server.html", null ]
@@ -543,12 +569,12 @@ var hierarchy =
       [ "core::socket::stream::SocketWriter< SocketT >", "classcore_1_1socket_1_1stream_1_1_socket_writer.html", null ]
     ] ],
     [ "SocketWriterT", null, [
-      [ "core::socket::stream::SocketConnection< SocketReaderT, SocketWriterT, SocketAddressT >", "classcore_1_1socket_1_1stream_1_1_socket_connection.html", null ]
+      [ "core::socket::stream::SocketConnection< SocketT, SocketReaderT, SocketWriterT >", "classcore_1_1socket_1_1stream_1_1_socket_connection.html", null ]
     ] ],
     [ "core::pipe::Source", "classcore_1_1pipe_1_1_source.html", [
       [ "core::file::FileReader", "classcore_1_1file_1_1_file_reader.html", null ]
     ] ],
-    [ "express::State", "classexpress_1_1_state.html", null ],
+    [ "express::dispatcher::State", "classexpress_1_1dispatcher_1_1_state.html", null ],
     [ "web::http::StatusCode", "classweb_1_1http_1_1_status_code.html", null ],
     [ "web::websocket::SubProtocol< SocketContextUpgradeT >", "classweb_1_1websocket_1_1_sub_protocol.html", null ],
     [ "web::websocket::SubProtocol< web::websocket::client::SocketContextUpgrade >", "classweb_1_1websocket_1_1_sub_protocol.html", [

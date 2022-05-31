@@ -117,13 +117,14 @@ $(document).ready(function(){initNavTree('net_2l2_2stream_2tls_2_socket_server_8
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacenet_1_1l2_1_1stream_1_1tls.html">net::l2::stream::tls</a> {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> SocketContextFactoryT&gt;</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="namespacenet_1_1l2_1_1stream_1_1tls.html#a1d510ce2ab05de4c28eadd3c2bed4a33">   33</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html">SocketServer</a> = core::socket::stream::tls::</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        SocketServer&lt;net::l2::stream::ServerSocket, net::l2::stream::tls::config::ConfigSocketServer, SocketContextFactoryT&gt;;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;} <span class="comment">// namespace net::l2::stream::tls</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// NET_L2_STREAM_LEGACY_SOCKETSERVER_H</span></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1tls_1_1_socket_server_html"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html">core::socket::stream::tls::SocketServer</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2tls_2_socket_server_8h_source.html#l00034">SocketServer.h:38</a></div></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="namespacenet_1_1l2_1_1stream_1_1tls.html#a00e8165524ae817d722d65ab1778e930">   33</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html">SocketServer</a> =</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html">core::socket::stream::tls::SocketServer&lt;net::l2::stream::ServerSocket&lt;net::l2::stream::tls::config::ConfigSocketServer&gt;</a>,</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                                SocketContextFactoryT&gt;;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;} <span class="comment">// namespace net::l2::stream::tls</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// NET_L2_STREAM_LEGACY_SOCKETSERVER_H</span></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1tls_1_1_socket_server_html"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html">core::socket::stream::tls::SocketServer</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2socket_2stream_2tls_2_socket_server_8h_source.html#l00034">SocketServer.h:35</a></div></div>
 <div class="ttc" id="acore_2socket_2stream_2tls_2_socket_server_8h_html"><div class="ttname"><a href="core_2socket_2stream_2tls_2_socket_server_8h.html">SocketServer.h</a></div></div>
 <div class="ttc" id="al2_2stream_2_server_socket_8h_html"><div class="ttname"><a href="l2_2stream_2_server_socket_8h.html">ServerSocket.h</a></div></div>
 <div class="ttc" id="al2_2stream_2tls_2config_2_config_socket_server_8h_html"><div class="ttname"><a href="l2_2stream_2tls_2config_2_config_socket_server_8h.html">ConfigSocketServer.h</a></div></div>

@@ -119,10 +119,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a10a73ab3264dc536464f7a530fda8fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac62c1fa45cee58c5ac10b00eb0853639"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#ac62c1fa45cee58c5ac10b00eb0853639">shutdownRead</a> ()</td></tr>
 <tr class="separator:ac62c1fa45cee58c5ac10b00eb0853639"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e872afff9b592389b7555fab5a3d5a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#a3e872afff9b592389b7555fab5a3d5a5">shutdownWrite</a> ()</td></tr>
-<tr class="separator:a3e872afff9b592389b7555fab5a3d5a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a270a18f3261a7dc3162c9446067b38fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#a270a18f3261a7dc3162c9446067b38fa">shutdown</a> ()</td></tr>
-<tr class="separator:a270a18f3261a7dc3162c9446067b38fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae09865f4749ebecaef4ed44e09029438"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#ae09865f4749ebecaef4ed44e09029438">shutdownWrite</a> (bool forceClose=false)</td></tr>
+<tr class="separator:ae09865f4749ebecaef4ed44e09029438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c1bc50944c00c648bbe88b6dc9cb510"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#a8c1bc50944c00c648bbe88b6dc9cb510">shutdown</a> (bool forceClose=false)</td></tr>
+<tr class="separator:a8c1bc50944c00c648bbe88b6dc9cb510"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7daa40724b091ab2970e60cd5c46148a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#a7daa40724b091ab2970e60cd5c46148a">close</a> ()</td></tr>
 <tr class="separator:a7daa40724b091ab2970e60cd5c46148a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea4040a01068a4b14956dd2475b7327d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1socket_1_1_socket_context.html">SocketContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_context.html#aea4040a01068a4b14956dd2475b7327d">switchSocketContext</a> (<a class="el" href="classcore_1_1socket_1_1_socket_context_factory.html">core::socket::SocketContextFactory</a> *socketContextFactory)</td></tr>
@@ -216,7 +216,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classweb_1_1http_1_1server_1_1_socket_context.html#aca262f835e55e609fb974fdf4d6bb46e">web::http::server::SocketContext&lt; RequestT, ResponseT &gt;</a>, and <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context.html#a075e493b64885b96bb9c38866e818499">web::http::client::SocketContext&lt; RequestT, ResponseT &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context.html#a075e493b64885b96bb9c38866e818499">web::http::client::SocketContext&lt; RequestT, ResponseT &gt;</a>, and <a class="el" href="classweb_1_1http_1_1server_1_1_socket_context.html#a3439aeab2c1241971293d8172122464d">web::http::server::SocketContext&lt; RequestT, ResponseT &gt;</a>.</p>
 
 </div>
 </div>
@@ -236,15 +236,15 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_context_8cpp_source.html#l00076">76</a> of file <a class="el" href="_socket_context_8cpp_source.html">SocketContext.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                              {</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_context.html#a3555c0def7a19e1a0877de7fe5140351">socketConnection</a>-&gt;<a class="code" href="classcore_1_1socket_1_1_socket_connection.html#a9b8dcd50d3aee2376df71eb53bb3805f">close</a>();</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_socket_context_8cpp_source.html#l00077">77</a> of file <a class="el" href="_socket_context_8cpp_source.html">SocketContext.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                              {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_context.html#a3555c0def7a19e1a0877de7fe5140351">socketConnection</a>-&gt;<a class="code" href="classcore_1_1socket_1_1_socket_connection.html#a9b8dcd50d3aee2376df71eb53bb3805f">close</a>();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1socket_1_1_socket_connection_html_a9b8dcd50d3aee2376df71eb53bb3805f"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_connection.html#a9b8dcd50d3aee2376df71eb53bb3805f">core::socket::SocketConnection::close</a></div><div class="ttdeci">virtual void close()=0</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a9b8dcd50d3aee2376df71eb53bb3805f">core::socket::SocketConnection::close()</a>, and <a class="el" href="core_2socket_2_socket_context_8h_source.html#l00073">socketConnection</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="web_2http_2client_2_request_8cpp_source.html#l00119">web::http::client::Request::enqueue()</a>, <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00043">web::http::server::Response::enqueue()</a>, <a class="el" href="web_2http_2client_2_request_8cpp_source.html#l00239">web::http::client::Request::error()</a>, <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00210">web::http::server::Response::error()</a>, <a class="el" href="express_2_response_8cpp_source.html#l00042">express::Response::sendFile()</a>, <a class="el" href="web_2http_2client_2_request_8cpp_source.html#l00201">web::http::client::Request::upgrade()</a>, and <a class="el" href="web_2http_2client_2_response_8cpp_source.html#l00073">web::http::client::Response::upgrade()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_request_context_base_8cpp_source.html#l00059">web::http::server::RequestContextBase::close()</a>, <a class="el" href="web_2http_2client_2_request_8cpp_source.html#l00117">web::http::client::Request::enqueue()</a>, <a class="el" href="web_2http_2client_2_request_8cpp_source.html#l00199">web::http::client::Request::upgrade()</a>, and <a class="el" href="web_2http_2client_2_response_8cpp_source.html#l00070">web::http::client::Response::upgrade()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -254,7 +254,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_context_a7daa40724b091ab2970e60cd5c46148a_icgraph.svg" width="1304" height="810"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_context_a7daa40724b091ab2970e60cd5c46148a_icgraph.svg" width="1564" height="578"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -364,15 +364,15 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_context_8cpp_source.html#l00087">87</a> of file <a class="el" href="_socket_context_8cpp_source.html">SocketContext.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                                              { <span class="comment">// By default we do a cross-shutdown. Override this method in case your protocol still</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                                                  <span class="comment">// wants to send data after peers sending side has closed the connection.</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">if</span> (errnum != 0) {</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            PLOG(ERROR) &lt;&lt; <span class="stringliteral">&quot;OnReadError: &quot;</span> &lt;&lt; errnum;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        }</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_context.html#a3e872afff9b592389b7555fab5a3d5a5">shutdownWrite</a>();</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_a3e872afff9b592389b7555fab5a3d5a5"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#a3e872afff9b592389b7555fab5a3d5a5">core::socket::SocketContext::shutdownWrite</a></div><div class="ttdeci">void shutdownWrite()</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_8cpp_source.html#l00067">SocketContext.cpp:67</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_socket_context_8cpp_source.html#l00088">88</a> of file <a class="el" href="_socket_context_8cpp_source.html">SocketContext.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                                              { <span class="comment">// By default we do a cross-shutdown. Override this method in case your protocol still</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                                                  <span class="comment">// wants to send data after peers sending side has closed the connection.</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">if</span> (errnum != 0) {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            PLOG(ERROR) &lt;&lt; <span class="stringliteral">&quot;OnReadError: &quot;</span> &lt;&lt; errnum;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        }</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_context.html#ae09865f4749ebecaef4ed44e09029438">shutdownWrite</a>();</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_ae09865f4749ebecaef4ed44e09029438"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#ae09865f4749ebecaef4ed44e09029438">core::socket::SocketContext::shutdownWrite</a></div><div class="ttdeci">void shutdownWrite(bool forceClose=false)</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_8cpp_source.html#l00067">SocketContext.cpp:67</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749abb1ca97ec761fc37101737ba0aa2e7c5">core::ERROR</a>, and <a class="el" href="_socket_context_8cpp_source.html#l00067">shutdownWrite()</a>.</p>
 
@@ -451,13 +451,13 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_context_8cpp_source.html#l00080">80</a> of file <a class="el" href="_socket_context_8cpp_source.html">SocketContext.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                                               {</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">if</span> (errnum != 0) {</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            PLOG(ERROR) &lt;&lt; <span class="stringliteral">&quot;OnWriteError: &quot;</span> &lt;&lt; errnum;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        }</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_context.html#ac62c1fa45cee58c5ac10b00eb0853639">shutdownRead</a>();</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_socket_context_8cpp_source.html#l00081">81</a> of file <a class="el" href="_socket_context_8cpp_source.html">SocketContext.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                               {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">if</span> (errnum != 0) {</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            PLOG(ERROR) &lt;&lt; <span class="stringliteral">&quot;OnWriteError: &quot;</span> &lt;&lt; errnum;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        }</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_context.html#ac62c1fa45cee58c5ac10b00eb0853639">shutdownRead</a>();</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_ac62c1fa45cee58c5ac10b00eb0853639"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#ac62c1fa45cee58c5ac10b00eb0853639">core::socket::SocketContext::shutdownRead</a></div><div class="ttdeci">void shutdownRead()</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_8cpp_source.html#l00063">SocketContext.cpp:63</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749abb1ca97ec761fc37101737ba0aa2e7c5">core::ERROR</a>, and <a class="el" href="_socket_context_8cpp_source.html#l00063">shutdownRead()</a>.</p>
@@ -512,7 +512,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#aa4a6137f3d2fbf506bf3c0eb0366e39b">core::socket::SocketConnection::readFromPeer()</a>, and <a class="el" href="core_2socket_2_socket_context_8h_source.html#l00073">socketConnection</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="websocket_2_socket_context_upgrade_8h_source.html#l00211">web::websocket::SocketContextUpgrade&lt; SubProtocolT, RequestT, ResponseT &gt;::readFrameData()</a>, <a class="el" href="_parser_8cpp_source.html#l00102">web::http::Parser::readHeaderLine()</a>, and <a class="el" href="_parser_8cpp_source.html#l00076">web::http::Parser::readStartLine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="websocket_2_socket_context_upgrade_8h_source.html#l00211">web::websocket::SocketContextUpgrade&lt; SubProtocolT, RequestT, ResponseT &gt;::readFrameData()</a>, <a class="el" href="_parser_8cpp_source.html#l00101">web::http::Parser::readHeaderLine()</a>, and <a class="el" href="_parser_8cpp_source.html#l00075">web::http::Parser::readStartLine()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -562,7 +562,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a15c934a69a64a7d2a0f230ebf1033195">core::socket::SocketConnection::sendToPeer()</a>, and <a class="el" href="core_2socket_2_socket_context_8h_source.html#l00073">socketConnection</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="web_2http_2client_2_request_8cpp_source.html#l00119">web::http::client::Request::enqueue()</a>, <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00043">web::http::server::Response::enqueue()</a>, <a class="el" href="websocket_2_socket_context_upgrade_8h_source.html#l00227">web::websocket::SocketContextUpgrade&lt; SubProtocolT, RequestT, ResponseT &gt;::sendFrameData()</a>, and <a class="el" href="_socket_context_8cpp_source.html#l00039">sendToPeer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="web_2http_2client_2_request_8cpp_source.html#l00117">web::http::client::Request::enqueue()</a>, <a class="el" href="websocket_2_socket_context_upgrade_8h_source.html#l00227">web::websocket::SocketContextUpgrade&lt; SubProtocolT, RequestT, ResponseT &gt;::sendFrameData()</a>, <a class="el" href="_request_context_base_8cpp_source.html#l00045">web::http::server::RequestContextBase::sendToPeer()</a>, and <a class="el" href="_socket_context_8cpp_source.html#l00039">sendToPeer()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -572,7 +572,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_context_acf71eb98dd1dbbf97af68326bdaac8ff_icgraph.svg" width="1383" height="542"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_context_acf71eb98dd1dbbf97af68326bdaac8ff_icgraph.svg" width="1592" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -650,8 +650,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a270a18f3261a7dc3162c9446067b38fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a270a18f3261a7dc3162c9446067b38fa">&#9670;&nbsp;</a></span>shutdown()</h2>
+<a id="a8c1bc50944c00c648bbe88b6dc9cb510"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c1bc50944c00c648bbe88b6dc9cb510">&#9670;&nbsp;</a></span>shutdown()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -659,23 +659,24 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void core::socket::SocketContext::shutdown </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>forceClose</em> = <code>false</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_context_8cpp_source.html#l00071">71</a> of file <a class="el" href="_socket_context_8cpp_source.html">SocketContext.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                                 {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_context.html#ac62c1fa45cee58c5ac10b00eb0853639">shutdownRead</a>();</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_context.html#a3e872afff9b592389b7555fab5a3d5a5">shutdownWrite</a>();</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_socket_context_8cpp_source.html#l00072">72</a> of file <a class="el" href="_socket_context_8cpp_source.html">SocketContext.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                                {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_context.html#ac62c1fa45cee58c5ac10b00eb0853639">shutdownRead</a>();</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_context.html#ae09865f4749ebecaef4ed44e09029438">shutdownWrite</a>(forceClose);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_socket_context_8cpp_source.html#l00063">shutdownRead()</a>, and <a class="el" href="_socket_context_8cpp_source.html#l00067">shutdownWrite()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_context_a270a18f3261a7dc3162c9446067b38fa_cgraph.svg" width="736" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_context_a8c1bc50944c00c648bbe88b6dc9cb510_cgraph.svg" width="736" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -704,7 +705,7 @@ Here is the call graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#ad3e62bba7b51b026252d807ee279e7cc">core::socket::SocketConnection::shutdownRead()</a>, and <a class="el" href="core_2socket_2_socket_context_8h_source.html#l00073">socketConnection</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_context_8cpp_source.html#l00080">onWriteError()</a>, and <a class="el" href="_socket_context_8cpp_source.html#l00071">shutdown()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_context_8cpp_source.html#l00081">onWriteError()</a>, and <a class="el" href="_socket_context_8cpp_source.html#l00072">shutdown()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -720,8 +721,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a3e872afff9b592389b7555fab5a3d5a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e872afff9b592389b7555fab5a3d5a5">&#9670;&nbsp;</a></span>shutdownWrite()</h2>
+<a id="ae09865f4749ebecaef4ed44e09029438"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae09865f4749ebecaef4ed44e09029438">&#9670;&nbsp;</a></span>shutdownWrite()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -729,31 +730,33 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void core::socket::SocketContext::shutdownWrite </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>forceClose</em> = <code>false</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_socket_context_8cpp_source.html#l00067">67</a> of file <a class="el" href="_socket_context_8cpp_source.html">SocketContext.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                      {</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_context.html#a3555c0def7a19e1a0877de7fe5140351">socketConnection</a>-&gt;<a class="code" href="classcore_1_1socket_1_1_socket_connection.html#a27aa310974f6fc91d96ab4f405b012ae">shutdownWrite</a>();</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1socket_1_1_socket_connection_html_a27aa310974f6fc91d96ab4f405b012ae"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_connection.html#a27aa310974f6fc91d96ab4f405b012ae">core::socket::SocketConnection::shutdownWrite</a></div><div class="ttdeci">virtual void shutdownWrite()=0</div></div>
+<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                                     {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        VLOG(0) &lt;&lt; <span class="stringliteral">&quot;ShutdownWrite: forceClose = &quot;</span> &lt;&lt; forceClose;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_context.html#a3555c0def7a19e1a0877de7fe5140351">socketConnection</a>-&gt;<a class="code" href="classcore_1_1socket_1_1_socket_connection.html#ae9e87d598d58b868367008862946b63b">shutdownWrite</a>(forceClose);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1socket_1_1_socket_connection_html_ae9e87d598d58b868367008862946b63b"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_connection.html#ae9e87d598d58b868367008862946b63b">core::socket::SocketConnection::shutdownWrite</a></div><div class="ttdeci">virtual void shutdownWrite(bool forceClose)=0</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a27aa310974f6fc91d96ab4f405b012ae">core::socket::SocketConnection::shutdownWrite()</a>, and <a class="el" href="core_2socket_2_socket_context_8h_source.html#l00073">socketConnection</a>.</p>
+<p class="reference">References <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#ae9e87d598d58b868367008862946b63b">core::socket::SocketConnection::shutdownWrite()</a>, and <a class="el" href="core_2socket_2_socket_context_8h_source.html#l00073">socketConnection</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_context_8cpp_source.html#l00087">onReadError()</a>, <a class="el" href="websocket_2_socket_context_upgrade_8h_source.html#l00136">web::websocket::SocketContextUpgrade&lt; SubProtocolT, RequestT, ResponseT &gt;::sendClose()</a>, and <a class="el" href="_socket_context_8cpp_source.html#l00071">shutdown()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_context_8cpp_source.html#l00088">onReadError()</a>, <a class="el" href="websocket_2_socket_context_upgrade_8h_source.html#l00136">web::websocket::SocketContextUpgrade&lt; SubProtocolT, RequestT, ResponseT &gt;::sendClose()</a>, and <a class="el" href="_socket_context_8cpp_source.html#l00072">shutdown()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_context_a3e872afff9b592389b7555fab5a3d5a5_cgraph.svg" width="486" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_context_ae09865f4749ebecaef4ed44e09029438_cgraph.svg" width="486" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_context_a3e872afff9b592389b7555fab5a3d5a5_icgraph.svg" width="762" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_context_ae09865f4749ebecaef4ed44e09029438_icgraph.svg" width="762" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -783,7 +786,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="core_2socket_2_socket_context_8h_source.html#l00073">socketConnection</a>, and <a class="el" href="_socket_connection_8cpp_source.html#l00072">core::socket::SocketConnection::switchSocketContext()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00157">web::http::server::Response::upgrade()</a>, and <a class="el" href="web_2http_2client_2_response_8cpp_source.html#l00073">web::http::client::Response::upgrade()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_request_context_base_8cpp_source.html#l00037">web::http::server::RequestContextBase::switchSocketContext()</a>, and <a class="el" href="web_2http_2client_2_response_8cpp_source.html#l00070">web::http::client::Response::upgrade()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -793,7 +796,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_context_aea4040a01068a4b14956dd2475b7327d_icgraph.svg" width="408" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_context_aea4040a01068a4b14956dd2475b7327d_icgraph.svg" width="623" height="134"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -847,7 +850,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="core_2socket_2_socket_context_8h_source.html#l00073">73</a> of file <a class="el" href="core_2socket_2_socket_context_8h_source.html">SocketContext.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_context_8cpp_source.html#l00076">close()</a>, <a class="el" href="client_2_socket_context_upgrade_8cpp_source.html#l00040">web::websocket::client::SocketContextUpgrade::create()</a>, <a class="el" href="server_2_socket_context_upgrade_8cpp_source.html#l00040">web::websocket::server::SocketContextUpgrade::create()</a>, <a class="el" href="_socket_context_8cpp_source.html#l00043">readFromPeer()</a>, <a class="el" href="_socket_context_8cpp_source.html#l00035">sendToPeer()</a>, <a class="el" href="_socket_context_8cpp_source.html#l00051">setTimeout()</a>, <a class="el" href="_socket_context_8cpp_source.html#l00063">shutdownRead()</a>, <a class="el" href="_socket_context_8cpp_source.html#l00067">shutdownWrite()</a>, and <a class="el" href="_socket_context_8cpp_source.html#l00047">switchSocketContext()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_context_8cpp_source.html#l00077">close()</a>, <a class="el" href="client_2_socket_context_upgrade_8cpp_source.html#l00040">web::websocket::client::SocketContextUpgrade::create()</a>, <a class="el" href="server_2_socket_context_upgrade_8cpp_source.html#l00040">web::websocket::server::SocketContextUpgrade::create()</a>, <a class="el" href="_socket_context_8cpp_source.html#l00043">readFromPeer()</a>, <a class="el" href="_socket_context_8cpp_source.html#l00035">sendToPeer()</a>, <a class="el" href="_socket_context_8cpp_source.html#l00051">setTimeout()</a>, <a class="el" href="_socket_context_8cpp_source.html#l00063">shutdownRead()</a>, <a class="el" href="_socket_context_8cpp_source.html#l00067">shutdownWrite()</a>, and <a class="el" href="_socket_context_8cpp_source.html#l00047">switchSocketContext()</a>.</p>
 
 </div>
 </div>

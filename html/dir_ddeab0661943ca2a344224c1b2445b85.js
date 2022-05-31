@@ -13,7 +13,7 @@ var dir_ddeab0661943ca2a344224c1b2445b85 =
     [ "signal.cpp", "signal_8cpp.html", "signal_8cpp" ],
     [ "signal.h", "signal_8h.html", "signal_8h" ],
     [ "socket.cpp", "core_2system_2socket_8cpp.html", "core_2system_2socket_8cpp" ],
-    [ "socket.h", "core_2system_2_socket_8h.html", "core_2system_2_socket_8h" ],
+    [ "socket.h", "core_2system_2socket_8h.html", "core_2system_2socket_8h" ],
     [ "time.cpp", "time_8cpp.html", "time_8cpp" ],
     [ "time.h", "time_8h.html", "time_8h" ],
     [ "unistd.cpp", "unistd_8cpp.html", "unistd_8cpp" ],

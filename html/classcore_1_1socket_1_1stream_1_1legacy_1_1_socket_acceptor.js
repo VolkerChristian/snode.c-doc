@@ -1,8 +1,9 @@
 var classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor =
 [
-    [ "Config", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html#a6d7a6d265297cac1f23d2fb1f873a85a", null ],
-    [ "SocketAddress", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html#a67bc61bc6d1d95975e692fd7896aa036", null ],
-    [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html#aad5733667ca980caef6acd073e7d5070", null ],
-    [ "Super", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html#a8bdca7c27586c0d779903a615b51699b", null ],
-    [ "SocketAcceptor", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html#a6837c3ae39851b1147323f3bc4deb9e6", null ]
+    [ "Config", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html#ac356d697fe8dc3b0bb3ceed7f1dace5a", null ],
+    [ "ServerSocket", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html#a4d7da6c1aa9c408a4658c6961ba9ee75", null ],
+    [ "SocketAddress", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html#a3547af1a701325ba762ded1df9ac88ba", null ],
+    [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html#a144724bf36d3b12444deb077f0b998f1", null ],
+    [ "Super", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html#a4667f2a0f088320fefc628247bff236c", null ],
+    [ "SocketAcceptor", "classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_acceptor.html#a51abd839a409bafb25ab277449a2fd66", null ]
 ];

@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('classcore_1_1socket_1_1_socket_connect
 <div class="dynheader">
 Inheritance diagram for core::socket::SocketConnection:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection__inherit__graph.svg" width="682" height="1714"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection__inherit__graph.svg" width="248" height="815"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -116,8 +116,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9b8dcd50d3aee2376df71eb53bb3805f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3e62bba7b51b026252d807ee279e7cc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#ad3e62bba7b51b026252d807ee279e7cc">shutdownRead</a> ()=0</td></tr>
 <tr class="separator:ad3e62bba7b51b026252d807ee279e7cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27aa310974f6fc91d96ab4f405b012ae"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a27aa310974f6fc91d96ab4f405b012ae">shutdownWrite</a> ()=0</td></tr>
-<tr class="separator:a27aa310974f6fc91d96ab4f405b012ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9e87d598d58b868367008862946b63b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#ae9e87d598d58b868367008862946b63b">shutdownWrite</a> (bool forceClose)=0</td></tr>
+<tr class="separator:ae9e87d598d58b868367008862946b63b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6961b363db87f9b7a0126c83cfe7314c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a6961b363db87f9b7a0126c83cfe7314c">setTimeout</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;timeout)=0</td></tr>
 <tr class="separator:a6961b363db87f9b7a0126c83cfe7314c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15c934a69a64a7d2a0f230ebf1033195"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a15c934a69a64a7d2a0f230ebf1033195">sendToPeer</a> (const char *junk, std::size_t junkLen)=0</td></tr>
@@ -271,7 +271,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a716fead0ecb9930bd1a53cb74ce0b7e5">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;</a>, <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a3e77d759ca5b1b4740578a102bbad0d3">core::socket::stream::legacy::SocketConnection&lt; SocketT &gt;</a>, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a2e7e536914305deefc1a776d2b9e9a86">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a2e7e536914305deefc1a776d2b9e9a86">core::socket::stream::SocketConnection&lt; core::socket::stream::tls::SocketReader&lt; SocketT &gt;, core::socket::stream::tls::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>, and <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a2e7e536914305deefc1a776d2b9e9a86">core::socket::stream::SocketConnection&lt; core::socket::stream::legacy::SocketReader&lt; SocketT &gt;, core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a6e3a8d57244cb33b2ce0e15b6347e252">core::socket::stream::SocketConnection&lt; SocketT, SocketReaderT, SocketWriterT &gt;</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_socket_connection_8cpp_source.html#l00036">36</a> of file <a class="el" href="_socket_connection_8cpp_source.html">SocketConnection.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                                        {</div>
@@ -306,13 +306,13 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae696d9f63ddd56c11b5342a32f55421c">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae696d9f63ddd56c11b5342a32f55421c">core::socket::stream::SocketConnection&lt; core::socket::stream::tls::SocketReader&lt; SocketT &gt;, core::socket::stream::tls::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>, and <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae696d9f63ddd56c11b5342a32f55421c">core::socket::stream::SocketConnection&lt; core::socket::stream::legacy::SocketReader&lt; SocketT &gt;, core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ab2f0c8920543bd78d837fe261340384f">core::socket::stream::SocketConnection&lt; SocketT, SocketReaderT, SocketWriterT &gt;</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_context_8cpp_source.html#l00076">core::socket::SocketContext::close()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_context_8cpp_source.html#l00077">core::socket::SocketContext::close()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection_a9b8dcd50d3aee2376df71eb53bb3805f_icgraph.svg" width="1576" height="810"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection_a9b8dcd50d3aee2376df71eb53bb3805f_icgraph.svg" width="1836" height="578"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -341,7 +341,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae2fe7af090c3a37d329d447bf6b020e5">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae2fe7af090c3a37d329d447bf6b020e5">core::socket::stream::SocketConnection&lt; core::socket::stream::tls::SocketReader&lt; SocketT &gt;, core::socket::stream::tls::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>, and <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae2fe7af090c3a37d329d447bf6b020e5">core::socket::stream::SocketConnection&lt; core::socket::stream::legacy::SocketReader&lt; SocketT &gt;, core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a740d0d5b9c56a26492776d30ae01fc81">core::socket::stream::SocketConnection&lt; SocketT, SocketReaderT, SocketWriterT &gt;</a>.</p>
 
 </div>
 </div>
@@ -483,9 +483,9 @@ Here is the caller graph for this function:</div>
 <div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                                 {</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af307fcbdffd8a43642fa80443dd2c72e">socketContext</a>-&gt;<a class="code" href="classcore_1_1socket_1_1_socket_context.html#a0aaa6a1f014819bf83b3cdecf2c8462b">onReadError</a>(errnum);</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_a0aaa6a1f014819bf83b3cdecf2c8462b"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#a0aaa6a1f014819bf83b3cdecf2c8462b">core::socket::SocketContext::onReadError</a></div><div class="ttdeci">virtual void onReadError(int errnum)</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_8cpp_source.html#l00087">SocketContext.cpp:87</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_a0aaa6a1f014819bf83b3cdecf2c8462b"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#a0aaa6a1f014819bf83b3cdecf2c8462b">core::socket::SocketContext::onReadError</a></div><div class="ttdeci">virtual void onReadError(int errnum)</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_8cpp_source.html#l00088">SocketContext.cpp:88</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_socket_context_8cpp_source.html#l00087">core::socket::SocketContext::onReadError()</a>, and <a class="el" href="_socket_connection_8h_source.html#l00084">socketContext</a>.</p>
+<p class="reference">References <a class="el" href="_socket_context_8cpp_source.html#l00088">core::socket::SocketContext::onReadError()</a>, and <a class="el" href="_socket_connection_8h_source.html#l00084">socketContext</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -573,9 +573,9 @@ Here is the call graph for this function:</div>
 <div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                                                  {</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af307fcbdffd8a43642fa80443dd2c72e">socketContext</a>-&gt;<a class="code" href="classcore_1_1socket_1_1_socket_context.html#af4c23c0cae547056b9c37a87f9a47f3b">onWriteError</a>(errnum);</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_af4c23c0cae547056b9c37a87f9a47f3b"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#af4c23c0cae547056b9c37a87f9a47f3b">core::socket::SocketContext::onWriteError</a></div><div class="ttdeci">virtual void onWriteError(int errnum)</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_8cpp_source.html#l00080">SocketContext.cpp:80</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_af4c23c0cae547056b9c37a87f9a47f3b"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#af4c23c0cae547056b9c37a87f9a47f3b">core::socket::SocketContext::onWriteError</a></div><div class="ttdeci">virtual void onWriteError(int errnum)</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_8cpp_source.html#l00081">SocketContext.cpp:81</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_socket_context_8cpp_source.html#l00080">core::socket::SocketContext::onWriteError()</a>, and <a class="el" href="_socket_connection_8h_source.html#l00084">socketContext</a>.</p>
+<p class="reference">References <a class="el" href="_socket_context_8cpp_source.html#l00081">core::socket::SocketContext::onWriteError()</a>, and <a class="el" href="_socket_connection_8h_source.html#l00084">socketContext</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -645,7 +645,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ac1c80efcae5221cfa1d595909926a3b8">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ac1c80efcae5221cfa1d595909926a3b8">core::socket::stream::SocketConnection&lt; core::socket::stream::tls::SocketReader&lt; SocketT &gt;, core::socket::stream::tls::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>, and <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ac1c80efcae5221cfa1d595909926a3b8">core::socket::stream::SocketConnection&lt; core::socket::stream::legacy::SocketReader&lt; SocketT &gt;, core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#adda5befee524544486c23efd1372d5e6">core::socket::stream::SocketConnection&lt; SocketT, SocketReaderT, SocketWriterT &gt;</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_socket_context_8cpp_source.html#l00043">core::socket::SocketContext::readFromPeer()</a>.</p>
 <div class="dynheader">
@@ -691,13 +691,13 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#af292fd5a8bb2a3d1162deed72057809b">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#af292fd5a8bb2a3d1162deed72057809b">core::socket::stream::SocketConnection&lt; core::socket::stream::tls::SocketReader&lt; SocketT &gt;, core::socket::stream::tls::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>, and <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#af292fd5a8bb2a3d1162deed72057809b">core::socket::stream::SocketConnection&lt; core::socket::stream::legacy::SocketReader&lt; SocketT &gt;, core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a68618f11cab4cee6ea87d1d84a1c85bc">core::socket::stream::SocketConnection&lt; SocketT, SocketReaderT, SocketWriterT &gt;</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_socket_context_8cpp_source.html#l00035">core::socket::SocketContext::sendToPeer()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection_a15c934a69a64a7d2a0f230ebf1033195_icgraph.svg" width="1655" height="542"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection_a15c934a69a64a7d2a0f230ebf1033195_icgraph.svg" width="1864" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -727,7 +727,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a15501dd2a898621fc502c54a18d25e39">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a15501dd2a898621fc502c54a18d25e39">core::socket::stream::SocketConnection&lt; core::socket::stream::tls::SocketReader&lt; SocketT &gt;, core::socket::stream::tls::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>, and <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a15501dd2a898621fc502c54a18d25e39">core::socket::stream::SocketConnection&lt; core::socket::stream::legacy::SocketReader&lt; SocketT &gt;, core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ae6f5d5ba2fb28055e9766c4b131a0fdf">core::socket::stream::SocketConnection&lt; SocketT, SocketReaderT, SocketWriterT &gt;</a>.</p>
 
 </div>
 </div>
@@ -755,7 +755,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#acbfaeb8f4cb397378bc666e4b13be45d">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#acbfaeb8f4cb397378bc666e4b13be45d">core::socket::stream::SocketConnection&lt; core::socket::stream::tls::SocketReader&lt; SocketT &gt;, core::socket::stream::tls::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>, and <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#acbfaeb8f4cb397378bc666e4b13be45d">core::socket::stream::SocketConnection&lt; core::socket::stream::legacy::SocketReader&lt; SocketT &gt;, core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ab29fa4f33c8b2fe9adea9383999439bc">core::socket::stream::SocketConnection&lt; SocketT, SocketReaderT, SocketWriterT &gt;</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_socket_context_8cpp_source.html#l00051">core::socket::SocketContext::setTimeout()</a>.</p>
 <div class="dynheader">
@@ -790,7 +790,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a94406e4c448e22b6d245bb4c12fc40c6">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a94406e4c448e22b6d245bb4c12fc40c6">core::socket::stream::SocketConnection&lt; core::socket::stream::tls::SocketReader&lt; SocketT &gt;, core::socket::stream::tls::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>, and <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a94406e4c448e22b6d245bb4c12fc40c6">core::socket::stream::SocketConnection&lt; core::socket::stream::legacy::SocketReader&lt; SocketT &gt;, core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a88aad8526b5c973ddf4347ad27097e51">core::socket::stream::SocketConnection&lt; SocketT, SocketReaderT, SocketWriterT &gt;</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_socket_context_8cpp_source.html#l00063">core::socket::SocketContext::shutdownRead()</a>.</p>
 <div class="dynheader">
@@ -802,8 +802,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a27aa310974f6fc91d96ab4f405b012ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27aa310974f6fc91d96ab4f405b012ae">&#9670;&nbsp;</a></span>shutdownWrite()</h2>
+<a id="ae9e87d598d58b868367008862946b63b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9e87d598d58b868367008862946b63b">&#9670;&nbsp;</a></span>shutdownWrite()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -814,7 +814,8 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">virtual void core::socket::SocketConnection::shutdownWrite </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>forceClose</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -825,13 +826,13 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#adb6056c9af1dcbe6eb39de33c3853adc">core::socket::stream::SocketConnection&lt; SocketReaderT, SocketWriterT, SocketAddressT &gt;</a>, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#adb6056c9af1dcbe6eb39de33c3853adc">core::socket::stream::SocketConnection&lt; core::socket::stream::tls::SocketReader&lt; SocketT &gt;, core::socket::stream::tls::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>, and <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#adb6056c9af1dcbe6eb39de33c3853adc">core::socket::stream::SocketConnection&lt; core::socket::stream::legacy::SocketReader&lt; SocketT &gt;, core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;, SocketT::SocketAddress &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a645385848a618f16a8492c05ba5dfc5a">core::socket::stream::SocketConnection&lt; SocketT, SocketReaderT, SocketWriterT &gt;</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_socket_context_8cpp_source.html#l00067">core::socket::SocketContext::shutdownWrite()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection_a27aa310974f6fc91d96ab4f405b012ae_icgraph.svg" width="1034" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection_ae9e87d598d58b868367008862946b63b_icgraph.svg" width="1034" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -877,7 +878,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection_a87beaa9f0aadc53ba4842f27cb9cdb64_icgraph.svg" width="680" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection_a87beaa9f0aadc53ba4842f27cb9cdb64_icgraph.svg" width="895" height="134"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

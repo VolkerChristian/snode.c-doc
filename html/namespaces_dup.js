@@ -8,6 +8,7 @@ var namespaces_dup =
     ] ],
     [ "CLI", "namespace_c_l_i.html", "namespace_c_l_i" ],
     [ "core", "namespacecore.html", "namespacecore" ],
+    [ "database", "namespacedatabase.html", "namespacedatabase" ],
     [ "express", "namespaceexpress.html", "namespaceexpress" ],
     [ "httputils", "namespacehttputils.html", [
       [ "ci_comp", "namespacehttputils.html#a87e2c03071ddffa8a616ea13d641aafc", null ],

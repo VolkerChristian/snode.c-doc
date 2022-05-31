@@ -6,5 +6,6 @@ var classcore_1_1_s_node_c =
     [ "init", "classcore_1_1_s_node_c.html#a2c8b01c5fc6ecc3036cb48a76f76f3b5", null ],
     [ "operator new", "classcore_1_1_s_node_c.html#a58d5942276e694a0a30039998fa1dcc4", null ],
     [ "start", "classcore_1_1_s_node_c.html#ac3d0dcb6c216ae72d9bbb77fe080e461", null ],
+    [ "stop", "classcore_1_1_s_node_c.html#a789e86c8b1c218ff24163fbeee798672", null ],
     [ "tick", "classcore_1_1_s_node_c.html#a57b40bb139f23e6a9fc2704d2415e636", null ]
 ];

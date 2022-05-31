@@ -19,6 +19,9 @@ var classutils_1_1_config =
     [ "app", "classutils_1_1_config.html#a8f09598a7eea8031d1919980c86d5522", null ],
     [ "argc", "classutils_1_1_config.html#a944f4c1bd732d504f99ae7828edb366b", null ],
     [ "argv", "classutils_1_1_config.html#a17e56f49cf46238e042a67bc1bd7d419", null ],
+    [ "defaultConfDir", "classutils_1_1_config.html#ab81d32e4a1aa210d184e7485d19ebdaa", null ],
+    [ "defaultLogDir", "classutils_1_1_config.html#ad73f305bad0f5950857b9f34f46fce2c", null ],
+    [ "defaultPidDir", "classutils_1_1_config.html#a1938dc4a70d41e1d34993e7dad860a5f", null ],
     [ "name", "classutils_1_1_config.html#af54ae8e6742ff0290821601af35d1414", null ],
     [ "outputConfigFile", "classutils_1_1_config.html#adbaa012ff9fe56a2e23d6a76609ad200", null ]
 ];

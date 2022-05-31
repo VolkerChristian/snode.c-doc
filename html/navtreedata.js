@@ -64,7 +64,7 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", "functions_vars" ],
-        [ "Typedefs", "functions_type.html", null ],
+        [ "Typedefs", "functions_type.html", "functions_type" ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
@@ -76,6 +76,7 @@ var NAVTREE =
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -85,25 +86,26 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_accept_event_receiver_8cpp.html",
-"_dynamic_loader_8cpp_source.html",
-"base64_8h.html#a43968536c5e19d8c265e17d08fd91c3e",
-"class_c_l_i_1_1_argument_mismatch.html#a4b6bfbb0814fd56227cf1365e85405db",
-"class_c_l_i_1_1_option.html#a446f47a5d6ddf6831defd707394d7c07",
-"class_c_l_i_1_1detail_1_1is__complex.html",
-"classcore_1_1_timer_event_receiver.html#a92e16b5c0b561fe2c4290686037571a7",
-"classcore_1_1socket_1_1_socket_context.html#a03938df480396d7b680c0c32d32d5859",
-"classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a62c475826189d5c6573ee0453619a2a3",
-"classexpress_1_1_web_app.html#a54e6910c9466c61d0b217490b7d9bb5a",
-"classnet_1_1in_1_1stream_1_1_socket.html",
-"classweb_1_1http_1_1_parser.html#a390738501b773c9ba1b039b499ca1f35",
-"classweb_1_1http_1_1legacy_1_1rf_1_1_server.html#ad61227cb911bf1d61469adaea8e1bc16",
-"classweb_1_1websocket_1_1_socket_context_upgrade.html#ae10f1d494fa964dbd81d5b12cdfd5e0b",
-"core_2system_2socket_8cpp.html#a252068ee271f0319fdfac711649f852f",
-"http__utils_8h.html#a4dd60a8e2472042c70e00dec22ebf927",
-"namespace_c_l_i.html#ad1ccedfe3e419c0d84dddbb3f3a5ddba",
-"namespacenet_1_1in6_1_1stream_1_1legacy.html",
-"server_2_sub_protocol_factory_selector_8h_source.html",
-"unistd_8cpp.html#aed100e752a00ffbde81be386936053ca"
+"_descriptor_8cpp_source.html",
+"_socket_address_8h.html",
+"class_c_l_i_1_1_app.html#a965d588ba3c90c8dbd7708bf4dd1f53a",
+"class_c_l_i_1_1_file_error.html",
+"class_c_l_i_1_1_option_base.html#ad0d8bd0637023f7d87a8e95315e8fb21",
+"classcore_1_1_event.html#add8f12b93d4937dcd6a4863cbe4fdb69",
+"classcore_1_1pipe_1_1_sink.html#aeb741efc48ebf6d816c4de2df66a61e2",
+"classcore_1_1socket_1_1stream_1_1_socket_server.html#a75e2c8968e5526e1e2979b4e03c42117",
+"classdatabase_1_1mariadb_1_1_maria_d_b_command_sequence.html#a3232c71bc44335efb990036f96171254",
+"classexpress_1_1dispatcher_1_1_application_dispatcher.html",
+"classnet_1_1in6_1_1bad__hostname.html#a9f42c726105f3ba439e1b83c64823d64",
+"classutils_1_1_config.html#a8f09598a7eea8031d1919980c86d5522",
+"classweb_1_1http_1_1client_1_1_response.html#adb612c37796784cb428d083a72268a83",
+"classweb_1_1http_1_1tls_1_1in_1_1_server.html#a35418e4f288a5caa382e0d5a6b46d6e6",
+"classweb_1_1websocket_1_1server_1_1_sub_protocol.html#a1d575c1146ab69eba0ab27c1acd913a3",
+"functions_i.html",
+"legacy_2_socket_connector_8h.html",
+"namespacecore_1_1ssl.html#a352e8be6a2fa7ad8fe817dd4d642bf3d",
+"net_2l2_2stream_2legacy_2_socket_client_8h_source.html",
+"struct_c_l_i_1_1detail_1_1pair__adaptor_3_01_t_00_01conditional__t_3_01false_00_01void__t_3_01ty57376c4a6f008b828f6707df132586d8.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

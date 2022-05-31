@@ -1,5 +1,7 @@
 var classnet_1_1un_1_1stream_1_1_client_socket =
 [
-    [ "connect", "classnet_1_1un_1_1stream_1_1_client_socket.html#a9e93a9ce9c586224ba276e430c7b3725", null ],
-    [ "connect", "classnet_1_1un_1_1stream_1_1_client_socket.html#a41c4d7142f11ca7b1802fafe7578ffa2", null ]
+    [ "Super", "classnet_1_1un_1_1stream_1_1_client_socket.html#a553ba5f5688251f032eaccdd364b11b8", null ],
+    [ "ClientSocket", "classnet_1_1un_1_1stream_1_1_client_socket.html#af7c66a31e58b1643f5c7338f9c94dacd", null ],
+    [ "connect", "classnet_1_1un_1_1stream_1_1_client_socket.html#acffb7f619ec80b7d96c81a3551043e5d", null ],
+    [ "connect", "classnet_1_1un_1_1stream_1_1_client_socket.html#a8b3388fbe7d3b3c872517721fc4967b7", null ]
 ];

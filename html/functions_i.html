@@ -139,21 +139,20 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 </li>
 <li>initAcceptEvent()
 : <a class="el" href="classcore_1_1eventreceiver_1_1_init_accept_event_receiver.html#a2743bad3046c548a369116640e26a26b">core::eventreceiver::InitAcceptEventReceiver</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#a4532938b17ff0bf748417b377f9cbb8f">core::socket::stream::SocketAcceptor&lt; ConfigT, SocketConnectionT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#a390b647bcd8aba2ce6e3c9e21f065d89">core::socket::stream::SocketAcceptor&lt; ServerSocketT, SocketConnectionT &gt;</a>
 </li>
 <li>InitAcceptEventReceiver()
 : <a class="el" href="classcore_1_1eventreceiver_1_1_init_accept_event_receiver.html#abb43e1ce464cbf896b9fe6b06393b312">core::eventreceiver::InitAcceptEventReceiver</a>
 </li>
 <li>initConnectEvent()
 : <a class="el" href="classcore_1_1eventreceiver_1_1_init_connect_event_receiver.html#a1816477df62650ceb79f9ca76c007e90">core::eventreceiver::InitConnectEventReceiver</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a1a58e4b4dff1bb425f5084cbe8ae61bd">core::socket::stream::SocketConnector&lt; ConfigT, SocketConnectionT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad29519b6ac03ea6049d7ef0476ea244d">core::socket::stream::SocketConnector&lt; ClientSocketT, SocketConnectionT &gt;</a>
 </li>
 <li>InitConnectEventReceiver()
 : <a class="el" href="classcore_1_1eventreceiver_1_1_init_connect_event_receiver.html#a42ed6246a7611c3b587498ab632c1597">core::eventreceiver::InitConnectEventReceiver</a>
 </li>
 <li>initialized
 : <a class="el" href="classcore_1_1_event_loop.html#a04dad29d68971f27d77ba33e17795daf">core::EventLoop</a>
-, <a class="el" href="classexpress_1_1_web_app.html#a7c2ead7be74c0320677873b211851aec">express::WebApp</a>
 , <a class="el" href="classnet_1_1config_1_1_config_address.html#ac76b81b31f039b32b359a1cf876a2ef2">net::config::ConfigAddress&lt; SocketAddressT &gt;</a>
 </li>
 <li>initialTimeout
@@ -179,11 +178,12 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 : <a class="el" href="struct_c_l_i_1_1_config_item.html#a201384703e6509d14bc28de3ef2a2cbc">CLI::ConfigItem</a>
 </li>
 <li>insert()
-: <a class="el" href="classcore_1_1_event_multiplexer_1_1_event_queue.html#aa2238c4397e9b332a5e854f9ec8ea38c">core::EventMultiplexer::EventQueue</a>
+: <a class="el" href="classcore_1_1_event_multiplexer_1_1_event_queue.html#a009075f2f16a78d3bf8d9e3a20226336">core::EventMultiplexer::EventQueue</a>
 , <a class="el" href="classcore_1_1_timer_event_publisher.html#a09059a68bed567c951c864ad95c7c421">core::TimerEventPublisher</a>
 </li>
 <li>instance()
 : <a class="el" href="classcore_1_1_event_loop.html#a413d227511f68c2c9939719bd2590794">core::EventLoop</a>
+, <a class="el" href="classexpress_1_1middleware_1_1_basic_authentication.html#a8cd93f5ab0744e5deae89aac3709ee42">express::middleware::BasicAuthentication</a>
 , <a class="el" href="classexpress_1_1middleware_1_1_json_middleware.html#a73e35bc04d34336b0c4f7db04e5c03cc">express::middleware::JsonMiddleware</a>
 , <a class="el" href="classexpress_1_1middleware_1_1_static_middleware.html#abf7aad109677706e3b41004be8ac2f53">express::middleware::StaticMiddleware</a>
 , <a class="el" href="classexpress_1_1middleware_1_1_v_host.html#aedfd77e91aabab72a4b6bf19c9047876">express::middleware::VHost</a>
@@ -203,7 +203,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 : <a class="el" href="classcore_1_1timer_1_1_timer.html#a19f2c54de1e85a74dd9e76ab4d30b008">core::timer::Timer</a>
 </li>
 <li>IntervalTimerStopable()
-: <a class="el" href="classcore_1_1timer_1_1_interval_timer_stopable.html#a735c58171549c6457f23e3ffa2eef7d0">core::timer::IntervalTimerStopable</a>
+: <a class="el" href="classcore_1_1timer_1_1_interval_timer_stopable.html#a440eff104d7468a2069d4657a56baf71">core::timer::IntervalTimerStopable</a>
 </li>
 <li>InvalidError()
 : <a class="el" href="class_c_l_i_1_1_invalid_error.html#a135d78ce000a6672f5d55095ef854d8a">CLI::InvalidError</a>
@@ -234,10 +234,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 </li>
 <li>isSuspended()
 : <a class="el" href="classcore_1_1_descriptor_event_receiver.html#ac80fc901f941c059a6ebdb28147b25a2">core::DescriptorEventReceiver</a>
-</li>
-<li>isToBeContinued()
-: <a class="el" href="classcore_1_1_descriptor_event_receiver.html#a6c6b57a0f6602ba33cd396cdb4efa08d">core::DescriptorEventReceiver</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a88f1e323c2d4ad213dfbd87a51e4e134">core::socket::stream::SocketReader&lt; SocketT &gt;</a>
+, <a class="el" href="classcore_1_1file_1_1_file_reader.html#af5b1778d5de8b3bb7c6023d2436e9904">core::file::FileReader</a>
 </li>
 <li>items
 : <a class="el" href="class_c_l_i_1_1_config.html#a44be58c62906c58a118d8a3bf0f2a312">CLI::Config</a>

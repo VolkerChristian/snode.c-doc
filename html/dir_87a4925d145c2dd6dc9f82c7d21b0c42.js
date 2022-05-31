@@ -22,7 +22,7 @@ var dir_87a4925d145c2dd6dc9f82c7d21b0c42 =
     ] ],
     [ "ConfigLegacy.cpp", "_config_legacy_8cpp.html", null ],
     [ "ConfigLegacy.h", "_config_legacy_8h.html", [
-      [ "ConfigLegacy", "classnet_1_1config_1_1_config_legacy.html", "classnet_1_1config_1_1_config_legacy" ]
+      [ "ConfigLegacy", "classnet_1_1config_1_1_config_legacy.html", null ]
     ] ],
     [ "ConfigListen.cpp", "_config_listen_8cpp.html", "_config_listen_8cpp" ],
     [ "ConfigListen.h", "_config_listen_8h.html", [

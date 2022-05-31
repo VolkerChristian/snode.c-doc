@@ -70,9 +70,9 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classnet_1_1rf_1_1config_1_1_config_address.html#aa4704c5a9377408a91d29b5b716a99ec" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="14.5,-798.5 14.5,-828.5 172.5,-828.5 172.5,-798.5 14.5,-798.5"/>
-<text text-anchor="start" x="22.5" y="-816.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::rf::config::ConfigAddress</text>
+<g id="a_node5"><a xlink:href="classnet_1_1rc_1_1config_1_1_config_address.html#aadc2746b948d83489a866a220521935c" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="13.5,-798.5 13.5,-828.5 173.5,-828.5 173.5,-798.5 13.5,-798.5"/>
+<text text-anchor="start" x="21.5" y="-816.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::rc::config::ConfigAddress</text>
 <text text-anchor="middle" x="93.5" y="-805.5" font-family="Helvetica,sans-Serif" font-size="10.00">::ConfigAddress</text>
 </a>
 </g>
@@ -80,7 +80,7 @@
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M285.95,-524.94C282.2,-581.29 265.08,-717.3 187,-789.5 182.74,-793.44 177.91,-796.76 172.75,-799.54"/>
+<path fill="none" stroke="midnightblue" d="M285.95,-524.94C282.2,-581.29 265.08,-717.3 187,-789.5 182.98,-793.22 178.46,-796.37 173.63,-799.06"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="289.45,-524.96 286.53,-514.78 282.46,-524.56 289.45,-524.96"/>
 </g>
 <!-- Node6 -->
@@ -153,10 +153,10 @@
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="classnet_1_1rf_1_1stream_1_1config_1_1_config_client_socket.html#a8c802cd0db29ed584a40255fe99b1102" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="32.5,-509 32.5,-550 154.5,-550 154.5,-509 32.5,-509"/>
-<text text-anchor="start" x="40.5" y="-538" font-family="Helvetica,sans-Serif" font-size="10.00">net::rf::stream::config</text>
-<text text-anchor="start" x="40.5" y="-527" font-family="Helvetica,sans-Serif" font-size="10.00">::ConfigClientSocket::</text>
+<g id="a_node10"><a xlink:href="classnet_1_1rc_1_1stream_1_1config_1_1_config_client_socket.html#a7448755f9a24acc78977967797e8da1b" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="31.5,-509 31.5,-550 155.5,-550 155.5,-509 31.5,-509"/>
+<text text-anchor="start" x="39.5" y="-538" font-family="Helvetica,sans-Serif" font-size="10.00">net::rc::stream::config</text>
+<text text-anchor="start" x="39.5" y="-527" font-family="Helvetica,sans-Serif" font-size="10.00">::ConfigClientSocket::</text>
 <text text-anchor="middle" x="93.5" y="-516" font-family="Helvetica,sans-Serif" font-size="10.00">ConfigClientSocket</text>
 </a>
 </g>
@@ -164,7 +164,7 @@
 <!-- Node1&#45;&gt;Node10 -->
 <g id="edge9" class="edge">
 <title>Node1&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M212.96,-511.04C193.7,-514.04 173.19,-517.24 154.74,-520.11"/>
+<path fill="none" stroke="midnightblue" d="M212.85,-511.06C193.96,-514 173.87,-517.13 155.71,-519.96"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="213.56,-514.49 222.9,-509.49 212.48,-507.57 213.56,-514.49"/>
 </g>
 <!-- Node11 -->
@@ -270,9 +270,9 @@
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="classnet_1_1rf_1_1stream_1_1config_1_1_config_server_socket.html#aedd28b1586c02830e2f83e56603a325a" target="_top" xlink:title=" ">
+<g id="a_node17"><a xlink:href="classnet_1_1rc_1_1stream_1_1config_1_1_config_server_socket.html#a9d8c83ac1fed5344bd6b8db8344d75e0" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="31.5,-110 31.5,-151 155.5,-151 155.5,-110 31.5,-110"/>
-<text text-anchor="start" x="39.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">net::rf::stream::config</text>
+<text text-anchor="start" x="39.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">net::rc::stream::config</text>
 <text text-anchor="start" x="39.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00">::ConfigServerSocket::</text>
 <text text-anchor="middle" x="93.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">ConfigServerSocket</text>
 </a>

@@ -1,0 +1,12 @@
+var classdatabase_1_1mariadb_1_1_maria_d_b_client_a_sync_a_p_i =
+[
+    [ "~MariaDBClientASyncAPI", "classdatabase_1_1mariadb_1_1_maria_d_b_client_a_sync_a_p_i.html#abe6688d3e81bc66e9513048aed30ad4b", null ],
+    [ "commit", "classdatabase_1_1mariadb_1_1_maria_d_b_client_a_sync_a_p_i.html#a0875ac112302f808efd39332f5310a6e", null ],
+    [ "endTransactions", "classdatabase_1_1mariadb_1_1_maria_d_b_client_a_sync_a_p_i.html#aec704943608dfc06d29971a3b77ddf40", null ],
+    [ "exec", "classdatabase_1_1mariadb_1_1_maria_d_b_client_a_sync_a_p_i.html#ae48fdd9303c37937eb76d78030ef2964", null ],
+    [ "execute_async", "classdatabase_1_1mariadb_1_1_maria_d_b_client_a_sync_a_p_i.html#adc4a055926fa83a31b5b5f88e3741e7d", null ],
+    [ "query", "classdatabase_1_1mariadb_1_1_maria_d_b_client_a_sync_a_p_i.html#afeb3104403ea3ad19694b6ef7da49553", null ],
+    [ "rollback", "classdatabase_1_1mariadb_1_1_maria_d_b_client_a_sync_a_p_i.html#adbe8b851b1e91bb9a6820a61f7b5e486", null ],
+    [ "startTransactions", "classdatabase_1_1mariadb_1_1_maria_d_b_client_a_sync_a_p_i.html#a14b583b9791f7fd1616ab88a25898714", null ],
+    [ "lastResult", "classdatabase_1_1mariadb_1_1_maria_d_b_client_a_sync_a_p_i.html#a9f31bc66d5e5b49612142437e8a6a351", null ]
+];

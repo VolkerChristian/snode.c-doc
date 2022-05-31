@@ -152,15 +152,13 @@ var annotated_dup =
             [ "TLSShutdown", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html", "classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown" ]
           ] ],
           [ "SocketAcceptor", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", "classcore_1_1socket_1_1stream_1_1_socket_acceptor" ],
-          [ "SocketConnector", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", "classcore_1_1socket_1_1stream_1_1_socket_connector" ],
           [ "SocketClient", "classcore_1_1socket_1_1stream_1_1_socket_client.html", "classcore_1_1socket_1_1stream_1_1_socket_client" ],
           [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1_socket_connection.html", "classcore_1_1socket_1_1stream_1_1_socket_connection" ],
+          [ "SocketConnector", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", "classcore_1_1socket_1_1stream_1_1_socket_connector" ],
           [ "SocketReader", "classcore_1_1socket_1_1stream_1_1_socket_reader.html", "classcore_1_1socket_1_1stream_1_1_socket_reader" ],
           [ "SocketServer", "classcore_1_1socket_1_1stream_1_1_socket_server.html", "classcore_1_1socket_1_1stream_1_1_socket_server" ],
           [ "SocketWriter", "classcore_1_1socket_1_1stream_1_1_socket_writer.html", "classcore_1_1socket_1_1stream_1_1_socket_writer" ]
         ] ],
-        [ "Socket", "classcore_1_1socket_1_1_socket.html", "classcore_1_1socket_1_1_socket" ],
-        [ "SocketAddress", "classcore_1_1socket_1_1_socket_address.html", "classcore_1_1socket_1_1_socket_address" ],
         [ "SocketConnection", "classcore_1_1socket_1_1_socket_connection.html", "classcore_1_1socket_1_1_socket_connection" ],
         [ "SocketContext", "classcore_1_1socket_1_1_socket_context.html", "classcore_1_1socket_1_1_socket_context" ],
         [ "SocketContextFactory", "classcore_1_1socket_1_1_socket_context_factory.html", "classcore_1_1socket_1_1_socket_context_factory" ]
@@ -185,21 +183,55 @@ var annotated_dup =
       [ "TimerEventPublisher", "classcore_1_1_timer_event_publisher.html", "classcore_1_1_timer_event_publisher" ],
       [ "TimerEventReceiver", "classcore_1_1_timer_event_receiver.html", "classcore_1_1_timer_event_receiver" ]
     ] ],
+    [ "database", "namespacedatabase.html", [
+      [ "mariadb", "namespacedatabase_1_1mariadb.html", [
+        [ "commands", "namespacedatabase_1_1mariadb_1_1commands.html", [
+          [ "async", "namespacedatabase_1_1mariadb_1_1commands_1_1async.html", [
+            [ "MariaDBAutoCommitCommand", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_auto_commit_command.html", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_auto_commit_command" ],
+            [ "MariaDBCommitCommand", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_commit_command.html", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_commit_command" ],
+            [ "MariaDBConnectCommand", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_connect_command.html", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_connect_command" ],
+            [ "MariaDBExecCommand", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_exec_command.html", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_exec_command" ],
+            [ "MariaDBFetchRowCommand", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_fetch_row_command.html", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_fetch_row_command" ],
+            [ "MariaDBFreeResultCommand", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_free_result_command.html", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_free_result_command" ],
+            [ "MariaDBQueryCommand", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_query_command.html", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_query_command" ],
+            [ "MariaDBRollbackCommand", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_rollback_command.html", "classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_rollback_command" ]
+          ] ],
+          [ "sync", "namespacedatabase_1_1mariadb_1_1commands_1_1sync.html", [
+            [ "MariaDBAffectedRowsCommand", "classdatabase_1_1mariadb_1_1commands_1_1sync_1_1_maria_d_b_affected_rows_command.html", "classdatabase_1_1mariadb_1_1commands_1_1sync_1_1_maria_d_b_affected_rows_command" ],
+            [ "MariaDBFieldCountCommand", "classdatabase_1_1mariadb_1_1commands_1_1sync_1_1_maria_d_b_field_count_command.html", "classdatabase_1_1mariadb_1_1commands_1_1sync_1_1_maria_d_b_field_count_command" ],
+            [ "MariaDBUseResultCommand", "classdatabase_1_1mariadb_1_1commands_1_1sync_1_1_maria_d_b_use_result_command.html", "classdatabase_1_1mariadb_1_1commands_1_1sync_1_1_maria_d_b_use_result_command" ]
+          ] ]
+        ] ],
+        [ "MariaDBClient", "classdatabase_1_1mariadb_1_1_maria_d_b_client.html", "classdatabase_1_1mariadb_1_1_maria_d_b_client" ],
+        [ "MariaDBClientASyncAPI", "classdatabase_1_1mariadb_1_1_maria_d_b_client_a_sync_a_p_i.html", "classdatabase_1_1mariadb_1_1_maria_d_b_client_a_sync_a_p_i" ],
+        [ "MariaDBClientSyncAPI", "classdatabase_1_1mariadb_1_1_maria_d_b_client_sync_a_p_i.html", "classdatabase_1_1mariadb_1_1_maria_d_b_client_sync_a_p_i" ],
+        [ "MariaDBCommand", "classdatabase_1_1mariadb_1_1_maria_d_b_command.html", "classdatabase_1_1mariadb_1_1_maria_d_b_command" ],
+        [ "MariaDBCommandASync", "classdatabase_1_1mariadb_1_1_maria_d_b_command_a_sync.html", "classdatabase_1_1mariadb_1_1_maria_d_b_command_a_sync" ],
+        [ "MariaDBCommandSequence", "classdatabase_1_1mariadb_1_1_maria_d_b_command_sequence.html", "classdatabase_1_1mariadb_1_1_maria_d_b_command_sequence" ],
+        [ "MariaDBCommandSync", "classdatabase_1_1mariadb_1_1_maria_d_b_command_sync.html", "classdatabase_1_1mariadb_1_1_maria_d_b_command_sync" ],
+        [ "MariaDBCommandStartEvent", "classdatabase_1_1mariadb_1_1_maria_d_b_command_start_event.html", "classdatabase_1_1mariadb_1_1_maria_d_b_command_start_event" ],
+        [ "MariaDBConnection", "classdatabase_1_1mariadb_1_1_maria_d_b_connection.html", "classdatabase_1_1mariadb_1_1_maria_d_b_connection" ],
+        [ "MariaDBConnectionDetails", "structdatabase_1_1mariadb_1_1_maria_d_b_connection_details.html", "structdatabase_1_1mariadb_1_1_maria_d_b_connection_details" ]
+      ] ]
+    ] ],
     [ "express", "namespaceexpress.html", [
+      [ "dispatcher", "namespaceexpress_1_1dispatcher.html", [
+        [ "ApplicationDispatcher", "classexpress_1_1dispatcher_1_1_application_dispatcher.html", "classexpress_1_1dispatcher_1_1_application_dispatcher" ],
+        [ "Dispatcher", "classexpress_1_1dispatcher_1_1_dispatcher.html", "classexpress_1_1dispatcher_1_1_dispatcher" ],
+        [ "MiddlewareDispatcher", "classexpress_1_1dispatcher_1_1_middleware_dispatcher.html", "classexpress_1_1dispatcher_1_1_middleware_dispatcher" ],
+        [ "MountPoint", "structexpress_1_1dispatcher_1_1_mount_point.html", "structexpress_1_1dispatcher_1_1_mount_point" ],
+        [ "Route", "classexpress_1_1dispatcher_1_1_route.html", "classexpress_1_1dispatcher_1_1_route" ],
+        [ "RouterDispatcher", "classexpress_1_1dispatcher_1_1_router_dispatcher.html", "classexpress_1_1dispatcher_1_1_router_dispatcher" ],
+        [ "State", "classexpress_1_1dispatcher_1_1_state.html", "classexpress_1_1dispatcher_1_1_state" ]
+      ] ],
       [ "middleware", "namespaceexpress_1_1middleware.html", [
+        [ "BasicAuthentication", "classexpress_1_1middleware_1_1_basic_authentication.html", "classexpress_1_1middleware_1_1_basic_authentication" ],
         [ "JsonMiddleware", "classexpress_1_1middleware_1_1_json_middleware.html", "classexpress_1_1middleware_1_1_json_middleware" ],
         [ "StaticMiddleware", "classexpress_1_1middleware_1_1_static_middleware.html", "classexpress_1_1middleware_1_1_static_middleware" ],
         [ "VHost", "classexpress_1_1middleware_1_1_v_host.html", "classexpress_1_1middleware_1_1_v_host" ]
       ] ],
       [ "Request", "classexpress_1_1_request.html", "classexpress_1_1_request" ],
       [ "Response", "classexpress_1_1_response.html", "classexpress_1_1_response" ],
-      [ "MountPoint", "structexpress_1_1_mount_point.html", "structexpress_1_1_mount_point" ],
-      [ "Route", "classexpress_1_1_route.html", "classexpress_1_1_route" ],
-      [ "MiddlewareDispatcher", "classexpress_1_1_middleware_dispatcher.html", "classexpress_1_1_middleware_dispatcher" ],
-      [ "ApplicationDispatcher", "classexpress_1_1_application_dispatcher.html", "classexpress_1_1_application_dispatcher" ],
-      [ "State", "classexpress_1_1_state.html", "classexpress_1_1_state" ],
-      [ "Dispatcher", "classexpress_1_1_dispatcher.html", "classexpress_1_1_dispatcher" ],
-      [ "RouterDispatcher", "classexpress_1_1_router_dispatcher.html", "classexpress_1_1_router_dispatcher" ],
       [ "Router", "classexpress_1_1_router.html", "classexpress_1_1_router" ],
       [ "WebApp", "classexpress_1_1_web_app.html", "classexpress_1_1_web_app" ],
       [ "WebAppT", "classexpress_1_1_web_app_t.html", "classexpress_1_1_web_app_t" ]
@@ -214,7 +246,7 @@ var annotated_dup =
         [ "ConfigAddressRemote", "classnet_1_1config_1_1_config_address_remote.html", "classnet_1_1config_1_1_config_address_remote" ],
         [ "ConfigBase", "classnet_1_1config_1_1_config_base.html", "classnet_1_1config_1_1_config_base" ],
         [ "ConfigConnection", "classnet_1_1config_1_1_config_connection.html", "classnet_1_1config_1_1_config_connection" ],
-        [ "ConfigLegacy", "classnet_1_1config_1_1_config_legacy.html", "classnet_1_1config_1_1_config_legacy" ],
+        [ "ConfigLegacy", "classnet_1_1config_1_1_config_legacy.html", null ],
         [ "ConfigListen", "classnet_1_1config_1_1_config_listen.html", "classnet_1_1config_1_1_config_listen" ],
         [ "ConfigTls", "classnet_1_1config_1_1_config_tls.html", "classnet_1_1config_1_1_config_tls" ]
       ] ],
@@ -302,33 +334,33 @@ var annotated_dup =
         [ "bad_bdaddress", "classnet_1_1l2_1_1bad__bdaddress.html", "classnet_1_1l2_1_1bad__bdaddress" ],
         [ "SocketAddress", "classnet_1_1l2_1_1_socket_address.html", "classnet_1_1l2_1_1_socket_address" ]
       ] ],
-      [ "rf", "namespacenet_1_1rf.html", [
-        [ "config", "namespacenet_1_1rf_1_1config.html", [
-          [ "ConfigAddress", "classnet_1_1rf_1_1config_1_1_config_address.html", "classnet_1_1rf_1_1config_1_1_config_address" ]
+      [ "rc", "namespacenet_1_1rc.html", [
+        [ "config", "namespacenet_1_1rc_1_1config.html", [
+          [ "ConfigAddress", "classnet_1_1rc_1_1config_1_1_config_address.html", "classnet_1_1rc_1_1config_1_1_config_address" ]
         ] ],
-        [ "stream", "namespacenet_1_1rf_1_1stream.html", [
-          [ "config", "namespacenet_1_1rf_1_1stream_1_1config.html", [
-            [ "ConfigClientSocket", "classnet_1_1rf_1_1stream_1_1config_1_1_config_client_socket.html", "classnet_1_1rf_1_1stream_1_1config_1_1_config_client_socket" ],
-            [ "ConfigServerSocket", "classnet_1_1rf_1_1stream_1_1config_1_1_config_server_socket.html", "classnet_1_1rf_1_1stream_1_1config_1_1_config_server_socket" ]
+        [ "stream", "namespacenet_1_1rc_1_1stream.html", [
+          [ "config", "namespacenet_1_1rc_1_1stream_1_1config.html", [
+            [ "ConfigClientSocket", "classnet_1_1rc_1_1stream_1_1config_1_1_config_client_socket.html", "classnet_1_1rc_1_1stream_1_1config_1_1_config_client_socket" ],
+            [ "ConfigServerSocket", "classnet_1_1rc_1_1stream_1_1config_1_1_config_server_socket.html", "classnet_1_1rc_1_1stream_1_1config_1_1_config_server_socket" ]
           ] ],
-          [ "legacy", "namespacenet_1_1rf_1_1stream_1_1legacy.html", [
-            [ "config", "namespacenet_1_1rf_1_1stream_1_1legacy_1_1config.html", [
-              [ "ConfigSocketClient", "classnet_1_1rf_1_1stream_1_1legacy_1_1config_1_1_config_socket_client.html", "classnet_1_1rf_1_1stream_1_1legacy_1_1config_1_1_config_socket_client" ],
-              [ "ConfigSocketServer", "classnet_1_1rf_1_1stream_1_1legacy_1_1config_1_1_config_socket_server.html", "classnet_1_1rf_1_1stream_1_1legacy_1_1config_1_1_config_socket_server" ]
+          [ "legacy", "namespacenet_1_1rc_1_1stream_1_1legacy.html", [
+            [ "config", "namespacenet_1_1rc_1_1stream_1_1legacy_1_1config.html", [
+              [ "ConfigSocketClient", "classnet_1_1rc_1_1stream_1_1legacy_1_1config_1_1_config_socket_client.html", "classnet_1_1rc_1_1stream_1_1legacy_1_1config_1_1_config_socket_client" ],
+              [ "ConfigSocketServer", "classnet_1_1rc_1_1stream_1_1legacy_1_1config_1_1_config_socket_server.html", "classnet_1_1rc_1_1stream_1_1legacy_1_1config_1_1_config_socket_server" ]
             ] ]
           ] ],
-          [ "tls", "namespacenet_1_1rf_1_1stream_1_1tls.html", [
-            [ "config", "namespacenet_1_1rf_1_1stream_1_1tls_1_1config.html", [
-              [ "ConfigSocketClient", "classnet_1_1rf_1_1stream_1_1tls_1_1config_1_1_config_socket_client.html", "classnet_1_1rf_1_1stream_1_1tls_1_1config_1_1_config_socket_client" ],
-              [ "ConfigSocketServer", "classnet_1_1rf_1_1stream_1_1tls_1_1config_1_1_config_socket_server.html", "classnet_1_1rf_1_1stream_1_1tls_1_1config_1_1_config_socket_server" ]
+          [ "tls", "namespacenet_1_1rc_1_1stream_1_1tls.html", [
+            [ "config", "namespacenet_1_1rc_1_1stream_1_1tls_1_1config.html", [
+              [ "ConfigSocketClient", "classnet_1_1rc_1_1stream_1_1tls_1_1config_1_1_config_socket_client.html", "classnet_1_1rc_1_1stream_1_1tls_1_1config_1_1_config_socket_client" ],
+              [ "ConfigSocketServer", "classnet_1_1rc_1_1stream_1_1tls_1_1config_1_1_config_socket_server.html", "classnet_1_1rc_1_1stream_1_1tls_1_1config_1_1_config_socket_server" ]
             ] ]
           ] ],
-          [ "ClientSocket", "classnet_1_1rf_1_1stream_1_1_client_socket.html", "classnet_1_1rf_1_1stream_1_1_client_socket" ],
-          [ "ServerSocket", "classnet_1_1rf_1_1stream_1_1_server_socket.html", "classnet_1_1rf_1_1stream_1_1_server_socket" ],
-          [ "Socket", "classnet_1_1rf_1_1stream_1_1_socket.html", "classnet_1_1rf_1_1stream_1_1_socket" ]
+          [ "ClientSocket", "classnet_1_1rc_1_1stream_1_1_client_socket.html", "classnet_1_1rc_1_1stream_1_1_client_socket" ],
+          [ "ServerSocket", "classnet_1_1rc_1_1stream_1_1_server_socket.html", "classnet_1_1rc_1_1stream_1_1_server_socket" ],
+          [ "Socket", "classnet_1_1rc_1_1stream_1_1_socket.html", "classnet_1_1rc_1_1stream_1_1_socket" ]
         ] ],
-        [ "bad_bdaddress", "classnet_1_1rf_1_1bad__bdaddress.html", "classnet_1_1rf_1_1bad__bdaddress" ],
-        [ "SocketAddress", "classnet_1_1rf_1_1_socket_address.html", "classnet_1_1rf_1_1_socket_address" ]
+        [ "bad_bdaddress", "classnet_1_1rc_1_1bad__bdaddress.html", "classnet_1_1rc_1_1bad__bdaddress" ],
+        [ "SocketAddress", "classnet_1_1rc_1_1_socket_address.html", "classnet_1_1rc_1_1_socket_address" ]
       ] ],
       [ "un", "namespacenet_1_1un.html", [
         [ "config", "namespacenet_1_1un_1_1config.html", [
@@ -359,7 +391,9 @@ var annotated_dup =
         [ "SocketAddress", "classnet_1_1un_1_1_socket_address.html", "classnet_1_1un_1_1_socket_address" ]
       ] ],
       [ "ClientSocket", "classnet_1_1_client_socket.html", "classnet_1_1_client_socket" ],
-      [ "ServerSocket", "classnet_1_1_server_socket.html", "classnet_1_1_server_socket" ]
+      [ "ServerSocket", "classnet_1_1_server_socket.html", "classnet_1_1_server_socket" ],
+      [ "Socket", "classnet_1_1_socket.html", "classnet_1_1_socket" ],
+      [ "SocketAddress", "classnet_1_1_socket_address.html", "classnet_1_1_socket_address" ]
     ] ],
     [ "utils", "namespaceutils.html", [
       [ "AttributeProxy", "classutils_1_1_attribute_proxy.html", "classutils_1_1_attribute_proxy" ],
@@ -390,9 +424,9 @@ var annotated_dup =
             [ "Client", "classweb_1_1http_1_1legacy_1_1in6_1_1_client.html", "classweb_1_1http_1_1legacy_1_1in6_1_1_client" ],
             [ "Server", "classweb_1_1http_1_1legacy_1_1in6_1_1_server.html", "classweb_1_1http_1_1legacy_1_1in6_1_1_server" ]
           ] ],
-          [ "rf", "namespaceweb_1_1http_1_1legacy_1_1rf.html", [
-            [ "Client", "classweb_1_1http_1_1legacy_1_1rf_1_1_client.html", "classweb_1_1http_1_1legacy_1_1rf_1_1_client" ],
-            [ "Server", "classweb_1_1http_1_1legacy_1_1rf_1_1_server.html", "classweb_1_1http_1_1legacy_1_1rf_1_1_server" ]
+          [ "rc", "namespaceweb_1_1http_1_1legacy_1_1rc.html", [
+            [ "Client", "classweb_1_1http_1_1legacy_1_1rc_1_1_client.html", "classweb_1_1http_1_1legacy_1_1rc_1_1_client" ],
+            [ "Server", "classweb_1_1http_1_1legacy_1_1rc_1_1_server.html", "classweb_1_1http_1_1legacy_1_1rc_1_1_server" ]
           ] ],
           [ "un", "namespaceweb_1_1http_1_1legacy_1_1un.html", [
             [ "Client", "classweb_1_1http_1_1legacy_1_1un_1_1_client.html", "classweb_1_1http_1_1legacy_1_1un_1_1_client" ],
@@ -401,6 +435,7 @@ var annotated_dup =
         ] ],
         [ "server", "namespaceweb_1_1http_1_1server.html", [
           [ "Request", "classweb_1_1http_1_1server_1_1_request.html", "classweb_1_1http_1_1server_1_1_request" ],
+          [ "RequestContextBase", "classweb_1_1http_1_1server_1_1_request_context_base.html", "classweb_1_1http_1_1server_1_1_request_context_base" ],
           [ "RequestParser", "classweb_1_1http_1_1server_1_1_request_parser.html", "classweb_1_1http_1_1server_1_1_request_parser" ],
           [ "Response", "classweb_1_1http_1_1server_1_1_response.html", "classweb_1_1http_1_1server_1_1_response" ],
           [ "Server", "classweb_1_1http_1_1server_1_1_server.html", "classweb_1_1http_1_1server_1_1_server" ],
@@ -419,9 +454,9 @@ var annotated_dup =
             [ "Client", "classweb_1_1http_1_1tls_1_1in6_1_1_client.html", "classweb_1_1http_1_1tls_1_1in6_1_1_client" ],
             [ "Server", "classweb_1_1http_1_1tls_1_1in6_1_1_server.html", "classweb_1_1http_1_1tls_1_1in6_1_1_server" ]
           ] ],
-          [ "rf", "namespaceweb_1_1http_1_1tls_1_1rf.html", [
-            [ "Client", "classweb_1_1http_1_1tls_1_1rf_1_1_client.html", "classweb_1_1http_1_1tls_1_1rf_1_1_client" ],
-            [ "Server", "classweb_1_1http_1_1tls_1_1rf_1_1_server.html", "classweb_1_1http_1_1tls_1_1rf_1_1_server" ]
+          [ "rc", "namespaceweb_1_1http_1_1tls_1_1rc.html", [
+            [ "Client", "classweb_1_1http_1_1tls_1_1rc_1_1_client.html", "classweb_1_1http_1_1tls_1_1rc_1_1_client" ],
+            [ "Server", "classweb_1_1http_1_1tls_1_1rc_1_1_server.html", "classweb_1_1http_1_1tls_1_1rc_1_1_server" ]
           ] ],
           [ "un", "namespaceweb_1_1http_1_1tls_1_1un.html", [
             [ "Client", "classweb_1_1http_1_1tls_1_1un_1_1_client.html", "classweb_1_1http_1_1tls_1_1un_1_1_client" ],

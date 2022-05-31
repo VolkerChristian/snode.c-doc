@@ -4,6 +4,10 @@ var dir_c3123cda3d7baceb26cb269eb745dcb2 =
     [ "Request.h", "web_2http_2server_2_request_8h.html", [
       [ "Request", "classweb_1_1http_1_1server_1_1_request.html", "classweb_1_1http_1_1server_1_1_request" ]
     ] ],
+    [ "RequestContextBase.cpp", "_request_context_base_8cpp.html", null ],
+    [ "RequestContextBase.h", "_request_context_base_8h.html", [
+      [ "RequestContextBase", "classweb_1_1http_1_1server_1_1_request_context_base.html", "classweb_1_1http_1_1server_1_1_request_context_base" ]
+    ] ],
     [ "RequestParser.cpp", "_request_parser_8cpp.html", null ],
     [ "RequestParser.h", "_request_parser_8h.html", [
       [ "RequestParser", "classweb_1_1http_1_1server_1_1_request_parser.html", "classweb_1_1http_1_1server_1_1_request_parser" ]

@@ -335,14 +335,15 @@ $(document).ready(function(){initNavTree('_mime_types_8cpp_source.html',''); ini
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        }</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="preprocessor">#ifdef HAS_LIBMAGIC</span></div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (magic != <span class="keyword">nullptr</span>) {</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;            type = magic_file(MimeTypes::magic, file.c_str());</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        }</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160; </div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        <span class="keywordflow">return</span> type;</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    }</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160; </div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;} <span class="comment">// namespace web::http</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;            <span class="keyword">const</span> <span class="keywordtype">char</span>* magicType = magic_file(MimeTypes::magic, file.c_str());</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            type = magicType != <span class="keyword">nullptr</span> ? magicType : std::string();</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        }</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160; </div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        <span class="keywordflow">return</span> !type.empty() ? type : <span class="stringliteral">&quot;application/octet-stream&quot;</span>;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    }</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160; </div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;} <span class="comment">// namespace web::http</span></div>
 <div class="ttc" id="a_logger_8h_html"><div class="ttname"><a href="_logger_8h.html">Logger.h</a></div></div>
 <div class="ttc" id="a_mime_types_8h_html"><div class="ttname"><a href="_mime_types_8h.html">MimeTypes.h</a></div></div>
 <div class="ttc" id="aclassweb_1_1http_1_1_mime_types_html_a08aa7365e19c29f97369a3bedfcc3721"><div class="ttname"><a href="classweb_1_1http_1_1_mime_types.html#a08aa7365e19c29f97369a3bedfcc3721">web::http::MimeTypes::contentType</a></div><div class="ttdeci">static std::string contentType(const std::string &amp;file)</div><div class="ttdef"><b>Definition:</b> <a href="_mime_types_8cpp_source.html#l00241">MimeTypes.cpp:241</a></div></div>

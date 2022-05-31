@@ -5,7 +5,7 @@ var dir_9c021aeb423398f37667ef2f0c2938bc =
     [ "SocketAddress.cpp", "in_2_socket_address_8cpp.html", [
       [ "bad_hostname", "classnet_1_1in_1_1bad__hostname.html", "classnet_1_1in_1_1bad__hostname" ]
     ] ],
-    [ "SocketAddress.h", "net_2in_2_socket_address_8h.html", [
+    [ "SocketAddress.h", "in_2_socket_address_8h.html", [
       [ "SocketAddress", "classnet_1_1in_1_1_socket_address.html", "classnet_1_1in_1_1_socket_address" ]
     ] ]
 ];

@@ -121,14 +121,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aff55a38bab361651dfb46a9d39f0339b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab67d5775a12e241e7a56cd7edd400ff0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1poll_1_1_poll_fds_manager.html#ab67d5775a12e241e7a56cd7edd400ff0">muxOn</a> (<a class="el" href="classcore_1_1_descriptor_event_receiver.html">core::DescriptorEventReceiver</a> *eventReceiver, short event)</td></tr>
 <tr class="separator:ab67d5775a12e241e7a56cd7edd400ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad93d8f7aabc96dca412a871e198d641"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1poll_1_1_poll_fds_manager.html#aad93d8f7aabc96dca412a871e198d641">muxOff</a> (int fd, short event)</td></tr>
-<tr class="separator:aad93d8f7aabc96dca412a871e198d641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae413e3fb50460431a1d90805eb88705f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1poll_1_1_poll_fds_manager.html#ae413e3fb50460431a1d90805eb88705f">muxOff</a> (<a class="el" href="classcore_1_1_descriptor_event_receiver.html">core::DescriptorEventReceiver</a> *eventReceiver, short event)</td></tr>
+<tr class="separator:ae413e3fb50460431a1d90805eb88705f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a631f4b660fee73cfea65f898438788b0"><td class="memItemLeft" align="right" valign="top">pollfd *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1poll_1_1_poll_fds_manager.html#a631f4b660fee73cfea65f898438788b0">getEvents</a> ()</td></tr>
 <tr class="separator:a631f4b660fee73cfea65f898438788b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad9c4ea2a550848cca6efe67b4a5c02e"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; int, <a class="el" href="structcore_1_1poll_1_1_poll_fds_manager_1_1_poll_fd_index.html">PollFdIndex</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1poll_1_1_poll_fds_manager.html#aad9c4ea2a550848cca6efe67b4a5c02e">getPollFdIndices</a> () const</td></tr>
 <tr class="separator:aad9c4ea2a550848cca6efe67b4a5c02e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3df284c16d60ff77849732b0db96a97"><td class="memItemLeft" align="right" valign="top">nfds_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1poll_1_1_poll_fds_manager.html#af3df284c16d60ff77849732b0db96a97">getCurrentIndex</a> () const</td></tr>
-<tr class="separator:af3df284c16d60ff77849732b0db96a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0311600f42470cf1d8289bb4ba03373b"><td class="memItemLeft" align="right" valign="top">nfds_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1poll_1_1_poll_fds_manager.html#a0311600f42470cf1d8289bb4ba03373b">getCurrentSize</a> () const</td></tr>
+<tr class="separator:a0311600f42470cf1d8289bb4ba03373b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -190,15 +190,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00043">43</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                                   {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        pollfd pollFd;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        pollFd.fd = -1;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        pollFd.events = 0;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        pollFd.revents = 0;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.resize(1, pollFd);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.reserve(1);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.resize(1, {-1, 0, 0});</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.reserve(1);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1poll_1_1_poll_fds_manager_html_a331e3f141a2c7bd870d570a9142f6313"><div class="ttname"><a href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">core::poll::PollFdsManager::pollFdIndices</a></div><div class="ttdeci">std::unordered_map&lt; int, PollFdIndex &gt; pollFdIndices</div><div class="ttdef"><b>Definition:</b> <a href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00071">EventMultiplexer.h:71</a></div></div>
 <div class="ttc" id="aclasscore_1_1poll_1_1_poll_fds_manager_html_ac22e0205930490c6d6107d0c69d26c15"><div class="ttname"><a href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">core::poll::PollFdsManager::pollfds</a></div><div class="ttdeci">std::vector&lt; pollfd &gt; pollfds</div><div class="ttdef"><b>Definition:</b> <a href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00070">EventMultiplexer.h:70</a></div></div>
 </div><!-- fragment -->
@@ -230,27 +224,29 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00106">106</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                                  {</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        std::remove_if(<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.begin(), <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.end(), [](<span class="keyword">const</span> pollfd&amp; pollFd) -&gt; <span class="keywordtype">bool</span> {</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            return pollFd.fd &lt; 0;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        });</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.resize(<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.size() + 1, {-1, 0, 0});</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.reserve(<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.size() + 1);</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordflow">for</span> (uint32_t i = 0; i &lt; <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.size(); i++) {</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>[<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>[i].fd].index = i;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        }</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a23abb83c4a74cec2f16892351154f6d7">nextIndex</a> = <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.size();</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00101">101</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                                  {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="comment">// cppcheck-suppress ignoredReturnValue</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="comment">// cppcheck-suppress uselessCallsRemove</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        std::remove_if(<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.begin(), <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.end(), [](<span class="keyword">const</span> pollfd&amp; pollFd) -&gt; <span class="keywordtype">bool</span> {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            return pollFd.fd &lt; 0;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        });</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.resize(<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.size() + 1, {-1, 0, 0});</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.reserve(<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.size() + 1);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">for</span> (uint32_t i = 0; i &lt; <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.size(); i++) {</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>[<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>[i].fd].index = i;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        }</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a23abb83c4a74cec2f16892351154f6d7">nextIndex</a> = <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.size();</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1poll_1_1_poll_fds_manager_html_a23abb83c4a74cec2f16892351154f6d7"><div class="ttname"><a href="classcore_1_1poll_1_1_poll_fds_manager.html#a23abb83c4a74cec2f16892351154f6d7">core::poll::PollFdsManager::nextIndex</a></div><div class="ttdeci">nfds_t nextIndex</div><div class="ttdef"><b>Definition:</b> <a href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00067">EventMultiplexer.h:67</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00067">nextIndex</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00071">pollFdIndices</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00070">pollfds</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00078">muxDel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00072">muxDel()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -260,14 +256,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="af3df284c16d60ff77849732b0db96a97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3df284c16d60ff77849732b0db96a97">&#9670;&nbsp;</a></span>getCurrentIndex()</h2>
+<a id="a0311600f42470cf1d8289bb4ba03373b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0311600f42470cf1d8289bb4ba03373b">&#9670;&nbsp;</a></span>getCurrentSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">nfds_t core::poll::PollFdsManager::getCurrentIndex </td>
+          <td class="memname">nfds_t core::poll::PollFdsManager::getCurrentSize </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -275,18 +271,18 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00130">130</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                                                 {</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a23abb83c4a74cec2f16892351154f6d7">nextIndex</a>;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00127">127</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                                                {</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a23abb83c4a74cec2f16892351154f6d7">nextIndex</a>;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00067">nextIndex</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00140">core::poll::EventMultiplexer::multiplex()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00138">core::poll::EventMultiplexer::multiplex()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1poll_1_1_poll_fds_manager_af3df284c16d60ff77849732b0db96a97_icgraph.svg" width="455" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1poll_1_1_poll_fds_manager_a0311600f42470cf1d8289bb4ba03373b_icgraph.svg" width="455" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -307,18 +303,18 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00122">122</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                                      {</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.data();</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00119">119</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                                      {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.data();</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00070">pollfds</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_descriptor_event_publisher_8cpp_source.html#l00055">core::poll::DescriptorEventPublisher::dispatchActiveEvents()</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00140">core::poll::EventMultiplexer::multiplex()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00138">core::poll::EventMultiplexer::multiplex()</a>, and <a class="el" href="multiplexer_2poll_2_descriptor_event_publisher_8cpp_source.html#l00056">core::poll::DescriptorEventPublisher::publishActiveEvents()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1poll_1_1_poll_fds_manager_a631f4b660fee73cfea65f898438788b0_icgraph.svg" width="484" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1poll_1_1_poll_fds_manager_a631f4b660fee73cfea65f898438788b0_icgraph.svg" width="476" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -339,18 +335,18 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00126">126</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                                                                                                   {</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00123">123</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                                                                                                   {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00071">pollFdIndices</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_descriptor_event_publisher_8cpp_source.html#l00055">core::poll::DescriptorEventPublisher::dispatchActiveEvents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_descriptor_event_publisher_8cpp_source.html#l00056">core::poll::DescriptorEventPublisher::publishActiveEvents()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1poll_1_1_poll_fds_manager_aad9c4ea2a550848cca6efe67b4a5c02e_icgraph.svg" width="484" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1poll_1_1_poll_fds_manager_aad9c4ea2a550848cca6efe67b4a5c02e_icgraph.svg" width="476" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -382,35 +378,35 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00054">54</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                                                                       {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordtype">int</span> fd = eventReceiver-&gt;<a class="code" href="classcore_1_1_descriptor_event_receiver.html#a445606dc995a71972d83e7683ada144b">getRegisteredFd</a>();</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.contains(fd)) {</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>[<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a23abb83c4a74cec2f16892351154f6d7">nextIndex</a>].events = event;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>[<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a23abb83c4a74cec2f16892351154f6d7">nextIndex</a>].fd = fd;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>[fd].index = <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a23abb83c4a74cec2f16892351154f6d7">nextIndex</a>;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>[fd].events = event;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            ++<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a23abb83c4a74cec2f16892351154f6d7">nextIndex</a>;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a23abb83c4a74cec2f16892351154f6d7">nextIndex</a> == <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.size()) {</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.resize(<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.size() * 2, {-1, 0, 0});</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.reserve(<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.size());</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            }</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            PollFdIndex&amp; pollFdIndex = <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>[fd];</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>[pollFdIndex.index].events |= event;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            pollFdIndex.events |= event;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        }</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00048">48</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                                                                                       {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordtype">int</span> fd = eventReceiver-&gt;<a class="code" href="classcore_1_1_descriptor_event_receiver.html#a445606dc995a71972d83e7683ada144b">getRegisteredFd</a>();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.contains(fd)) {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>[<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a23abb83c4a74cec2f16892351154f6d7">nextIndex</a>].events = event;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>[<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a23abb83c4a74cec2f16892351154f6d7">nextIndex</a>].fd = fd;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>[fd].index = <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a23abb83c4a74cec2f16892351154f6d7">nextIndex</a>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>[fd].events = event;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            ++<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a23abb83c4a74cec2f16892351154f6d7">nextIndex</a>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a23abb83c4a74cec2f16892351154f6d7">nextIndex</a> == <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.size()) {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.resize(<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.size() * 2, {-1, 0, 0});</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.reserve(<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.size());</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            PollFdIndex&amp; pollFdIndex = <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>[fd];</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>[pollFdIndex.index].events |= event;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            pollFdIndex.events |= event;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1_descriptor_event_receiver_html_a445606dc995a71972d83e7683ada144b"><div class="ttname"><a href="classcore_1_1_descriptor_event_receiver.html#a445606dc995a71972d83e7683ada144b">core::DescriptorEventReceiver::getRegisteredFd</a></div><div class="ttdeci">int getRegisteredFd()</div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_event_receiver_8cpp_source.html#l00046">DescriptorEventReceiver.cpp:46</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00049">core::poll::PollFdsManager::PollFdIndex::events</a>, <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00046">core::DescriptorEventReceiver::getRegisteredFd()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00048">core::poll::PollFdsManager::PollFdIndex::index</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00067">nextIndex</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00071">pollFdIndices</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00070">pollfds</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_descriptor_event_publisher_8cpp_source.html#l00039">core::poll::DescriptorEventPublisher::muxAdd()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_descriptor_event_publisher_8cpp_source.html#l00040">core::poll::DescriptorEventPublisher::muxAdd()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -452,29 +448,29 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00078">78</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                                                   {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        std::unordered_map&lt;int, PollFdIndex&gt;::iterator itPollFdIndex = <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.find(fd);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        PollFdIndex&amp; pollFdIndex = itPollFdIndex-&gt;second;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>[pollFdIndex.index].events &amp;= <span class="keyword">static_cast&lt;</span><span class="keywordtype">short</span><span class="keyword">&gt;</span>(~event); <span class="comment">// tilde promotes to int</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        pollFdIndex.events &amp;= <span class="keyword">static_cast&lt;</span><span class="keywordtype">short</span><span class="keyword">&gt;</span>(~event);                <span class="comment">// tilde promotes to int</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">if</span> (pollFdIndex.events == 0) {</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>[pollFdIndex.index].fd = -1; <span class="comment">// Compress will keep track of that descriptor</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.erase(fd);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.size() &gt; (<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.size() * 2) + 1) {</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a95f52cc2e3e1810f3227345f89f155d7">compress</a>();</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            }</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        }</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1poll_1_1_poll_fds_manager_html_a95f52cc2e3e1810f3227345f89f155d7"><div class="ttname"><a href="classcore_1_1poll_1_1_poll_fds_manager.html#a95f52cc2e3e1810f3227345f89f155d7">core::poll::PollFdsManager::compress</a></div><div class="ttdeci">void compress()</div><div class="ttdef"><b>Definition:</b> <a href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00106">EventMultiplexer.cpp:106</a></div></div>
+<p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00072">72</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                                   {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        std::unordered_map&lt;int, PollFdIndex&gt;::iterator itPollFdIndex = <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.find(fd);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        PollFdIndex&amp; pollFdIndex = itPollFdIndex-&gt;second;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>[pollFdIndex.index].events &amp;= <span class="keyword">static_cast&lt;</span><span class="keywordtype">short</span><span class="keyword">&gt;</span>(~event); <span class="comment">// tilde promotes to int</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        pollFdIndex.events &amp;= <span class="keyword">static_cast&lt;</span><span class="keywordtype">short</span><span class="keyword">&gt;</span>(~event);                <span class="comment">// tilde promotes to int</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">if</span> (pollFdIndex.events == 0) {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>[pollFdIndex.index].fd = -1; <span class="comment">// Compress will keep track of that descriptor</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.erase(fd);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>.size() &gt; (<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.size() * 2) + 1) {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a95f52cc2e3e1810f3227345f89f155d7">compress</a>();</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1poll_1_1_poll_fds_manager_html_a95f52cc2e3e1810f3227345f89f155d7"><div class="ttname"><a href="classcore_1_1poll_1_1_poll_fds_manager.html#a95f52cc2e3e1810f3227345f89f155d7">core::poll::PollFdsManager::compress</a></div><div class="ttdeci">void compress()</div><div class="ttdef"><b>Definition:</b> <a href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00101">EventMultiplexer.cpp:101</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00106">compress()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00049">core::poll::PollFdsManager::PollFdIndex::events</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00048">core::poll::PollFdsManager::PollFdIndex::index</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00071">pollFdIndices</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00070">pollfds</a>.</p>
+<p class="reference">References <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00101">compress()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00049">core::poll::PollFdsManager::PollFdIndex::events</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00048">core::poll::PollFdsManager::PollFdIndex::index</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00071">pollFdIndices</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00070">pollfds</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_descriptor_event_publisher_8cpp_source.html#l00043">core::poll::DescriptorEventPublisher::muxDel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_descriptor_event_publisher_8cpp_source.html#l00044">core::poll::DescriptorEventPublisher::muxDel()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -490,8 +486,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aad93d8f7aabc96dca412a871e198d641"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad93d8f7aabc96dca412a871e198d641">&#9670;&nbsp;</a></span>muxOff()</h2>
+<a id="ae413e3fb50460431a1d90805eb88705f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae413e3fb50460431a1d90805eb88705f">&#9670;&nbsp;</a></span>muxOff()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -499,8 +495,8 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void core::poll::PollFdsManager::muxOff </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>fd</em>, </td>
+          <td class="paramtype"><a class="el" href="classcore_1_1_descriptor_event_receiver.html">core::DescriptorEventReceiver</a> *&#160;</td>
+          <td class="paramname"><em>eventReceiver</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -516,18 +512,25 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00102">102</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                                                   {</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>[<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.find(fd)-&gt;second.index].events &amp;= <span class="keyword">static_cast&lt;</span><span class="keywordtype">short</span><span class="keyword">&gt;</span>(~event); <span class="comment">// Tilde promotes to int</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00096">96</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                                                                   {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>[<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.find(eventReceiver-&gt;<a class="code" href="classcore_1_1_descriptor_event_receiver.html#a445606dc995a71972d83e7683ada144b">getRegisteredFd</a>())-&gt;second.index].events &amp;=</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <span class="keyword">static_cast&lt;</span><span class="keywordtype">short</span><span class="keyword">&gt;</span>(~event); <span class="comment">// Tilde promotes to int</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00071">pollFdIndices</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00070">pollfds</a>.</p>
+<p class="reference">References <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00046">core::DescriptorEventReceiver::getRegisteredFd()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00071">pollFdIndices</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00070">pollfds</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_descriptor_event_publisher_8cpp_source.html#l00051">core::poll::DescriptorEventPublisher::muxOff()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_descriptor_event_publisher_8cpp_source.html#l00052">core::poll::DescriptorEventPublisher::muxOff()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1poll_1_1_poll_fds_manager_ae413e3fb50460431a1d90805eb88705f_cgraph.svg" width="472" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1poll_1_1_poll_fds_manager_aad93d8f7aabc96dca412a871e198d641_icgraph.svg" width="448" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1poll_1_1_poll_fds_manager_ae413e3fb50460431a1d90805eb88705f_icgraph.svg" width="448" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -559,16 +562,16 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00096">96</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                                                                      {</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordtype">int</span> fd = eventReceiver-&gt;<a class="code" href="classcore_1_1_descriptor_event_receiver.html#a445606dc995a71972d83e7683ada144b">getRegisteredFd</a>();</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>[<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.find(fd)-&gt;second.index].events |= event;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00090">90</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                                                                                      {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordtype">int</span> fd = eventReceiver-&gt;<a class="code" href="classcore_1_1_descriptor_event_receiver.html#a445606dc995a71972d83e7683ada144b">getRegisteredFd</a>();</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#ac22e0205930490c6d6107d0c69d26c15">pollfds</a>[<a class="code" href="classcore_1_1poll_1_1_poll_fds_manager.html#a331e3f141a2c7bd870d570a9142f6313">pollFdIndices</a>.find(fd)-&gt;second.index].events |= event;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_descriptor_event_receiver_8cpp_source.html#l00046">core::DescriptorEventReceiver::getRegisteredFd()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00071">pollFdIndices</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00070">pollfds</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_descriptor_event_publisher_8cpp_source.html#l00047">core::poll::DescriptorEventPublisher::muxOn()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_descriptor_event_publisher_8cpp_source.html#l00048">core::poll::DescriptorEventPublisher::muxOn()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -607,7 +610,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00067">67</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html">EventMultiplexer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00106">compress()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00130">getCurrentIndex()</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00054">muxAdd()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00101">compress()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00127">getCurrentSize()</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00048">muxAdd()</a>.</p>
 
 </div>
 </div>
@@ -633,7 +636,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00071">71</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html">EventMultiplexer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00106">compress()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00126">getPollFdIndices()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00054">muxAdd()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00078">muxDel()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00102">muxOff()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00096">muxOn()</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00043">PollFdsManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00101">compress()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00123">getPollFdIndices()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00048">muxAdd()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00072">muxDel()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00096">muxOff()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00090">muxOn()</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00043">PollFdsManager()</a>.</p>
 
 </div>
 </div>
@@ -659,7 +662,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00070">70</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html">EventMultiplexer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00106">compress()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00122">getEvents()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00054">muxAdd()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00078">muxDel()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00102">muxOff()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00096">muxOn()</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00043">PollFdsManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00101">compress()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00119">getEvents()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00048">muxAdd()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00072">muxDel()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00096">muxOff()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00090">muxOn()</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00043">PollFdsManager()</a>.</p>
 
 </div>
 </div>
