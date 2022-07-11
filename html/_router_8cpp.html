@@ -89,14 +89,10 @@ $(document).ready(function(){initNavTree('_router_8cpp.html',''); initResizable(
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="_router_8h_source.html">express/Router.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_application_dispatcher_8h_source.html">express/dispatcher/ApplicationDispatcher.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_middleware_dispatcher_8h_source.html">express/dispatcher/MiddlewareDispatcher.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_route_8h_source.html">express/dispatcher/Route.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_router_dispatcher_8h_source.html">express/dispatcher/RouterDispatcher.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Router.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_router_8cpp__incl.svg" width="1148" height="380"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_router_8cpp__incl.svg" width="1131" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -138,8 +134,27 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_router_8cpp_source.html#l00057">57</a> of file <a class="el" href="_router_8cpp_source.html">Router.cpp</a>.</p>
+<b>Value:</b><div class="fragment"><div class="line">    Route&amp; Router::METHOD(<span class="keyword">const</span> Router&amp; router) {                                                                                          \</div>
+<div class="line">        return rootRoute-&gt;METHOD(*router.rootRoute.get());                                                                                 \</div>
+<div class="line">    }                                                                                                                                      \</div>
+<div class="line">    Route&amp; Router::METHOD(<span class="keyword">const</span> std::string&amp; relativeMountPath, <span class="keyword">const</span> Router&amp; router) {                                                    \</div>
+<div class="line">        return rootRoute-&gt;METHOD(relativeMountPath, *router.rootRoute.get());                                                              \</div>
+<div class="line">    }                                                                                                                                      \</div>
+<div class="line">    Route&amp; Router::METHOD(<span class="keyword">const</span> std::string&amp; relativeMountPath,                                                                            \</div>
+<div class="line">                          <span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(Request &amp; req, Response &amp; res, Next &amp; state)&gt;&amp; lambda) {                                \</div>
+<div class="line">        return rootRoute-&gt;METHOD(relativeMountPath, lambda);                                                                               \</div>
+<div class="line">    }                                                                                                                                      \</div>
+<div class="line">    Route&amp; Router::METHOD(<span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(Request &amp; req, Response &amp; res, Next &amp; state)&gt;&amp; lambda) {                                \</div>
+<div class="line">        return rootRoute-&gt;METHOD(lambda);                                                                                                  \</div>
+<div class="line">    }                                                                                                                                      \</div>
+<div class="line">    Route&amp; Router::METHOD(<span class="keyword">const</span> std::string&amp; relativeMountPath, <span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(Request &amp; req, Response &amp; res)&gt;&amp; lambda) {        \</div>
+<div class="line">        return rootRoute-&gt;METHOD(relativeMountPath, lambda);                                                                               \</div>
+<div class="line">    }                                                                                                                                      \</div>
+<div class="line">    Route&amp; Router::METHOD(<span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(Request &amp; req, Response &amp; res)&gt;&amp; lambda) {                                              \</div>
+<div class="line">        return rootRoute-&gt;METHOD(lambda);                                                                                                  \</div>
+<div class="line">    }</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="_router_8cpp_source.html#l00027">27</a> of file <a class="el" href="_router_8cpp_source.html">Router.cpp</a>.</p>
 
 </div>
 </div>

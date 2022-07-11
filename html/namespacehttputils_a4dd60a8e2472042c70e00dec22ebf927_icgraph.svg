@@ -13,76 +13,76 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="493,-110 493,-129 598,-129 598,-110 493,-110"/>
-<text text-anchor="middle" x="545.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">httputils::to_lower</text>
+<polygon fill="#bfbfbf" stroke="black" points="493,-116 493,-135 598,-135 598,-116 493,-116"/>
+<text text-anchor="middle" x="545.5" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">httputils::to_lower</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classweb_1_1http_1_1client_1_1_response.html#a4e460730f5b480c939d37cdc9a3d19d3" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="352.5,-240.5 352.5,-270.5 456.5,-270.5 456.5,-240.5 352.5,-240.5"/>
-<text text-anchor="start" x="360.5" y="-258.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
-<text text-anchor="middle" x="404.5" y="-247.5" font-family="Helvetica,sans-Serif" font-size="10.00">Response::header</text>
+<g id="a_node2"><a xlink:href="classweb_1_1http_1_1server_1_1_request.html#aa29d8d5a5b007453ce2b96b55e63960f" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="352,-249.5 352,-279.5 457,-279.5 457,-249.5 352,-249.5"/>
+<text text-anchor="start" x="360" y="-267.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::server::</text>
+<text text-anchor="middle" x="404.5" y="-256.5" font-family="Helvetica,sans-Serif" font-size="10.00">Request::get</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M529.97,-137.2C513.25,-157.12 484.55,-190.03 457,-215.5 447.52,-224.26 436.27,-233.15 426.71,-240.32"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="532.86,-139.2 536.56,-129.27 527.47,-134.72 532.86,-139.2"/>
+<path fill="none" stroke="midnightblue" d="M529.8,-143.02C512.93,-162.78 484.1,-195.55 457,-221.5 446.9,-231.17 434.96,-241.22 425.11,-249.17"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="532.66,-145.05 536.46,-135.16 527.32,-140.53 532.66,-145.05"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classweb_1_1http_1_1client_1_1_socket_context_upgrade_factory_selector.html#a32992e094e0fb72c84974fdac58958e9" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="149,-208 149,-249 313,-249 313,-208 149,-208"/>
-<text text-anchor="start" x="157" y="-237" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
-<text text-anchor="start" x="157" y="-226" font-family="Helvetica,sans-Serif" font-size="10.00">SocketContextUpgradeFactory</text>
-<text text-anchor="middle" x="231" y="-215" font-family="Helvetica,sans-Serif" font-size="10.00">Selector::select</text>
+<g id="a_node4"><a xlink:href="classweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector.html#a0f3c3fc11f20bc704da83f07ad3fa2ff" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="149,-220 149,-261 313,-261 313,-220 149,-220"/>
+<text text-anchor="start" x="157" y="-249" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::server::</text>
+<text text-anchor="start" x="157" y="-238" font-family="Helvetica,sans-Serif" font-size="10.00">SocketContextUpgradeFactory</text>
+<text text-anchor="middle" x="231" y="-227" font-family="Helvetica,sans-Serif" font-size="10.00">Selector::select</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
-<g id="edge10" class="edge">
+<g id="edge11" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M507.28,-132.48C453.76,-151.15 354.51,-185.77 290.94,-207.94"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="508.75,-135.68 517.04,-129.08 506.45,-129.07 508.75,-135.68"/>
+<path fill="none" stroke="midnightblue" d="M509.65,-138.63C464.89,-155.45 384.76,-185.43 316,-210.5 307.56,-213.58 298.64,-216.8 289.87,-219.94"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="511.05,-141.84 519.18,-135.04 508.59,-135.29 511.05,-141.84"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="classweb_1_1http_1_1server_1_1_request.html#ad39cdf1338eb6a4d187d5bb7fe416c09" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="352,-104.5 352,-134.5 457,-134.5 457,-104.5 352,-104.5"/>
-<text text-anchor="start" x="360" y="-122.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::server::</text>
-<text text-anchor="middle" x="404.5" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00">Request::header</text>
+<g id="a_node6"><a xlink:href="classweb_1_1http_1_1client_1_1_response.html#a4e460730f5b480c939d37cdc9a3d19d3" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="352.5,-110.5 352.5,-140.5 456.5,-140.5 456.5,-110.5 352.5,-110.5"/>
+<text text-anchor="start" x="360.5" y="-128.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
+<text text-anchor="middle" x="404.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">Response::header</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
-<g id="edge5" class="edge">
+<g id="edge6" class="edge">
 <title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M482.56,-119.5C474.12,-119.5 465.53,-119.5 457.3,-119.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="482.74,-123 492.74,-119.5 482.74,-116 482.74,-123"/>
+<path fill="none" stroke="midnightblue" d="M482.7,-125.5C474.06,-125.5 465.26,-125.5 456.84,-125.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="482.74,-129 492.74,-125.5 482.74,-122 482.74,-129"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="classweb_1_1http_1_1server_1_1_socket_context_upgrade_factory_selector.html#a0f3c3fc11f20bc704da83f07ad3fa2ff" target="_top" xlink:title=" ">
+<g id="a_node8"><a xlink:href="classweb_1_1http_1_1client_1_1_socket_context_upgrade_factory_selector.html#a32992e094e0fb72c84974fdac58958e9" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="149,-50 149,-91 313,-91 313,-50 149,-50"/>
-<text text-anchor="start" x="157" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::server::</text>
+<text text-anchor="start" x="157" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
 <text text-anchor="start" x="157" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00">SocketContextUpgradeFactory</text>
 <text text-anchor="middle" x="231" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">Selector::select</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
-<g id="edge11" class="edge">
+<g id="edge10" class="edge">
 <title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M504.54,-107.12C489.73,-102.91 472.71,-98.51 457,-95.5 409.71,-86.45 356.16,-80.33 313.17,-76.42"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="503.82,-110.56 514.4,-109.99 505.78,-103.83 503.82,-110.56"/>
+<path fill="none" stroke="midnightblue" d="M503.79,-113.14C489.14,-109.01 472.42,-104.66 457,-101.5 409.68,-91.79 356.13,-84.28 313.14,-79.08"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="502.98,-116.55 513.56,-115.95 504.91,-109.83 502.98,-116.55"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
@@ -97,15 +97,15 @@
 <!-- Node1&#45;&gt;Node10 -->
 <g id="edge12" class="edge">
 <title>Node1&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M522.44,-103.95C496.28,-85.51 452.98,-54.98 427.05,-36.69"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="520.73,-107.02 530.92,-109.92 524.76,-101.3 520.73,-107.02"/>
+<path fill="none" stroke="midnightblue" d="M523.48,-109.77C497.05,-89.99 451.98,-56.27 425.86,-36.73"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="521.57,-112.71 531.67,-115.9 525.76,-107.11 521.57,-112.71"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classweb_1_1websocket_1_1client_1_1_socket_context_upgrade_factory.html#ad0e31ba9234584931ab111ca3fb445bc" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classweb_1_1websocket_1_1server_1_1_socket_context_upgrade_factory.html#a90730a21bf9ea2415499a5287bda028c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="146,-318 146,-359 316,-359 316,-318 146,-318"/>
-<text text-anchor="start" x="154" y="-347" font-family="Helvetica,sans-Serif" font-size="10.00">web::websocket::client</text>
+<text text-anchor="start" x="154" y="-347" font-family="Helvetica,sans-Serif" font-size="10.00">web::websocket::server</text>
 <text text-anchor="start" x="154" y="-336" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketContextUpgradeFactory</text>
 <text text-anchor="middle" x="231" y="-325" font-family="Helvetica,sans-Serif" font-size="10.00">::create</text>
 </a>
@@ -114,80 +114,80 @@
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M372.9,-276.13C356.48,-286.65 335.62,-299.17 316,-308.5 309.01,-311.82 301.54,-315 294.06,-317.94"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="375.05,-278.9 381.53,-270.51 371.24,-273.03 375.05,-278.9"/>
+<path fill="none" stroke="midnightblue" d="M360.81,-283.78C346.59,-290.13 330.64,-297.19 316,-303.5 304.97,-308.25 293.09,-313.27 281.83,-317.97"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="362.65,-286.79 370.34,-279.51 359.79,-280.4 362.65,-286.79"/>
 </g>
 <!-- Node2&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node2&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M342.08,-245.83C332.73,-244.36 322.95,-242.82 313.25,-241.29"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="341.62,-249.3 352.04,-247.4 342.71,-242.39 341.62,-249.3"/>
+<path fill="none" stroke="midnightblue" d="M341.42,-255.81C332.24,-254.53 322.68,-253.19 313.19,-251.86"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="341.19,-259.31 351.58,-257.23 342.16,-252.38 341.19,-259.31"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classweb_1_1http_1_1client_1_1_response.html#a9e325e31cf23d211476c9dd9f0636ac0" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="176,-268.5 176,-298.5 286,-298.5 286,-268.5 176,-268.5"/>
-<text text-anchor="start" x="184" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
-<text text-anchor="middle" x="231" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">Response::upgrade</text>
+<g id="a_node5"><a xlink:href="classweb_1_1http_1_1server_1_1_response.html#afa792224c8bdb8edcb75514297931ece" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="0,-249.5 0,-279.5 110,-279.5 110,-249.5 0,-249.5"/>
+<text text-anchor="start" x="8" y="-267.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::server::</text>
+<text text-anchor="middle" x="55" y="-256.5" font-family="Helvetica,sans-Serif" font-size="10.00">Response::upgrade</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node5 -->
-<g id="edge4" class="edge">
+<g id="edge5" class="edge">
 <title>Node2&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M342.07,-265.53C323.78,-268.51 303.89,-271.76 286.1,-274.67"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="342.74,-268.97 352.04,-263.9 341.61,-262.06 342.74,-268.97"/>
+<path fill="none" stroke="midnightblue" d="M341.68,-269.27C333.06,-269.78 324.31,-270.22 316,-270.5 240.49,-273.09 221.51,-273.01 146,-270.5 134.42,-270.11 122.01,-269.45 110.23,-268.7"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="341.95,-272.76 351.71,-268.64 341.51,-265.77 341.95,-272.76"/>
+</g>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge4" class="edge">
+<title>Node4&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M138.7,-253.09C128.96,-254.44 119.29,-255.77 110.18,-257.03"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="139.43,-256.53 148.86,-251.69 138.47,-249.59 139.43,-256.53"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="classweb_1_1websocket_1_1server_1_1_socket_context_upgrade_factory.html#a90730a21bf9ea2415499a5287bda028c" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="146,-148 146,-189 316,-189 316,-148 146,-148"/>
-<text text-anchor="start" x="154" y="-177" font-family="Helvetica,sans-Serif" font-size="10.00">web::websocket::server</text>
-<text text-anchor="start" x="154" y="-166" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketContextUpgradeFactory</text>
-<text text-anchor="middle" x="231" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00">::create</text>
+<g id="a_node7"><a xlink:href="classweb_1_1websocket_1_1client_1_1_socket_context_upgrade_factory.html#ad0e31ba9234584931ab111ca3fb445bc" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="146,-160 146,-201 316,-201 316,-160 146,-160"/>
+<text text-anchor="start" x="154" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">web::websocket::client</text>
+<text text-anchor="start" x="154" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketContextUpgradeFactory</text>
+<text text-anchor="middle" x="231" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00">::create</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node7 -->
-<g id="edge6" class="edge">
+<g id="edge7" class="edge">
 <title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M341.9,-137.1C329.61,-140.61 316.6,-144.33 303.99,-147.93"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="342.93,-140.45 351.58,-134.33 341,-133.72 342.93,-140.45"/>
+<path fill="none" stroke="midnightblue" d="M346.77,-143.69C330.56,-148.89 312.79,-154.59 296.17,-159.92"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="348.18,-146.92 356.64,-140.53 346.05,-140.25 348.18,-146.92"/>
 </g>
 <!-- Node6&#45;&gt;Node8 -->
-<g id="edge7" class="edge">
+<g id="edge8" class="edge">
 <title>Node6&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M341.9,-101.9C329.61,-98.39 316.6,-94.67 303.99,-91.07"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="341,-105.28 351.58,-104.67 342.93,-98.55 341,-105.28"/>
+<path fill="none" stroke="midnightblue" d="M346.77,-107.31C330.56,-102.11 312.79,-96.41 296.17,-91.08"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="346.05,-110.75 356.64,-110.47 348.18,-104.08 346.05,-110.75"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="classweb_1_1http_1_1server_1_1_response.html#afa792224c8bdb8edcb75514297931ece" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-79.5 0,-109.5 110,-109.5 110,-79.5 0,-79.5"/>
-<text text-anchor="start" x="8" y="-97.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::server::</text>
-<text text-anchor="middle" x="55" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00">Response::upgrade</text>
+<g id="a_node9"><a xlink:href="classweb_1_1http_1_1client_1_1_response.html#a9e325e31cf23d211476c9dd9f0636ac0" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="176,-110.5 176,-140.5 286,-140.5 286,-110.5 176,-110.5"/>
+<text text-anchor="start" x="184" y="-128.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
+<text text-anchor="middle" x="231" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">Response::upgrade</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node9 -->
 <g id="edge9" class="edge">
 <title>Node6&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M341.63,-115.05C275.87,-110.32 172.91,-102.91 110.22,-98.4"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="341.63,-118.56 351.85,-115.78 342.13,-111.58 341.63,-118.56"/>
-</g>
-<!-- Node8&#45;&gt;Node9 -->
-<g id="edge8" class="edge">
-<title>Node8&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M138.7,-83.09C128.96,-84.44 119.29,-85.77 110.18,-87.03"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="139.43,-86.53 148.86,-81.69 138.47,-79.59 139.43,-86.53"/>
+<path fill="none" stroke="midnightblue" d="M341.82,-125.5C323.6,-125.5 303.8,-125.5 286.1,-125.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="342.04,-129 352.04,-125.5 342.04,-122 342.04,-129"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="classweb_1_1http_1_1_parser.html#a4f9e021859a595a0e7afa3293ebf940b" target="_top" xlink:title=" ">
+<g id="a_node11"><a xlink:href="classweb_1_1http_1_1_parser.html#a08d08d589c4c91f0fd06817fac7b700a" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="178.5,-0.5 178.5,-30.5 283.5,-30.5 283.5,-0.5 178.5,-0.5"/>
 <text text-anchor="start" x="186.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::Parser::</text>
 <text text-anchor="middle" x="231" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">readHeaderLine</text>
@@ -203,7 +203,7 @@
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="classweb_1_1http_1_1_parser.html#ac355ac1ce5844ed0d6626df639dfa985" target="_top" xlink:title=" ">
+<g id="a_node12"><a xlink:href="classweb_1_1http_1_1_parser.html#a1291dd16e6eba36cd6f35448dba4b3d5" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="2.5,-0.5 2.5,-30.5 107.5,-30.5 107.5,-0.5 2.5,-0.5"/>
 <text text-anchor="start" x="10.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::Parser::</text>
 <text text-anchor="middle" x="55" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">parse</text>

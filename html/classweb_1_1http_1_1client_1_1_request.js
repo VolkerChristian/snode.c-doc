@@ -1,6 +1,7 @@
 var classweb_1_1http_1_1client_1_1_request =
 [
     [ "Request", "classweb_1_1http_1_1client_1_1_request.html#aa7d24e563f55371ba96cd87b7fed63b9", null ],
+    [ "~Request", "classweb_1_1http_1_1client_1_1_request.html#ac26e42355eaa1b39bffec607ff83a057", null ],
     [ "append", "classweb_1_1http_1_1client_1_1_request.html#ac43004a3996373bfd8be900519bcf3ec", null ],
     [ "cookie", "classweb_1_1http_1_1client_1_1_request.html#a853ef14ef50dbe7d581669da1449c13d", null ],
     [ "cookie", "classweb_1_1http_1_1client_1_1_request.html#a27457610d6a79674c6cb17e976b293bd", null ],

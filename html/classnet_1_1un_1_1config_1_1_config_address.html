@@ -98,13 +98,13 @@ $(document).ready(function(){initNavTree('classnet_1_1un_1_1config_1_1_config_ad
 <div class="dynheader">
 Inheritance diagram for net::un::config::ConfigAddress&lt; ConfigAddressTypeT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1un_1_1config_1_1_config_address__inherit__graph.svg" width="992" height="596"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1un_1_1config_1_1_config_address__inherit__graph.svg" width="1824" height="335"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for net::un::config::ConfigAddress&lt; ConfigAddressTypeT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1un_1_1config_1_1_config_address__coll__graph.svg" width="704" height="5584"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1un_1_1config_1_1_config_address__coll__graph.svg" width="643" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -147,7 +147,7 @@ Private Attributes</h2></td></tr>
 class net::un::config::ConfigAddress&lt; ConfigAddressTypeT &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="un_2config_2_config_address_8h_source.html#l00040">40</a> of file <a class="el" href="un_2config_2_config_address_8h_source.html">ConfigAddress.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="un_2config_2_config_address_8h_source.html#l00038">38</a> of file <a class="el" href="un_2config_2_config_address_8h_source.html">ConfigAddress.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="aeaf196379e404c20f44d035292224622"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeaf196379e404c20f44d035292224622">&#9670;&nbsp;</a></span>ConfigAddressType</h2>
@@ -171,7 +171,7 @@ template&lt;template&lt; typename SocketAddressT &gt; typename ConfigAddressType
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="un_2config_2_config_address_8h_source.html#l00042">42</a> of file <a class="el" href="un_2config_2_config_address_8h_source.html">ConfigAddress.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="un_2config_2_config_address_8h_source.html#l00040">40</a> of file <a class="el" href="un_2config_2_config_address_8h_source.html">ConfigAddress.h</a>.</p>
 
 </div>
 </div>
@@ -197,7 +197,7 @@ template&lt;template&lt; typename SocketAddressT &gt; typename ConfigAddressType
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="un_2config_2_config_address_8h_source.html#l00041">41</a> of file <a class="el" href="un_2config_2_config_address_8h_source.html">ConfigAddress.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="un_2config_2_config_address_8h_source.html#l00039">39</a> of file <a class="el" href="un_2config_2_config_address_8h_source.html">ConfigAddress.h</a>.</p>
 
 </div>
 </div>
@@ -221,21 +221,22 @@ template&lt;template&lt; typename SocketAddress &gt; typename ConfigAddressType&
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="classnet_1_1config_1_1_config_base.html#aa08565b0421efbf6c8a4a64b3ad7d76e">net::config::ConfigBase::getName</a>().empty()) {</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <a class="code" href="classnet_1_1un_1_1config_1_1_config_address.html#aa44e437db475489fdabefeeb712d97a6">sunPathOpt</a> = ConfigAddressType::addressSc-&gt;add_option(<span class="stringliteral">&quot;--path&quot;</span>, <a class="code" href="classnet_1_1un_1_1config_1_1_config_address.html#aa45f3ac617cbcb1512e6fe8df08211b1">sunPath</a>, <span class="stringliteral">&quot;Unix domain socket&quot;</span>);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <a class="code" href="classnet_1_1un_1_1config_1_1_config_address.html#aa44e437db475489fdabefeeb712d97a6">sunPathOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">type_name</a>(<span class="stringliteral">&quot;[sun-path]&quot;</span>);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <a class="code" href="classnet_1_1un_1_1config_1_1_config_address.html#aa44e437db475489fdabefeeb712d97a6">sunPathOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(std::string(<span class="charliteral">&#39;\0&#39;</span> + <a class="code" href="classnet_1_1config_1_1_config_base.html#aa08565b0421efbf6c8a4a64b3ad7d76e">net::config::ConfigBase::getName</a>()));</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        }</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        ConfigAddressType::address.setSunPath(std::string(<span class="charliteral">&#39;\0&#39;</span> + <a class="code" href="classnet_1_1config_1_1_config_base.html#aa08565b0421efbf6c8a4a64b3ad7d76e">net::config::ConfigBase::getName</a>()));</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <a class="code" href="classnet_1_1un_1_1config_1_1_config_address.html#aa44e437db475489fdabefeeb712d97a6">sunPathOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(std::string(<span class="charliteral">&#39;\0&#39;</span> + <a class="code" href="classnet_1_1config_1_1_config_base.html#aa08565b0421efbf6c8a4a64b3ad7d76e">net::config::ConfigBase::getName</a>() + <span class="stringliteral">&quot;_&quot;</span> + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(getpid())));</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            ConfigAddressType::address.setSunPath(std::string(<span class="charliteral">&#39;\0&#39;</span> + <a class="code" href="classnet_1_1config_1_1_config_base.html#aa08565b0421efbf6c8a4a64b3ad7d76e">net::config::ConfigBase::getName</a>() + <span class="stringliteral">&quot;_&quot;</span> + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(getpid())));</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        }</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
-<div class="ttc" id="aclass_c_l_i_1_1_option_html_a4685cebdb75c6bf8ce0095fd08d8b892"><div class="ttname"><a href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">CLI::Option::default_val</a></div><div class="ttdeci">Option * default_val(const X &amp;val)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l05302">CLI11.hpp:5302</a></div></div>
-<div class="ttc" id="aclass_c_l_i_1_1_option_html_addaddebd60f66aaedc13e5fb473db902"><div class="ttname"><a href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">CLI::Option::type_name</a></div><div class="ttdeci">Option * type_name(std::string typeval)</div><div class="ttdoc">Set a custom option typestring.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l05223">CLI11.hpp:5223</a></div></div>
+<div class="ttc" id="aclass_c_l_i_1_1_option_html_a4685cebdb75c6bf8ce0095fd08d8b892"><div class="ttname"><a href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">CLI::Option::default_val</a></div><div class="ttdeci">Option * default_val(const X &amp;val)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l05371">CLI11.hpp:5371</a></div></div>
+<div class="ttc" id="aclass_c_l_i_1_1_option_html_addaddebd60f66aaedc13e5fb473db902"><div class="ttname"><a href="class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902">CLI::Option::type_name</a></div><div class="ttdeci">Option * type_name(std::string typeval)</div><div class="ttdoc">Set a custom option typestring.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l05292">CLI11.hpp:5292</a></div></div>
 <div class="ttc" id="aclassnet_1_1config_1_1_config_base_html_aa08565b0421efbf6c8a4a64b3ad7d76e"><div class="ttname"><a href="classnet_1_1config_1_1_config_base.html#aa08565b0421efbf6c8a4a64b3ad7d76e">net::config::ConfigBase::getName</a></div><div class="ttdeci">const std::string &amp; getName() const</div><div class="ttdef"><b>Definition:</b> <a href="_config_base_8cpp_source.html#l00040">ConfigBase.cpp:40</a></div></div>
-<div class="ttc" id="aclassnet_1_1un_1_1config_1_1_config_address_html_aa44e437db475489fdabefeeb712d97a6"><div class="ttname"><a href="classnet_1_1un_1_1config_1_1_config_address.html#aa44e437db475489fdabefeeb712d97a6">net::un::config::ConfigAddress::sunPathOpt</a></div><div class="ttdeci">CLI::Option * sunPathOpt</div><div class="ttdef"><b>Definition:</b> <a href="un_2config_2_config_address_8h_source.html#l00051">ConfigAddress.h:51</a></div></div>
-<div class="ttc" id="aclassnet_1_1un_1_1config_1_1_config_address_html_aa45f3ac617cbcb1512e6fe8df08211b1"><div class="ttname"><a href="classnet_1_1un_1_1config_1_1_config_address.html#aa45f3ac617cbcb1512e6fe8df08211b1">net::un::config::ConfigAddress::sunPath</a></div><div class="ttdeci">std::string sunPath</div><div class="ttdef"><b>Definition:</b> <a href="un_2config_2_config_address_8h_source.html#l00056">ConfigAddress.h:56</a></div></div>
+<div class="ttc" id="aclassnet_1_1un_1_1config_1_1_config_address_html_aa44e437db475489fdabefeeb712d97a6"><div class="ttname"><a href="classnet_1_1un_1_1config_1_1_config_address.html#aa44e437db475489fdabefeeb712d97a6">net::un::config::ConfigAddress::sunPathOpt</a></div><div class="ttdeci">CLI::Option * sunPathOpt</div><div class="ttdef"><b>Definition:</b> <a href="un_2config_2_config_address_8h_source.html#l00049">ConfigAddress.h:49</a></div></div>
+<div class="ttc" id="aclassnet_1_1un_1_1config_1_1_config_address_html_aa45f3ac617cbcb1512e6fe8df08211b1"><div class="ttname"><a href="classnet_1_1un_1_1config_1_1_config_address.html#aa45f3ac617cbcb1512e6fe8df08211b1">net::un::config::ConfigAddress::sunPath</a></div><div class="ttdeci">std::string sunPath</div><div class="ttdef"><b>Definition:</b> <a href="un_2config_2_config_address_8h_source.html#l00054">ConfigAddress.h:54</a></div></div>
+<div class="ttc" id="anamespace_c_l_i_1_1detail_html_a0e94052d485636fc9f18c21009026577"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">CLI::detail::to_string</a></div><div class="ttdeci">auto to_string(T &amp;&amp;value) -&gt; decltype(std::forward&lt; T &gt;(value))</div><div class="ttdoc">Convert an object to a string (directly forward if this can become a string)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l01227">CLI11.hpp:1227</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_config_base_8cpp_source.html#l00040">net::config::ConfigBase::getName()</a>.</p>
+<p class="reference">References <a class="el" href="_config_base_8cpp_source.html#l00040">net::config::ConfigBase::getName()</a>, and <a class="el" href="_c_l_i11_8hpp_source.html#l01227">CLI::detail::to_string()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1un_1_1config_1_1_config_address_a78089387920adc0c0d1701d25c9d6658_cgraph.svg" width="450" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1un_1_1config_1_1_config_address_a78089387920adc0c0d1701d25c9d6658_cgraph.svg" width="450" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -270,11 +271,11 @@ template&lt;template&lt; typename SocketAddress &gt; typename ConfigAddressType&
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <a class="code" href="classnet_1_1un_1_1config_1_1_config_address.html#aa44e437db475489fdabefeeb712d97a6">sunPathOpt</a>-&gt;<a class="code" href="class_c_l_i_1_1_option.html#a4685cebdb75c6bf8ce0095fd08d8b892">default_val</a>(<span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="un_2stream_2config_2_config_client_socket_8cpp_source.html#l00029">net::un::stream::config::ConfigClientSocket::ConfigClientSocket()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_config_client_socket_8cpp_source.html#l00029">net::un::stream::config::ConfigClientSocket::ConfigClientSocket()</a>, and <a class="el" href="un_2stream_2config_2_config_socket_client_8cpp_source.html#l00029">net::un::stream::config::ConfigSocketClient::ConfigSocketClient()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1un_1_1config_1_1_config_address_a64bee1321308de08a44eb9ebd1700448_icgraph.svg" width="446" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1un_1_1config_1_1_config_address_a64bee1321308de08a44eb9ebd1700448_icgraph.svg" width="446" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -307,11 +308,11 @@ template&lt;template&lt; typename SocketAddress &gt; typename ConfigAddressType&
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        ConfigAddressType::require(<a class="code" href="classnet_1_1un_1_1config_1_1_config_address.html#aa44e437db475489fdabefeeb712d97a6">sunPathOpt</a>);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="un_2stream_2config_2_config_server_socket_8cpp_source.html#l00029">net::un::stream::config::ConfigServerSocket::ConfigServerSocket()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_config_server_socket_8cpp_source.html#l00029">net::un::stream::config::ConfigServerSocket::ConfigServerSocket()</a>, and <a class="el" href="un_2stream_2config_2_config_socket_server_8cpp_source.html#l00029">net::un::stream::config::ConfigSocketServer::ConfigSocketServer()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1un_1_1config_1_1_config_address_a5a15ef545649e11b8e84ecdb0414cd2b_icgraph.svg" width="446" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1un_1_1config_1_1_config_address_a5a15ef545649e11b8e84ecdb0414cd2b_icgraph.svg" width="446" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -345,7 +346,7 @@ template&lt;template&lt; typename SocketAddress &gt; typename ConfigAddressType&
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            ConfigAddressType::address.setSunPath(<a class="code" href="classnet_1_1un_1_1config_1_1_config_address.html#aa45f3ac617cbcb1512e6fe8df08211b1">sunPath</a>);</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        }</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
-<div class="ttc" id="aclass_c_l_i_1_1_option_html_a154543609c45d9c59c69991a08ca272b"><div class="ttname"><a href="class_c_l_i_1_1_option.html#a154543609c45d9c59c69991a08ca272b">CLI::Option::count</a></div><div class="ttdeci">std::size_t count() const</div><div class="ttdoc">Count the total number of times an option was passed.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l04436">CLI11.hpp:4436</a></div></div>
+<div class="ttc" id="aclass_c_l_i_1_1_option_html_a154543609c45d9c59c69991a08ca272b"><div class="ttname"><a href="class_c_l_i_1_1_option.html#a154543609c45d9c59c69991a08ca272b">CLI::Option::count</a></div><div class="ttdeci">std::size_t count() const</div><div class="ttdoc">Count the total number of times an option was passed.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l04505">CLI11.hpp:4505</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -372,7 +373,7 @@ template&lt;template&lt; typename SocketAddressT &gt; typename ConfigAddressType
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="un_2config_2_config_address_8h_source.html#l00056">56</a> of file <a class="el" href="un_2config_2_config_address_8h_source.html">ConfigAddress.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="un_2config_2_config_address_8h_source.html#l00054">54</a> of file <a class="el" href="un_2config_2_config_address_8h_source.html">ConfigAddress.h</a>.</p>
 
 </div>
 </div>
@@ -398,7 +399,7 @@ template&lt;template&lt; typename SocketAddressT &gt; typename ConfigAddressType
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="un_2config_2_config_address_8h_source.html#l00051">51</a> of file <a class="el" href="un_2config_2_config_address_8h_source.html">ConfigAddress.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="un_2config_2_config_address_8h_source.html#l00049">49</a> of file <a class="el" href="un_2config_2_config_address_8h_source.html">ConfigAddress.h</a>.</p>
 
 </div>
 </div>

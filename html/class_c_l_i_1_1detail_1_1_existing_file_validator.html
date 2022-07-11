@@ -96,13 +96,13 @@ $(document).ready(function(){initNavTree('class_c_l_i_1_1detail_1_1_existing_fil
 <div class="dynheader">
 Inheritance diagram for CLI::detail::ExistingFileValidator:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_l_i_1_1detail_1_1_existing_file_validator__inherit__graph.svg" width="191" height="463"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_l_i_1_1detail_1_1_existing_file_validator__inherit__graph.svg" width="180" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for CLI::detail::ExistingFileValidator:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_l_i_1_1detail_1_1_existing_file_validator__coll__graph.svg" width="191" height="463"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_l_i_1_1detail_1_1_existing_file_validator__coll__graph.svg" width="180" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -200,7 +200,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Check for an existing file (returns error message if check fails) </p>
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l03057">3057</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l03093">3093</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a93a39cd927968e7868fc2c145f2793e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a93a39cd927968e7868fc2c145f2793e3">&#9670;&nbsp;</a></span>ExistingFileValidator()</h2>
@@ -225,26 +225,26 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l03059">3059</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l03060"></a><span class="lineno"> 3060</span>&#160;                : <a class="code" href="class_c_l_i_1_1_validator.html#a918d82662319f6dc9dad53d580741569">Validator</a>(<span class="stringliteral">&quot;FILE&quot;</span>) {</div>
-<div class="line"><a name="l03061"></a><span class="lineno"> 3061</span>&#160;                <a class="code" href="class_c_l_i_1_1_validator.html#a72f70f1d81f2e80f2bb700cad24c1f79">func_</a> = [](std::string&amp; filename) {</div>
-<div class="line"><a name="l03062"></a><span class="lineno"> 3062</span>&#160;                    <span class="keyword">auto</span> path_result = <a class="code" href="namespace_c_l_i_1_1detail.html#a197be0b62b4d4deef0f5cac600a6b759">check_path</a>(filename.c_str());</div>
-<div class="line"><a name="l03063"></a><span class="lineno"> 3063</span>&#160;                    <span class="keywordflow">if</span> (path_result == <a class="code" href="namespace_c_l_i_1_1detail.html#a20a9a67e5f06ba0dc3f2ded2fed16f55a357f5c155c9da6842b84ad1066996928">path_type::nonexistent</a>) {</div>
-<div class="line"><a name="l03064"></a><span class="lineno"> 3064</span>&#160;                        <span class="keywordflow">return</span> <span class="stringliteral">&quot;File does not exist: &quot;</span> + filename;</div>
-<div class="line"><a name="l03065"></a><span class="lineno"> 3065</span>&#160;                    }</div>
-<div class="line"><a name="l03066"></a><span class="lineno"> 3066</span>&#160;                    <span class="keywordflow">if</span> (path_result == <a class="code" href="namespace_c_l_i_1_1detail.html#a20a9a67e5f06ba0dc3f2ded2fed16f55a5f8f22b8cdbaeee8cf857673a9b6ba20">path_type::directory</a>) {</div>
-<div class="line"><a name="l03067"></a><span class="lineno"> 3067</span>&#160;                        <span class="keywordflow">return</span> <span class="stringliteral">&quot;File is actually a directory: &quot;</span> + filename;</div>
-<div class="line"><a name="l03068"></a><span class="lineno"> 3068</span>&#160;                    }</div>
-<div class="line"><a name="l03069"></a><span class="lineno"> 3069</span>&#160;                    <span class="keywordflow">return</span> std::string();</div>
-<div class="line"><a name="l03070"></a><span class="lineno"> 3070</span>&#160;                };</div>
-<div class="line"><a name="l03071"></a><span class="lineno"> 3071</span>&#160;            }</div>
-<div class="ttc" id="aclass_c_l_i_1_1_validator_html_a72f70f1d81f2e80f2bb700cad24c1f79"><div class="ttname"><a href="class_c_l_i_1_1_validator.html#a72f70f1d81f2e80f2bb700cad24c1f79">CLI::Validator::func_</a></div><div class="ttdeci">std::function&lt; std::string(std::string &amp;)&gt; func_</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l02780">CLI11.hpp:2780</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l03095">3095</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l03096"></a><span class="lineno"> 3096</span>&#160;                : <a class="code" href="class_c_l_i_1_1_validator.html#a918d82662319f6dc9dad53d580741569">Validator</a>(<span class="stringliteral">&quot;FILE&quot;</span>) {</div>
+<div class="line"><a name="l03097"></a><span class="lineno"> 3097</span>&#160;                <a class="code" href="class_c_l_i_1_1_validator.html#a72f70f1d81f2e80f2bb700cad24c1f79">func_</a> = [](std::string&amp; filename) {</div>
+<div class="line"><a name="l03098"></a><span class="lineno"> 3098</span>&#160;                    <span class="keyword">auto</span> path_result = <a class="code" href="namespace_c_l_i_1_1detail.html#a197be0b62b4d4deef0f5cac600a6b759">check_path</a>(filename.c_str());</div>
+<div class="line"><a name="l03099"></a><span class="lineno"> 3099</span>&#160;                    <span class="keywordflow">if</span> (path_result == <a class="code" href="namespace_c_l_i_1_1detail.html#a20a9a67e5f06ba0dc3f2ded2fed16f55a357f5c155c9da6842b84ad1066996928">path_type::nonexistent</a>) {</div>
+<div class="line"><a name="l03100"></a><span class="lineno"> 3100</span>&#160;                        <span class="keywordflow">return</span> <span class="stringliteral">&quot;File does not exist: &quot;</span> + filename;</div>
+<div class="line"><a name="l03101"></a><span class="lineno"> 3101</span>&#160;                    }</div>
+<div class="line"><a name="l03102"></a><span class="lineno"> 3102</span>&#160;                    <span class="keywordflow">if</span> (path_result == <a class="code" href="namespace_c_l_i_1_1detail.html#a20a9a67e5f06ba0dc3f2ded2fed16f55a5f8f22b8cdbaeee8cf857673a9b6ba20">path_type::directory</a>) {</div>
+<div class="line"><a name="l03103"></a><span class="lineno"> 3103</span>&#160;                        <span class="keywordflow">return</span> <span class="stringliteral">&quot;File is actually a directory: &quot;</span> + filename;</div>
+<div class="line"><a name="l03104"></a><span class="lineno"> 3104</span>&#160;                    }</div>
+<div class="line"><a name="l03105"></a><span class="lineno"> 3105</span>&#160;                    <span class="keywordflow">return</span> std::string();</div>
+<div class="line"><a name="l03106"></a><span class="lineno"> 3106</span>&#160;                };</div>
+<div class="line"><a name="l03107"></a><span class="lineno"> 3107</span>&#160;            }</div>
+<div class="ttc" id="aclass_c_l_i_1_1_validator_html_a72f70f1d81f2e80f2bb700cad24c1f79"><div class="ttname"><a href="class_c_l_i_1_1_validator.html#a72f70f1d81f2e80f2bb700cad24c1f79">CLI::Validator::func_</a></div><div class="ttdeci">std::function&lt; std::string(std::string &amp;)&gt; func_</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l02816">CLI11.hpp:2816</a></div></div>
 <div class="ttc" id="aclass_c_l_i_1_1_validator_html_a918d82662319f6dc9dad53d580741569"><div class="ttname"><a href="class_c_l_i_1_1_validator.html#a918d82662319f6dc9dad53d580741569">CLI::Validator::Validator</a></div><div class="ttdeci">Validator()=default</div></div>
-<div class="ttc" id="anamespace_c_l_i_1_1detail_html_a197be0b62b4d4deef0f5cac600a6b759"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a197be0b62b4d4deef0f5cac600a6b759">CLI::detail::check_path</a></div><div class="ttdeci">path_type check_path(const char *file) noexcept</div><div class="ttdoc">get the type of the path from a file name</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l03041">CLI11.hpp:3041</a></div></div>
+<div class="ttc" id="anamespace_c_l_i_1_1detail_html_a197be0b62b4d4deef0f5cac600a6b759"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a197be0b62b4d4deef0f5cac600a6b759">CLI::detail::check_path</a></div><div class="ttdeci">path_type check_path(const char *file) noexcept</div><div class="ttdoc">get the type of the path from a file name</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l03077">CLI11.hpp:3077</a></div></div>
 <div class="ttc" id="anamespace_c_l_i_1_1detail_html_a20a9a67e5f06ba0dc3f2ded2fed16f55a357f5c155c9da6842b84ad1066996928"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a20a9a67e5f06ba0dc3f2ded2fed16f55a357f5c155c9da6842b84ad1066996928">CLI::detail::path_type::nonexistent</a></div><div class="ttdeci">@ nonexistent</div></div>
 <div class="ttc" id="anamespace_c_l_i_1_1detail_html_a20a9a67e5f06ba0dc3f2ded2fed16f55a5f8f22b8cdbaeee8cf857673a9b6ba20"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a20a9a67e5f06ba0dc3f2ded2fed16f55a5f8f22b8cdbaeee8cf857673a9b6ba20">CLI::detail::path_type::directory</a></div><div class="ttdeci">@ directory</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l03041">CLI::detail::check_path()</a>.</p>
+<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l03077">CLI::detail::check_path()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

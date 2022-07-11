@@ -13,385 +13,400 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="0,-195.5 0,-225.5 165,-225.5 165,-195.5 0,-195.5"/>
-<text text-anchor="start" x="8" y="-213.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="middle" x="82.5" y="-202.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketConnection::readEvent</text>
+<polygon fill="#bfbfbf" stroke="black" points="0,-217.5 0,-247.5 165,-247.5 165,-217.5 0,-217.5"/>
+<text text-anchor="start" x="8" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
+<text text-anchor="middle" x="82.5" y="-224.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketConnection::readEvent</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aaad14a17650d9421cb50667e8c74ecd6" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="201,-195.5 201,-225.5 333,-225.5 333,-195.5 201,-195.5"/>
-<text text-anchor="start" x="209" y="-213.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="middle" x="267" y="-202.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketReader::doRead</text>
+<g id="a_node2"><a xlink:href="namespacecore_1_1system.html#a2aa41abc7d6ba9da2e5035b74608919a" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="211.5,-245 211.5,-264 322.5,-264 322.5,-245 211.5,-245"/>
+<text text-anchor="middle" x="267" y="-252" font-family="Helvetica,sans-Serif" font-size="10.00">core::system::close</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M165.14,-210.5C173.64,-210.5 182.26,-210.5 190.68,-210.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="190.85,-214 200.85,-210.5 190.85,-207 190.85,-214"/>
+<path fill="none" stroke="midnightblue" d="M165.14,-242.34C177.25,-243.8 189.59,-245.29 201.3,-246.7"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="201.05,-250.2 211.39,-247.92 201.88,-243.25 201.05,-250.2"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classcore_1_1_descriptor_event_receiver.html#a4ab422ce6622a29cee38a0108ee6ccc1" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a2bb6e3a9b83bb3c8fdf390f242c1ac83" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="201,-195.5 201,-225.5 333,-225.5 333,-195.5 201,-195.5"/>
+<text text-anchor="start" x="209" y="-213.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
+<text text-anchor="middle" x="267" y="-202.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketReader::doRead</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node3 -->
+<g id="edge2" class="edge">
+<title>Node1&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M165.14,-222.66C173.64,-221.63 182.26,-220.6 190.68,-219.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="191.34,-223.03 200.85,-218.35 190.5,-216.08 191.34,-223.03"/>
+</g>
+<!-- Node4 -->
+<g id="node4" class="node">
+<title>Node4</title>
+<g id="a_node4"><a xlink:href="classcore_1_1_descriptor_event_receiver.html#a4ab422ce6622a29cee38a0108ee6ccc1" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="369,-296.5 369,-326.5 533,-326.5 533,-296.5 369,-296.5"/>
 <text text-anchor="start" x="377" y="-314.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::DescriptorEventReceiver</text>
 <text text-anchor="middle" x="451" y="-303.5" font-family="Helvetica,sans-Serif" font-size="10.00">::disable</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge">
-<title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M286.42,-225.66C305.98,-241.21 338.26,-265.35 369,-281.5 376.72,-285.55 385.1,-289.31 393.46,-292.7"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="392.26,-295.99 402.85,-296.37 394.81,-289.47 392.26,-295.99"/>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge3" class="edge">
+<title>Node3&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M316.08,-225.54C322.04,-228.38 327.85,-231.69 333,-235.5 353.87,-250.94 348.03,-266.19 369,-281.5 374.53,-285.54 380.67,-289.09 387.02,-292.21"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="385.88,-295.53 396.43,-296.46 388.76,-289.15 385.88,-295.53"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node">
-<title>Node7</title>
-<g id="a_node7"><a xlink:href="classcore_1_1_descriptor_event_receiver.html#ac80fc901f941c059a6ebdb28147b25a2" target="_top" xlink:title=" ">
+<!-- Node8 -->
+<g id="node8" class="node">
+<title>Node8</title>
+<g id="a_node8"><a xlink:href="classcore_1_1_descriptor_event_receiver.html#ac80fc901f941c059a6ebdb28147b25a2" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="570.5,-220.5 570.5,-250.5 734.5,-250.5 734.5,-220.5 570.5,-220.5"/>
 <text text-anchor="start" x="578.5" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::DescriptorEventReceiver</text>
 <text text-anchor="middle" x="652.5" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00">::isSuspended</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node7 -->
-<g id="edge12" class="edge">
-<title>Node2&#45;&gt;Node7</title>
+<!-- Node3&#45;&gt;Node8 -->
+<g id="edge13" class="edge">
+<title>Node3&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M333.06,-214.74C395.48,-218.81 490.34,-224.99 560.3,-229.55"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="560.23,-233.06 570.44,-230.22 560.68,-226.07 560.23,-233.06"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node">
-<title>Node8</title>
-<g id="a_node8"><a xlink:href="classcore_1_1_descriptor_event_receiver.html#aab5e466759c83194c5bc4b41f1a33103" target="_top" xlink:title=" ">
+<!-- Node9 -->
+<g id="node9" class="node">
+<title>Node9</title>
+<g id="a_node9"><a xlink:href="classcore_1_1_descriptor_event_receiver.html#aab5e466759c83194c5bc4b41f1a33103" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="570.5,-269.5 570.5,-299.5 734.5,-299.5 734.5,-269.5 570.5,-269.5"/>
 <text text-anchor="start" x="578.5" y="-287.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::DescriptorEventReceiver</text>
 <text text-anchor="middle" x="652.5" y="-276.5" font-family="Helvetica,sans-Serif" font-size="10.00">::suspend</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node8 -->
-<g id="edge27" class="edge">
-<title>Node2&#45;&gt;Node8</title>
+<!-- Node3&#45;&gt;Node9 -->
+<g id="edge28" class="edge">
+<title>Node3&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M325.79,-225.55C339.88,-229.02 354.95,-232.55 369,-235.5 432.51,-248.85 504.61,-261.31 560.07,-270.33"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="559.8,-273.83 570.23,-271.97 560.92,-266.92 559.8,-273.83"/>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node">
-<title>Node12</title>
-<g id="a_node12"><a xlink:href="classcore_1_1_event_receiver.html#a2b80e945995510922706c33403f0a4f0" target="_top" xlink:title=" ">
+<!-- Node13 -->
+<g id="node13" class="node">
+<title>Node13</title>
+<g id="a_node13"><a xlink:href="classcore_1_1_event_receiver.html#a2b80e945995510922706c33403f0a4f0" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="394,-132.5 394,-162.5 508,-162.5 508,-132.5 394,-132.5"/>
 <text text-anchor="start" x="402" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::EventReceiver</text>
 <text text-anchor="middle" x="451" y="-139.5" font-family="Helvetica,sans-Serif" font-size="10.00">::publish</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node12 -->
-<g id="edge13" class="edge">
-<title>Node2&#45;&gt;Node12</title>
+<!-- Node3&#45;&gt;Node13 -->
+<g id="edge14" class="edge">
+<title>Node3&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M311.59,-195.41C337.16,-186.56 369.66,-175.31 396.74,-165.94"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="398.14,-169.15 406.45,-162.58 395.85,-162.54 398.14,-169.15"/>
 </g>
-<!-- Node18 -->
-<g id="node18" class="node">
-<title>Node18</title>
-<g id="a_node18"><a xlink:href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a2f6182adeb9508a2cb295cd6fc1692ee" target="_top" xlink:title=" ">
+<!-- Node19 -->
+<g id="node19" class="node">
+<title>Node19</title>
+<g id="a_node19"><a xlink:href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a2f6182adeb9508a2cb295cd6fc1692ee" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="392.5,-83.5 392.5,-113.5 509.5,-113.5 509.5,-83.5 392.5,-83.5"/>
 <text text-anchor="start" x="400.5" y="-101.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
 <text text-anchor="middle" x="451" y="-90.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketReader::read</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node18 -->
-<g id="edge19" class="edge">
-<title>Node2&#45;&gt;Node18</title>
+<!-- Node3&#45;&gt;Node19 -->
+<g id="edge20" class="edge">
+<title>Node3&#45;&gt;Node19</title>
 <path fill="none" stroke="midnightblue" d="M281.6,-195.44C299.77,-176.18 333.76,-142.99 369,-123.5 373.39,-121.07 378.06,-118.84 382.84,-116.81"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="384.13,-120.06 392.14,-113.13 381.55,-113.55 384.13,-120.06"/>
 </g>
-<!-- Node19 -->
-<g id="node19" class="node">
-<title>Node19</title>
-<g id="a_node19"><a xlink:href="classcore_1_1_descriptor_event_receiver.html#afa983ac6b0ba8f28ce4c0fc16cd914f8" target="_top" xlink:title=" ">
+<!-- Node20 -->
+<g id="node20" class="node">
+<title>Node20</title>
+<g id="a_node20"><a xlink:href="classcore_1_1_descriptor_event_receiver.html#afa983ac6b0ba8f28ce4c0fc16cd914f8" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="570.5,-171.5 570.5,-201.5 734.5,-201.5 734.5,-171.5 570.5,-171.5"/>
 <text text-anchor="start" x="578.5" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::DescriptorEventReceiver</text>
 <text text-anchor="middle" x="652.5" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">::resume</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node19 -->
-<g id="edge20" class="edge">
-<title>Node2&#45;&gt;Node19</title>
+<!-- Node3&#45;&gt;Node20 -->
+<g id="edge21" class="edge">
+<title>Node3&#45;&gt;Node20</title>
 <path fill="none" stroke="midnightblue" d="M333.06,-206.43C395.48,-202.52 490.34,-196.59 560.3,-192.21"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="560.67,-195.69 570.44,-191.57 560.24,-188.7 560.67,-195.69"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node">
-<title>Node4</title>
-<g id="a_node4"><a xlink:href="classcore_1_1_descriptor_event_publisher.html#a998d681666ff72ed73cf0799ff4aca77" target="_top" xlink:title=" ">
+<!-- Node5 -->
+<g id="node5" class="node">
+<title>Node5</title>
+<g id="a_node5"><a xlink:href="classcore_1_1_descriptor_event_publisher.html#a998d681666ff72ed73cf0799ff4aca77" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="569,-357.5 569,-387.5 736,-387.5 736,-357.5 569,-357.5"/>
 <text text-anchor="start" x="577" y="-375.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::DescriptorEventPublisher</text>
 <text text-anchor="middle" x="652.5" y="-364.5" font-family="Helvetica,sans-Serif" font-size="10.00">::disable</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node4 -->
-<g id="edge3" class="edge">
-<title>Node3&#45;&gt;Node4</title>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge4" class="edge">
+<title>Node4&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M501.06,-326.5C528.73,-334.96 563.5,-345.59 592.64,-354.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="591.7,-357.87 602.28,-357.45 593.75,-351.18 591.7,-357.87"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node">
-<title>Node5</title>
-<g id="a_node5"><a xlink:href="classcore_1_1_event_receiver.html#aac62114d8385172bb2c536774a7dfcf7" target="_top" xlink:title=" ">
+<!-- Node6 -->
+<g id="node6" class="node">
+<title>Node6</title>
+<g id="a_node6"><a xlink:href="classcore_1_1_event_receiver.html#aac62114d8385172bb2c536774a7dfcf7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="798.5,-313.5 798.5,-343.5 912.5,-343.5 912.5,-313.5 798.5,-313.5"/>
 <text text-anchor="start" x="806.5" y="-331.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::EventReceiver</text>
 <text text-anchor="middle" x="855.5" y="-320.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getName</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node5 -->
-<g id="edge4" class="edge">
-<title>Node3&#45;&gt;Node5</title>
+<!-- Node4&#45;&gt;Node6 -->
+<g id="edge5" class="edge">
+<title>Node4&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M533.45,-314.94C608.55,-318.11 718.64,-322.76 788.41,-325.71"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="788.27,-329.21 798.41,-326.13 788.57,-322.21 788.27,-329.21"/>
 </g>
-<!-- Node3&#45;&gt;Node7 -->
-<g id="edge6" class="edge">
-<title>Node3&#45;&gt;Node7</title>
+<!-- Node4&#45;&gt;Node8 -->
+<g id="edge7" class="edge">
+<title>Node4&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M483.87,-296.4C507.16,-285.67 539.68,-271.29 569,-260.5 575.32,-258.17 581.97,-255.89 588.64,-253.71"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="589.92,-256.98 598.38,-250.6 587.79,-250.31 589.92,-256.98"/>
 </g>
-<!-- Node3&#45;&gt;Node8 -->
-<g id="edge7" class="edge">
-<title>Node3&#45;&gt;Node8</title>
+<!-- Node4&#45;&gt;Node9 -->
+<g id="edge8" class="edge">
+<title>Node4&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M533.14,-300.52C542.08,-299.31 551.22,-298.07 560.27,-296.85"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="560.99,-300.28 570.43,-295.47 560.05,-293.35 560.99,-300.28"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node">
-<title>Node6</title>
-<g id="a_node6"><a xlink:href="classcore_1_1_event.html#add8f12b93d4937dcd6a4863cbe4fdb69" target="_top" xlink:title=" ">
+<!-- Node7 -->
+<g id="node7" class="node">
+<title>Node7</title>
+<g id="a_node7"><a xlink:href="classcore_1_1_event.html#add8f12b93d4937dcd6a4863cbe4fdb69" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="997.5,-319 997.5,-338 1119.5,-338 1119.5,-319 997.5,-319"/>
 <text text-anchor="middle" x="1058.5" y="-326" font-family="Helvetica,sans-Serif" font-size="10.00">core::Event::getName</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node6 -->
-<g id="edge5" class="edge">
-<title>Node5&#45;&gt;Node6</title>
+<!-- Node6&#45;&gt;Node7 -->
+<g id="edge6" class="edge">
+<title>Node6&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M912.76,-328.5C935.82,-328.5 962.78,-328.5 987.13,-328.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="987.39,-332 997.39,-328.5 987.39,-325 987.39,-332"/>
 </g>
-<!-- Node8&#45;&gt;Node5 -->
-<g id="edge8" class="edge">
-<title>Node8&#45;&gt;Node5</title>
+<!-- Node9&#45;&gt;Node6 -->
+<g id="edge9" class="edge">
+<title>Node9&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M722.11,-299.52C743.51,-304.2 767.07,-309.36 788.3,-314.01"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="787.68,-317.46 798.2,-316.18 789.18,-310.62 787.68,-317.46"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node">
-<title>Node9</title>
-<g id="a_node9"><a xlink:href="classcore_1_1_observer.html#a12bf1ddfdb90f05f28d16c09ce0658f8" target="_top" xlink:title=" ">
+<!-- Node10 -->
+<g id="node10" class="node">
+<title>Node10</title>
+<g id="a_node10"><a xlink:href="classcore_1_1_observer.html#a12bf1ddfdb90f05f28d16c09ce0658f8" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="781,-226 781,-245 930,-245 930,-226 781,-226"/>
 <text text-anchor="middle" x="855.5" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00">core::Observer::isObserved</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node9 -->
-<g id="edge9" class="edge">
-<title>Node8&#45;&gt;Node9</title>
+<!-- Node9&#45;&gt;Node10 -->
+<g id="edge10" class="edge">
+<title>Node9&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M714.69,-269.5C733.11,-264.99 753.38,-260.04 772,-255.5 782.74,-252.88 794.28,-250.08 805.21,-247.43"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="806.16,-250.8 815.05,-245.05 804.51,-244 806.16,-250.8"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node">
-<title>Node10</title>
-<g id="a_node10"><a xlink:href="classcore_1_1_descriptor_event_publisher.html#ac1bfb115c6aba58d380862a43db457e8" target="_top" xlink:title=" ">
+<!-- Node11 -->
+<g id="node11" class="node">
+<title>Node11</title>
+<g id="a_node11"><a xlink:href="classcore_1_1_descriptor_event_publisher.html#ac1bfb115c6aba58d380862a43db457e8" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="772,-264.5 772,-294.5 939,-294.5 939,-264.5 772,-264.5"/>
 <text text-anchor="start" x="780" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::DescriptorEventPublisher</text>
 <text text-anchor="middle" x="855.5" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">::suspend</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node10 -->
-<g id="edge10" class="edge">
-<title>Node8&#45;&gt;Node10</title>
+<!-- Node9&#45;&gt;Node11 -->
+<g id="edge11" class="edge">
+<title>Node9&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M734.68,-282.48C743.54,-282.26 752.62,-282.03 761.61,-281.81"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="761.8,-285.31 771.71,-281.56 761.63,-278.31 761.8,-285.31"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node">
-<title>Node11</title>
-<g id="a_node11"><a xlink:href="classcore_1_1_descriptor_event_publisher.html#a5e0e1a78a4bae48537ba6d0425a7c1cf" target="_top" xlink:title=" ">
+<!-- Node12 -->
+<g id="node12" class="node">
+<title>Node12</title>
+<g id="a_node12"><a xlink:href="classcore_1_1_descriptor_event_publisher.html#a5e0e1a78a4bae48537ba6d0425a7c1cf" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="975,-264.5 975,-294.5 1142,-294.5 1142,-264.5 975,-264.5"/>
 <text text-anchor="start" x="983" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::DescriptorEventPublisher</text>
 <text text-anchor="middle" x="1058.5" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">::muxOff</text>
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node11 -->
-<g id="edge11" class="edge">
-<title>Node10&#45;&gt;Node11</title>
+<!-- Node11&#45;&gt;Node12 -->
+<g id="edge12" class="edge">
+<title>Node11&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M939.12,-279.5C947.61,-279.5 956.27,-279.5 964.85,-279.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="964.87,-283 974.87,-279.5 964.87,-276 964.87,-283"/>
-</g>
-<!-- Node13 -->
-<g id="node13" class="node">
-<title>Node13</title>
-<g id="a_node13"><a xlink:href="classcore_1_1_event.html#ad4d48001b033cdcd0eb4f509cf53e396" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="596,-72 596,-91 709,-91 709,-72 596,-72"/>
-<text text-anchor="middle" x="652.5" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00">core::Event::publish</text>
-</a>
-</g>
-</g>
-<!-- Node12&#45;&gt;Node13 -->
-<g id="edge14" class="edge">
-<title>Node12&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M504.41,-132.41C513.95,-129.54 523.79,-126.49 533,-123.5 561.15,-114.35 592.73,-103.1 616.21,-94.55"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="617.55,-97.79 625.74,-91.07 615.15,-91.22 617.55,-97.79"/>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="classcore_1_1_event_loop.html#a17f1623de6ca2ea2682c63cf502c3c36" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="783.5,-88.5 783.5,-118.5 927.5,-118.5 927.5,-88.5 783.5,-88.5"/>
-<text text-anchor="start" x="791.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::EventLoop::getEvent</text>
-<text text-anchor="middle" x="855.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">Multiplexer</text>
+<g id="a_node14"><a xlink:href="classcore_1_1_event.html#ad4d48001b033cdcd0eb4f509cf53e396" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="596,-72 596,-91 709,-91 709,-72 596,-72"/>
+<text text-anchor="middle" x="652.5" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00">core::Event::publish</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node14 -->
 <g id="edge15" class="edge">
 <title>Node13&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M709.22,-87.6C728.98,-89.76 751.64,-92.24 773.1,-94.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="772.86,-98.09 783.18,-95.69 773.62,-91.13 772.86,-98.09"/>
+<path fill="none" stroke="midnightblue" d="M504.41,-132.41C513.95,-129.54 523.79,-126.49 533,-123.5 561.15,-114.35 592.73,-103.1 616.21,-94.55"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="617.55,-97.79 625.74,-91.07 615.15,-91.22 617.55,-97.79"/>
 </g>
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="classcore_1_1_event_loop.html#a413d227511f68c2c9939719bd2590794" target="_top" xlink:title=" ">
+<g id="a_node15"><a xlink:href="classcore_1_1_event_loop.html#a17f1623de6ca2ea2682c63cf502c3c36" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="783.5,-88.5 783.5,-118.5 927.5,-118.5 927.5,-88.5 783.5,-88.5"/>
+<text text-anchor="start" x="791.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::EventLoop::getEvent</text>
+<text text-anchor="middle" x="855.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">Multiplexer</text>
+</a>
+</g>
+</g>
+<!-- Node14&#45;&gt;Node15 -->
+<g id="edge16" class="edge">
+<title>Node14&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M709.22,-87.6C728.98,-89.76 751.64,-92.24 773.1,-94.59"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="772.86,-98.09 783.18,-95.69 773.62,-91.13 772.86,-98.09"/>
+</g>
+<!-- Node16 -->
+<g id="node16" class="node">
+<title>Node16</title>
+<g id="a_node16"><a xlink:href="classcore_1_1_event_loop.html#a413d227511f68c2c9939719bd2590794" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="784.5,-50 784.5,-69 926.5,-69 926.5,-50 784.5,-50"/>
 <text text-anchor="middle" x="855.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">core::EventLoop::instance</text>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node15 -->
-<g id="edge16" class="edge">
-<title>Node13&#45;&gt;Node15</title>
+<!-- Node14&#45;&gt;Node16 -->
+<g id="edge17" class="edge">
+<title>Node14&#45;&gt;Node16</title>
 <path fill="none" stroke="midnightblue" d="M709.22,-75.4C729.28,-73.21 752.33,-70.68 774.08,-68.3"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="774.73,-71.75 784.29,-67.18 773.97,-64.79 774.73,-71.75"/>
 </g>
-<!-- Node16 -->
-<g id="node16" class="node">
-<title>Node16</title>
-<g id="a_node16"><a xlink:href="classcore_1_1_event_multiplexer.html#acd7ae9bc9f6028e979515a18c1747dcf" target="_top" xlink:title=" ">
+<!-- Node17 -->
+<g id="node17" class="node">
+<title>Node17</title>
+<g id="a_node17"><a xlink:href="classcore_1_1_event_multiplexer.html#acd7ae9bc9f6028e979515a18c1747dcf" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="792,-0.5 792,-30.5 919,-30.5 919,-0.5 792,-0.5"/>
 <text text-anchor="start" x="800" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::EventMultiplexer</text>
 <text text-anchor="middle" x="855.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::publish</text>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node16 -->
-<g id="edge17" class="edge">
-<title>Node13&#45;&gt;Node16</title>
+<!-- Node14&#45;&gt;Node17 -->
+<g id="edge18" class="edge">
+<title>Node14&#45;&gt;Node17</title>
 <path fill="none" stroke="midnightblue" d="M680.23,-71.92C704.18,-63.41 740.32,-50.78 772,-40.5 779.13,-38.19 786.62,-35.82 794.07,-33.52"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="795.26,-36.81 803.79,-30.53 793.21,-30.12 795.26,-36.81"/>
 </g>
-<!-- Node17 -->
-<g id="node17" class="node">
-<title>Node17</title>
-<g id="a_node17"><a xlink:href="classcore_1_1_event_multiplexer_1_1_event_queue.html#a009075f2f16a78d3bf8d9e3a20226336" target="_top" xlink:title=" ">
+<!-- Node18 -->
+<g id="node18" class="node">
+<title>Node18</title>
+<g id="a_node18"><a xlink:href="classcore_1_1_event_multiplexer_1_1_event_queue.html#a009075f2f16a78d3bf8d9e3a20226336" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="995,-0.5 995,-30.5 1122,-30.5 1122,-0.5 995,-0.5"/>
 <text text-anchor="start" x="1003" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::EventMultiplexer</text>
 <text text-anchor="middle" x="1058.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::EventQueue::insert</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node17 -->
-<g id="edge18" class="edge">
-<title>Node16&#45;&gt;Node17</title>
+<!-- Node17&#45;&gt;Node18 -->
+<g id="edge19" class="edge">
+<title>Node17&#45;&gt;Node18</title>
 <path fill="none" stroke="midnightblue" d="M919.27,-15.5C940.05,-15.5 963.35,-15.5 984.82,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="984.86,-19 994.86,-15.5 984.86,-12 984.86,-19"/>
 </g>
-<!-- Node19&#45;&gt;Node5 -->
-<g id="edge23" class="edge">
-<title>Node19&#45;&gt;Node5</title>
+<!-- Node20&#45;&gt;Node6 -->
+<g id="edge24" class="edge">
+<title>Node20&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M722.02,-201.6C727.08,-204.36 731.83,-207.63 736,-211.5 768.49,-241.64 739.34,-274.54 772,-304.5 777.02,-309.11 782.88,-312.83 789.11,-315.85"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="787.89,-319.13 798.46,-319.77 790.6,-312.68 787.89,-319.13"/>
 </g>
-<!-- Node19&#45;&gt;Node9 -->
-<g id="edge24" class="edge">
-<title>Node19&#45;&gt;Node9</title>
+<!-- Node20&#45;&gt;Node10 -->
+<g id="edge25" class="edge">
+<title>Node20&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M711.9,-201.55C731.03,-206.41 752.4,-211.76 772,-216.5 781.75,-218.86 792.17,-221.31 802.2,-223.63"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="801.53,-227.07 812.06,-225.91 803.11,-220.25 801.53,-227.07"/>
-</g>
-<!-- Node20 -->
-<g id="node20" class="node">
-<title>Node20</title>
-<g id="a_node20"><a xlink:href="classutils_1_1_timeval.html#a54b232dc1ffeea007100dcd1caad1987" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="782,-138 782,-157 929,-157 929,-138 782,-138"/>
-<text text-anchor="middle" x="855.5" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">utils::Timeval::currentTime</text>
-</a>
-</g>
-</g>
-<!-- Node19&#45;&gt;Node20 -->
-<g id="edge21" class="edge">
-<title>Node19&#45;&gt;Node20</title>
-<path fill="none" stroke="midnightblue" d="M730.92,-171.48C752.31,-167.33 775.16,-162.89 795.33,-158.98"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="796.15,-162.39 805.3,-157.05 794.81,-155.52 796.15,-162.39"/>
-</g>
-<!-- Node22 -->
-<g id="node22" class="node">
-<title>Node22</title>
-<g id="a_node22"><a xlink:href="classcore_1_1_descriptor_event_publisher.html#adef0cdee352a13b99772af079fb7bfe1" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="772,-176.5 772,-206.5 939,-206.5 939,-176.5 772,-176.5"/>
-<text text-anchor="start" x="780" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::DescriptorEventPublisher</text>
-<text text-anchor="middle" x="855.5" y="-183.5" font-family="Helvetica,sans-Serif" font-size="10.00">::resume</text>
-</a>
-</g>
-</g>
-<!-- Node19&#45;&gt;Node22 -->
-<g id="edge25" class="edge">
-<title>Node19&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M734.68,-188.52C743.54,-188.74 752.62,-188.97 761.61,-189.19"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="761.63,-192.69 771.71,-189.44 761.8,-185.69 761.63,-192.69"/>
 </g>
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
-<g id="a_node21"><a xlink:href="namespacecore_1_1system.html#acf9e7364dbf51f07083e05caa50d3b66" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="982.5,-138 982.5,-157 1134.5,-157 1134.5,-138 982.5,-138"/>
-<text text-anchor="middle" x="1058.5" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">core::system::gettimeofday</text>
+<g id="a_node21"><a xlink:href="classutils_1_1_timeval.html#a54b232dc1ffeea007100dcd1caad1987" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="782,-138 782,-157 929,-157 929,-138 782,-138"/>
+<text text-anchor="middle" x="855.5" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">utils::Timeval::currentTime</text>
 </a>
 </g>
 </g>
 <!-- Node20&#45;&gt;Node21 -->
 <g id="edge22" class="edge">
 <title>Node20&#45;&gt;Node21</title>
-<path fill="none" stroke="midnightblue" d="M929.07,-147.5C943,-147.5 957.71,-147.5 972.01,-147.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="972.33,-151 982.33,-147.5 972.33,-144 972.33,-151"/>
+<path fill="none" stroke="midnightblue" d="M730.92,-171.48C752.31,-167.33 775.16,-162.89 795.33,-158.98"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="796.15,-162.39 805.3,-157.05 794.81,-155.52 796.15,-162.39"/>
 </g>
 <!-- Node23 -->
 <g id="node23" class="node">
 <title>Node23</title>
-<g id="a_node23"><a xlink:href="classcore_1_1_descriptor_event_publisher.html#a8cdba59fd3522f1e108a21f6f818840e" target="_top" xlink:title=" ">
+<g id="a_node23"><a xlink:href="classcore_1_1_descriptor_event_publisher.html#adef0cdee352a13b99772af079fb7bfe1" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="772,-176.5 772,-206.5 939,-206.5 939,-176.5 772,-176.5"/>
+<text text-anchor="start" x="780" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::DescriptorEventPublisher</text>
+<text text-anchor="middle" x="855.5" y="-183.5" font-family="Helvetica,sans-Serif" font-size="10.00">::resume</text>
+</a>
+</g>
+</g>
+<!-- Node20&#45;&gt;Node23 -->
+<g id="edge26" class="edge">
+<title>Node20&#45;&gt;Node23</title>
+<path fill="none" stroke="midnightblue" d="M734.68,-188.52C743.54,-188.74 752.62,-188.97 761.61,-189.19"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="761.63,-192.69 771.71,-189.44 761.8,-185.69 761.63,-192.69"/>
+</g>
+<!-- Node22 -->
+<g id="node22" class="node">
+<title>Node22</title>
+<g id="a_node22"><a xlink:href="namespacecore_1_1system.html#acf9e7364dbf51f07083e05caa50d3b66" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="982.5,-138 982.5,-157 1134.5,-157 1134.5,-138 982.5,-138"/>
+<text text-anchor="middle" x="1058.5" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">core::system::gettimeofday</text>
+</a>
+</g>
+</g>
+<!-- Node21&#45;&gt;Node22 -->
+<g id="edge23" class="edge">
+<title>Node21&#45;&gt;Node22</title>
+<path fill="none" stroke="midnightblue" d="M929.07,-147.5C943,-147.5 957.71,-147.5 972.01,-147.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="972.33,-151 982.33,-147.5 972.33,-144 972.33,-151"/>
+</g>
+<!-- Node24 -->
+<g id="node24" class="node">
+<title>Node24</title>
+<g id="a_node24"><a xlink:href="classcore_1_1_descriptor_event_publisher.html#a8cdba59fd3522f1e108a21f6f818840e" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="975,-176.5 975,-206.5 1142,-206.5 1142,-176.5 975,-176.5"/>
 <text text-anchor="start" x="983" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::DescriptorEventPublisher</text>
 <text text-anchor="middle" x="1058.5" y="-183.5" font-family="Helvetica,sans-Serif" font-size="10.00">::muxOn</text>
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node23 -->
-<g id="edge26" class="edge">
-<title>Node22&#45;&gt;Node23</title>
+<!-- Node23&#45;&gt;Node24 -->
+<g id="edge27" class="edge">
+<title>Node23&#45;&gt;Node24</title>
 <path fill="none" stroke="midnightblue" d="M939.12,-191.5C947.61,-191.5 956.27,-191.5 964.85,-191.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="964.87,-195 974.87,-191.5 964.87,-188 964.87,-195"/>
 </g>

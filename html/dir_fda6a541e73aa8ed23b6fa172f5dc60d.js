@@ -11,6 +11,9 @@ var dir_fda6a541e73aa8ed23b6fa172f5dc60d =
     [ "SocketConnection.h", "stream_2_socket_connection_8h.html", [
       [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1_socket_connection.html", "classcore_1_1socket_1_1stream_1_1_socket_connection" ]
     ] ],
+    [ "SocketConnectionFactory.h", "_socket_connection_factory_8h.html", [
+      [ "SocketConnectionFactory", "classcore_1_1socket_1_1stream_1_1_socket_connection_factory.html", "classcore_1_1socket_1_1stream_1_1_socket_connection_factory" ]
+    ] ],
     [ "SocketConnector.h", "_socket_connector_8h.html", [
       [ "SocketConnector", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", "classcore_1_1socket_1_1stream_1_1_socket_connector" ]
     ] ],

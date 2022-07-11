@@ -95,13 +95,13 @@ $(document).ready(function(){initNavTree('classcore_1_1poll_1_1_event_multiplexe
 <div class="dynheader">
 Inheritance diagram for core::poll::EventMultiplexer:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1poll_1_1_event_multiplexer__inherit__graph.svg" width="243" height="580"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1poll_1_1_event_multiplexer__inherit__graph.svg" width="212" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for core::poll::EventMultiplexer:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1poll_1_1_event_multiplexer__coll__graph.svg" width="538" height="838"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1poll_1_1_event_multiplexer__coll__graph.svg" width="503" height="231"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -133,8 +133,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a8ef5f9885d979ff34f9c8e1690cf486e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8b3e268037a3a9acc462306f4c5f223"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1poll_1_1_event_multiplexer.html#ae8b3e268037a3a9acc462306f4c5f223">multiplex</a> (<a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;tickTimeOut) override</td></tr>
 <tr class="separator:ae8b3e268037a3a9acc462306f4c5f223"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98473b9bdfbc2a5f9f47e06ef577b2e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1poll_1_1_event_multiplexer.html#a98473b9bdfbc2a5f9f47e06ef577b2e5">publishActiveEvents</a> (int count) override</td></tr>
-<tr class="separator:a98473b9bdfbc2a5f9f47e06ef577b2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dfc47c9ce40d613e6e5c9624899f444"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1poll_1_1_event_multiplexer.html#a8dfc47c9ce40d613e6e5c9624899f444">publishActiveEvents</a> () override</td></tr>
+<tr class="separator:a8dfc47c9ce40d613e6e5c9624899f444"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -161,6 +161,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a8060724fcd738de104bcd8eb97ee9ce2 inherit pro_attribs_classcore_1_1_event_multiplexer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9490865c8f016ec248e68c5a376fc21 inherit pro_attribs_classcore_1_1_event_multiplexer"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1_timer_event_publisher.html">core::TimerEventPublisher</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_multiplexer.html#af9490865c8f016ec248e68c5a376fc21">timerEventPublisher</a></td></tr>
 <tr class="separator:af9490865c8f016ec248e68c5a376fc21 inherit pro_attribs_classcore_1_1_event_multiplexer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a315da7c21cdd5f3ab89ec758d8ac1c08 inherit pro_attribs_classcore_1_1_event_multiplexer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_multiplexer.html#a315da7c21cdd5f3ab89ec758d8ac1c08">activeEventCount</a> = 0</td></tr>
+<tr class="separator:a315da7c21cdd5f3ab89ec758d8ac1c08 inherit pro_attribs_classcore_1_1_event_multiplexer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -213,7 +215,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;              <span class="keyword">new</span> <a class="code" href="classcore_1_1poll_1_1_descriptor_event_publisher.html">core::poll::DescriptorEventPublisher</a>(<span class="stringliteral">&quot;WRITE&quot;</span>, <a class="code" href="classcore_1_1poll_1_1_event_multiplexer.html#aa9e5e8b2aefbfde431c1075564d607fb">pollFdsManager</a>, POLLOUT, POLLOUT),</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;              <span class="keyword">new</span> <a class="code" href="classcore_1_1poll_1_1_descriptor_event_publisher.html">core::poll::DescriptorEventPublisher</a>(<span class="stringliteral">&quot;EXCEPT&quot;</span>, <a class="code" href="classcore_1_1poll_1_1_event_multiplexer.html#aa9e5e8b2aefbfde431c1075564d607fb">pollFdsManager</a>, POLLPRI, POLLPRI)) {</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1poll_1_1_descriptor_event_publisher_html"><div class="ttname"><a href="classcore_1_1poll_1_1_descriptor_event_publisher.html">core::poll::DescriptorEventPublisher</a></div><div class="ttdef"><b>Definition:</b> <a href="multiplexer_2poll_2_descriptor_event_publisher_8h_source.html#l00038">DescriptorEventPublisher.h:38</a></div></div>
+<div class="ttc" id="aclasscore_1_1poll_1_1_descriptor_event_publisher_html"><div class="ttname"><a href="classcore_1_1poll_1_1_descriptor_event_publisher.html">core::poll::DescriptorEventPublisher</a></div><div class="ttdef"><b>Definition:</b> <a href="multiplexer_2poll_2_descriptor_event_publisher_8h_source.html#l00040">DescriptorEventPublisher.h:40</a></div></div>
 <div class="ttc" id="aclasscore_1_1poll_1_1_event_multiplexer_html_aa9e5e8b2aefbfde431c1075564d607fb"><div class="ttname"><a href="classcore_1_1poll_1_1_event_multiplexer.html#aa9e5e8b2aefbfde431c1075564d607fb">core::poll::EventMultiplexer::pollFdsManager</a></div><div class="ttdeci">PollFdsManager pollFdsManager</div><div class="ttdef"><b>Definition:</b> <a href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00087">EventMultiplexer.h:87</a></div></div>
 <div class="ttc" id="amultiplexer_2epoll_2_event_multiplexer_8cpp_html_aa1d545e5395a62d3593bbc511757dad4"><div class="ttname"><a href="multiplexer_2epoll_2_event_multiplexer_8cpp.html#aa1d545e5395a62d3593bbc511757dad4">EventMultiplexer</a></div><div class="ttdeci">core::EventMultiplexer &amp; EventMultiplexer()</div><div class="ttdef"><b>Definition:</b> <a href="multiplexer_2epoll_2_event_multiplexer_8cpp_source.html#l00029">EventMultiplexer.cpp:29</a></div></div>
 </div><!-- fragment -->
@@ -279,10 +281,10 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1poll_1_1_poll_fds_manager_html_a0311600f42470cf1d8289bb4ba03373b"><div class="ttname"><a href="classcore_1_1poll_1_1_poll_fds_manager.html#a0311600f42470cf1d8289bb4ba03373b">core::poll::PollFdsManager::getCurrentSize</a></div><div class="ttdeci">nfds_t getCurrentSize() const</div><div class="ttdef"><b>Definition:</b> <a href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00127">EventMultiplexer.cpp:127</a></div></div>
 <div class="ttc" id="aclasscore_1_1poll_1_1_poll_fds_manager_html_a631f4b660fee73cfea65f898438788b0"><div class="ttname"><a href="classcore_1_1poll_1_1_poll_fds_manager.html#a631f4b660fee73cfea65f898438788b0">core::poll::PollFdsManager::getEvents</a></div><div class="ttdeci">pollfd * getEvents()</div><div class="ttdef"><b>Definition:</b> <a href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00119">EventMultiplexer.cpp:119</a></div></div>
-<div class="ttc" id="aclassutils_1_1_timeval_html_a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b"><div class="ttname"><a href="classutils_1_1_timeval.html#a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b">utils::Timeval::ms</a></div><div class="ttdeci">int ms() const</div><div class="ttdef"><b>Definition:</b> <a href="_timeval_8cpp_source.html#l00161">Timeval.cpp:161</a></div></div>
+<div class="ttc" id="aclassutils_1_1_timeval_html_a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b"><div class="ttname"><a href="classutils_1_1_timeval.html#a04ecd2aedec3bb8b7d5ebe7b6b6c8b7b">utils::Timeval::ms</a></div><div class="ttdeci">int ms() const</div><div class="ttdef"><b>Definition:</b> <a href="_timeval_8cpp_source.html#l00147">Timeval.cpp:147</a></div></div>
 <div class="ttc" id="anamespacecore_1_1system_html_ab33bc3708f662ee03fc101d59ebbea94"><div class="ttname"><a href="namespacecore_1_1system.html#ab33bc3708f662ee03fc101d59ebbea94">core::system::poll</a></div><div class="ttdeci">int poll(pollfd *fds, nfds_t nfds, int timeout)</div><div class="ttdef"><b>Definition:</b> <a href="poll_8cpp_source.html#l00029">poll.cpp:29</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00127">core::poll::PollFdsManager::getCurrentSize()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00119">core::poll::PollFdsManager::getEvents()</a>, <a class="el" href="_timeval_8cpp_source.html#l00161">utils::Timeval::ms()</a>, <a class="el" href="poll_8cpp_source.html#l00029">core::system::poll()</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00087">pollFdsManager</a>.</p>
+<p class="reference">References <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00127">core::poll::PollFdsManager::getCurrentSize()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00119">core::poll::PollFdsManager::getEvents()</a>, <a class="el" href="_timeval_8cpp_source.html#l00147">utils::Timeval::ms()</a>, <a class="el" href="poll_8cpp_source.html#l00029">core::system::poll()</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8h_source.html#l00087">pollFdsManager</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -318,8 +320,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a98473b9bdfbc2a5f9f47e06ef577b2e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98473b9bdfbc2a5f9f47e06ef577b2e5">&#9670;&nbsp;</a></span>publishActiveEvents()</h2>
+<a id="a8dfc47c9ce40d613e6e5c9624899f444"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dfc47c9ce40d613e6e5c9624899f444">&#9670;&nbsp;</a></span>publishActiveEvents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -330,8 +332,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void core::poll::EventMultiplexer::publishActiveEvents </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>count</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -342,20 +343,21 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classcore_1_1_event_multiplexer.html#a59e9cf3219d3ae757769b2d36d514c96">core::EventMultiplexer</a>.</p>
+<p>Implements <a class="el" href="classcore_1_1_event_multiplexer.html#ac5f178c267e5456514d28244ac25dd0c">core::EventMultiplexer</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00142">142</a> of file <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                                                        {</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        <span class="keywordflow">if</span> (count &gt; 0) {</div>
+<div class="fragment"><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                                               {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classcore_1_1_event_multiplexer.html#a315da7c21cdd5f3ab89ec758d8ac1c08">activeEventCount</a> &gt; 0) {</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_descriptor_event_publisher.html">core::DescriptorEventPublisher</a>* <span class="keyword">const</span> descriptorEventPublisher : <a class="code" href="classcore_1_1_event_multiplexer.html#a8060724fcd738de104bcd8eb97ee9ce2">descriptorEventPublishers</a>) {</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                descriptorEventPublisher-&gt;publishActiveEvents();</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            }</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        }</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1_descriptor_event_publisher_html"><div class="ttname"><a href="classcore_1_1_descriptor_event_publisher.html">core::DescriptorEventPublisher</a></div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_event_publisher_8h_source.html#l00042">DescriptorEventPublisher.h:42</a></div></div>
-<div class="ttc" id="aclasscore_1_1_event_multiplexer_html_a8060724fcd738de104bcd8eb97ee9ce2"><div class="ttname"><a href="classcore_1_1_event_multiplexer.html#a8060724fcd738de104bcd8eb97ee9ce2">core::EventMultiplexer::descriptorEventPublishers</a></div><div class="ttdeci">std::array&lt; DescriptorEventPublisher *, 3 &gt; descriptorEventPublishers</div><div class="ttdef"><b>Definition:</b> <a href="_event_multiplexer_8h_source.html#l00098">EventMultiplexer.h:98</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_multiplexer_html_a315da7c21cdd5f3ab89ec758d8ac1c08"><div class="ttname"><a href="classcore_1_1_event_multiplexer.html#a315da7c21cdd5f3ab89ec758d8ac1c08">core::EventMultiplexer::activeEventCount</a></div><div class="ttdeci">int activeEventCount</div><div class="ttdef"><b>Definition:</b> <a href="_event_multiplexer_8h_source.html#l00102">EventMultiplexer.h:102</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_multiplexer_html_a8060724fcd738de104bcd8eb97ee9ce2"><div class="ttname"><a href="classcore_1_1_event_multiplexer.html#a8060724fcd738de104bcd8eb97ee9ce2">core::EventMultiplexer::descriptorEventPublishers</a></div><div class="ttdeci">std::array&lt; DescriptorEventPublisher *, 3 &gt; descriptorEventPublishers</div><div class="ttdef"><b>Definition:</b> <a href="_event_multiplexer_8h_source.html#l00099">EventMultiplexer.h:99</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_multiplexer_8h_source.html#l00098">core::EventMultiplexer::descriptorEventPublishers</a>.</p>
+<p class="reference">References <a class="el" href="_event_multiplexer_8h_source.html#l00102">core::EventMultiplexer::activeEventCount</a>, and <a class="el" href="_event_multiplexer_8h_source.html#l00099">core::EventMultiplexer::descriptorEventPublishers</a>.</p>
 
 </div>
 </div>

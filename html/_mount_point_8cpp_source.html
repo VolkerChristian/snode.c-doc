@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>snode.c: express/dispatcher/MountPoint.cpp Source File</title>
+<title>snode.c: express/MountPoint.cpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -103,21 +103,29 @@ $(document).ready(function(){initNavTree('_mount_point_8cpp_source.html',''); in
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * along with this program. If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_mount_point_8h.html">MountPoint.h</a>&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_mount_point_8h.html">express/MountPoint.h</a>&quot;</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceexpress_1_1dispatcher.html">express::dispatcher</a> {}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceexpress.html">express</a> {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="structexpress_1_1_mount_point.html#a1f3448768d49bdb41051657dbc328fce">   27</a></span>&#160;    <a class="code" href="structexpress_1_1_mount_point.html#a1f3448768d49bdb41051657dbc328fce">MountPoint::MountPoint</a>(<span class="keyword">const</span> std::string&amp; method, <span class="keyword">const</span> std::string&amp; relativeMountPath)</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        : method(method)</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        , relativeMountPath(relativeMountPath) {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;} <span class="comment">// namespace express</span></div>
 <div class="ttc" id="a_mount_point_8h_html"><div class="ttname"><a href="_mount_point_8h.html">MountPoint.h</a></div></div>
-<div class="ttc" id="anamespaceexpress_1_1dispatcher_html"><div class="ttname"><a href="namespaceexpress_1_1dispatcher.html">express::dispatcher</a></div><div class="ttdef"><b>Definition:</b> <a href="_application_dispatcher_8cpp_source.html#l00030">ApplicationDispatcher.cpp:30</a></div></div>
+<div class="ttc" id="anamespaceexpress_html"><div class="ttname"><a href="namespaceexpress.html">express</a></div><div class="ttdef"><b>Definition:</b> <a href="_application_dispatcher_8cpp_source.html#l00030">ApplicationDispatcher.cpp:30</a></div></div>
+<div class="ttc" id="astructexpress_1_1_mount_point_html_a1f3448768d49bdb41051657dbc328fce"><div class="ttname"><a href="structexpress_1_1_mount_point.html#a1f3448768d49bdb41051657dbc328fce">express::MountPoint::MountPoint</a></div><div class="ttdeci">MountPoint(const std::string &amp;method, const std::string &amp;relativeMountPath)</div><div class="ttdef"><b>Definition:</b> <a href="_mount_point_8cpp_source.html#l00027">MountPoint.cpp:27</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_e2b20abddc1d75e9fa824bc5544f9c72.html">express</a></li><li class="navelem"><a class="el" href="dir_3c595372decbab6f0dc2e4f19bdc9b7a.html">dispatcher</a></li><li class="navelem"><a class="el" href="_mount_point_8cpp.html">MountPoint.cpp</a></li>
+    <li class="navelem"><a class="el" href="dir_e2b20abddc1d75e9fa824bc5544f9c72.html">express</a></li><li class="navelem"><a class="el" href="_mount_point_8cpp.html">MountPoint.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

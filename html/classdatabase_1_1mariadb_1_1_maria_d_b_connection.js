@@ -2,7 +2,7 @@ var classdatabase_1_1mariadb_1_1_maria_d_b_connection =
 [
     [ "MariaDBConnection", "classdatabase_1_1mariadb_1_1_maria_d_b_connection.html#a794891f07a71729619f09610842ec23c", null ],
     [ "MariaDBConnection", "classdatabase_1_1mariadb_1_1_maria_d_b_connection.html#ad16055156c7dee517d4c3414eee9521c", null ],
-    [ "~MariaDBConnection", "classdatabase_1_1mariadb_1_1_maria_d_b_connection.html#a8fe5a7029e0d0fc4929319ce1021bcc1", null ],
+    [ "~MariaDBConnection", "classdatabase_1_1mariadb_1_1_maria_d_b_connection.html#a848267cbce2a6c8d5dc7a308d0e6fc9f", null ],
     [ "checkStatus", "classdatabase_1_1mariadb_1_1_maria_d_b_connection.html#afd1535c332bed7e8562eb5cbe9feaa66", null ],
     [ "commandCompleted", "classdatabase_1_1mariadb_1_1_maria_d_b_connection.html#a5b1a0ad0d80cc448a80685789699fe61", null ],
     [ "commandContinue", "classdatabase_1_1mariadb_1_1_maria_d_b_connection.html#ab6064af831f9fbe11c742954db49fdb9", null ],

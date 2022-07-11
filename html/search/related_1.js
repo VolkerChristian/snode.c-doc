@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['basicauthentication_4277',['BasicAuthentication',['../classexpress_1_1middleware_1_1_basic_authentication.html#a2d8be6bb7c6e00f74be4986e12523b44',1,'express::middleware::BasicAuthentication']]]
+  ['socketconnection_4484',['SocketConnection',['../classcore_1_1socket_1_1_socket_context.html#afe0716ae0bb46ff2afc82c87b1ab49f1',1,'core::socket::SocketContext']]]
 ];

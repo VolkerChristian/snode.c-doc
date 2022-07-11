@@ -47,6 +47,7 @@ var namespace_c_l_i =
     [ "Validator", "class_c_l_i_1_1_validator.html", "class_c_l_i_1_1_validator" ],
     [ "CustomValidator", "class_c_l_i_1_1_custom_validator.html", null ],
     [ "TypeValidator", "class_c_l_i_1_1_type_validator.html", "class_c_l_i_1_1_type_validator" ],
+    [ "FileOnDefaultPath", "class_c_l_i_1_1_file_on_default_path.html", "class_c_l_i_1_1_file_on_default_path" ],
     [ "Range", "class_c_l_i_1_1_range.html", "class_c_l_i_1_1_range" ],
     [ "Bound", "class_c_l_i_1_1_bound.html", "class_c_l_i_1_1_bound" ],
     [ "IsMember", "class_c_l_i_1_1_is_member.html", "class_c_l_i_1_1_is_member" ],
@@ -106,7 +107,8 @@ var namespace_c_l_i =
       [ "TakeLast", "namespace_c_l_i.html#a991a3264d3459575fc7e83eb54d73d2ba91a7975e6be6ac082721192c7eb98891", null ],
       [ "TakeFirst", "namespace_c_l_i.html#a991a3264d3459575fc7e83eb54d73d2ba59a97fc8d11b2b3f89acfe1c3ac891df", null ],
       [ "Join", "namespace_c_l_i.html#a991a3264d3459575fc7e83eb54d73d2baa286d9991c6a547ae25a5f5216164b8f", null ],
-      [ "TakeAll", "namespace_c_l_i.html#a991a3264d3459575fc7e83eb54d73d2ba571fa4972dd227b4097ab6a774ca1263", null ]
+      [ "TakeAll", "namespace_c_l_i.html#a991a3264d3459575fc7e83eb54d73d2ba571fa4972dd227b4097ab6a774ca1263", null ],
+      [ "Sum", "namespace_c_l_i.html#a991a3264d3459575fc7e83eb54d73d2baa0ec87054b5e5b7847d0d8780a01a3d5", null ]
     ] ],
     [ "deprecate_option", "namespace_c_l_i.html#a5e83d92a6ec271c2439141feaede1136", null ],
     [ "deprecate_option", "namespace_c_l_i.html#ad6d89b5d1aba2ebdca5f94534d658cab", null ],

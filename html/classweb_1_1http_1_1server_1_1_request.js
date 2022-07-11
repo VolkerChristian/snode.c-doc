@@ -4,7 +4,7 @@ var classweb_1_1http_1_1server_1_1_request =
     [ "Request", "classweb_1_1http_1_1server_1_1_request.html#a32bfa99d4f24dfdfe14a2b0a9fbf63ec", null ],
     [ "~Request", "classweb_1_1http_1_1server_1_1_request.html#a574aa69208bbd3469f9f3453f4a86afc", null ],
     [ "cookie", "classweb_1_1http_1_1server_1_1_request.html#a682573954449cf969511fbcbe25f19cc", null ],
-    [ "header", "classweb_1_1http_1_1server_1_1_request.html#ad39cdf1338eb6a4d187d5bb7fe416c09", null ],
+    [ "get", "classweb_1_1http_1_1server_1_1_request.html#aa29d8d5a5b007453ce2b96b55e63960f", null ],
     [ "query", "classweb_1_1http_1_1server_1_1_request.html#a2d60f919578490bf24726cc77644ac0f", null ],
     [ "reset", "classweb_1_1http_1_1server_1_1_request.html#aa99e5d7f4175692faa4c65487a7370c8", null ],
     [ "SocketContext", "classweb_1_1http_1_1server_1_1_request.html#aa3d4727b864f12bef775c2184047d68a", null ],

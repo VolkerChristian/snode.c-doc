@@ -94,13 +94,13 @@ $(document).ready(function(){initNavTree('classdatabase_1_1mariadb_1_1commands_1
 <div class="dynheader">
 Inheritance diagram for database::mariadb::commands::async::MariaDBAutoCommitCommand:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_auto_commit_command__inherit__graph.svg" width="263" height="691"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_auto_commit_command__inherit__graph.svg" width="246" height="246"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for database::mariadb::commands::async::MariaDBAutoCommitCommand:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_auto_commit_command__coll__graph.svg" width="1632" height="1955"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_auto_commit_command__coll__graph.svg" width="1500" height="484"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -346,16 +346,16 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classdatabase_1_1mariadb_1_1_maria_d_b_command.html#aa1c389fd7797c1302615f464df918576">database::mariadb::MariaDBCommand</a>.</p>
+<p>Reimplemented from <a class="el" href="classdatabase_1_1mariadb_1_1_maria_d_b_command.html#a28796a334f9f6b564bb99eaa513aa2e8">database::mariadb::MariaDBCommand</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_maria_d_b_auto_commit_command_8cpp_source.html#l00054">54</a> of file <a class="el" href="_maria_d_b_auto_commit_command_8cpp_source.html">MariaDBAutoCommitCommand.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                                    {</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classdatabase_1_1mariadb_1_1_maria_d_b_command.html#a21dbfe439154587a4b72c1a02378fb65">commandName</a>() + <span class="stringliteral">&quot;: AutoCommit = &quot;</span> + <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">std::to_string</a>(<a class="code" href="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_auto_commit_command.html#acffd368cf96797bb8050e0ce8b4df484">autoCommit</a>);</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
-<div class="ttc" id="aclassdatabase_1_1mariadb_1_1_maria_d_b_command_html_a21dbfe439154587a4b72c1a02378fb65"><div class="ttname"><a href="classdatabase_1_1mariadb_1_1_maria_d_b_command.html#a21dbfe439154587a4b72c1a02378fb65">database::mariadb::MariaDBCommand::commandName</a></div><div class="ttdeci">const std::string &amp; commandName()</div><div class="ttdef"><b>Definition:</b> <a href="_maria_d_b_command_8cpp_source.html#l00044">MariaDBCommand.cpp:44</a></div></div>
-<div class="ttc" id="anamespace_c_l_i_1_1detail_html_a0e94052d485636fc9f18c21009026577"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">CLI::detail::to_string</a></div><div class="ttdeci">auto to_string(T &amp;&amp;value) -&gt; decltype(std::forward&lt; T &gt;(value))</div><div class="ttdoc">Convert an object to a string (directly forward if this can become a string)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l01203">CLI11.hpp:1203</a></div></div>
+<div class="ttc" id="aclassdatabase_1_1mariadb_1_1_maria_d_b_command_html_a21dbfe439154587a4b72c1a02378fb65"><div class="ttname"><a href="classdatabase_1_1mariadb_1_1_maria_d_b_command.html#a21dbfe439154587a4b72c1a02378fb65">database::mariadb::MariaDBCommand::commandName</a></div><div class="ttdeci">const std::string &amp; commandName()</div><div class="ttdef"><b>Definition:</b> <a href="_maria_d_b_command_8cpp_source.html#l00048">MariaDBCommand.cpp:48</a></div></div>
+<div class="ttc" id="anamespace_c_l_i_1_1detail_html_a0e94052d485636fc9f18c21009026577"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">CLI::detail::to_string</a></div><div class="ttdeci">auto to_string(T &amp;&amp;value) -&gt; decltype(std::forward&lt; T &gt;(value))</div><div class="ttdoc">Convert an object to a string (directly forward if this can become a string)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l01227">CLI11.hpp:1227</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_maria_d_b_auto_commit_command_8h_source.html#l00051">autoCommit</a>, <a class="el" href="_maria_d_b_command_8cpp_source.html#l00044">database::mariadb::MariaDBCommand::commandName()</a>, and <a class="el" href="_c_l_i11_8hpp_source.html#l01203">CLI::detail::to_string()</a>.</p>
+<p class="reference">References <a class="el" href="_maria_d_b_auto_commit_command_8h_source.html#l00051">autoCommit</a>, <a class="el" href="_maria_d_b_command_8cpp_source.html#l00048">database::mariadb::MariaDBCommand::commandName()</a>, and <a class="el" href="_c_l_i11_8hpp_source.html#l01227">CLI::detail::to_string()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

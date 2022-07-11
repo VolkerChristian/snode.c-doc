@@ -87,12 +87,6 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 <li>Daemon()
 : <a class="el" href="classutils_1_1_daemon.html#a6e5053c3e51d4ec8ccf5dea33af6e5bb">utils::Daemon</a>
 </li>
-<li>daemonize()
-: <a class="el" href="classutils_1_1_daemon.html#a89558caabfc72463184fd408e199554b">utils::Daemon</a>
-</li>
-<li>daemonized
-: <a class="el" href="classutils_1_1_daemon.html#a4f3f01758261c25f28bb2483be43fb52">utils::Daemon</a>
-</li>
 <li>DashesOnly()
 : <a class="el" href="class_c_l_i_1_1_bad_name_string.html#abd6369da75ae466d1eeef28bf764d6a7">CLI::BadNameString</a>
 </li>
@@ -140,7 +134,9 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 : <a class="el" href="classutils_1_1_config.html#a1938dc4a70d41e1d34993e7dad860a5f">utils::Config</a>
 </li>
 <li>del()
-: <a class="el" href="classexpress_1_1_router.html#a6a73f22ea1bd9e2fd32836b839a282ae">express::Router</a>
+: <a class="el" href="classexpress_1_1_root_route.html#afc39986823603e34c7d6a86e6dceb337">express::RootRoute</a>
+, <a class="el" href="classexpress_1_1_route.html#ac1b3a0d04ab18c7f46acfebe4722b0e0">express::Route</a>
+, <a class="el" href="classexpress_1_1_router.html#a634841bbd827a669be879489bdafc5a3">express::Router</a>
 </li>
 <li>delAttribute()
 : <a class="el" href="classutils_1_1_multible_attribute_injector.html#a0c447b5bd442cafd19370b0e694aef58">utils::MultibleAttributeInjector</a>
@@ -171,19 +167,19 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 , <a class="el" href="class_c_l_i_1_1_option.html#aa6427b2f3303cc4469cacdc098b9d4bf">CLI::Option</a>
 </li>
 <li>Descriptor()
-: <a class="el" href="classcore_1_1_descriptor.html#af505c25fb4316ad49ffc87f1e15980a8">core::Descriptor</a>
+: <a class="el" href="classcore_1_1_descriptor.html#a17e89671efda17063428c1fe8b85f8cd">core::Descriptor</a>
 </li>
 <li>DescriptorEventPublisher()
 : <a class="el" href="classcore_1_1_descriptor_event_publisher.html#a4e4b215d715ad689ad74bf7e297362cc">core::DescriptorEventPublisher</a>
+, <a class="el" href="classcore_1_1_descriptor_event_receiver.html#ad8fdf38b934708783fc2e575dcfd3232">core::DescriptorEventReceiver</a>
 </li>
 <li>descriptorEventPublisher
 : <a class="el" href="classcore_1_1_descriptor_event_receiver.html#a6946646a808f64f92675becaf2de7f7e">core::DescriptorEventReceiver</a>
 </li>
-<li>DescriptorEventPublisher
-: <a class="el" href="classcore_1_1_descriptor_event_receiver.html#ad8fdf38b934708783fc2e575dcfd3232">core::DescriptorEventReceiver</a>
-, <a class="el" href="classcore_1_1epoll_1_1_descriptor_event_publisher.html#ab0c4c0f63af72786ad011c6967a207bf">core::epoll::DescriptorEventPublisher</a>
+<li>DescriptorEventPublisher()
+: <a class="el" href="classcore_1_1epoll_1_1_descriptor_event_publisher.html#ab0c4c0f63af72786ad011c6967a207bf">core::epoll::DescriptorEventPublisher</a>
 , <a class="el" href="classcore_1_1_event_multiplexer.html#ad8fdf38b934708783fc2e575dcfd3232">core::EventMultiplexer</a>
-, <a class="el" href="classcore_1_1poll_1_1_descriptor_event_publisher.html#a7cb5406f466d008d9ab746f7b17f2d7c">core::poll::DescriptorEventPublisher</a>
+, <a class="el" href="classcore_1_1poll_1_1_descriptor_event_publisher.html#ab82e8330934c5515b9ecddd49f1543ae">core::poll::DescriptorEventPublisher</a>
 , <a class="el" href="classcore_1_1select_1_1_descriptor_event_publisher.html#a4a62d29e4e3d260b16c25aec13908853">core::select::DescriptorEventPublisher</a>
 </li>
 <li>descriptorEventPublishers
@@ -192,12 +188,9 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 <li>DescriptorEventReceiver()
 : <a class="el" href="classcore_1_1_descriptor_event_receiver.html#acda68fdd6262cecc1c4814b42a1d2a52">core::DescriptorEventReceiver</a>
 </li>
-<li>destroy()
-: <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory.html#a541beb533a38e8d88f78b4020f4cd8f6">web::http::SocketContextUpgradeFactory&lt; RequestT, ResponseT &gt;</a>
-</li>
 <li>destruct()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#ac0fa0b8e4449dab09b4f4d8e5b3106b1">core::socket::stream::SocketAcceptor&lt; ServerSocketT, SocketConnectionT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad3fe140bf7b611d99278804e548ac85e">core::socket::stream::SocketConnector&lt; ClientSocketT, SocketConnectionT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#a33b2498a4f2281fb33a6d153c6bb8ca8">core::socket::stream::SocketAcceptor&lt; SocketServerT, SocketConnectionT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a052a2641865511ec7655c3ef42a56667">core::socket::stream::SocketConnector&lt; SocketClientT, SocketConnectionT &gt;</a>
 </li>
 <li>details
 : <a class="el" href="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_connect_command.html#ae05ea87abe99cdb2634736bb5ad5215b">database::mariadb::commands::async::MariaDBConnectCommand</a>
@@ -241,11 +234,12 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 </li>
 <li>dispatch()
 : <a class="el" href="classcore_1_1_event.html#a291009de1804cd94c8df62eeff684085">core::Event</a>
-, <a class="el" href="classexpress_1_1dispatcher_1_1_application_dispatcher.html#abf26ea715a98d627335508c2a85ff99b">express::dispatcher::ApplicationDispatcher</a>
-, <a class="el" href="classexpress_1_1dispatcher_1_1_dispatcher.html#a2b6a9e8542c56f2a7bc04a506a63bc35">express::dispatcher::Dispatcher</a>
-, <a class="el" href="classexpress_1_1dispatcher_1_1_middleware_dispatcher.html#a211a3d7842f776bd4de412502f262ee2">express::dispatcher::MiddlewareDispatcher</a>
-, <a class="el" href="classexpress_1_1dispatcher_1_1_route.html#a92f624e04cc796c1f13342f257d7ff15">express::dispatcher::Route</a>
-, <a class="el" href="classexpress_1_1dispatcher_1_1_router_dispatcher.html#a7858ea828e2d2ee8ceb65b2c3212d7f7">express::dispatcher::RouterDispatcher</a>
+, <a class="el" href="classexpress_1_1dispatcher_1_1_application_dispatcher.html#a7fa37fb331a158eb372eded9d0c2a9bc">express::dispatcher::ApplicationDispatcher</a>
+, <a class="el" href="classexpress_1_1_dispatcher.html#a71daf9d4486cb211354a43dd0c1fcbd5">express::Dispatcher</a>
+, <a class="el" href="classexpress_1_1dispatcher_1_1_middleware_dispatcher.html#a8f1f904ebd375cd58635e00fee459b5a">express::dispatcher::MiddlewareDispatcher</a>
+, <a class="el" href="classexpress_1_1dispatcher_1_1_router_dispatcher.html#aaf6bdbc9f195dc25e4ea205d0e0a9ded">express::dispatcher::RouterDispatcher</a>
+, <a class="el" href="classexpress_1_1_root_route.html#af16bc704beb82bcaaa1fbf9a56a7bbaa">express::RootRoute</a>
+, <a class="el" href="classexpress_1_1_route.html#ac7062e5b9c72faf88dac03e85a0f0688">express::Route</a>
 </li>
 <li>dispatcher
 : <a class="el" href="classcore_1_1timer_1_1_interval_timer.html#a7e512dbb458a2983e1ab0e06577b3396">core::timer::IntervalTimer</a>
@@ -253,10 +247,17 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 , <a class="el" href="classcore_1_1timer_1_1_singleshot_timer.html#acc6291f0ec118f43c41a544cc5a7c648">core::timer::SingleshotTimer</a>
 </li>
 <li>Dispatcher()
-: <a class="el" href="classexpress_1_1dispatcher_1_1_dispatcher.html#a6a9da1c182b76621840dcf51fc64bd9b">express::dispatcher::Dispatcher</a>
+: <a class="el" href="classexpress_1_1_dispatcher.html#ad3978900687d5ebf169d01094b59cb9c">express::Dispatcher</a>
+, <a class="el" href="classexpress_1_1_route.html#ad90424f003fc2afb836709cbffa47e2c">express::Route</a>
 </li>
 <li>dispatcher
-: <a class="el" href="classexpress_1_1dispatcher_1_1_route.html#af30775337cf9107ba4647fc1d0fe5d6c">express::dispatcher::Route</a>
+: <a class="el" href="classexpress_1_1_route.html#a35432e8c2edafc9174a5bebf4c388029">express::Route</a>
+</li>
+<li>dispatcher::MiddlewareDispatcher
+: <a class="el" href="classexpress_1_1_next.html#ad8d2609562a3c69d361676ee6016c144">express::Next</a>
+</li>
+<li>dispatcher::RouterDispatcher
+: <a class="el" href="classexpress_1_1_route.html#a0dd18791e067f69dd9b940cc0735bb82">express::Route</a>
 </li>
 <li>dispatchEvent()
 : <a class="el" href="classcore_1_1_descriptor_event_receiver.html#a64855c1227e95bbc2ea1c1792562bf40">core::DescriptorEventReceiver</a>
@@ -269,6 +270,11 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 , <a class="el" href="classcore_1_1timer_1_1_interval_timer_stopable.html#a885a3e4c23c78edf41210f5734f5a222">core::timer::IntervalTimerStopable</a>
 , <a class="el" href="classcore_1_1timer_1_1_singleshot_timer.html#ac295163335c73b76eda6701e7bdc6560">core::timer::SingleshotTimer</a>
 , <a class="el" href="classcore_1_1_timer_event_receiver.html#a33a3c3c6d9503087dfb628c8e86646d6">core::TimerEventReceiver</a>
+</li>
+<li>dispatchNext()
+: <a class="el" href="classexpress_1_1_dispatcher.html#af20cf8d42c2f1636e723c312c6aef8c4">express::Dispatcher</a>
+, <a class="el" href="classexpress_1_1_route.html#a567dcb7f364fb1227231e1b5bef3b618">express::Route</a>
+, <a class="el" href="classexpress_1_1_state.html#a1b07b60446683bc5a7d18fbec4550a16">express::State</a>
 </li>
 <li>distribution
 : <a class="el" href="classweb_1_1websocket_1_1_transmitter.html#acf6bf8b785e765d00b75a0222056df3a">web::websocket::Transmitter</a>
@@ -294,11 +300,14 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 <li>doHandshake()
 : <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html#a3f3f95800656e2a4314b2a1688e42f97">core::socket::stream::tls::TLSHandshake</a>
 </li>
+<li>domain
+: <a class="el" href="classnet_1_1_socket.html#a896236087e4fa941390ed5b27f856271">net::Socket&lt; SocketAddressT &gt;</a>
+</li>
 <li>dontClose()
-: <a class="el" href="classcore_1_1_descriptor.html#aced383bc9484519db6943b0111ed6411">core::Descriptor</a>
+: <a class="el" href="classcore_1_1_descriptor.html#a0f1b4f39d43478f488bf9e5dd618cf89">core::Descriptor</a>
 </li>
 <li>doRead()
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#aaad14a17650d9421cb50667e8c74ecd6">core::socket::stream::SocketReader&lt; SocketT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_reader.html#a2bb6e3a9b83bb3c8fdf390f242c1ac83">core::socket::stream::SocketReader&lt; SocketT &gt;</a>
 </li>
 <li>doReadShutdown()
 : <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a9357593ff9cc620f8d212d1ff92e942e">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;</a>
@@ -324,6 +333,9 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 <li>doWriteShutdown()
 : <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html#afb7b9fbcd0e7b59b326b13c2428a84a3">core::socket::stream::SocketWriter&lt; SocketT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#ab5d3bb6c3435c24e7c263d8a39ad55a7">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;</a>
+</li>
+<li>dumpConfig
+: <a class="el" href="classutils_1_1_config.html#a4851020887d1c843f51350281c390dbb">utils::Config</a>
 </li>
 <li>dumpFrame()
 : <a class="el" href="classweb_1_1websocket_1_1_receiver.html#abca3cacfb74fd31ee884acd8814b7bf5">web::websocket::Receiver</a>

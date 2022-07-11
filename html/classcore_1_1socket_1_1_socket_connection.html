@@ -96,13 +96,13 @@ $(document).ready(function(){initNavTree('classcore_1_1socket_1_1_socket_connect
 <div class="dynheader">
 Inheritance diagram for core::socket::SocketConnection:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection__inherit__graph.svg" width="248" height="815"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection__inherit__graph.svg" width="248" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for core::socket::SocketConnection:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection__coll__graph.svg" width="304" height="742"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection__coll__graph.svg" width="307" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -124,8 +124,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a15c934a69a64a7d2a0f230ebf1033195"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a338bbe4566e163436c488de850a5c998"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a338bbe4566e163436c488de850a5c998">sendToPeer</a> (const std::string &amp;data)=0</td></tr>
 <tr class="separator:a338bbe4566e163436c488de850a5c998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4a6137f3d2fbf506bf3c0eb0366e39b"><td class="memItemLeft" align="right" valign="top">virtual ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#aa4a6137f3d2fbf506bf3c0eb0366e39b">readFromPeer</a> (char *junk, std::size_t junkLen)=0</td></tr>
-<tr class="separator:aa4a6137f3d2fbf506bf3c0eb0366e39b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ffab8fcbd535c8fe0a537dbc2efd0cb"><td class="memItemLeft" align="right" valign="top">virtual std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a5ffab8fcbd535c8fe0a537dbc2efd0cb">readFromPeer</a> (char *junk, std::size_t junkLen)=0</td></tr>
+<tr class="separator:a5ffab8fcbd535c8fe0a537dbc2efd0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87beaa9f0aadc53ba4842f27cb9cdb64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcore_1_1socket_1_1_socket_context.html">core::socket::SocketContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a87beaa9f0aadc53ba4842f27cb9cdb64">switchSocketContext</a> (<a class="el" href="classcore_1_1socket_1_1_socket_context_factory.html">core::socket::SocketContextFactory</a> *socketContextFactory)</td></tr>
 <tr class="separator:a87beaa9f0aadc53ba4842f27cb9cdb64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -139,8 +139,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a403ae6aa6530edad0c270fab846fd887"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae97de1bf267dd824d37005f6dbe251cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#ae97de1bf267dd824d37005f6dbe251cc">onDisconnected</a> ()</td></tr>
 <tr class="separator:ae97de1bf267dd824d37005f6dbe251cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2bc0a1e7f08d2569b2c31a3b0e9cef7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#ab2bc0a1e7f08d2569b2c31a3b0e9cef7">onReceiveFromPeer</a> ()</td></tr>
-<tr class="separator:ab2bc0a1e7f08d2569b2c31a3b0e9cef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad142e131012ef08754e2b2033eb7f0b9"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#ad142e131012ef08754e2b2033eb7f0b9">onReceiveFromPeer</a> ()</td></tr>
+<tr class="separator:ad142e131012ef08754e2b2033eb7f0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb86c58115ad8c2c1283f6b0b44899bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#adb86c58115ad8c2c1283f6b0b44899bd">onWriteError</a> (int errnum)</td></tr>
 <tr class="separator:adb86c58115ad8c2c1283f6b0b44899bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f2493a8555efd53e04abb68190fd59c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1socket_1_1_socket_connection.html#a8f2493a8555efd53e04abb68190fd59c">onReadError</a> (int errnum)</td></tr>
@@ -164,7 +164,7 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_socket_connection_8h_source.html#l00044">44</a> of file <a class="el" href="_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_connection_8h_source.html#l00043">43</a> of file <a class="el" href="_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a86554f83d39acab6e1359b620657e739"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a86554f83d39acab6e1359b620657e739">&#9670;&nbsp;</a></span>SocketConnection() <span class="overload">[1/3]</span></h2>
@@ -244,7 +244,7 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="_socket_connection_8cpp_source.html#l00032">32</a> of file <a class="el" href="_socket_connection_8cpp_source.html">SocketConnection.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        : <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af307fcbdffd8a43642fa80443dd2c72e">socketContext</a>(socketContextFactory-&gt;create(<span class="keyword">this</span>)) {</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1socket_1_1_socket_connection_html_af307fcbdffd8a43642fa80443dd2c72e"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_connection.html#af307fcbdffd8a43642fa80443dd2c72e">core::socket::SocketConnection::socketContext</a></div><div class="ttdeci">core::socket::SocketContext * socketContext</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connection_8h_source.html#l00084">SocketConnection.h:84</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1_socket_connection_html_af307fcbdffd8a43642fa80443dd2c72e"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_connection.html#af307fcbdffd8a43642fa80443dd2c72e">core::socket::SocketConnection::socketContext</a></div><div class="ttdeci">core::socket::SocketContext * socketContext</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connection_8h_source.html#l00083">SocketConnection.h:83</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -278,7 +278,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keyword">delete</span> <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af307fcbdffd8a43642fa80443dd2c72e">socketContext</a>;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_socket_connection_8h_source.html#l00084">socketContext</a>.</p>
+<p class="reference">References <a class="el" href="_socket_connection_8h_source.html#l00083">socketContext</a>.</p>
 
 </div>
 </div>
@@ -308,11 +308,11 @@ Private Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ab2f0c8920543bd78d837fe261340384f">core::socket::stream::SocketConnection&lt; SocketT, SocketReaderT, SocketWriterT &gt;</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_context_8cpp_source.html#l00077">core::socket::SocketContext::close()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_context_8cpp_source.html#l00076">core::socket::SocketContext::close()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection_a9b8dcd50d3aee2376df71eb53bb3805f_icgraph.svg" width="1836" height="578"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection_a9b8dcd50d3aee2376df71eb53bb3805f_icgraph.svg" width="1663" height="562"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -360,12 +360,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connection_8cpp_source.html#l00068">68</a> of file <a class="el" href="_socket_connection_8cpp_source.html">SocketConnection.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                                                {</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af307fcbdffd8a43642fa80443dd2c72e">socketContext</a>;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_socket_connection_8cpp_source.html#l00070">70</a> of file <a class="el" href="_socket_connection_8cpp_source.html">SocketConnection.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                                                                {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af307fcbdffd8a43642fa80443dd2c72e">socketContext</a>;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_socket_connection_8h_source.html#l00084">socketContext</a>.</p>
+<p class="reference">References <a class="el" href="_socket_connection_8h_source.html#l00083">socketContext</a>.</p>
 
 </div>
 </div>
@@ -398,7 +398,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_aef2e5a39254978011838469eda21deb1"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#aef2e5a39254978011838469eda21deb1">core::socket::SocketContext::onConnected</a></div><div class="ttdeci">virtual void onConnected()</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_8cpp_source.html#l00055">SocketContext.cpp:55</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_socket_context_8cpp_source.html#l00055">core::socket::SocketContext::onConnected()</a>, and <a class="el" href="_socket_connection_8h_source.html#l00084">socketContext</a>.</p>
+<p class="reference">References <a class="el" href="_socket_context_8cpp_source.html#l00055">core::socket::SocketContext::onConnected()</a>, and <a class="el" href="_socket_connection_8h_source.html#l00083">socketContext</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -437,7 +437,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_a0ba2685c1e091d7bda717f8ff7cf622e"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#a0ba2685c1e091d7bda717f8ff7cf622e">core::socket::SocketContext::onDisconnected</a></div><div class="ttdeci">virtual void onDisconnected()</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_8cpp_source.html#l00059">SocketContext.cpp:59</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_socket_context_8cpp_source.html#l00059">core::socket::SocketContext::onDisconnected()</a>, and <a class="el" href="_socket_connection_8h_source.html#l00084">socketContext</a>.</p>
+<p class="reference">References <a class="el" href="_socket_context_8cpp_source.html#l00059">core::socket::SocketContext::onDisconnected()</a>, and <a class="el" href="_socket_connection_8h_source.html#l00083">socketContext</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_socket_connection_8cpp_source.html#l00048">onReceiveFromPeer()</a>.</p>
 <div class="dynheader">
@@ -479,13 +479,13 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connection_8cpp_source.html#l00064">64</a> of file <a class="el" href="_socket_connection_8cpp_source.html">SocketConnection.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                                 {</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af307fcbdffd8a43642fa80443dd2c72e">socketContext</a>-&gt;<a class="code" href="classcore_1_1socket_1_1_socket_context.html#a0aaa6a1f014819bf83b3cdecf2c8462b">onReadError</a>(errnum);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_a0aaa6a1f014819bf83b3cdecf2c8462b"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#a0aaa6a1f014819bf83b3cdecf2c8462b">core::socket::SocketContext::onReadError</a></div><div class="ttdeci">virtual void onReadError(int errnum)</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_8cpp_source.html#l00088">SocketContext.cpp:88</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_socket_connection_8cpp_source.html#l00066">66</a> of file <a class="el" href="_socket_connection_8cpp_source.html">SocketConnection.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                                                 {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af307fcbdffd8a43642fa80443dd2c72e">socketContext</a>-&gt;<a class="code" href="classcore_1_1socket_1_1_socket_context.html#a0aaa6a1f014819bf83b3cdecf2c8462b">onReadError</a>(errnum);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_a0aaa6a1f014819bf83b3cdecf2c8462b"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#a0aaa6a1f014819bf83b3cdecf2c8462b">core::socket::SocketContext::onReadError</a></div><div class="ttdeci">virtual void onReadError(int errnum)</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_8cpp_source.html#l00087">SocketContext.cpp:87</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_socket_context_8cpp_source.html#l00088">core::socket::SocketContext::onReadError()</a>, and <a class="el" href="_socket_connection_8h_source.html#l00084">socketContext</a>.</p>
+<p class="reference">References <a class="el" href="_socket_context_8cpp_source.html#l00087">core::socket::SocketContext::onReadError()</a>, and <a class="el" href="_socket_connection_8h_source.html#l00083">socketContext</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -495,8 +495,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ab2bc0a1e7f08d2569b2c31a3b0e9cef7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2bc0a1e7f08d2569b2c31a3b0e9cef7">&#9670;&nbsp;</a></span>onReceiveFromPeer()</h2>
+<a id="ad142e131012ef08754e2b2033eb7f0b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad142e131012ef08754e2b2033eb7f0b9">&#9670;&nbsp;</a></span>onReceiveFromPeer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -505,7 +505,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void core::socket::SocketConnection::onReceiveFromPeer </td>
+          <td class="memname">std::size_t core::socket::SocketConnection::onReceiveFromPeer </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -519,8 +519,8 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_socket_connection_8cpp_source.html#l00048">48</a> of file <a class="el" href="_socket_connection_8cpp_source.html">SocketConnection.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                                             {</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af307fcbdffd8a43642fa80443dd2c72e">socketContext</a>-&gt;<a class="code" href="classcore_1_1socket_1_1_socket_context.html#ae4fc1cc6605369ed793147b853cd708a">onReceiveFromPeer</a>();</div>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                                                  {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        std::size_t ret = <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af307fcbdffd8a43642fa80443dd2c72e">socketContext</a>-&gt;<a class="code" href="classcore_1_1socket_1_1_socket_context.html#a5ad75a00390aa5f3884542ff1686958b">onReceiveFromPeer</a>();</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af969deaff81d545b5fa3b6258b91e51b">newSocketContext</a> != <span class="keyword">nullptr</span>) { <span class="comment">// Perform a pending SocketContextSwitch</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#ae97de1bf267dd824d37005f6dbe251cc">onDisconnected</a>();</div>
@@ -529,17 +529,19 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af969deaff81d545b5fa3b6258b91e51b">newSocketContext</a> = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#a403ae6aa6530edad0c270fab846fd887">onConnected</a>();</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        }</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1socket_1_1_socket_connection_html_a403ae6aa6530edad0c270fab846fd887"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_connection.html#a403ae6aa6530edad0c270fab846fd887">core::socket::SocketConnection::onConnected</a></div><div class="ttdeci">void onConnected()</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connection_8cpp_source.html#l00040">SocketConnection.cpp:40</a></div></div>
 <div class="ttc" id="aclasscore_1_1socket_1_1_socket_connection_html_ae97de1bf267dd824d37005f6dbe251cc"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_connection.html#ae97de1bf267dd824d37005f6dbe251cc">core::socket::SocketConnection::onDisconnected</a></div><div class="ttdeci">void onDisconnected()</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connection_8cpp_source.html#l00044">SocketConnection.cpp:44</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1_socket_connection_html_af969deaff81d545b5fa3b6258b91e51b"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_connection.html#af969deaff81d545b5fa3b6258b91e51b">core::socket::SocketConnection::newSocketContext</a></div><div class="ttdeci">core::socket::SocketContext * newSocketContext</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connection_8h_source.html#l00085">SocketConnection.h:85</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_ae4fc1cc6605369ed793147b853cd708a"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#ae4fc1cc6605369ed793147b853cd708a">core::socket::SocketContext::onReceiveFromPeer</a></div><div class="ttdeci">virtual void onReceiveFromPeer()=0</div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1_socket_connection_html_af969deaff81d545b5fa3b6258b91e51b"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_connection.html#af969deaff81d545b5fa3b6258b91e51b">core::socket::SocketConnection::newSocketContext</a></div><div class="ttdeci">core::socket::SocketContext * newSocketContext</div><div class="ttdef"><b>Definition:</b> <a href="_socket_connection_8h_source.html#l00084">SocketConnection.h:84</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_a5ad75a00390aa5f3884542ff1686958b"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#a5ad75a00390aa5f3884542ff1686958b">core::socket::SocketContext::onReceiveFromPeer</a></div><div class="ttdeci">virtual std::size_t onReceiveFromPeer()=0</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_socket_connection_8h_source.html#l00085">newSocketContext</a>, <a class="el" href="_socket_connection_8cpp_source.html#l00044">onDisconnected()</a>, <a class="el" href="classcore_1_1socket_1_1_socket_context.html#ae4fc1cc6605369ed793147b853cd708a">core::socket::SocketContext::onReceiveFromPeer()</a>, and <a class="el" href="_socket_connection_8h_source.html#l00084">socketContext</a>.</p>
+<p class="reference">References <a class="el" href="_socket_connection_8h_source.html#l00084">newSocketContext</a>, <a class="el" href="_socket_connection_8cpp_source.html#l00044">onDisconnected()</a>, <a class="el" href="classcore_1_1socket_1_1_socket_context.html#a5ad75a00390aa5f3884542ff1686958b">core::socket::SocketContext::onReceiveFromPeer()</a>, and <a class="el" href="_socket_connection_8h_source.html#l00083">socketContext</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection_ab2bc0a1e7f08d2569b2c31a3b0e9cef7_cgraph.svg" width="758" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection_ad142e131012ef08754e2b2033eb7f0b9_cgraph.svg" width="758" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -569,13 +571,13 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connection_8cpp_source.html#l00060">60</a> of file <a class="el" href="_socket_connection_8cpp_source.html">SocketConnection.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                                                  {</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af307fcbdffd8a43642fa80443dd2c72e">socketContext</a>-&gt;<a class="code" href="classcore_1_1socket_1_1_socket_context.html#af4c23c0cae547056b9c37a87f9a47f3b">onWriteError</a>(errnum);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_af4c23c0cae547056b9c37a87f9a47f3b"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#af4c23c0cae547056b9c37a87f9a47f3b">core::socket::SocketContext::onWriteError</a></div><div class="ttdeci">virtual void onWriteError(int errnum)</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_8cpp_source.html#l00081">SocketContext.cpp:81</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_socket_connection_8cpp_source.html#l00062">62</a> of file <a class="el" href="_socket_connection_8cpp_source.html">SocketConnection.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                                                  {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af307fcbdffd8a43642fa80443dd2c72e">socketContext</a>-&gt;<a class="code" href="classcore_1_1socket_1_1_socket_context.html#af4c23c0cae547056b9c37a87f9a47f3b">onWriteError</a>(errnum);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_html_af4c23c0cae547056b9c37a87f9a47f3b"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context.html#af4c23c0cae547056b9c37a87f9a47f3b">core::socket::SocketContext::onWriteError</a></div><div class="ttdeci">virtual void onWriteError(int errnum)</div><div class="ttdef"><b>Definition:</b> <a href="_socket_context_8cpp_source.html#l00080">SocketContext.cpp:80</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_socket_context_8cpp_source.html#l00081">core::socket::SocketContext::onWriteError()</a>, and <a class="el" href="_socket_connection_8h_source.html#l00084">socketContext</a>.</p>
+<p class="reference">References <a class="el" href="_socket_context_8cpp_source.html#l00080">core::socket::SocketContext::onWriteError()</a>, and <a class="el" href="_socket_connection_8h_source.html#l00083">socketContext</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -611,8 +613,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="aa4a6137f3d2fbf506bf3c0eb0366e39b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4a6137f3d2fbf506bf3c0eb0366e39b">&#9670;&nbsp;</a></span>readFromPeer()</h2>
+<a id="a5ffab8fcbd535c8fe0a537dbc2efd0cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ffab8fcbd535c8fe0a537dbc2efd0cb">&#9670;&nbsp;</a></span>readFromPeer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -621,7 +623,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual ssize_t core::socket::SocketConnection::readFromPeer </td>
+          <td class="memname">virtual std::size_t core::socket::SocketConnection::readFromPeer </td>
           <td>(</td>
           <td class="paramtype">char *&#160;</td>
           <td class="paramname"><em>junk</em>, </td>
@@ -645,13 +647,13 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#adda5befee524544486c23efd1372d5e6">core::socket::stream::SocketConnection&lt; SocketT, SocketReaderT, SocketWriterT &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#ade76dc09b22b7f725e8b2dd53e8bb83e">core::socket::stream::SocketConnection&lt; SocketT, SocketReaderT, SocketWriterT &gt;</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_socket_context_8cpp_source.html#l00043">core::socket::SocketContext::readFromPeer()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection_aa4a6137f3d2fbf506bf3c0eb0366e39b_icgraph.svg" width="950" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection_a5ffab8fcbd535c8fe0a537dbc2efd0cb_icgraph.svg" width="950" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -697,7 +699,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection_a15c934a69a64a7d2a0f230ebf1033195_icgraph.svg" width="1864" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1socket_1_1_socket_connection_a15c934a69a64a7d2a0f230ebf1033195_icgraph.svg" width="1691" height="424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -854,19 +856,19 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connection_8cpp_source.html#l00072">72</a> of file <a class="el" href="_socket_connection_8cpp_source.html">SocketConnection.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                                                                                                       {</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af969deaff81d545b5fa3b6258b91e51b">newSocketContext</a> = socketContextFactory-&gt;<a class="code" href="classcore_1_1socket_1_1_socket_context_factory.html#acae7dee6b60ee1ebd9489512af24e905">create</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af969deaff81d545b5fa3b6258b91e51b">newSocketContext</a> == <span class="keyword">nullptr</span>) {</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            VLOG(0) &lt;&lt; <span class="stringliteral">&quot;Switch socket context unsuccessull: new socket context not created&quot;</span>;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        }</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af969deaff81d545b5fa3b6258b91e51b">newSocketContext</a>;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_socket_connection_8cpp_source.html#l00074">74</a> of file <a class="el" href="_socket_connection_8cpp_source.html">SocketConnection.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                                                                                                                       {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af969deaff81d545b5fa3b6258b91e51b">newSocketContext</a> = socketContextFactory-&gt;<a class="code" href="classcore_1_1socket_1_1_socket_context_factory.html#acae7dee6b60ee1ebd9489512af24e905">create</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af969deaff81d545b5fa3b6258b91e51b">newSocketContext</a> == <span class="keyword">nullptr</span>) {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            VLOG(0) &lt;&lt; <span class="stringliteral">&quot;Switch socket context unsuccessull: new socket context not created&quot;</span>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcore_1_1socket_1_1_socket_connection.html#af969deaff81d545b5fa3b6258b91e51b">newSocketContext</a>;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1socket_1_1_socket_context_factory_html_acae7dee6b60ee1ebd9489512af24e905"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_context_factory.html#acae7dee6b60ee1ebd9489512af24e905">core::socket::SocketContextFactory::create</a></div><div class="ttdeci">virtual core::socket::SocketContext * create(core::socket::SocketConnection *socketConnection)=0</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="classcore_1_1socket_1_1_socket_context_factory.html#acae7dee6b60ee1ebd9489512af24e905">core::socket::SocketContextFactory::create()</a>, and <a class="el" href="_socket_connection_8h_source.html#l00085">newSocketContext</a>.</p>
+<p class="reference">References <a class="el" href="classcore_1_1socket_1_1_socket_context_factory.html#acae7dee6b60ee1ebd9489512af24e905">core::socket::SocketContextFactory::create()</a>, and <a class="el" href="_socket_connection_8h_source.html#l00084">newSocketContext</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_socket_context_8cpp_source.html#l00047">core::socket::SocketContext::switchSocketContext()</a>.</p>
 <div class="dynheader">
@@ -905,9 +907,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connection_8h_source.html#l00085">85</a> of file <a class="el" href="_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_connection_8h_source.html#l00084">84</a> of file <a class="el" href="_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_connection_8cpp_source.html#l00048">onReceiveFromPeer()</a>, and <a class="el" href="_socket_connection_8cpp_source.html#l00072">switchSocketContext()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_connection_8cpp_source.html#l00048">onReceiveFromPeer()</a>, and <a class="el" href="_socket_connection_8cpp_source.html#l00074">switchSocketContext()</a>.</p>
 
 </div>
 </div>
@@ -931,9 +933,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_socket_connection_8h_source.html#l00084">84</a> of file <a class="el" href="_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_socket_connection_8h_source.html#l00083">83</a> of file <a class="el" href="_socket_connection_8h_source.html">SocketConnection.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_socket_connection_8cpp_source.html#l00068">getSocketContext()</a>, <a class="el" href="_socket_connection_8cpp_source.html#l00040">onConnected()</a>, <a class="el" href="_socket_connection_8cpp_source.html#l00044">onDisconnected()</a>, <a class="el" href="_socket_connection_8cpp_source.html#l00064">onReadError()</a>, <a class="el" href="_socket_connection_8cpp_source.html#l00048">onReceiveFromPeer()</a>, <a class="el" href="_socket_connection_8cpp_source.html#l00060">onWriteError()</a>, and <a class="el" href="_socket_connection_8cpp_source.html#l00036">~SocketConnection()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_connection_8cpp_source.html#l00070">getSocketContext()</a>, <a class="el" href="_socket_connection_8cpp_source.html#l00040">onConnected()</a>, <a class="el" href="_socket_connection_8cpp_source.html#l00044">onDisconnected()</a>, <a class="el" href="_socket_connection_8cpp_source.html#l00066">onReadError()</a>, <a class="el" href="_socket_connection_8cpp_source.html#l00048">onReceiveFromPeer()</a>, <a class="el" href="_socket_connection_8cpp_source.html#l00062">onWriteError()</a>, and <a class="el" href="_socket_connection_8cpp_source.html#l00036">~SocketConnection()</a>.</p>
 
 </div>
 </div>

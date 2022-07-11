@@ -108,24 +108,26 @@ $(document).ready(function(){initNavTree('ssl_8h_source.html',''); initResizable
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">// IWYU pragma: begin_exports</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;openssl/ossl_typ.h&gt;</span> <span class="comment">// for SSL</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;openssl/ssl.h&gt;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">// IWYU pragma: end_exports</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;openssl/opensslv.h&gt;</span> <span class="comment">// IWYU pragma: export</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;openssl/ssl.h&gt;</span>      <span class="comment">// IWYU pragma: export</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#if OPENSSL_VERSION_NUMBER &gt;= 0x30000000L</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &lt;openssl/types.h&gt;</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#elif OPENSSL_VERSION_NUMBER &gt;= 0x10100000L</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &lt;openssl/ossl_typ.h&gt;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecore_1_1ssl.html">core::ssl</a> {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="comment">// #include &lt;openssl/ssl.h&gt;</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="namespacecore_1_1ssl.html#a7a7db589912354e9adb47a18b8c5433f">SSL_read</a>(SSL* ssl, <span class="keywordtype">void</span>* buf, <span class="keywordtype">int</span> num);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="namespacecore_1_1ssl.html#a352e8be6a2fa7ad8fe817dd4d642bf3d">SSL_write</a>(SSL* ssl, <span class="keyword">const</span> <span class="keywordtype">void</span>* buf, <span class="keywordtype">int</span> num);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;} <span class="comment">// namespace core::ssl</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecore_1_1ssl.html">core::ssl</a> {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">// #include &lt;openssl/ssl.h&gt;</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="namespacecore_1_1ssl.html#a7a7db589912354e9adb47a18b8c5433f">SSL_read</a>(SSL* ssl, <span class="keywordtype">void</span>* buf, <span class="keywordtype">int</span> num);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="namespacecore_1_1ssl.html#a352e8be6a2fa7ad8fe817dd4d642bf3d">SSL_write</a>(SSL* ssl, <span class="keyword">const</span> <span class="keywordtype">void</span>* buf, <span class="keywordtype">int</span> num);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// NET_SYSTEM_SSL_H</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;} <span class="comment">// namespace core::ssl</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// NET_SYSTEM_SSL_H</span></div>
 <div class="ttc" id="anamespacecore_1_1ssl_html"><div class="ttname"><a href="namespacecore_1_1ssl.html">core::ssl</a></div><div class="ttdef"><b>Definition:</b> <a href="ssl_8cpp_source.html#l00027">ssl.cpp:27</a></div></div>
 <div class="ttc" id="anamespacecore_1_1ssl_html_a352e8be6a2fa7ad8fe817dd4d642bf3d"><div class="ttname"><a href="namespacecore_1_1ssl.html#a352e8be6a2fa7ad8fe817dd4d642bf3d">core::ssl::SSL_write</a></div><div class="ttdeci">int SSL_write(SSL *ssl, const void *buf, int num)</div><div class="ttdef"><b>Definition:</b> <a href="ssl_8cpp_source.html#l00033">ssl.cpp:33</a></div></div>
 <div class="ttc" id="anamespacecore_1_1ssl_html_a7a7db589912354e9adb47a18b8c5433f"><div class="ttname"><a href="namespacecore_1_1ssl.html#a7a7db589912354e9adb47a18b8c5433f">core::ssl::SSL_read</a></div><div class="ttdeci">int SSL_read(SSL *ssl, void *buf, int num)</div><div class="ttdef"><b>Definition:</b> <a href="ssl_8cpp_source.html#l00029">ssl.cpp:29</a></div></div>

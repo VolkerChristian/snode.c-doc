@@ -1,15 +1,14 @@
 var classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server =
 [
-    [ "SocketAddress", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a4d65f0791ba60106521172b6a1edc13c", null ],
-    [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a46b7a5d8fe971c9bf20df450866d521b", null ],
-    [ "Super", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a3e422e5b1e71661f5f4c2efd21672a67", null ],
-    [ "SocketServer", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#afb0cd9febca2e5f3988408d95a97763b", null ],
-    [ "SocketServer", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#af706a390d0e38a4dd9b40b88c9b91020", null ],
-    [ "addSniCert", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#acb5abcf03ec1f95f4b91a611a7477908", null ],
-    [ "addSniCerts", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a80ce55886674a357bf977e6100924e7b", null ],
-    [ "addSniCtx", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a3462da086fd0d55756a828a6ca947976", null ],
-    [ "freeSniCerts", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#ae0ed9cd93da4896c4e41f11c23ef7dd2", null ],
-    [ "setForceSni", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a88b60264d1e253b2eadd5dbd697615f5", null ],
-    [ "forceSni", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a69c8a970fbdede2ab134318e55aa329d", null ],
-    [ "sniSslCtxs", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a341a9fa67016349b8ce568c96f1a11e9", null ]
+    [ "SocketAddress", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#ae17d8d44ee471a1e755f8f574ad19ced", null ],
+    [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#abaf6fa662e11fb4a96681633e2bf25a8", null ],
+    [ "Super", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a7ee79b27e58458428ae5c7ee2e373207", null ],
+    [ "SocketServer", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#ac11eeda3abfcf929ec60bbd0c7928165", null ],
+    [ "SocketServer", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#adba637fd7a2fe81cf550e919802812b1", null ],
+    [ "addSniCert", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a64f32444cfeea68f0958bba05589c0c0", null ],
+    [ "addSniCerts", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#adf9f8b43c48937817729c7eab00eb6b0", null ],
+    [ "freeSniCerts", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a1b0ee31d1b833261e0e00459b560eed7", null ],
+    [ "setForceSni", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#ad040e91d329fb5e95e8b7796ca311a71", null ],
+    [ "forceSni", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a9b50912aabe4768c3fcd73568dd9cdcb", null ],
+    [ "sniSslCtxs", "classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a2a84bda74cf27cc0757fa0e355ed3d5f", null ]
 ];

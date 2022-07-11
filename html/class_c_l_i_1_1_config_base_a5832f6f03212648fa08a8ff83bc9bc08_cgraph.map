@@ -1,16 +1,25 @@
 <map id="CLI::ConfigBase::to_config" name="CLI::ConfigBase::to_config">
-<area shape="rect" id="node1" title="Convert an app into a configuration." alt="" coords="5,248,151,290"/>
-<area shape="rect" id="node2" href="$namespace_c_l_i_1_1detail.html#a2382165480a50710d41e421dd54079a7" title=" " alt="" coords="453,248,597,290"/>
-<area shape="rect" id="node5" href="$namespace_c_l_i_1_1detail.html#a6f983b056b683129ec20e53d8c6141ab" title=" " alt="" coords="213,53,391,80"/>
-<area shape="rect" id="node6" href="$class_c_l_i_1_1_app.html#a2976c5b0cccca69d24ed5ad52924ab54" title="Check the status of the allow windows style options." alt="" coords="206,104,398,130"/>
-<area shape="rect" id="node7" href="$class_c_l_i_1_1_app.html#ab7637441b1cd7fb2fcf5e7e095e779a7" title="Get the app or subcommand description." alt="" coords="211,154,393,181"/>
-<area shape="rect" id="node8" href="$class_c_l_i_1_1_app.html#aaf87132f47c738652b6d281c1e3c717a" title="Get the groups available directly from this option (in order)" alt="" coords="225,205,379,232"/>
-<area shape="rect" id="node9" href="$class_c_l_i_1_1_app.html#ae0ce655e69580d2d8439a0f3c993821c" title="Get the name of the current app." alt="" coords="228,256,376,282"/>
-<area shape="rect" id="node10" href="$class_c_l_i_1_1_app.html#a3bd4bdd8defb6fe47193848d94226a1f" title="Get the list of options (user facing function, so returns raw pointers), has optional filter function..." alt="" coords="223,306,381,333"/>
-<area shape="rect" id="node11" href="$class_c_l_i_1_1_app.html#a31c5906bfb17ef02514367d09c83aa0d" title="Get the parent of this subcommand (or nullptr if main app)" alt="" coords="225,357,379,384"/>
-<area shape="rect" id="node12" href="$class_c_l_i_1_1_app.html#a9371a0fd74e03df61dd751e28a3dfc35" title=" " alt="" coords="199,408,405,434"/>
-<area shape="rect" id="node13" href="$class_c_l_i_1_1_app.html#ad07c68d1fcede041fa7fed647e5e3d84" title="Check to see if given subcommand was selected." alt="" coords="203,458,401,485"/>
-<area shape="rect" id="node14" href="$namespace_c_l_i_1_1detail.html#a0b12b08c7bc02a39431b3da4f123e93d" title="Comma separated join, adds quotes if needed." alt="" coords="231,509,373,536"/>
-<area shape="rect" id="node3" href="$namespace_c_l_i_1_1detail.html#af286727de86fce444325681379e2c511" title="Integer conversion." alt="" coords="645,256,817,282"/>
-<area shape="rect" id="node4" href="$namespace_c_l_i_1_1detail.html#af6685ecdb07b40a316035bb4af9b02e6" title="Convert to an unsigned integral." alt="" coords="865,248,1011,290"/>
+<area shape="rect" id="node1" title="Convert an app into a configuration." alt="" coords="5,500,151,541"/>
+<area shape="rect" id="node2" href="$namespace_c_l_i_1_1detail.html#a2382165480a50710d41e421dd54079a7" title=" " alt="" coords="473,596,617,637"/>
+<area shape="rect" id="node5" href="$namespace_c_l_i_1_1detail.html#a6f983b056b683129ec20e53d8c6141ab" title=" " alt="" coords="221,60,398,87"/>
+<area shape="rect" id="node6" href="$class_c_l_i_1_1_option_base.html#a148499af929ff2498d1ef3567fc18dfc" title="The status of configurable." alt="" coords="232,112,387,153"/>
+<area shape="rect" id="node7" href="$class_c_l_i_1_1_app.html#a2976c5b0cccca69d24ed5ad52924ab54" title="Check the status of the allow windows style options." alt="" coords="213,178,405,204"/>
+<area shape="rect" id="node8" href="$class_c_l_i_1_1_option.html#a3b8410c5366dbbb6781b37d963677101" title="The default value (for help printing)" alt="" coords="210,228,409,255"/>
+<area shape="rect" id="node9" href="$class_c_l_i_1_1_option.html#ad79474a3c1cc8a73b12f80c6e31ee3af" title="Get the description." alt="" coords="209,279,410,306"/>
+<area shape="rect" id="node10" href="$class_c_l_i_1_1_app.html#ab7637441b1cd7fb2fcf5e7e095e779a7" title="Get the app or subcommand description." alt="" coords="218,330,401,356"/>
+<area shape="rect" id="node11" href="$class_c_l_i_1_1_option.html#a19c64a02c22d968e834c2aaf13f98f62" title="The number of times the option expects to be included." alt="" coords="199,380,420,407"/>
+<area shape="rect" id="node12" href="$class_c_l_i_1_1_option_base.html#a341e7df4c2693312609186f036dd923c" title="Get the group of this option." alt="" coords="468,302,623,344"/>
+<area shape="rect" id="node13" href="$class_c_l_i_1_1_app.html#aaf87132f47c738652b6d281c1e3c717a" title="Get the groups available directly from this option (in order)" alt="" coords="232,431,387,458"/>
+<area shape="rect" id="node14" href="$class_c_l_i_1_1_app.html#ae0ce655e69580d2d8439a0f3c993821c" title="Get the name of the current app." alt="" coords="235,532,383,559"/>
+<area shape="rect" id="node15" href="$class_c_l_i_1_1_app.html#a3bd4bdd8defb6fe47193848d94226a1f" title="Get the list of options (user facing function, so returns raw pointers), has optional filter function..." alt="" coords="230,583,389,610"/>
+<area shape="rect" id="node16" href="$class_c_l_i_1_1_app.html#a31c5906bfb17ef02514367d09c83aa0d" title="Get the parent of this subcommand (or nullptr if main app)" alt="" coords="233,634,386,660"/>
+<area shape="rect" id="node17" href="$class_c_l_i_1_1_option.html#a1ed32a17d1e82cae7ff2419f34994856" title="Get the current value of run_callback_for_default." alt="" coords="229,685,390,726"/>
+<area shape="rect" id="node18" href="$class_c_l_i_1_1_option.html#a84375255857dba0d6f1b656d2dc3c7ed" title="Get a single name for the option, first of lname, pname, sname, envname." alt="" coords="203,751,415,778"/>
+<area shape="rect" id="node19" href="$class_c_l_i_1_1_app.html#a9371a0fd74e03df61dd751e28a3dfc35" title=" " alt="" coords="206,802,413,828"/>
+<area shape="rect" id="node20" href="$class_c_l_i_1_1_app.html#ad07c68d1fcede041fa7fed647e5e3d84" title="Check to see if given subcommand was selected." alt="" coords="210,852,409,879"/>
+<area shape="rect" id="node21" href="$class_c_l_i_1_1_option.html#a6770984498050b33659ce0c14b8f4696" title="True if option has description." alt="" coords="208,903,411,930"/>
+<area shape="rect" id="node22" href="$namespace_c_l_i_1_1detail.html#a0b12b08c7bc02a39431b3da4f123e93d" title="Comma separated join, adds quotes if needed." alt="" coords="238,954,381,980"/>
+<area shape="rect" id="node23" href="$class_c_l_i_1_1_option.html#a35ae96199e3704c2b4be44bae9be28fa" title="Get a copy of the results." alt="" coords="233,1005,386,1046"/>
+<area shape="rect" id="node3" href="$namespace_c_l_i_1_1detail.html#af286727de86fce444325681379e2c511" title="Integer conversion." alt="" coords="671,603,843,630"/>
+<area shape="rect" id="node4" href="$namespace_c_l_i_1_1detail.html#af6685ecdb07b40a316035bb4af9b02e6" title="Convert to an unsigned integral." alt="" coords="891,596,1036,637"/>
 </map>

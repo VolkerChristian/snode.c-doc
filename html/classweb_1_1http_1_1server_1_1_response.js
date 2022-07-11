@@ -14,6 +14,7 @@ var classweb_1_1http_1_1server_1_1_response =
     [ "receive", "classweb_1_1http_1_1server_1_1_response.html#a6693a2431a465a948bca9ba1593a1f20", null ],
     [ "send", "classweb_1_1http_1_1server_1_1_response.html#ad13e93ee083ee9e780a4478a86fdefec", null ],
     [ "send", "classweb_1_1http_1_1server_1_1_response.html#a5128a20b904071c22a077b040c8ff138", null ],
+    [ "sendFile", "classweb_1_1http_1_1server_1_1_response.html#aec917c5c8eb23d11e0d989e0d403f0c9", null ],
     [ "sendHeader", "classweb_1_1http_1_1server_1_1_response.html#a4fae387fd1d11b86260f4572bfebfce2", null ],
     [ "set", "classweb_1_1http_1_1server_1_1_response.html#a6f8d3d143f82fc3b48fe2d705e95a0c7", null ],
     [ "set", "classweb_1_1http_1_1server_1_1_response.html#a82301ce94e8418a2d0b9bc052207a178", null ],

@@ -162,8 +162,8 @@ $(document).ready(function(){initNavTree('client_2_socket_context_8hpp_source.ht
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Request, <span class="keyword">typename</span> Response&gt;</div>
-<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="classweb_1_1http_1_1client_1_1_socket_context.html#a387a81ac9ad2bde23b85982a6b4a187f">   78</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html">SocketContext&lt;Request, Response&gt;::onReceiveFromPeer</a>() {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        parser.parse();</div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="classweb_1_1http_1_1client_1_1_socket_context.html#a0873195c6570d4e5c54dc01828c9e41a">   78</a></span>&#160;    std::size_t <a class="code" href="classweb_1_1http_1_1client_1_1_socket_context.html">SocketContext&lt;Request, Response&gt;::onReceiveFromPeer</a>() {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">return</span> parser.parse();</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Request, <span class="keyword">typename</span> Response&gt;</div>
@@ -188,7 +188,7 @@ $(document).ready(function(){initNavTree('client_2_socket_context_8hpp_source.ht
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;} <span class="comment">// namespace web::http::client</span></div>
 <div class="ttc" id="a_logger_8h_html"><div class="ttname"><a href="_logger_8h.html">Logger.h</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1_socket_connection_html"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_connection.html">core::socket::SocketConnection</a></div><div class="ttdef"><b>Definition:</b> <a href="_socket_connection_8h_source.html#l00044">SocketConnection.h:44</a></div></div>
+<div class="ttc" id="aclasscore_1_1socket_1_1_socket_connection_html"><div class="ttname"><a href="classcore_1_1socket_1_1_socket_connection.html">core::socket::SocketConnection</a></div><div class="ttdef"><b>Definition:</b> <a href="_socket_connection_8h_source.html#l00043">SocketConnection.h:43</a></div></div>
 <div class="ttc" id="aclassweb_1_1http_1_1_socket_context_html"><div class="ttname"><a href="classweb_1_1http_1_1_socket_context.html">web::http::SocketContext</a></div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2_socket_context_8h_source.html#l00030">SocketContext.h:30</a></div></div>
 <div class="ttc" id="aclassweb_1_1http_1_1client_1_1_response_parser_html"><div class="ttname"><a href="classweb_1_1http_1_1client_1_1_response_parser.html">web::http::client::ResponseParser</a></div><div class="ttdef"><b>Definition:</b> <a href="_response_parser_8h_source.html#l00039">ResponseParser.h:39</a></div></div>
 <div class="ttc" id="aclassweb_1_1http_1_1client_1_1_socket_context_html"><div class="ttname"><a href="classweb_1_1http_1_1client_1_1_socket_context.html">web::http::client::SocketContext</a></div><div class="ttdef"><b>Definition:</b> <a href="web_2http_2client_2_socket_context_8h_source.html#l00046">SocketContext.h:46</a></div></div>

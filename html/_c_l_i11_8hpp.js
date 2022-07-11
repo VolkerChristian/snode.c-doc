@@ -48,6 +48,7 @@ var _c_l_i11_8hpp =
     [ "NonexistentPathValidator", "class_c_l_i_1_1detail_1_1_nonexistent_path_validator.html", "class_c_l_i_1_1detail_1_1_nonexistent_path_validator" ],
     [ "IPV4Validator", "class_c_l_i_1_1detail_1_1_i_p_v4_validator.html", "class_c_l_i_1_1detail_1_1_i_p_v4_validator" ],
     [ "TypeValidator", "class_c_l_i_1_1_type_validator.html", "class_c_l_i_1_1_type_validator" ],
+    [ "FileOnDefaultPath", "class_c_l_i_1_1_file_on_default_path.html", "class_c_l_i_1_1_file_on_default_path" ],
     [ "Range", "class_c_l_i_1_1_range.html", "class_c_l_i_1_1_range" ],
     [ "Bound", "class_c_l_i_1_1_bound.html", "class_c_l_i_1_1_bound" ],
     [ "has_find", "struct_c_l_i_1_1detail_1_1has__find.html", "struct_c_l_i_1_1detail_1_1has__find" ],
@@ -69,6 +70,7 @@ var _c_l_i11_8hpp =
     [ "CLI11_ERROR_DEF", "_c_l_i11_8hpp.html#aa5083d44020c499995d126efcdcf5b63", null ],
     [ "CLI11_ERROR_SIMPLE", "_c_l_i11_8hpp.html#a0da004ec8320e9f80f2eac076e1c4eef", null ],
     [ "CLI11_PARSE", "_c_l_i11_8hpp.html#ae8938ad660eb0b84b667ea3ea54da42c", null ],
+    [ "CLI11_USE_STATIC_RTTI", "_c_l_i11_8hpp.html#ad8c5931c1cdb73592aaca48d77ecab1a", null ],
     [ "CLI11_VERSION", "_c_l_i11_8hpp.html#a1b8785b397aabcac7e4a07dafe066268", null ],
     [ "CLI11_VERSION_MAJOR", "_c_l_i11_8hpp.html#a1a2e30d6baa07959d9603aeb27e1bdb4", null ],
     [ "CLI11_VERSION_MINOR", "_c_l_i11_8hpp.html#ab6f9ac59f853b1948fdbcf1188750208", null ],
@@ -127,7 +129,8 @@ var _c_l_i11_8hpp =
       [ "TakeLast", "_c_l_i11_8hpp.html#a991a3264d3459575fc7e83eb54d73d2ba91a7975e6be6ac082721192c7eb98891", null ],
       [ "TakeFirst", "_c_l_i11_8hpp.html#a991a3264d3459575fc7e83eb54d73d2ba59a97fc8d11b2b3f89acfe1c3ac891df", null ],
       [ "Join", "_c_l_i11_8hpp.html#a991a3264d3459575fc7e83eb54d73d2baa286d9991c6a547ae25a5f5216164b8f", null ],
-      [ "TakeAll", "_c_l_i11_8hpp.html#a991a3264d3459575fc7e83eb54d73d2ba571fa4972dd227b4097ab6a774ca1263", null ]
+      [ "TakeAll", "_c_l_i11_8hpp.html#a991a3264d3459575fc7e83eb54d73d2ba571fa4972dd227b4097ab6a774ca1263", null ],
+      [ "Sum", "_c_l_i11_8hpp.html#a991a3264d3459575fc7e83eb54d73d2baa0ec87054b5e5b7847d0d8780a01a3d5", null ]
     ] ],
     [ "path_type", "_c_l_i11_8hpp.html#a20a9a67e5f06ba0dc3f2ded2fed16f55", [
       [ "nonexistent", "_c_l_i11_8hpp.html#a20a9a67e5f06ba0dc3f2ded2fed16f55a357f5c155c9da6842b84ad1066996928", null ],
@@ -142,6 +145,7 @@ var _c_l_i11_8hpp =
     [ "checked_to_string", "_c_l_i11_8hpp.html#a1bcb244a7701fc68da3a863b58daf615", null ],
     [ "checkParentSegments", "_c_l_i11_8hpp.html#af3c3c6f67c8fef09def5f328856dd154", null ],
     [ "convert_arg_for_ini", "_c_l_i11_8hpp.html#a2382165480a50710d41e421dd54079a7", null ],
+    [ "default_flag_modifiers", "_c_l_i11_8hpp.html#aa728af1274f11fb5a62069fc3c8e2118", null ],
     [ "deprecate_option", "_c_l_i11_8hpp.html#a5e83d92a6ec271c2439141feaede1136", null ],
     [ "deprecate_option", "_c_l_i11_8hpp.html#ad6d89b5d1aba2ebdca5f94534d658cab", null ],
     [ "deprecate_option", "_c_l_i11_8hpp.html#a6cb6f8bfff8c49385fb24f6f23a23c21", null ],

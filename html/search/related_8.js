@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['operator_26_4287',['operator&amp;',['../classcore_1_1_descriptor.html#a1ce28627f2d7b7d54846cb73dcd0aa38',1,'core::Descriptor::operator&amp;()'],['../classweb_1_1http_1_1_parser.html#a1585b2d50f55f49611187d326591f03c',1,'web::http::Parser::operator&amp;()']]],
-  ['operator_3c_3c_4288',['operator&lt;&lt;',['../classutils_1_1_timeval.html#afd29445c9e8cfec8cae48c150f82726e',1,'utils::Timeval']]],
-  ['operator_7c_4289',['operator|',['../classcore_1_1_descriptor.html#a6dc096af1a75c82c1ff16ca8b4122a3b',1,'core::Descriptor::operator|()'],['../classweb_1_1http_1_1_parser.html#a504270bcd1736c62e66e80918151d611',1,'web::http::Parser::operator|()']]]
+  ['rootroute_4497',['RootRoute',['../classexpress_1_1_route.html#adae34d50b8e74146566b05400257bcb0',1,'express::Route::RootRoute()'],['../classexpress_1_1_router.html#adae34d50b8e74146566b05400257bcb0',1,'express::Router::RootRoute()']]],
+  ['route_4498',['Route',['../classexpress_1_1_dispatcher.html#a82eb8d8152124f42f8bad8770270f4fc',1,'express::Dispatcher::Route()'],['../classexpress_1_1_root_route.html#a82eb8d8152124f42f8bad8770270f4fc',1,'express::RootRoute::Route()'],['../classexpress_1_1_route.html#a0baadc880730c8c6a34a51b410c2aed2',1,'express::Route::Route()'],['../classexpress_1_1_router.html#a82eb8d8152124f42f8bad8770270f4fc',1,'express::Router::Route()']]]
 ];

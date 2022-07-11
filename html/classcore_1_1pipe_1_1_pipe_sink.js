@@ -2,7 +2,7 @@ var classcore_1_1pipe_1_1_pipe_sink =
 [
     [ "PipeSink", "classcore_1_1pipe_1_1_pipe_sink.html#a6fe95dfcf5d65959202bdbbfb5fffaa5", null ],
     [ "PipeSink", "classcore_1_1pipe_1_1_pipe_sink.html#abfdb292fe8bd66fac2a78dcefe678fdf", null ],
-    [ "~PipeSink", "classcore_1_1pipe_1_1_pipe_sink.html#a7e372a89be8593bf92a71134620a67df", null ],
+    [ "~PipeSink", "classcore_1_1pipe_1_1_pipe_sink.html#a2c1fac1885d45bedf52e62b567d4a2eb", null ],
     [ "operator=", "classcore_1_1pipe_1_1_pipe_sink.html#a3919e3c65c72ba43d21ac37adb3f786c", null ],
     [ "readEvent", "classcore_1_1pipe_1_1_pipe_sink.html#a2e57f7ff6c59add569e94b6760c0dac2", null ],
     [ "setOnData", "classcore_1_1pipe_1_1_pipe_sink.html#a1889c51e90b8cd55c691d28d318bee57", null ],

@@ -83,13 +83,6 @@ $(document).ready(function(){initNavTree('functions_rela.html',''); initResizabl
 <div class="contents">
 &#160;
 
-<h3><a id="index_a"></a>- a -</h3><ul>
-<li>ApplicationDispatcher
-: <a class="el" href="classexpress_1_1dispatcher_1_1_router_dispatcher.html#a591796081407ac28747598c15ccaa2e8">express::dispatcher::RouterDispatcher</a>
-</li>
-</ul>
-
-
 <h3><a id="index_b"></a>- b -</h3><ul>
 <li>BasicAuthentication
 : <a class="el" href="classexpress_1_1middleware_1_1_basic_authentication.html#a2d8be6bb7c6e00f74be4986e12523b44">express::middleware::BasicAuthentication</a>
@@ -109,6 +102,15 @@ $(document).ready(function(){initNavTree('functions_rela.html',''); initResizabl
 : <a class="el" href="classcore_1_1_descriptor_event_receiver.html#ad8fdf38b934708783fc2e575dcfd3232">core::DescriptorEventReceiver</a>
 , <a class="el" href="classcore_1_1_event_multiplexer.html#ad8fdf38b934708783fc2e575dcfd3232">core::EventMultiplexer</a>
 </li>
+<li>Dispatcher
+: <a class="el" href="classexpress_1_1_route.html#ad90424f003fc2afb836709cbffa47e2c">express::Route</a>
+</li>
+<li>dispatcher::MiddlewareDispatcher
+: <a class="el" href="classexpress_1_1_next.html#ad8d2609562a3c69d361676ee6016c144">express::Next</a>
+</li>
+<li>dispatcher::RouterDispatcher
+: <a class="el" href="classexpress_1_1_route.html#a0dd18791e067f69dd9b940cc0735bb82">express::Route</a>
+</li>
 </ul>
 
 
@@ -119,9 +121,6 @@ $(document).ready(function(){initNavTree('functions_rela.html',''); initResizabl
 <li>EventMultiplexer
 : <a class="el" href="classcore_1_1_dynamic_loader.html#a223d62cb28785eb6f6dd34e25f0d61ed">core::DynamicLoader</a>
 , <a class="el" href="classcore_1_1_event.html#a223d62cb28785eb6f6dd34e25f0d61ed">core::Event</a>
-</li>
-<li>express::Router
-: <a class="el" href="classexpress_1_1dispatcher_1_1_router_dispatcher.html#aaa405c58fb41911664924875b2d637f8">express::dispatcher::RouterDispatcher</a>
 </li>
 </ul>
 
@@ -145,34 +144,32 @@ $(document).ready(function(){initNavTree('functions_rela.html',''); initResizabl
 : <a class="el" href="classdatabase_1_1mariadb_1_1_maria_d_b_client.html#a73a87dc42d61d924e3f31f5b4d3830c5">database::mariadb::MariaDBClient</a>
 , <a class="el" href="classdatabase_1_1mariadb_1_1_maria_d_b_command_sequence.html#a73a87dc42d61d924e3f31f5b4d3830c5">database::mariadb::MariaDBCommandSequence</a>
 </li>
-<li>MiddlewareDispatcher
-: <a class="el" href="classexpress_1_1dispatcher_1_1_router_dispatcher.html#af781a00450f59562b13c28efc99c9271">express::dispatcher::RouterDispatcher</a>
-</li>
 </ul>
 
 
 <h3><a id="index_o"></a>- o -</h3><ul>
 <li>operator&amp;
-: <a class="el" href="classcore_1_1_descriptor.html#a1ce28627f2d7b7d54846cb73dcd0aa38">core::Descriptor</a>
-, <a class="el" href="classweb_1_1http_1_1_parser.html#a1585b2d50f55f49611187d326591f03c">web::http::Parser</a>
+: <a class="el" href="classweb_1_1http_1_1_parser.html#a1585b2d50f55f49611187d326591f03c">web::http::Parser</a>
 </li>
 <li>operator&lt;&lt;
 : <a class="el" href="classutils_1_1_timeval.html#afd29445c9e8cfec8cae48c150f82726e">utils::Timeval</a>
 </li>
 <li>operator|
-: <a class="el" href="classcore_1_1_descriptor.html#a6dc096af1a75c82c1ff16ca8b4122a3b">core::Descriptor</a>
-, <a class="el" href="classweb_1_1http_1_1_parser.html#a504270bcd1736c62e66e80918151d611">web::http::Parser</a>
+: <a class="el" href="classweb_1_1http_1_1_parser.html#a504270bcd1736c62e66e80918151d611">web::http::Parser</a>
 </li>
 </ul>
 
 
 <h3><a id="index_r"></a>- r -</h3><ul>
-<li>Route
-: <a class="el" href="classexpress_1_1dispatcher_1_1_dispatcher.html#a82eb8d8152124f42f8bad8770270f4fc">express::dispatcher::Dispatcher</a>
+<li>RootRoute
+: <a class="el" href="classexpress_1_1_route.html#adae34d50b8e74146566b05400257bcb0">express::Route</a>
+, <a class="el" href="classexpress_1_1_router.html#adae34d50b8e74146566b05400257bcb0">express::Router</a>
 </li>
-<li>RouterDispatcher
-: <a class="el" href="classexpress_1_1dispatcher_1_1_route.html#a116f7a327ec0ec41f95f26ae6b391bbf">express::dispatcher::Route</a>
-, <a class="el" href="classexpress_1_1dispatcher_1_1_state.html#a116f7a327ec0ec41f95f26ae6b391bbf">express::dispatcher::State</a>
+<li>Route
+: <a class="el" href="classexpress_1_1_dispatcher.html#a82eb8d8152124f42f8bad8770270f4fc">express::Dispatcher</a>
+, <a class="el" href="classexpress_1_1_root_route.html#a82eb8d8152124f42f8bad8770270f4fc">express::RootRoute</a>
+, <a class="el" href="classexpress_1_1_route.html#a0baadc880730c8c6a34a51b410c2aed2">express::Route</a>
+, <a class="el" href="classexpress_1_1_router.html#a82eb8d8152124f42f8bad8770270f4fc">express::Router</a>
 </li>
 </ul>
 
@@ -183,12 +180,10 @@ $(document).ready(function(){initNavTree('functions_rela.html',''); initResizabl
 </li>
 <li>SocketAcceptor
 : <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#ac3cadcb90bede3b8b4ff8e8d2b53ec29">core::socket::stream::legacy::SocketConnection&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a965dabcc05c53e9779da2efb02c12556">core::socket::stream::SocketConnection&lt; SocketT, SocketReaderT, SocketWriterT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#ac3cadcb90bede3b8b4ff8e8d2b53ec29">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;</a>
 </li>
 <li>SocketConnector
 : <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_connection.html#a93358fd8285cbad5c49755553f9c5c49">core::socket::stream::legacy::SocketConnection&lt; SocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection.html#a3144d4aced5f6dabf58f7e2affbddc68">core::socket::stream::SocketConnection&lt; SocketT, SocketReaderT, SocketWriterT &gt;</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_connection.html#a93358fd8285cbad5c49755553f9c5c49">core::socket::stream::tls::SocketConnection&lt; SocketT &gt;</a>
 </li>
 <li>SocketContext
@@ -196,6 +191,11 @@ $(document).ready(function(){initNavTree('functions_rela.html',''); initResizabl
 , <a class="el" href="classweb_1_1http_1_1client_1_1_response.html#aa3d4727b864f12bef775c2184047d68a">web::http::client::Response</a>
 , <a class="el" href="classweb_1_1http_1_1server_1_1_request.html#aa3d4727b864f12bef775c2184047d68a">web::http::server::Request</a>
 , <a class="el" href="classweb_1_1http_1_1server_1_1_response.html#aa3d4727b864f12bef775c2184047d68a">web::http::server::Response</a>
+</li>
+<li>State
+: <a class="el" href="classexpress_1_1_request.html#a7edbf9e31116a21e4e18cd2dd004ae63">express::Request</a>
+, <a class="el" href="classexpress_1_1_root_route.html#a7edbf9e31116a21e4e18cd2dd004ae63">express::RootRoute</a>
+, <a class="el" href="classexpress_1_1_route.html#a7edbf9e31116a21e4e18cd2dd004ae63">express::Route</a>
 </li>
 <li>StaticMiddleware
 : <a class="el" href="classexpress_1_1middleware_1_1_static_middleware.html#a920364dc3456ca37fc1c6c5d458323ed">express::middleware::StaticMiddleware</a>
@@ -230,7 +230,7 @@ $(document).ready(function(){initNavTree('functions_rela.html',''); initResizabl
 , <a class="el" href="classweb_1_1websocket_1_1_sub_protocol.html#a1d575c1146ab69eba0ab27c1acd913a3">web::websocket::SubProtocol&lt; SocketContextUpgradeT &gt;</a>
 </li>
 <li>WebAppT
-: <a class="el" href="classexpress_1_1_request.html#a2d177edff622e707b0cfb6e9ee1d6629">express::Request</a>
+: <a class="el" href="classexpress_1_1_root_route.html#a2d177edff622e707b0cfb6e9ee1d6629">express::RootRoute</a>
 </li>
 </ul>
 </div><!-- contents -->

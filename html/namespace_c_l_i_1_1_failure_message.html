@@ -134,16 +134,16 @@ Functions</h2></td></tr>
 
 <p>Printout the full help string on error (if this fn is set, the old default for CLI11) </p>
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l08719">8719</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l08719"></a><span class="lineno"> 8719</span>&#160;                                                              {</div>
-<div class="line"><a name="l08720"></a><span class="lineno"> 8720</span>&#160;            std::string header = std::string(<span class="stringliteral">&quot;ERROR: &quot;</span>) + e.get_name() + <span class="stringliteral">&quot;: &quot;</span> + e.what() + <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><a name="l08721"></a><span class="lineno"> 8721</span>&#160;            header += app-&gt;help();</div>
-<div class="line"><a name="l08722"></a><span class="lineno"> 8722</span>&#160;            <span class="keywordflow">return</span> header;</div>
-<div class="line"><a name="l08723"></a><span class="lineno"> 8723</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l08846">8846</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l08846"></a><span class="lineno"> 8846</span>&#160;                                                              {</div>
+<div class="line"><a name="l08847"></a><span class="lineno"> 8847</span>&#160;            std::string header = std::string(<span class="stringliteral">&quot;ERROR: &quot;</span>) + e.get_name() + <span class="stringliteral">&quot;: &quot;</span> + e.what() + <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l08848"></a><span class="lineno"> 8848</span>&#160;            header += app-&gt;help();</div>
+<div class="line"><a name="l08849"></a><span class="lineno"> 8849</span>&#160;            <span class="keywordflow">return</span> header;</div>
+<div class="line"><a name="l08850"></a><span class="lineno"> 8850</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l00616">CLI::Error::get_name()</a>, and <a class="el" href="_c_l_i11_8hpp_source.html#l06973">CLI::App::help()</a>.</p>
+<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l00636">CLI::Error::get_name()</a>, and <a class="el" href="_c_l_i11_8hpp_source.html#l07060">CLI::App::help()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_c_l_i11_8hpp_source.html#l06771">CLI::App::exit()</a>, <a class="el" href="_timeval_8cpp_source.html#l00095">utils::Timeval::operator+()</a>, and <a class="el" href="_timeval_8cpp_source.html#l00104">utils::Timeval::operator-()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_c_l_i11_8hpp_source.html#l06858">CLI::App::exit()</a>, <a class="el" href="_timeval_8cpp_source.html#l00081">utils::Timeval::operator+()</a>, and <a class="el" href="_timeval_8cpp_source.html#l00090">utils::Timeval::operator-()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -195,27 +195,27 @@ Here is the caller graph for this function:</div>
 
 <p>Printout a clean, simple message on error (the default in CLI11 1.5+) </p>
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l08700">8700</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l08700"></a><span class="lineno"> 8700</span>&#160;                                                                {</div>
-<div class="line"><a name="l08701"></a><span class="lineno"> 8701</span>&#160;            std::string header = std::string(e.what()) + <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><a name="l08702"></a><span class="lineno"> 8702</span>&#160;            std::vector&lt;std::string&gt; names;</div>
-<div class="line"><a name="l08703"></a><span class="lineno"> 8703</span>&#160; </div>
-<div class="line"><a name="l08704"></a><span class="lineno"> 8704</span>&#160;            <span class="comment">// Collect names</span></div>
-<div class="line"><a name="l08705"></a><span class="lineno"> 8705</span>&#160;            <span class="keywordflow">if</span> (app-&gt;get_help_ptr() != <span class="keyword">nullptr</span>)</div>
-<div class="line"><a name="l08706"></a><span class="lineno"> 8706</span>&#160;                names.push_back(app-&gt;get_help_ptr()-&gt;get_name());</div>
-<div class="line"><a name="l08707"></a><span class="lineno"> 8707</span>&#160; </div>
-<div class="line"><a name="l08708"></a><span class="lineno"> 8708</span>&#160;            <span class="keywordflow">if</span> (app-&gt;get_help_all_ptr() != <span class="keyword">nullptr</span>)</div>
-<div class="line"><a name="l08709"></a><span class="lineno"> 8709</span>&#160;                names.push_back(app-&gt;get_help_all_ptr()-&gt;get_name());</div>
-<div class="line"><a name="l08710"></a><span class="lineno"> 8710</span>&#160; </div>
-<div class="line"><a name="l08711"></a><span class="lineno"> 8711</span>&#160;            <span class="comment">// If any names found, suggest those</span></div>
-<div class="line"><a name="l08712"></a><span class="lineno"> 8712</span>&#160;            <span class="keywordflow">if</span> (!names.empty())</div>
-<div class="line"><a name="l08713"></a><span class="lineno"> 8713</span>&#160;                header += <span class="stringliteral">&quot;Run with &quot;</span> + <a class="code" href="namespace_c_l_i_1_1detail.html#a8597debec6c8bc164109538253ffc623">detail::join</a>(names, <span class="stringliteral">&quot; or &quot;</span>) + <span class="stringliteral">&quot; for more information.\n&quot;</span>;</div>
-<div class="line"><a name="l08714"></a><span class="lineno"> 8714</span>&#160; </div>
-<div class="line"><a name="l08715"></a><span class="lineno"> 8715</span>&#160;            <span class="keywordflow">return</span> header;</div>
-<div class="line"><a name="l08716"></a><span class="lineno"> 8716</span>&#160;        }</div>
-<div class="ttc" id="anamespace_c_l_i_1_1detail_html_a8597debec6c8bc164109538253ffc623"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a8597debec6c8bc164109538253ffc623">CLI::detail::join</a></div><div class="ttdeci">std::string join(const T &amp;v, Callable func, std::string delim=&quot;,&quot;)</div><div class="ttdoc">Simple function to join a string from processed elements.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l00188">CLI11.hpp:188</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l08827">8827</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l08827"></a><span class="lineno"> 8827</span>&#160;                                                                {</div>
+<div class="line"><a name="l08828"></a><span class="lineno"> 8828</span>&#160;            std::string header = std::string(e.what()) + <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l08829"></a><span class="lineno"> 8829</span>&#160;            std::vector&lt;std::string&gt; names;</div>
+<div class="line"><a name="l08830"></a><span class="lineno"> 8830</span>&#160; </div>
+<div class="line"><a name="l08831"></a><span class="lineno"> 8831</span>&#160;            <span class="comment">// Collect names</span></div>
+<div class="line"><a name="l08832"></a><span class="lineno"> 8832</span>&#160;            <span class="keywordflow">if</span> (app-&gt;get_help_ptr() != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l08833"></a><span class="lineno"> 8833</span>&#160;                names.push_back(app-&gt;get_help_ptr()-&gt;get_name());</div>
+<div class="line"><a name="l08834"></a><span class="lineno"> 8834</span>&#160; </div>
+<div class="line"><a name="l08835"></a><span class="lineno"> 8835</span>&#160;            <span class="keywordflow">if</span> (app-&gt;get_help_all_ptr() != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l08836"></a><span class="lineno"> 8836</span>&#160;                names.push_back(app-&gt;get_help_all_ptr()-&gt;get_name());</div>
+<div class="line"><a name="l08837"></a><span class="lineno"> 8837</span>&#160; </div>
+<div class="line"><a name="l08838"></a><span class="lineno"> 8838</span>&#160;            <span class="comment">// If any names found, suggest those</span></div>
+<div class="line"><a name="l08839"></a><span class="lineno"> 8839</span>&#160;            <span class="keywordflow">if</span> (!names.empty())</div>
+<div class="line"><a name="l08840"></a><span class="lineno"> 8840</span>&#160;                header += <span class="stringliteral">&quot;Run with &quot;</span> + <a class="code" href="namespace_c_l_i_1_1detail.html#a8597debec6c8bc164109538253ffc623">detail::join</a>(names, <span class="stringliteral">&quot; or &quot;</span>) + <span class="stringliteral">&quot; for more information.\n&quot;</span>;</div>
+<div class="line"><a name="l08841"></a><span class="lineno"> 8841</span>&#160; </div>
+<div class="line"><a name="l08842"></a><span class="lineno"> 8842</span>&#160;            <span class="keywordflow">return</span> header;</div>
+<div class="line"><a name="l08843"></a><span class="lineno"> 8843</span>&#160;        }</div>
+<div class="ttc" id="anamespace_c_l_i_1_1detail_html_a8597debec6c8bc164109538253ffc623"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a8597debec6c8bc164109538253ffc623">CLI::detail::join</a></div><div class="ttdeci">std::string join(const T &amp;v, Callable func, std::string delim=&quot;,&quot;)</div><div class="ttdoc">Simple function to join a string from processed elements.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l00208">CLI11.hpp:208</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l07263">CLI::App::get_help_all_ptr()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l07253">CLI::App::get_help_ptr()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l04918">CLI::Option::get_name()</a>, and <a class="el" href="_c_l_i11_8hpp_source.html#l00172">CLI::detail::join()</a>.</p>
+<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l07354">CLI::App::get_help_all_ptr()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l07344">CLI::App::get_help_ptr()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l04987">CLI::Option::get_name()</a>, and <a class="el" href="_c_l_i11_8hpp_source.html#l00192">CLI::detail::join()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

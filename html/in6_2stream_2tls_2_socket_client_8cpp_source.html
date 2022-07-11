@@ -103,21 +103,22 @@ $(document).ready(function(){initNavTree('in6_2stream_2tls_2_socket_client_8cpp_
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * along with this program. If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_client_socket_8hpp.html">net/ClientSocket.hpp</a>&quot;</span> <span class="comment">// IWYU pragma: keep</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="in6_2stream_2_client_socket_8hpp.html">net/in6/stream/ClientSocket.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="in6_2stream_2tls_2config_2_config_socket_client_8h.html">net/in6/stream/tls/config/ConfigSocketClient.h</a>&quot;</span> <span class="comment">// IWYU pragma: keep</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="net_2in6_2stream_2tls_2_socket_client_8h.html">net/in6/stream/tls/SocketClient.h</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="in6_2stream_2_socket_client_8hpp.html">net/in6/stream/SocketClient.hpp</a>&quot;</span> <span class="comment">// IWYU pragma: keep</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// DOXYGEN_SHOULD_SKIP_THIS</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">template</span> <span class="keyword">class </span><a class="code" href="classnet_1_1in6_1_1stream_1_1_client_socket.html">net::in6::stream::ClientSocket&lt;net::in6::stream::tls::config::ConfigSocketClient&gt;</a>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">template</span> <span class="keyword">class </span><a class="code" href="classnet_1_1_client_socket.html">net::ClientSocket&lt;net::in6::stream::tls::config::ConfigSocketClient, net::in6::stream::Socket&gt;</a>;</div>
-<div class="ttc" id="a_client_socket_8hpp_html"><div class="ttname"><a href="_client_socket_8hpp.html">ClientSocket.hpp</a></div></div>
-<div class="ttc" id="aclassnet_1_1_client_socket_html"><div class="ttname"><a href="classnet_1_1_client_socket.html">net::ClientSocket</a></div><div class="ttdef"><b>Definition:</b> <a href="_client_socket_8h_source.html#l00033">ClientSocket.h:33</a></div></div>
-<div class="ttc" id="aclassnet_1_1in6_1_1stream_1_1_client_socket_html"><div class="ttname"><a href="classnet_1_1in6_1_1stream_1_1_client_socket.html">net::in6::stream::ClientSocket</a></div><div class="ttdef"><b>Definition:</b> <a href="in6_2stream_2_client_socket_8h_source.html#l00036">ClientSocket.h:36</a></div></div>
-<div class="ttc" id="ain6_2stream_2_client_socket_8hpp_html"><div class="ttname"><a href="in6_2stream_2_client_socket_8hpp.html">ClientSocket.hpp</a></div></div>
-<div class="ttc" id="ain6_2stream_2tls_2config_2_config_socket_client_8h_html"><div class="ttname"><a href="in6_2stream_2tls_2config_2_config_socket_client_8h.html">ConfigSocketClient.h</a></div></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">template</span> <span class="keyword">class </span><a class="code" href="classnet_1_1in6_1_1stream_1_1_socket_client.html">net::in6::stream::SocketClient&lt;net::in6::stream::tls::config::ConfigSocketClient&gt;</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">template</span> <span class="keyword">class </span><a class="code" href="classnet_1_1stream_1_1_socket_client.html">net::stream::SocketClient&lt;net::in6::stream::tls::config::ConfigSocketClient, net::in6::stream::ClientSocket&gt;</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">template</span> <span class="keyword">class </span><a class="code" href="classnet_1_1_socket_config.html">net::SocketConfig&lt;net::in6::stream::tls::config::ConfigSocketClient&gt;</a>;</div>
+<div class="ttc" id="aclassnet_1_1_socket_config_html"><div class="ttname"><a href="classnet_1_1_socket_config.html">net::SocketConfig</a></div><div class="ttdef"><b>Definition:</b> <a href="_socket_config_8h_source.html#l00032">SocketConfig.h:32</a></div></div>
+<div class="ttc" id="aclassnet_1_1in6_1_1stream_1_1_socket_client_html"><div class="ttname"><a href="classnet_1_1in6_1_1stream_1_1_socket_client.html">net::in6::stream::SocketClient</a></div><div class="ttdef"><b>Definition:</b> <a href="net_2in6_2stream_2_socket_client_8h_source.html#l00036">SocketClient.h:36</a></div></div>
+<div class="ttc" id="aclassnet_1_1stream_1_1_socket_client_html"><div class="ttname"><a href="classnet_1_1stream_1_1_socket_client.html">net::stream::SocketClient</a></div><div class="ttdef"><b>Definition:</b> <a href="net_2stream_2_socket_client_8h_source.html#l00035">SocketClient.h:35</a></div></div>
+<div class="ttc" id="ain6_2stream_2_socket_client_8hpp_html"><div class="ttname"><a href="in6_2stream_2_socket_client_8hpp.html">SocketClient.hpp</a></div></div>
+<div class="ttc" id="anet_2in6_2stream_2tls_2_socket_client_8h_html"><div class="ttname"><a href="net_2in6_2stream_2tls_2_socket_client_8h.html">SocketClient.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

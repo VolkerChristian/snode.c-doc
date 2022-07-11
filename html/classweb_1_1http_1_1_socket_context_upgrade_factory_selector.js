@@ -2,6 +2,8 @@ var classweb_1_1http_1_1_socket_context_upgrade_factory_selector =
 [
     [ "Request", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a39b69a59a030fdfc856fd9972facec46", null ],
     [ "Response", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a0caceb1be9b1e29d742e085ac2d4d6b7", null ],
+    [ "SocketContextPlugin", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a0f18789e99aad35ee46d169ffa3f0c35", null ],
+    [ "SocketContextUpgrade", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a52c9c9a6ed9cd5f4bb1f31ae8f82c713", null ],
     [ "SocketContextUpgradeFactory", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#abc18b9113d82388b6b5e04d5d930be40", null ],
     [ "SocketContextUpgradeFactorySelector", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a2d3d991470a6063153187d3df445d277", null ],
     [ "~SocketContextUpgradeFactorySelector", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#abf906702b82e441210d7f9e8b47e4dcd", null ],
@@ -11,12 +13,13 @@ var classweb_1_1http_1_1_socket_context_upgrade_factory_selector =
     [ "allowDlOpen", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a0e465ab794970c399a2732e184bc7696", null ],
     [ "link", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a63c168302569059893894c8bd3a61050", null ],
     [ "load", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a99ae9cd5be8fd4f20b80dea3df702a73", null ],
-    [ "load", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a4399aa92b0d0df8dfe2517af312028de", null ],
+    [ "load", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a4ac2dde3344d125e9c4ce764ae2cfe5e", null ],
     [ "select", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a25f12f160e3265a8aafa4c29372e88aa", null ],
     [ "select", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a57f062efa9fe08c37fe67e32c7a85275", null ],
     [ "unload", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a95a372b68288705669f80c5721eff016", null ],
+    [ "handle", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#aad0875014c5085f6d11b9b953ee43849", null ],
     [ "linkedSocketContextUpgradePlugins", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a2c292130080c1a659f8110baadd3dd4f", null ],
     [ "onlyLinked", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a933da54b3d4e1300bbee09fbe5df6a34", null ],
     [ "searchPaths", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a266095b8a79eef17a8008339efdf52a5", null ],
-    [ "socketContextUpgradePlugins", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#af828a33e2fbbb5642c2e8a28d6f4d5ab", null ]
+    [ "socketContextUpgradePlugins", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#ae4dca8e3e0f6d050c0d517ea4d8b695c", null ]
 ];

@@ -24,7 +24,6 @@ var classweb_1_1websocket_1_1_sub_protocol =
     [ "sendMessageStart", "classweb_1_1websocket_1_1_sub_protocol.html#a06c8957c3a7fb2db207576f8e48593f1", null ],
     [ "sendMessageStart", "classweb_1_1websocket_1_1_sub_protocol.html#a1a893e02ee91d95d093d568fe8b9d33f", null ],
     [ "sendPing", "classweb_1_1websocket_1_1_sub_protocol.html#abd3911de6e37aa4ad047a74bdae5e05d", null ],
-    [ "setName", "classweb_1_1websocket_1_1_sub_protocol.html#a295bf9a3168c24add0e566cec64ed1ce", null ],
     [ "setSocketContextUpgrade", "classweb_1_1websocket_1_1_sub_protocol.html#a137066a9d74df8dc4eccc75af75b38ff", null ],
     [ "web::websocket::SocketContextUpgrade", "classweb_1_1websocket_1_1_sub_protocol.html#a1d575c1146ab69eba0ab27c1acd913a3", null ],
     [ "name", "classweb_1_1websocket_1_1_sub_protocol.html#a2932b08860f3c5da378210193f23a229", null ],

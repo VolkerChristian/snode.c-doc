@@ -97,13 +97,13 @@ $(document).ready(function(){initNavTree('class_c_l_i_1_1_config.html',''); init
 <div class="dynheader">
 Inheritance diagram for CLI::Config:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_l_i_1_1_config__inherit__graph.svg" width="183" height="750"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_l_i_1_1_config__inherit__graph.svg" width="135" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for CLI::Config:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_l_i_1_1_config__coll__graph.svg" width="136" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_l_i_1_1_config__coll__graph.svg" width="103" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -133,7 +133,7 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class provides a converter for configuration files. </p>
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l02616">2616</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l02649">2649</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adf504285455f78fb1595d2ddad1cb626"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adf504285455f78fb1595d2ddad1cb626">&#9670;&nbsp;</a></span>~Config()</h2>
@@ -219,18 +219,18 @@ Protected Attributes</h2></td></tr>
 
 <p>Parse a config file, throw an error (<a class="el" href="class_c_l_i_1_1_parse_error.html" title="Anything that can error in Parse.">ParseError</a>:ConfigParseError or <a class="el" href="class_c_l_i_1_1_file_error.html" title="Thrown when parsing an INI file and it is missing.">FileError</a>) on failure. </p>
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l02636">2636</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l02636"></a><span class="lineno"> 2636</span>&#160;                                                               {</div>
-<div class="line"><a name="l02637"></a><span class="lineno"> 2637</span>&#160;            std::ifstream input{name};</div>
-<div class="line"><a name="l02638"></a><span class="lineno"> 2638</span>&#160;            <span class="keywordflow">if</span> (!input.good())</div>
-<div class="line"><a name="l02639"></a><span class="lineno"> 2639</span>&#160;                <span class="keywordflow">throw</span> <a class="code" href="class_c_l_i_1_1_file_error.html#a5117d3f4ce0cb625a9153f948114015b">FileError::Missing</a>(name);</div>
-<div class="line"><a name="l02640"></a><span class="lineno"> 2640</span>&#160; </div>
-<div class="line"><a name="l02641"></a><span class="lineno"> 2641</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_c_l_i_1_1_config.html#aa1d072db121fac141cb69cb2a32ba642">from_config</a>(input);</div>
-<div class="line"><a name="l02642"></a><span class="lineno"> 2642</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l02672">2672</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l02672"></a><span class="lineno"> 2672</span>&#160;                                                               {</div>
+<div class="line"><a name="l02673"></a><span class="lineno"> 2673</span>&#160;            std::ifstream input{name};</div>
+<div class="line"><a name="l02674"></a><span class="lineno"> 2674</span>&#160;            <span class="keywordflow">if</span> (!input.good())</div>
+<div class="line"><a name="l02675"></a><span class="lineno"> 2675</span>&#160;                <span class="keywordflow">throw</span> <a class="code" href="class_c_l_i_1_1_file_error.html#a5117d3f4ce0cb625a9153f948114015b">FileError::Missing</a>(name);</div>
+<div class="line"><a name="l02676"></a><span class="lineno"> 2676</span>&#160; </div>
+<div class="line"><a name="l02677"></a><span class="lineno"> 2677</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_c_l_i_1_1_config.html#aa1d072db121fac141cb69cb2a32ba642">from_config</a>(input);</div>
+<div class="line"><a name="l02678"></a><span class="lineno"> 2678</span>&#160;        }</div>
 <div class="ttc" id="aclass_c_l_i_1_1_config_html_aa1d072db121fac141cb69cb2a32ba642"><div class="ttname"><a href="class_c_l_i_1_1_config.html#aa1d072db121fac141cb69cb2a32ba642">CLI::Config::from_config</a></div><div class="ttdeci">virtual std::vector&lt; ConfigItem &gt; from_config(std::istream &amp;) const =0</div><div class="ttdoc">Convert a configuration into an app.</div></div>
-<div class="ttc" id="aclass_c_l_i_1_1_file_error_html_a5117d3f4ce0cb625a9153f948114015b"><div class="ttname"><a href="class_c_l_i_1_1_file_error.html#a5117d3f4ce0cb625a9153f948114015b">CLI::FileError::Missing</a></div><div class="ttdeci">static FileError Missing(std::string name)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l00750">CLI11.hpp:750</a></div></div>
+<div class="ttc" id="aclass_c_l_i_1_1_file_error_html_a5117d3f4ce0cb625a9153f948114015b"><div class="ttname"><a href="class_c_l_i_1_1_file_error.html#a5117d3f4ce0cb625a9153f948114015b">CLI::FileError::Missing</a></div><div class="ttdeci">static FileError Missing(std::string name)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l00770">CLI11.hpp:770</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l00750">CLI::FileError::Missing()</a>.</p>
+<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l00770">CLI::FileError::Missing()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -318,16 +318,19 @@ Here is the call graph for this function:</div>
 
 <p>Get a flag value. </p>
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l02628">2628</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l02628"></a><span class="lineno"> 2628</span>&#160;                                                                {</div>
-<div class="line"><a name="l02629"></a><span class="lineno"> 2629</span>&#160;            <span class="keywordflow">if</span> (item.inputs.size() == 1) {</div>
-<div class="line"><a name="l02630"></a><span class="lineno"> 2630</span>&#160;                <span class="keywordflow">return</span> item.inputs.at(0);</div>
-<div class="line"><a name="l02631"></a><span class="lineno"> 2631</span>&#160;            }</div>
-<div class="line"><a name="l02632"></a><span class="lineno"> 2632</span>&#160;            <span class="keywordflow">throw</span> <a class="code" href="class_c_l_i_1_1_conversion_error.html#afcf6df5e47b430c4083465a07f2ba037">ConversionError::TooManyInputsFlag</a>(item.fullname());</div>
-<div class="line"><a name="l02633"></a><span class="lineno"> 2633</span>&#160;        }</div>
-<div class="ttc" id="aclass_c_l_i_1_1_conversion_error_html_afcf6df5e47b430c4083465a07f2ba037"><div class="ttname"><a href="class_c_l_i_1_1_conversion_error.html#afcf6df5e47b430c4083465a07f2ba037">CLI::ConversionError::TooManyInputsFlag</a></div><div class="ttdeci">static ConversionError TooManyInputsFlag(std::string name)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l00765">CLI11.hpp:765</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l02661">2661</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l02661"></a><span class="lineno"> 2661</span>&#160;                                                                {</div>
+<div class="line"><a name="l02662"></a><span class="lineno"> 2662</span>&#160;            <span class="keywordflow">if</span> (item.inputs.size() == 1) {</div>
+<div class="line"><a name="l02663"></a><span class="lineno"> 2663</span>&#160;                <span class="keywordflow">return</span> item.inputs.at(0);</div>
+<div class="line"><a name="l02664"></a><span class="lineno"> 2664</span>&#160;            }</div>
+<div class="line"><a name="l02665"></a><span class="lineno"> 2665</span>&#160;            <span class="keywordflow">if</span> (item.inputs.empty()) {</div>
+<div class="line"><a name="l02666"></a><span class="lineno"> 2666</span>&#160;                <span class="keywordflow">return</span> <span class="stringliteral">&quot;{}&quot;</span>;</div>
+<div class="line"><a name="l02667"></a><span class="lineno"> 2667</span>&#160;            }</div>
+<div class="line"><a name="l02668"></a><span class="lineno"> 2668</span>&#160;            <span class="keywordflow">throw</span> <a class="code" href="class_c_l_i_1_1_conversion_error.html#afcf6df5e47b430c4083465a07f2ba037">ConversionError::TooManyInputsFlag</a>(item.fullname());</div>
+<div class="line"><a name="l02669"></a><span class="lineno"> 2669</span>&#160;        }</div>
+<div class="ttc" id="aclass_c_l_i_1_1_conversion_error_html_afcf6df5e47b430c4083465a07f2ba037"><div class="ttname"><a href="class_c_l_i_1_1_conversion_error.html#afcf6df5e47b430c4083465a07f2ba037">CLI::ConversionError::TooManyInputsFlag</a></div><div class="ttdeci">static ConversionError TooManyInputsFlag(std::string name)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l00785">CLI11.hpp:785</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l02608">CLI::ConfigItem::fullname()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l02605">CLI::ConfigItem::inputs</a>, and <a class="el" href="_c_l_i11_8hpp_source.html#l00765">CLI::ConversionError::TooManyInputsFlag()</a>.</p>
+<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l02641">CLI::ConfigItem::fullname()</a>, <a class="el" href="_c_l_i11_8hpp_source.html#l02638">CLI::ConfigItem::inputs</a>, and <a class="el" href="_c_l_i11_8hpp_source.html#l00785">CLI::ConversionError::TooManyInputsFlag()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -358,7 +361,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l02618">2618</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l02651">2651</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
 
 </div>
 </div>

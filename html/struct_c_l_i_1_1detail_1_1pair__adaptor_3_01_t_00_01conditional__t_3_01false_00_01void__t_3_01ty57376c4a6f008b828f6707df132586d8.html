@@ -94,13 +94,13 @@ $(document).ready(function(){initNavTree('struct_c_l_i_1_1detail_1_1pair__adapto
 <div class="dynheader">
 Inheritance diagram for CLI::detail::pair_adaptor&lt; T, conditional_t&lt; false, void_t&lt; typename T::value_type::first_type, typename T::value_type::second_type &gt;, void &gt; &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="struct_c_l_i_1_1detail_1_1pair__adaptor_3_01_t_00_01conditional__t_3_01false_00_01void__t_3_01ty343840fd8833732ab72cb08f831adf5f.svg" width="214" height="302"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="struct_c_l_i_1_1detail_1_1pair__adaptor_3_01_t_00_01conditional__t_3_01false_00_01void__t_3_01ty343840fd8833732ab72cb08f831adf5f.svg" width="214" height="186"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for CLI::detail::pair_adaptor&lt; T, conditional_t&lt; false, void_t&lt; typename T::value_type::first_type, typename T::value_type::second_type &gt;, void &gt; &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="struct_c_l_i_1_1detail_1_1pair__adaptor_3_01_t_00_01conditional__t_3_01false_00_01void__t_3_01ty2307f5b43e3e077bd3d8e13ca839b7d1.svg" width="214" height="302"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="struct_c_l_i_1_1detail_1_1pair__adaptor_3_01_t_00_01conditional__t_3_01false_00_01void__t_3_01ty2307f5b43e3e077bd3d8e13ca839b7d1.svg" width="214" height="186"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -130,7 +130,7 @@ struct CLI::detail::pair_adaptor&lt; T, conditional_t&lt; false, void_t&lt; type
 
 <p>Adaptor for map-like structure (true version, must have key_type and mapped_type). This wraps a mapped container in a few utilities access it in a general way. </p>
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l01036">1036</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l01060">1060</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a0a49df2a80091b7be7df2213a0d1385b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0a49df2a80091b7be7df2213a0d1385b">&#9670;&nbsp;</a></span>first_type</h2>
@@ -146,7 +146,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l01039">1039</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l01063">1063</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
 
 </div>
 </div>
@@ -164,7 +164,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l01040">1040</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l01064">1064</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
 
 </div>
 </div>
@@ -182,7 +182,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l01038">1038</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l01062">1062</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
 
 </div>
 </div>
@@ -217,10 +217,10 @@ template&lt;typename Q &gt; </div>
 
 <p>Get the first value (really just the underlying value) </p>
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l01044">1044</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l01044"></a><span class="lineno"> 1044</span>&#160;                                                                                                {</div>
-<div class="line"><a name="l01045"></a><span class="lineno"> 1045</span>&#160;                <span class="keywordflow">return</span> std::get&lt;0&gt;(std::forward&lt;Q&gt;(pair_value));</div>
-<div class="line"><a name="l01046"></a><span class="lineno"> 1046</span>&#160;            }</div>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l01068">1068</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l01068"></a><span class="lineno"> 1068</span>&#160;                                                                                                {</div>
+<div class="line"><a name="l01069"></a><span class="lineno"> 1069</span>&#160;                <span class="keywordflow">return</span> std::get&lt;0&gt;(std::forward&lt;Q&gt;(pair_value));</div>
+<div class="line"><a name="l01070"></a><span class="lineno"> 1070</span>&#160;            }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -254,10 +254,10 @@ template&lt;typename Q &gt; </div>
 
 <p>Get the second value (really just the underlying value) </p>
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l01049">1049</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l01049"></a><span class="lineno"> 1049</span>&#160;                                                                                                 {</div>
-<div class="line"><a name="l01050"></a><span class="lineno"> 1050</span>&#160;                <span class="keywordflow">return</span> std::get&lt;1&gt;(std::forward&lt;Q&gt;(pair_value));</div>
-<div class="line"><a name="l01051"></a><span class="lineno"> 1051</span>&#160;            }</div>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l01073">1073</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l01073"></a><span class="lineno"> 1073</span>&#160;                                                                                                 {</div>
+<div class="line"><a name="l01074"></a><span class="lineno"> 1074</span>&#160;                <span class="keywordflow">return</span> std::get&lt;1&gt;(std::forward&lt;Q&gt;(pair_value));</div>
+<div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160;            }</div>
 </div><!-- fragment -->
 </div>
 </div>

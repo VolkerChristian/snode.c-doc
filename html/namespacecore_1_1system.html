@@ -108,8 +108,8 @@ Functions</h2></td></tr>
 <tr class="separator:a86e636682d33db526f7502ab0e6ff57c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6aae4d2a37b9b40e65b3f7e28a21382c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#a6aae4d2a37b9b40e65b3f7e28a21382c">freeaddrinfo</a> (struct addrinfo *res)</td></tr>
 <tr class="separator:a6aae4d2a37b9b40e65b3f7e28a21382c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2347537ad9f92683e13fc44676f9b9c3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#a2347537ad9f92683e13fc44676f9b9c3">getnameinfo</a> (const struct sockaddr *addr, socklen_t addrlen, char *host, socklen_t hostlen, char *serv, socklen_t servlen, int flags)</td></tr>
-<tr class="separator:a2347537ad9f92683e13fc44676f9b9c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e256dfd12c78c20f9ff550a14a43bef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#a4e256dfd12c78c20f9ff550a14a43bef">getnameinfo</a> (const sockaddr *addr, socklen_t addrlen, char *host, socklen_t hostlen, char *serv, socklen_t servlen, int flags)</td></tr>
+<tr class="separator:a4e256dfd12c78c20f9ff550a14a43bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab33bc3708f662ee03fc101d59ebbea94"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#ab33bc3708f662ee03fc101d59ebbea94">poll</a> (pollfd *fds, nfds_t nfds, int timeout)</td></tr>
 <tr class="separator:ab33bc3708f662ee03fc101d59ebbea94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeab6bc4edb67dd3ee9c589269dd2bf0b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#aeab6bc4edb67dd3ee9c589269dd2bf0b">select</a> (int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struct timeval *timeout)</td></tr>
@@ -118,18 +118,20 @@ Functions</h2></td></tr>
 <tr class="separator:a0e5e3b39e66ee4db8b9bb6065e693d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ffaddeca7b0ee1c5ee33addd15e02db"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#a5ffaddeca7b0ee1c5ee33addd15e02db">socket</a> (int domain, int type, int protocol)</td></tr>
 <tr class="separator:a5ffaddeca7b0ee1c5ee33addd15e02db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19ceab092964086376447fb7ddbdb2d2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#a19ceab092964086376447fb7ddbdb2d2">bind</a> (int sockfd, const struct sockaddr *addr, socklen_t addrlen)</td></tr>
-<tr class="separator:a19ceab092964086376447fb7ddbdb2d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a726f40f6a8ebf70f5a83bd41d3a028de"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#a726f40f6a8ebf70f5a83bd41d3a028de">bind</a> (int sockfd, const sockaddr *addr, socklen_t addrlen)</td></tr>
+<tr class="separator:a726f40f6a8ebf70f5a83bd41d3a028de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d02857d418a45aa380ebafec930b18f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#a8d02857d418a45aa380ebafec930b18f">listen</a> (int sockfd, int backlog)</td></tr>
 <tr class="separator:a8d02857d418a45aa380ebafec930b18f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c1b676faa6cb9d0b9e7b42b91b374ab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#a2c1b676faa6cb9d0b9e7b42b91b374ab">accept4</a> (int sockfd, struct sockaddr *addr, socklen_t *addrlen, int flags)</td></tr>
-<tr class="separator:a2c1b676faa6cb9d0b9e7b42b91b374ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a461a0fc3cbdbdb164a02d2d920489b62"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#a461a0fc3cbdbdb164a02d2d920489b62">connect</a> (int sockfd, const struct sockaddr *addr, socklen_t addrlen)</td></tr>
-<tr class="separator:a461a0fc3cbdbdb164a02d2d920489b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a252068ee271f0319fdfac711649f852f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#a252068ee271f0319fdfac711649f852f">getsockname</a> (int sockfd, struct sockaddr *addr, socklen_t *addrlen)</td></tr>
-<tr class="separator:a252068ee271f0319fdfac711649f852f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72b5fb13dfc490223fded986576e70fb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#a72b5fb13dfc490223fded986576e70fb">getpeername</a> (int sockfd, struct sockaddr *addr, socklen_t *addrlen)</td></tr>
-<tr class="separator:a72b5fb13dfc490223fded986576e70fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b506c06e449e6bdf5aba1c6fdcad779"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#a8b506c06e449e6bdf5aba1c6fdcad779">accept</a> (int sockfd, sockaddr *addr, socklen_t *addrlen)</td></tr>
+<tr class="separator:a8b506c06e449e6bdf5aba1c6fdcad779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6281ec9ee570c4a9af06541892cd952"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#ae6281ec9ee570c4a9af06541892cd952">accept4</a> (int sockfd, sockaddr *addr, socklen_t *addrlen, int flags)</td></tr>
+<tr class="separator:ae6281ec9ee570c4a9af06541892cd952"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f27caa888ac8809434c3338df8eeae1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#a1f27caa888ac8809434c3338df8eeae1">connect</a> (int sockfd, const sockaddr *addr, socklen_t addrlen)</td></tr>
+<tr class="separator:a1f27caa888ac8809434c3338df8eeae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09b7b5fd5a49db5b0abee54dfda17ba1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#a09b7b5fd5a49db5b0abee54dfda17ba1">getsockname</a> (int sockfd, sockaddr *addr, socklen_t *addrlen)</td></tr>
+<tr class="separator:a09b7b5fd5a49db5b0abee54dfda17ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c12f08bc8a1d08ee4585204eb0745b1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#a6c12f08bc8a1d08ee4585204eb0745b1">getpeername</a> (int sockfd, sockaddr *addr, socklen_t *addrlen)</td></tr>
+<tr class="separator:a6c12f08bc8a1d08ee4585204eb0745b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37ca251adecc564c59a9420200b20a9f"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#a37ca251adecc564c59a9420200b20a9f">recv</a> (int sockfd, void *buf, std::size_t len, int flags)</td></tr>
 <tr class="separator:a37ca251adecc564c59a9420200b20a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc000fbe5ae2216ddf84c0f24eb8aa33"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore_1_1system.html#afc000fbe5ae2216ddf84c0f24eb8aa33">send</a> (int sockfd, const void *buf, std::size_t len, int flags)</td></tr>
@@ -160,8 +162,49 @@ Functions</h2></td></tr>
 <tr class="separator:aed100e752a00ffbde81be386936053ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a2c1b676faa6cb9d0b9e7b42b91b374ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c1b676faa6cb9d0b9e7b42b91b374ab">&#9670;&nbsp;</a></span>accept4()</h2>
+<a id="a8b506c06e449e6bdf5aba1c6fdcad779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b506c06e449e6bdf5aba1c6fdcad779">&#9670;&nbsp;</a></span>accept()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int core::system::accept </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sockfd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sockaddr *&#160;</td>
+          <td class="paramname"><em>addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">socklen_t *&#160;</td>
+          <td class="paramname"><em>addrlen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00044">44</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                                                               {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        errno = 0;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a8b506c06e449e6bdf5aba1c6fdcad779">return ::accept</a>(sockfd, addr, addrlen);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
+<div class="ttc" id="anamespacecore_1_1system_html_a8b506c06e449e6bdf5aba1c6fdcad779"><div class="ttname"><a href="namespacecore_1_1system.html#a8b506c06e449e6bdf5aba1c6fdcad779">core::system::accept</a></div><div class="ttdeci">int accept(int sockfd, sockaddr *addr, socklen_t *addrlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00044">socket.cpp:44</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae6281ec9ee570c4a9af06541892cd952"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6281ec9ee570c4a9af06541892cd952">&#9670;&nbsp;</a></span>accept4()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -175,7 +218,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct sockaddr *&#160;</td>
+          <td class="paramtype">sockaddr *&#160;</td>
           <td class="paramname"><em>addr</em>, </td>
         </tr>
         <tr>
@@ -198,25 +241,25 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00044">44</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                                                                                  {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        errno = 0;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a2c1b676faa6cb9d0b9e7b42b91b374ab">return ::accept4</a>(sockfd, addr, addrlen, flags);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
-<div class="ttc" id="anamespacecore_1_1system_html_a2c1b676faa6cb9d0b9e7b42b91b374ab"><div class="ttname"><a href="namespacecore_1_1system.html#a2c1b676faa6cb9d0b9e7b42b91b374ab">core::system::accept4</a></div><div class="ttdeci">int accept4(int sockfd, struct sockaddr *addr, socklen_t *addrlen, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00044">socket.cpp:44</a></div></div>
+<p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00049">49</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        errno = 0;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="namespacecore_1_1system.html#ae6281ec9ee570c4a9af06541892cd952">return ::accept4</a>(sockfd, addr, addrlen, flags);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
+<div class="ttc" id="anamespacecore_1_1system_html_ae6281ec9ee570c4a9af06541892cd952"><div class="ttname"><a href="namespacecore_1_1system.html#ae6281ec9ee570c4a9af06541892cd952">core::system::accept4</a></div><div class="ttdeci">int accept4(int sockfd, sockaddr *addr, socklen_t *addrlen, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00049">socket.cpp:49</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_socket_acceptor_8h_source.html#l00143">core::socket::stream::SocketAcceptor&lt; ServerSocketT, SocketConnectionT &gt;::acceptEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_server_socket_8hpp_source.html#l00041">net::stream::ServerSocket&lt; SocketT &gt;::accept4()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a2c1b676faa6cb9d0b9e7b42b91b374ab_icgraph.svg" width="443" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_ae6281ec9ee570c4a9af06541892cd952_icgraph.svg" width="415" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a19ceab092964086376447fb7ddbdb2d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19ceab092964086376447fb7ddbdb2d2">&#9670;&nbsp;</a></span>bind()</h2>
+<a id="a726f40f6a8ebf70f5a83bd41d3a028de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a726f40f6a8ebf70f5a83bd41d3a028de">&#9670;&nbsp;</a></span>bind()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230,7 +273,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const struct sockaddr *&#160;</td>
+          <td class="paramtype">const sockaddr *&#160;</td>
           <td class="paramname"><em>addr</em>, </td>
         </tr>
         <tr>
@@ -248,20 +291,12 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00034">34</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                                                                         {</div>
+<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                                                                  {</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        errno = 0;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a19ceab092964086376447fb7ddbdb2d2">return ::bind</a>(sockfd, addr, addrlen);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a726f40f6a8ebf70f5a83bd41d3a028de">return ::bind</a>(sockfd, addr, addrlen);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
-<div class="ttc" id="anamespacecore_1_1system_html_a19ceab092964086376447fb7ddbdb2d2"><div class="ttname"><a href="namespacecore_1_1system.html#a19ceab092964086376447fb7ddbdb2d2">core::system::bind</a></div><div class="ttdeci">int bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00034">socket.cpp:34</a></div></div>
+<div class="ttc" id="anamespacecore_1_1system_html_a726f40f6a8ebf70f5a83bd41d3a028de"><div class="ttname"><a href="namespacecore_1_1system.html#a726f40f6a8ebf70f5a83bd41d3a028de">core::system::bind</a></div><div class="ttdeci">int bind(int sockfd, const sockaddr *addr, socklen_t addrlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00034">socket.cpp:34</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_socket_8hpp_source.html#l00041">net::Socket&lt; SocketAddressT &gt;::bind()</a>, <a class="el" href="_socket_acceptor_8h_source.html#l00094">core::socket::stream::SocketAcceptor&lt; ServerSocketT, SocketConnectionT &gt;::initAcceptEvent()</a>, and <a class="el" href="_socket_connector_8h_source.html#l00087">core::socket::stream::SocketConnector&lt; ClientSocketT, SocketConnectionT &gt;::initConnectEvent()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a19ceab092964086376447fb7ddbdb2d2_icgraph.svg" width="423" height="198"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
 </div>
 </div>
 <a id="a2aa41abc7d6ba9da2e5035b74608919a"></a>
@@ -287,18 +322,18 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
 <div class="ttc" id="anamespacecore_1_1system_html_a2aa41abc7d6ba9da2e5035b74608919a"><div class="ttname"><a href="namespacecore_1_1system.html#a2aa41abc7d6ba9da2e5035b74608919a">core::system::close</a></div><div class="ttdeci">int close(int fd)</div><div class="ttdef"><b>Definition:</b> <a href="unistd_8cpp_source.html#l00044">unistd.cpp:44</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_socket_acceptor_8h_source.html#l00143">core::socket::stream::SocketAcceptor&lt; ServerSocketT, SocketConnectionT &gt;::acceptEvent()</a>, <a class="el" href="_descriptor_8cpp_source.html#l00054">core::Descriptor::close()</a>, <a class="el" href="_daemon_8cpp_source.html#l00050">utils::Daemon::daemonize()</a>, <a class="el" href="_daemon_8cpp_source.html#l00127">utils::Daemon::kill()</a>, <a class="el" href="server_2_socket_context_8hpp_source.html#l00135">web::http::server::SocketContext&lt; RequestT, ResponseT &gt;::requestParsed()</a>, <a class="el" href="stream_2_socket_connection_8h_source.html#l00104">core::socket::stream::SocketConnection&lt; SocketT, SocketReaderT, SocketWriterT &gt;::shutdownWrite()</a>, <a class="el" href="_pipe_sink_8cpp_source.html#l00041">core::pipe::PipeSink::~PipeSink()</a>, and <a class="el" href="_pipe_source_8cpp_source.html#l00042">core::pipe::PipeSource::~PipeSource()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_descriptor_8cpp_source.html#l00039">core::Descriptor::close()</a>, <a class="el" href="stream_2_socket_connection_8h_source.html#l00166">core::socket::stream::SocketConnection&lt; SocketT, SocketReaderT, SocketWriterT &gt;::readEvent()</a>, <a class="el" href="stream_2_socket_connection_8h_source.html#l00111">core::socket::stream::SocketConnection&lt; SocketT, SocketReaderT, SocketWriterT &gt;::shutdownWrite()</a>, <a class="el" href="_daemon_8cpp_source.html#l00043">utils::Daemon::startDaemon()</a>, <a class="el" href="_daemon_8cpp_source.html#l00112">utils::Daemon::stopDaemon()</a>, <a class="el" href="_pipe_sink_8cpp_source.html#l00041">core::pipe::PipeSink::~PipeSink()</a>, and <a class="el" href="_pipe_source_8cpp_source.html#l00042">core::pipe::PipeSource::~PipeSource()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a2aa41abc7d6ba9da2e5035b74608919a_icgraph.svg" width="1208" height="483"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a2aa41abc7d6ba9da2e5035b74608919a_icgraph.svg" width="1210" height="424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a461a0fc3cbdbdb164a02d2d920489b62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a461a0fc3cbdbdb164a02d2d920489b62">&#9670;&nbsp;</a></span>connect()</h2>
+<a id="a1f27caa888ac8809434c3338df8eeae1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f27caa888ac8809434c3338df8eeae1">&#9670;&nbsp;</a></span>connect()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -312,7 +347,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const struct sockaddr *&#160;</td>
+          <td class="paramtype">const sockaddr *&#160;</td>
           <td class="paramname"><em>addr</em>, </td>
         </tr>
         <tr>
@@ -329,18 +364,18 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00048">48</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                                                                            {</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        errno = 0;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a461a0fc3cbdbdb164a02d2d920489b62">return ::connect</a>(sockfd, addr, addrlen);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
-<div class="ttc" id="anamespacecore_1_1system_html_a461a0fc3cbdbdb164a02d2d920489b62"><div class="ttname"><a href="namespacecore_1_1system.html#a461a0fc3cbdbdb164a02d2d920489b62">core::system::connect</a></div><div class="ttdeci">int connect(int sockfd, const struct sockaddr *addr, socklen_t addrlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00048">socket.cpp:48</a></div></div>
+<p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00053">53</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        errno = 0;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a1f27caa888ac8809434c3338df8eeae1">return ::connect</a>(sockfd, addr, addrlen);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
+<div class="ttc" id="anamespacecore_1_1system_html_a1f27caa888ac8809434c3338df8eeae1"><div class="ttname"><a href="namespacecore_1_1system.html#a1f27caa888ac8809434c3338df8eeae1">core::system::connect</a></div><div class="ttdeci">int connect(int sockfd, const sockaddr *addr, socklen_t addrlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00053">socket.cpp:53</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_client_socket_8hpp_source.html#l00028">net::ClientSocket&lt; ConfigT, net::l2::stream::Socket &gt;::ClientSocket()</a>, <a class="el" href="_client_socket_8hpp_source.html#l00042">net::ClientSocket&lt; ConfigT, SocketT &gt;::connect()</a>, <a class="el" href="tls_2_socket_connector_8h_source.html#l00094">core::socket::stream::tls::SocketConnector&lt; ClientSocketT &gt;::connect()</a>, <a class="el" href="l2_2stream_2_client_socket_8hpp_source.html#l00034">net::l2::stream::ClientSocket&lt; ConfigT &gt;::connect()</a>, <a class="el" href="rc_2stream_2_client_socket_8hpp_source.html#l00033">net::rc::stream::ClientSocket&lt; ConfigT &gt;::connect()</a>, <a class="el" href="in_2stream_2_client_socket_8hpp_source.html#l00033">net::in::stream::ClientSocket&lt; ConfigT &gt;::connect()</a>, <a class="el" href="in6_2stream_2_client_socket_8hpp_source.html#l00033">net::in6::stream::ClientSocket&lt; ConfigT &gt;::connect()</a>, <a class="el" href="un_2stream_2_client_socket_8hpp_source.html#l00033">net::un::stream::ClientSocket&lt; ConfigT &gt;::connect()</a>, and <a class="el" href="_file_reader_8cpp_source.html#l00034">core::file::FileReader::FileReader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="dgram_2_peer_socket_8hpp_source.html#l00029">net::dgram::PeerSocket&lt; ConfigT, SocketT &gt;::connect()</a>, <a class="el" href="stream_2_socket_client_8hpp_source.html#l00029">net::stream::SocketClient&lt; ConfigT, SocketT &gt;::connect()</a>, <a class="el" href="tls_2_socket_connector_8h_source.html#l00094">core::socket::stream::tls::SocketConnector&lt; SocketClientT &gt;::connect()</a>, <a class="el" href="l2_2stream_2_socket_client_8hpp_source.html#l00035">net::l2::stream::SocketClient&lt; ConfigT &gt;::connect()</a>, <a class="el" href="rc_2stream_2_socket_client_8hpp_source.html#l00034">net::rc::stream::SocketClient&lt; ConfigT &gt;::connect()</a>, <a class="el" href="in_2stream_2_socket_client_8hpp_source.html#l00034">net::in::stream::SocketClient&lt; ConfigT &gt;::connect()</a>, <a class="el" href="in6_2stream_2_socket_client_8hpp_source.html#l00034">net::in6::stream::SocketClient&lt; ConfigT &gt;::connect()</a>, <a class="el" href="un_2dgram_2_peer_socket_8hpp_source.html#l00033">net::un::dgram::PeerSocket&lt; ConfigT &gt;::connect()</a>, <a class="el" href="un_2stream_2_socket_client_8hpp_source.html#l00034">net::un::stream::SocketClient&lt; ConfigT &gt;::connect()</a>, <a class="el" href="_client_socket_8hpp_source.html#l00032">net::stream::ClientSocket&lt; SocketT &gt;::connect()</a>, and <a class="el" href="_file_reader_8cpp_source.html#l00034">core::file::FileReader::FileReader()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a461a0fc3cbdbdb164a02d2d920489b62_icgraph.svg" width="1038" height="607"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a1f27caa888ac8809434c3338df8eeae1_icgraph.svg" width="1032" height="722"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -372,7 +407,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a4317d54914cd18248143183ea71252d3_icgraph.svg" width="1968" height="218"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a4317d54914cd18248143183ea71252d3_icgraph.svg" width="2182" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -404,7 +439,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a0778aa080f796964218bcd02804a2b17_icgraph.svg" width="1966" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a0778aa080f796964218bcd02804a2b17_icgraph.svg" width="2183" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -663,7 +698,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
 <div class="ttc" id="anamespacecore_1_1system_html_a6aae4d2a37b9b40e65b3f7e28a21382c"><div class="ttname"><a href="namespacecore_1_1system.html#a6aae4d2a37b9b40e65b3f7e28a21382c">core::system::freeaddrinfo</a></div><div class="ttdeci">void freeaddrinfo(struct addrinfo *res)</div><div class="ttdef"><b>Definition:</b> <a href="netdb_8cpp_source.html#l00034">netdb.cpp:34</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="in_2_socket_address_8cpp_source.html#l00074">net::in::SocketAddress::setHost()</a>, and <a class="el" href="in6_2_socket_address_8cpp_source.html#l00074">net::in6::SocketAddress::setHost()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="in_2_socket_address_8cpp_source.html#l00059">net::in::SocketAddress::setHost()</a>, and <a class="el" href="in6_2_socket_address_8cpp_source.html#l00059">net::in6::SocketAddress::setHost()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -718,7 +753,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
 <div class="ttc" id="anamespacecore_1_1system_html_a86e636682d33db526f7502ab0e6ff57c"><div class="ttname"><a href="namespacecore_1_1system.html#a86e636682d33db526f7502ab0e6ff57c">core::system::getaddrinfo</a></div><div class="ttdeci">int getaddrinfo(const char *node, const char *service, const struct addrinfo *hints, struct addrinfo **res)</div><div class="ttdef"><b>Definition:</b> <a href="netdb_8cpp_source.html#l00029">netdb.cpp:29</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="in_2_socket_address_8cpp_source.html#l00074">net::in::SocketAddress::setHost()</a>, and <a class="el" href="in6_2_socket_address_8cpp_source.html#l00074">net::in6::SocketAddress::setHost()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="in_2_socket_address_8cpp_source.html#l00059">net::in::SocketAddress::setHost()</a>, and <a class="el" href="in6_2_socket_address_8cpp_source.html#l00059">net::in6::SocketAddress::setHost()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -728,8 +763,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a2347537ad9f92683e13fc44676f9b9c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2347537ad9f92683e13fc44676f9b9c3">&#9670;&nbsp;</a></span>getnameinfo()</h2>
+<a id="a4e256dfd12c78c20f9ff550a14a43bef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e256dfd12c78c20f9ff550a14a43bef">&#9670;&nbsp;</a></span>getnameinfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -737,7 +772,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">int core::system::getnameinfo </td>
           <td>(</td>
-          <td class="paramtype">const struct sockaddr *&#160;</td>
+          <td class="paramtype">const sockaddr *&#160;</td>
           <td class="paramname"><em>addr</em>, </td>
         </tr>
         <tr>
@@ -784,25 +819,25 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="netdb_8cpp_source.html#l00040">40</a> of file <a class="el" href="netdb_8cpp_source.html">netdb.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                                                                                                                                         {</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        errno = 0;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a2347537ad9f92683e13fc44676f9b9c3">return ::getnameinfo</a>(addr, addrlen, host, hostlen, serv, servlen, flags);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
-<div class="ttc" id="anamespacecore_1_1system_html_a2347537ad9f92683e13fc44676f9b9c3"><div class="ttname"><a href="namespacecore_1_1system.html#a2347537ad9f92683e13fc44676f9b9c3">core::system::getnameinfo</a></div><div class="ttdeci">int getnameinfo(const struct sockaddr *addr, socklen_t addrlen, char *host, socklen_t hostlen, char *serv, socklen_t servlen, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="netdb_8cpp_source.html#l00040">netdb.cpp:40</a></div></div>
+<p class="definition">Definition at line <a class="el" href="netdb_8cpp_source.html#l00039">39</a> of file <a class="el" href="netdb_8cpp_source.html">netdb.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                                                                                                                                      {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        errno = 0;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a4e256dfd12c78c20f9ff550a14a43bef">return ::getnameinfo</a>(addr, addrlen, host, hostlen, serv, servlen, flags);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
+<div class="ttc" id="anamespacecore_1_1system_html_a4e256dfd12c78c20f9ff550a14a43bef"><div class="ttname"><a href="namespacecore_1_1system.html#a4e256dfd12c78c20f9ff550a14a43bef">core::system::getnameinfo</a></div><div class="ttdeci">int getnameinfo(const sockaddr *addr, socklen_t addrlen, char *host, socklen_t hostlen, char *serv, socklen_t servlen, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="netdb_8cpp_source.html#l00039">netdb.cpp:39</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="in_2_socket_address_8cpp_source.html#l00123">net::in::SocketAddress::address()</a>, <a class="el" href="in6_2_socket_address_8cpp_source.html#l00123">net::in6::SocketAddress::address()</a>, <a class="el" href="in_2_socket_address_8cpp_source.html#l00115">net::in::SocketAddress::host()</a>, <a class="el" href="in6_2_socket_address_8cpp_source.html#l00115">net::in6::SocketAddress::host()</a>, <a class="el" href="in_2_socket_address_8cpp_source.html#l00131">net::in::SocketAddress::serv()</a>, and <a class="el" href="in6_2_socket_address_8cpp_source.html#l00131">net::in6::SocketAddress::serv()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="in_2_socket_address_8cpp_source.html#l00108">net::in::SocketAddress::address()</a>, <a class="el" href="in6_2_socket_address_8cpp_source.html#l00108">net::in6::SocketAddress::address()</a>, <a class="el" href="in_2_socket_address_8cpp_source.html#l00100">net::in::SocketAddress::host()</a>, <a class="el" href="in6_2_socket_address_8cpp_source.html#l00100">net::in6::SocketAddress::host()</a>, <a class="el" href="in_2_socket_address_8cpp_source.html#l00116">net::in::SocketAddress::serv()</a>, and <a class="el" href="in6_2_socket_address_8cpp_source.html#l00116">net::in6::SocketAddress::serv()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a2347537ad9f92683e13fc44676f9b9c3_icgraph.svg" width="876" height="352"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a4e256dfd12c78c20f9ff550a14a43bef_icgraph.svg" width="876" height="352"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a72b5fb13dfc490223fded986576e70fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72b5fb13dfc490223fded986576e70fb">&#9670;&nbsp;</a></span>getpeername()</h2>
+<a id="a6c12f08bc8a1d08ee4585204eb0745b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c12f08bc8a1d08ee4585204eb0745b1">&#9670;&nbsp;</a></span>getpeername()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -816,7 +851,56 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct sockaddr *&#160;</td>
+          <td class="paramtype">sockaddr *&#160;</td>
+          <td class="paramname"><em>addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">socklen_t *&#160;</td>
+          <td class="paramname"><em>addrlen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00063">63</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        errno = 0;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a6c12f08bc8a1d08ee4585204eb0745b1">return ::getpeername</a>(sockfd, addr, addrlen);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
+<div class="ttc" id="anamespacecore_1_1system_html_a6c12f08bc8a1d08ee4585204eb0745b1"><div class="ttname"><a href="namespacecore_1_1system.html#a6c12f08bc8a1d08ee4585204eb0745b1">core::system::getpeername</a></div><div class="ttdeci">int getpeername(int sockfd, sockaddr *addr, socklen_t *addrlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00063">socket.cpp:63</a></div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="_socket_8hpp_source.html#l00098">net::Socket&lt; SocketAddressT &gt;::getPeername()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a6c12f08bc8a1d08ee4585204eb0745b1_icgraph.svg" width="450" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a09b7b5fd5a49db5b0abee54dfda17ba1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09b7b5fd5a49db5b0abee54dfda17ba1">&#9670;&nbsp;</a></span>getsockname()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int core::system::getsockname </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sockfd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sockaddr *&#160;</td>
           <td class="paramname"><em>addr</em>, </td>
         </tr>
         <tr>
@@ -834,66 +918,17 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00058">58</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                                                                           {</div>
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                                                                    {</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        errno = 0;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a72b5fb13dfc490223fded986576e70fb">return ::getpeername</a>(sockfd, addr, addrlen);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a09b7b5fd5a49db5b0abee54dfda17ba1">return ::getsockname</a>(sockfd, addr, addrlen);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    }</div>
-<div class="ttc" id="anamespacecore_1_1system_html_a72b5fb13dfc490223fded986576e70fb"><div class="ttname"><a href="namespacecore_1_1system.html#a72b5fb13dfc490223fded986576e70fb">core::system::getpeername</a></div><div class="ttdeci">int getpeername(int sockfd, struct sockaddr *addr, socklen_t *addrlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00058">socket.cpp:58</a></div></div>
+<div class="ttc" id="anamespacecore_1_1system_html_a09b7b5fd5a49db5b0abee54dfda17ba1"><div class="ttname"><a href="namespacecore_1_1system.html#a09b7b5fd5a49db5b0abee54dfda17ba1">core::system::getsockname</a></div><div class="ttdeci">int getsockname(int sockfd, sockaddr *addr, socklen_t *addrlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00058">socket.cpp:58</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_socket_connector_8h_source.html#l00117">core::socket::stream::SocketConnector&lt; ClientSocketT, SocketConnectionT &gt;::connectEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_8hpp_source.html#l00092">net::Socket&lt; SocketAddressT &gt;::getSockname()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a72b5fb13dfc490223fded986576e70fb_icgraph.svg" width="495" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a252068ee271f0319fdfac711649f852f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a252068ee271f0319fdfac711649f852f">&#9670;&nbsp;</a></span>getsockname()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int core::system::getsockname </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>sockfd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">struct sockaddr *&#160;</td>
-          <td class="paramname"><em>addr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">socklen_t *&#160;</td>
-          <td class="paramname"><em>addrlen</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00053">53</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                                                                           {</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        errno = 0;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a252068ee271f0319fdfac711649f852f">return ::getsockname</a>(sockfd, addr, addrlen);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
-<div class="ttc" id="anamespacecore_1_1system_html_a252068ee271f0319fdfac711649f852f"><div class="ttname"><a href="namespacecore_1_1system.html#a252068ee271f0319fdfac711649f852f">core::system::getsockname</a></div><div class="ttdeci">int getsockname(int sockfd, struct sockaddr *addr, socklen_t *addrlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00053">socket.cpp:53</a></div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_socket_acceptor_8h_source.html#l00143">core::socket::stream::SocketAcceptor&lt; ServerSocketT, SocketConnectionT &gt;::acceptEvent()</a>, and <a class="el" href="_socket_connector_8h_source.html#l00117">core::socket::stream::SocketConnector&lt; ClientSocketT, SocketConnectionT &gt;::connectEvent()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a252068ee271f0319fdfac711649f852f_icgraph.svg" width="496" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a09b7b5fd5a49db5b0abee54dfda17ba1_icgraph.svg" width="452" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -943,18 +978,18 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00073">73</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                                                                                        {</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        errno = 0;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a5658d0ea06a95cb8f07412b13f393ecb">return ::getsockopt</a>(sockfd, level, optname, optval, optlen);</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
-<div class="ttc" id="anamespacecore_1_1system_html_a5658d0ea06a95cb8f07412b13f393ecb"><div class="ttname"><a href="namespacecore_1_1system.html#a5658d0ea06a95cb8f07412b13f393ecb">core::system::getsockopt</a></div><div class="ttdeci">int getsockopt(int sockfd, int level, int optname, void *optval, socklen_t *optlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00073">socket.cpp:73</a></div></div>
+<p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00078">78</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                                                                                        {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        errno = 0;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a5658d0ea06a95cb8f07412b13f393ecb">return ::getsockopt</a>(sockfd, level, optname, optval, optlen);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    }</div>
+<div class="ttc" id="anamespacecore_1_1system_html_a5658d0ea06a95cb8f07412b13f393ecb"><div class="ttname"><a href="namespacecore_1_1system.html#a5658d0ea06a95cb8f07412b13f393ecb">core::system::getsockopt</a></div><div class="ttdeci">int getsockopt(int sockfd, int level, int optname, void *optval, socklen_t *optlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00078">socket.cpp:78</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_socket_connector_8h_source.html#l00117">core::socket::stream::SocketConnector&lt; ClientSocketT, SocketConnectionT &gt;::connectEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_8hpp_source.html#l00118">net::Socket&lt; SocketAddressT &gt;::getSockopt()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a5658d0ea06a95cb8f07412b13f393ecb_icgraph.svg" width="479" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a5658d0ea06a95cb8f07412b13f393ecb_icgraph.svg" width="419" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -993,11 +1028,11 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
 <div class="ttc" id="anamespacecore_1_1system_html_acf9e7364dbf51f07083e05caa50d3b66"><div class="ttname"><a href="namespacecore_1_1system.html#acf9e7364dbf51f07083e05caa50d3b66">core::system::gettimeofday</a></div><div class="ttdeci">int gettimeofday(struct timeval *tv, struct timezone *tz)</div><div class="ttdef"><b>Definition:</b> <a href="time_8cpp_source.html#l00034">time.cpp:34</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_timeval_8cpp_source.html#l00062">utils::Timeval::currentTime()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_timeval_8cpp_source.html#l00061">utils::Timeval::currentTime()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_acf9e7364dbf51f07083e05caa50d3b66_icgraph.svg" width="1951" height="694"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_acf9e7364dbf51f07083e05caa50d3b66_icgraph.svg" width="1955" height="882"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1026,11 +1061,11 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
 <div class="ttc" id="anamespacecore_1_1system_html_a503de099f7b94fe72d55f990a19ceeac"><div class="ttname"><a href="namespacecore_1_1system.html#a503de099f7b94fe72d55f990a19ceeac">core::system::gmtime</a></div><div class="ttdeci">struct tm * gmtime(const time_t *timep)</div><div class="ttdef"><b>Definition:</b> <a href="time_8cpp_source.html#l00039">time.cpp:39</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00140">web::http::server::Response::clearCookie()</a>, <a class="el" href="http__utils_8cpp_source.html#l00157">httputils::file_mod_http_date()</a>, and <a class="el" href="http__utils_8cpp_source.html#l00148">httputils::from_http_date()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00145">web::http::server::Response::clearCookie()</a>, <a class="el" href="http__utils_8cpp_source.html#l00157">httputils::file_mod_http_date()</a>, and <a class="el" href="http__utils_8cpp_source.html#l00148">httputils::from_http_date()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a503de099f7b94fe72d55f990a19ceeac_icgraph.svg" width="808" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a503de099f7b94fe72d55f990a19ceeac_icgraph.svg" width="803" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1069,11 +1104,11 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
 <div class="ttc" id="anamespacecore_1_1system_html_a8d02857d418a45aa380ebafec930b18f"><div class="ttname"><a href="namespacecore_1_1system.html#a8d02857d418a45aa380ebafec930b18f">core::system::listen</a></div><div class="ttdeci">int listen(int sockfd, int backlog)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00039">socket.cpp:39</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="server_2_server_8h_source.html#l00081">web::http::server::Server&lt; SocketServerT, RequestT, ResponseT &gt;::listen()</a>, <a class="el" href="tls_2_socket_acceptor_8h_source.html#l00105">core::socket::stream::tls::SocketAcceptor&lt; ServerSocketT &gt;::listen()</a>, <a class="el" href="l2_2stream_2_server_socket_8hpp_source.html#l00046">net::l2::stream::ServerSocket&lt; ConfigT &gt;::listen()</a>, <a class="el" href="un_2stream_2_server_socket_8hpp_source.html#l00039">net::un::stream::ServerSocket&lt; ConfigT &gt;::listen()</a>, <a class="el" href="in_2stream_2_server_socket_8hpp_source.html#l00033">net::in::stream::ServerSocket&lt; ConfigT &gt;::listen()</a>, <a class="el" href="in6_2stream_2_server_socket_8hpp_source.html#l00033">net::in6::stream::ServerSocket&lt; ConfigT &gt;::listen()</a>, <a class="el" href="rc_2stream_2_server_socket_8hpp_source.html#l00033">net::rc::stream::ServerSocket&lt; ConfigT &gt;::listen()</a>, and <a class="el" href="_server_socket_8hpp_source.html#l00028">net::ServerSocket&lt; ConfigT, net::l2::stream::Socket &gt;::ServerSocket()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="stream_2_socket_server_8hpp_source.html#l00029">net::stream::SocketServer&lt; ConfigT, SocketT &gt;::listen()</a>, <a class="el" href="server_2_server_8h_source.html#l00081">web::http::server::Server&lt; SocketServerT, RequestT, ResponseT &gt;::listen()</a>, <a class="el" href="tls_2_socket_acceptor_8h_source.html#l00105">core::socket::stream::tls::SocketAcceptor&lt; SocketServerT &gt;::listen()</a>, <a class="el" href="l2_2stream_2_socket_server_8hpp_source.html#l00047">net::l2::stream::SocketServer&lt; ConfigT &gt;::listen()</a>, <a class="el" href="un_2stream_2_socket_server_8hpp_source.html#l00040">net::un::stream::SocketServer&lt; ConfigT &gt;::listen()</a>, <a class="el" href="_server_socket_8hpp_source.html#l00030">net::stream::ServerSocket&lt; SocketT &gt;::listen()</a>, <a class="el" href="in_2stream_2_socket_server_8hpp_source.html#l00034">net::in::stream::SocketServer&lt; ConfigT &gt;::listen()</a>, <a class="el" href="in6_2stream_2_socket_server_8hpp_source.html#l00034">net::in6::stream::SocketServer&lt; ConfigT &gt;::listen()</a>, and <a class="el" href="rc_2stream_2_socket_server_8hpp_source.html#l00034">net::rc::stream::SocketServer&lt; ConfigT &gt;::listen()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a8d02857d418a45aa380ebafec930b18f_icgraph.svg" width="424" height="542"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a8d02857d418a45aa380ebafec930b18f_icgraph.svg" width="424" height="591"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1145,11 +1180,11 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
 <div class="ttc" id="anamespacecore_1_1system_html_af932d59deb1d46aca925c487cebf0ab5"><div class="ttname"><a href="namespacecore_1_1system.html#af932d59deb1d46aca925c487cebf0ab5">core::system::open</a></div><div class="ttdeci">int open(const char *pathname, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="unistd_8cpp_source.html#l00029">unistd.cpp:29</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_file_reader_8cpp_source.html#l00042">core::file::FileReader::connect()</a>, <a class="el" href="_socket_acceptor_8h_source.html#l00094">core::socket::stream::SocketAcceptor&lt; ServerSocketT, SocketConnectionT &gt;::initAcceptEvent()</a>, and <a class="el" href="_socket_connector_8h_source.html#l00087">core::socket::stream::SocketConnector&lt; ClientSocketT, SocketConnectionT &gt;::initConnectEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_file_reader_8cpp_source.html#l00042">core::file::FileReader::connect()</a>, <a class="el" href="_socket_8hpp_source.html#l00069">net::Socket&lt; SocketAddressT &gt;::open()</a>, and <a class="el" href="_socket_8hpp_source.html#l00030">net::Socket&lt; SocketAddressT &gt;::Socket()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_af932d59deb1d46aca925c487cebf0ab5_icgraph.svg" width="827" height="214"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_af932d59deb1d46aca925c487cebf0ab5_icgraph.svg" width="811" height="166"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1237,11 +1272,11 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
 <div class="ttc" id="anamespacecore_1_1system_html_ab33bc3708f662ee03fc101d59ebbea94"><div class="ttname"><a href="namespacecore_1_1system.html#ab33bc3708f662ee03fc101d59ebbea94">core::system::poll</a></div><div class="ttdeci">int poll(pollfd *fds, nfds_t nfds, int timeout)</div><div class="ttdef"><b>Definition:</b> <a href="poll_8cpp_source.html#l00029">poll.cpp:29</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_daemon_8cpp_source.html#l00127">utils::Daemon::kill()</a>, and <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00138">core::poll::EventMultiplexer::multiplex()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00138">core::poll::EventMultiplexer::multiplex()</a>, and <a class="el" href="_daemon_8cpp_source.html#l00112">utils::Daemon::stopDaemon()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_ab33bc3708f662ee03fc101d59ebbea94_icgraph.svg" width="1178" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_ab33bc3708f662ee03fc101d59ebbea94_icgraph.svg" width="1180" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1286,11 +1321,11 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
 <div class="ttc" id="anamespacecore_1_1system_html_a38a2ef544196b684eb5850c42e8ee770"><div class="ttname"><a href="namespacecore_1_1system.html#a38a2ef544196b684eb5850c42e8ee770">core::system::read</a></div><div class="ttdeci">ssize_t read(int fd, void *buf, std::size_t count)</div><div class="ttdef"><b>Definition:</b> <a href="unistd_8cpp_source.html#l00034">unistd.cpp:34</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_file_reader_8cpp_source.html#l00058">core::file::FileReader::event()</a>, and <a class="el" href="_pipe_sink_8cpp_source.html#l00045">core::pipe::PipeSink::readEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_file_reader_8cpp_source.html#l00058">core::file::FileReader::event()</a>, <a class="el" href="_pipe_sink_8cpp_source.html#l00045">core::pipe::PipeSink::readEvent()</a>, and <a class="el" href="_config_8cpp_source.html#l00193">utils::Config::terminate()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a38a2ef544196b684eb5850c42e8ee770_icgraph.svg" width="356" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a38a2ef544196b684eb5850c42e8ee770_icgraph.svg" width="1232" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1334,12 +1369,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00063">63</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                                                  {</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        errno = 0;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a37ca251adecc564c59a9420200b20a9f">return ::recv</a>(sockfd, buf, len, flags);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
-<div class="ttc" id="anamespacecore_1_1system_html_a37ca251adecc564c59a9420200b20a9f"><div class="ttname"><a href="namespacecore_1_1system.html#a37ca251adecc564c59a9420200b20a9f">core::system::recv</a></div><div class="ttdeci">ssize_t recv(int sockfd, void *buf, std::size_t len, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00063">socket.cpp:63</a></div></div>
+<p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00068">68</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        errno = 0;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a37ca251adecc564c59a9420200b20a9f">return ::recv</a>(sockfd, buf, len, flags);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
+<div class="ttc" id="anamespacecore_1_1system_html_a37ca251adecc564c59a9420200b20a9f"><div class="ttname"><a href="namespacecore_1_1system.html#a37ca251adecc564c59a9420200b20a9f">core::system::recv</a></div><div class="ttdeci">ssize_t recv(int sockfd, void *buf, std::size_t len, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00068">socket.cpp:68</a></div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="legacy_2_socket_reader_8h_source.html#l00038">core::socket::stream::legacy::SocketReader&lt; SocketT &gt;::read()</a>.</p>
 <div class="dynheader">
@@ -1450,12 +1485,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00068">68</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                                                        {</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        errno = 0;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="namespacecore_1_1system.html#afc000fbe5ae2216ddf84c0f24eb8aa33">return ::send</a>(sockfd, buf, len, flags);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
-<div class="ttc" id="anamespacecore_1_1system_html_afc000fbe5ae2216ddf84c0f24eb8aa33"><div class="ttname"><a href="namespacecore_1_1system.html#afc000fbe5ae2216ddf84c0f24eb8aa33">core::system::send</a></div><div class="ttdeci">ssize_t send(int sockfd, const void *buf, std::size_t len, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00068">socket.cpp:68</a></div></div>
+<p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00073">73</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                                                                        {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        errno = 0;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="namespacecore_1_1system.html#afc000fbe5ae2216ddf84c0f24eb8aa33">return ::send</a>(sockfd, buf, len, flags);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
+<div class="ttc" id="anamespacecore_1_1system_html_afc000fbe5ae2216ddf84c0f24eb8aa33"><div class="ttname"><a href="namespacecore_1_1system.html#afc000fbe5ae2216ddf84c0f24eb8aa33">core::system::send</a></div><div class="ttdeci">ssize_t send(int sockfd, const void *buf, std::size_t len, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00073">socket.cpp:73</a></div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="legacy_2_socket_writer_8h_source.html#l00038">core::socket::stream::legacy::SocketWriter&lt; SocketT &gt;::write()</a>.</p>
 <div class="dynheader">
@@ -1511,18 +1546,18 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00078">78</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                                                                                             {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        errno = 0;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a69ae50ef904b60224906b7ba04ca8261">return ::setsockopt</a>(sockfd, level, optname, optval, optlen);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    }</div>
-<div class="ttc" id="anamespacecore_1_1system_html_a69ae50ef904b60224906b7ba04ca8261"><div class="ttname"><a href="namespacecore_1_1system.html#a69ae50ef904b60224906b7ba04ca8261">core::system::setsockopt</a></div><div class="ttdeci">int setsockopt(int sockfd, int level, int optname, const void *optval, socklen_t optlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00078">socket.cpp:78</a></div></div>
+<p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00083">83</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                                                                                             {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        errno = 0;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a69ae50ef904b60224906b7ba04ca8261">return ::setsockopt</a>(sockfd, level, optname, optval, optlen);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div>
+<div class="ttc" id="anamespacecore_1_1system_html_a69ae50ef904b60224906b7ba04ca8261"><div class="ttname"><a href="namespacecore_1_1system.html#a69ae50ef904b60224906b7ba04ca8261">core::system::setsockopt</a></div><div class="ttdeci">int setsockopt(int sockfd, int level, int optname, const void *optval, socklen_t optlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00083">socket.cpp:83</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_socket_acceptor_8h_source.html#l00133">core::socket::stream::SocketAcceptor&lt; ServerSocketT, SocketConnectionT &gt;::reuseAddress()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_8hpp_source.html#l00113">net::Socket&lt; SocketAddressT &gt;::setSockopt()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a69ae50ef904b60224906b7ba04ca8261_icgraph.svg" width="720" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a69ae50ef904b60224906b7ba04ca8261_icgraph.svg" width="416" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1554,18 +1589,18 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00083">83</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                                      {</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        errno = 0;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a09a73e9e38f3f98d7ca380cd663facef">return ::shutdown</a>(sockfd, how);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div>
-<div class="ttc" id="anamespacecore_1_1system_html_a09a73e9e38f3f98d7ca380cd663facef"><div class="ttname"><a href="namespacecore_1_1system.html#a09a73e9e38f3f98d7ca380cd663facef">core::system::shutdown</a></div><div class="ttdeci">int shutdown(int sockfd, int how)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00083">socket.cpp:83</a></div></div>
+<p class="definition">Definition at line <a class="el" href="core_2system_2socket_8cpp_source.html#l00088">88</a> of file <a class="el" href="core_2system_2socket_8cpp_source.html">socket.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                                      {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        errno = 0;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a09a73e9e38f3f98d7ca380cd663facef">return ::shutdown</a>(sockfd, how);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
+<div class="ttc" id="anamespacecore_1_1system_html_a09a73e9e38f3f98d7ca380cd663facef"><div class="ttname"><a href="namespacecore_1_1system.html#a09a73e9e38f3f98d7ca380cd663facef">core::system::shutdown</a></div><div class="ttdeci">int shutdown(int sockfd, int how)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00088">socket.cpp:88</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_socket_acceptor_8h_source.html#l00143">core::socket::stream::SocketAcceptor&lt; ServerSocketT, SocketConnectionT &gt;::acceptEvent()</a>, <a class="el" href="_socket_writer_8h_source.html#l00072">core::socket::stream::SocketWriter&lt; SocketT &gt;::doWriteShutdown()</a>, <a class="el" href="_socket_reader_8h_source.html#l00111">core::socket::stream::SocketReader&lt; SocketT &gt;::shutdown()</a>, and <a class="el" href="_socket_8hpp_source.html#l00053">net::Socket&lt; SocketAddressT &gt;::shutdown()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_writer_8h_source.html#l00070">core::socket::stream::SocketWriter&lt; SocketT &gt;::doWriteShutdown()</a>, <a class="el" href="_socket_reader_8h_source.html#l00113">core::socket::stream::SocketReader&lt; SocketT &gt;::shutdown()</a>, and <a class="el" href="_socket_8hpp_source.html#l00195">net::Socket&lt; SocketAddressT &gt;::shutdown()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a09a73e9e38f3f98d7ca380cd663facef_icgraph.svg" width="1308" height="294"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a09a73e9e38f3f98d7ca380cd663facef_icgraph.svg" width="1308" height="311"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1604,11 +1639,11 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
 <div class="ttc" id="anamespacecore_1_1system_html_a0e5e3b39e66ee4db8b9bb6065e693d0a"><div class="ttname"><a href="namespacecore_1_1system.html#a0e5e3b39e66ee4db8b9bb6065e693d0a">core::system::signal</a></div><div class="ttdeci">sighandler_t signal(int signum, sighandler_t handler)</div><div class="ttdef"><b>Definition:</b> <a href="signal_8cpp_source.html#l00029">signal.cpp:29</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_daemon_8cpp_source.html#l00050">utils::Daemon::daemonize()</a>, <a class="el" href="_event_loop_8cpp_source.html#l00108">core::EventLoop::start()</a>, and <a class="el" href="_event_loop_8cpp_source.html#l00093">core::EventLoop::tick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_loop_8cpp_source.html#l00108">core::EventLoop::start()</a>, <a class="el" href="_daemon_8cpp_source.html#l00043">utils::Daemon::startDaemon()</a>, and <a class="el" href="_event_loop_8cpp_source.html#l00093">core::EventLoop::tick()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a0e5e3b39e66ee4db8b9bb6065e693d0a_icgraph.svg" width="1220" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a0e5e3b39e66ee4db8b9bb6065e693d0a_icgraph.svg" width="1234" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1653,11 +1688,11 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
 <div class="ttc" id="anamespacecore_1_1system_html_a5ffaddeca7b0ee1c5ee33addd15e02db"><div class="ttname"><a href="namespacecore_1_1system.html#a5ffaddeca7b0ee1c5ee33addd15e02db">core::system::socket</a></div><div class="ttdeci">int socket(int domain, int type, int protocol)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00029">socket.cpp:29</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="net_2in_2stream_2socket_8cpp_source.html#l00029">net::in::stream::Socket::create()</a>, <a class="el" href="net_2in6_2stream_2socket_8cpp_source.html#l00029">net::in6::stream::Socket::create()</a>, <a class="el" href="net_2rc_2stream_2socket_8cpp_source.html#l00031">net::rc::stream::Socket::create()</a>, <a class="el" href="net_2un_2stream_2socket_8cpp_source.html#l00040">net::un::stream::Socket::create()</a>, and <a class="el" href="net_2l2_2stream_2socket_8cpp_source.html#l00031">net::l2::stream::Socket::create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_socket_acceptor_8h_source.html#l00155">core::socket::stream::SocketAcceptor&lt; SocketServerT, SocketConnectionT &gt;::acceptEvent()</a>, and <a class="el" href="_socket_connection_factory_8h_source.html#l00062">core::socket::stream::SocketConnectionFactory&lt; BaseSocketT, SocketConnectionT &gt;::create()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a5ffaddeca7b0ee1c5ee33addd15e02db_icgraph.svg" width="391" height="314"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecore_1_1system_a5ffaddeca7b0ee1c5ee33addd15e02db_icgraph.svg" width="692" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1686,7 +1721,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
 <div class="ttc" id="anamespacecore_1_1system_html_a04721c28c02cc5c20d4dda8e7c2d991c"><div class="ttname"><a href="namespacecore_1_1system.html#a04721c28c02cc5c20d4dda8e7c2d991c">core::system::time</a></div><div class="ttdeci">time_t time(time_t *tloc)</div><div class="ttdef"><b>Definition:</b> <a href="time_8cpp_source.html#l00029">time.cpp:29</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00140">web::http::server::Response::clearCookie()</a>, <a class="el" href="http__utils_8cpp_source.html#l00148">httputils::from_http_date()</a>, and <a class="el" href="_timeval_8cpp_source.html#l00051">utils::Timeval::Timeval()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="web_2http_2server_2_response_8cpp_source.html#l00145">web::http::server::Response::clearCookie()</a>, <a class="el" href="http__utils_8cpp_source.html#l00148">httputils::from_http_date()</a>, and <a class="el" href="_timeval_8cpp_source.html#l00050">utils::Timeval::Timeval()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

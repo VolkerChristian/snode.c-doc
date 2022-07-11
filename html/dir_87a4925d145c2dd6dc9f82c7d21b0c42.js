@@ -16,6 +16,10 @@ var dir_87a4925d145c2dd6dc9f82c7d21b0c42 =
     [ "ConfigBase.h", "_config_base_8h.html", [
       [ "ConfigBase", "classnet_1_1config_1_1_config_base.html", "classnet_1_1config_1_1_config_base" ]
     ] ],
+    [ "ConfigCluster.cpp", "_config_cluster_8cpp.html", null ],
+    [ "ConfigCluster.h", "_config_cluster_8h.html", [
+      [ "ConfigCluster", "classnet_1_1config_1_1_config_cluster.html", "classnet_1_1config_1_1_config_cluster" ]
+    ] ],
     [ "ConfigConnection.cpp", "_config_connection_8cpp.html", "_config_connection_8cpp" ],
     [ "ConfigConnection.h", "_config_connection_8h.html", [
       [ "ConfigConnection", "classnet_1_1config_1_1_config_connection.html", "classnet_1_1config_1_1_config_connection" ]

@@ -4,6 +4,7 @@ var namespacenet_1_1config =
     [ "ConfigAddressLocal", "classnet_1_1config_1_1_config_address_local.html", "classnet_1_1config_1_1_config_address_local" ],
     [ "ConfigAddressRemote", "classnet_1_1config_1_1_config_address_remote.html", "classnet_1_1config_1_1_config_address_remote" ],
     [ "ConfigBase", "classnet_1_1config_1_1_config_base.html", "classnet_1_1config_1_1_config_base" ],
+    [ "ConfigCluster", "classnet_1_1config_1_1_config_cluster.html", "classnet_1_1config_1_1_config_cluster" ],
     [ "ConfigConnection", "classnet_1_1config_1_1_config_connection.html", "classnet_1_1config_1_1_config_connection" ],
     [ "ConfigLegacy", "classnet_1_1config_1_1_config_legacy.html", null ],
     [ "ConfigListen", "classnet_1_1config_1_1_config_listen.html", "classnet_1_1config_1_1_config_listen" ],

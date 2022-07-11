@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jsonmiddleware_4284',['JsonMiddleware',['../classexpress_1_1middleware_1_1_json_middleware.html#aa21e61839acf47a03ac9aec271a7d5cb',1,'express::middleware::JsonMiddleware']]]
+  ['mariadbconnection_4493',['MariaDBConnection',['../classdatabase_1_1mariadb_1_1_maria_d_b_client.html#a73a87dc42d61d924e3f31f5b4d3830c5',1,'database::mariadb::MariaDBClient::MariaDBConnection()'],['../classdatabase_1_1mariadb_1_1_maria_d_b_command_sequence.html#a73a87dc42d61d924e3f31f5b4d3830c5',1,'database::mariadb::MariaDBCommandSequence::MariaDBConnection()']]]
 ];

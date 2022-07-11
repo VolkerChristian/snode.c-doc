@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['applicationdispatcher_4276',['ApplicationDispatcher',['../classexpress_1_1dispatcher_1_1_router_dispatcher.html#a591796081407ac28747598c15ccaa2e8',1,'express::dispatcher::RouterDispatcher']]]
+  ['basicauthentication_4483',['BasicAuthentication',['../classexpress_1_1middleware_1_1_basic_authentication.html#a2d8be6bb7c6e00f74be4986e12523b44',1,'express::middleware::BasicAuthentication']]]
 ];

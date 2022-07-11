@@ -59,6 +59,7 @@ var namespace_c_l_i_1_1detail =
     [ "checked_to_string", "namespace_c_l_i_1_1detail.html#a1bcb244a7701fc68da3a863b58daf615", null ],
     [ "checkParentSegments", "namespace_c_l_i_1_1detail.html#af3c3c6f67c8fef09def5f328856dd154", null ],
     [ "convert_arg_for_ini", "namespace_c_l_i_1_1detail.html#a2382165480a50710d41e421dd54079a7", null ],
+    [ "default_flag_modifiers", "namespace_c_l_i_1_1detail.html#aa728af1274f11fb5a62069fc3c8e2118", null ],
     [ "escape_detect", "namespace_c_l_i_1_1detail.html#ac24078bb1f5e51808a5001a47d2b40c3", null ],
     [ "find_and_modify", "namespace_c_l_i_1_1detail.html#a59fbb1952b19838d8377ab714dc33e4c", null ],
     [ "find_and_replace", "namespace_c_l_i_1_1detail.html#ab39b1977d7375250cc57d90723cf1554", null ],

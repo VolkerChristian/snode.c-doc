@@ -96,13 +96,13 @@ $(document).ready(function(){initNavTree('class_c_l_i_1_1_type_validator.html','
 <div class="dynheader">
 Inheritance diagram for CLI::TypeValidator&lt; DesiredType &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_l_i_1_1_type_validator__inherit__graph.svg" width="180" height="478"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_l_i_1_1_type_validator__inherit__graph.svg" width="150" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for CLI::TypeValidator&lt; DesiredType &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_l_i_1_1_type_validator__coll__graph.svg" width="180" height="478"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_l_i_1_1_type_validator__coll__graph.svg" width="150" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -205,7 +205,7 @@ class CLI::TypeValidator&lt; DesiredType &gt;</h3>
 
 <p>Validate the input as a particular type. </p>
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l03168">3168</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l03204">3204</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6775254809cf2c22a0194767d7b17633"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6775254809cf2c22a0194767d7b17633">&#9670;&nbsp;</a></span>TypeValidator() <span class="overload">[1/2]</span></h2>
@@ -233,21 +233,21 @@ template&lt;typename DesiredType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l03170">3170</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l03171"></a><span class="lineno"> 3171</span>&#160;            : <a class="code" href="class_c_l_i_1_1_validator.html#a918d82662319f6dc9dad53d580741569">Validator</a>(validator_name) {</div>
-<div class="line"><a name="l03172"></a><span class="lineno"> 3172</span>&#160;            <a class="code" href="class_c_l_i_1_1_validator.html#a72f70f1d81f2e80f2bb700cad24c1f79">func_</a> = [](std::string&amp; input_string) {</div>
-<div class="line"><a name="l03173"></a><span class="lineno"> 3173</span>&#160;                <span class="keyword">auto</span> val = DesiredType();</div>
-<div class="line"><a name="l03174"></a><span class="lineno"> 3174</span>&#160;                <span class="keywordflow">if</span> (!<a class="code" href="namespace_c_l_i_1_1detail.html#af286727de86fce444325681379e2c511">detail::lexical_cast</a>(input_string, val)) {</div>
-<div class="line"><a name="l03175"></a><span class="lineno"> 3175</span>&#160;                    <span class="keywordflow">return</span> std::string(<span class="stringliteral">&quot;Failed parsing &quot;</span>) + input_string + <span class="stringliteral">&quot; as a &quot;</span> + detail::type_name&lt;DesiredType&gt;();</div>
-<div class="line"><a name="l03176"></a><span class="lineno"> 3176</span>&#160;                }</div>
-<div class="line"><a name="l03177"></a><span class="lineno"> 3177</span>&#160;                <span class="keywordflow">return</span> std::string();</div>
-<div class="line"><a name="l03178"></a><span class="lineno"> 3178</span>&#160;            };</div>
-<div class="line"><a name="l03179"></a><span class="lineno"> 3179</span>&#160;        }</div>
-<div class="ttc" id="aclass_c_l_i_1_1_validator_html_a72f70f1d81f2e80f2bb700cad24c1f79"><div class="ttname"><a href="class_c_l_i_1_1_validator.html#a72f70f1d81f2e80f2bb700cad24c1f79">CLI::Validator::func_</a></div><div class="ttdeci">std::function&lt; std::string(std::string &amp;)&gt; func_</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l02780">CLI11.hpp:2780</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l03206">3206</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l03207"></a><span class="lineno"> 3207</span>&#160;            : <a class="code" href="class_c_l_i_1_1_validator.html#a918d82662319f6dc9dad53d580741569">Validator</a>(validator_name) {</div>
+<div class="line"><a name="l03208"></a><span class="lineno"> 3208</span>&#160;            <a class="code" href="class_c_l_i_1_1_validator.html#a72f70f1d81f2e80f2bb700cad24c1f79">func_</a> = [](std::string&amp; input_string) {</div>
+<div class="line"><a name="l03209"></a><span class="lineno"> 3209</span>&#160;                <span class="keyword">auto</span> val = DesiredType();</div>
+<div class="line"><a name="l03210"></a><span class="lineno"> 3210</span>&#160;                <span class="keywordflow">if</span> (!<a class="code" href="namespace_c_l_i_1_1detail.html#af286727de86fce444325681379e2c511">detail::lexical_cast</a>(input_string, val)) {</div>
+<div class="line"><a name="l03211"></a><span class="lineno"> 3211</span>&#160;                    <span class="keywordflow">return</span> std::string(<span class="stringliteral">&quot;Failed parsing &quot;</span>) + input_string + <span class="stringliteral">&quot; as a &quot;</span> + detail::type_name&lt;DesiredType&gt;();</div>
+<div class="line"><a name="l03212"></a><span class="lineno"> 3212</span>&#160;                }</div>
+<div class="line"><a name="l03213"></a><span class="lineno"> 3213</span>&#160;                <span class="keywordflow">return</span> std::string();</div>
+<div class="line"><a name="l03214"></a><span class="lineno"> 3214</span>&#160;            };</div>
+<div class="line"><a name="l03215"></a><span class="lineno"> 3215</span>&#160;        }</div>
+<div class="ttc" id="aclass_c_l_i_1_1_validator_html_a72f70f1d81f2e80f2bb700cad24c1f79"><div class="ttname"><a href="class_c_l_i_1_1_validator.html#a72f70f1d81f2e80f2bb700cad24c1f79">CLI::Validator::func_</a></div><div class="ttdeci">std::function&lt; std::string(std::string &amp;)&gt; func_</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l02816">CLI11.hpp:2816</a></div></div>
 <div class="ttc" id="aclass_c_l_i_1_1_validator_html_a918d82662319f6dc9dad53d580741569"><div class="ttname"><a href="class_c_l_i_1_1_validator.html#a918d82662319f6dc9dad53d580741569">CLI::Validator::Validator</a></div><div class="ttdeci">Validator()=default</div></div>
-<div class="ttc" id="anamespace_c_l_i_1_1detail_html_af286727de86fce444325681379e2c511"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#af286727de86fce444325681379e2c511">CLI::detail::lexical_cast</a></div><div class="ttdeci">bool lexical_cast(const std::string &amp;input, T &amp;output)</div><div class="ttdoc">Integer conversion.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l01810">CLI11.hpp:1810</a></div></div>
+<div class="ttc" id="anamespace_c_l_i_1_1detail_html_af286727de86fce444325681379e2c511"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#af286727de86fce444325681379e2c511">CLI::detail::lexical_cast</a></div><div class="ttdeci">bool lexical_cast(const std::string &amp;input, T &amp;output)</div><div class="ttdoc">Integer conversion.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l01854">CLI11.hpp:1854</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l01810">CLI::detail::lexical_cast()</a>.</p>
+<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l01854">CLI::detail::lexical_cast()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -282,10 +282,10 @@ template&lt;typename DesiredType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l03180">3180</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l03181"></a><span class="lineno"> 3181</span>&#160;            : <a class="code" href="class_c_l_i_1_1_type_validator.html#a58e338592f24c1d20fda949110e7c736">TypeValidator</a>(detail::type_name&lt;DesiredType&gt;()) {</div>
-<div class="line"><a name="l03182"></a><span class="lineno"> 3182</span>&#160;        }</div>
-<div class="ttc" id="aclass_c_l_i_1_1_type_validator_html_a58e338592f24c1d20fda949110e7c736"><div class="ttname"><a href="class_c_l_i_1_1_type_validator.html#a58e338592f24c1d20fda949110e7c736">CLI::TypeValidator::TypeValidator</a></div><div class="ttdeci">TypeValidator()</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l03180">CLI11.hpp:3180</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l03216">3216</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l03217"></a><span class="lineno"> 3217</span>&#160;            : <a class="code" href="class_c_l_i_1_1_type_validator.html#a58e338592f24c1d20fda949110e7c736">TypeValidator</a>(detail::type_name&lt;DesiredType&gt;()) {</div>
+<div class="line"><a name="l03218"></a><span class="lineno"> 3218</span>&#160;        }</div>
+<div class="ttc" id="aclass_c_l_i_1_1_type_validator_html_a58e338592f24c1d20fda949110e7c736"><div class="ttname"><a href="class_c_l_i_1_1_type_validator.html#a58e338592f24c1d20fda949110e7c736">CLI::TypeValidator::TypeValidator</a></div><div class="ttdeci">TypeValidator()</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l03216">CLI11.hpp:3216</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>

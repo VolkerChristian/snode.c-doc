@@ -153,10 +153,6 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a78555dccbc98a3059a6f7785d54b0efa"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="classcore_1_1_descriptor.html#a0998a6390c1f6ef1324ddfdfe7b2579b">Descriptor::FLAGS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore.html#a78555dccbc98a3059a6f7785d54b0efa">operator|</a> (const enum <a class="el" href="classcore_1_1_descriptor.html#a0998a6390c1f6ef1324ddfdfe7b2579b">Descriptor::FLAGS</a> &amp;f1, const enum <a class="el" href="classcore_1_1_descriptor.html#a0998a6390c1f6ef1324ddfdfe7b2579b">Descriptor::FLAGS</a> &amp;f2)</td></tr>
-<tr class="separator:a78555dccbc98a3059a6f7785d54b0efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0cf9a3274cc3cfb03f02dd7d039e26a"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="classcore_1_1_descriptor.html#a0998a6390c1f6ef1324ddfdfe7b2579b">Descriptor::FLAGS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore.html#ac0cf9a3274cc3cfb03f02dd7d039e26a">operator&amp;</a> (const enum <a class="el" href="classcore_1_1_descriptor.html#a0998a6390c1f6ef1324ddfdfe7b2579b">Descriptor::FLAGS</a> &amp;f1, const enum <a class="el" href="classcore_1_1_descriptor.html#a0998a6390c1f6ef1324ddfdfe7b2579b">Descriptor::FLAGS</a> &amp;f2)</td></tr>
-<tr class="separator:ac0cf9a3274cc3cfb03f02dd7d039e26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac82d0e7a5fcc66169eb61cb7dd27b814"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecore.html#ac82d0e7a5fcc66169eb61cb7dd27b814">getTickCounterAsString</a> (const el::LogMessage *)</td></tr>
 <tr class="separator:ac82d0e7a5fcc66169eb61cb7dd27b814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -229,9 +225,9 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">return</span> tick;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
-<div class="ttc" id="anamespace_c_l_i_1_1detail_html_a0e94052d485636fc9f18c21009026577"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">CLI::detail::to_string</a></div><div class="ttdeci">auto to_string(T &amp;&amp;value) -&gt; decltype(std::forward&lt; T &gt;(value))</div><div class="ttdoc">Convert an object to a string (directly forward if this can become a string)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l01203">CLI11.hpp:1203</a></div></div>
+<div class="ttc" id="anamespace_c_l_i_1_1detail_html_a0e94052d485636fc9f18c21009026577"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">CLI::detail::to_string</a></div><div class="ttdeci">auto to_string(T &amp;&amp;value) -&gt; decltype(std::forward&lt; T &gt;(value))</div><div class="ttdoc">Convert an object to a string (directly forward if this can become a string)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l01227">CLI11.hpp:1227</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_loop_8cpp_source.html#l00068">core::EventLoop::getTickCounter()</a>, and <a class="el" href="_c_l_i11_8hpp_source.html#l01203">CLI::detail::to_string()</a>.</p>
+<p class="reference">References <a class="el" href="_event_loop_8cpp_source.html#l00068">core::EventLoop::getTickCounter()</a>, and <a class="el" href="_c_l_i11_8hpp_source.html#l01227">CLI::detail::to_string()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_event_loop_8cpp_source.html#l00077">core::EventLoop::init()</a>.</p>
 <div class="dynheader">
@@ -247,72 +243,6 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 
-</div>
-</div>
-<a id="ac0cf9a3274cc3cfb03f02dd7d039e26a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0cf9a3274cc3cfb03f02dd7d039e26a">&#9670;&nbsp;</a></span>operator&amp;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="classcore_1_1_descriptor.html#a0998a6390c1f6ef1324ddfdfe7b2579b">Descriptor::FLAGS</a> core::operator&amp; </td>
-          <td>(</td>
-          <td class="paramtype">const enum <a class="el" href="classcore_1_1_descriptor.html#a0998a6390c1f6ef1324ddfdfe7b2579b">Descriptor::FLAGS</a> &amp;&#160;</td>
-          <td class="paramname"><em>f1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const enum <a class="el" href="classcore_1_1_descriptor.html#a0998a6390c1f6ef1324ddfdfe7b2579b">Descriptor::FLAGS</a> &amp;&#160;</td>
-          <td class="paramname"><em>f2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_descriptor_8cpp_source.html#l00054">54</a> of file <a class="el" href="_descriptor_8cpp_source.html">Descriptor.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                                                                                                   {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>enum Descriptor::FLAGS<span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span><span class="keyword">&gt;</span>(f1) &amp; <span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span><span class="keyword">&gt;</span>(f2));</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a78555dccbc98a3059a6f7785d54b0efa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78555dccbc98a3059a6f7785d54b0efa">&#9670;&nbsp;</a></span>operator|()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="classcore_1_1_descriptor.html#a0998a6390c1f6ef1324ddfdfe7b2579b">Descriptor::FLAGS</a> core::operator| </td>
-          <td>(</td>
-          <td class="paramtype">const enum <a class="el" href="classcore_1_1_descriptor.html#a0998a6390c1f6ef1324ddfdfe7b2579b">Descriptor::FLAGS</a> &amp;&#160;</td>
-          <td class="paramname"><em>f1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const enum <a class="el" href="classcore_1_1_descriptor.html#a0998a6390c1f6ef1324ddfdfe7b2579b">Descriptor::FLAGS</a> &amp;&#160;</td>
-          <td class="paramname"><em>f2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_descriptor_8cpp_source.html#l00054">54</a> of file <a class="el" href="_descriptor_8cpp_source.html">Descriptor.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                                                                                                   {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>enum Descriptor::FLAGS<span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span><span class="keyword">&gt;</span>(f1) | <span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span><span class="keyword">&gt;</span>(f2));</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
-</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

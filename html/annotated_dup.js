@@ -78,6 +78,7 @@ var annotated_dup =
       [ "Validator", "class_c_l_i_1_1_validator.html", "class_c_l_i_1_1_validator" ],
       [ "CustomValidator", "class_c_l_i_1_1_custom_validator.html", null ],
       [ "TypeValidator", "class_c_l_i_1_1_type_validator.html", "class_c_l_i_1_1_type_validator" ],
+      [ "FileOnDefaultPath", "class_c_l_i_1_1_file_on_default_path.html", "class_c_l_i_1_1_file_on_default_path" ],
       [ "Range", "class_c_l_i_1_1_range.html", "class_c_l_i_1_1_range" ],
       [ "Bound", "class_c_l_i_1_1_bound.html", "class_c_l_i_1_1_bound" ],
       [ "IsMember", "class_c_l_i_1_1_is_member.html", "class_c_l_i_1_1_is_member" ],
@@ -154,6 +155,7 @@ var annotated_dup =
           [ "SocketAcceptor", "classcore_1_1socket_1_1stream_1_1_socket_acceptor.html", "classcore_1_1socket_1_1stream_1_1_socket_acceptor" ],
           [ "SocketClient", "classcore_1_1socket_1_1stream_1_1_socket_client.html", "classcore_1_1socket_1_1stream_1_1_socket_client" ],
           [ "SocketConnection", "classcore_1_1socket_1_1stream_1_1_socket_connection.html", "classcore_1_1socket_1_1stream_1_1_socket_connection" ],
+          [ "SocketConnectionFactory", "classcore_1_1socket_1_1stream_1_1_socket_connection_factory.html", "classcore_1_1socket_1_1stream_1_1_socket_connection_factory" ],
           [ "SocketConnector", "classcore_1_1socket_1_1stream_1_1_socket_connector.html", "classcore_1_1socket_1_1stream_1_1_socket_connector" ],
           [ "SocketReader", "classcore_1_1socket_1_1stream_1_1_socket_reader.html", "classcore_1_1socket_1_1stream_1_1_socket_reader" ],
           [ "SocketServer", "classcore_1_1socket_1_1stream_1_1_socket_server.html", "classcore_1_1socket_1_1stream_1_1_socket_server" ],
@@ -217,12 +219,8 @@ var annotated_dup =
     [ "express", "namespaceexpress.html", [
       [ "dispatcher", "namespaceexpress_1_1dispatcher.html", [
         [ "ApplicationDispatcher", "classexpress_1_1dispatcher_1_1_application_dispatcher.html", "classexpress_1_1dispatcher_1_1_application_dispatcher" ],
-        [ "Dispatcher", "classexpress_1_1dispatcher_1_1_dispatcher.html", "classexpress_1_1dispatcher_1_1_dispatcher" ],
         [ "MiddlewareDispatcher", "classexpress_1_1dispatcher_1_1_middleware_dispatcher.html", "classexpress_1_1dispatcher_1_1_middleware_dispatcher" ],
-        [ "MountPoint", "structexpress_1_1dispatcher_1_1_mount_point.html", "structexpress_1_1dispatcher_1_1_mount_point" ],
-        [ "Route", "classexpress_1_1dispatcher_1_1_route.html", "classexpress_1_1dispatcher_1_1_route" ],
-        [ "RouterDispatcher", "classexpress_1_1dispatcher_1_1_router_dispatcher.html", "classexpress_1_1dispatcher_1_1_router_dispatcher" ],
-        [ "State", "classexpress_1_1dispatcher_1_1_state.html", "classexpress_1_1dispatcher_1_1_state" ]
+        [ "RouterDispatcher", "classexpress_1_1dispatcher_1_1_router_dispatcher.html", "classexpress_1_1dispatcher_1_1_router_dispatcher" ]
       ] ],
       [ "middleware", "namespaceexpress_1_1middleware.html", [
         [ "BasicAuthentication", "classexpress_1_1middleware_1_1_basic_authentication.html", "classexpress_1_1middleware_1_1_basic_authentication" ],
@@ -230,9 +228,15 @@ var annotated_dup =
         [ "StaticMiddleware", "classexpress_1_1middleware_1_1_static_middleware.html", "classexpress_1_1middleware_1_1_static_middleware" ],
         [ "VHost", "classexpress_1_1middleware_1_1_v_host.html", "classexpress_1_1middleware_1_1_v_host" ]
       ] ],
+      [ "Dispatcher", "classexpress_1_1_dispatcher.html", "classexpress_1_1_dispatcher" ],
+      [ "MountPoint", "structexpress_1_1_mount_point.html", "structexpress_1_1_mount_point" ],
+      [ "Next", "classexpress_1_1_next.html", "classexpress_1_1_next" ],
       [ "Request", "classexpress_1_1_request.html", "classexpress_1_1_request" ],
       [ "Response", "classexpress_1_1_response.html", "classexpress_1_1_response" ],
+      [ "RootRoute", "classexpress_1_1_root_route.html", "classexpress_1_1_root_route" ],
+      [ "Route", "classexpress_1_1_route.html", "classexpress_1_1_route" ],
       [ "Router", "classexpress_1_1_router.html", "classexpress_1_1_router" ],
+      [ "State", "classexpress_1_1_state.html", "classexpress_1_1_state" ],
       [ "WebApp", "classexpress_1_1_web_app.html", "classexpress_1_1_web_app" ],
       [ "WebAppT", "classexpress_1_1_web_app_t.html", "classexpress_1_1_web_app_t" ]
     ] ],
@@ -245,10 +249,14 @@ var annotated_dup =
         [ "ConfigAddressLocal", "classnet_1_1config_1_1_config_address_local.html", "classnet_1_1config_1_1_config_address_local" ],
         [ "ConfigAddressRemote", "classnet_1_1config_1_1_config_address_remote.html", "classnet_1_1config_1_1_config_address_remote" ],
         [ "ConfigBase", "classnet_1_1config_1_1_config_base.html", "classnet_1_1config_1_1_config_base" ],
+        [ "ConfigCluster", "classnet_1_1config_1_1_config_cluster.html", "classnet_1_1config_1_1_config_cluster" ],
         [ "ConfigConnection", "classnet_1_1config_1_1_config_connection.html", "classnet_1_1config_1_1_config_connection" ],
         [ "ConfigLegacy", "classnet_1_1config_1_1_config_legacy.html", null ],
         [ "ConfigListen", "classnet_1_1config_1_1_config_listen.html", "classnet_1_1config_1_1_config_listen" ],
         [ "ConfigTls", "classnet_1_1config_1_1_config_tls.html", "classnet_1_1config_1_1_config_tls" ]
+      ] ],
+      [ "dgram", "namespacenet_1_1dgram.html", [
+        [ "PeerSocket", "classnet_1_1dgram_1_1_peer_socket.html", "classnet_1_1dgram_1_1_peer_socket" ]
       ] ],
       [ "in", "namespacenet_1_1in.html", [
         [ "config", "namespacenet_1_1in_1_1config.html", [
@@ -256,8 +264,8 @@ var annotated_dup =
         ] ],
         [ "stream", "namespacenet_1_1in_1_1stream.html", [
           [ "config", "namespacenet_1_1in_1_1stream_1_1config.html", [
-            [ "ConfigClientSocket", "classnet_1_1in_1_1stream_1_1config_1_1_config_client_socket.html", "classnet_1_1in_1_1stream_1_1config_1_1_config_client_socket" ],
-            [ "ConfigServerSocket", "classnet_1_1in_1_1stream_1_1config_1_1_config_server_socket.html", "classnet_1_1in_1_1stream_1_1config_1_1_config_server_socket" ]
+            [ "ConfigSocketClient", "classnet_1_1in_1_1stream_1_1config_1_1_config_socket_client.html", "classnet_1_1in_1_1stream_1_1config_1_1_config_socket_client" ],
+            [ "ConfigSocketServer", "classnet_1_1in_1_1stream_1_1config_1_1_config_socket_server.html", "classnet_1_1in_1_1stream_1_1config_1_1_config_socket_server" ]
           ] ],
           [ "legacy", "namespacenet_1_1in_1_1stream_1_1legacy.html", [
             [ "config", "namespacenet_1_1in_1_1stream_1_1legacy_1_1config.html", [
@@ -273,8 +281,11 @@ var annotated_dup =
           ] ],
           [ "ClientSocket", "classnet_1_1in_1_1stream_1_1_client_socket.html", "classnet_1_1in_1_1stream_1_1_client_socket" ],
           [ "ServerSocket", "classnet_1_1in_1_1stream_1_1_server_socket.html", "classnet_1_1in_1_1stream_1_1_server_socket" ],
-          [ "Socket", "classnet_1_1in_1_1stream_1_1_socket.html", "classnet_1_1in_1_1stream_1_1_socket" ]
+          [ "Socket", "classnet_1_1in_1_1stream_1_1_socket.html", "classnet_1_1in_1_1stream_1_1_socket" ],
+          [ "SocketClient", "classnet_1_1in_1_1stream_1_1_socket_client.html", "classnet_1_1in_1_1stream_1_1_socket_client" ],
+          [ "SocketServer", "classnet_1_1in_1_1stream_1_1_socket_server.html", "classnet_1_1in_1_1stream_1_1_socket_server" ]
         ] ],
+        [ "Socket", "classnet_1_1in_1_1_socket.html", "classnet_1_1in_1_1_socket" ],
         [ "bad_hostname", "classnet_1_1in_1_1bad__hostname.html", "classnet_1_1in_1_1bad__hostname" ],
         [ "SocketAddress", "classnet_1_1in_1_1_socket_address.html", "classnet_1_1in_1_1_socket_address" ]
       ] ],
@@ -284,8 +295,8 @@ var annotated_dup =
         ] ],
         [ "stream", "namespacenet_1_1in6_1_1stream.html", [
           [ "config", "namespacenet_1_1in6_1_1stream_1_1config.html", [
-            [ "ConfigClientSocket", "classnet_1_1in6_1_1stream_1_1config_1_1_config_client_socket.html", "classnet_1_1in6_1_1stream_1_1config_1_1_config_client_socket" ],
-            [ "ConfigServerSocket", "classnet_1_1in6_1_1stream_1_1config_1_1_config_server_socket.html", "classnet_1_1in6_1_1stream_1_1config_1_1_config_server_socket" ]
+            [ "ConfigSocketClient", "classnet_1_1in6_1_1stream_1_1config_1_1_config_socket_client.html", "classnet_1_1in6_1_1stream_1_1config_1_1_config_socket_client" ],
+            [ "ConfigSocketServer", "classnet_1_1in6_1_1stream_1_1config_1_1_config_socket_server.html", "classnet_1_1in6_1_1stream_1_1config_1_1_config_socket_server" ]
           ] ],
           [ "legacy", "namespacenet_1_1in6_1_1stream_1_1legacy.html", [
             [ "config", "namespacenet_1_1in6_1_1stream_1_1legacy_1_1config.html", [
@@ -301,8 +312,11 @@ var annotated_dup =
           ] ],
           [ "ClientSocket", "classnet_1_1in6_1_1stream_1_1_client_socket.html", "classnet_1_1in6_1_1stream_1_1_client_socket" ],
           [ "ServerSocket", "classnet_1_1in6_1_1stream_1_1_server_socket.html", "classnet_1_1in6_1_1stream_1_1_server_socket" ],
-          [ "Socket", "classnet_1_1in6_1_1stream_1_1_socket.html", "classnet_1_1in6_1_1stream_1_1_socket" ]
+          [ "Socket", "classnet_1_1in6_1_1stream_1_1_socket.html", "classnet_1_1in6_1_1stream_1_1_socket" ],
+          [ "SocketClient", "classnet_1_1in6_1_1stream_1_1_socket_client.html", "classnet_1_1in6_1_1stream_1_1_socket_client" ],
+          [ "SocketServer", "classnet_1_1in6_1_1stream_1_1_socket_server.html", "classnet_1_1in6_1_1stream_1_1_socket_server" ]
         ] ],
+        [ "Socket", "classnet_1_1in6_1_1_socket.html", "classnet_1_1in6_1_1_socket" ],
         [ "bad_hostname", "classnet_1_1in6_1_1bad__hostname.html", "classnet_1_1in6_1_1bad__hostname" ],
         [ "SocketAddress", "classnet_1_1in6_1_1_socket_address.html", "classnet_1_1in6_1_1_socket_address" ]
       ] ],
@@ -312,8 +326,8 @@ var annotated_dup =
         ] ],
         [ "stream", "namespacenet_1_1l2_1_1stream.html", [
           [ "config", "namespacenet_1_1l2_1_1stream_1_1config.html", [
-            [ "ConfigClientSocket", "classnet_1_1l2_1_1stream_1_1config_1_1_config_client_socket.html", "classnet_1_1l2_1_1stream_1_1config_1_1_config_client_socket" ],
-            [ "ConfigServerSocket", "classnet_1_1l2_1_1stream_1_1config_1_1_config_server_socket.html", "classnet_1_1l2_1_1stream_1_1config_1_1_config_server_socket" ]
+            [ "ConfigSocketClient", "classnet_1_1l2_1_1stream_1_1config_1_1_config_socket_client.html", "classnet_1_1l2_1_1stream_1_1config_1_1_config_socket_client" ],
+            [ "ConfigSocketServer", "classnet_1_1l2_1_1stream_1_1config_1_1_config_socket_server.html", "classnet_1_1l2_1_1stream_1_1config_1_1_config_socket_server" ]
           ] ],
           [ "legacy", "namespacenet_1_1l2_1_1stream_1_1legacy.html", [
             [ "config", "namespacenet_1_1l2_1_1stream_1_1legacy_1_1config.html", [
@@ -329,8 +343,11 @@ var annotated_dup =
           ] ],
           [ "ClientSocket", "classnet_1_1l2_1_1stream_1_1_client_socket.html", "classnet_1_1l2_1_1stream_1_1_client_socket" ],
           [ "ServerSocket", "classnet_1_1l2_1_1stream_1_1_server_socket.html", "classnet_1_1l2_1_1stream_1_1_server_socket" ],
-          [ "Socket", "classnet_1_1l2_1_1stream_1_1_socket.html", "classnet_1_1l2_1_1stream_1_1_socket" ]
+          [ "Socket", "classnet_1_1l2_1_1stream_1_1_socket.html", "classnet_1_1l2_1_1stream_1_1_socket" ],
+          [ "SocketClient", "classnet_1_1l2_1_1stream_1_1_socket_client.html", "classnet_1_1l2_1_1stream_1_1_socket_client" ],
+          [ "SocketServer", "classnet_1_1l2_1_1stream_1_1_socket_server.html", "classnet_1_1l2_1_1stream_1_1_socket_server" ]
         ] ],
+        [ "Socket", "classnet_1_1l2_1_1_socket.html", "classnet_1_1l2_1_1_socket" ],
         [ "bad_bdaddress", "classnet_1_1l2_1_1bad__bdaddress.html", "classnet_1_1l2_1_1bad__bdaddress" ],
         [ "SocketAddress", "classnet_1_1l2_1_1_socket_address.html", "classnet_1_1l2_1_1_socket_address" ]
       ] ],
@@ -340,8 +357,8 @@ var annotated_dup =
         ] ],
         [ "stream", "namespacenet_1_1rc_1_1stream.html", [
           [ "config", "namespacenet_1_1rc_1_1stream_1_1config.html", [
-            [ "ConfigClientSocket", "classnet_1_1rc_1_1stream_1_1config_1_1_config_client_socket.html", "classnet_1_1rc_1_1stream_1_1config_1_1_config_client_socket" ],
-            [ "ConfigServerSocket", "classnet_1_1rc_1_1stream_1_1config_1_1_config_server_socket.html", "classnet_1_1rc_1_1stream_1_1config_1_1_config_server_socket" ]
+            [ "ConfigSocketClient", "classnet_1_1rc_1_1stream_1_1config_1_1_config_socket_client.html", "classnet_1_1rc_1_1stream_1_1config_1_1_config_socket_client" ],
+            [ "ConfigSocketServer", "classnet_1_1rc_1_1stream_1_1config_1_1_config_socket_server.html", "classnet_1_1rc_1_1stream_1_1config_1_1_config_socket_server" ]
           ] ],
           [ "legacy", "namespacenet_1_1rc_1_1stream_1_1legacy.html", [
             [ "config", "namespacenet_1_1rc_1_1stream_1_1legacy_1_1config.html", [
@@ -357,19 +374,34 @@ var annotated_dup =
           ] ],
           [ "ClientSocket", "classnet_1_1rc_1_1stream_1_1_client_socket.html", "classnet_1_1rc_1_1stream_1_1_client_socket" ],
           [ "ServerSocket", "classnet_1_1rc_1_1stream_1_1_server_socket.html", "classnet_1_1rc_1_1stream_1_1_server_socket" ],
-          [ "Socket", "classnet_1_1rc_1_1stream_1_1_socket.html", "classnet_1_1rc_1_1stream_1_1_socket" ]
+          [ "Socket", "classnet_1_1rc_1_1stream_1_1_socket.html", "classnet_1_1rc_1_1stream_1_1_socket" ],
+          [ "SocketClient", "classnet_1_1rc_1_1stream_1_1_socket_client.html", "classnet_1_1rc_1_1stream_1_1_socket_client" ],
+          [ "SocketServer", "classnet_1_1rc_1_1stream_1_1_socket_server.html", "classnet_1_1rc_1_1stream_1_1_socket_server" ]
         ] ],
+        [ "Socket", "classnet_1_1rc_1_1_socket.html", "classnet_1_1rc_1_1_socket" ],
         [ "bad_bdaddress", "classnet_1_1rc_1_1bad__bdaddress.html", "classnet_1_1rc_1_1bad__bdaddress" ],
         [ "SocketAddress", "classnet_1_1rc_1_1_socket_address.html", "classnet_1_1rc_1_1_socket_address" ]
+      ] ],
+      [ "stream", "namespacenet_1_1stream.html", [
+        [ "ClientSocket", "classnet_1_1stream_1_1_client_socket.html", "classnet_1_1stream_1_1_client_socket" ],
+        [ "ServerSocket", "classnet_1_1stream_1_1_server_socket.html", "classnet_1_1stream_1_1_server_socket" ],
+        [ "SocketClient", "classnet_1_1stream_1_1_socket_client.html", "classnet_1_1stream_1_1_socket_client" ],
+        [ "SocketServer", "classnet_1_1stream_1_1_socket_server.html", "classnet_1_1stream_1_1_socket_server" ]
       ] ],
       [ "un", "namespacenet_1_1un.html", [
         [ "config", "namespacenet_1_1un_1_1config.html", [
           [ "ConfigAddress", "classnet_1_1un_1_1config_1_1_config_address.html", "classnet_1_1un_1_1config_1_1_config_address" ]
         ] ],
+        [ "dgram", "namespacenet_1_1un_1_1dgram.html", [
+          [ "PeerSocket", "classnet_1_1un_1_1dgram_1_1_peer_socket.html", "classnet_1_1un_1_1dgram_1_1_peer_socket" ],
+          [ "Socket", "classnet_1_1un_1_1dgram_1_1_socket.html", "classnet_1_1un_1_1dgram_1_1_socket" ]
+        ] ],
         [ "stream", "namespacenet_1_1un_1_1stream.html", [
           [ "config", "namespacenet_1_1un_1_1stream_1_1config.html", [
             [ "ConfigClientSocket", "classnet_1_1un_1_1stream_1_1config_1_1_config_client_socket.html", "classnet_1_1un_1_1stream_1_1config_1_1_config_client_socket" ],
-            [ "ConfigServerSocket", "classnet_1_1un_1_1stream_1_1config_1_1_config_server_socket.html", "classnet_1_1un_1_1stream_1_1config_1_1_config_server_socket" ]
+            [ "ConfigServerSocket", "classnet_1_1un_1_1stream_1_1config_1_1_config_server_socket.html", "classnet_1_1un_1_1stream_1_1config_1_1_config_server_socket" ],
+            [ "ConfigSocketClient", "classnet_1_1un_1_1stream_1_1config_1_1_config_socket_client.html", "classnet_1_1un_1_1stream_1_1config_1_1_config_socket_client" ],
+            [ "ConfigSocketServer", "classnet_1_1un_1_1stream_1_1config_1_1_config_socket_server.html", "classnet_1_1un_1_1stream_1_1config_1_1_config_socket_server" ]
           ] ],
           [ "legacy", "namespacenet_1_1un_1_1stream_1_1legacy.html", [
             [ "config", "namespacenet_1_1un_1_1stream_1_1legacy_1_1config.html", [
@@ -385,15 +417,17 @@ var annotated_dup =
           ] ],
           [ "ClientSocket", "classnet_1_1un_1_1stream_1_1_client_socket.html", "classnet_1_1un_1_1stream_1_1_client_socket" ],
           [ "ServerSocket", "classnet_1_1un_1_1stream_1_1_server_socket.html", "classnet_1_1un_1_1stream_1_1_server_socket" ],
-          [ "Socket", "classnet_1_1un_1_1stream_1_1_socket.html", "classnet_1_1un_1_1stream_1_1_socket" ]
+          [ "Socket", "classnet_1_1un_1_1stream_1_1_socket.html", "classnet_1_1un_1_1stream_1_1_socket" ],
+          [ "SocketClient", "classnet_1_1un_1_1stream_1_1_socket_client.html", "classnet_1_1un_1_1stream_1_1_socket_client" ],
+          [ "SocketServer", "classnet_1_1un_1_1stream_1_1_socket_server.html", "classnet_1_1un_1_1stream_1_1_socket_server" ]
         ] ],
+        [ "Socket", "classnet_1_1un_1_1_socket.html", "classnet_1_1un_1_1_socket" ],
         [ "bad_sunpath", "classnet_1_1un_1_1bad__sunpath.html", "classnet_1_1un_1_1bad__sunpath" ],
         [ "SocketAddress", "classnet_1_1un_1_1_socket_address.html", "classnet_1_1un_1_1_socket_address" ]
       ] ],
-      [ "ClientSocket", "classnet_1_1_client_socket.html", "classnet_1_1_client_socket" ],
-      [ "ServerSocket", "classnet_1_1_server_socket.html", "classnet_1_1_server_socket" ],
       [ "Socket", "classnet_1_1_socket.html", "classnet_1_1_socket" ],
-      [ "SocketAddress", "classnet_1_1_socket_address.html", "classnet_1_1_socket_address" ]
+      [ "SocketAddress", "classnet_1_1_socket_address.html", "classnet_1_1_socket_address" ],
+      [ "SocketConfig", "classnet_1_1_socket_config.html", "classnet_1_1_socket_config" ]
     ] ],
     [ "utils", "namespaceutils.html", [
       [ "AttributeProxy", "classutils_1_1_attribute_proxy.html", "classutils_1_1_attribute_proxy" ],
@@ -470,7 +504,6 @@ var annotated_dup =
         [ "SocketContextFactory", "classweb_1_1http_1_1_socket_context_factory.html", "classweb_1_1http_1_1_socket_context_factory" ],
         [ "SocketContextUpgrade", "classweb_1_1http_1_1_socket_context_upgrade.html", "classweb_1_1http_1_1_socket_context_upgrade" ],
         [ "SocketContextUpgradeFactory", "classweb_1_1http_1_1_socket_context_upgrade_factory.html", "classweb_1_1http_1_1_socket_context_upgrade_factory" ],
-        [ "SocketContextPlugin", "structweb_1_1http_1_1_socket_context_plugin.html", "structweb_1_1http_1_1_socket_context_plugin" ],
         [ "SocketContextUpgradeFactorySelector", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector" ],
         [ "StatusCode", "classweb_1_1http_1_1_status_code.html", "classweb_1_1http_1_1_status_code" ]
       ] ],

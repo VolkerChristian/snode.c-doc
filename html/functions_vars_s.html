@@ -88,9 +88,15 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 : <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a266095b8a79eef17a8008339efdf52a5">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactoryT &gt;</a>
 , <a class="el" href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#a5a881a7aa8d9f594cc70f41680c40731">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;</a>
 </li>
+<li>secondarySocket
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#a158a107064f56cbe4e42ec8ef7b84ecf">core::socket::stream::SocketAcceptor&lt; SocketServerT, SocketConnectionT &gt;</a>
+</li>
 <li>sendHeaderInProgress
 : <a class="el" href="classweb_1_1http_1_1client_1_1_request.html#a2da45af4b50ce8e5cecba1d892110324">web::http::client::Request</a>
 , <a class="el" href="classweb_1_1http_1_1server_1_1_response.html#a6910a90430da0172d9c6ce12ea2d85cb">web::http::server::Response</a>
+</li>
+<li>showConfig
+: <a class="el" href="classutils_1_1_config.html#a9e62d53e9db4c6b62038bf6b800f4b1e">utils::Config</a>
 </li>
 <li>shutdownInProgress
 : <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html#a8340b8587f3d02196c4c439d40485f69">core::socket::stream::SocketWriter&lt; SocketT &gt;</a>
@@ -121,17 +127,22 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 : <a class="el" href="class_c_l_i_1_1_option.html#a7d8ef1d4012fde878668c943d9b197bc">CLI::Option</a>
 </li>
 <li>sniSslCtxs
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#a6c1da0e2192d70243e0889bea02e86ac">core::socket::stream::tls::SocketAcceptor&lt; ServerSocketT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a341a9fa67016349b8ce568c96f1a11e9">core::socket::stream::tls::SocketServer&lt; ServerSocketT, SocketContextFactoryT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_acceptor.html#add5b10f4662f914c7b71fe4a6e9f07e0">core::socket::stream::tls::SocketAcceptor&lt; SocketServerT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_server.html#a2a84bda74cf27cc0757fa0e355ed3d5f">core::socket::stream::tls::SocketServer&lt; SocketServerT, SocketContextFactoryT &gt;</a>
 </li>
 <li>sockAddr
 : <a class="el" href="classnet_1_1_socket_address.html#a4012f9aeeeb9e80e919ecc5d88f0aa9a">net::SocketAddress&lt; SockAddrT &gt;</a>
 </li>
 <li>socket
-: <a class="el" href="structdatabase_1_1mariadb_1_1_maria_d_b_connection_details.html#ac725456a3a9df465be4bae2c4ff323cf">database::mariadb::MariaDBConnectionDetails</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad7f486902703df7ea18adfd1fc7da4fd">core::socket::stream::SocketConnector&lt; SocketClientT, SocketConnectionT &gt;</a>
+, <a class="el" href="structdatabase_1_1mariadb_1_1_maria_d_b_connection_details.html#ac725456a3a9df465be4bae2c4ff323cf">database::mariadb::MariaDBConnectionDetails</a>
 </li>
 <li>socketConnection
 : <a class="el" href="classcore_1_1socket_1_1_socket_context.html#a3555c0def7a19e1a0877de7fe5140351">core::socket::SocketContext</a>
+</li>
+<li>socketConnectionFactory
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#a94e11e1021d23e6d3875c6cd16011a0d">core::socket::stream::SocketAcceptor&lt; SocketServerT, SocketConnectionT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#a237f4a013761a434064629c97210e186">core::socket::stream::SocketConnector&lt; SocketClientT, SocketConnectionT &gt;</a>
 </li>
 <li>socketContext
 : <a class="el" href="classcore_1_1socket_1_1_socket_connection.html#af307fcbdffd8a43642fa80443dd2c72e">core::socket::SocketConnection</a>
@@ -141,10 +152,9 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 , <a class="el" href="classweb_1_1http_1_1server_1_1_request_context_base.html#a93b1ed75361eedb30c6b188c73c6a9fc">web::http::server::RequestContextBase</a>
 </li>
 <li>socketContextFactory
-: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_acceptor.html#a98fc13f05ac6d55e3f971571f5037e7a">core::socket::stream::SocketAcceptor&lt; ServerSocketT, SocketConnectionT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#a17e04a425dda9f73699e0d278cccf626">core::socket::stream::SocketClient&lt; ClientSocketT, SocketConnectorT, SocketContextFactoryT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connector.html#ad50ff58cd97d56306dd358abff46fb2e">core::socket::stream::SocketConnector&lt; ClientSocketT, SocketConnectionT &gt;</a>
-, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a3fb07c9da5c25faadad0bd14f0691415">core::socket::stream::SocketServer&lt; ServerSocketT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
+: <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_client.html#a38a8ce1625540ce45f4f437d1a4ab0e0">core::socket::stream::SocketClient&lt; SocketClientT, SocketConnectorT, SocketContextFactoryT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_connection_factory.html#aeffb9edc3ec56e938ec5f8c250c4b9c3">core::socket::stream::SocketConnectionFactory&lt; BaseSocketT, SocketConnectionT &gt;</a>
+, <a class="el" href="classcore_1_1socket_1_1stream_1_1_socket_server.html#a41d3bb8c9fe09d7779b23cbc760b7d39">core::socket::stream::SocketServer&lt; SocketServerT, SocketAcceptorT, SocketContextFactoryT &gt;</a>
 </li>
 <li>SocketContextUpgrade
 : <a class="el" href="classweb_1_1websocket_1_1_sub_protocol.html#acb1f93a0f1855aa4fca002d5d39d098e">web::websocket::SubProtocol&lt; SocketContextUpgradeT &gt;</a>
@@ -154,11 +164,10 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 </li>
 <li>socketContextUpgradeFactory
 : <a class="el" href="structweb_1_1http_1_1server_1_1_socket_context_plugin.html#a52720e7d769a2667f41eedc63241d459">web::http::server::SocketContextPlugin</a>
-, <a class="el" href="structweb_1_1http_1_1_socket_context_plugin.html#a5e6e79a583060f81d4a0ebc6217a47b6">web::http::SocketContextPlugin&lt; SocketContextUpgradeFactory &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade.html#aa199a60563ff55495a3d4f0addcf31b1">web::http::SocketContextUpgrade&lt; RequestT, ResponseT &gt;</a>
 </li>
 <li>socketContextUpgradePlugins
-: <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#af828a33e2fbbb5642c2e8a28d6f4d5ab">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactoryT &gt;</a>
+: <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#ae4dca8e3e0f6d050c0d517ea4d8b695c">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactoryT &gt;</a>
 </li>
 <li>source
 : <a class="el" href="classcore_1_1pipe_1_1_sink.html#a626e0ac9ec30956fc7988e09790d526f">core::pipe::Sink</a>
@@ -174,11 +183,14 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_handshake.html#a67c63bf4f3234197ab8537dfebf0d25a">core::socket::stream::tls::TLSHandshake</a>
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_t_l_s_shutdown.html#ac4b8ae83ef04c302e4d06d327adbdaac">core::socket::stream::tls::TLSShutdown</a>
 </li>
+<li>startDaemon
+: <a class="el" href="classutils_1_1_config.html#a6c70aca9a6f40eb3719e4eabe0bc06e0">utils::Config</a>
+</li>
 <li>startTime
 : <a class="el" href="classdatabase_1_1mariadb_1_1_maria_d_b_command.html#a63abe9719ac62be4ed73186bd123e906">database::mariadb::MariaDBCommand</a>
 </li>
 <li>state
-: <a class="el" href="classexpress_1_1dispatcher_1_1_router_dispatcher.html#a763e389bf32d6664615b3827c36d6868">express::dispatcher::RouterDispatcher</a>
+: <a class="el" href="classexpress_1_1_next.html#a54a84ff2ea90b0bab1af8ba436fd376d">express::Next</a>
 </li>
 <li>status
 : <a class="el" href="classweb_1_1http_1_1server_1_1_socket_context_1_1_request_context.html#a1c548133a59147f33c0f40e9f4408b55">web::http::server::SocketContext&lt; RequestT, ResponseT &gt;::RequestContext</a>
@@ -193,6 +205,9 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 </li>
 <li>stdHeaders
 : <a class="el" href="classexpress_1_1middleware_1_1_static_middleware.html#a8ce62963e4bb98b3999d8748c9b97b51">express::middleware::StaticMiddleware</a>
+</li>
+<li>stopDaemon
+: <a class="el" href="classutils_1_1_config.html#abce19c42ba29e3b9998d02950ce4ad52">utils::Config</a>
 </li>
 <li>stopped
 : <a class="el" href="classcore_1_1_event_loop.html#a2679c10e445196b27f55bba73d7b1113">core::EventLoop</a>

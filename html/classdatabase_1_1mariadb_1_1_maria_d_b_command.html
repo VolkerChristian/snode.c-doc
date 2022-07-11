@@ -96,13 +96,13 @@ $(document).ready(function(){initNavTree('classdatabase_1_1mariadb_1_1_maria_d_b
 <div class="dynheader">
 Inheritance diagram for database::mariadb::MariaDBCommand:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classdatabase_1_1mariadb_1_1_maria_d_b_command__inherit__graph.svg" width="2968" height="720"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classdatabase_1_1mariadb_1_1_maria_d_b_command__inherit__graph.svg" width="2910" height="246"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for database::mariadb::MariaDBCommand:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classdatabase_1_1mariadb_1_1_maria_d_b_command__coll__graph.svg" width="1492" height="1810"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classdatabase_1_1mariadb_1_1_maria_d_b_command__coll__graph.svg" width="1416" height="471"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -124,8 +124,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aee590f857c6484900b5fa58318216256"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a914d7e9a32f92290eb04261dc469412c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabase_1_1mariadb_1_1_maria_d_b_command.html#a914d7e9a32f92290eb04261dc469412c">commandError</a> (const std::string &amp;errorString, unsigned int errorNumber)=0</td></tr>
 <tr class="separator:a914d7e9a32f92290eb04261dc469412c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1c389fd7797c1302615f464df918576"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabase_1_1mariadb_1_1_maria_d_b_command.html#aa1c389fd7797c1302615f464df918576">commandInfo</a> ()=0</td></tr>
-<tr class="separator:aa1c389fd7797c1302615f464df918576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28796a334f9f6b564bb99eaa513aa2e8"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabase_1_1mariadb_1_1_maria_d_b_command.html#a28796a334f9f6b564bb99eaa513aa2e8">commandInfo</a> ()</td></tr>
+<tr class="separator:a28796a334f9f6b564bb99eaa513aa2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -330,8 +330,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aa1c389fd7797c1302615f464df918576"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1c389fd7797c1302615f464df918576">&#9670;&nbsp;</a></span>commandInfo()</h2>
+<a id="a28796a334f9f6b564bb99eaa513aa2e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28796a334f9f6b564bb99eaa513aa2e8">&#9670;&nbsp;</a></span>commandInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,7 +340,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::string database::mariadb::MariaDBCommand::commandInfo </td>
+          <td class="memname">std::string database::mariadb::MariaDBCommand::commandInfo </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -348,18 +348,32 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classdatabase_1_1mariadb_1_1commands_1_1sync_1_1_maria_d_b_use_result_command.html#aa20d49d3bd3e1f49eef65ef742402523">database::mariadb::commands::sync::MariaDBUseResultCommand</a>, <a class="el" href="classdatabase_1_1mariadb_1_1commands_1_1sync_1_1_maria_d_b_field_count_command.html#a9c6103c9f42524db381df3b7e2e40597">database::mariadb::commands::sync::MariaDBFieldCountCommand</a>, <a class="el" href="classdatabase_1_1mariadb_1_1commands_1_1sync_1_1_maria_d_b_affected_rows_command.html#a6283a9d35c07efef8ced9fe4b60d9064">database::mariadb::commands::sync::MariaDBAffectedRowsCommand</a>, <a class="el" href="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_rollback_command.html#a9849708ff5f61722f5e0dd630e49fb3c">database::mariadb::commands::async::MariaDBRollbackCommand</a>, <a class="el" href="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_query_command.html#a5fa9815f1de302a00e92b3ebea7c4ccd">database::mariadb::commands::async::MariaDBQueryCommand</a>, <a class="el" href="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_free_result_command.html#a4d4533d274cdde5f4fe734948b3c3642">database::mariadb::commands::async::MariaDBFreeResultCommand</a>, <a class="el" href="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_fetch_row_command.html#af4bc5aa3e5b5458e7eda230f2b5a2950">database::mariadb::commands::async::MariaDBFetchRowCommand</a>, <a class="el" href="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_exec_command.html#a10b02906a0038aff6c2578475b2fb862">database::mariadb::commands::async::MariaDBExecCommand</a>, <a class="el" href="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_connect_command.html#af0357d2bf8e15d50620504e469f10b03">database::mariadb::commands::async::MariaDBConnectCommand</a>, <a class="el" href="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_commit_command.html#a451bf015970e5042dfc6939aa3062aa1">database::mariadb::commands::async::MariaDBCommitCommand</a>, and <a class="el" href="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_auto_commit_command.html#a04764c7fdd8bea0d1b484ba3b502d234">database::mariadb::commands::async::MariaDBAutoCommitCommand</a>.</p>
+<p>Reimplemented in <a class="el" href="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_query_command.html#a5fa9815f1de302a00e92b3ebea7c4ccd">database::mariadb::commands::async::MariaDBQueryCommand</a>, <a class="el" href="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_exec_command.html#a10b02906a0038aff6c2578475b2fb862">database::mariadb::commands::async::MariaDBExecCommand</a>, <a class="el" href="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_connect_command.html#af0357d2bf8e15d50620504e469f10b03">database::mariadb::commands::async::MariaDBConnectCommand</a>, and <a class="el" href="classdatabase_1_1mariadb_1_1commands_1_1async_1_1_maria_d_b_auto_commit_command.html#a04764c7fdd8bea0d1b484ba3b502d234">database::mariadb::commands::async::MariaDBAutoCommitCommand</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_maria_d_b_connection_8cpp_source.html#l00149">database::mariadb::MariaDBConnection::commandCompleted()</a>, <a class="el" href="_maria_d_b_connection_8cpp_source.html#l00135">database::mariadb::MariaDBConnection::commandContinue()</a>, and <a class="el" href="_maria_d_b_connection_8cpp_source.html#l00115">database::mariadb::MariaDBConnection::commandStart()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_maria_d_b_command_8cpp_source.html#l00044">44</a> of file <a class="el" href="_maria_d_b_command_8cpp_source.html">MariaDBCommand.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                                          {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classdatabase_1_1mariadb_1_1_maria_d_b_command.html#a21dbfe439154587a4b72c1a02378fb65">commandName</a>();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
+<div class="ttc" id="aclassdatabase_1_1mariadb_1_1_maria_d_b_command_html_a21dbfe439154587a4b72c1a02378fb65"><div class="ttname"><a href="classdatabase_1_1mariadb_1_1_maria_d_b_command.html#a21dbfe439154587a4b72c1a02378fb65">database::mariadb::MariaDBCommand::commandName</a></div><div class="ttdeci">const std::string &amp; commandName()</div><div class="ttdef"><b>Definition:</b> <a href="_maria_d_b_command_8cpp_source.html#l00048">MariaDBCommand.cpp:48</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="_maria_d_b_command_8cpp_source.html#l00048">commandName()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_maria_d_b_connection_8cpp_source.html#l00149">database::mariadb::MariaDBConnection::commandCompleted()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classdatabase_1_1mariadb_1_1_maria_d_b_command_a28796a334f9f6b564bb99eaa513aa2e8_cgraph.svg" width="559" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classdatabase_1_1mariadb_1_1_maria_d_b_command_aa1c389fd7797c1302615f464df918576_icgraph.svg" width="1378" height="491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classdatabase_1_1mariadb_1_1_maria_d_b_command_a28796a334f9f6b564bb99eaa513aa2e8_icgraph.svg" width="1378" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -380,18 +394,18 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_maria_d_b_command_8cpp_source.html#l00044">44</a> of file <a class="el" href="_maria_d_b_command_8cpp_source.html">MariaDBCommand.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                                                 {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classdatabase_1_1mariadb_1_1_maria_d_b_command.html#aabe96bcefa16da58fab17da1256a768c">name</a>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="_maria_d_b_command_8cpp_source.html#l00048">48</a> of file <a class="el" href="_maria_d_b_command_8cpp_source.html">MariaDBCommand.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                                                 {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classdatabase_1_1mariadb_1_1_maria_d_b_command.html#aabe96bcefa16da58fab17da1256a768c">name</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_maria_d_b_command_8h_source.html#l00061">name</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_maria_d_b_auto_commit_command_8cpp_source.html#l00054">database::mariadb::commands::async::MariaDBAutoCommitCommand::commandInfo()</a>, <a class="el" href="_maria_d_b_commit_command_8cpp_source.html#l00052">database::mariadb::commands::async::MariaDBCommitCommand::commandInfo()</a>, <a class="el" href="_maria_d_b_connect_command_8cpp_source.html#l00070">database::mariadb::commands::async::MariaDBConnectCommand::commandInfo()</a>, <a class="el" href="_maria_d_b_exec_command_8cpp_source.html#l00056">database::mariadb::commands::async::MariaDBExecCommand::commandInfo()</a>, <a class="el" href="_maria_d_b_fetch_row_command_8cpp_source.html#l00061">database::mariadb::commands::async::MariaDBFetchRowCommand::commandInfo()</a>, <a class="el" href="_maria_d_b_free_result_command_8cpp_source.html#l00060">database::mariadb::commands::async::MariaDBFreeResultCommand::commandInfo()</a>, <a class="el" href="_maria_d_b_query_command_8cpp_source.html#l00054">database::mariadb::commands::async::MariaDBQueryCommand::commandInfo()</a>, <a class="el" href="_maria_d_b_rollback_command_8cpp_source.html#l00052">database::mariadb::commands::async::MariaDBRollbackCommand::commandInfo()</a>, <a class="el" href="_maria_d_b_affected_rows_command_8cpp_source.html#l00052">database::mariadb::commands::sync::MariaDBAffectedRowsCommand::commandInfo()</a>, <a class="el" href="_maria_d_b_field_count_command_8cpp_source.html#l00054">database::mariadb::commands::sync::MariaDBFieldCountCommand::commandInfo()</a>, and <a class="el" href="_maria_d_b_use_result_command_8cpp_source.html#l00052">database::mariadb::commands::sync::MariaDBUseResultCommand::commandInfo()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_maria_d_b_command_8cpp_source.html#l00044">commandInfo()</a>, <a class="el" href="_maria_d_b_auto_commit_command_8cpp_source.html#l00054">database::mariadb::commands::async::MariaDBAutoCommitCommand::commandInfo()</a>, <a class="el" href="_maria_d_b_connect_command_8cpp_source.html#l00070">database::mariadb::commands::async::MariaDBConnectCommand::commandInfo()</a>, <a class="el" href="_maria_d_b_exec_command_8cpp_source.html#l00056">database::mariadb::commands::async::MariaDBExecCommand::commandInfo()</a>, and <a class="el" href="_maria_d_b_query_command_8cpp_source.html#l00054">database::mariadb::commands::async::MariaDBQueryCommand::commandInfo()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classdatabase_1_1mariadb_1_1_maria_d_b_command_a21dbfe439154587a4b72c1a02378fb65_icgraph.svg" width="576" height="867"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classdatabase_1_1mariadb_1_1_maria_d_b_command_a21dbfe439154587a4b72c1a02378fb65_icgraph.svg" width="1698" height="700"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -596,7 +610,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_maria_d_b_command_8h_source.html#l00061">61</a> of file <a class="el" href="_maria_d_b_command_8h_source.html">MariaDBCommand.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_maria_d_b_command_8cpp_source.html#l00044">commandName()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_maria_d_b_command_8cpp_source.html#l00048">commandName()</a>.</p>
 
 </div>
 </div>

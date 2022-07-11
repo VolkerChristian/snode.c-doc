@@ -1,10 +1,11 @@
 var core_2system_2socket_8cpp =
 [
-    [ "accept4", "core_2system_2socket_8cpp.html#a2c1b676faa6cb9d0b9e7b42b91b374ab", null ],
-    [ "bind", "core_2system_2socket_8cpp.html#a19ceab092964086376447fb7ddbdb2d2", null ],
-    [ "connect", "core_2system_2socket_8cpp.html#a461a0fc3cbdbdb164a02d2d920489b62", null ],
-    [ "getpeername", "core_2system_2socket_8cpp.html#a72b5fb13dfc490223fded986576e70fb", null ],
-    [ "getsockname", "core_2system_2socket_8cpp.html#a252068ee271f0319fdfac711649f852f", null ],
+    [ "accept", "core_2system_2socket_8cpp.html#a8b506c06e449e6bdf5aba1c6fdcad779", null ],
+    [ "accept4", "core_2system_2socket_8cpp.html#ae6281ec9ee570c4a9af06541892cd952", null ],
+    [ "bind", "core_2system_2socket_8cpp.html#a726f40f6a8ebf70f5a83bd41d3a028de", null ],
+    [ "connect", "core_2system_2socket_8cpp.html#a1f27caa888ac8809434c3338df8eeae1", null ],
+    [ "getpeername", "core_2system_2socket_8cpp.html#a6c12f08bc8a1d08ee4585204eb0745b1", null ],
+    [ "getsockname", "core_2system_2socket_8cpp.html#a09b7b5fd5a49db5b0abee54dfda17ba1", null ],
     [ "getsockopt", "core_2system_2socket_8cpp.html#a5658d0ea06a95cb8f07412b13f393ecb", null ],
     [ "listen", "core_2system_2socket_8cpp.html#a8d02857d418a45aa380ebafec930b18f", null ],
     [ "recv", "core_2system_2socket_8cpp.html#a37ca251adecc564c59a9420200b20a9f", null ],

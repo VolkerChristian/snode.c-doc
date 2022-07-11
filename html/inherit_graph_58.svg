@@ -9,12 +9,12 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 610.5)">
 <title>Graphical Class Hierarchy</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-610.5 944,-610.5 944,4 -4,4"/>
-<!-- Node19 -->
+<!-- Node290 -->
 <g id="node1" class="node">
-<title>Node19</title>
+<title>Node290</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="0,-263.5 0,-282.5 83,-282.5 83,-263.5 0,-263.5"/>
-<text text-anchor="middle" x="41.5" y="-270.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientSocketT</text>
+<polygon fill="white" stroke="#bfbfbf" points="0,-216.5 0,-235.5 83,-235.5 83,-216.5 0,-216.5"/>
+<text text-anchor="middle" x="41.5" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">SocketClientT</text>
 </a>
 </g>
 </g>
@@ -22,373 +22,390 @@
 <g id="node2" class="node">
 <title>Node0</title>
 <g id="a_node2"><a xlink:href="classcore_1_1socket_1_1stream_1_1_socket_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="119,-362.5 119,-425.5 331,-425.5 331,-362.5 119,-362.5"/>
-<text text-anchor="start" x="127" y="-413.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="start" x="127" y="-402.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketClient&lt; ClientSocket</text>
-<text text-anchor="start" x="127" y="-391.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, core::socket::stream::</text>
-<text text-anchor="start" x="127" y="-380.5" font-family="Helvetica,sans-Serif" font-size="10.00">legacy::SocketConnector, SocketContext</text>
-<text text-anchor="middle" x="225" y="-369.5" font-family="Helvetica,sans-Serif" font-size="10.00">FactoryT &gt;</text>
+<polygon fill="white" stroke="black" points="128.5,-352.5 128.5,-415.5 321.5,-415.5 321.5,-352.5 128.5,-352.5"/>
+<text text-anchor="start" x="136.5" y="-403.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
+<text text-anchor="start" x="136.5" y="-392.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketClient&lt; SocketClient</text>
+<text text-anchor="start" x="136.5" y="-381.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, core::socket::stream::</text>
+<text text-anchor="start" x="136.5" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00">tls::SocketConnector, SocketContext</text>
+<text text-anchor="middle" x="225" y="-359.5" font-family="Helvetica,sans-Serif" font-size="10.00">FactoryT &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node19&#45;&gt;Node0 -->
+<!-- Node290&#45;&gt;Node0 -->
 <g id="edge1" class="edge">
-<title>Node19&#45;&gt;Node0</title>
-<path fill="none" stroke="midnightblue" d="M65.67,-288.45C93.45,-306.97 140.71,-338.48 176.39,-362.26"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="67.31,-285.33 57.05,-282.7 63.43,-291.16 67.31,-285.33"/>
+<title>Node290&#45;&gt;Node0</title>
+<path fill="none" stroke="midnightblue" d="M57.92,-243.78C72.83,-260.57 96.43,-286.07 119,-306 137.47,-322.31 159.14,-338.8 177.99,-352.4"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="60.19,-241.07 50.96,-235.87 54.94,-245.69 60.19,-241.07"/>
 </g>
-<!-- Node30 -->
+<!-- Node301 -->
 <g id="node12" class="node">
-<title>Node30</title>
+<title>Node301</title>
 <g id="a_node12"><a xlink:href="classcore_1_1socket_1_1stream_1_1_socket_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="128.5,-241.5 128.5,-304.5 321.5,-304.5 321.5,-241.5 128.5,-241.5"/>
-<text text-anchor="start" x="136.5" y="-292.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="start" x="136.5" y="-281.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketClient&lt; ClientSocket</text>
-<text text-anchor="start" x="136.5" y="-270.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, core::socket::stream::</text>
-<text text-anchor="start" x="136.5" y="-259.5" font-family="Helvetica,sans-Serif" font-size="10.00">tls::SocketConnector, SocketContext</text>
-<text text-anchor="middle" x="225" y="-248.5" font-family="Helvetica,sans-Serif" font-size="10.00">FactoryT &gt;</text>
+<polygon fill="white" stroke="black" points="119,-233.5 119,-296.5 331,-296.5 331,-233.5 119,-233.5"/>
+<text text-anchor="start" x="127" y="-284.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
+<text text-anchor="start" x="127" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketClient&lt; SocketClient</text>
+<text text-anchor="start" x="127" y="-262.5" font-family="Helvetica,sans-Serif" font-size="10.00">T, core::socket::stream::</text>
+<text text-anchor="start" x="127" y="-251.5" font-family="Helvetica,sans-Serif" font-size="10.00">legacy::SocketConnector, SocketContext</text>
+<text text-anchor="middle" x="225" y="-240.5" font-family="Helvetica,sans-Serif" font-size="10.00">FactoryT &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node19&#45;&gt;Node30 -->
+<!-- Node290&#45;&gt;Node301 -->
 <g id="edge11" class="edge">
-<title>Node19&#45;&gt;Node30</title>
-<path fill="none" stroke="midnightblue" d="M93.38,-273C104.3,-273 116.17,-273 128.17,-273"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="93.23,-269.5 83.23,-273 93.23,-276.5 93.23,-269.5"/>
+<title>Node290&#45;&gt;Node301</title>
+<path fill="none" stroke="midnightblue" d="M93.16,-236.88C101.23,-238.62 109.84,-240.47 118.64,-242.36"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="93.74,-233.43 83.23,-234.75 92.27,-240.28 93.74,-233.43"/>
 </g>
-<!-- Node40 -->
+<!-- Node311 -->
 <g id="node22" class="node">
-<title>Node40</title>
+<title>Node311</title>
 <g id="a_node22"><a xlink:href="classcore_1_1socket_1_1stream_1_1_socket_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="128.5,-170 128.5,-222 321.5,-222 321.5,-170 128.5,-170"/>
-<text text-anchor="start" x="136.5" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="start" x="136.5" y="-199" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketClient&lt; ClientSocket</text>
-<text text-anchor="start" x="136.5" y="-188" font-family="Helvetica,sans-Serif" font-size="10.00">T, SocketConnectorT, SocketContext</text>
-<text text-anchor="middle" x="225" y="-177" font-family="Helvetica,sans-Serif" font-size="10.00">FactoryT &gt;</text>
+<polygon fill="white" stroke="black" points="128.5,-162 128.5,-214 321.5,-214 321.5,-162 128.5,-162"/>
+<text text-anchor="start" x="136.5" y="-202" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
+<text text-anchor="start" x="136.5" y="-191" font-family="Helvetica,sans-Serif" font-size="10.00">::SocketClient&lt; SocketClient</text>
+<text text-anchor="start" x="136.5" y="-180" font-family="Helvetica,sans-Serif" font-size="10.00">T, SocketConnectorT, SocketContext</text>
+<text text-anchor="middle" x="225" y="-169" font-family="Helvetica,sans-Serif" font-size="10.00">FactoryT &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node19&#45;&gt;Node40 -->
+<!-- Node290&#45;&gt;Node311 -->
 <g id="edge21" class="edge">
-<title>Node19&#45;&gt;Node40</title>
-<path fill="none" stroke="midnightblue" d="M67.5,-258.28C82.2,-249.95 101.32,-239.71 119,-232 126.86,-228.57 135.16,-225.25 143.51,-222.1"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="65.47,-255.41 58.54,-263.42 68.95,-261.48 65.47,-255.41"/>
+<title>Node290&#45;&gt;Node311</title>
+<path fill="none" stroke="midnightblue" d="M93.04,-215.42C104.05,-213.11 116.05,-210.6 128.17,-208.06"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="92.3,-212 83.23,-217.47 93.74,-218.85 92.3,-212"/>
+</g>
+<!-- Node312 -->
+<g id="node23" class="node">
+<title>Node312</title>
+<g id="a_node23"><a xlink:href="classweb_1_1http_1_1client_1_1_client.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="157,-101.5 157,-142.5 293,-142.5 293,-101.5 157,-101.5"/>
+<text text-anchor="start" x="165" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
+<text text-anchor="start" x="165" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">Client&lt; SocketClientT,</text>
+<text text-anchor="middle" x="225" y="-108.5" font-family="Helvetica,sans-Serif" font-size="10.00"> RequestT, ResponseT &gt;</text>
+</a>
+</g>
+</g>
+<!-- Node290&#45;&gt;Node312 -->
+<g id="edge22" class="edge">
+<title>Node290&#45;&gt;Node312</title>
+<path fill="none" stroke="midnightblue" d="M56.41,-208.61C70.52,-192.05 93.83,-167.56 119,-153 130.6,-146.29 143.77,-140.92 156.77,-136.67"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="53.59,-206.52 49.9,-216.45 58.98,-210.99 53.59,-206.52"/>
 </g>
 <!-- Node1 -->
 <g id="node3" class="node">
 <title>Node1</title>
-<g id="a_node3"><a xlink:href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="367,-406 367,-458 538,-458 538,-406 367,-406"/>
-<text text-anchor="start" x="375" y="-446" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="start" x="375" y="-435" font-family="Helvetica,sans-Serif" font-size="10.00">::legacy::SocketClient</text>
-<text text-anchor="start" x="375" y="-424" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; ClientSocketT, SocketContext</text>
-<text text-anchor="middle" x="452.5" y="-413" font-family="Helvetica,sans-Serif" font-size="10.00">FactoryT &gt;</text>
+<g id="a_node3"><a xlink:href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_client.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="371,-395 371,-447 534,-447 534,-395 371,-395"/>
+<text text-anchor="start" x="379" y="-435" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
+<text text-anchor="start" x="379" y="-424" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketClient&lt;</text>
+<text text-anchor="start" x="379" y="-413" font-family="Helvetica,sans-Serif" font-size="10.00"> SocketClientT, SocketContext</text>
+<text text-anchor="middle" x="452.5" y="-402" font-family="Helvetica,sans-Serif" font-size="10.00">FactoryT &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node0&#45;&gt;Node1 -->
 <g id="edge2" class="edge">
 <title>Node0&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M341.25,-413.42C349.85,-414.87 358.43,-416.32 366.79,-417.72"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="341.6,-409.93 331.16,-411.72 340.44,-416.83 341.6,-409.93"/>
+<path fill="none" stroke="midnightblue" d="M331.63,-401.33C344.75,-403.48 358,-405.66 370.67,-407.74"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="332.07,-397.86 321.63,-399.69 330.93,-404.76 332.07,-397.86"/>
 </g>
 <!-- Node2 -->
 <g id="node4" class="node">
 <title>Node2</title>
 <g id="a_node4"><a xlink:href="classweb_1_1http_1_1client_1_1_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="590,-554 590,-606 721,-606 721,-554 590,-554"/>
-<text text-anchor="start" x="598" y="-594" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
-<text text-anchor="start" x="598" y="-583" font-family="Helvetica,sans-Serif" font-size="10.00">Client&lt; net::un::stream</text>
-<text text-anchor="start" x="598" y="-572" font-family="Helvetica,sans-Serif" font-size="10.00">::legacy::SocketClient,</text>
-<text text-anchor="middle" x="655.5" y="-561" font-family="Helvetica,sans-Serif" font-size="10.00"> Request, Response &gt;</text>
+<polygon fill="white" stroke="black" points="580.5,-554 580.5,-606 730.5,-606 730.5,-554 580.5,-554"/>
+<text text-anchor="start" x="588.5" y="-594" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
+<text text-anchor="start" x="588.5" y="-583" font-family="Helvetica,sans-Serif" font-size="10.00">Client&lt; net::in::stream</text>
+<text text-anchor="start" x="588.5" y="-572" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketClient, Request,</text>
+<text text-anchor="middle" x="655.5" y="-561" font-family="Helvetica,sans-Serif" font-size="10.00"> Response &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M483.39,-465.66C506.35,-490.04 539.84,-522.53 574,-545 578.97,-548.27 584.29,-551.35 589.74,-554.23"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="485.68,-462.99 476.31,-458.05 480.56,-467.76 485.68,-462.99"/>
+<path fill="none" stroke="midnightblue" d="M480.91,-455.36C503.64,-482.16 537.98,-518.93 574,-544 579.03,-547.5 584.45,-550.78 590.02,-553.83"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="483.33,-452.8 474.23,-447.38 477.97,-457.3 483.33,-452.8"/>
 </g>
 <!-- Node4 -->
 <g id="node6" class="node">
 <title>Node4</title>
 <g id="a_node6"><a xlink:href="classweb_1_1http_1_1client_1_1_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="591.5,-483 591.5,-535 719.5,-535 719.5,-483 591.5,-483"/>
-<text text-anchor="start" x="599.5" y="-523" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
-<text text-anchor="start" x="599.5" y="-512" font-family="Helvetica,sans-Serif" font-size="10.00">Client&lt; net::in::stream</text>
-<text text-anchor="start" x="599.5" y="-501" font-family="Helvetica,sans-Serif" font-size="10.00">::legacy::SocketClient,</text>
-<text text-anchor="middle" x="655.5" y="-490" font-family="Helvetica,sans-Serif" font-size="10.00"> Request, Response &gt;</text>
+<polygon fill="white" stroke="black" points="574,-471.5 574,-534.5 737,-534.5 737,-471.5 574,-471.5"/>
+<text text-anchor="start" x="582" y="-522.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
+<text text-anchor="start" x="582" y="-511.5" font-family="Helvetica,sans-Serif" font-size="10.00">Client&lt; net::in6::stream</text>
+<text text-anchor="start" x="582" y="-500.5" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketClient, web</text>
+<text text-anchor="start" x="582" y="-489.5" font-family="Helvetica,sans-Serif" font-size="10.00">::http::client::Request,</text>
+<text text-anchor="middle" x="655.5" y="-478.5" font-family="Helvetica,sans-Serif" font-size="10.00"> web::http::client::Response &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M530.92,-461.66C550.88,-469.31 572.12,-477.44 591.26,-484.78"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="532.14,-458.38 521.55,-458.07 529.64,-464.91 532.14,-458.38"/>
+<path fill="none" stroke="midnightblue" d="M526.86,-450.93C543.19,-457.59 560.56,-464.68 577.05,-471.41"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="527.96,-447.59 517.37,-447.06 525.31,-454.08 527.96,-447.59"/>
 </g>
 <!-- Node6 -->
 <g id="node8" class="node">
 <title>Node6</title>
 <g id="a_node8"><a xlink:href="classweb_1_1http_1_1client_1_1_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="574,-400.5 574,-463.5 737,-463.5 737,-400.5 574,-400.5"/>
-<text text-anchor="start" x="582" y="-451.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
-<text text-anchor="start" x="582" y="-440.5" font-family="Helvetica,sans-Serif" font-size="10.00">Client&lt; net::in6::stream</text>
-<text text-anchor="start" x="582" y="-429.5" font-family="Helvetica,sans-Serif" font-size="10.00">::legacy::SocketClient,</text>
-<text text-anchor="start" x="582" y="-418.5" font-family="Helvetica,sans-Serif" font-size="10.00"> web::http::client::Request,</text>
-<text text-anchor="middle" x="655.5" y="-407.5" font-family="Helvetica,sans-Serif" font-size="10.00"> web::http::client::Response &gt;</text>
+<polygon fill="white" stroke="black" points="574,-389.5 574,-452.5 737,-452.5 737,-389.5 574,-389.5"/>
+<text text-anchor="start" x="582" y="-440.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
+<text text-anchor="start" x="582" y="-429.5" font-family="Helvetica,sans-Serif" font-size="10.00">Client&lt; net::un::stream</text>
+<text text-anchor="start" x="582" y="-418.5" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketClient, web</text>
+<text text-anchor="start" x="582" y="-407.5" font-family="Helvetica,sans-Serif" font-size="10.00">::http::client::Request,</text>
+<text text-anchor="middle" x="655.5" y="-396.5" font-family="Helvetica,sans-Serif" font-size="10.00"> web::http::client::Response &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge7" class="edge">
 <title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M548.17,-432C556.74,-432 565.36,-432 573.79,-432"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="548.16,-428.5 538.16,-432 548.16,-435.5 548.16,-428.5"/>
+<path fill="none" stroke="midnightblue" d="M544.31,-421C554.17,-421 564.16,-421 573.89,-421"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="544.1,-417.5 534.1,-421 544.1,-424.5 544.1,-417.5"/>
 </g>
 <!-- Node8 -->
 <g id="node10" class="node">
 <title>Node8</title>
 <g id="a_node10"><a xlink:href="classweb_1_1http_1_1client_1_1_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="574,-318.5 574,-381.5 737,-381.5 737,-318.5 574,-318.5"/>
-<text text-anchor="start" x="582" y="-369.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
-<text text-anchor="start" x="582" y="-358.5" font-family="Helvetica,sans-Serif" font-size="10.00">Client&lt; net::rc::stream</text>
-<text text-anchor="start" x="582" y="-347.5" font-family="Helvetica,sans-Serif" font-size="10.00">::legacy::SocketClient,</text>
-<text text-anchor="start" x="582" y="-336.5" font-family="Helvetica,sans-Serif" font-size="10.00"> web::http::client::Request,</text>
-<text text-anchor="middle" x="655.5" y="-325.5" font-family="Helvetica,sans-Serif" font-size="10.00"> web::http::client::Response &gt;</text>
+<polygon fill="white" stroke="black" points="574,-307.5 574,-370.5 737,-370.5 737,-307.5 574,-307.5"/>
+<text text-anchor="start" x="582" y="-358.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
+<text text-anchor="start" x="582" y="-347.5" font-family="Helvetica,sans-Serif" font-size="10.00">Client&lt; net::rc::stream</text>
+<text text-anchor="start" x="582" y="-336.5" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketClient, web</text>
+<text text-anchor="start" x="582" y="-325.5" font-family="Helvetica,sans-Serif" font-size="10.00">::http::client::Request,</text>
+<text text-anchor="middle" x="655.5" y="-314.5" font-family="Helvetica,sans-Serif" font-size="10.00"> web::http::client::Response &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
 <g id="edge9" class="edge">
 <title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M526.86,-402.07C543.19,-395.41 560.56,-388.32 577.05,-381.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="525.31,-398.92 517.37,-405.94 527.96,-405.41 525.31,-398.92"/>
+<path fill="none" stroke="midnightblue" d="M526.86,-391.07C543.19,-384.41 560.56,-377.32 577.05,-370.59"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="525.31,-387.92 517.37,-394.94 527.96,-394.41 525.31,-387.92"/>
 </g>
 <!-- Node3 -->
 <g id="node5" class="node">
 <title>Node3</title>
-<g id="a_node5"><a xlink:href="classweb_1_1http_1_1legacy_1_1un_1_1_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="798,-559.5 798,-600.5 915,-600.5 915,-559.5 798,-559.5"/>
-<text text-anchor="start" x="806" y="-588.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::legacy::</text>
-<text text-anchor="start" x="806" y="-577.5" font-family="Helvetica,sans-Serif" font-size="10.00">un::Client&lt; Request,</text>
-<text text-anchor="middle" x="856.5" y="-566.5" font-family="Helvetica,sans-Serif" font-size="10.00"> Response &gt;</text>
+<g id="a_node5"><a xlink:href="classweb_1_1http_1_1tls_1_1in_1_1_client.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="773,-565 773,-595 940,-595 940,-565 773,-565"/>
+<text text-anchor="start" x="781" y="-583" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::tls::in</text>
+<text text-anchor="middle" x="856.5" y="-572" font-family="Helvetica,sans-Serif" font-size="10.00">::Client&lt; Request, Response &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge4" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M731.12,-580C753.23,-580 777.08,-580 797.93,-580"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="731.11,-576.5 721.11,-580 731.11,-583.5 731.11,-576.5"/>
+<path fill="none" stroke="midnightblue" d="M740.74,-580C751.42,-580 762.33,-580 772.97,-580"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="740.6,-576.5 730.6,-580 740.6,-583.5 740.6,-576.5"/>
 </g>
 <!-- Node5 -->
 <g id="node7" class="node">
 <title>Node5</title>
-<g id="a_node7"><a xlink:href="classweb_1_1http_1_1legacy_1_1in_1_1_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="799.5,-488.5 799.5,-529.5 913.5,-529.5 913.5,-488.5 799.5,-488.5"/>
-<text text-anchor="start" x="807.5" y="-517.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::legacy::</text>
-<text text-anchor="start" x="807.5" y="-506.5" font-family="Helvetica,sans-Serif" font-size="10.00">in::Client&lt; Request,</text>
-<text text-anchor="middle" x="856.5" y="-495.5" font-family="Helvetica,sans-Serif" font-size="10.00"> Response &gt;</text>
+<g id="a_node7"><a xlink:href="classweb_1_1http_1_1tls_1_1in6_1_1_client.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="773,-488 773,-518 940,-518 940,-488 773,-488"/>
+<text text-anchor="start" x="781" y="-506" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::tls::in6</text>
+<text text-anchor="middle" x="856.5" y="-495" font-family="Helvetica,sans-Serif" font-size="10.00">::Client&lt; Request, Response &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge6" class="edge">
 <title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M729.81,-509C752.83,-509 777.86,-509 799.49,-509"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="729.74,-505.5 719.74,-509 729.74,-512.5 729.74,-505.5"/>
+<path fill="none" stroke="midnightblue" d="M747.41,-503C755.87,-503 764.41,-503 772.79,-503"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="747.15,-499.5 737.15,-503 747.15,-506.5 747.15,-499.5"/>
 </g>
 <!-- Node7 -->
 <g id="node9" class="node">
 <title>Node7</title>
-<g id="a_node9"><a xlink:href="classweb_1_1http_1_1legacy_1_1in6_1_1_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="796.5,-411.5 796.5,-452.5 916.5,-452.5 916.5,-411.5 796.5,-411.5"/>
-<text text-anchor="start" x="804.5" y="-440.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::legacy::</text>
-<text text-anchor="start" x="804.5" y="-429.5" font-family="Helvetica,sans-Serif" font-size="10.00">in6::Client&lt; Request,</text>
-<text text-anchor="middle" x="856.5" y="-418.5" font-family="Helvetica,sans-Serif" font-size="10.00"> Response &gt;</text>
+<g id="a_node9"><a xlink:href="classweb_1_1http_1_1tls_1_1un_1_1_client.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="773,-406 773,-436 940,-436 940,-406 773,-406"/>
+<text text-anchor="start" x="781" y="-424" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::tls::un</text>
+<text text-anchor="middle" x="856.5" y="-413" font-family="Helvetica,sans-Serif" font-size="10.00">::Client&lt; Request, Response &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node7 -->
 <g id="edge8" class="edge">
 <title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M747.45,-432C764.08,-432 781.03,-432 796.43,-432"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="747.15,-428.5 737.15,-432 747.15,-435.5 747.15,-428.5"/>
+<path fill="none" stroke="midnightblue" d="M747.41,-421C755.87,-421 764.41,-421 772.79,-421"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="747.15,-417.5 737.15,-421 747.15,-424.5 747.15,-417.5"/>
 </g>
 <!-- Node9 -->
 <g id="node11" class="node">
 <title>Node9</title>
-<g id="a_node11"><a xlink:href="classweb_1_1http_1_1legacy_1_1rc_1_1_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="799.5,-329.5 799.5,-370.5 913.5,-370.5 913.5,-329.5 799.5,-329.5"/>
-<text text-anchor="start" x="807.5" y="-358.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::legacy::</text>
-<text text-anchor="start" x="807.5" y="-347.5" font-family="Helvetica,sans-Serif" font-size="10.00">rc::Client&lt; Request,</text>
-<text text-anchor="middle" x="856.5" y="-336.5" font-family="Helvetica,sans-Serif" font-size="10.00"> Response &gt;</text>
+<g id="a_node11"><a xlink:href="classweb_1_1http_1_1tls_1_1rc_1_1_client.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="773,-324 773,-354 940,-354 940,-324 773,-324"/>
+<text text-anchor="start" x="781" y="-342" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::tls::rc</text>
+<text text-anchor="middle" x="856.5" y="-331" font-family="Helvetica,sans-Serif" font-size="10.00">::Client&lt; Request, Response &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node9 -->
 <g id="edge10" class="edge">
 <title>Node8&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M747.52,-350C765.22,-350 783.28,-350 799.44,-350"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="747.15,-346.5 737.15,-350 747.15,-353.5 747.15,-346.5"/>
+<path fill="none" stroke="midnightblue" d="M747.41,-339C755.87,-339 764.41,-339 772.79,-339"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="747.15,-335.5 737.15,-339 747.15,-342.5 747.15,-335.5"/>
 </g>
-<!-- Node31 -->
+<!-- Node302 -->
 <g id="node13" class="node">
-<title>Node31</title>
-<g id="a_node13"><a xlink:href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="371,-170 371,-222 534,-222 534,-170 371,-170"/>
-<text text-anchor="start" x="379" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
-<text text-anchor="start" x="379" y="-199" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketClient&lt;</text>
-<text text-anchor="start" x="379" y="-188" font-family="Helvetica,sans-Serif" font-size="10.00"> ClientSocketT, SocketContext</text>
-<text text-anchor="middle" x="452.5" y="-177" font-family="Helvetica,sans-Serif" font-size="10.00">FactoryT &gt;</text>
+<title>Node302</title>
+<g id="a_node13"><a xlink:href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_client.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="367,-165 367,-217 538,-217 538,-165 367,-165"/>
+<text text-anchor="start" x="375" y="-205" font-family="Helvetica,sans-Serif" font-size="10.00">core::socket::stream</text>
+<text text-anchor="start" x="375" y="-194" font-family="Helvetica,sans-Serif" font-size="10.00">::legacy::SocketClient</text>
+<text text-anchor="start" x="375" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; SocketClientT, SocketContext</text>
+<text text-anchor="middle" x="452.5" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">FactoryT &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node31 -->
+<!-- Node301&#45;&gt;Node302 -->
 <g id="edge12" class="edge">
-<title>Node30&#45;&gt;Node31</title>
-<path fill="none" stroke="midnightblue" d="M328.15,-238.12C343.93,-232.73 359.99,-227.25 375.08,-222.09"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="326.7,-234.92 318.37,-241.46 328.96,-241.54 326.7,-234.92"/>
+<title>Node301&#45;&gt;Node302</title>
+<path fill="none" stroke="midnightblue" d="M332.08,-230.19C345.58,-225.76 359.2,-221.29 372.18,-217.03"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="330.7,-226.96 322.29,-233.4 332.88,-233.61 330.7,-226.96"/>
 </g>
-<!-- Node32 -->
+<!-- Node303 -->
 <g id="node14" class="node">
-<title>Node32</title>
+<title>Node303</title>
 <g id="a_node14"><a xlink:href="classweb_1_1http_1_1client_1_1_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="580.5,-247 580.5,-299 730.5,-299 730.5,-247 580.5,-247"/>
-<text text-anchor="start" x="588.5" y="-287" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
-<text text-anchor="start" x="588.5" y="-276" font-family="Helvetica,sans-Serif" font-size="10.00">Client&lt; net::in::stream</text>
-<text text-anchor="start" x="588.5" y="-265" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketClient, Request,</text>
-<text text-anchor="middle" x="655.5" y="-254" font-family="Helvetica,sans-Serif" font-size="10.00"> Response &gt;</text>
+<polygon fill="white" stroke="black" points="590,-236 590,-288 721,-288 721,-236 590,-236"/>
+<text text-anchor="start" x="598" y="-276" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
+<text text-anchor="start" x="598" y="-265" font-family="Helvetica,sans-Serif" font-size="10.00">Client&lt; net::un::stream</text>
+<text text-anchor="start" x="598" y="-254" font-family="Helvetica,sans-Serif" font-size="10.00">::legacy::SocketClient,</text>
+<text text-anchor="middle" x="655.5" y="-243" font-family="Helvetica,sans-Serif" font-size="10.00"> Request, Response &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node31&#45;&gt;Node32 -->
+<!-- Node302&#45;&gt;Node303 -->
 <g id="edge13" class="edge">
-<title>Node31&#45;&gt;Node32</title>
-<path fill="none" stroke="midnightblue" d="M531.01,-225.69C549.31,-232.7 568.68,-240.12 586.52,-246.96"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="532.14,-222.38 521.55,-222.07 529.64,-228.91 532.14,-222.38"/>
+<title>Node302&#45;&gt;Node303</title>
+<path fill="none" stroke="midnightblue" d="M536.92,-220.47C554.56,-226.7 572.93,-233.19 589.76,-239.13"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="537.8,-217.07 527.2,-217.03 535.47,-223.67 537.8,-217.07"/>
 </g>
-<!-- Node34 -->
+<!-- Node305 -->
 <g id="node16" class="node">
-<title>Node34</title>
+<title>Node305</title>
 <g id="a_node16"><a xlink:href="classweb_1_1http_1_1client_1_1_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="574,-164.5 574,-227.5 737,-227.5 737,-164.5 574,-164.5"/>
-<text text-anchor="start" x="582" y="-215.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
-<text text-anchor="start" x="582" y="-204.5" font-family="Helvetica,sans-Serif" font-size="10.00">Client&lt; net::in6::stream</text>
-<text text-anchor="start" x="582" y="-193.5" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketClient, web</text>
-<text text-anchor="start" x="582" y="-182.5" font-family="Helvetica,sans-Serif" font-size="10.00">::http::client::Request,</text>
-<text text-anchor="middle" x="655.5" y="-171.5" font-family="Helvetica,sans-Serif" font-size="10.00"> web::http::client::Response &gt;</text>
+<polygon fill="white" stroke="black" points="591.5,-165 591.5,-217 719.5,-217 719.5,-165 591.5,-165"/>
+<text text-anchor="start" x="599.5" y="-205" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
+<text text-anchor="start" x="599.5" y="-194" font-family="Helvetica,sans-Serif" font-size="10.00">Client&lt; net::in::stream</text>
+<text text-anchor="start" x="599.5" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00">::legacy::SocketClient,</text>
+<text text-anchor="middle" x="655.5" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00"> Request, Response &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node31&#45;&gt;Node34 -->
+<!-- Node302&#45;&gt;Node305 -->
 <g id="edge15" class="edge">
-<title>Node31&#45;&gt;Node34</title>
-<path fill="none" stroke="midnightblue" d="M544.31,-196C554.17,-196 564.16,-196 573.89,-196"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="544.1,-192.5 534.1,-196 544.1,-199.5 544.1,-192.5"/>
+<title>Node302&#45;&gt;Node305</title>
+<path fill="none" stroke="midnightblue" d="M548.23,-191C562.85,-191 577.62,-191 591.32,-191"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="548.16,-187.5 538.16,-191 548.16,-194.5 548.16,-187.5"/>
 </g>
-<!-- Node36 -->
+<!-- Node307 -->
 <g id="node18" class="node">
-<title>Node36</title>
+<title>Node307</title>
 <g id="a_node18"><a xlink:href="classweb_1_1http_1_1client_1_1_client.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="574,-82.5 574,-145.5 737,-145.5 737,-82.5 574,-82.5"/>
 <text text-anchor="start" x="582" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
-<text text-anchor="start" x="582" y="-122.5" font-family="Helvetica,sans-Serif" font-size="10.00">Client&lt; net::un::stream</text>
-<text text-anchor="start" x="582" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketClient, web</text>
-<text text-anchor="start" x="582" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">::http::client::Request,</text>
+<text text-anchor="start" x="582" y="-122.5" font-family="Helvetica,sans-Serif" font-size="10.00">Client&lt; net::in6::stream</text>
+<text text-anchor="start" x="582" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00">::legacy::SocketClient,</text>
+<text text-anchor="start" x="582" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00"> web::http::client::Request,</text>
 <text text-anchor="middle" x="655.5" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00"> web::http::client::Response &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node31&#45;&gt;Node36 -->
+<!-- Node302&#45;&gt;Node307 -->
 <g id="edge17" class="edge">
-<title>Node31&#45;&gt;Node36</title>
-<path fill="none" stroke="midnightblue" d="M526.86,-166.07C543.19,-159.41 560.56,-152.32 577.05,-145.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="525.31,-162.92 517.37,-169.94 527.96,-169.41 525.31,-162.92"/>
+<title>Node302&#45;&gt;Node307</title>
+<path fill="none" stroke="midnightblue" d="M531.09,-161.27C545.05,-155.93 559.62,-150.35 573.66,-144.97"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="529.64,-158.09 521.55,-164.93 532.14,-164.62 529.64,-158.09"/>
 </g>
-<!-- Node38 -->
+<!-- Node309 -->
 <g id="node20" class="node">
-<title>Node38</title>
+<title>Node309</title>
 <g id="a_node20"><a xlink:href="classweb_1_1http_1_1client_1_1_client.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="574,-0.5 574,-63.5 737,-63.5 737,-0.5 574,-0.5"/>
 <text text-anchor="start" x="582" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::client::</text>
 <text text-anchor="start" x="582" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">Client&lt; net::rc::stream</text>
-<text text-anchor="start" x="582" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">::tls::SocketClient, web</text>
-<text text-anchor="start" x="582" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">::http::client::Request,</text>
+<text text-anchor="start" x="582" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">::legacy::SocketClient,</text>
+<text text-anchor="start" x="582" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00"> web::http::client::Request,</text>
 <text text-anchor="middle" x="655.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00"> web::http::client::Response &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node31&#45;&gt;Node38 -->
+<!-- Node302&#45;&gt;Node309 -->
 <g id="edge19" class="edge">
-<title>Node31&#45;&gt;Node38</title>
-<path fill="none" stroke="midnightblue" d="M481.68,-161.64C504.62,-135.16 538.84,-98.82 574,-73 578.42,-69.75 583.14,-66.62 588,-63.65"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="478.78,-159.65 474.94,-169.52 484.1,-164.2 478.78,-159.65"/>
+<title>Node302&#45;&gt;Node309</title>
+<path fill="none" stroke="midnightblue" d="M482.8,-157.18C505.87,-131.91 539.74,-97.62 574,-73 578.46,-69.8 583.2,-66.7 588.07,-63.75"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="480.11,-154.95 476.01,-164.71 485.3,-159.64 480.11,-154.95"/>
 </g>
-<!-- Node33 -->
+<!-- Node304 -->
 <g id="node15" class="node">
-<title>Node33</title>
-<g id="a_node15"><a xlink:href="classweb_1_1http_1_1tls_1_1in_1_1_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="773,-258 773,-288 940,-288 940,-258 773,-258"/>
-<text text-anchor="start" x="781" y="-276" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::tls::in</text>
-<text text-anchor="middle" x="856.5" y="-265" font-family="Helvetica,sans-Serif" font-size="10.00">::Client&lt; Request, Response &gt;</text>
+<title>Node304</title>
+<g id="a_node15"><a xlink:href="classweb_1_1http_1_1legacy_1_1un_1_1_client.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="798,-241.5 798,-282.5 915,-282.5 915,-241.5 798,-241.5"/>
+<text text-anchor="start" x="806" y="-270.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::legacy::</text>
+<text text-anchor="start" x="806" y="-259.5" font-family="Helvetica,sans-Serif" font-size="10.00">un::Client&lt; Request,</text>
+<text text-anchor="middle" x="856.5" y="-248.5" font-family="Helvetica,sans-Serif" font-size="10.00"> Response &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node32&#45;&gt;Node33 -->
+<!-- Node303&#45;&gt;Node304 -->
 <g id="edge14" class="edge">
-<title>Node32&#45;&gt;Node33</title>
-<path fill="none" stroke="midnightblue" d="M740.74,-273C751.42,-273 762.33,-273 772.97,-273"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="740.6,-269.5 730.6,-273 740.6,-276.5 740.6,-269.5"/>
+<title>Node303&#45;&gt;Node304</title>
+<path fill="none" stroke="midnightblue" d="M731.12,-262C753.23,-262 777.08,-262 797.93,-262"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="731.11,-258.5 721.11,-262 731.11,-265.5 731.11,-258.5"/>
 </g>
-<!-- Node35 -->
+<!-- Node306 -->
 <g id="node17" class="node">
-<title>Node35</title>
-<g id="a_node17"><a xlink:href="classweb_1_1http_1_1tls_1_1in6_1_1_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="773,-181 773,-211 940,-211 940,-181 773,-181"/>
-<text text-anchor="start" x="781" y="-199" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::tls::in6</text>
-<text text-anchor="middle" x="856.5" y="-188" font-family="Helvetica,sans-Serif" font-size="10.00">::Client&lt; Request, Response &gt;</text>
+<title>Node306</title>
+<g id="a_node17"><a xlink:href="classweb_1_1http_1_1legacy_1_1in_1_1_client.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="799.5,-170.5 799.5,-211.5 913.5,-211.5 913.5,-170.5 799.5,-170.5"/>
+<text text-anchor="start" x="807.5" y="-199.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::legacy::</text>
+<text text-anchor="start" x="807.5" y="-188.5" font-family="Helvetica,sans-Serif" font-size="10.00">in::Client&lt; Request,</text>
+<text text-anchor="middle" x="856.5" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00"> Response &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node34&#45;&gt;Node35 -->
+<!-- Node305&#45;&gt;Node306 -->
 <g id="edge16" class="edge">
-<title>Node34&#45;&gt;Node35</title>
-<path fill="none" stroke="midnightblue" d="M747.41,-196C755.87,-196 764.41,-196 772.79,-196"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="747.15,-192.5 737.15,-196 747.15,-199.5 747.15,-192.5"/>
+<title>Node305&#45;&gt;Node306</title>
+<path fill="none" stroke="midnightblue" d="M729.81,-191C752.83,-191 777.86,-191 799.49,-191"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="729.74,-187.5 719.74,-191 729.74,-194.5 729.74,-187.5"/>
 </g>
-<!-- Node37 -->
+<!-- Node308 -->
 <g id="node19" class="node">
-<title>Node37</title>
-<g id="a_node19"><a xlink:href="classweb_1_1http_1_1tls_1_1un_1_1_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="773,-99 773,-129 940,-129 940,-99 773,-99"/>
-<text text-anchor="start" x="781" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::tls::un</text>
-<text text-anchor="middle" x="856.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">::Client&lt; Request, Response &gt;</text>
+<title>Node308</title>
+<g id="a_node19"><a xlink:href="classweb_1_1http_1_1legacy_1_1in6_1_1_client.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="796.5,-93.5 796.5,-134.5 916.5,-134.5 916.5,-93.5 796.5,-93.5"/>
+<text text-anchor="start" x="804.5" y="-122.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::legacy::</text>
+<text text-anchor="start" x="804.5" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00">in6::Client&lt; Request,</text>
+<text text-anchor="middle" x="856.5" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00"> Response &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node36&#45;&gt;Node37 -->
+<!-- Node307&#45;&gt;Node308 -->
 <g id="edge18" class="edge">
-<title>Node36&#45;&gt;Node37</title>
-<path fill="none" stroke="midnightblue" d="M747.41,-114C755.87,-114 764.41,-114 772.79,-114"/>
+<title>Node307&#45;&gt;Node308</title>
+<path fill="none" stroke="midnightblue" d="M747.45,-114C764.08,-114 781.03,-114 796.43,-114"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="747.15,-110.5 737.15,-114 747.15,-117.5 747.15,-110.5"/>
 </g>
-<!-- Node39 -->
+<!-- Node310 -->
 <g id="node21" class="node">
-<title>Node39</title>
-<g id="a_node21"><a xlink:href="classweb_1_1http_1_1tls_1_1rc_1_1_client.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="773,-17 773,-47 940,-47 940,-17 773,-17"/>
-<text text-anchor="start" x="781" y="-35" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::tls::rc</text>
-<text text-anchor="middle" x="856.5" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">::Client&lt; Request, Response &gt;</text>
+<title>Node310</title>
+<g id="a_node21"><a xlink:href="classweb_1_1http_1_1legacy_1_1rc_1_1_client.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="799.5,-11.5 799.5,-52.5 913.5,-52.5 913.5,-11.5 799.5,-11.5"/>
+<text text-anchor="start" x="807.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">web::http::legacy::</text>
+<text text-anchor="start" x="807.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">rc::Client&lt; Request,</text>
+<text text-anchor="middle" x="856.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00"> Response &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node38&#45;&gt;Node39 -->
+<!-- Node309&#45;&gt;Node310 -->
 <g id="edge20" class="edge">
-<title>Node38&#45;&gt;Node39</title>
-<path fill="none" stroke="midnightblue" d="M747.41,-32C755.87,-32 764.41,-32 772.79,-32"/>
+<title>Node309&#45;&gt;Node310</title>
+<path fill="none" stroke="midnightblue" d="M747.52,-32C765.22,-32 783.28,-32 799.44,-32"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="747.15,-28.5 737.15,-32 747.15,-35.5 747.15,-28.5"/>
 </g>
 </g>

@@ -11,7 +11,6 @@ var namespaceweb_1_1http =
     [ "SocketContextFactory", "classweb_1_1http_1_1_socket_context_factory.html", "classweb_1_1http_1_1_socket_context_factory" ],
     [ "SocketContextUpgrade", "classweb_1_1http_1_1_socket_context_upgrade.html", "classweb_1_1http_1_1_socket_context_upgrade" ],
     [ "SocketContextUpgradeFactory", "classweb_1_1http_1_1_socket_context_upgrade_factory.html", "classweb_1_1http_1_1_socket_context_upgrade_factory" ],
-    [ "SocketContextPlugin", "structweb_1_1http_1_1_socket_context_plugin.html", "structweb_1_1http_1_1_socket_context_plugin" ],
     [ "SocketContextUpgradeFactorySelector", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector" ],
     [ "StatusCode", "classweb_1_1http_1_1_status_code.html", "classweb_1_1http_1_1_status_code" ],
     [ "ConnectionState", "namespaceweb_1_1http.html#ac27fdcf348c7472940ecd0e34342dca1", [

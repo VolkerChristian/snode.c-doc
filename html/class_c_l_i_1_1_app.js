@@ -42,7 +42,6 @@ var class_c_l_i_1_1_app =
     [ "_validate", "class_c_l_i_1_1_app.html#ae2908ce3eded7e3d6bb2e6fdd2410576", null ],
     [ "add_flag", "class_c_l_i_1_1_app.html#a8f7500a81c09b8eecc301226e018ddfe", null ],
     [ "add_flag", "class_c_l_i_1_1_app.html#a5b552451fa3f6fe9ef9b802e7b3e46dd", null ],
-    [ "add_flag", "class_c_l_i_1_1_app.html#a0e11ed2467b046bd8ea664152c2a9004", null ],
     [ "add_flag", "class_c_l_i_1_1_app.html#afc8f3d442356ee884f007bafaca12015", null ],
     [ "add_flag", "class_c_l_i_1_1_app.html#a496bc8b2f77bf24c638e4c6c3e018131", null ],
     [ "add_flag_callback", "class_c_l_i_1_1_app.html#a289fc3770be292724cd8fcd962db4de5", null ],
@@ -137,6 +136,7 @@ var class_c_l_i_1_1_app =
     [ "get_subcommands", "class_c_l_i_1_1_app.html#a9371a0fd74e03df61dd751e28a3dfc35", null ],
     [ "get_subcommands", "class_c_l_i_1_1_app.html#a19858d3ba336fdda588a921544bc36bc", null ],
     [ "get_subcommands", "class_c_l_i_1_1_app.html#a680a48bf5805e771a0770e130d61a88c", null ],
+    [ "get_validate_optional_arguments", "class_c_l_i_1_1_app.html#adc4cc767e7e4c39f08c6a6b8e64776b2", null ],
     [ "get_validate_positionals", "class_c_l_i_1_1_app.html#a7563b3694b8ee4b14e7183966dc77f69", null ],
     [ "get_version_ptr", "class_c_l_i_1_1_app.html#affa43cf3a57d0f54fa1145351915b6b2", null ],
     [ "get_version_ptr", "class_c_l_i_1_1_app.html#a336b1b3b10a3e56a6d5bf5b382b4fa31", null ],
@@ -191,6 +191,7 @@ var class_c_l_i_1_1_app =
     [ "set_version_flag", "class_c_l_i_1_1_app.html#aa5fb01f540a75de691a5768456d4b1a5", null ],
     [ "set_version_flag", "class_c_l_i_1_1_app.html#a9635eddde8175f7a8b759e5798881f64", null ],
     [ "silent", "class_c_l_i_1_1_app.html#aff1a91d367b42615d33be27d22b49dbe", null ],
+    [ "validate_optional_arguments", "class_c_l_i_1_1_app.html#abe60bb2535b64b3d6bd897ef7d1a56a3", null ],
     [ "validate_positionals", "class_c_l_i_1_1_app.html#ad107f40cfb9d4301a47713465e6c66e7", null ],
     [ "version", "class_c_l_i_1_1_app.html#acada3cd8a963944cfce74d1d90946433", null ],
     [ "aliases_", "class_c_l_i_1_1_app.html#ab6069c968af1eea4a89980e6f1487464", null ],
@@ -241,6 +242,7 @@ var class_c_l_i_1_1_app =
     [ "required_", "class_c_l_i_1_1_app.html#a42e3309983fe836cd26df3d1aadf08d6", null ],
     [ "silent_", "class_c_l_i_1_1_app.html#ac25109abadcb44d8cd3d000ca44fdf86", null ],
     [ "subcommands_", "class_c_l_i_1_1_app.html#a2c912598c2a49e41536ca88f2786195b", null ],
+    [ "validate_optional_arguments_", "class_c_l_i_1_1_app.html#a86e7db051d639d1688069d89a5d86186", null ],
     [ "validate_positionals_", "class_c_l_i_1_1_app.html#ae037cfa9b207f8ae4f17d8e0086c5380", null ],
     [ "version_ptr_", "class_c_l_i_1_1_app.html#a537bfe9efbc1aa2f2d9a57740f847b4b", null ]
 ];

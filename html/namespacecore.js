@@ -12,10 +12,11 @@ var namespacecore =
       [ "SSL_write", "namespacecore_1_1ssl.html#a352e8be6a2fa7ad8fe817dd4d642bf3d", null ]
     ] ],
     [ "system", "namespacecore_1_1system.html", [
-      [ "accept4", "namespacecore_1_1system.html#a2c1b676faa6cb9d0b9e7b42b91b374ab", null ],
-      [ "bind", "namespacecore_1_1system.html#a19ceab092964086376447fb7ddbdb2d2", null ],
+      [ "accept", "namespacecore_1_1system.html#a8b506c06e449e6bdf5aba1c6fdcad779", null ],
+      [ "accept4", "namespacecore_1_1system.html#ae6281ec9ee570c4a9af06541892cd952", null ],
+      [ "bind", "namespacecore_1_1system.html#a726f40f6a8ebf70f5a83bd41d3a028de", null ],
       [ "close", "namespacecore_1_1system.html#a2aa41abc7d6ba9da2e5035b74608919a", null ],
-      [ "connect", "namespacecore_1_1system.html#a461a0fc3cbdbdb164a02d2d920489b62", null ],
+      [ "connect", "namespacecore_1_1system.html#a1f27caa888ac8809434c3338df8eeae1", null ],
       [ "dlclose", "namespacecore_1_1system.html#a4317d54914cd18248143183ea71252d3", null ],
       [ "dlerror", "namespacecore_1_1system.html#a0778aa080f796964218bcd02804a2b17", null ],
       [ "dlopen", "namespacecore_1_1system.html#a87ab6f4aac806776e472cc3abeb61447", null ],
@@ -25,9 +26,9 @@ var namespacecore =
       [ "epoll_wait", "namespacecore_1_1system.html#aca4c1cc239b442807ff249c33aa23388", null ],
       [ "freeaddrinfo", "namespacecore_1_1system.html#a6aae4d2a37b9b40e65b3f7e28a21382c", null ],
       [ "getaddrinfo", "namespacecore_1_1system.html#a86e636682d33db526f7502ab0e6ff57c", null ],
-      [ "getnameinfo", "namespacecore_1_1system.html#a2347537ad9f92683e13fc44676f9b9c3", null ],
-      [ "getpeername", "namespacecore_1_1system.html#a72b5fb13dfc490223fded986576e70fb", null ],
-      [ "getsockname", "namespacecore_1_1system.html#a252068ee271f0319fdfac711649f852f", null ],
+      [ "getnameinfo", "namespacecore_1_1system.html#a4e256dfd12c78c20f9ff550a14a43bef", null ],
+      [ "getpeername", "namespacecore_1_1system.html#a6c12f08bc8a1d08ee4585204eb0745b1", null ],
+      [ "getsockname", "namespacecore_1_1system.html#a09b7b5fd5a49db5b0abee54dfda17ba1", null ],
       [ "getsockopt", "namespacecore_1_1system.html#a5658d0ea06a95cb8f07412b13f393ecb", null ],
       [ "gettimeofday", "namespacecore_1_1system.html#acf9e7364dbf51f07083e05caa50d3b66", null ],
       [ "gmtime", "namespacecore_1_1system.html#a503de099f7b94fe72d55f990a19ceeac", null ],
@@ -66,7 +67,5 @@ var namespacecore =
       [ "NO_OBSERVER", "namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749a925ec21267dbd278be63adfb4a34bf98", null ],
       [ "ERROR", "namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749abb1ca97ec761fc37101737ba0aa2e7c5", null ]
     ] ],
-    [ "getTickCounterAsString", "namespacecore.html#ac82d0e7a5fcc66169eb61cb7dd27b814", null ],
-    [ "operator&", "namespacecore.html#ac0cf9a3274cc3cfb03f02dd7d039e26a", null ],
-    [ "operator|", "namespacecore.html#a78555dccbc98a3059a6f7785d54b0efa", null ]
+    [ "getTickCounterAsString", "namespacecore.html#ac82d0e7a5fcc66169eb61cb7dd27b814", null ]
 ];

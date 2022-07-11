@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>snode.c: net/ClientSocket.hpp Source File</title>
+<title>snode.c: net/stream/ClientSocket.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -103,56 +103,43 @@ $(document).ready(function(){initNavTree('_client_socket_8hpp_source.html',''); 
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * along with this program. If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_client_socket_8h.html">net/ClientSocket.h</a>&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="stream_2_client_socket_8h.html">net/stream/ClientSocket.h</a>&quot;</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="core_2system_2socket_8h.html">core/system/socket.h</a>&quot;</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacenet.html">net</a> {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;cerrno&gt;</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Config, <span class="keyword">typename</span> Socket&gt;</div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classnet_1_1_client_socket.html#abfb2ceef0108bec46b3ccd1085135ee7">   28</a></span>&#160;    <a class="code" href="classnet_1_1_client_socket.html#abfb2ceef0108bec46b3ccd1085135ee7">ClientSocket&lt;Config, Socket&gt;::ClientSocket</a>(<span class="keyword">const</span> std::string&amp; name)</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        : config(std::make_shared&lt;<a class="code" href="classnet_1_1_client_socket.html#a5da4272f5b8819a0783565485253ca5e">Config</a>&gt;(name)) {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Config, <span class="keyword">typename</span> Socket&gt;</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classnet_1_1_client_socket.html#a2cbed8b498438067727403e5b0cf5e00">   33</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classnet_1_1_client_socket.html#adb53e4f4bc3e886e560914351575c6fe">ClientSocket&lt;Config, Socket&gt;::connect</a>(<span class="keyword">const</span> <a class="code" href="classnet_1_1_client_socket.html#a656adbdc6fc4a22fd2d486e6913c306a">SocketAddress</a>&amp; remoteAddress,</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                                               <span class="keyword">const</span> <a class="code" href="classnet_1_1_client_socket.html#a656adbdc6fc4a22fd2d486e6913c306a">SocketAddress</a>&amp; localAddress,</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classnet_1_1_client_socket.html#abfb2ceef0108bec46b3ccd1085135ee7">   35</a></span>&#160;                                               <span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(<span class="keyword">const</span> <a class="code" href="classnet_1_1_client_socket.html#a656adbdc6fc4a22fd2d486e6913c306a">SocketAddress</a>&amp;, <span class="keywordtype">int</span>)&gt;&amp; onError)<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        config-&gt;setLocalAddress(localAddress);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a461a0fc3cbdbdb164a02d2d920489b62">connect</a>(remoteAddress, onError);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacenet_1_1stream.html">net::stream</a> {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Socket&gt;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classnet_1_1stream_1_1_client_socket.html#acde6b270c28fdd4c052c24c59eedc9b5">   32</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classnet_1_1stream_1_1_client_socket.html#acde6b270c28fdd4c052c24c59eedc9b5">ClientSocket&lt;Socket&gt;::connect</a>(<span class="keyword">const</span> <span class="keyword">typename</span> <a class="code" href="classnet_1_1_socket.html#af57b2c71727da59b4e8a0840c7388fbf">Socket::SocketAddress</a>&amp; addr) {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespacecore_1_1system.html#a1f27caa888ac8809434c3338df8eeae1">core::system::connect</a>(<a class="code" href="classcore_1_1_descriptor.html#af1ac9826d5c5f44bb357c845932ea5e4">Socket::getFd</a>(), addr, addr.getAddrLen());</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Socket&gt;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classnet_1_1stream_1_1_client_socket.html#acde6b270c28fdd4c052c24c59eedc9b5">   37</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classnet_1_1stream_1_1_client_socket.html#a4428ace9e2bd17239e7bd7c46dcb03dd">ClientSocket&lt;Socket&gt;::connectInProgress</a>(<span class="keywordtype">int</span> cErrno) {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">return</span> cErrno == EINPROGRESS;</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classnet_1_1stream_1_1_client_socket.html#a4428ace9e2bd17239e7bd7c46dcb03dd">   39</a></span>&#160;    }</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Config, <span class="keyword">typename</span> Socket&gt;</div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classnet_1_1_client_socket.html#a4440ffee8a0fa9bfdda5d5eee6ddc7ba">   42</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classnet_1_1_client_socket.html#adb53e4f4bc3e886e560914351575c6fe">ClientSocket&lt;Config, Socket&gt;::connect</a>(<span class="keyword">const</span> <a class="code" href="classnet_1_1_client_socket.html#a656adbdc6fc4a22fd2d486e6913c306a">SocketAddress</a>&amp; remoteAddress,</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                                               <span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(<span class="keyword">const</span> <a class="code" href="classnet_1_1_client_socket.html#a656adbdc6fc4a22fd2d486e6913c306a">SocketAddress</a>&amp;, <span class="keywordtype">int</span>)&gt;&amp; onError)<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        config-&gt;setRemoteAddress(remoteAddress);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="namespacecore_1_1system.html#a461a0fc3cbdbdb164a02d2d920489b62">connect</a>(onError);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
-<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classnet_1_1_client_socket.html#a2cbed8b498438067727403e5b0cf5e00">   48</a></span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Config, <span class="keyword">typename</span> Socket&gt;</div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classnet_1_1_client_socket.html#a42867860fdf68cbbfbb4d0f9010179bb">   50</a></span>&#160;    <a class="code" href="classnet_1_1_client_socket.html#a5da4272f5b8819a0783565485253ca5e">Config</a>&amp; <a class="code" href="classnet_1_1_client_socket.html#a42867860fdf68cbbfbb4d0f9010179bb">ClientSocket&lt;Config, Socket&gt;::getConfig</a>() {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">return</span> *config;</div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classnet_1_1_client_socket.html#a4440ffee8a0fa9bfdda5d5eee6ddc7ba">   52</a></span>&#160;    }</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classnet_1_1_client_socket.html#a42867860fdf68cbbfbb4d0f9010179bb">   54</a></span>&#160;} <span class="comment">// namespace net</span></div>
-<div class="ttc" id="a_client_socket_8h_html"><div class="ttname"><a href="_client_socket_8h.html">ClientSocket.h</a></div></div>
-<div class="ttc" id="aclassnet_1_1_client_socket_html_a42867860fdf68cbbfbb4d0f9010179bb"><div class="ttname"><a href="classnet_1_1_client_socket.html#a42867860fdf68cbbfbb4d0f9010179bb">net::ClientSocket::getConfig</a></div><div class="ttdeci">Config &amp; getConfig()</div><div class="ttdef"><b>Definition:</b> <a href="_client_socket_8hpp_source.html#l00050">ClientSocket.hpp:50</a></div></div>
-<div class="ttc" id="aclassnet_1_1_client_socket_html_a5da4272f5b8819a0783565485253ca5e"><div class="ttname"><a href="classnet_1_1_client_socket.html#a5da4272f5b8819a0783565485253ca5e">net::ClientSocket::Config</a></div><div class="ttdeci">ConfigT Config</div><div class="ttdef"><b>Definition:</b> <a href="_client_socket_8h_source.html#l00042">ClientSocket.h:42</a></div></div>
-<div class="ttc" id="aclassnet_1_1_client_socket_html_a656adbdc6fc4a22fd2d486e6913c306a"><div class="ttname"><a href="classnet_1_1_client_socket.html#a656adbdc6fc4a22fd2d486e6913c306a">net::ClientSocket::SocketAddress</a></div><div class="ttdeci">typename Socket::SocketAddress SocketAddress</div><div class="ttdef"><b>Definition:</b> <a href="_client_socket_8h_source.html#l00044">ClientSocket.h:44</a></div></div>
-<div class="ttc" id="aclassnet_1_1_client_socket_html_abfb2ceef0108bec46b3ccd1085135ee7"><div class="ttname"><a href="classnet_1_1_client_socket.html#abfb2ceef0108bec46b3ccd1085135ee7">net::ClientSocket::ClientSocket</a></div><div class="ttdeci">ClientSocket(const std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="_client_socket_8hpp_source.html#l00028">ClientSocket.hpp:28</a></div></div>
-<div class="ttc" id="aclassnet_1_1_client_socket_html_adb53e4f4bc3e886e560914351575c6fe"><div class="ttname"><a href="classnet_1_1_client_socket.html#adb53e4f4bc3e886e560914351575c6fe">net::ClientSocket::connect</a></div><div class="ttdeci">virtual void connect(const std::function&lt; void(const SocketAddress &amp;, int)&gt; &amp;onError) const =0</div></div>
-<div class="ttc" id="anamespacecore_1_1system_html_a461a0fc3cbdbdb164a02d2d920489b62"><div class="ttname"><a href="namespacecore_1_1system.html#a461a0fc3cbdbdb164a02d2d920489b62">core::system::connect</a></div><div class="ttdeci">int connect(int sockfd, const struct sockaddr *addr, socklen_t addrlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00048">socket.cpp:48</a></div></div>
-<div class="ttc" id="anamespacenet_html"><div class="ttname"><a href="namespacenet.html">net</a></div><div class="ttdef"><b>Definition:</b> <a href="_client_socket_8h_source.html#l00030">ClientSocket.h:30</a></div></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;} <span class="comment">// namespace net::stream</span></div>
+<div class="ttc" id="aclasscore_1_1_descriptor_html_af1ac9826d5c5f44bb357c845932ea5e4"><div class="ttname"><a href="classcore_1_1_descriptor.html#af1ac9826d5c5f44bb357c845932ea5e4">core::Descriptor::getFd</a></div><div class="ttdeci">int getFd() const</div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_8cpp_source.html#l00046">Descriptor.cpp:46</a></div></div>
+<div class="ttc" id="aclassnet_1_1_socket_html_af57b2c71727da59b4e8a0840c7388fbf"><div class="ttname"><a href="classnet_1_1_socket.html#af57b2c71727da59b4e8a0840c7388fbf">net::Socket::SocketAddress</a></div><div class="ttdeci">SocketAddressT SocketAddress</div><div class="ttdef"><b>Definition:</b> <a href="net_2socket_8h_source.html#l00037">Socket.h:37</a></div></div>
+<div class="ttc" id="aclassnet_1_1stream_1_1_client_socket_html_a4428ace9e2bd17239e7bd7c46dcb03dd"><div class="ttname"><a href="classnet_1_1stream_1_1_client_socket.html#a4428ace9e2bd17239e7bd7c46dcb03dd">net::stream::ClientSocket::connectInProgress</a></div><div class="ttdeci">virtual bool connectInProgress(int cErrno)</div><div class="ttdef"><b>Definition:</b> <a href="_client_socket_8hpp_source.html#l00037">ClientSocket.hpp:37</a></div></div>
+<div class="ttc" id="aclassnet_1_1stream_1_1_client_socket_html_acde6b270c28fdd4c052c24c59eedc9b5"><div class="ttname"><a href="classnet_1_1stream_1_1_client_socket.html#acde6b270c28fdd4c052c24c59eedc9b5">net::stream::ClientSocket::connect</a></div><div class="ttdeci">int connect(const typename SocketT::SocketAddress &amp;addr)</div><div class="ttdef"><b>Definition:</b> <a href="_client_socket_8hpp_source.html#l00032">ClientSocket.hpp:32</a></div></div>
+<div class="ttc" id="acore_2system_2socket_8h_html"><div class="ttname"><a href="core_2system_2socket_8h.html">socket.h</a></div></div>
+<div class="ttc" id="anamespacecore_1_1system_html_a1f27caa888ac8809434c3338df8eeae1"><div class="ttname"><a href="namespacecore_1_1system.html#a1f27caa888ac8809434c3338df8eeae1">core::system::connect</a></div><div class="ttdeci">int connect(int sockfd, const sockaddr *addr, socklen_t addrlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00053">socket.cpp:53</a></div></div>
+<div class="ttc" id="anamespacenet_1_1stream_html"><div class="ttname"><a href="namespacenet_1_1stream.html">net::stream</a></div><div class="ttdef"><b>Definition:</b> <a href="in_2stream_2_client_socket_8cpp_source.html#l00029">ClientSocket.cpp:29</a></div></div>
+<div class="ttc" id="astream_2_client_socket_8h_html"><div class="ttname"><a href="stream_2_client_socket_8h.html">ClientSocket.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_427baa8a9a5be237f298d4545d0d1ce2.html">net</a></li><li class="navelem"><a class="el" href="_client_socket_8hpp.html">ClientSocket.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_427baa8a9a5be237f298d4545d0d1ce2.html">net</a></li><li class="navelem"><a class="el" href="dir_c539ef0a795604dd07c0fa5c7f0d7274.html">stream</a></li><li class="navelem"><a class="el" href="_client_socket_8hpp.html">ClientSocket.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

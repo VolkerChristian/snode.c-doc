@@ -96,13 +96,13 @@ $(document).ready(function(){initNavTree('class_c_l_i_1_1_bound.html',''); initR
 <div class="dynheader">
 Inheritance diagram for CLI::Bound:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_l_i_1_1_bound__inherit__graph.svg" width="180" height="463"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_l_i_1_1_bound__inherit__graph.svg" width="120" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for CLI::Bound:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_l_i_1_1_bound__coll__graph.svg" width="180" height="463"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_l_i_1_1_bound__coll__graph.svg" width="120" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -205,7 +205,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Produce a bounded range (factory). Min and max are inclusive. </p>
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l03228">3228</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l03296">3296</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2cb653c274038fbd5bd66d12bdc6f7f5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2cb653c274038fbd5bd66d12bdc6f7f5">&#9670;&nbsp;</a></span>Bound() <span class="overload">[1/2]</span></h2>
@@ -245,32 +245,32 @@ template&lt;typename T &gt; </div>
 <p>This bounds a value with min and max inclusive.</p>
 <p>Note that the constructor is templated, but the struct is not, so C++17 is not needed to provide nice syntax for Range(a,b). </p>
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l03235">3235</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l03235"></a><span class="lineno"> 3235</span>&#160;                                    {</div>
-<div class="line"><a name="l03236"></a><span class="lineno"> 3236</span>&#160;            std::stringstream out;</div>
-<div class="line"><a name="l03237"></a><span class="lineno"> 3237</span>&#160;            out &lt;&lt; detail::type_name&lt;T&gt;() &lt;&lt; <span class="stringliteral">&quot; bounded to [&quot;</span> &lt;&lt; min_val &lt;&lt; <span class="stringliteral">&quot; - &quot;</span> &lt;&lt; max_val &lt;&lt; <span class="stringliteral">&quot;]&quot;</span>;</div>
-<div class="line"><a name="l03238"></a><span class="lineno"> 3238</span>&#160;            <a class="code" href="class_c_l_i_1_1_validator.html#a1d62f88b256ae1587a5c9841f5a42c68">description</a>(out.str());</div>
-<div class="line"><a name="l03239"></a><span class="lineno"> 3239</span>&#160; </div>
-<div class="line"><a name="l03240"></a><span class="lineno"> 3240</span>&#160;            <a class="code" href="class_c_l_i_1_1_validator.html#a72f70f1d81f2e80f2bb700cad24c1f79">func_</a> = [min_val, max_val](std::string&amp; input) {</div>
-<div class="line"><a name="l03241"></a><span class="lineno"> 3241</span>&#160;                T val;</div>
-<div class="line"><a name="l03242"></a><span class="lineno"> 3242</span>&#160;                <span class="keywordtype">bool</span> converted = <a class="code" href="namespace_c_l_i_1_1detail.html#af286727de86fce444325681379e2c511">detail::lexical_cast</a>(input, val);</div>
-<div class="line"><a name="l03243"></a><span class="lineno"> 3243</span>&#160;                <span class="keywordflow">if</span> (!converted) {</div>
-<div class="line"><a name="l03244"></a><span class="lineno"> 3244</span>&#160;                    <span class="keywordflow">return</span> std::string(<span class="stringliteral">&quot;Value &quot;</span>) + input + <span class="stringliteral">&quot; could not be converted&quot;</span>;</div>
-<div class="line"><a name="l03245"></a><span class="lineno"> 3245</span>&#160;                }</div>
-<div class="line"><a name="l03246"></a><span class="lineno"> 3246</span>&#160;                <span class="keywordflow">if</span> (val &lt; min_val)</div>
-<div class="line"><a name="l03247"></a><span class="lineno"> 3247</span>&#160;                    input = <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">detail::to_string</a>(min_val);</div>
-<div class="line"><a name="l03248"></a><span class="lineno"> 3248</span>&#160;                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (val &gt; max_val)</div>
-<div class="line"><a name="l03249"></a><span class="lineno"> 3249</span>&#160;                    input = <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">detail::to_string</a>(max_val);</div>
-<div class="line"><a name="l03250"></a><span class="lineno"> 3250</span>&#160; </div>
-<div class="line"><a name="l03251"></a><span class="lineno"> 3251</span>&#160;                <span class="keywordflow">return</span> std::string{};</div>
-<div class="line"><a name="l03252"></a><span class="lineno"> 3252</span>&#160;            };</div>
-<div class="line"><a name="l03253"></a><span class="lineno"> 3253</span>&#160;        }</div>
-<div class="ttc" id="aclass_c_l_i_1_1_validator_html_a1d62f88b256ae1587a5c9841f5a42c68"><div class="ttname"><a href="class_c_l_i_1_1_validator.html#a1d62f88b256ae1587a5c9841f5a42c68">CLI::Validator::description</a></div><div class="ttdeci">Validator &amp; description(std::string validator_desc)</div><div class="ttdoc">Specify the type string.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l02836">CLI11.hpp:2836</a></div></div>
-<div class="ttc" id="aclass_c_l_i_1_1_validator_html_a72f70f1d81f2e80f2bb700cad24c1f79"><div class="ttname"><a href="class_c_l_i_1_1_validator.html#a72f70f1d81f2e80f2bb700cad24c1f79">CLI::Validator::func_</a></div><div class="ttdeci">std::function&lt; std::string(std::string &amp;)&gt; func_</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l02780">CLI11.hpp:2780</a></div></div>
-<div class="ttc" id="anamespace_c_l_i_1_1detail_html_a0e94052d485636fc9f18c21009026577"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">CLI::detail::to_string</a></div><div class="ttdeci">auto to_string(T &amp;&amp;value) -&gt; decltype(std::forward&lt; T &gt;(value))</div><div class="ttdoc">Convert an object to a string (directly forward if this can become a string)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l01203">CLI11.hpp:1203</a></div></div>
-<div class="ttc" id="anamespace_c_l_i_1_1detail_html_af286727de86fce444325681379e2c511"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#af286727de86fce444325681379e2c511">CLI::detail::lexical_cast</a></div><div class="ttdeci">bool lexical_cast(const std::string &amp;input, T &amp;output)</div><div class="ttdoc">Integer conversion.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l01810">CLI11.hpp:1810</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l03303">3303</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l03303"></a><span class="lineno"> 3303</span>&#160;                                    {</div>
+<div class="line"><a name="l03304"></a><span class="lineno"> 3304</span>&#160;            std::stringstream out;</div>
+<div class="line"><a name="l03305"></a><span class="lineno"> 3305</span>&#160;            out &lt;&lt; detail::type_name&lt;T&gt;() &lt;&lt; <span class="stringliteral">&quot; bounded to [&quot;</span> &lt;&lt; min_val &lt;&lt; <span class="stringliteral">&quot; - &quot;</span> &lt;&lt; max_val &lt;&lt; <span class="stringliteral">&quot;]&quot;</span>;</div>
+<div class="line"><a name="l03306"></a><span class="lineno"> 3306</span>&#160;            <a class="code" href="class_c_l_i_1_1_validator.html#a1d62f88b256ae1587a5c9841f5a42c68">description</a>(out.str());</div>
+<div class="line"><a name="l03307"></a><span class="lineno"> 3307</span>&#160; </div>
+<div class="line"><a name="l03308"></a><span class="lineno"> 3308</span>&#160;            <a class="code" href="class_c_l_i_1_1_validator.html#a72f70f1d81f2e80f2bb700cad24c1f79">func_</a> = [min_val, max_val](std::string&amp; input) {</div>
+<div class="line"><a name="l03309"></a><span class="lineno"> 3309</span>&#160;                T val;</div>
+<div class="line"><a name="l03310"></a><span class="lineno"> 3310</span>&#160;                <span class="keywordtype">bool</span> converted = <a class="code" href="namespace_c_l_i_1_1detail.html#af286727de86fce444325681379e2c511">detail::lexical_cast</a>(input, val);</div>
+<div class="line"><a name="l03311"></a><span class="lineno"> 3311</span>&#160;                <span class="keywordflow">if</span> (!converted) {</div>
+<div class="line"><a name="l03312"></a><span class="lineno"> 3312</span>&#160;                    <span class="keywordflow">return</span> std::string(<span class="stringliteral">&quot;Value &quot;</span>) + input + <span class="stringliteral">&quot; could not be converted&quot;</span>;</div>
+<div class="line"><a name="l03313"></a><span class="lineno"> 3313</span>&#160;                }</div>
+<div class="line"><a name="l03314"></a><span class="lineno"> 3314</span>&#160;                <span class="keywordflow">if</span> (val &lt; min_val)</div>
+<div class="line"><a name="l03315"></a><span class="lineno"> 3315</span>&#160;                    input = <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">detail::to_string</a>(min_val);</div>
+<div class="line"><a name="l03316"></a><span class="lineno"> 3316</span>&#160;                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (val &gt; max_val)</div>
+<div class="line"><a name="l03317"></a><span class="lineno"> 3317</span>&#160;                    input = <a class="code" href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">detail::to_string</a>(max_val);</div>
+<div class="line"><a name="l03318"></a><span class="lineno"> 3318</span>&#160; </div>
+<div class="line"><a name="l03319"></a><span class="lineno"> 3319</span>&#160;                <span class="keywordflow">return</span> std::string{};</div>
+<div class="line"><a name="l03320"></a><span class="lineno"> 3320</span>&#160;            };</div>
+<div class="line"><a name="l03321"></a><span class="lineno"> 3321</span>&#160;        }</div>
+<div class="ttc" id="aclass_c_l_i_1_1_validator_html_a1d62f88b256ae1587a5c9841f5a42c68"><div class="ttname"><a href="class_c_l_i_1_1_validator.html#a1d62f88b256ae1587a5c9841f5a42c68">CLI::Validator::description</a></div><div class="ttdeci">Validator &amp; description(std::string validator_desc)</div><div class="ttdoc">Specify the type string.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l02872">CLI11.hpp:2872</a></div></div>
+<div class="ttc" id="aclass_c_l_i_1_1_validator_html_a72f70f1d81f2e80f2bb700cad24c1f79"><div class="ttname"><a href="class_c_l_i_1_1_validator.html#a72f70f1d81f2e80f2bb700cad24c1f79">CLI::Validator::func_</a></div><div class="ttdeci">std::function&lt; std::string(std::string &amp;)&gt; func_</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l02816">CLI11.hpp:2816</a></div></div>
+<div class="ttc" id="anamespace_c_l_i_1_1detail_html_a0e94052d485636fc9f18c21009026577"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#a0e94052d485636fc9f18c21009026577">CLI::detail::to_string</a></div><div class="ttdeci">auto to_string(T &amp;&amp;value) -&gt; decltype(std::forward&lt; T &gt;(value))</div><div class="ttdoc">Convert an object to a string (directly forward if this can become a string)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l01227">CLI11.hpp:1227</a></div></div>
+<div class="ttc" id="anamespace_c_l_i_1_1detail_html_af286727de86fce444325681379e2c511"><div class="ttname"><a href="namespace_c_l_i_1_1detail.html#af286727de86fce444325681379e2c511">CLI::detail::lexical_cast</a></div><div class="ttdeci">bool lexical_cast(const std::string &amp;input, T &amp;output)</div><div class="ttdoc">Integer conversion.</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l01854">CLI11.hpp:1854</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l01810">CLI::detail::lexical_cast()</a>, and <a class="el" href="_c_l_i11_8hpp_source.html#l01203">CLI::detail::to_string()</a>.</p>
+<p class="reference">References <a class="el" href="_c_l_i11_8hpp_source.html#l01854">CLI::detail::lexical_cast()</a>, and <a class="el" href="_c_l_i11_8hpp_source.html#l01227">CLI::detail::to_string()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -308,10 +308,10 @@ template&lt;typename T &gt; </div>
 
 <p><a class="el" href="class_c_l_i_1_1_range.html" title="Produce a range (factory). Min and max are inclusive.">Range</a> of one value is 0 to value. </p>
 
-<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l03257">3257</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l03258"></a><span class="lineno"> 3258</span>&#160;            : <a class="code" href="class_c_l_i_1_1_bound.html#a2cb653c274038fbd5bd66d12bdc6f7f5">Bound</a>(<span class="keyword">static_cast&lt;</span>T<span class="keyword">&gt;</span>(0), max_val) {</div>
-<div class="line"><a name="l03259"></a><span class="lineno"> 3259</span>&#160;        }</div>
-<div class="ttc" id="aclass_c_l_i_1_1_bound_html_a2cb653c274038fbd5bd66d12bdc6f7f5"><div class="ttname"><a href="class_c_l_i_1_1_bound.html#a2cb653c274038fbd5bd66d12bdc6f7f5">CLI::Bound::Bound</a></div><div class="ttdeci">Bound(T min_val, T max_val)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l03235">CLI11.hpp:3235</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_c_l_i11_8hpp_source.html#l03325">3325</a> of file <a class="el" href="_c_l_i11_8hpp_source.html">CLI11.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l03326"></a><span class="lineno"> 3326</span>&#160;            : <a class="code" href="class_c_l_i_1_1_bound.html#a2cb653c274038fbd5bd66d12bdc6f7f5">Bound</a>(<span class="keyword">static_cast&lt;</span>T<span class="keyword">&gt;</span>(0), max_val) {</div>
+<div class="line"><a name="l03327"></a><span class="lineno"> 3327</span>&#160;        }</div>
+<div class="ttc" id="aclass_c_l_i_1_1_bound_html_a2cb653c274038fbd5bd66d12bdc6f7f5"><div class="ttname"><a href="class_c_l_i_1_1_bound.html#a2cb653c274038fbd5bd66d12bdc6f7f5">CLI::Bound::Bound</a></div><div class="ttdeci">Bound(T min_val, T max_val)</div><div class="ttdef"><b>Definition:</b> <a href="_c_l_i11_8hpp_source.html#l03303">CLI11.hpp:3303</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
