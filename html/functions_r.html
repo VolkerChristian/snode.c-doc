@@ -100,9 +100,6 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 , <a class="el" href="classcore_1_1socket_1_1stream_1_1tls_1_1_socket_reader.html#a7e8eb9a3f718abebb04b8ffa2fba6a0c">core::socket::stream::tls::SocketReader&lt; SocketT &gt;</a>
 , <a class="el" href="class_s_h_a1.html#a4fe2a658d9b3617694f52284b332bb5f">SHA1</a>
 </li>
-<li>read_fd()
-: <a class="el" href="classnet_1_1_socket.html#a9406000329aec15e2e76d5ea930061e3">net::Socket&lt; SocketAddressT &gt;</a>
-</li>
 <li>readBlockSize
 : <a class="el" href="classnet_1_1config_1_1_config_connection.html#a3d1a79c37db699b6dcaa103f9eb16758">net::config::ConfigConnection</a>
 </li>
@@ -194,6 +191,9 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 <li>Receiver()
 : <a class="el" href="classweb_1_1websocket_1_1_receiver.html#a7e5f2d5ec1769a0c8ed4b2ffd6d9c7d2">web::websocket::Receiver</a>
 </li>
+<li>recvFd()
+: <a class="el" href="classnet_1_1_socket.html#a6d49019a0392c34d67b7d37b36e369af">net::Socket&lt; SocketAddressT &gt;</a>
+</li>
 <li>recvMsgToPeer()
 : <a class="el" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_reader.html#ad16d5bb45e867dc62f657c5c32990caa">core::socket::stream::legacy::SocketReader&lt; SocketT &gt;</a>
 </li>
@@ -281,13 +281,13 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 : <a class="el" href="classweb_1_1http_1_1server_1_1_socket_context_factory.html#ad5bb8165d81c1b26d31a198133e61c40">web::http::server::SocketContextFactory&lt; RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1_socket_context_factory.html#a34da4dc0a662bd18d2938ea2f480939b">web::http::SocketContextFactory&lt; SocketContextT, RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade.html#a891b3248d6b8d120fcb4775b4d7ff4f4">web::http::SocketContextUpgrade&lt; RequestT, ResponseT &gt;</a>
-, <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory.html#a20c7d13ed89cddbbd67aab4582b6b4ce">web::http::SocketContextUpgradeFactory&lt; RequestT, ResponseT &gt;</a>
 </li>
 <li>request
 : <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory.html#a49afbcd1387bc71ce80b052882472a71">web::http::SocketContextUpgradeFactory&lt; RequestT, ResponseT &gt;</a>
 </li>
 <li>Request
-: <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a39b69a59a030fdfc856fd9972facec46">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactoryT &gt;</a>
+: <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory.html#a20c7d13ed89cddbbd67aab4582b6b4ce">web::http::SocketContextUpgradeFactory&lt; RequestT, ResponseT &gt;</a>
+, <a class="el" href="classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html#a39b69a59a030fdfc856fd9972facec46">web::http::SocketContextUpgradeFactorySelector&lt; SocketContextUpgradeFactoryT &gt;</a>
 , <a class="el" href="classweb_1_1websocket_1_1_socket_context_upgrade.html#aef94c4ffaed7ff27d70084760e22c49f">web::websocket::SocketContextUpgrade&lt; SubProtocolT, RequestT, ResponseT &gt;</a>
 </li>
 <li>requestContext
@@ -352,7 +352,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 : <a class="el" href="class_c_l_i_1_1_option_already_added.html#aed569f7b5b3618f98084348e8f5deede">CLI::OptionAlreadyAdded</a>
 </li>
 <li>RequiresError()
-: <a class="el" href="class_c_l_i_1_1_requires_error.html#a0d3d7973f261a958297b464a58ea69c5">CLI::RequiresError</a>
+: <a class="el" href="class_c_l_i_1_1_requires_error.html#a0db6922b797ea0edf5dc338d198f820e">CLI::RequiresError</a>
 </li>
 <li>reset()
 : <a class="el" href="class_s_h_a1.html#ab71aaf39ed956320054861a2fbfa454f">SHA1</a>
@@ -375,13 +375,13 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 <li>Response
 : <a class="el" href="classweb_1_1http_1_1client_1_1_client.html#a76861920b49ccdbd04c1e248a7f28498">web::http::client::Client&lt; SocketClientT, RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1client_1_1_response.html#a28b10a2d244c937084345f0095db4daf">web::http::client::Response</a>
+, <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context.html#a531a141cd38ba3a2884311f19204a737">web::http::client::SocketContext&lt; RequestT, ResponseT &gt;</a>
 </li>
 <li>response
 : <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context.html#a11e5dd34b30654b0bd8299d78dcb2e3b">web::http::client::SocketContext&lt; RequestT, ResponseT &gt;</a>
 </li>
 <li>Response
-: <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context.html#a531a141cd38ba3a2884311f19204a737">web::http::client::SocketContext&lt; RequestT, ResponseT &gt;</a>
-, <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context_factory.html#ab4b2348d28e8bd691c41a68ff16213b6">web::http::client::SocketContextFactory&lt; RequestT, ResponseT &gt;</a>
+: <a class="el" href="classweb_1_1http_1_1client_1_1_socket_context_factory.html#ab4b2348d28e8bd691c41a68ff16213b6">web::http::client::SocketContextFactory&lt; RequestT, ResponseT &gt;</a>
 , <a class="el" href="classweb_1_1http_1_1server_1_1_response.html#ae9cad5e703486752bf691f52cc6bd123">web::http::server::Response</a>
 , <a class="el" href="classweb_1_1http_1_1server_1_1_server.html#aeb39ce4d6586c3ba85a3b3f691f7b028">web::http::server::Server&lt; SocketServerT, RequestT, ResponseT &gt;</a>
 </li>
@@ -469,7 +469,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 <li>Route
 : <a class="el" href="classexpress_1_1_dispatcher.html#a82eb8d8152124f42f8bad8770270f4fc">express::Dispatcher</a>
 , <a class="el" href="classexpress_1_1_root_route.html#a82eb8d8152124f42f8bad8770270f4fc">express::RootRoute</a>
-, <a class="el" href="classexpress_1_1_route.html#a6689e4c962079c0c35f9cd25f74f46ba">express::Route</a>
+, <a class="el" href="classexpress_1_1_route.html#adfd62addad52b4ca99d9c98e06499baa">express::Route</a>
 , <a class="el" href="classexpress_1_1_router.html#a82eb8d8152124f42f8bad8770270f4fc">express::Router</a>
 </li>
 <li>Router()

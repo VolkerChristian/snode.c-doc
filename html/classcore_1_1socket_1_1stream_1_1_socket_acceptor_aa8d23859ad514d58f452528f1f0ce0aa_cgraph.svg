@@ -46,7 +46,7 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
-<g id="edge4" class="edge">
+<g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M164.34,-76.81C227.09,-84.38 312.85,-94.72 371.87,-101.84"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="371.49,-105.32 381.83,-103.04 372.32,-98.37 371.49,-105.32"/>
@@ -54,29 +54,29 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classnet_1_1_socket.html#a9406000329aec15e2e76d5ea930061e3" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="216.5,-38.5 216.5,-57.5 329.5,-57.5 329.5,-38.5 216.5,-38.5"/>
-<text text-anchor="middle" x="273" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::Socket::read_fd</text>
+<g id="a_node4"><a xlink:href="classnet_1_1_socket.html#a6d49019a0392c34d67b7d37b36e369af" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="218,-38.5 218,-57.5 328,-57.5 328,-38.5 218,-38.5"/>
+<text text-anchor="middle" x="273" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::Socket::recvFd</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M164.25,-58.83C178.28,-57.42 192.71,-55.97 206.27,-54.61"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="206.84,-58.07 216.44,-53.59 206.14,-51.1 206.84,-58.07"/>
+<path fill="none" stroke="midnightblue" d="M164.25,-58.83C178.82,-57.37 193.82,-55.86 207.83,-54.45"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="208.23,-57.93 217.83,-53.45 207.53,-50.96 208.23,-57.93"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classnet_1_1_socket.html#ad53a4c60db980bef5191dd058b1d550c" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="215,-0.5 215,-19.5 331,-19.5 331,-0.5 215,-0.5"/>
-<text text-anchor="middle" x="273" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::Socket::write_fd</text>
+<g id="a_node5"><a xlink:href="classnet_1_1_socket.html#a5b63fb6cc26af9797b16dd3e1bceccbb" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="217,-0.5 217,-19.5 329,-19.5 329,-0.5 217,-0.5"/>
+<text text-anchor="middle" x="273" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">net::Socket::sendFd</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
-<g id="edge5" class="edge">
+<g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M127.26,-51.98C149.08,-44.74 175.82,-36.11 200,-29 207.85,-26.69 216.21,-24.36 224.36,-22.17"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="225.39,-25.52 234.15,-19.56 223.58,-18.75 225.39,-25.52"/>

@@ -7,5 +7,7 @@ var classcore_1_1_event_multiplexer_1_1_event_queue =
     [ "insert", "classcore_1_1_event_multiplexer_1_1_event_queue.html#a009075f2f16a78d3bf8d9e3a20226336", null ],
     [ "remove", "classcore_1_1_event_multiplexer_1_1_event_queue.html#afc78e00c1cdb5f994a01091ee88ea9f3", null ],
     [ "executeQueue", "classcore_1_1_event_multiplexer_1_1_event_queue.html#a5e0b8b2033862d9cc8ac7f3234e93e77", null ],
+    [ "newSet", "classcore_1_1_event_multiplexer_1_1_event_queue.html#a88049f3c7d602b9699d3d01f28518821", null ],
+    [ "oldSet", "classcore_1_1_event_multiplexer_1_1_event_queue.html#ac2ed03eb1077329f18018a763893c254", null ],
     [ "publishQueue", "classcore_1_1_event_multiplexer_1_1_event_queue.html#a28afbf74d6a71387e58470ea58a0f74f", null ]
 ];

@@ -1,4 +1,4 @@
 var _router_8hpp =
 [
-    [ "DEFINE_TEMPLATE_REQUESTMETHOD", "_router_8hpp.html#abe9918b2d014d668865556b31f9eb725", null ]
+    [ "DEFINE_ROUTER_TEMPLATE_REQUESTMETHOD", "_router_8hpp.html#a7658979c0382ca03ee5f2bf71ceabec6", null ]
 ];

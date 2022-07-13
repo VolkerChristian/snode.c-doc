@@ -121,12 +121,12 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a2fb8cad4811ee65bbc506924eed813df"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_router_8h.html#a2fb8cad4811ee65bbc506924eed813df">MIDDLEWARE</a>(req,  res,  state)&#160;&#160;&#160;    ([[maybe_unused]] <a class="el" href="classexpress_1_1_request.html">express::Request</a> &amp; (req), [[maybe_unused]] <a class="el" href="classexpress_1_1_response.html">express::Response</a> &amp; (res), [[maybe_unused]] <a class="el" href="classexpress_1_1_next.html">express::Next</a> &amp; (state))</td></tr>
-<tr class="separator:a2fb8cad4811ee65bbc506924eed813df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5313b926a3bc0fb106bffb31e93dc71"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_router_8h.html#ac5313b926a3bc0fb106bffb31e93dc71">MIDDLEWARE</a>(req,  res,  next)&#160;&#160;&#160;    ([[maybe_unused]] <a class="el" href="classexpress_1_1_request.html">express::Request</a> &amp; (req), [[maybe_unused]] <a class="el" href="classexpress_1_1_response.html">express::Response</a> &amp; (res), [[maybe_unused]] <a class="el" href="classexpress_1_1_next.html">express::Next</a> &amp; (next))</td></tr>
+<tr class="separator:ac5313b926a3bc0fb106bffb31e93dc71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b7131df91fe7a961e2cdadcedb55232"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_router_8h.html#a8b7131df91fe7a961e2cdadcedb55232">APPLICATION</a>(req,  res)&#160;&#160;&#160;([[maybe_unused]] <a class="el" href="classexpress_1_1_request.html">express::Request</a> &amp; (req), [[maybe_unused]] <a class="el" href="classexpress_1_1_response.html">express::Response</a> &amp; (res))</td></tr>
 <tr class="separator:a8b7131df91fe7a961e2cdadcedb55232"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cc6e59e2a3c0470e2e7d4b3666ec847"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_router_8h.html#a4cc6e59e2a3c0470e2e7d4b3666ec847">DECLARE_REQUESTMETHOD</a>(METHOD)</td></tr>
-<tr class="separator:a4cc6e59e2a3c0470e2e7d4b3666ec847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0da4b635facd60d48b0917059cfae32c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_router_8h.html#a0da4b635facd60d48b0917059cfae32c">DECLARE_ROUTER_REQUESTMETHOD</a>(METHOD)</td></tr>
+<tr class="separator:a0da4b635facd60d48b0917059cfae32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a8b7131df91fe7a961e2cdadcedb55232"></a>
@@ -159,14 +159,14 @@ Macros</h2></td></tr>
 
 </div>
 </div>
-<a id="a4cc6e59e2a3c0470e2e7d4b3666ec847"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cc6e59e2a3c0470e2e7d4b3666ec847">&#9670;&nbsp;</a></span>DECLARE_REQUESTMETHOD</h2>
+<a id="a0da4b635facd60d48b0917059cfae32c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0da4b635facd60d48b0917059cfae32c">&#9670;&nbsp;</a></span>DECLARE_ROUTER_REQUESTMETHOD</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define DECLARE_REQUESTMETHOD</td>
+          <td class="memname">#define DECLARE_ROUTER_REQUESTMETHOD</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">METHOD</td><td>)</td>
@@ -196,8 +196,8 @@ Macros</h2></td></tr>
 
 </div>
 </div>
-<a id="a2fb8cad4811ee65bbc506924eed813df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fb8cad4811ee65bbc506924eed813df">&#9670;&nbsp;</a></span>MIDDLEWARE</h2>
+<a id="ac5313b926a3bc0fb106bffb31e93dc71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5313b926a3bc0fb106bffb31e93dc71">&#9670;&nbsp;</a></span>MIDDLEWARE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -218,12 +218,12 @@ Macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">state&#160;</td>
+          <td class="paramname">next&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;    ([[maybe_unused]] <a class="el" href="classexpress_1_1_request.html">express::Request</a> &amp; (req), [[maybe_unused]] <a class="el" href="classexpress_1_1_response.html">express::Response</a> &amp; (res), [[maybe_unused]] <a class="el" href="classexpress_1_1_next.html">express::Next</a> &amp; (state))</td>
+          <td></td><td>&#160;&#160;&#160;    ([[maybe_unused]] <a class="el" href="classexpress_1_1_request.html">express::Request</a> &amp; (req), [[maybe_unused]] <a class="el" href="classexpress_1_1_response.html">express::Response</a> &amp; (res), [[maybe_unused]] <a class="el" href="classexpress_1_1_next.html">express::Next</a> &amp; (next))</td>
         </tr>
       </table>
 </div><div class="memdoc">

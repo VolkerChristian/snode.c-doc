@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('classnet_1_1in6_1_1_socket.html',''); 
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-types">Private Types</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="classnet_1_1in6_1_1_socket-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">net::in6::Socket Class Reference</div>  </div>
@@ -119,6 +120,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a86d45104ac38ecda224a11e39c41d008 inherit pub_methods_classnet_1_1_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a356df306a62d13faad38bbd03c8c5a19 inherit pub_methods_classnet_1_1_socket"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1_socket.html#a356df306a62d13faad38bbd03c8c5a19">~Socket</a> ()=default</td></tr>
 <tr class="separator:a356df306a62d13faad38bbd03c8c5a19 inherit pub_methods_classnet_1_1_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbb339d49258ca97b41c0e4f634e4dd6 inherit pub_methods_classnet_1_1_socket"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1_socket.html#abbb339d49258ca97b41c0e4f634e4dd6">setSockopt</a> (int level, int optname, const void *optval, socklen_t optlen)</td></tr>
+<tr class="separator:abbb339d49258ca97b41c0e4f634e4dd6 inherit pub_methods_classnet_1_1_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59832e88c392541eaca404a93974fd73 inherit pub_methods_classnet_1_1_socket"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1_socket.html#a59832e88c392541eaca404a93974fd73">open</a> (<a class="el" href="classnet_1_1_socket.html#a5f084f04d67c8b53ddc73c4d50e66af8">SOCK</a> flags=SOCK::NONE)</td></tr>
 <tr class="separator:a59832e88c392541eaca404a93974fd73 inherit pub_methods_classnet_1_1_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a764890ada0685828db7a761a27bb8273 inherit pub_methods_classnet_1_1_socket"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1_socket.html#a764890ada0685828db7a761a27bb8273">bind</a> (const <a class="el" href="classnet_1_1_socket.html#af57b2c71727da59b4e8a0840c7388fbf">SocketAddress</a> &amp;<a class="el" href="classnet_1_1_socket.html#a32b7d8658129705281a07d4ac84d6dee">bindAddress</a>)</td></tr>
@@ -133,14 +136,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a336507bf6234c5e8536430a8960ae7cb inherit pub_methods_classnet_1_1_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bef7a87ad088ba9102c29ca6541731b inherit pub_methods_classnet_1_1_socket"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1_socket.html#a1bef7a87ad088ba9102c29ca6541731b">getSockError</a> ()</td></tr>
 <tr class="separator:a1bef7a87ad088ba9102c29ca6541731b inherit pub_methods_classnet_1_1_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbb339d49258ca97b41c0e4f634e4dd6 inherit pub_methods_classnet_1_1_socket"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1_socket.html#abbb339d49258ca97b41c0e4f634e4dd6">setSockopt</a> (int level, int optname, const void *optval, socklen_t optlen)</td></tr>
-<tr class="separator:abbb339d49258ca97b41c0e4f634e4dd6 inherit pub_methods_classnet_1_1_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c3c43a68a3d57081e16e44076523364 inherit pub_methods_classnet_1_1_socket"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1_socket.html#a7c3c43a68a3d57081e16e44076523364">getSockopt</a> (int level, int optname, void *optval, socklen_t *optlen)</td></tr>
 <tr class="separator:a7c3c43a68a3d57081e16e44076523364 inherit pub_methods_classnet_1_1_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad53a4c60db980bef5191dd058b1d550c inherit pub_methods_classnet_1_1_socket"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1_socket.html#ad53a4c60db980bef5191dd058b1d550c">write_fd</a> (const <a class="el" href="classnet_1_1_socket.html#af57b2c71727da59b4e8a0840c7388fbf">SocketAddress</a> &amp;destAddress, void *ptr, size_t nbytes, int sendfd)</td></tr>
-<tr class="separator:ad53a4c60db980bef5191dd058b1d550c inherit pub_methods_classnet_1_1_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9406000329aec15e2e76d5ea930061e3 inherit pub_methods_classnet_1_1_socket"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1_socket.html#a9406000329aec15e2e76d5ea930061e3">read_fd</a> (void *ptr, size_t nbytes, int *recvfd)</td></tr>
-<tr class="separator:a9406000329aec15e2e76d5ea930061e3 inherit pub_methods_classnet_1_1_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b63fb6cc26af9797b16dd3e1bceccbb inherit pub_methods_classnet_1_1_socket"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1_socket.html#a5b63fb6cc26af9797b16dd3e1bceccbb">sendFd</a> (const <a class="el" href="classnet_1_1_socket.html#af57b2c71727da59b4e8a0840c7388fbf">SocketAddress</a> &amp;destAddress, void *ptr, size_t nbytes, int sendfd)</td></tr>
+<tr class="separator:a5b63fb6cc26af9797b16dd3e1bceccbb inherit pub_methods_classnet_1_1_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d49019a0392c34d67b7d37b36e369af inherit pub_methods_classnet_1_1_socket"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1_socket.html#a6d49019a0392c34d67b7d37b36e369af">recvFd</a> (void *ptr, size_t nbytes, int *recvfd)</td></tr>
+<tr class="separator:a6d49019a0392c34d67b7d37b36e369af inherit pub_methods_classnet_1_1_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e8ac7cd4c86eff2d16ffee161d3f579 inherit pub_methods_classnet_1_1_socket"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1_socket.html#a3e8ac7cd4c86eff2d16ffee161d3f579">shutdown</a> (<a class="el" href="classnet_1_1_socket.html#ab32a29204798c034d1ca974f91e7e93f">SHUT</a> how)</td></tr>
 <tr class="separator:a3e8ac7cd4c86eff2d16ffee161d3f579 inherit pub_methods_classnet_1_1_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac11d91d2dbfadb97dc4c0db188a10dd8 inherit pub_methods_classnet_1_1_socket"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classnet_1_1_socket.html#af57b2c71727da59b4e8a0840c7388fbf">SocketAddress</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1_socket.html#ac11d91d2dbfadb97dc4c0db188a10dd8">getBindAddress</a> () const</td></tr>
@@ -167,6 +168,11 @@ Public Member Functions</h2></td></tr>
 Private Types</h2></td></tr>
 <tr class="memitem:aed49a9546da626722057d9d264effc38"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1in6_1_1_socket.html#aed49a9546da626722057d9d264effc38">Super</a> = <a class="el" href="classnet_1_1_socket.html">net::Socket</a>&lt; <a class="el" href="classnet_1_1in6_1_1_socket_address.html">net::in6::SocketAddress</a> &gt;</td></tr>
 <tr class="separator:aed49a9546da626722057d9d264effc38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ac4c33069d19ed49d70f4add70d7100b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1in6_1_1_socket.html#ac4c33069d19ed49d70f4add70d7100b7">setSockopt</a> () override</td></tr>
+<tr class="separator:ac4c33069d19ed49d70f4add70d7100b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -247,12 +253,47 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="net_2in6_2socket_8cpp_source.html#l00029">29</a> of file <a class="el" href="net_2in6_2socket_8cpp_source.html">Socket.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        : <a class="code" href="classnet_1_1in6_1_1_socket.html#aed49a9546da626722057d9d264effc38">Super</a>(PF_INET6, <a class="code" href="classnet_1_1_socket.html#a94a32b4219f5c21ef99dae2d1fe93036">type</a>, <a class="code" href="classnet_1_1_socket.html#a2502301e4c67343da8bb1e0f47dc3e2f">protocol</a>) {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
-<div class="ttc" id="aclassnet_1_1_socket_html_a2502301e4c67343da8bb1e0f47dc3e2f"><div class="ttname"><a href="classnet_1_1_socket.html#a2502301e4c67343da8bb1e0f47dc3e2f">net::Socket&lt; net::in6::SocketAddress &gt;::protocol</a></div><div class="ttdeci">int protocol</div><div class="ttdef"><b>Definition:</b> <a href="net_2socket_8h_source.html#l00083">Socket.h:83</a></div></div>
-<div class="ttc" id="aclassnet_1_1_socket_html_a94a32b4219f5c21ef99dae2d1fe93036"><div class="ttname"><a href="classnet_1_1_socket.html#a94a32b4219f5c21ef99dae2d1fe93036">net::Socket&lt; net::in6::SocketAddress &gt;::type</a></div><div class="ttdeci">int type</div><div class="ttdef"><b>Definition:</b> <a href="net_2socket_8h_source.html#l00082">Socket.h:82</a></div></div>
+<p class="definition">Definition at line <a class="el" href="net_2in6_2socket_8cpp_source.html#l00031">31</a> of file <a class="el" href="net_2in6_2socket_8cpp_source.html">Socket.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        : <a class="code" href="classnet_1_1in6_1_1_socket.html#aed49a9546da626722057d9d264effc38">Super</a>(PF_INET6, <a class="code" href="classnet_1_1_socket.html#a94a32b4219f5c21ef99dae2d1fe93036">type</a>, <a class="code" href="classnet_1_1_socket.html#a2502301e4c67343da8bb1e0f47dc3e2f">protocol</a>) {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
+<div class="ttc" id="aclassnet_1_1_socket_html_a2502301e4c67343da8bb1e0f47dc3e2f"><div class="ttname"><a href="classnet_1_1_socket.html#a2502301e4c67343da8bb1e0f47dc3e2f">net::Socket&lt; net::in6::SocketAddress &gt;::protocol</a></div><div class="ttdeci">int protocol</div><div class="ttdef"><b>Definition:</b> <a href="net_2socket_8h_source.html#l00085">Socket.h:85</a></div></div>
+<div class="ttc" id="aclassnet_1_1_socket_html_a94a32b4219f5c21ef99dae2d1fe93036"><div class="ttname"><a href="classnet_1_1_socket.html#a94a32b4219f5c21ef99dae2d1fe93036">net::Socket&lt; net::in6::SocketAddress &gt;::type</a></div><div class="ttdeci">int type</div><div class="ttdef"><b>Definition:</b> <a href="net_2socket_8h_source.html#l00084">Socket.h:84</a></div></div>
 <div class="ttc" id="aclassnet_1_1in6_1_1_socket_html_aed49a9546da626722057d9d264effc38"><div class="ttname"><a href="classnet_1_1in6_1_1_socket.html#aed49a9546da626722057d9d264effc38">net::in6::Socket::Super</a></div><div class="ttdeci">net::Socket&lt; net::in6::SocketAddress &gt; Super</div><div class="ttdef"><b>Definition:</b> <a href="net_2in6_2socket_8h_source.html#l00035">Socket.h:35</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac4c33069d19ed49d70f4add70d7100b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4c33069d19ed49d70f4add70d7100b7">&#9670;&nbsp;</a></span>setSockopt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void net::in6::Socket::setSockopt </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classnet_1_1_socket.html#a15fed2b533adad68781f418740d9250b">net::Socket&lt; net::in6::SocketAddress &gt;</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="net_2in6_2socket_8cpp_source.html#l00035">35</a> of file <a class="el" href="net_2in6_2socket_8cpp_source.html">Socket.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                            {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordtype">int</span> one = 1;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        this-&gt;<a class="code" href="classnet_1_1in6_1_1_socket.html#ac4c33069d19ed49d70f4add70d7100b7">setSockopt</a>(IPPROTO_IPV6, IPV6_V6ONLY, &amp;one, <span class="keyword">sizeof</span>(one));</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
+<div class="ttc" id="aclassnet_1_1in6_1_1_socket_html_ac4c33069d19ed49d70f4add70d7100b7"><div class="ttname"><a href="classnet_1_1in6_1_1_socket.html#ac4c33069d19ed49d70f4add70d7100b7">net::in6::Socket::setSockopt</a></div><div class="ttdeci">void setSockopt() override</div><div class="ttdef"><b>Definition:</b> <a href="net_2in6_2socket_8cpp_source.html#l00035">Socket.cpp:35</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>

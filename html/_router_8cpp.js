@@ -1,4 +1,4 @@
 var _router_8cpp =
 [
-    [ "DEFINE_REQUESTMETHOD", "_router_8cpp.html#a0851c713e37070c233e69db1e88cd270", null ]
+    [ "DEFINE_ROUTER_REQUESTMETHOD", "_router_8cpp.html#ae2066a4e3c0b0c9f48099918a728be90", null ]
 ];

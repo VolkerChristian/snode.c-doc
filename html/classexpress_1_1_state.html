@@ -139,8 +139,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a5fcda66f5f79c8fbafa3bbb3a3c4813c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32ebf25db306c615fe851729b79ba24a"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_state.html#a32ebf25db306c615fe851729b79ba24a">lastTick</a> = 0</td></tr>
 <tr class="separator:a32ebf25db306c615fe851729b79ba24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ee1735376da4c41c61592faf4569f7f"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_state.html#a4ee1735376da4c41c61592faf4569f7f">currentTick</a> = 0</td></tr>
-<tr class="separator:a4ee1735376da4c41c61592faf4569f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafc5915bed21cda1c2201e3882feeaf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classexpress_1_1_request.html">Request</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_state.html#aafc5915bed21cda1c2201e3882feeaf8">request</a> = nullptr</td></tr>
 <tr class="separator:aafc5915bed21cda1c2201e3882feeaf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98734d65a8f3a37f98c59efe9fe8c1b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classexpress_1_1_response.html">Response</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_state.html#a98734d65a8f3a37f98c59efe9fe8c1b3">response</a> = nullptr</td></tr>
@@ -207,22 +205,22 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_state_8cpp_source.html#l00031">31</a> of file <a class="el" href="_state_8cpp_source.html">State.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        : <a class="code" href="classexpress_1_1_state.html#aafc5915bed21cda1c2201e3882feeaf8">request</a>(&amp;<a class="code" href="classexpress_1_1_state.html#aafc5915bed21cda1c2201e3882feeaf8">request</a>)</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        , <a class="code" href="classexpress_1_1_state.html#a98734d65a8f3a37f98c59efe9fe8c1b3">response</a>(&amp;<a class="code" href="classexpress_1_1_state.html#a98734d65a8f3a37f98c59efe9fe8c1b3">response</a>) {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="classexpress_1_1_state.html#aafc5915bed21cda1c2201e3882feeaf8">request</a>.<a class="code" href="classexpress_1_1_request.html#a1272dd3c70ef45f3b28d04757b03141d">extend</a>();</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="classexpress_1_1_state.html#a32ebf25db306c615fe851729b79ba24a">lastTick</a> = <a class="code" href="classcore_1_1_event_loop.html#aef20810c9fcf4c7b33a5b6dbab1973b9">core::EventLoop::getTickCounter</a>();</div>
+<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        : <a class="code" href="classexpress_1_1_state.html#a32ebf25db306c615fe851729b79ba24a">lastTick</a>(<a class="code" href="classcore_1_1_event_loop.html#aef20810c9fcf4c7b33a5b6dbab1973b9">core::EventLoop::getTickCounter</a>())</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        , <a class="code" href="classexpress_1_1_state.html#aafc5915bed21cda1c2201e3882feeaf8">request</a>(&amp;<a class="code" href="classexpress_1_1_state.html#aafc5915bed21cda1c2201e3882feeaf8">request</a>)</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        , <a class="code" href="classexpress_1_1_state.html#a98734d65a8f3a37f98c59efe9fe8c1b3">response</a>(&amp;<a class="code" href="classexpress_1_1_state.html#a98734d65a8f3a37f98c59efe9fe8c1b3">response</a>) {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="classexpress_1_1_state.html#aafc5915bed21cda1c2201e3882feeaf8">request</a>.<a class="code" href="classexpress_1_1_request.html#a1272dd3c70ef45f3b28d04757b03141d">extend</a>();</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1_event_loop_html_aef20810c9fcf4c7b33a5b6dbab1973b9"><div class="ttname"><a href="classcore_1_1_event_loop.html#aef20810c9fcf4c7b33a5b6dbab1973b9">core::EventLoop::getTickCounter</a></div><div class="ttdeci">static unsigned long getTickCounter()</div><div class="ttdef"><b>Definition:</b> <a href="_event_loop_8cpp_source.html#l00068">EventLoop.cpp:68</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_request_html_a1272dd3c70ef45f3b28d04757b03141d"><div class="ttname"><a href="classexpress_1_1_request.html#a1272dd3c70ef45f3b28d04757b03141d">express::Request::extend</a></div><div class="ttdeci">Request &amp; extend()</div><div class="ttdef"><b>Definition:</b> <a href="express_2_request_8cpp_source.html#l00035">Request.cpp:35</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_state_html_a32ebf25db306c615fe851729b79ba24a"><div class="ttname"><a href="classexpress_1_1_state.html#a32ebf25db306c615fe851729b79ba24a">express::State::lastTick</a></div><div class="ttdeci">unsigned long lastTick</div><div class="ttdef"><b>Definition:</b> <a href="_state_8h_source.html#l00062">State.h:62</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_state_html_a98734d65a8f3a37f98c59efe9fe8c1b3"><div class="ttname"><a href="classexpress_1_1_state.html#a98734d65a8f3a37f98c59efe9fe8c1b3">express::State::response</a></div><div class="ttdeci">Response * response</div><div class="ttdef"><b>Definition:</b> <a href="_state_8h_source.html#l00066">State.h:66</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_state_html_aafc5915bed21cda1c2201e3882feeaf8"><div class="ttname"><a href="classexpress_1_1_state.html#aafc5915bed21cda1c2201e3882feeaf8">express::State::request</a></div><div class="ttdeci">Request * request</div><div class="ttdef"><b>Definition:</b> <a href="_state_8h_source.html#l00065">State.h:65</a></div></div>
+<div class="ttc" id="aclassexpress_1_1_state_html_a98734d65a8f3a37f98c59efe9fe8c1b3"><div class="ttname"><a href="classexpress_1_1_state.html#a98734d65a8f3a37f98c59efe9fe8c1b3">express::State::response</a></div><div class="ttdeci">Response * response</div><div class="ttdef"><b>Definition:</b> <a href="_state_8h_source.html#l00065">State.h:65</a></div></div>
+<div class="ttc" id="aclassexpress_1_1_state_html_aafc5915bed21cda1c2201e3882feeaf8"><div class="ttname"><a href="classexpress_1_1_state.html#aafc5915bed21cda1c2201e3882feeaf8">express::State::request</a></div><div class="ttdeci">Request * request</div><div class="ttdef"><b>Definition:</b> <a href="_state_8h_source.html#l00064">State.h:64</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="express_2_request_8cpp_source.html#l00035">express::Request::extend()</a>, <a class="el" href="_event_loop_8cpp_source.html#l00068">core::EventLoop::getTickCounter()</a>, <a class="el" href="_state_8h_source.html#l00062">lastTick</a>, and <a class="el" href="_state_8h_source.html#l00065">request</a>.</p>
+<p class="reference">References <a class="el" href="express_2_request_8cpp_source.html#l00035">express::Request::extend()</a>, and <a class="el" href="_state_8h_source.html#l00064">request</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classexpress_1_1_state_a00d78e7e538c3c851384010f1626a8a9_cgraph.svg" width="812" height="130"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classexpress_1_1_state_a00d78e7e538c3c851384010f1626a8a9_cgraph.svg" width="812" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -266,11 +264,11 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
 <div class="ttc" id="aclassexpress_1_1_route_html_a567dcb7f364fb1227231e1b5bef3b618"><div class="ttname"><a href="classexpress_1_1_route.html#a567dcb7f364fb1227231e1b5bef3b618">express::Route::dispatchNext</a></div><div class="ttdeci">bool dispatchNext(State &amp;state, const std::string &amp;parentMountPath)</div><div class="ttdef"><b>Definition:</b> <a href="_route_8cpp_source.html#l00072">Route.cpp:72</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_state_html_a00d78e7e538c3c851384010f1626a8a9"><div class="ttname"><a href="classexpress_1_1_state.html#a00d78e7e538c3c851384010f1626a8a9">express::State::State</a></div><div class="ttdeci">State(Request &amp;request, Response &amp;response)</div><div class="ttdef"><b>Definition:</b> <a href="_state_8cpp_source.html#l00031">State.cpp:31</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_state_html_a12cc121024b639a276f28952d05e353c"><div class="ttname"><a href="classexpress_1_1_state.html#a12cc121024b639a276f28952d05e353c">express::State::flags</a></div><div class="ttdeci">int flags</div><div class="ttdef"><b>Definition:</b> <a href="_state_8h_source.html#l00068">State.h:68</a></div></div>
+<div class="ttc" id="aclassexpress_1_1_state_html_a12cc121024b639a276f28952d05e353c"><div class="ttname"><a href="classexpress_1_1_state.html#a12cc121024b639a276f28952d05e353c">express::State::flags</a></div><div class="ttdeci">int flags</div><div class="ttdef"><b>Definition:</b> <a href="_state_8h_source.html#l00067">State.h:67</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_state_html_a1c73ca6aef54b4657afaa366d8ff0596"><div class="ttname"><a href="classexpress_1_1_state.html#a1c73ca6aef54b4657afaa366d8ff0596">express::State::lastRoute</a></div><div class="ttdeci">Route * lastRoute</div><div class="ttdef"><b>Definition:</b> <a href="_state_8h_source.html#l00059">State.h:59</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_state_html_a5fcda66f5f79c8fbafa3bbb3a3c4813c"><div class="ttname"><a href="classexpress_1_1_state.html#a5fcda66f5f79c8fbafa3bbb3a3c4813c">express::State::currentRoute</a></div><div class="ttdeci">Route * currentRoute</div><div class="ttdef"><b>Definition:</b> <a href="_state_8h_source.html#l00060">State.h:60</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_state_8h_source.html#l00060">currentRoute</a>, <a class="el" href="_route_8cpp_source.html#l00072">express::Route::dispatchNext()</a>, <a class="el" href="_state_8h_source.html#l00068">flags</a>, <a class="el" href="_state_8h_source.html#l00059">lastRoute</a>, <a class="el" href="_state_8h_source.html#l00054">NEXT</a>, <a class="el" href="_state_8h_source.html#l00054">NEXT_ROUTE</a>, and <a class="el" href="_state_8h_source.html#l00054">NEXT_ROUTER</a>.</p>
+<p class="reference">References <a class="el" href="_state_8h_source.html#l00060">currentRoute</a>, <a class="el" href="_route_8cpp_source.html#l00072">express::Route::dispatchNext()</a>, <a class="el" href="_state_8h_source.html#l00067">flags</a>, <a class="el" href="_state_8h_source.html#l00059">lastRoute</a>, <a class="el" href="_state_8h_source.html#l00054">NEXT</a>, <a class="el" href="_state_8h_source.html#l00054">NEXT_ROUTE</a>, and <a class="el" href="_state_8h_source.html#l00054">NEXT_ROUTER</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_route_8cpp_source.html#l00060">express::Route::dispatch()</a>.</p>
 <div class="dynheader">
@@ -308,7 +306,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classexpress_1_1_state.html#a12cc121024b639a276f28952d05e353c">flags</a>;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_state_8h_source.html#l00068">flags</a>.</p>
+<p class="reference">References <a class="el" href="_state_8h_source.html#l00067">flags</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_application_dispatcher_8cpp_source.html#l00036">express::dispatcher::ApplicationDispatcher::dispatch()</a>, and <a class="el" href="_middleware_dispatcher_8cpp_source.html#l00036">express::dispatcher::MiddlewareDispatcher::dispatch()</a>.</p>
 <div class="dynheader">
@@ -340,7 +338,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classexpress_1_1_state.html#aafc5915bed21cda1c2201e3882feeaf8">request</a>;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_state_8h_source.html#l00065">request</a>.</p>
+<p class="reference">References <a class="el" href="_state_8h_source.html#l00064">request</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_application_dispatcher_8cpp_source.html#l00036">express::dispatcher::ApplicationDispatcher::dispatch()</a>, <a class="el" href="_middleware_dispatcher_8cpp_source.html#l00036">express::dispatcher::MiddlewareDispatcher::dispatch()</a>, and <a class="el" href="_router_dispatcher_8cpp_source.html#l00036">express::dispatcher::RouterDispatcher::dispatch()</a>.</p>
 <div class="dynheader">
@@ -372,7 +370,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classexpress_1_1_state.html#a98734d65a8f3a37f98c59efe9fe8c1b3">response</a>;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_state_8h_source.html#l00066">response</a>.</p>
+<p class="reference">References <a class="el" href="_state_8h_source.html#l00065">response</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_application_dispatcher_8cpp_source.html#l00036">express::dispatcher::ApplicationDispatcher::dispatch()</a>, <a class="el" href="_middleware_dispatcher_8cpp_source.html#l00036">express::dispatcher::MiddlewareDispatcher::dispatch()</a>, and <a class="el" href="_root_route_8cpp_source.html#l00074">express::RootRoute::dispatch()</a>.</p>
 <div class="dynheader">
@@ -412,14 +410,14 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <a class="code" href="classexpress_1_1_state.html#a1c73ca6aef54b4657afaa366d8ff0596">lastRoute</a> = <a class="code" href="classexpress_1_1_state.html#a5fcda66f5f79c8fbafa3bbb3a3c4813c">currentRoute</a>;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classexpress_1_1_state.html#a32ebf25db306c615fe851729b79ba24a">lastTick</a> != <a class="code" href="classcore_1_1_event_loop.html#aef20810c9fcf4c7b33a5b6dbab1973b9">core::EventLoop::getTickCounter</a>()) { <span class="comment">// If asynchron next() start traversing of rout-tree</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classexpress_1_1_state.html#a32ebf25db306c615fe851729b79ba24a">lastTick</a> != <a class="code" href="classcore_1_1_event_loop.html#aef20810c9fcf4c7b33a5b6dbab1973b9">core::EventLoop::getTickCounter</a>()) { <span class="comment">// If asynchron next() start traversing of route-tree</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <a class="code" href="classexpress_1_1_state.html#abdae3b24af76579285fdf302894ad62d">rootRoute</a>-&gt;<a class="code" href="classexpress_1_1_root_route.html#af16bc704beb82bcaaa1fbf9a56a7bbaa">dispatch</a>(*<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        }</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
 <div class="ttc" id="aclassexpress_1_1_root_route_html_af16bc704beb82bcaaa1fbf9a56a7bbaa"><div class="ttname"><a href="classexpress_1_1_root_route.html#af16bc704beb82bcaaa1fbf9a56a7bbaa">express::RootRoute::dispatch</a></div><div class="ttdeci">void dispatch(Request &amp;req, Response &amp;res)</div><div class="ttdef"><b>Definition:</b> <a href="_root_route_8cpp_source.html#l00064">RootRoute.cpp:64</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_state_html_abdae3b24af76579285fdf302894ad62d"><div class="ttname"><a href="classexpress_1_1_state.html#abdae3b24af76579285fdf302894ad62d">express::State::rootRoute</a></div><div class="ttdeci">RootRoute * rootRoute</div><div class="ttdef"><b>Definition:</b> <a href="_state_8h_source.html#l00057">State.h:57</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_state_8h_source.html#l00060">currentRoute</a>, <a class="el" href="_root_route_8cpp_source.html#l00064">express::RootRoute::dispatch()</a>, <a class="el" href="_state_8h_source.html#l00068">flags</a>, <a class="el" href="_event_loop_8cpp_source.html#l00068">core::EventLoop::getTickCounter()</a>, <a class="el" href="_state_8h_source.html#l00059">lastRoute</a>, <a class="el" href="_state_8h_source.html#l00062">lastTick</a>, <a class="el" href="_state_8h_source.html#l00054">NEXT</a>, <a class="el" href="_state_8h_source.html#l00054">NEXT_ROUTE</a>, <a class="el" href="_state_8h_source.html#l00054">NEXT_ROUTER</a>, and <a class="el" href="_state_8h_source.html#l00057">rootRoute</a>.</p>
+<p class="reference">References <a class="el" href="_state_8h_source.html#l00060">currentRoute</a>, <a class="el" href="_root_route_8cpp_source.html#l00064">express::RootRoute::dispatch()</a>, <a class="el" href="_state_8h_source.html#l00067">flags</a>, <a class="el" href="_event_loop_8cpp_source.html#l00068">core::EventLoop::getTickCounter()</a>, <a class="el" href="_state_8h_source.html#l00059">lastRoute</a>, <a class="el" href="_state_8h_source.html#l00062">lastTick</a>, <a class="el" href="_state_8h_source.html#l00054">NEXT</a>, <a class="el" href="_state_8h_source.html#l00054">NEXT_ROUTE</a>, <a class="el" href="_state_8h_source.html#l00054">NEXT_ROUTER</a>, and <a class="el" href="_state_8h_source.html#l00057">rootRoute</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_next_8cpp_source.html#l00033">express::Next::operator()()</a>.</p>
 <div class="dynheader">
@@ -464,7 +462,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">return</span> breakDispatching;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_state_8h_source.html#l00060">currentRoute</a>, <a class="el" href="_state_8h_source.html#l00068">flags</a>, <a class="el" href="_state_8h_source.html#l00059">lastRoute</a>, and <a class="el" href="_state_8h_source.html#l00054">NEXT_ROUTER</a>.</p>
+<p class="reference">References <a class="el" href="_state_8h_source.html#l00060">currentRoute</a>, <a class="el" href="_state_8h_source.html#l00067">flags</a>, <a class="el" href="_state_8h_source.html#l00059">lastRoute</a>, and <a class="el" href="_state_8h_source.html#l00054">NEXT_ROUTER</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_router_dispatcher_8cpp_source.html#l00036">express::dispatcher::RouterDispatcher::dispatch()</a>.</p>
 <div class="dynheader">
@@ -561,30 +559,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a4ee1735376da4c41c61592faf4569f7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ee1735376da4c41c61592faf4569f7f">&#9670;&nbsp;</a></span>currentTick</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned long express::State::currentTick = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_state_8h_source.html#l00063">63</a> of file <a class="el" href="_state_8h_source.html">State.h</a>.</p>
-
-</div>
-</div>
 <a id="a12cc121024b639a276f28952d05e353c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a12cc121024b639a276f28952d05e353c">&#9670;&nbsp;</a></span>flags</h2>
 
@@ -605,7 +579,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_state_8h_source.html#l00068">68</a> of file <a class="el" href="_state_8h_source.html">State.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_state_8h_source.html#l00067">67</a> of file <a class="el" href="_state_8h_source.html">State.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_state_8cpp_source.html#l00085">dispatchNext()</a>, <a class="el" href="_state_8cpp_source.html#l00054">getFlags()</a>, <a class="el" href="_state_8cpp_source.html#l00058">next()</a>, and <a class="el" href="_state_8cpp_source.html#l00074">nextRouter()</a>.</p>
 
@@ -659,7 +633,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_state_8h_source.html#l00062">62</a> of file <a class="el" href="_state_8h_source.html">State.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_state_8cpp_source.html#l00058">next()</a>, and <a class="el" href="_state_8cpp_source.html#l00031">State()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_state_8cpp_source.html#l00058">next()</a>.</p>
 
 </div>
 </div>
@@ -683,7 +657,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_state_8h_source.html#l00065">65</a> of file <a class="el" href="_state_8h_source.html">State.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_state_8h_source.html#l00064">64</a> of file <a class="el" href="_state_8h_source.html">State.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_state_8cpp_source.html#l00046">getRequest()</a>, and <a class="el" href="_state_8cpp_source.html#l00031">State()</a>.</p>
 
@@ -709,7 +683,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_state_8h_source.html#l00066">66</a> of file <a class="el" href="_state_8h_source.html">State.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_state_8h_source.html#l00065">65</a> of file <a class="el" href="_state_8h_source.html">State.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_state_8cpp_source.html#l00050">getResponse()</a>.</p>
 

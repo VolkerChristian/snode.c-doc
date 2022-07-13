@@ -16,7 +16,6 @@ var classexpress_1_1_state =
     [ "setCurrentRoute", "classexpress_1_1_state.html#ae43f63d2a7ffeb50913234f3f3d79b81", null ],
     [ "setRootRoute", "classexpress_1_1_state.html#ab64af2167cc74c259f8192ee81b81fee", null ],
     [ "currentRoute", "classexpress_1_1_state.html#a5fcda66f5f79c8fbafa3bbb3a3c4813c", null ],
-    [ "currentTick", "classexpress_1_1_state.html#a4ee1735376da4c41c61592faf4569f7f", null ],
     [ "flags", "classexpress_1_1_state.html#a12cc121024b639a276f28952d05e353c", null ],
     [ "lastRoute", "classexpress_1_1_state.html#a1c73ca6aef54b4657afaa366d8ff0596", null ],
     [ "lastTick", "classexpress_1_1_state.html#a32ebf25db306c615fe851729b79ba24a", null ],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX20 =
 {
+"namespacenet_1_1in6_1_1stream_1_1tls.html#a161c9be38365399fd4fe8455afa87fdb":[8,0,7,3,1,2,2],
+"namespacenet_1_1in6_1_1stream_1_1tls.html#aaf353aa1197edbb90360182a2e4f266e":[8,0,7,3,1,2,1],
+"namespacenet_1_1in6_1_1stream_1_1tls_1_1config.html":[8,0,7,3,1,2,0],
 "namespacenet_1_1in_1_1config.html":[8,0,7,2,0],
 "namespacenet_1_1in_1_1stream.html":[8,0,7,2,1],
 "namespacenet_1_1in_1_1stream_1_1config.html":[8,0,7,2,1,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX20 =
 "rc_2stream_2_server_socket_8cpp_source.html":[10,0,4,5,1,5],
 "rc_2stream_2_server_socket_8h.html":[10,0,4,5,1,6],
 "rc_2stream_2_server_socket_8h_source.html":[10,0,4,5,1,6],
-"rc_2stream_2_socket_client_8hpp.html":[10,0,4,5,1,10],
-"rc_2stream_2_socket_client_8hpp_source.html":[10,0,4,5,1,10],
-"rc_2stream_2_socket_server_8hpp.html":[10,0,4,5,1,12],
-"rc_2stream_2_socket_server_8hpp_source.html":[10,0,4,5,1,12]
+"rc_2stream_2_socket_client_8hpp.html":[10,0,4,5,1,10]
 };

@@ -456,7 +456,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_json_middleware_8cpp_source.html#l00036">36</a> of file <a class="el" href="_json_middleware_8cpp_source.html">JsonMiddleware.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                                   {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="classexpress_1_1_router.html#a98729cacc7138f53d2b388f7e61ccec2">use</a>([] <a class="code" href="_router_8h.html#a2fb8cad4811ee65bbc506924eed813df">MIDDLEWARE</a>(req, res, next) {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="classexpress_1_1_router.html#a98729cacc7138f53d2b388f7e61ccec2">use</a>([] <a class="code" href="_router_8h.html#ac5313b926a3bc0fb106bffb31e93dc71">MIDDLEWARE</a>(req, res, next) {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keywordflow">try</span> {</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                <span class="comment">// parse body string with json library</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                <span class="comment">// store it as type json from nlohmann library</span></div>
@@ -474,7 +474,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            next();</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        });</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
-<div class="ttc" id="a_router_8h_html_a2fb8cad4811ee65bbc506924eed813df"><div class="ttname"><a href="_router_8h.html#a2fb8cad4811ee65bbc506924eed813df">MIDDLEWARE</a></div><div class="ttdeci">#define MIDDLEWARE(req, res, state)</div><div class="ttdef"><b>Definition:</b> <a href="_router_8h_source.html#l00041">Router.h:41</a></div></div>
+<div class="ttc" id="a_router_8h_html_ac5313b926a3bc0fb106bffb31e93dc71"><div class="ttname"><a href="_router_8h.html#ac5313b926a3bc0fb106bffb31e93dc71">MIDDLEWARE</a></div><div class="ttdeci">#define MIDDLEWARE(req, res, next)</div><div class="ttdef"><b>Definition:</b> <a href="_router_8h_source.html#l00041">Router.h:41</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_router_html_a98729cacc7138f53d2b388f7e61ccec2"><div class="ttname"><a href="classexpress_1_1_router.html#a98729cacc7138f53d2b388f7e61ccec2">express::Router::use</a></div><div class="ttdeci">Route &amp; use(const Router &amp;router)</div><div class="ttdef"><b>Definition:</b> <a href="_router_8cpp_source.html#l00054">Router.cpp:54</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_router_8h_source.html#l00041">MIDDLEWARE</a>, and <a class="el" href="_router_8cpp_source.html#l00054">express::Router::use()</a>.</p>
