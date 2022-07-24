@@ -11,8 +11,8 @@ var dir_a81a8d83fdcad424594c1688b6f0248d =
     [ "ServerSocket.h", "in6_2stream_2_server_socket_8h.html", [
       [ "ServerSocket", "classnet_1_1in6_1_1stream_1_1_server_socket.html", "classnet_1_1in6_1_1stream_1_1_server_socket" ]
     ] ],
-    [ "Socket.cpp", "net_2in6_2stream_2socket_8cpp.html", null ],
-    [ "Socket.h", "net_2in6_2stream_2socket_8h.html", [
+    [ "Socket.cpp", "net_2in6_2stream_2_socket_8cpp.html", null ],
+    [ "Socket.h", "net_2in6_2stream_2_socket_8h.html", [
       [ "Socket", "classnet_1_1in6_1_1stream_1_1_socket.html", "classnet_1_1in6_1_1stream_1_1_socket" ]
     ] ],
     [ "SocketClient.h", "net_2in6_2stream_2_socket_client_8h.html", [

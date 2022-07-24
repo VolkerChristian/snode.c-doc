@@ -112,10 +112,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a89a9c2c542ff67ba024cbdf11b7a6765"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5173478a6d9ab11aa191ebc98d3e4f07"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_dispatcher.html#a5173478a6d9ab11aa191ebc98d3e4f07">~Dispatcher</a> ()=default</td></tr>
 <tr class="separator:a5173478a6d9ab11aa191ebc98d3e4f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71daf9d4486cb211354a43dd0c1fcbd5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_dispatcher.html#a71daf9d4486cb211354a43dd0c1fcbd5">dispatch</a> (<a class="el" href="classexpress_1_1_state.html">State</a> &amp;state, const std::string &amp;parentMountPath, const <a class="el" href="structexpress_1_1_mount_point.html">MountPoint</a> &amp;mountPoint)=0</td></tr>
-<tr class="separator:a71daf9d4486cb211354a43dd0c1fcbd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af20cf8d42c2f1636e723c312c6aef8c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_dispatcher.html#af20cf8d42c2f1636e723c312c6aef8c4">dispatchNext</a> (<a class="el" href="classexpress_1_1_state.html">State</a> &amp;state, const std::string &amp;parentMountPath)</td></tr>
-<tr class="separator:af20cf8d42c2f1636e723c312c6aef8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae67f611406955de5bf73bb10769217b0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_dispatcher.html#ae67f611406955de5bf73bb10769217b0">dispatch</a> (<a class="el" href="classexpress_1_1_controller.html">Controller</a> &amp;state, const std::string &amp;parentMountPath, const <a class="el" href="structexpress_1_1_mount_point.html">MountPoint</a> &amp;mountPoint)=0</td></tr>
+<tr class="separator:ae67f611406955de5bf73bb10769217b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51c1689ea0d8f8e331a0066adbada304"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexpress_1_1_dispatcher.html#a51c1689ea0d8f8e331a0066adbada304">dispatchNext</a> (<a class="el" href="classexpress_1_1_controller.html">Controller</a> &amp;state, const std::string &amp;parentMountPath)</td></tr>
+<tr class="separator:a51c1689ea0d8f8e331a0066adbada304"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -215,8 +215,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a71daf9d4486cb211354a43dd0c1fcbd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71daf9d4486cb211354a43dd0c1fcbd5">&#9670;&nbsp;</a></span>dispatch()</h2>
+<a id="ae67f611406955de5bf73bb10769217b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae67f611406955de5bf73bb10769217b0">&#9670;&nbsp;</a></span>dispatch()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,7 +227,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">virtual bool express::Dispatcher::dispatch </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classexpress_1_1_state.html">State</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classexpress_1_1_controller.html">Controller</a> &amp;&#160;</td>
           <td class="paramname"><em>state</em>, </td>
         </tr>
         <tr>
@@ -255,12 +255,12 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classexpress_1_1dispatcher_1_1_router_dispatcher.html#aaf6bdbc9f195dc25e4ea205d0e0a9ded">express::dispatcher::RouterDispatcher</a>, <a class="el" href="classexpress_1_1dispatcher_1_1_middleware_dispatcher.html#a8f1f904ebd375cd58635e00fee459b5a">express::dispatcher::MiddlewareDispatcher</a>, and <a class="el" href="classexpress_1_1dispatcher_1_1_application_dispatcher.html#a7fa37fb331a158eb372eded9d0c2a9bc">express::dispatcher::ApplicationDispatcher</a>.</p>
+<p>Implemented in <a class="el" href="classexpress_1_1dispatcher_1_1_router_dispatcher.html#ad491d8484c897bcb102f8a288f1ee39a">express::dispatcher::RouterDispatcher</a>, <a class="el" href="classexpress_1_1dispatcher_1_1_middleware_dispatcher.html#a221d473a48c0117f415290de16968a9a">express::dispatcher::MiddlewareDispatcher</a>, and <a class="el" href="classexpress_1_1dispatcher_1_1_application_dispatcher.html#a3972ee62757cbb6644850ec18442295c">express::dispatcher::ApplicationDispatcher</a>.</p>
 
 </div>
 </div>
-<a id="af20cf8d42c2f1636e723c312c6aef8c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af20cf8d42c2f1636e723c312c6aef8c4">&#9670;&nbsp;</a></span>dispatchNext()</h2>
+<a id="a51c1689ea0d8f8e331a0066adbada304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51c1689ea0d8f8e331a0066adbada304">&#9670;&nbsp;</a></span>dispatchNext()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -268,7 +268,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">bool express::Dispatcher::dispatchNext </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classexpress_1_1_state.html">State</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classexpress_1_1_controller.html">Controller</a> &amp;&#160;</td>
           <td class="paramname"><em>state</em>, </td>
         </tr>
         <tr>
@@ -286,7 +286,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_dispatcher_8cpp_source.html#l00029">29</a> of file <a class="el" href="_dispatcher_8cpp_source.html">Dispatcher.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                                                                {</div>
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                                                                     {</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">bool</span> dispatched = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classexpress_1_1_dispatcher.html#afb95ef17f1ff079e9f8e960f4b84e8af">next</a> != <span class="keyword">nullptr</span>) {</div>
@@ -389,7 +389,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceexpress.html">express</a></li><li class="navelem"><a class="el" href="classexpress_1_1_dispatcher.html">Dispatcher</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Jul 24 2022 13:11:10 for snode.c by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

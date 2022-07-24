@@ -181,17 +181,17 @@
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="classcore_1_1_event_multiplexer.html#af3e7b68817fc910c020a9981b2e58c61" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="982.5,-49.5 982.5,-79.5 1109.5,-79.5 1109.5,-49.5 982.5,-49.5"/>
-<text text-anchor="start" x="990.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::EventMultiplexer</text>
-<text text-anchor="middle" x="1046" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::executeEventQueue</text>
+<g id="a_node11"><a xlink:href="classcore_1_1_event_multiplexer.html#a6e7720b5765f5cced89b46b8061b4901" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="973,-49.5 973,-79.5 1119,-79.5 1119,-49.5 973,-49.5"/>
+<text text-anchor="start" x="981" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">core::EventMultiplexer</text>
+<text text-anchor="middle" x="1046" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::purgeReleasedResources</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node11 -->
 <g id="edge11" class="edge">
 <title>Node10&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M1167.82,-65.13C1148.69,-65.03 1128.13,-64.92 1109.51,-64.83"/>
+<path fill="none" stroke="midnightblue" d="M1167.75,-65.13C1151.92,-65.05 1135.13,-64.96 1119.27,-64.88"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1167.97,-68.63 1177.99,-65.18 1168,-61.63 1167.97,-68.63"/>
 </g>
 <!-- Node12 -->
@@ -207,8 +207,8 @@
 <!-- Node11&#45;&gt;Node12 -->
 <g id="edge12" class="edge">
 <title>Node11&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M971.99,-65.33C958.38,-65.48 944.28,-65.64 931.02,-65.79"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="972.32,-68.82 982.28,-65.21 972.24,-61.82 972.32,-68.82"/>
+<path fill="none" stroke="midnightblue" d="M962.84,-65.43C952.22,-65.55 941.49,-65.67 931.26,-65.79"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="963,-68.93 972.96,-65.32 962.92,-61.93 963,-68.93"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">

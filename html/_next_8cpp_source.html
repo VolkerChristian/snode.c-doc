@@ -113,29 +113,29 @@ $(document).ready(function(){initNavTree('_next_8cpp_source.html',''); initResiz
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceexpress.html">express</a> {</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classexpress_1_1_next.html#a9a26268a12352e64ca72b318bf733d83">   29</a></span>&#160;    <a class="code" href="classexpress_1_1_next.html#a9a26268a12352e64ca72b318bf733d83">Next::Next</a>(<a class="code" href="classexpress_1_1_state.html">State</a>&amp; state)</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classexpress_1_1_next.html#ad14bdf445ce79c12b0646bdb1c3ebd96">   29</a></span>&#160;    <a class="code" href="classexpress_1_1_next.html#ad14bdf445ce79c12b0646bdb1c3ebd96">Next::Next</a>(<a class="code" href="classexpress_1_1_controller.html">Controller</a>&amp; state)</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        : state(state) {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classexpress_1_1_next.html#ab7daba0577d9ead4d7515d631e3d1e2b">   33</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classexpress_1_1_next.html#ab7daba0577d9ead4d7515d631e3d1e2b">Next::operator()</a>(<span class="keyword">const</span> std::string&amp; how) {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="classexpress_1_1_next.html#a54a84ff2ea90b0bab1af8ba436fd376d">state</a>.<a class="code" href="classexpress_1_1_state.html#a8a7a9894235cc2f58dadfa34162288e3">next</a>(how);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="classexpress_1_1_next.html#a126f26a54f68b869b9366e8400257c90">state</a>.<a class="code" href="classexpress_1_1_controller.html#a848ee521dc6579d901fd46e9ecce1cd3">next</a>(how);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;} <span class="comment">// namespace express</span></div>
 <div class="ttc" id="a_next_8h_html"><div class="ttname"><a href="_next_8h.html">Next.h</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_next_html_a54a84ff2ea90b0bab1af8ba436fd376d"><div class="ttname"><a href="classexpress_1_1_next.html#a54a84ff2ea90b0bab1af8ba436fd376d">express::Next::state</a></div><div class="ttdeci">State state</div><div class="ttdef"><b>Definition:</b> <a href="_next_8h_source.html#l00045">Next.h:45</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_next_html_a9a26268a12352e64ca72b318bf733d83"><div class="ttname"><a href="classexpress_1_1_next.html#a9a26268a12352e64ca72b318bf733d83">express::Next::Next</a></div><div class="ttdeci">Next(State &amp;state)</div><div class="ttdef"><b>Definition:</b> <a href="_next_8cpp_source.html#l00029">Next.cpp:29</a></div></div>
+<div class="ttc" id="aclassexpress_1_1_controller_html"><div class="ttname"><a href="classexpress_1_1_controller.html">express::Controller</a></div><div class="ttdef"><b>Definition:</b> <a href="_controller_8h_source.html#l00039">Controller.h:39</a></div></div>
+<div class="ttc" id="aclassexpress_1_1_controller_html_a848ee521dc6579d901fd46e9ecce1cd3"><div class="ttname"><a href="classexpress_1_1_controller.html#a848ee521dc6579d901fd46e9ecce1cd3">express::Controller::next</a></div><div class="ttdeci">void next(const std::string &amp;how)</div><div class="ttdef"><b>Definition:</b> <a href="_controller_8cpp_source.html#l00058">Controller.cpp:58</a></div></div>
+<div class="ttc" id="aclassexpress_1_1_next_html_a126f26a54f68b869b9366e8400257c90"><div class="ttname"><a href="classexpress_1_1_next.html#a126f26a54f68b869b9366e8400257c90">express::Next::state</a></div><div class="ttdeci">Controller state</div><div class="ttdef"><b>Definition:</b> <a href="_next_8h_source.html#l00045">Next.h:45</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_next_html_ab7daba0577d9ead4d7515d631e3d1e2b"><div class="ttname"><a href="classexpress_1_1_next.html#ab7daba0577d9ead4d7515d631e3d1e2b">express::Next::operator()</a></div><div class="ttdeci">void operator()(const std::string &amp;how=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="_next_8cpp_source.html#l00033">Next.cpp:33</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_state_html"><div class="ttname"><a href="classexpress_1_1_state.html">express::State</a></div><div class="ttdef"><b>Definition:</b> <a href="_state_8h_source.html#l00039">State.h:39</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_state_html_a8a7a9894235cc2f58dadfa34162288e3"><div class="ttname"><a href="classexpress_1_1_state.html#a8a7a9894235cc2f58dadfa34162288e3">express::State::next</a></div><div class="ttdeci">void next(const std::string &amp;how)</div><div class="ttdef"><b>Definition:</b> <a href="_state_8cpp_source.html#l00058">State.cpp:58</a></div></div>
-<div class="ttc" id="anamespaceexpress_html"><div class="ttname"><a href="namespaceexpress.html">express</a></div><div class="ttdef"><b>Definition:</b> <a href="_application_dispatcher_8cpp_source.html#l00030">ApplicationDispatcher.cpp:30</a></div></div>
+<div class="ttc" id="aclassexpress_1_1_next_html_ad14bdf445ce79c12b0646bdb1c3ebd96"><div class="ttname"><a href="classexpress_1_1_next.html#ad14bdf445ce79c12b0646bdb1c3ebd96">express::Next::Next</a></div><div class="ttdeci">Next(Controller &amp;state)</div><div class="ttdef"><b>Definition:</b> <a href="_next_8cpp_source.html#l00029">Next.cpp:29</a></div></div>
+<div class="ttc" id="anamespaceexpress_html"><div class="ttname"><a href="namespaceexpress.html">express</a></div><div class="ttdef"><b>Definition:</b> <a href="_controller_8cpp_source.html#l00029">Controller.cpp:29</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_e2b20abddc1d75e9fa824bc5544f9c72.html">express</a></li><li class="navelem"><a class="el" href="_next_8cpp.html">Next.cpp</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Jul 24 2022 13:11:09 for snode.c by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

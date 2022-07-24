@@ -94,12 +94,6 @@ $(document).ready(function(){initNavTree('classweb_1_1websocket_1_1_sub_protocol
 
 <p><code>#include &lt;<a class="el" href="_sub_protocol_factory_selector_8h_source.html">SubProtocolFactorySelector.h</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1websocket_1_1_sub_protocol_factory_selector__inherit__graph.svg" width="639" height="306"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
 Collaboration diagram for web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1websocket_1_1_sub_protocol_factory_selector__coll__graph.svg" width="298" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
@@ -140,8 +134,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a24187089d3b7a24a906db284c499987d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a3d8a4b2dfbe3e82e2ebd49b110d7ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#a0a3d8a4b2dfbe3e82e2ebd49b110d7ed">allowDlOpen</a> ()</td></tr>
 <tr class="separator:a0a3d8a4b2dfbe3e82e2ebd49b110d7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f2cf778470cf731b5f0acf213ffc4d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#a1f2cf778470cf731b5f0acf213ffc4d4">linkSubProtocolFactory</a> (const std::string &amp;subProtocolName, void *(*subProtocolFactory)())</td></tr>
-<tr class="separator:a1f2cf778470cf731b5f0acf213ffc4d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a873f6ee30090d1c1e9f002c19355a191"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#a873f6ee30090d1c1e9f002c19355a191">link</a> (const std::string &amp;subProtocolName, void *(*subProtocolFactory)())</td></tr>
+<tr class="separator:a873f6ee30090d1c1e9f002c19355a191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -366,8 +360,8 @@ template&lt;typename SubProtocolFactoryT &gt; </div>
 
 </div>
 </div>
-<a id="a1f2cf778470cf731b5f0acf213ffc4d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f2cf778470cf731b5f0acf213ffc4d4">&#9670;&nbsp;</a></span>linkSubProtocolFactory()</h2>
+<a id="a873f6ee30090d1c1e9f002c19355a191"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a873f6ee30090d1c1e9f002c19355a191">&#9670;&nbsp;</a></span>link()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -378,7 +372,7 @@ template&lt;typename SubProtocolFactoryT &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html">web::websocket::SubProtocolFactorySelector</a>&lt; SubProtocolFactoryT &gt;::linkSubProtocolFactory </td>
+          <td class="memname">void <a class="el" href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html">web::websocket::SubProtocolFactorySelector</a>&lt; SubProtocolFactoryT &gt;::link </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>subProtocolName</em>, </td>
@@ -403,7 +397,7 @@ template&lt;typename SubProtocolFactoryT &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00142">142</a> of file <a class="el" href="_sub_protocol_factory_selector_8h_source.html">SubProtocolFactorySelector.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                                                                                                     {</div>
+<div class="fragment"><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                                                                                   {</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            <a class="code" href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#a66ef83667e6b9f35090a273ca1d77404">onlyLinked</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            <a class="code" href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#ae71856f91e3f5c2baa0fcc4bceef22cb">linkedSubProtocolFactories</a>[subProtocolName] = <span class="keyword">reinterpret_cast&lt;</span><a class="code" href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#a62cfe7d0fc445bb1762117f81034e47a">SubProtocolFactory</a>* (*) ()<span class="keyword">&gt;</span>(subProtocolFactory);</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        }</div>
@@ -411,14 +405,6 @@ template&lt;typename SubProtocolFactoryT &gt; </div>
 <div class="ttc" id="aclassweb_1_1websocket_1_1_sub_protocol_factory_selector_html_ae71856f91e3f5c2baa0fcc4bceef22cb"><div class="ttname"><a href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#ae71856f91e3f5c2baa0fcc4bceef22cb">web::websocket::SubProtocolFactorySelector::linkedSubProtocolFactories</a></div><div class="ttdeci">std::map&lt; std::string, SubProtocolFactory *(*)()&gt; linkedSubProtocolFactories</div><div class="ttdef"><b>Definition:</b> <a href="_sub_protocol_factory_selector_8h_source.html#l00149">SubProtocolFactorySelector.h:149</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00149">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::linkedSubProtocolFactories</a>, and <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00152">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::onlyLinked</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="client_2_sub_protocol_factory_selector_8cpp_source.html#l00049">web::websocket::client::SubProtocolFactorySelector::link()</a>, and <a class="el" href="server_2_sub_protocol_factory_selector_8cpp_source.html#l00048">web::websocket::server::SubProtocolFactorySelector::link()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classweb_1_1websocket_1_1_sub_protocol_factory_selector_a1f2cf778470cf731b5f0acf213ffc4d4_icgraph.svg" width="531" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
 
 </div>
 </div>
@@ -493,13 +479,13 @@ template&lt;typename SubProtocolFactoryT &gt; </div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keywordflow">return</span> subProtocolFactory;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        }</div>
-<div class="ttc" id="aclasscore_1_1_dynamic_loader_html_a28d14f3029339351d8bb8b328a6110b0"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#a28d14f3029339351d8bb8b328a6110b0">core::DynamicLoader::dlError</a></div><div class="ttdeci">static char * dlError()</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00085">DynamicLoader.cpp:85</a></div></div>
-<div class="ttc" id="aclasscore_1_1_dynamic_loader_html_a42ac52cda1ec4534f1cc9e225dcb31b0"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#a42ac52cda1ec4534f1cc9e225dcb31b0">core::DynamicLoader::dlClose</a></div><div class="ttdeci">static int dlClose(void *handle)</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00063">DynamicLoader.cpp:63</a></div></div>
-<div class="ttc" id="aclasscore_1_1_dynamic_loader_html_a608355c38f00831c64e122ae1722db2d"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#a608355c38f00831c64e122ae1722db2d">core::DynamicLoader::dlOpen</a></div><div class="ttdeci">static void * dlOpen(const std::string &amp;libFile, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00034">DynamicLoader.cpp:34</a></div></div>
-<div class="ttc" id="aclasscore_1_1_dynamic_loader_html_a708b7adb431acbc8976968c59692625e"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#a708b7adb431acbc8976968c59692625e">core::DynamicLoader::dlSym</a></div><div class="ttdeci">static void * dlSym(void *handle, const std::string &amp;symbol)</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00081">DynamicLoader.cpp:81</a></div></div>
+<div class="ttc" id="aclasscore_1_1_dynamic_loader_html_a28d14f3029339351d8bb8b328a6110b0"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#a28d14f3029339351d8bb8b328a6110b0">core::DynamicLoader::dlError</a></div><div class="ttdeci">static char * dlError()</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00089">DynamicLoader.cpp:89</a></div></div>
+<div class="ttc" id="aclasscore_1_1_dynamic_loader_html_a42ac52cda1ec4534f1cc9e225dcb31b0"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#a42ac52cda1ec4534f1cc9e225dcb31b0">core::DynamicLoader::dlClose</a></div><div class="ttdeci">static int dlClose(void *handle)</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00067">DynamicLoader.cpp:67</a></div></div>
+<div class="ttc" id="aclasscore_1_1_dynamic_loader_html_a608355c38f00831c64e122ae1722db2d"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#a608355c38f00831c64e122ae1722db2d">core::DynamicLoader::dlOpen</a></div><div class="ttdeci">static void * dlOpen(const std::string &amp;libFile, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00038">DynamicLoader.cpp:38</a></div></div>
+<div class="ttc" id="aclasscore_1_1_dynamic_loader_html_a708b7adb431acbc8976968c59692625e"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#a708b7adb431acbc8976968c59692625e">core::DynamicLoader::dlSym</a></div><div class="ttdeci">static void * dlSym(void *handle, const std::string &amp;symbol)</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00085">DynamicLoader.cpp:85</a></div></div>
 <div class="ttc" id="aclassweb_1_1websocket_1_1_sub_protocol_factory_selector_html_aaa9000a982c5189a90dc1f14074a90bfa3d27c95bfdbea691b250894d96852844"><div class="ttname"><a href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#aaa9000a982c5189a90dc1f14074a90bfa3d27c95bfdbea691b250894d96852844">web::websocket::SubProtocolFactorySelector::Role::SERVER</a></div><div class="ttdeci">@ SERVER</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_dynamic_loader_8cpp_source.html#l00063">core::DynamicLoader::dlClose()</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00085">core::DynamicLoader::dlError()</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00034">core::DynamicLoader::dlOpen()</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00081">core::DynamicLoader::dlSym()</a>, <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00150">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::searchPaths</a>, and <a class="el" href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#aaa9000a982c5189a90dc1f14074a90bfa3d27c95bfdbea691b250894d96852844">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::SERVER</a>.</p>
+<p class="reference">References <a class="el" href="_dynamic_loader_8cpp_source.html#l00067">core::DynamicLoader::dlClose()</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00089">core::DynamicLoader::dlError()</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00038">core::DynamicLoader::dlOpen()</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00085">core::DynamicLoader::dlSym()</a>, <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00150">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::searchPaths</a>, and <a class="el" href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#aaa9000a982c5189a90dc1f14074a90bfa3d27c95bfdbea691b250894d96852844">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::SERVER</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00102">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::select()</a>.</p>
 <div class="dynheader">
@@ -585,7 +571,7 @@ template&lt;typename SubProtocolFactoryT &gt; </div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00148">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::subProtocolFactories</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="client_2_socket_context_upgrade_8cpp_source.html#l00040">web::websocket::client::SocketContextUpgrade::create()</a>, <a class="el" href="server_2_socket_context_upgrade_8cpp_source.html#l00040">web::websocket::server::SocketContextUpgrade::create()</a>, <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00102">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::select()</a>, <a class="el" href="client_2_socket_context_upgrade_8cpp_source.html#l00064">web::websocket::client::SocketContextUpgrade::~SocketContextUpgrade()</a>, and <a class="el" href="server_2_socket_context_upgrade_8cpp_source.html#l00064">web::websocket::server::SocketContextUpgrade::~SocketContextUpgrade()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="client_2_socket_context_upgrade_8cpp_source.html#l00041">web::websocket::client::SocketContextUpgrade::create()</a>, <a class="el" href="server_2_socket_context_upgrade_8cpp_source.html#l00041">web::websocket::server::SocketContextUpgrade::create()</a>, <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00102">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::select()</a>, <a class="el" href="client_2_socket_context_upgrade_8cpp_source.html#l00065">web::websocket::client::SocketContextUpgrade::~SocketContextUpgrade()</a>, and <a class="el" href="server_2_socket_context_upgrade_8cpp_source.html#l00065">web::websocket::server::SocketContextUpgrade::~SocketContextUpgrade()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -704,11 +690,11 @@ template&lt;typename SubProtocolFactoryT &gt; </div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                <a class="code" href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#a4a2032db8796706f293a0feed5d433bf">subProtocolFactories</a>.erase(name);</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            }</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        }</div>
-<div class="ttc" id="aclasscore_1_1_dynamic_loader_html_aea517617ba189573803a8c3a4c5e9575"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#aea517617ba189573803a8c3a4c5e9575">core::DynamicLoader::dlCloseDelayed</a></div><div class="ttdeci">static void dlCloseDelayed(void *handle)</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00049">DynamicLoader.cpp:49</a></div></div>
+<div class="ttc" id="aclasscore_1_1_dynamic_loader_html_aea517617ba189573803a8c3a4c5e9575"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#aea517617ba189573803a8c3a4c5e9575">core::DynamicLoader::dlCloseDelayed</a></div><div class="ttdeci">static void dlCloseDelayed(void *handle)</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00053">DynamicLoader.cpp:53</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_dynamic_loader_8cpp_source.html#l00049">core::DynamicLoader::dlCloseDelayed()</a>, and <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00148">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::subProtocolFactories</a>.</p>
+<p class="reference">References <a class="el" href="_dynamic_loader_8cpp_source.html#l00053">core::DynamicLoader::dlCloseDelayed()</a>, and <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00148">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::subProtocolFactories</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="client_2_socket_context_upgrade_8cpp_source.html#l00040">web::websocket::client::SocketContextUpgrade::create()</a>, <a class="el" href="server_2_socket_context_upgrade_8cpp_source.html#l00040">web::websocket::server::SocketContextUpgrade::create()</a>, <a class="el" href="client_2_socket_context_upgrade_8cpp_source.html#l00064">web::websocket::client::SocketContextUpgrade::~SocketContextUpgrade()</a>, and <a class="el" href="server_2_socket_context_upgrade_8cpp_source.html#l00064">web::websocket::server::SocketContextUpgrade::~SocketContextUpgrade()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="client_2_socket_context_upgrade_8cpp_source.html#l00041">web::websocket::client::SocketContextUpgrade::create()</a>, <a class="el" href="server_2_socket_context_upgrade_8cpp_source.html#l00041">web::websocket::server::SocketContextUpgrade::create()</a>, <a class="el" href="client_2_socket_context_upgrade_8cpp_source.html#l00065">web::websocket::client::SocketContextUpgrade::~SocketContextUpgrade()</a>, and <a class="el" href="server_2_socket_context_upgrade_8cpp_source.html#l00065">web::websocket::server::SocketContextUpgrade::~SocketContextUpgrade()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -749,7 +735,7 @@ template&lt;typename SubProtocolFactoryT &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00149">149</a> of file <a class="el" href="_sub_protocol_factory_selector_8h_source.html">SubProtocolFactorySelector.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00142">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::linkSubProtocolFactory()</a>, and <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00102">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::select()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00142">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::link()</a>, and <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00102">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::select()</a>.</p>
 
 </div>
 </div>
@@ -777,7 +763,7 @@ template&lt;typename SubProtocolFactoryT &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00152">152</a> of file <a class="el" href="_sub_protocol_factory_selector_8h_source.html">SubProtocolFactorySelector.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00138">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::allowDlOpen()</a>, <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00142">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::linkSubProtocolFactory()</a>, and <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00102">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::select()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00138">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::allowDlOpen()</a>, <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00142">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::link()</a>, and <a class="el" href="_sub_protocol_factory_selector_8h_source.html#l00102">web::websocket::SubProtocolFactorySelector&lt; SubProtocolFactoryT &gt;::select()</a>.</p>
 
 </div>
 </div>
@@ -846,7 +832,7 @@ template&lt;typename SubProtocolFactoryT &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceweb.html">web</a></li><li class="navelem"><a class="el" href="namespaceweb_1_1websocket.html">websocket</a></li><li class="navelem"><a class="el" href="classweb_1_1websocket_1_1_sub_protocol_factory_selector.html">SubProtocolFactorySelector</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Jul 24 2022 13:11:11 for snode.c by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

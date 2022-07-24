@@ -161,6 +161,7 @@ var annotated_dup =
           [ "SocketServer", "classcore_1_1socket_1_1stream_1_1_socket_server.html", "classcore_1_1socket_1_1stream_1_1_socket_server" ],
           [ "SocketWriter", "classcore_1_1socket_1_1stream_1_1_socket_writer.html", "classcore_1_1socket_1_1stream_1_1_socket_writer" ]
         ] ],
+        [ "Socket", "classcore_1_1socket_1_1_socket.html", "classcore_1_1socket_1_1_socket" ],
         [ "SocketConnection", "classcore_1_1socket_1_1_socket_connection.html", "classcore_1_1socket_1_1_socket_connection" ],
         [ "SocketContext", "classcore_1_1socket_1_1_socket_context.html", "classcore_1_1socket_1_1_socket_context" ],
         [ "SocketContextFactory", "classcore_1_1socket_1_1_socket_context_factory.html", "classcore_1_1socket_1_1_socket_context_factory" ]
@@ -228,6 +229,7 @@ var annotated_dup =
         [ "StaticMiddleware", "classexpress_1_1middleware_1_1_static_middleware.html", "classexpress_1_1middleware_1_1_static_middleware" ],
         [ "VHost", "classexpress_1_1middleware_1_1_v_host.html", "classexpress_1_1middleware_1_1_v_host" ]
       ] ],
+      [ "Controller", "classexpress_1_1_controller.html", "classexpress_1_1_controller" ],
       [ "Dispatcher", "classexpress_1_1_dispatcher.html", "classexpress_1_1_dispatcher" ],
       [ "MountPoint", "structexpress_1_1_mount_point.html", "structexpress_1_1_mount_point" ],
       [ "Next", "classexpress_1_1_next.html", "classexpress_1_1_next" ],
@@ -236,7 +238,6 @@ var annotated_dup =
       [ "RootRoute", "classexpress_1_1_root_route.html", "classexpress_1_1_root_route" ],
       [ "Route", "classexpress_1_1_route.html", "classexpress_1_1_route" ],
       [ "Router", "classexpress_1_1_router.html", "classexpress_1_1_router" ],
-      [ "State", "classexpress_1_1_state.html", "classexpress_1_1_state" ],
       [ "WebApp", "classexpress_1_1_web_app.html", "classexpress_1_1_web_app" ],
       [ "WebAppT", "classexpress_1_1_web_app_t.html", "classexpress_1_1_web_app_t" ]
     ] ],
@@ -502,8 +503,8 @@ var annotated_dup =
         [ "Parser", "classweb_1_1http_1_1_parser.html", "classweb_1_1http_1_1_parser" ],
         [ "SocketContext", "classweb_1_1http_1_1_socket_context.html", "classweb_1_1http_1_1_socket_context" ],
         [ "SocketContextFactory", "classweb_1_1http_1_1_socket_context_factory.html", "classweb_1_1http_1_1_socket_context_factory" ],
-        [ "SocketContextUpgrade", "classweb_1_1http_1_1_socket_context_upgrade.html", "classweb_1_1http_1_1_socket_context_upgrade" ],
         [ "SocketContextUpgradeFactory", "classweb_1_1http_1_1_socket_context_upgrade_factory.html", "classweb_1_1http_1_1_socket_context_upgrade_factory" ],
+        [ "SocketContextUpgrade", "classweb_1_1http_1_1_socket_context_upgrade.html", "classweb_1_1http_1_1_socket_context_upgrade" ],
         [ "SocketContextUpgradeFactorySelector", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector.html", "classweb_1_1http_1_1_socket_context_upgrade_factory_selector" ],
         [ "StatusCode", "classweb_1_1http_1_1_status_code.html", "classweb_1_1http_1_1_status_code" ]
       ] ],

@@ -8,7 +8,6 @@ var classcore_1_1socket_1_1stream_1_1_socket_server =
     [ "SocketServer", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a2424c364aa33f8405fc27b776ebf53da", null ],
     [ "SocketServer", "classcore_1_1socket_1_1stream_1_1_socket_server.html#af4165a5b4e3de1339b1216b5302cc65f", null ],
     [ "SocketServer", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a67940d772fed78f1bcdb86a79c38fcc8", null ],
-    [ "SocketServer", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a2804a180d44c030036ed58c37abea6ac", null ],
     [ "getSocketContextFactory", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a52cf04763dd03dd0814645739a321547", null ],
     [ "listen", "classcore_1_1socket_1_1stream_1_1_socket_server.html#a86637eb04218f14db5b4a4588a655dda", null ],
     [ "onConnect", "classcore_1_1socket_1_1stream_1_1_socket_server.html#ab90b9b3c70d31bb94d0f16d65ad611a0", null ],

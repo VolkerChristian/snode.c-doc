@@ -1,6 +1,10 @@
 var dir_55e2b5896cfedaa9128ab09eb6ffed25 =
 [
     [ "stream", "dir_fda6a541e73aa8ed23b6fa172f5dc60d.html", "dir_fda6a541e73aa8ed23b6fa172f5dc60d" ],
+    [ "Socket.cpp", "core_2socket_2_socket_8cpp.html", null ],
+    [ "Socket.h", "core_2socket_2_socket_8h.html", [
+      [ "Socket", "classcore_1_1socket_1_1_socket.html", "classcore_1_1socket_1_1_socket" ]
+    ] ],
     [ "SocketConnection.cpp", "_socket_connection_8cpp.html", null ],
     [ "SocketConnection.h", "_socket_connection_8h.html", [
       [ "SocketConnection", "classcore_1_1socket_1_1_socket_connection.html", "classcore_1_1socket_1_1_socket_connection" ]

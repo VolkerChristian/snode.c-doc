@@ -10,7 +10,7 @@ var classweb_1_1websocket_1_1_sub_protocol_factory_selector =
     [ "~SubProtocolFactorySelector", "classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#aa18889f5bf18f13d7d4e155e91b74b0a", null ],
     [ "addSubProtocolSearchPath", "classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#a24187089d3b7a24a906db284c499987d", null ],
     [ "allowDlOpen", "classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#a0a3d8a4b2dfbe3e82e2ebd49b110d7ed", null ],
-    [ "linkSubProtocolFactory", "classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#a1f2cf778470cf731b5f0acf213ffc4d4", null ],
+    [ "link", "classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#a873f6ee30090d1c1e9f002c19355a191", null ],
     [ "load", "classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#af574d40a7e9b0fe561747e793d75176d", null ],
     [ "operator=", "classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#a9814020819e199a8f009d4f68f8b7ff3", null ],
     [ "select", "classweb_1_1websocket_1_1_sub_protocol_factory_selector.html#a128338657a57f6a94a910e95daf91e27", null ],

@@ -174,8 +174,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a2b8123b8ce0563006bda5ad1f0ab2636"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5f178c267e5456514d28244ac25dd0c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_multiplexer.html#ac5f178c267e5456514d28244ac25dd0c">publishActiveEvents</a> ()=0</td></tr>
 <tr class="separator:ac5f178c267e5456514d28244ac25dd0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0818d2d77e21c6a56223a961e9864f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_multiplexer.html#ae0818d2d77e21c6a56223a961e9864f8">unobserveDisabledEvents</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime)</td></tr>
-<tr class="separator:ae0818d2d77e21c6a56223a961e9864f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e7720b5765f5cced89b46b8061b4901"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_multiplexer.html#a6e7720b5765f5cced89b46b8061b4901">purgeReleasedResources</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime)</td></tr>
+<tr class="separator:a6e7720b5765f5cced89b46b8061b4901"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3e7b68817fc910c020a9981b2e58c61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcore_1_1_event_multiplexer.html#af3e7b68817fc910c020a9981b2e58c61">executeEventQueue</a> (const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;currentTime)</td></tr>
 <tr class="separator:af3e7b68817fc910c020a9981b2e58c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -401,22 +401,20 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_event_multiplexer_8cpp_source.html#l00152">152</a> of file <a class="el" href="_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                                                                            {</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <a class="code" href="classcore_1_1_event_multiplexer.html#a457739afddcd290ad13bafe1a3ab3ad4">eventQueue</a>.<a class="code" href="classcore_1_1_event_multiplexer_1_1_event_queue.html#af3c487910b6de3faae228b92ecedb06a">execute</a>(currentTime);</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <a class="code" href="classcore_1_1_dynamic_loader.html#a8c4d850882c7177f93a543b96eb450a0">DynamicLoader::execDlCloseDeleyed</a>();</div>
+<p class="definition">Definition at line <a class="el" href="_event_multiplexer_8cpp_source.html#l00153">153</a> of file <a class="el" href="_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <a class="code" href="classcore_1_1_event_multiplexer.html#a457739afddcd290ad13bafe1a3ab3ad4">eventQueue</a>.<a class="code" href="classcore_1_1_event_multiplexer_1_1_event_queue.html#af3c487910b6de3faae228b92ecedb06a">execute</a>(currentTime);</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1_dynamic_loader_html_a8c4d850882c7177f93a543b96eb450a0"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#a8c4d850882c7177f93a543b96eb450a0">core::DynamicLoader::execDlCloseDeleyed</a></div><div class="ttdeci">static void execDlCloseDeleyed()</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00108">DynamicLoader.cpp:108</a></div></div>
 <div class="ttc" id="aclasscore_1_1_event_multiplexer_1_1_event_queue_html_af3c487910b6de3faae228b92ecedb06a"><div class="ttname"><a href="classcore_1_1_event_multiplexer_1_1_event_queue.html#af3c487910b6de3faae228b92ecedb06a">core::EventMultiplexer::EventQueue::execute</a></div><div class="ttdeci">void execute(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_event_multiplexer_8cpp_source.html#l00180">EventMultiplexer.cpp:180</a></div></div>
 <div class="ttc" id="aclasscore_1_1_event_multiplexer_html_a457739afddcd290ad13bafe1a3ab3ad4"><div class="ttname"><a href="classcore_1_1_event_multiplexer.html#a457739afddcd290ad13bafe1a3ab3ad4">core::EventMultiplexer::eventQueue</a></div><div class="ttdeci">EventQueue eventQueue</div><div class="ttdef"><b>Definition:</b> <a href="_event_multiplexer_8h_source.html#l00110">EventMultiplexer.h:110</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_multiplexer_8h_source.html#l00110">eventQueue</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00108">core::DynamicLoader::execDlCloseDeleyed()</a>, and <a class="el" href="_event_multiplexer_8cpp_source.html#l00180">core::EventMultiplexer::EventQueue::execute()</a>.</p>
+<p class="reference">References <a class="el" href="_event_multiplexer_8h_source.html#l00110">eventQueue</a>, and <a class="el" href="_event_multiplexer_8cpp_source.html#l00180">core::EventMultiplexer::EventQueue::execute()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_event_multiplexer_8cpp_source.html#l00086">tick()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_multiplexer_af3e7b68817fc910c020a9981b2e58c61_cgraph.svg" width="814" height="150"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_multiplexer_af3e7b68817fc910c020a9981b2e58c61_cgraph.svg" width="398" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -809,6 +807,59 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a6e7720b5765f5cced89b46b8061b4901"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e7720b5765f5cced89b46b8061b4901">&#9670;&nbsp;</a></span>purgeReleasedResources()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void core::EventMultiplexer::purgeReleasedResources </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;&#160;</td>
+          <td class="paramname"><em>currentTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_event_multiplexer_8cpp_source.html#l00145">145</a> of file <a class="el" href="_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                                                                                 {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_event_multiplexer.html#ad8fdf38b934708783fc2e575dcfd3232">DescriptorEventPublisher</a>* <span class="keyword">const</span> descriptorEventPublisher : <a class="code" href="classcore_1_1_event_multiplexer.html#a8060724fcd738de104bcd8eb97ee9ce2">descriptorEventPublishers</a>) {</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            descriptorEventPublisher-&gt;unobserveDisabledEvents(currentTime);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        }</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <a class="code" href="classcore_1_1_event_multiplexer.html#af9490865c8f016ec248e68c5a376fc21">timerEventPublisher</a>-&gt;<a class="code" href="classcore_1_1_timer_event_publisher.html#a7064625a77fa629ae729f73b839e4264">unobserveDisableEvents</a>();</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <a class="code" href="classcore_1_1_dynamic_loader.html#a8c4d850882c7177f93a543b96eb450a0">DynamicLoader::execDlCloseDeleyed</a>();</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    }</div>
+<div class="ttc" id="aclasscore_1_1_dynamic_loader_html_a8c4d850882c7177f93a543b96eb450a0"><div class="ttname"><a href="classcore_1_1_dynamic_loader.html#a8c4d850882c7177f93a543b96eb450a0">core::DynamicLoader::execDlCloseDeleyed</a></div><div class="ttdeci">static void execDlCloseDeleyed()</div><div class="ttdef"><b>Definition:</b> <a href="_dynamic_loader_8cpp_source.html#l00112">DynamicLoader.cpp:112</a></div></div>
+<div class="ttc" id="aclasscore_1_1_timer_event_publisher_html_a7064625a77fa629ae729f73b839e4264"><div class="ttname"><a href="classcore_1_1_timer_event_publisher.html#a7064625a77fa629ae729f73b839e4264">core::TimerEventPublisher::unobserveDisableEvents</a></div><div class="ttdeci">void unobserveDisableEvents()</div><div class="ttdef"><b>Definition:</b> <a href="_timer_event_publisher_8cpp_source.html#l00058">TimerEventPublisher.cpp:58</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="_event_multiplexer_8h_source.html#l00104">descriptorEventPublishers</a>, <a class="el" href="_dynamic_loader_8cpp_source.html#l00112">core::DynamicLoader::execDlCloseDeleyed()</a>, <a class="el" href="_event_multiplexer_8h_source.html#l00105">timerEventPublisher</a>, and <a class="el" href="_timer_event_publisher_8cpp_source.html#l00058">core::TimerEventPublisher::unobserveDisableEvents()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_event_multiplexer_8cpp_source.html#l00086">tick()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_multiplexer_a6e7720b5765f5cced89b46b8061b4901_cgraph.svg" width="862" height="150"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_multiplexer_a6e7720b5765f5cced89b46b8061b4901_icgraph.svg" width="1495" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a56149f93e86262641e94e42d8d5b9a2b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a56149f93e86262641e94e42d8d5b9a2b">&#9670;&nbsp;</a></span>stop()</h2>
 
@@ -835,7 +886,7 @@ Here is the call graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_event_multiplexer_8h_source.html#l00104">descriptorEventPublishers</a>, <a class="el" href="_timer_event_publisher_8cpp_source.html#l00085">core::TimerEventPublisher::stop()</a>, and <a class="el" href="_event_multiplexer_8h_source.html#l00105">timerEventPublisher</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_loop_8cpp_source.html#l00176">core::EventLoop::free()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_loop_8cpp_source.html#l00179">core::EventLoop::free()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -876,7 +927,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <a class="code" href="classcore_1_1_event_multiplexer.html#ac5f178c267e5456514d28244ac25dd0c">publishActiveEvents</a>(currentTime);</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="classcore_1_1_event_multiplexer.html#af3e7b68817fc910c020a9981b2e58c61">executeEventQueue</a>(currentTime);</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <a class="code" href="classcore_1_1_event_multiplexer.html#a21830006341a0137542d35ba0c57295a">checkTimedOutEvents</a>(currentTime);</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <a class="code" href="classcore_1_1_event_multiplexer.html#ae0818d2d77e21c6a56223a961e9864f8">unobserveDisabledEvents</a>(currentTime);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <a class="code" href="classcore_1_1_event_multiplexer.html#a6e7720b5765f5cced89b46b8061b4901">purgeReleasedResources</a>(currentTime);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classcore_1_1_event_multiplexer.html#a06c3f9f6da45e6cfbe8da52792c25596">getObservedEventReceiverCount</a>() &gt; 0 || !<a class="code" href="classcore_1_1_event_multiplexer.html#af9490865c8f016ec248e68c5a376fc21">timerEventPublisher</a>-&gt;<a class="code" href="classcore_1_1_timer_event_publisher.html#a05883e2317e3c244387b654916f480e0">empty</a>() || !<a class="code" href="classcore_1_1_event_multiplexer.html#a457739afddcd290ad13bafe1a3ab3ad4">eventQueue</a>.<a class="code" href="classcore_1_1_event_multiplexer_1_1_event_queue.html#a05ecc5808b60fde7388876e96b540f29">empty</a>()) {</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            <a class="code" href="classutils_1_1_timeval.html">utils::Timeval</a> nextTimeout = std::min(<a class="code" href="classcore_1_1_event_multiplexer.html#a1747151aa22c4bcbdb9b67c11d0fd403">getNextTimeout</a>(currentTime), tickTimeOut);</div>
@@ -896,9 +947,9 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="aclasscore_1_1_event_multiplexer_html_a1747151aa22c4bcbdb9b67c11d0fd403"><div class="ttname"><a href="classcore_1_1_event_multiplexer.html#a1747151aa22c4bcbdb9b67c11d0fd403">core::EventMultiplexer::getNextTimeout</a></div><div class="ttdeci">utils::Timeval getNextTimeout(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_event_multiplexer_8cpp_source.html#l00118">EventMultiplexer.cpp:118</a></div></div>
 <div class="ttc" id="aclasscore_1_1_event_multiplexer_html_a21830006341a0137542d35ba0c57295a"><div class="ttname"><a href="classcore_1_1_event_multiplexer.html#a21830006341a0137542d35ba0c57295a">core::EventMultiplexer::checkTimedOutEvents</a></div><div class="ttdeci">void checkTimedOutEvents(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_event_multiplexer_8cpp_source.html#l00134">EventMultiplexer.cpp:134</a></div></div>
 <div class="ttc" id="aclasscore_1_1_event_multiplexer_html_a315da7c21cdd5f3ab89ec758d8ac1c08"><div class="ttname"><a href="classcore_1_1_event_multiplexer.html#a315da7c21cdd5f3ab89ec758d8ac1c08">core::EventMultiplexer::activeEventCount</a></div><div class="ttdeci">int activeEventCount</div><div class="ttdef"><b>Definition:</b> <a href="_event_multiplexer_8h_source.html#l00107">EventMultiplexer.h:107</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_multiplexer_html_a6e7720b5765f5cced89b46b8061b4901"><div class="ttname"><a href="classcore_1_1_event_multiplexer.html#a6e7720b5765f5cced89b46b8061b4901">core::EventMultiplexer::purgeReleasedResources</a></div><div class="ttdeci">void purgeReleasedResources(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_event_multiplexer_8cpp_source.html#l00145">EventMultiplexer.cpp:145</a></div></div>
 <div class="ttc" id="aclasscore_1_1_event_multiplexer_html_a994b5247211617b78b84e3ada902780a"><div class="ttname"><a href="classcore_1_1_event_multiplexer.html#a994b5247211617b78b84e3ada902780a">core::EventMultiplexer::multiplex</a></div><div class="ttdeci">virtual int multiplex(utils::Timeval &amp;tickTimeOut)=0</div></div>
-<div class="ttc" id="aclasscore_1_1_event_multiplexer_html_ae0818d2d77e21c6a56223a961e9864f8"><div class="ttname"><a href="classcore_1_1_event_multiplexer.html#ae0818d2d77e21c6a56223a961e9864f8">core::EventMultiplexer::unobserveDisabledEvents</a></div><div class="ttdeci">void unobserveDisabledEvents(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_event_multiplexer_8cpp_source.html#l00145">EventMultiplexer.cpp:145</a></div></div>
-<div class="ttc" id="aclasscore_1_1_event_multiplexer_html_af3e7b68817fc910c020a9981b2e58c61"><div class="ttname"><a href="classcore_1_1_event_multiplexer.html#af3e7b68817fc910c020a9981b2e58c61">core::EventMultiplexer::executeEventQueue</a></div><div class="ttdeci">void executeEventQueue(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_event_multiplexer_8cpp_source.html#l00152">EventMultiplexer.cpp:152</a></div></div>
+<div class="ttc" id="aclasscore_1_1_event_multiplexer_html_af3e7b68817fc910c020a9981b2e58c61"><div class="ttname"><a href="classcore_1_1_event_multiplexer.html#af3e7b68817fc910c020a9981b2e58c61">core::EventMultiplexer::executeEventQueue</a></div><div class="ttdeci">void executeEventQueue(const utils::Timeval &amp;currentTime)</div><div class="ttdef"><b>Definition:</b> <a href="_event_multiplexer_8cpp_source.html#l00153">EventMultiplexer.cpp:153</a></div></div>
 <div class="ttc" id="aclasscore_1_1_timer_event_publisher_html_a05883e2317e3c244387b654916f480e0"><div class="ttname"><a href="classcore_1_1_timer_event_publisher.html#a05883e2317e3c244387b654916f480e0">core::TimerEventPublisher::empty</a></div><div class="ttdeci">bool empty()</div><div class="ttdef"><b>Definition:</b> <a href="_timer_event_publisher_8cpp_source.html#l00081">TimerEventPublisher.cpp:81</a></div></div>
 <div class="ttc" id="aclassutils_1_1_timeval_html_a54b232dc1ffeea007100dcd1caad1987"><div class="ttname"><a href="classutils_1_1_timeval.html#a54b232dc1ffeea007100dcd1caad1987">utils::Timeval::currentTime</a></div><div class="ttdeci">static Timeval currentTime()</div><div class="ttdef"><b>Definition:</b> <a href="_timeval_8cpp_source.html#l00061">Timeval.cpp:61</a></div></div>
 <div class="ttc" id="anamespacecore_html_a47acf5c7d3fb3967a2547c74082e9749"><div class="ttname"><a href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749">core::TickStatus</a></div><div class="ttdeci">TickStatus</div><div class="ttdef"><b>Definition:</b> <a href="_tick_status_8h_source.html#l00028">TickStatus.h:28</a></div></div>
@@ -906,70 +957,19 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="anamespacecore_html_a47acf5c7d3fb3967a2547c74082e9749abb1ca97ec761fc37101737ba0aa2e7c5"><div class="ttname"><a href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749abb1ca97ec761fc37101737ba0aa2e7c5">core::TickStatus::ERROR</a></div><div class="ttdeci">@ ERROR</div></div>
 <div class="ttc" id="anamespacecore_html_a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c"><div class="ttname"><a href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c">core::TickStatus::SUCCESS</a></div><div class="ttdeci">@ SUCCESS</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_multiplexer_8h_source.html#l00107">activeEventCount</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00134">checkTimedOutEvents()</a>, <a class="el" href="_timeval_8cpp_source.html#l00061">utils::Timeval::currentTime()</a>, <a class="el" href="_timer_event_publisher_8cpp_source.html#l00081">core::TimerEventPublisher::empty()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00194">core::EventMultiplexer::EventQueue::empty()</a>, <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749abb1ca97ec761fc37101737ba0aa2e7c5">core::ERROR</a>, <a class="el" href="_event_multiplexer_8h_source.html#l00110">eventQueue</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00152">executeEventQueue()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00118">getNextTimeout()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00068">getObservedEventReceiverCount()</a>, <a class="el" href="classcore_1_1_event_multiplexer.html#a994b5247211617b78b84e3ada902780a">multiplex()</a>, <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749a925ec21267dbd278be63adfb4a34bf98">core::NO_OBSERVER</a>, <a class="el" href="classcore_1_1_event_multiplexer.html#ac5f178c267e5456514d28244ac25dd0c">publishActiveEvents()</a>, <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c">core::SUCCESS</a>, <a class="el" href="_event_multiplexer_8h_source.html#l00105">timerEventPublisher</a>, and <a class="el" href="_event_multiplexer_8cpp_source.html#l00145">unobserveDisabledEvents()</a>.</p>
+<p class="reference">References <a class="el" href="_event_multiplexer_8h_source.html#l00107">activeEventCount</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00134">checkTimedOutEvents()</a>, <a class="el" href="_timeval_8cpp_source.html#l00061">utils::Timeval::currentTime()</a>, <a class="el" href="_timer_event_publisher_8cpp_source.html#l00081">core::TimerEventPublisher::empty()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00194">core::EventMultiplexer::EventQueue::empty()</a>, <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749abb1ca97ec761fc37101737ba0aa2e7c5">core::ERROR</a>, <a class="el" href="_event_multiplexer_8h_source.html#l00110">eventQueue</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00153">executeEventQueue()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00118">getNextTimeout()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00068">getObservedEventReceiverCount()</a>, <a class="el" href="classcore_1_1_event_multiplexer.html#a994b5247211617b78b84e3ada902780a">multiplex()</a>, <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749a925ec21267dbd278be63adfb4a34bf98">core::NO_OBSERVER</a>, <a class="el" href="classcore_1_1_event_multiplexer.html#ac5f178c267e5456514d28244ac25dd0c">publishActiveEvents()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00145">purgeReleasedResources()</a>, <a class="el" href="namespacecore.html#a47acf5c7d3fb3967a2547c74082e9749ad0749aaba8b833466dfcbb0428e4f89c">core::SUCCESS</a>, and <a class="el" href="_event_multiplexer_8h_source.html#l00105">timerEventPublisher</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_event_loop_8cpp_source.html#l00085">core::EventLoop::_tick()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_multiplexer_a31ffc5108d12ad959b94dffcaccc2649_cgraph.svg" width="1140" height="614"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_multiplexer_a31ffc5108d12ad959b94dffcaccc2649_cgraph.svg" width="1140" height="646"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_multiplexer_a31ffc5108d12ad959b94dffcaccc2649_icgraph.svg" width="1252" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="ae0818d2d77e21c6a56223a961e9864f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0818d2d77e21c6a56223a961e9864f8">&#9670;&nbsp;</a></span>unobserveDisabledEvents()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void core::EventMultiplexer::unobserveDisabledEvents </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classutils_1_1_timeval.html">utils::Timeval</a> &amp;&#160;</td>
-          <td class="paramname"><em>currentTime</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_event_multiplexer_8cpp_source.html#l00145">145</a> of file <a class="el" href="_event_multiplexer_8cpp_source.html">EventMultiplexer.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                                                                                  {</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="classcore_1_1_event_multiplexer.html#ad8fdf38b934708783fc2e575dcfd3232">DescriptorEventPublisher</a>* <span class="keyword">const</span> descriptorEventPublisher : <a class="code" href="classcore_1_1_event_multiplexer.html#a8060724fcd738de104bcd8eb97ee9ce2">descriptorEventPublishers</a>) {</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            descriptorEventPublisher-&gt;unobserveDisabledEvents(currentTime);</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        }</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <a class="code" href="classcore_1_1_event_multiplexer.html#af9490865c8f016ec248e68c5a376fc21">timerEventPublisher</a>-&gt;<a class="code" href="classcore_1_1_timer_event_publisher.html#a7064625a77fa629ae729f73b839e4264">unobserveDisableEvents</a>();</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    }</div>
-<div class="ttc" id="aclasscore_1_1_timer_event_publisher_html_a7064625a77fa629ae729f73b839e4264"><div class="ttname"><a href="classcore_1_1_timer_event_publisher.html#a7064625a77fa629ae729f73b839e4264">core::TimerEventPublisher::unobserveDisableEvents</a></div><div class="ttdeci">void unobserveDisableEvents()</div><div class="ttdef"><b>Definition:</b> <a href="_timer_event_publisher_8cpp_source.html#l00058">TimerEventPublisher.cpp:58</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="_event_multiplexer_8h_source.html#l00104">descriptorEventPublishers</a>, <a class="el" href="_event_multiplexer_8h_source.html#l00105">timerEventPublisher</a>, and <a class="el" href="_timer_event_publisher_8cpp_source.html#l00058">core::TimerEventPublisher::unobserveDisableEvents()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="_event_multiplexer_8cpp_source.html#l00086">tick()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_multiplexer_ae0818d2d77e21c6a56223a961e9864f8_cgraph.svg" width="450" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcore_1_1_event_multiplexer_ae0818d2d77e21c6a56223a961e9864f8_icgraph.svg" width="1499" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1089,7 +1089,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_event_multiplexer_8h_source.html#l00104">104</a> of file <a class="el" href="_event_multiplexer_8h_source.html">EventMultiplexer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_multiplexer_8cpp_source.html#l00134">checkTimedOutEvents()</a>, <a class="el" href="multiplexer_2epoll_2_event_multiplexer_8cpp_source.html#l00037">core::epoll::EventMultiplexer::EventMultiplexer()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00052">getDescriptorEventPublisher()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00077">getMaxFd()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00118">getNextTimeout()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00068">getObservedEventReceiverCount()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00142">core::poll::EventMultiplexer::publishActiveEvents()</a>, <a class="el" href="multiplexer_2select_2_event_multiplexer_8cpp_source.html#l00047">core::select::EventMultiplexer::publishActiveEvents()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00111">stop()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00145">unobserveDisabledEvents()</a>, and <a class="el" href="_event_multiplexer_8cpp_source.html#l00045">~EventMultiplexer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_multiplexer_8cpp_source.html#l00134">checkTimedOutEvents()</a>, <a class="el" href="multiplexer_2epoll_2_event_multiplexer_8cpp_source.html#l00037">core::epoll::EventMultiplexer::EventMultiplexer()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00052">getDescriptorEventPublisher()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00077">getMaxFd()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00118">getNextTimeout()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00068">getObservedEventReceiverCount()</a>, <a class="el" href="multiplexer_2poll_2_event_multiplexer_8cpp_source.html#l00142">core::poll::EventMultiplexer::publishActiveEvents()</a>, <a class="el" href="multiplexer_2select_2_event_multiplexer_8cpp_source.html#l00047">core::select::EventMultiplexer::publishActiveEvents()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00145">purgeReleasedResources()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00111">stop()</a>, and <a class="el" href="_event_multiplexer_8cpp_source.html#l00045">~EventMultiplexer()</a>.</p>
 
 </div>
 </div>
@@ -1115,7 +1115,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_event_multiplexer_8h_source.html#l00110">110</a> of file <a class="el" href="_event_multiplexer_8h_source.html">EventMultiplexer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_multiplexer_8cpp_source.html#l00152">executeEventQueue()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00118">getNextTimeout()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00060">publish()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00086">tick()</a>, and <a class="el" href="_event_multiplexer_8cpp_source.html#l00064">unPublish()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_multiplexer_8cpp_source.html#l00153">executeEventQueue()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00118">getNextTimeout()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00060">publish()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00086">tick()</a>, and <a class="el" href="_event_multiplexer_8cpp_source.html#l00064">unPublish()</a>.</p>
 
 </div>
 </div>
@@ -1141,7 +1141,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_event_multiplexer_8h_source.html#l00105">105</a> of file <a class="el" href="_event_multiplexer_8h_source.html">EventMultiplexer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_event_multiplexer_8cpp_source.html#l00118">getNextTimeout()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00056">getTimerEventPublisher()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00140">publishActiveEvents()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00111">stop()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00086">tick()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00145">unobserveDisabledEvents()</a>, and <a class="el" href="_event_multiplexer_8cpp_source.html#l00045">~EventMultiplexer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_event_multiplexer_8cpp_source.html#l00118">getNextTimeout()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00056">getTimerEventPublisher()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00140">publishActiveEvents()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00145">purgeReleasedResources()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00111">stop()</a>, <a class="el" href="_event_multiplexer_8cpp_source.html#l00086">tick()</a>, and <a class="el" href="_event_multiplexer_8cpp_source.html#l00045">~EventMultiplexer()</a>.</p>
 
 </div>
 </div>
@@ -1155,7 +1155,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacecore.html">core</a></li><li class="navelem"><a class="el" href="classcore_1_1_event_multiplexer.html">EventMultiplexer</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Jul 24 2022 13:11:10 for snode.c by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

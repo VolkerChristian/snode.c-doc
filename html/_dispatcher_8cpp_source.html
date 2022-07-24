@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('_dispatcher_8cpp_source.html',''); ini
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceexpress.html">express</a> {</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classexpress_1_1_dispatcher.html#af20cf8d42c2f1636e723c312c6aef8c4">   29</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classexpress_1_1_dispatcher.html#af20cf8d42c2f1636e723c312c6aef8c4">Dispatcher::dispatchNext</a>(<a class="code" href="classexpress_1_1_state.html">State</a>&amp; state, <span class="keyword">const</span> std::string&amp; parentMountPath) {</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classexpress_1_1_dispatcher.html#a51c1689ea0d8f8e331a0066adbada304">   29</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classexpress_1_1_dispatcher.html#a51c1689ea0d8f8e331a0066adbada304">Dispatcher::dispatchNext</a>(<a class="code" href="classexpress_1_1_controller.html">Controller</a>&amp; state, <span class="keyword">const</span> std::string&amp; parentMountPath) {</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">bool</span> dispatched = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classexpress_1_1_dispatcher.html#afb95ef17f1ff079e9f8e960f4b84e8af">next</a> != <span class="keyword">nullptr</span>) {</div>
@@ -126,17 +126,17 @@ $(document).ready(function(){initNavTree('_dispatcher_8cpp_source.html',''); ini
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;} <span class="comment">// namespace express</span></div>
 <div class="ttc" id="a_dispatcher_8h_html"><div class="ttname"><a href="_dispatcher_8h.html">Dispatcher.h</a></div></div>
 <div class="ttc" id="a_route_8h_html"><div class="ttname"><a href="_route_8h.html">Route.h</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_dispatcher_html_af20cf8d42c2f1636e723c312c6aef8c4"><div class="ttname"><a href="classexpress_1_1_dispatcher.html#af20cf8d42c2f1636e723c312c6aef8c4">express::Dispatcher::dispatchNext</a></div><div class="ttdeci">bool dispatchNext(State &amp;state, const std::string &amp;parentMountPath)</div><div class="ttdef"><b>Definition:</b> <a href="_dispatcher_8cpp_source.html#l00029">Dispatcher.cpp:29</a></div></div>
+<div class="ttc" id="aclassexpress_1_1_controller_html"><div class="ttname"><a href="classexpress_1_1_controller.html">express::Controller</a></div><div class="ttdef"><b>Definition:</b> <a href="_controller_8h_source.html#l00039">Controller.h:39</a></div></div>
+<div class="ttc" id="aclassexpress_1_1_dispatcher_html_a51c1689ea0d8f8e331a0066adbada304"><div class="ttname"><a href="classexpress_1_1_dispatcher.html#a51c1689ea0d8f8e331a0066adbada304">express::Dispatcher::dispatchNext</a></div><div class="ttdeci">bool dispatchNext(Controller &amp;state, const std::string &amp;parentMountPath)</div><div class="ttdef"><b>Definition:</b> <a href="_dispatcher_8cpp_source.html#l00029">Dispatcher.cpp:29</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_dispatcher_html_afb95ef17f1ff079e9f8e960f4b84e8af"><div class="ttname"><a href="classexpress_1_1_dispatcher.html#afb95ef17f1ff079e9f8e960f4b84e8af">express::Dispatcher::next</a></div><div class="ttdeci">std::shared_ptr&lt; Route &gt; next</div><div class="ttdef"><b>Definition:</b> <a href="_dispatcher_8h_source.html#l00051">Dispatcher.h:51</a></div></div>
-<div class="ttc" id="aclassexpress_1_1_state_html"><div class="ttname"><a href="classexpress_1_1_state.html">express::State</a></div><div class="ttdef"><b>Definition:</b> <a href="_state_8h_source.html#l00039">State.h:39</a></div></div>
-<div class="ttc" id="anamespaceexpress_html"><div class="ttname"><a href="namespaceexpress.html">express</a></div><div class="ttdef"><b>Definition:</b> <a href="_application_dispatcher_8cpp_source.html#l00030">ApplicationDispatcher.cpp:30</a></div></div>
+<div class="ttc" id="anamespaceexpress_html"><div class="ttname"><a href="namespaceexpress.html">express</a></div><div class="ttdef"><b>Definition:</b> <a href="_controller_8cpp_source.html#l00029">Controller.cpp:29</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_e2b20abddc1d75e9fa824bc5544f9c72.html">express</a></li><li class="navelem"><a class="el" href="_dispatcher_8cpp.html">Dispatcher.cpp</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Jul 24 2022 13:11:09 for snode.c by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

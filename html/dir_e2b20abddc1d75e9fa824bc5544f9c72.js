@@ -4,6 +4,10 @@ var dir_e2b20abddc1d75e9fa824bc5544f9c72 =
     [ "legacy", "dir_813e40856edb2020d05c45d9f24e81bd.html", "dir_813e40856edb2020d05c45d9f24e81bd" ],
     [ "middleware", "dir_a40e7579b6101fdd4a0cbf3e727ecb1c.html", "dir_a40e7579b6101fdd4a0cbf3e727ecb1c" ],
     [ "tls", "dir_ab88a46da4a6a033a58c85fe84c6148a.html", "dir_ab88a46da4a6a033a58c85fe84c6148a" ],
+    [ "Controller.cpp", "_controller_8cpp.html", null ],
+    [ "Controller.h", "_controller_8h.html", [
+      [ "Controller", "classexpress_1_1_controller.html", "classexpress_1_1_controller" ]
+    ] ],
     [ "Dispatcher.cpp", "_dispatcher_8cpp.html", null ],
     [ "Dispatcher.h", "_dispatcher_8h.html", [
       [ "Dispatcher", "classexpress_1_1_dispatcher.html", "classexpress_1_1_dispatcher" ]
@@ -32,10 +36,6 @@ var dir_e2b20abddc1d75e9fa824bc5544f9c72 =
     [ "Router.cpp", "_router_8cpp.html", "_router_8cpp" ],
     [ "Router.h", "_router_8h.html", "_router_8h" ],
     [ "Router.hpp", "_router_8hpp.html", "_router_8hpp" ],
-    [ "State.cpp", "_state_8cpp.html", null ],
-    [ "State.h", "_state_8h.html", [
-      [ "State", "classexpress_1_1_state.html", "classexpress_1_1_state" ]
-    ] ],
     [ "WebApp.cpp", "_web_app_8cpp.html", null ],
     [ "WebApp.h", "_web_app_8h.html", [
       [ "WebApp", "classexpress_1_1_web_app.html", "classexpress_1_1_web_app" ]

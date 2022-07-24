@@ -94,7 +94,7 @@ $(document).ready(function(){initNavTree('classnet_1_1stream_1_1_server_socket.h
 <div class="dynheader">
 Inheritance diagram for net::stream::ServerSocket&lt; SocketT &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1stream_1_1_server_socket__inherit__graph.svg" width="1146" height="338"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1stream_1_1_server_socket__inherit__graph.svg" width="202" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -108,10 +108,10 @@ Collaboration diagram for net::stream::ServerSocket&lt; SocketT &gt;:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aed63cb6b736be2003d1e69b6e00a3f46"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1stream_1_1_server_socket.html#aed63cb6b736be2003d1e69b6e00a3f46">listen</a> (int backlog)</td></tr>
 <tr class="separator:aed63cb6b736be2003d1e69b6e00a3f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab348866f38451308888b15841272aacb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1stream_1_1_server_socket.html#ab348866f38451308888b15841272aacb">accept</a> (typename SocketT::SocketAddress &amp;addr)</td></tr>
-<tr class="separator:ab348866f38451308888b15841272aacb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a135e88653a4279d52d349592e3b56eb1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1stream_1_1_server_socket.html#a135e88653a4279d52d349592e3b56eb1">accept4</a> (typename SocketT::SocketAddress &amp;addr, int flags)</td></tr>
-<tr class="separator:a135e88653a4279d52d349592e3b56eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a986952b8234f38ea7a6e26385839131e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1stream_1_1_server_socket.html#a986952b8234f38ea7a6e26385839131e">accept</a> (typename SocketT::SocketAddress &amp;remoteAddress)</td></tr>
+<tr class="separator:a986952b8234f38ea7a6e26385839131e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac50343717f9efb853e4343d7afdd3424"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1stream_1_1_server_socket.html#ac50343717f9efb853e4343d7afdd3424">accept4</a> (typename SocketT::SocketAddress &amp;remoteAddress, int flags)</td></tr>
+<tr class="separator:ac50343717f9efb853e4343d7afdd3424"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
@@ -152,8 +152,8 @@ template&lt;typename SocketT &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab348866f38451308888b15841272aacb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab348866f38451308888b15841272aacb">&#9670;&nbsp;</a></span>accept()</h2>
+<a id="a986952b8234f38ea7a6e26385839131e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a986952b8234f38ea7a6e26385839131e">&#9670;&nbsp;</a></span>accept()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -164,24 +164,24 @@ template&lt;typename SocketT &gt; </div>
           <td class="memname">int <a class="el" href="classnet_1_1stream_1_1_server_socket.html">net::stream::ServerSocket</a>&lt; <a class="el" href="classnet_1_1_socket.html">Socket</a> &gt;::accept </td>
           <td>(</td>
           <td class="paramtype">typename SocketT::SocketAddress &amp;&#160;</td>
-          <td class="paramname"><em>addr</em></td><td>)</td>
+          <td class="paramname"><em>remoteAddress</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_server_socket_8hpp_source.html#l00035">35</a> of file <a class="el" href="_server_socket_8hpp_source.html">ServerSocket.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                                                       {</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        addr.getAddrLen() = <span class="keyword">sizeof</span>(<span class="keyword">typename</span> Socket::SocketAddress::SockAddr);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespacecore_1_1system.html#a8b506c06e449e6bdf5aba1c6fdcad779">core::system::accept</a>(<a class="code" href="classcore_1_1_descriptor.html#af1ac9826d5c5f44bb357c845932ea5e4">Socket::getFd</a>(), addr, &amp;addr.getAddrLen());</div>
+<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                                                                {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        remoteAddress.getAddrLen() = <span class="keyword">sizeof</span>(<span class="keyword">typename</span> Socket::SocketAddress::SockAddr);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespacecore_1_1system.html#a8b506c06e449e6bdf5aba1c6fdcad779">core::system::accept</a>(<a class="code" href="classcore_1_1_descriptor.html#af1ac9826d5c5f44bb357c845932ea5e4">Socket::getFd</a>(), remoteAddress, &amp;remoteAddress.getAddrLen());</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
 <div class="ttc" id="aclasscore_1_1_descriptor_html_af1ac9826d5c5f44bb357c845932ea5e4"><div class="ttname"><a href="classcore_1_1_descriptor.html#af1ac9826d5c5f44bb357c845932ea5e4">core::Descriptor::getFd</a></div><div class="ttdeci">int getFd() const</div><div class="ttdef"><b>Definition:</b> <a href="_descriptor_8cpp_source.html#l00046">Descriptor.cpp:46</a></div></div>
-<div class="ttc" id="anamespacecore_1_1system_html_a8b506c06e449e6bdf5aba1c6fdcad779"><div class="ttname"><a href="namespacecore_1_1system.html#a8b506c06e449e6bdf5aba1c6fdcad779">core::system::accept</a></div><div class="ttdeci">int accept(int sockfd, sockaddr *addr, socklen_t *addrlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00044">socket.cpp:44</a></div></div>
+<div class="ttc" id="anamespacecore_1_1system_html_a8b506c06e449e6bdf5aba1c6fdcad779"><div class="ttname"><a href="namespacecore_1_1system.html#a8b506c06e449e6bdf5aba1c6fdcad779">core::system::accept</a></div><div class="ttdeci">int accept(int sockfd, sockaddr *addr, socklen_t *addrlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2_socket_8cpp_source.html#l00044">socket.cpp:44</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a135e88653a4279d52d349592e3b56eb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a135e88653a4279d52d349592e3b56eb1">&#9670;&nbsp;</a></span>accept4()</h2>
+<a id="ac50343717f9efb853e4343d7afdd3424"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac50343717f9efb853e4343d7afdd3424">&#9670;&nbsp;</a></span>accept4()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,7 +192,7 @@ template&lt;typename SocketT &gt; </div>
           <td class="memname">int <a class="el" href="classnet_1_1stream_1_1_server_socket.html">net::stream::ServerSocket</a>&lt; <a class="el" href="classnet_1_1_socket.html">Socket</a> &gt;::accept4 </td>
           <td>(</td>
           <td class="paramtype">typename SocketT::SocketAddress &amp;&#160;</td>
-          <td class="paramname"><em>addr</em>, </td>
+          <td class="paramname"><em>remoteAddress</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -209,17 +209,17 @@ template&lt;typename SocketT &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_server_socket_8hpp_source.html#l00041">41</a> of file <a class="el" href="_server_socket_8hpp_source.html">ServerSocket.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                                                                                   {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        addr.getAddrLen() = <span class="keyword">sizeof</span>(<span class="keyword">typename</span> Socket::SocketAddress::SockAddr);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespacecore_1_1system.html#ae6281ec9ee570c4a9af06541892cd952">core::system::accept4</a>(<a class="code" href="classcore_1_1_descriptor.html#af1ac9826d5c5f44bb357c845932ea5e4">Socket::getFd</a>(), addr, &amp;addr.getAddrLen(), flags);</div>
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                                                                                            {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        remoteAddress.getAddrLen() = <span class="keyword">sizeof</span>(<span class="keyword">typename</span> Socket::SocketAddress::SockAddr);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespacecore_1_1system.html#ae6281ec9ee570c4a9af06541892cd952">core::system::accept4</a>(<a class="code" href="classcore_1_1_descriptor.html#af1ac9826d5c5f44bb357c845932ea5e4">Socket::getFd</a>(), remoteAddress, &amp;remoteAddress.getAddrLen(), flags);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
-<div class="ttc" id="anamespacecore_1_1system_html_ae6281ec9ee570c4a9af06541892cd952"><div class="ttname"><a href="namespacecore_1_1system.html#ae6281ec9ee570c4a9af06541892cd952">core::system::accept4</a></div><div class="ttdeci">int accept4(int sockfd, sockaddr *addr, socklen_t *addrlen, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00049">socket.cpp:49</a></div></div>
+<div class="ttc" id="anamespacecore_1_1system_html_ae6281ec9ee570c4a9af06541892cd952"><div class="ttname"><a href="namespacecore_1_1system.html#ae6281ec9ee570c4a9af06541892cd952">core::system::accept4</a></div><div class="ttdeci">int accept4(int sockfd, sockaddr *addr, socklen_t *addrlen, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2_socket_8cpp_source.html#l00049">socket.cpp:49</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="core_2system_2socket_8cpp_source.html#l00049">core::system::accept4()</a>, and <a class="el" href="_descriptor_8cpp_source.html#l00046">core::Descriptor::getFd()</a>.</p>
+<p class="reference">References <a class="el" href="core_2system_2_socket_8cpp_source.html#l00049">core::system::accept4()</a>, and <a class="el" href="_descriptor_8cpp_source.html#l00046">core::Descriptor::getFd()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1stream_1_1_server_socket_a135e88653a4279d52d349592e3b56eb1_cgraph.svg" width="420" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1stream_1_1_server_socket_ac50343717f9efb853e4343d7afdd3424_cgraph.svg" width="420" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -247,9 +247,9 @@ template&lt;typename Socket &gt; </div>
 <div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                                {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespacecore_1_1system.html#a8d02857d418a45aa380ebafec930b18f">core::system::listen</a>(<a class="code" href="classcore_1_1_descriptor.html#af1ac9826d5c5f44bb357c845932ea5e4">Socket::getFd</a>(), backlog);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
-<div class="ttc" id="anamespacecore_1_1system_html_a8d02857d418a45aa380ebafec930b18f"><div class="ttname"><a href="namespacecore_1_1system.html#a8d02857d418a45aa380ebafec930b18f">core::system::listen</a></div><div class="ttdeci">int listen(int sockfd, int backlog)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00039">socket.cpp:39</a></div></div>
+<div class="ttc" id="anamespacecore_1_1system_html_a8d02857d418a45aa380ebafec930b18f"><div class="ttname"><a href="namespacecore_1_1system.html#a8d02857d418a45aa380ebafec930b18f">core::system::listen</a></div><div class="ttdeci">int listen(int sockfd, int backlog)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2_socket_8cpp_source.html#l00039">socket.cpp:39</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_descriptor_8cpp_source.html#l00046">core::Descriptor::getFd()</a>, and <a class="el" href="core_2system_2socket_8cpp_source.html#l00039">core::system::listen()</a>.</p>
+<p class="reference">References <a class="el" href="_descriptor_8cpp_source.html#l00046">core::Descriptor::getFd()</a>, and <a class="el" href="core_2system_2_socket_8cpp_source.html#l00039">core::system::listen()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -269,7 +269,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacenet.html">net</a></li><li class="navelem"><a class="el" href="namespacenet_1_1stream.html">stream</a></li><li class="navelem"><a class="el" href="classnet_1_1stream_1_1_server_socket.html">ServerSocket</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Jul 24 2022 13:11:11 for snode.c by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -3,6 +3,7 @@ var classcore_1_1socket_1_1_socket_context =
     [ "SocketContext", "classcore_1_1socket_1_1_socket_context.html#a03938df480396d7b680c0c32d32d5859", null ],
     [ "~SocketContext", "classcore_1_1socket_1_1_socket_context.html#adf1db0d7cb196bb5252aa41496047ee7", null ],
     [ "close", "classcore_1_1socket_1_1_socket_context.html#a7daa40724b091ab2970e60cd5c46148a", null ],
+    [ "getSocket", "classcore_1_1socket_1_1_socket_context.html#a3c6e7d5172347f672f1eeea155aa02a9", null ],
     [ "onConnected", "classcore_1_1socket_1_1_socket_context.html#aef2e5a39254978011838469eda21deb1", null ],
     [ "onDisconnected", "classcore_1_1socket_1_1_socket_context.html#a0ba2685c1e091d7bda717f8ff7cf622e", null ],
     [ "onReadError", "classcore_1_1socket_1_1_socket_context.html#a0aaa6a1f014819bf83b3cdecf2c8462b", null ],

@@ -110,14 +110,14 @@ $(document).ready(function(){initNavTree('legacy_2_socket_writer_8h_source.html'
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="core_2system_2socket_8h.html">core/system/socket.h</a>&quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="core_2system_2_socket_8h.html">core/system/socket.h</a>&quot;</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* DOXYGEN_SHOULD_SKIP_THIS */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecore_1_1socket_1_1stream_1_1legacy.html">core::socket::stream::legacy</a> {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> SocketT&gt;</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html">   33</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html">SocketWriter</a> : <span class="keyword">public</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html">core::socket::stream::SocketWriter</a>&lt;SocketT&gt; {</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html">   33</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html">SocketWriter</a> : <span class="keyword">protected</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html">core::socket::stream::SocketWriter</a>&lt;SocketT&gt; {</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html#af8b0255cd1419b56328087631268b666">   35</a></span>&#160;        <span class="keyword">using</span> <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html">Super</a> = <a class="code" href="classcore_1_1socket_1_1stream_1_1_socket_writer.html">core::socket::stream::SocketWriter&lt;SocketT&gt;</a>;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keyword">using</span> Super::Super;</div>
@@ -125,33 +125,25 @@ $(document).ready(function(){initNavTree('legacy_2_socket_writer_8h_source.html'
 <div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html#a0f24c21e55ac20969ac4b525fc73b668">   38</a></span>&#160;        ssize_t <a class="code" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html#a0f24c21e55ac20969ac4b525fc73b668">write</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* junk, std::size_t junkLen)<span class="keyword"> override </span>{</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="namespacecore_1_1system.html#afc000fbe5ae2216ddf84c0f24eb8aa33">core::system::send</a>(this-&gt;getFd(), junk, junkLen, MSG_NOSIGNAL);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        }</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html#a3e2b4d43c5bddb3cb71a2421186ee77c">   42</a></span>&#160;        ssize_t <a class="code" href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html#a3e2b4d43c5bddb3cb71a2421186ee77c">sendMsgToPeer</a>(<span class="keyword">struct</span> msghdr* msg, <span class="keywordtype">int</span> flags) {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            msg-&gt;msg_name = <span class="keyword">nullptr</span>; <span class="comment">// should be nullptr for SOCK_STREAM</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            msg-&gt;msg_namelen = 0;    <span class="comment">// should be 0 for SOCK_STREAM</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="keywordflow">return</span> sendmsg(this-&gt;getFd(), msg, flags);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    };</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;} <span class="comment">// namespace core::socket::stream::legacy</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// CORE_SOCKET_STREAM_LEGACY_SOCKETWRITER_H</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    };</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;} <span class="comment">// namespace core::socket::stream::legacy</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// CORE_SOCKET_STREAM_LEGACY_SOCKETWRITER_H</span></div>
 <div class="ttc" id="a_socket_writer_8h_html"><div class="ttname"><a href="_socket_writer_8h.html">SocketWriter.h</a></div></div>
 <div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1_socket_writer_html"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1_socket_writer.html">core::socket::stream::SocketWriter</a></div><div class="ttdef"><b>Definition:</b> <a href="_socket_writer_8h_source.html#l00039">SocketWriter.h:41</a></div></div>
 <div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer_html"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html">core::socket::stream::legacy::SocketWriter</a></div><div class="ttdef"><b>Definition:</b> <a href="legacy_2_socket_writer_8h_source.html#l00033">SocketWriter.h:33</a></div></div>
 <div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer_html_a0f24c21e55ac20969ac4b525fc73b668"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html#a0f24c21e55ac20969ac4b525fc73b668">core::socket::stream::legacy::SocketWriter::write</a></div><div class="ttdeci">ssize_t write(const char *junk, std::size_t junkLen) override</div><div class="ttdef"><b>Definition:</b> <a href="legacy_2_socket_writer_8h_source.html#l00038">SocketWriter.h:38</a></div></div>
-<div class="ttc" id="aclasscore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer_html_a3e2b4d43c5bddb3cb71a2421186ee77c"><div class="ttname"><a href="classcore_1_1socket_1_1stream_1_1legacy_1_1_socket_writer.html#a3e2b4d43c5bddb3cb71a2421186ee77c">core::socket::stream::legacy::SocketWriter::sendMsgToPeer</a></div><div class="ttdeci">ssize_t sendMsgToPeer(struct msghdr *msg, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="legacy_2_socket_writer_8h_source.html#l00042">SocketWriter.h:42</a></div></div>
-<div class="ttc" id="acore_2system_2socket_8h_html"><div class="ttname"><a href="core_2system_2socket_8h.html">socket.h</a></div></div>
+<div class="ttc" id="acore_2system_2_socket_8h_html"><div class="ttname"><a href="core_2system_2_socket_8h.html">socket.h</a></div></div>
 <div class="ttc" id="anamespacecore_1_1socket_1_1stream_1_1legacy_html"><div class="ttname"><a href="namespacecore_1_1socket_1_1stream_1_1legacy.html">core::socket::stream::legacy</a></div><div class="ttdef"><b>Definition:</b> <a href="legacy_2_socket_acceptor_8h_source.html#l00029">SocketAcceptor.h:29</a></div></div>
-<div class="ttc" id="anamespacecore_1_1system_html_afc000fbe5ae2216ddf84c0f24eb8aa33"><div class="ttname"><a href="namespacecore_1_1system.html#afc000fbe5ae2216ddf84c0f24eb8aa33">core::system::send</a></div><div class="ttdeci">ssize_t send(int sockfd, const void *buf, std::size_t len, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00073">socket.cpp:73</a></div></div>
+<div class="ttc" id="anamespacecore_1_1system_html_afc000fbe5ae2216ddf84c0f24eb8aa33"><div class="ttname"><a href="namespacecore_1_1system.html#afc000fbe5ae2216ddf84c0f24eb8aa33">core::system::send</a></div><div class="ttdeci">ssize_t send(int sockfd, const void *buf, std::size_t len, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2_socket_8cpp_source.html#l00073">socket.cpp:73</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_55e2b5896cfedaa9128ab09eb6ffed25.html">socket</a></li><li class="navelem"><a class="el" href="dir_fda6a541e73aa8ed23b6fa172f5dc60d.html">stream</a></li><li class="navelem"><a class="el" href="dir_490bc242d87f3ecd276dcf8d39b4fe54.html">legacy</a></li><li class="navelem"><a class="el" href="legacy_2_socket_writer_8h.html">SocketWriter.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Jul 24 2022 13:11:08 for snode.c by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

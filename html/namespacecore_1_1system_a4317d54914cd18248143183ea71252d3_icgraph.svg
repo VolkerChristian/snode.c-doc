@@ -213,17 +213,17 @@
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="classcore_1_1_event_multiplexer.html#af3e7b68817fc910c020a9981b2e58c61" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="1013.5,-25 1013.5,-55 1140.5,-55 1140.5,-25 1013.5,-25"/>
-<text text-anchor="start" x="1021.5" y="-43" font-family="Helvetica,sans-Serif" font-size="10.00">core::EventMultiplexer</text>
-<text text-anchor="middle" x="1077" y="-32" font-family="Helvetica,sans-Serif" font-size="10.00">::executeEventQueue</text>
+<g id="a_node14"><a xlink:href="classcore_1_1_event_multiplexer.html#a6e7720b5765f5cced89b46b8061b4901" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1004,-25 1004,-55 1150,-55 1150,-25 1004,-25"/>
+<text text-anchor="start" x="1012" y="-43" font-family="Helvetica,sans-Serif" font-size="10.00">core::EventMultiplexer</text>
+<text text-anchor="middle" x="1077" y="-32" font-family="Helvetica,sans-Serif" font-size="10.00">::purgeReleasedResources</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node14 -->
 <g id="edge14" class="edge">
 <title>Node13&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M1181.55,-43.55C1168,-43.09 1153.91,-42.6 1140.65,-42.15"/>
+<path fill="none" stroke="midnightblue" d="M1181.59,-43.55C1171.27,-43.2 1160.63,-42.83 1150.28,-42.48"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1181.68,-47.06 1191.79,-43.9 1181.92,-40.06 1181.68,-47.06"/>
 </g>
 <!-- Node15 -->
@@ -239,8 +239,8 @@
 <!-- Node14&#45;&gt;Node15 -->
 <g id="edge15" class="edge">
 <title>Node14&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M1003.18,-40.76C984.51,-40.95 964.61,-41.16 946.52,-41.35"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1003.43,-44.26 1013.4,-40.65 1003.36,-37.26 1003.43,-44.26"/>
+<path fill="none" stroke="midnightblue" d="M993.7,-40.86C977.94,-41.02 961.69,-41.19 946.67,-41.35"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="994,-44.35 1003.96,-40.75 993.92,-37.35 994,-44.35"/>
 </g>
 <!-- Node16 -->
 <g id="node16" class="node">

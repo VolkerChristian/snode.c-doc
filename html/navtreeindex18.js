@@ -1,5 +1,11 @@
 var NAVTREEINDEX18 =
 {
+"in6_2stream_2tls_2config_2_config_socket_client_8h.html":[10,0,4,3,1,2,0,0],
+"in6_2stream_2tls_2config_2_config_socket_client_8h_source.html":[10,0,4,3,1,2,0,0],
+"in6_2stream_2tls_2config_2_config_socket_server_8h.html":[10,0,4,3,1,2,0,1],
+"in6_2stream_2tls_2config_2_config_socket_server_8h_source.html":[10,0,4,3,1,2,0,1],
+"in_2_socket_address_8cpp.html":[10,0,4,2,4],
+"in_2_socket_address_8cpp_source.html":[10,0,4,2,4],
 "in_2_socket_address_8h.html":[10,0,4,2,5],
 "in_2_socket_address_8h_source.html":[10,0,4,2,5],
 "in_2config_2_config_address_8cpp.html":[10,0,4,2,0,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX18 =
 "namespace_c_l_i.html#ad6d89b5d1aba2ebdca5f94534d658cab":[8,0,1,72],
 "namespace_c_l_i.html#ad9ac23b01e2ef840ec123f5a115302ab":[8,0,1,79],
 "namespace_c_l_i.html#ae611995dabf1e7d4a2480f1952ef6ba7":[8,0,1,81],
-"namespace_c_l_i.html#aeb752166e5a0486440b5902f7878ed72":[8,0,1,82],
-"namespace_c_l_i_1_1_failure_message.html":[8,0,1,2],
-"namespace_c_l_i_1_1_failure_message.html#aa7e418b32b7d6f28aee8c4e5ad0bbc95":[8,0,1,2,0],
-"namespace_c_l_i_1_1_failure_message.html#ab2a36cd7fb3b91628be43f31647f3c38":[8,0,1,2,1],
-"namespace_c_l_i_1_1detail.html":[8,0,1,0],
-"namespace_c_l_i_1_1detail.html#a01c35a876e2917ffdc1ee618e0c06619":[8,0,1,0,109],
-"namespace_c_l_i_1_1detail.html#a09bd3735d1104a453e5376a43140d5a8":[8,0,1,0,99]
+"namespace_c_l_i.html#aeb752166e5a0486440b5902f7878ed72":[8,0,1,82]
 };

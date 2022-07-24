@@ -119,10 +119,10 @@ $(document).ready(function(){initNavTree('_router_8cpp_source.html',''); initRes
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">        return rootRoute-&gt;METHOD(relativeMountPath, *router.rootRoute.get());                                                              \</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">    }                                                                                                                                      \</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">    Route&amp; Router::METHOD(const std::string&amp; relativeMountPath,                                                                            \</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">                          const std::function&lt;void(Request &amp; req, Response &amp; res, Next &amp; state)&gt;&amp; lambda) {                                \</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">                          const std::function&lt;void(Request &amp; req, Response &amp; res, Next &amp; next)&gt;&amp; lambda) {                                 \</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">        return rootRoute-&gt;METHOD(relativeMountPath, lambda);                                                                               \</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">    }                                                                                                                                      \</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">    Route&amp; Router::METHOD(const std::function&lt;void(Request &amp; req, Response &amp; res, Next &amp; state)&gt;&amp; lambda) {                                \</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">    Route&amp; Router::METHOD(const std::function&lt;void(Request &amp; req, Response &amp; res, Next &amp; next)&gt;&amp; lambda) {                                 \</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">        return rootRoute-&gt;METHOD(lambda);                                                                                                  \</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">    }                                                                                                                                      \</span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">    Route&amp; Router::METHOD(const std::string&amp; relativeMountPath, const std::function&lt;void(Request &amp; req, Response &amp; res)&gt;&amp; lambda) {        \</span></div>
@@ -155,15 +155,15 @@ $(document).ready(function(){initNavTree('_router_8cpp_source.html',''); initRes
 <div class="ttc" id="a_router_8h_html"><div class="ttname"><a href="_router_8h.html">Router.h</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_root_route_html"><div class="ttname"><a href="classexpress_1_1_root_route.html">express::RootRoute</a></div><div class="ttdef"><b>Definition:</b> <a href="_root_route_8h_source.html#l00059">RootRoute.h:59</a></div></div>
 <div class="ttc" id="aclassexpress_1_1_router_html_ae7ad7fb1a5d240f338865485e7b04070"><div class="ttname"><a href="classexpress_1_1_router.html#ae7ad7fb1a5d240f338865485e7b04070">express::Router::Router</a></div><div class="ttdeci">Router()</div><div class="ttdef"><b>Definition:</b> <a href="_router_8cpp_source.html#l00050">Router.cpp:50</a></div></div>
-<div class="ttc" id="anamespacecore_1_1system_html_a1f27caa888ac8809434c3338df8eeae1"><div class="ttname"><a href="namespacecore_1_1system.html#a1f27caa888ac8809434c3338df8eeae1">core::system::connect</a></div><div class="ttdeci">int connect(int sockfd, const sockaddr *addr, socklen_t addrlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2socket_8cpp_source.html#l00053">socket.cpp:53</a></div></div>
-<div class="ttc" id="anamespaceexpress_html"><div class="ttname"><a href="namespaceexpress.html">express</a></div><div class="ttdef"><b>Definition:</b> <a href="_application_dispatcher_8cpp_source.html#l00030">ApplicationDispatcher.cpp:30</a></div></div>
+<div class="ttc" id="anamespacecore_1_1system_html_a1f27caa888ac8809434c3338df8eeae1"><div class="ttname"><a href="namespacecore_1_1system.html#a1f27caa888ac8809434c3338df8eeae1">core::system::connect</a></div><div class="ttdeci">int connect(int sockfd, const sockaddr *addr, socklen_t addrlen)</div><div class="ttdef"><b>Definition:</b> <a href="core_2system_2_socket_8cpp_source.html#l00053">socket.cpp:53</a></div></div>
+<div class="ttc" id="anamespaceexpress_html"><div class="ttname"><a href="namespaceexpress.html">express</a></div><div class="ttdef"><b>Definition:</b> <a href="_controller_8cpp_source.html#l00029">Controller.cpp:29</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_e2b20abddc1d75e9fa824bc5544f9c72.html">express</a></li><li class="navelem"><a class="el" href="_router_8cpp.html">Router.cpp</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Jul 24 2022 13:11:09 for snode.c by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

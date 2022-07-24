@@ -8,7 +8,7 @@ var dir_427baa8a9a5be237f298d4545d0d1ce2 =
     [ "rc", "dir_b6049b0fe1ddd788819903af6ce825a7.html", "dir_b6049b0fe1ddd788819903af6ce825a7" ],
     [ "stream", "dir_c539ef0a795604dd07c0fa5c7f0d7274.html", "dir_c539ef0a795604dd07c0fa5c7f0d7274" ],
     [ "un", "dir_1c2f98b08b44216ac8991236d4d70eb9.html", "dir_1c2f98b08b44216ac8991236d4d70eb9" ],
-    [ "Socket.h", "net_2socket_8h.html", [
+    [ "Socket.h", "net_2_socket_8h.html", [
       [ "Socket", "classnet_1_1_socket.html", "classnet_1_1_socket" ]
     ] ],
     [ "Socket.hpp", "_socket_8hpp.html", null ],

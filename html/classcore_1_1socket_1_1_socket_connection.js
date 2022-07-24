@@ -1,11 +1,10 @@
 var classcore_1_1socket_1_1_socket_connection =
 [
-    [ "SocketConnection", "classcore_1_1socket_1_1_socket_connection.html#a86554f83d39acab6e1359b620657e739", null ],
     [ "SocketConnection", "classcore_1_1socket_1_1_socket_connection.html#a9ae4c60b7d73f8e60d882c2a5df9c9ff", null ],
-    [ "SocketConnection", "classcore_1_1socket_1_1_socket_connection.html#a5ba18c609dd982f32c5cc8309cf29d62", null ],
+    [ "SocketConnection", "classcore_1_1socket_1_1_socket_connection.html#ad17b32649870f5d9065b33927a6c5453", null ],
     [ "~SocketConnection", "classcore_1_1socket_1_1_socket_connection.html#a23e47efb139e240006debe30d8d8b53d", null ],
     [ "close", "classcore_1_1socket_1_1_socket_connection.html#a9b8dcd50d3aee2376df71eb53bb3805f", null ],
-    [ "getDescriptor", "classcore_1_1socket_1_1_socket_connection.html#ab0a476b27623ad3dfdb5f6b7aaa5c256", null ],
+    [ "getSocket", "classcore_1_1socket_1_1_socket_connection.html#a105ffdf20ccd6e58c0e07288ba8fb936", null ],
     [ "getSocketContext", "classcore_1_1socket_1_1_socket_connection.html#af536759142bd03b3d71fb5c0a0e27bc8", null ],
     [ "onConnected", "classcore_1_1socket_1_1_socket_connection.html#a403ae6aa6530edad0c270fab846fd887", null ],
     [ "onDisconnected", "classcore_1_1socket_1_1_socket_connection.html#ae97de1bf267dd824d37005f6dbe251cc", null ],
@@ -16,6 +15,7 @@ var classcore_1_1socket_1_1_socket_connection =
     [ "readFromPeer", "classcore_1_1socket_1_1_socket_connection.html#a5ffab8fcbd535c8fe0a537dbc2efd0cb", null ],
     [ "sendToPeer", "classcore_1_1socket_1_1_socket_connection.html#a15c934a69a64a7d2a0f230ebf1033195", null ],
     [ "sendToPeer", "classcore_1_1socket_1_1_socket_connection.html#a338bbe4566e163436c488de850a5c998", null ],
+    [ "setSocketContext", "classcore_1_1socket_1_1_socket_connection.html#a760c65574d355b5cebfc9c99c1a814d0", null ],
     [ "setTimeout", "classcore_1_1socket_1_1_socket_connection.html#a6961b363db87f9b7a0126c83cfe7314c", null ],
     [ "shutdownRead", "classcore_1_1socket_1_1_socket_connection.html#ad3e62bba7b51b026252d807ee279e7cc", null ],
     [ "shutdownWrite", "classcore_1_1socket_1_1_socket_connection.html#ae9e87d598d58b868367008862946b63b", null ],
